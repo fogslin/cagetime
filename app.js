@@ -87,11 +87,12 @@ function fighterHTML(id,fallbackName,side,odds,favSide){
   const f=F[id]||{},name=f.name||fallbackName||'TBA';
   const fl=flag(f.cc);
   const flagHTML=fl?`<span class="flag" role="img" aria-label="${esc(f.nationality||'')}">${fl}</span>`:'';
-  const nameHTML=side==='b'?`${esc(name)}${flagHTML}`:`${flagHTML}${esc(name)}`;
+  const nm=f.profile&&id?`<a class="flink" href="#fighter=${encodeURIComponent(id)}" data-fid="${esc(id)}" aria-label="Open profile: ${esc(name)}">${esc(name)}</a>`:esc(name);
+  const nameHTML=side==='b'?`${nm}${flagHTML}`:`${flagHTML}${nm}`;
   const a=age(f.dob);
   const rows=[['Nation',f.nationality],['Height',f.height],['Reach',f.reach],['Stance',f.stance],['Division',f.weightClass],['Age',a]];
   return `<div class="fighter ${side}">
-    <div class="fname">${nameHTML}</div>
+    <div class="fhead">${avatarHTML(f,name,40)}<div class="fname">${nameHTML}</div></div>
     <div class="rec">${dash(f.record)} <small>W-L-D</small></div>
     <dl class="stats">${rows.map(([k,v])=>`<dt>${k}</dt><dd>${dash(v)}</dd>`).join('')}</dl>
     ${odds!==undefined?`<span class="odds${favSide===side?' fav':''}" title="Moneyline (American odds)">${fmtOdds(odds)}</span>`:''}
@@ -158,6 +159,133 @@ document.addEventListener('toggle',ev=>{
   body.innerHTML=cardHTML(e);body.dataset.done='1';
 },true);
 
+/* ---------- fighter photos / initials ---------- */
+function initials(n){const w=String(n||'?').replace(/["'].*?["']/g,'').trim().split(/\s+/).filter(Boolean);return ((w[0]||'?')[0]+(w.length>1?w[w.length-1][0]:'')).toUpperCase()}
+function avatarHTML(f,name,size){
+  if(f&&f.photo)return `<img class="ava" src="${esc(f.photo)}" alt="${esc(name)}" width="${size}" height="${size}" loading="lazy" decoding="async" title="Photo: ${esc(f.photo_credit||'Wikimedia Commons')}, ${esc(f.photo_license||'')}">`;
+  return `<span class="ava ava-ph" style="width:${size}px;height:${size}px;font-size:${Math.round(size*.38)}px" aria-hidden="true">${esc(initials(name))}</span>`;
+}
+
+/* ---------- fighter profile (modal + #fighter=<id> deep link) ---------- */
+const PCACHE={};
+let lastFocus=null;
+const pct=v=>v==null?'—':esc((+v).toFixed(v%1?1:0))+'%';
+const num=v=>v==null?'—':esc(v);
+const RES={W:['Win','w'],L:['Loss','l'],D:['Draw','d'],NC:['NC','nc']};
+function loadProfile(id){
+  if(!PCACHE[id])PCACHE[id]=fetch('data/fighters/'+encodeURIComponent(id)+'.json').then(r=>{if(!r.ok)throw new Error('profile '+r.status);return r.json()}).catch(e=>{delete PCACHE[id];throw e});
+  return PCACHE[id];
+}
+function dlg(){
+  let d=document.getElementById('fp');
+  if(!d){
+    d=document.createElement('dialog');d.id='fp';d.className='fp';d.setAttribute('aria-labelledby','fp-title');
+    d.innerHTML='<div class="fp-in"><button class="fp-x" type="button" aria-label="Close profile">✕</button><div class="fp-body"></div></div>';
+    document.body.appendChild(d);
+    d.querySelector('.fp-x').onclick=()=>closeProfile();
+    d.addEventListener('cancel',ev=>{ev.preventDefault();closeProfile()});
+    d.addEventListener('click',ev=>{if(ev.target===d)closeProfile()});
+  }
+  return d;
+}
+function closeProfile(){
+  const d=document.getElementById('fp');if(d&&d.open)d.close();
+  document.documentElement.classList.remove('fp-lock');
+  if(location.hash.startsWith('#fighter='))history.replaceState(null,'',location.pathname+location.search);
+  if(lastFocus&&document.contains(lastFocus))lastFocus.focus();
+}
+function oppHTML(x){
+  const o=x.opponent_id&&F[x.opponent_id]&&F[x.opponent_id].profile;
+  return o?`<a href="#fighter=${encodeURIComponent(x.opponent_id)}">${dash(x.opponent)}</a>`:dash(x.opponent);
+}
+function la(v){return v&&v[0]!=null?`${esc(v[0])}<small>/${v[1]==null?'—':esc(v[1])}</small>`:'—'}
+function statsHTML(x){
+  const s=x.stats,o=x.opp_stats||{};
+  if(!s)return'';
+  const rows=[['Sig. strikes',la(s.sig_str),la(o.sig_str)],['Total strikes',la(s.total_str),la(o.total_str)],['Takedowns',la(s.td),la(o.td)],
+    ['Sub. attempts',num(s.sub_att),num(o.sub_att)],['Knockdowns',num(s.kd),num(o.kd)],['Reversals',num(s.rev),num(o.rev)],['Control time',num(s.ctrl),num(o.ctrl)]];
+  return `<details class="fx-st"><summary>Fight stats</summary><table><thead><tr><th></th><th>${esc(F_cur_name)}</th><th>${dash(x.opponent)}</th></tr></thead><tbody>${rows.map(r=>`<tr><th scope="row">${r[0]}</th><td>${r[1]}</td><td>${r[2]}</td></tr>`).join('')}</tbody></table>
+    <p class="fx-src">Landed/attempted · source: <a href="${esc(safeUrl(x.stats_source))}" target="_blank" rel="noopener nofollow">ESPN</a></p></details>`;
+}
+let F_cur_name='';
+function fightHTML(x){
+  const r=RES[x.result]||[x.result||'—','u'];
+  const dec=x.method==='Decision'&&x.round==null;
+  const sr=x.scheduled&&/^(\d+) x/.exec(x.scheduled);
+  const rnd=x.round!=null?esc(x.round):(dec&&sr?esc(sr[1]):'—');
+  const tm=x.time?esc(x.time):(dec&&sr?'5:00':'—');
+  return `<li class="fx fx-${r[1]}${x.counts===false?' fx-ex':''}">
+    <span class="fx-r" title="${esc(r[0])}">${esc(x.result||'—')}</span>
+    <div class="fx-main">
+      <div class="fx-top"><b class="fx-opp">${oppHTML(x)}</b>${x.title_fight?`<span class="belt" title="Title fight">🏆 ${esc(x.title_fight)}</span>`:''}</div>
+      <div class="fx-meth">${dash(x.method)}${x.method_detail?` · ${esc(x.method_detail)}`:''} <span class="fx-rt">R${rnd} · ${tm}</span></div>
+      <div class="fx-ev">${fmtDateISO(x.date)} · ${x.event_url?`<a href="${esc(safeUrl(x.event_url))}" target="_blank" rel="noopener">${dash(x.event)}</a>`:dash(x.event)}${x.location?` · ${esc(x.location)}`:''}</div>
+      ${x.counts===false||x.note?`<div class="fx-note">${esc(x.note||'Not counted in pro record')}</div>`:''}
+      ${statsHTML(x)}
+    </div></li>`;
+}
+function bars(m,total,label){
+  const k=[['ko','KO/TKO'],['sub','Submission'],['dec','Decision'],['dq','DQ']];
+  if(!total)return `<div class="pbars"><h4>${label}</h4><p class="muted">—</p></div>`;
+  return `<div class="pbars"><h4>${label}</h4>${k.map(([a,b])=>`<div class="pbar"><span>${b}</span><i><b style="width:${Math.round(100*(m[a]||0)/total)}%"></b></i><em>${m[a]||0}</em></div>`).join('')}${m.other?`<div class="pbar"><span>Other</span><i><b style="width:${Math.round(100*m.other/total)}%"></b></i><em>${m.other}</em></div>`:''}</div>`;
+}
+function profileHTML(id,p){
+  const f=F[id]||{},name=p.name||f.name||'Fighter',t=p.totals||{};F_cur_name=name;
+  const a=age(f.dob),fl=flag(f.cc);
+  const st=t.streak?`${t.streak.count} ${({W:'win',L:'loss',D:'draw',NC:'no contest'})[t.streak.type]||''}${t.streak.count>1?(t.streak.type==='L'?'es':'s'):''}`:'—';
+  const bio=[['Age',a],['Born',f.dob?fmtDateISO(f.dob):null],['Nation',f.nationality],['Height',f.height],['Reach',f.reach],['Stance',f.stance],['Division',f.weightClass],
+    ['Hometown',(p.bio||{}).born],['Fights out of',(p.bio||{}).fighting_out_of],['Team',(p.bio||{}).affiliation]];
+  const ph=p.photo||null;
+  const u=p.ufc,c=u&&u.career;
+  const up=(p.upcoming||[])[0];
+  const fights=p.fights||[];
+  return `<header class="fp-head">${avatarHTML(f,name,112)}
+      <div><p class="eyebrow">Fighter profile</p><h2 id="fp-title">${fl?`<span class="flag" aria-hidden="true">${fl}</span> `:''}${esc(name)}</h2>
+      ${p.nickname||f.nickname?`<p class="fp-nick">“${esc(p.nickname||f.nickname)}”</p>`:''}
+      <p class="fp-rec">${t.wins!=null?`${t.wins}-${t.losses}-${t.draws}${t.nc?`, ${t.nc} NC`:''}`:dash(f.record)} <small>pro MMA (W-L-D)</small></p></div></header>
+    ${ph?`<p class="fp-credit">Photo: ${esc(ph.photo_credit||'—')} · <a href="${esc(safeUrl(ph.photo_license_url||ph.photo_source))}" target="_blank" rel="noopener license">${esc(ph.photo_license||'')}</a> · <a href="${esc(safeUrl(ph.photo_source))}" target="_blank" rel="noopener">Wikimedia Commons</a> (cropped)</p>`:''}
+    ${up?`<p class="fp-next">Next: vs ${up.opponent_id&&F[up.opponent_id]&&F[up.opponent_id].profile?`<a href="#fighter=${encodeURIComponent(up.opponent_id)}">${dash(up.opponent)}</a>`:dash(up.opponent)} · ${fmtDateISO(up.date)} · ${dash(up.event)}${up.title_fight?` · 🏆 ${esc(up.title_fight)}`:''}</p>`:''}
+    <dl class="fp-bio">${bio.map(([k,v])=>`<div><dt>${k}</dt><dd>${dash(v)}</dd></div>`).join('')}</dl>
+    <section class="fp-sec"><h3>Pro MMA record</h3>
+      <div class="fp-tot"><div class="w"><b>${num(t.wins)}</b><small>Wins</small></div><div class="l"><b>${num(t.losses)}</b><small>Losses</small></div><div><b>${num(t.draws)}</b><small>Draws</small></div><div><b>${num(t.nc)}</b><small>No contests</small></div></div>
+      <p class="fp-line"><span>Streak: <b>${st}</b></span><span>Title fights: <b>${num(t.title_fights)}</b>${t.title_fights?` (${t.title_fight_wins} won)`:''}</span></p>
+      <div class="fp-bars">${bars(t.win_methods||{},t.wins,'Wins by method')}${bars(t.loss_methods||{},t.losses,'Losses by method')}</div>
+    </section>
+    ${u?`<section class="fp-sec"><h3>UFC career averages</h3>${c?`<dl class="fp-avg">
+      ${[['SLpM',num(c.slpm),'Sig. strikes landed per min'],['Str. Acc',pct(c.str_acc),'Sig. strike accuracy'],['SApM',num(c.sapm),'Sig. strikes absorbed per min'],['Str. Def',pct(c.str_def),'Sig. strike defence'],
+         ['TD Avg',num(c.td_avg),'Takedowns per 15 min'],['TD Acc',pct(c.td_acc),'Takedown accuracy'],['TD Def',pct(c.td_def),'Takedown defence'],['Sub Avg',num(c.sub_avg),'Sub. attempts per 15 min']]
+        .map(([k,v,tt])=>`<div title="${tt}"><dt>${k}</dt><dd>${v}</dd></div>`).join('')}</dl>
+      <p class="fp-small">SLpM, Str. Acc, TD Avg, TD Acc, Sub Avg: ESPN career stats. SApM, Str. Def, TD Def: calculated by CageTime from ESPN per-fight stats of ${num(c.computed_from_fights)} UFC fights. ${u.fights_with_stats} of ${u.ufc_fights} UFC fights have per-fight stats.</p>`:'<p class="muted">No UFC per-fight stats found — shown as —.</p>'}</section>`:''}
+    <section class="fp-sec"><h3>Fight history <small>${fights.length} pro MMA bout${fights.length===1?'':'s'}</small></h3>
+      ${fights.length?`<ol class="fx-list">${fights.map(fightHTML).join('')}</ol>`:'<p class="muted">No professional MMA fights on record.</p>'}</section>
+    <footer class="fp-foot"><p>Last updated ${fmtDateISO(p.updated)}. "—" = not available from our sources. Decisions show the scheduled final round.</p>
+      <p>Sources: ${(p.sources||[]).map((s,i)=>`<a href="${esc(safeUrl(s))}" target="_blank" rel="noopener nofollow">[${i+1}] ${esc(String(s).replace(/^https?:\/\/(www\.)?/,'').split('/')[0])}</a>`).join(' ')} · <a href="credits.html">Photo credits</a></p></footer>`;
+}
+function openProfile(id,push){
+  if(!id)return;
+  const d=dlg(),body=d.querySelector('.fp-body'),f=F[id];
+  if(!d.open){lastFocus=document.activeElement;try{d.showModal()}catch(_){d.setAttribute('open','')}}
+  document.documentElement.classList.add('fp-lock');
+  if(push!==false&&location.hash!=='#fighter='+encodeURIComponent(id))history.pushState(null,'','#fighter='+encodeURIComponent(id));
+  if(!f||!f.profile){body.innerHTML=`<p class="muted">No profile for this fighter yet.</p>`;return}
+  body.innerHTML=`<header class="fp-head">${avatarHTML(f,f.name,112)}<div><p class="eyebrow">Fighter profile</p><h2 id="fp-title">${esc(f.name)}</h2><p class="muted">Loading career…</p></div></header>`;
+  d.querySelector('.fp-in').scrollTop=0;
+  loadProfile(id).then(p=>{if(location.hash==='#fighter='+encodeURIComponent(id)||push===false){body.innerHTML=profileHTML(id,p);d.querySelector('.fp-in').scrollTop=0}})
+    .catch(()=>{body.innerHTML=`<header class="fp-head">${avatarHTML(f,f.name,112)}<div><h2 id="fp-title">${esc(f.name)}</h2><p class="muted">Could not load this profile. Please try again.</p></div></header>`});
+}
+function routeHash(){
+  const m=/^#fighter=([^&]+)/.exec(location.hash);
+  if(m)openProfile(decodeURIComponent(m[1]),false);
+  else{const d=document.getElementById('fp');if(d&&d.open){d.close();document.documentElement.classList.remove('fp-lock')}}
+}
+document.addEventListener('click',ev=>{
+  const a=ev.target.closest&&ev.target.closest('a[href^="#fighter="]');
+  if(!a||ev.metaKey||ev.ctrlKey||ev.shiftKey||ev.button)return;
+  ev.preventDefault();openProfile(decodeURIComponent(a.getAttribute('href').slice(9)));
+});
+window.addEventListener('popstate',routeHash);
+window.addEventListener('hashchange',routeHash);
+
 /* ---------- boot ---------- */
 const getJSON=u=>fetch(u,{cache:'no-cache'}).then(r=>{if(!r.ok)throw new Error(u+' '+r.status);return r.json()});
 Promise.all([getJSON('events.json'),getJSON('fighters.json').catch(()=>null)]).then(([d,f])=>{
@@ -173,5 +301,6 @@ Promise.all([getJSON('events.json'),getJSON('fighters.json').catch(()=>null)]).t
   $('#upd').textContent=D.updated;if(FU)$('#fupd').textContent=FU;
   cs.onchange=ps.onchange=render;render();
   if(location.hash.startsWith('#ev-')){const el=document.getElementById(location.hash.slice(1));if(el)el.scrollIntoView()}
+  if(location.hash.startsWith('#fighter='))routeHash();
 }).catch(err=>{console.error(err);$('#list').innerHTML='<p class="muted">Could not load event data. Please refresh.</p>'});
 })();

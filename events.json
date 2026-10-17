@@ -405,6 +405,30 @@
       "notes": ""
     },
     {
+      "name": "abc presents RIZIN.55: Shinryu vs. Laramie",
+      "promotion": "RIZIN",
+      "date": "2026-11-08",
+      "startUTC": "2026-11-08T05:00:00Z",
+      "venue": "LaLa arena TOKYO-BAY, Funabashi (Chiba), Japan",
+      "broadcasters": {
+        "US": "RIZIN.TV (PPV)",
+        "UK": "RIZIN.TV (PPV)",
+        "CA": "RIZIN.TV (PPV)",
+        "AU": "RIZIN.TV (PPV)",
+        "IE": "RIZIN.TV (PPV)",
+        "IN": "RIZIN.TV (PPV)",
+        "DE": "RIZIN.TV (PPV)",
+        "BR": "RIZIN.TV (PPV)"
+      },
+      "sources": [
+        "https://jp.rizinff.com/_ct/17852466",
+        "https://watch.rizin.tv/featured-category/events/rizin-landmark-17-11-8",
+        "https://www.rizin.tv/",
+        "https://abema.tv/lp/rizin"
+      ],
+      "notes": "Official site: 14:00 JST start (scheduled), doors 12:30. Flyweight title: Makoto Shinryu vs. Tony Laramie. Outside Japan: RIZIN.TV PPV ($19.99) or Premium Pass; RIZIN.TV says it is worldwide except a few unnamed restricted regions, so verify for your country. In Japan: ABEMA PPV (also RIZIN LIVE / RIZIN 100 CLUB, Japan only)."
+    },
+    {
       "name": "ONE Friday Fights 178",
       "promotion": "ONE",
       "date": "2026-11-13",
@@ -511,6 +535,29 @@
         "https://cagewarriors.com/cage-warriors-events/"
       ],
       "notes": ""
+    },
+    {
+      "name": "XTB KSW 123: Bartosi\u0144ski vs. \u0141opaczyk",
+      "promotion": "KSW",
+      "date": "2026-11-21",
+      "startUTC": "2026-11-21T18:00:00Z",
+      "venue": "Enea Arena (formerly Netto Arena), Szczecin, Poland",
+      "broadcasters": {
+        "US": "KSW TV (PPV)",
+        "UK": "KSW TV (PPV)",
+        "CA": "KSW TV (PPV)",
+        "AU": "KSW TV (PPV)",
+        "IE": "KSW TV (PPV)",
+        "IN": "KSW TV (PPV)",
+        "DE": "KSW TV (PPV)",
+        "BR": "KSW TV (PPV)"
+      },
+      "sources": [
+        "https://www.kswmma.com/en/event/xtb-ksw-123",
+        "https://www.kswmma.com/en/news/xtb-ksw-122-where-to-watch",
+        "https://www.ufcalendar.com/how-to-watch/ksw-ksw-123-2026-11-21"
+      ],
+      "notes": "Official site: 19:00 local (CET) start. Welterweight title main event; Mircea vs. Held lightweight title co-main. Broadcasters follow KSW's official pattern (KSW 122: CANAL+ in Poland, KSWTV.COM in all other countries); no KSW 123-specific watch notice yet, so verify closer to the event."
     }
   ]
 }

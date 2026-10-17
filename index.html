@@ -1,0 +1,12 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CageTime — MMA events in your time zone</title><link rel="stylesheet" href="style.css"></head><body>
+<header><h1>Cage<span>Time</span></h1><p>Upcoming MMA events, in your local time, with where to watch legally.</p>
+<div class="controls"><label>Where are you watching? <select id="country"></select></label>
+<label>Promotion <select id="promo"><option value="">All</option></select></label></div>
+<p class="tz" id="tz"></p></header>
+<main id="list"></main>
+<section class="box"><h2>Weekly fight-night newsletter</h2><p class="ph">PLACEHOLDER — no backend connected yet. Nothing is submitted.</p>
+<form onsubmit="event.preventDefault();this.querySelector('button').textContent='Coming soon!'"><input type="email" placeholder="you@example.com" required><button>Sign up</button></form></section>
+<section class="box"><h2>Spotted a mistake?</h2><p>Times and broadcasters change often. <a href="mailto:corrections@example.com?subject=CageTime%20correction">Submit a correction</a> <span class="ph">(placeholder address)</span></p></section>
+<footer>Data updated <span id="upd"></span>. "TBA" = not confirmed by a source we checked. Always confirm with the broadcaster. Some links may become affiliate links (disclosed).</footer>
+<script src="app.js"></script></body></html>

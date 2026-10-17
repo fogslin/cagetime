@@ -1,0 +1,516 @@
+{
+  "updated": "2026-10-17",
+  "countries": {
+    "US": "United States",
+    "UK": "United Kingdom",
+    "CA": "Canada",
+    "AU": "Australia",
+    "IE": "Ireland",
+    "IN": "India",
+    "DE": "Germany",
+    "BR": "Brazil"
+  },
+  "events": [
+    {
+      "name": "ONE Samurai 4: Haggerty vs. Akimoto",
+      "promotion": "ONE",
+      "date": "2026-10-17",
+      "startUTC": "2026-10-17T06:30:00Z",
+      "venue": "Ariake Arena, Tokyo, Japan",
+      "broadcasters": {
+        "US": "TBA",
+        "UK": "TBA",
+        "CA": "TBA",
+        "AU": "TBA",
+        "IE": "TBA",
+        "IN": "TBA",
+        "DE": "TBA",
+        "BR": "TBA"
+      },
+      "sources": [
+        "https://www.mmanews.com/schedule",
+        "https://goodfights.app/schedule"
+      ],
+      "notes": "Time from third-party schedule (2:30 AM ET main card); broadcaster TBA."
+    },
+    {
+      "name": "OKTAGON 95: Kincl vs. Humburger",
+      "promotion": "OKTAGON",
+      "date": "2026-10-17",
+      "startUTC": "2026-10-17T16:00:00Z",
+      "venue": "Mattoni Arena, Karlovy Vary, Czechia",
+      "broadcasters": {
+        "US": "OKTAGON.TV (PPV)",
+        "UK": "OKTAGON.TV (PPV)",
+        "CA": "OKTAGON.TV (PPV)",
+        "AU": "OKTAGON.TV (PPV)",
+        "IE": "OKTAGON.TV (PPV)",
+        "IN": "OKTAGON.TV (PPV)",
+        "DE": "RTL+",
+        "BR": "OKTAGON.TV (PPV)"
+      },
+      "sources": [
+        "https://www.ufcalendar.com/how-to-watch/oktagon",
+        "https://oktagonmma.com"
+      ],
+      "notes": "Worldwide OKTAGON.TV per third-party guide; verify on oktagonmma.com."
+    },
+    {
+      "name": "UFC Fight Night: Buckley vs. Malott",
+      "promotion": "UFC",
+      "date": "2026-10-17",
+      "startUTC": "2026-10-18T00:00:00Z",
+      "venue": "Rogers Place, Edmonton, Canada",
+      "broadcasters": {
+        "US": "Paramount+",
+        "UK": "TNT Sports / HBO Max",
+        "IE": "TNT Sports",
+        "CA": "Sportsnet+ / City TV / TVA Sports",
+        "AU": "Paramount+",
+        "IN": "Sony TEN 2",
+        "DE": "DAZN",
+        "BR": "Paramount+"
+      },
+      "sources": [
+        "https://www.ufc.com/events",
+        "https://www.ufc.com/news/how-watch-and-stream-ufc",
+        "https://www.ufc.com/news/how-to-watch-ufc-in-australia-2026"
+      ],
+      "notes": "Broadcasters follow UFC's 2026 territory pattern (UFC.com how-to-watch); verify per event. Time = main card."
+    },
+    {
+      "name": "BKFC 95: Herring vs. Dodson",
+      "promotion": "BKFC",
+      "date": "2026-10-17",
+      "startUTC": "2026-10-18T01:00:00Z",
+      "venue": "Prudential Center, Newark, USA",
+      "broadcasters": {
+        "US": "TBA",
+        "UK": "TBA",
+        "CA": "TBA",
+        "AU": "TBA",
+        "IE": "TBA",
+        "IN": "TBA",
+        "DE": "TBA",
+        "BR": "TBA"
+      },
+      "sources": [
+        "https://www.mmanews.com/schedule",
+        "https://goodfights.app/schedule"
+      ],
+      "notes": "Bare-knuckle. 9 PM ET main card per third-party schedule."
+    },
+    {
+      "name": "Cage Warriors 211: Rome",
+      "promotion": "Cage Warriors",
+      "date": "2026-10-17",
+      "startUTC": null,
+      "venue": "PalaPellicone, Rome, Italy",
+      "broadcasters": {
+        "US": "UFC Fight Pass",
+        "UK": "UFC Fight Pass",
+        "CA": "UFC Fight Pass",
+        "AU": "UFC Fight Pass",
+        "IE": "UFC Fight Pass",
+        "IN": "UFC Fight Pass",
+        "DE": "UFC Fight Pass",
+        "BR": "UFC Fight Pass"
+      },
+      "sources": [
+        "https://cagewarriors.com/cage-warriors-events/"
+      ],
+      "notes": "Official site: watch on UFC Fight Pass. Start time TBA."
+    },
+    {
+      "name": "BKFC Belgrade: Faulkner vs. Prasovic",
+      "promotion": "BKFC",
+      "date": "2026-10-17",
+      "startUTC": null,
+      "venue": "Beogradska Arena, Belgrade, Serbia",
+      "broadcasters": {
+        "US": "TBA",
+        "UK": "TBA",
+        "CA": "TBA",
+        "AU": "TBA",
+        "IE": "TBA",
+        "IN": "TBA",
+        "DE": "TBA",
+        "BR": "TBA"
+      },
+      "sources": [
+        "https://www.mmanews.com/schedule"
+      ],
+      "notes": "Bare-knuckle. Time & broadcaster TBA."
+    },
+    {
+      "name": "LFA 244: Woodley vs. Havener",
+      "promotion": "LFA",
+      "date": "2026-10-23",
+      "startUTC": null,
+      "venue": "Foxwoods Resort Casino, Mashantucket, USA",
+      "broadcasters": {
+        "US": "VICE TV",
+        "UK": "TBA",
+        "CA": "TBA",
+        "AU": "TBA",
+        "IE": "TBA",
+        "IN": "TBA",
+        "DE": "TBA",
+        "BR": "TBA"
+      },
+      "sources": [
+        "https://www.lfa.com/events/list/"
+      ],
+      "notes": "Also ESPN Deportes/ESPN KnockOut in Latin America (Brazil not confirmed)."
+    },
+    {
+      "name": "UFC 333: Volkanovski vs. Evloev",
+      "promotion": "UFC",
+      "date": "2026-10-24",
+      "startUTC": "2026-10-24T18:00:00Z",
+      "venue": "Etihad Arena, Abu Dhabi, UAE",
+      "broadcasters": {
+        "US": "Paramount+",
+        "UK": "TNT Sports Box Office (main card) / HBO Max",
+        "IE": "TNT Sports Box Office (main card)",
+        "CA": "PPV (main card); Sportsnet+ / TVA Sports (prelims)",
+        "AU": "Main Event PPV on Foxtel/Kayo (main card); Paramount+ / Network 10 (prelims)",
+        "IN": "Sony TEN 2",
+        "DE": "DAZN / UFC PPV on UFC Fight Pass",
+        "BR": "Paramount+"
+      },
+      "sources": [
+        "https://www.ufc.com/events",
+        "https://www.ufc.com/news/how-watch-and-stream-ufc",
+        "https://www.ufc.com/news/how-to-watch-ufc-in-australia-2026"
+      ],
+      "notes": "Broadcasters follow UFC's 2026 territory pattern (UFC.com how-to-watch); verify per event. Time = main card."
+    },
+    {
+      "name": "LFA 245: Khamzaev vs. Prescendo",
+      "promotion": "LFA",
+      "date": "2026-10-30",
+      "startUTC": "2026-10-31T01:00:00Z",
+      "venue": "Seneca Niagara Resort & Casino, Niagara Falls, USA",
+      "broadcasters": {
+        "US": "VICE TV",
+        "UK": "TBA",
+        "CA": "TBA",
+        "AU": "TBA",
+        "IE": "TBA",
+        "IN": "TBA",
+        "DE": "TBA",
+        "BR": "TBA"
+      },
+      "sources": [
+        "https://www.lfa.com/events/list/"
+      ],
+      "notes": "9 PM ET per LFA."
+    },
+    {
+      "name": "ONE Friday Fights 176",
+      "promotion": "ONE",
+      "date": "2026-10-30",
+      "startUTC": null,
+      "venue": "Lumpinee Stadium, Bangkok, Thailand",
+      "broadcasters": {
+        "US": "TBA",
+        "UK": "TBA",
+        "CA": "TBA",
+        "AU": "TBA",
+        "IE": "TBA",
+        "IN": "TBA",
+        "DE": "TBA",
+        "BR": "TBA"
+      },
+      "sources": [
+        "https://combatreg.com/events/upcoming",
+        "https://goodfights.app/schedule"
+      ],
+      "notes": "Friday Fights often streams on ONE's YouTube / watch.onefc.com (regional restrictions) \u2014 unconfirmed."
+    },
+    {
+      "name": "UFC Fight Night: Moicano vs. Nolan",
+      "promotion": "UFC",
+      "date": "2026-10-31",
+      "startUTC": "2026-11-01T00:00:00Z",
+      "venue": "Meta APEX, Las Vegas, USA",
+      "broadcasters": {
+        "US": "Paramount+",
+        "UK": "TNT Sports / HBO Max",
+        "IE": "TNT Sports",
+        "CA": "Sportsnet+ / City TV / TVA Sports",
+        "AU": "Paramount+",
+        "IN": "Sony TEN 2",
+        "DE": "DAZN",
+        "BR": "Paramount+"
+      },
+      "sources": [
+        "https://www.ufc.com/events",
+        "https://www.ufc.com/news/how-watch-and-stream-ufc",
+        "https://www.ufc.com/news/how-to-watch-ufc-in-australia-2026"
+      ],
+      "notes": "Broadcasters follow UFC's 2026 territory pattern (UFC.com how-to-watch); verify per event. Time = main card."
+    },
+    {
+      "name": "OKTAGON 96: Gogoladze vs. Klinkhammer",
+      "promotion": "OKTAGON",
+      "date": "2026-10-31",
+      "startUTC": null,
+      "venue": "SAP Garden, Munich, Germany",
+      "broadcasters": {
+        "US": "TBA",
+        "UK": "TBA",
+        "CA": "TBA",
+        "AU": "TBA",
+        "IE": "TBA",
+        "IN": "TBA",
+        "DE": "RTL+ (per third-party guide)",
+        "BR": "TBA"
+      },
+      "sources": [
+        "https://goodfights.app/schedule",
+        "https://www.ufcalendar.com/how-to-watch/oktagon"
+      ],
+      "notes": "Time TBA."
+    },
+    {
+      "name": "ONE Friday Fights 177",
+      "promotion": "ONE",
+      "date": "2026-11-06",
+      "startUTC": null,
+      "venue": "Lumpinee Stadium, Bangkok, Thailand",
+      "broadcasters": {
+        "US": "TBA",
+        "UK": "TBA",
+        "CA": "TBA",
+        "AU": "TBA",
+        "IE": "TBA",
+        "IN": "TBA",
+        "DE": "TBA",
+        "BR": "TBA"
+      },
+      "sources": [
+        "https://goodfights.app/schedule"
+      ],
+      "notes": ""
+    },
+    {
+      "name": "ONE Fight Night 49: Gabriel vs. Rasulov",
+      "promotion": "ONE",
+      "date": "2026-11-06",
+      "startUTC": null,
+      "venue": "TBA",
+      "broadcasters": {
+        "US": "Prime Video",
+        "UK": "Sky Sports (per third-party guide)",
+        "CA": "Prime Video",
+        "AU": "TBA",
+        "IE": "Sky Sports (per third-party guide)",
+        "IN": "TBA",
+        "DE": "TBA",
+        "BR": "TBA"
+      },
+      "sources": [
+        "https://goodfights.app/schedule",
+        "https://www.ufcalendar.com/how-to-watch/one",
+        "https://foreverwatch.net/where-to-watch-mma-fights/"
+      ],
+      "notes": "ONE Fight Night series streams on Prime Video in US/Canada. Date listed in US time; venue/time TBA."
+    },
+    {
+      "name": "UFC Fight Night: Bonfim vs. Brady",
+      "promotion": "UFC",
+      "date": "2026-11-07",
+      "startUTC": "2026-11-08T01:00:00Z",
+      "venue": "Meta APEX, Las Vegas, USA",
+      "broadcasters": {
+        "US": "Paramount+",
+        "UK": "TNT Sports / HBO Max",
+        "IE": "TNT Sports",
+        "CA": "Sportsnet+ / City TV / TVA Sports",
+        "AU": "Paramount+",
+        "IN": "Sony TEN 2",
+        "DE": "DAZN",
+        "BR": "Paramount+"
+      },
+      "sources": [
+        "https://www.ufc.com/events",
+        "https://www.ufc.com/news/how-watch-and-stream-ufc",
+        "https://www.ufc.com/news/how-to-watch-ufc-in-australia-2026"
+      ],
+      "notes": "Broadcasters follow UFC's 2026 territory pattern (UFC.com how-to-watch); verify per event. Time = main card."
+    },
+    {
+      "name": "OKTAGON 97: Severino vs. Holzer",
+      "promotion": "OKTAGON",
+      "date": "2026-11-07",
+      "startUTC": null,
+      "venue": "TBA",
+      "broadcasters": {
+        "US": "TBA",
+        "UK": "TBA",
+        "CA": "TBA",
+        "AU": "TBA",
+        "IE": "TBA",
+        "IN": "TBA",
+        "DE": "RTL+ (per third-party guide)",
+        "BR": "TBA"
+      },
+      "sources": [
+        "https://goodfights.app/schedule"
+      ],
+      "notes": ""
+    },
+    {
+      "name": "BKFC Glasgow",
+      "promotion": "BKFC",
+      "date": "2026-11-07",
+      "startUTC": null,
+      "venue": "Glasgow, UK",
+      "broadcasters": {
+        "US": "TBA",
+        "UK": "TBA",
+        "CA": "TBA",
+        "AU": "TBA",
+        "IE": "TBA",
+        "IN": "TBA",
+        "DE": "TBA",
+        "BR": "TBA"
+      },
+      "sources": [
+        "https://goodfights.app/schedule"
+      ],
+      "notes": "Bare-knuckle."
+    },
+    {
+      "name": "Cage Warriors 212: Spanish Showcase",
+      "promotion": "Cage Warriors",
+      "date": "2026-11-07",
+      "startUTC": null,
+      "venue": "BBC Studioworks Television Centre, London, UK",
+      "broadcasters": {
+        "US": "UFC Fight Pass",
+        "UK": "UFC Fight Pass",
+        "CA": "UFC Fight Pass",
+        "AU": "UFC Fight Pass",
+        "IE": "UFC Fight Pass",
+        "IN": "UFC Fight Pass",
+        "DE": "UFC Fight Pass",
+        "BR": "UFC Fight Pass"
+      },
+      "sources": [
+        "https://cagewarriors.com/cage-warriors-events/"
+      ],
+      "notes": ""
+    },
+    {
+      "name": "ONE Friday Fights 178",
+      "promotion": "ONE",
+      "date": "2026-11-13",
+      "startUTC": null,
+      "venue": "Lumpinee Stadium, Bangkok, Thailand",
+      "broadcasters": {
+        "US": "TBA",
+        "UK": "TBA",
+        "CA": "TBA",
+        "AU": "TBA",
+        "IE": "TBA",
+        "IN": "TBA",
+        "DE": "TBA",
+        "BR": "TBA"
+      },
+      "sources": [
+        "https://goodfights.app/schedule"
+      ],
+      "notes": ""
+    },
+    {
+      "name": "LFA 246: TBA",
+      "promotion": "LFA",
+      "date": "2026-11-13",
+      "startUTC": null,
+      "venue": "TBA",
+      "broadcasters": {
+        "US": "TBA",
+        "UK": "TBA",
+        "CA": "TBA",
+        "AU": "TBA",
+        "IE": "TBA",
+        "IN": "TBA",
+        "DE": "TBA",
+        "BR": "TBA"
+      },
+      "sources": [
+        "https://www.lfa.com/events/list/"
+      ],
+      "notes": "Card and venue to be announced."
+    },
+    {
+      "name": "PFL Dubai: Nemkov vs. Bilostenniy",
+      "promotion": "PFL",
+      "date": "2026-11-14",
+      "startUTC": "2026-11-14T17:00:00Z",
+      "venue": "Coca-Cola Arena, Dubai, UAE",
+      "broadcasters": {
+        "US": "TBA",
+        "UK": "TBA",
+        "CA": "TBA",
+        "AU": "TBA",
+        "IE": "TBA",
+        "IN": "TBA",
+        "DE": "TBA",
+        "BR": "TBA"
+      },
+      "sources": [
+        "https://www.espn.com/mma/schedule",
+        "https://www.sherdog.com/events/upcoming/2-page"
+      ],
+      "notes": "Time from ESPN schedule listing (approx. card start). PFL broadcasters vary per card \u2014 TBA."
+    },
+    {
+      "name": "UFC 334: Gane vs. Hokit",
+      "promotion": "UFC",
+      "date": "2026-11-14",
+      "startUTC": "2026-11-15T02:00:00Z",
+      "venue": "Madison Square Garden, New York, USA",
+      "broadcasters": {
+        "US": "Paramount+",
+        "UK": "TNT Sports Box Office (main card) / HBO Max",
+        "IE": "TNT Sports Box Office (main card)",
+        "CA": "PPV (main card); Sportsnet+ / TVA Sports (prelims)",
+        "AU": "Main Event PPV on Foxtel/Kayo (main card); Paramount+ / Network 10 (prelims)",
+        "IN": "Sony TEN 2",
+        "DE": "DAZN / UFC PPV on UFC Fight Pass",
+        "BR": "Paramount+"
+      },
+      "sources": [
+        "https://www.ufc.com/events",
+        "https://www.ufc.com/news/how-watch-and-stream-ufc",
+        "https://www.ufc.com/news/how-to-watch-ufc-in-australia-2026"
+      ],
+      "notes": "Broadcasters follow UFC's 2026 territory pattern (UFC.com how-to-watch); verify per event. Time = main card. UFC.com page showed conflicting prelim times; 9 PM EST main card from event header."
+    },
+    {
+      "name": "Cage Warriors 213: London",
+      "promotion": "Cage Warriors",
+      "date": "2026-11-14",
+      "startUTC": null,
+      "venue": "BBC Studioworks Television Centre, London, UK",
+      "broadcasters": {
+        "US": "UFC Fight Pass",
+        "UK": "UFC Fight Pass",
+        "CA": "UFC Fight Pass",
+        "AU": "UFC Fight Pass",
+        "IE": "UFC Fight Pass",
+        "IN": "UFC Fight Pass",
+        "DE": "UFC Fight Pass",
+        "BR": "UFC Fight Pass"
+      },
+      "sources": [
+        "https://cagewarriors.com/cage-warriors-events/"
+      ],
+      "notes": ""
+    }
+  ]
+}

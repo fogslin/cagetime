@@ -1,0 +1,11 @@
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,sans-serif;background:#0d0f14;color:#e6e8ee;line-height:1.4}
+header,main,.box,footer{max-width:760px;margin:0 auto;padding:16px}h1{margin:.2em 0;font-size:2rem}h1 span{color:#e63946}
+.controls{display:flex;flex-wrap:wrap;gap:12px}select,input,button{background:#1a1e27;color:#e6e8ee;border:1px solid #2c3240;border-radius:8px;padding:8px;font-size:1rem}
+button{background:#e63946;border:0;font-weight:600}.tz{color:#8a93a6;font-size:.9rem}
+.day{margin:20px 0 6px;color:#8a93a6;text-transform:uppercase;font-size:.8rem;letter-spacing:.08em}
+.card{background:#161a22;border:1px solid #232937;border-radius:12px;padding:14px;margin:8px 0}
+.card h3{margin:.1em 0;font-size:1.05rem}.tag{display:inline-block;font-size:.7rem;font-weight:700;padding:2px 8px;border-radius:99px;background:#2c3240;margin-right:6px}
+.time{font-size:1.1rem;font-weight:700;color:#ffd166}.watch{margin-top:8px}.watch b{color:#7bdcb5}.tba{color:#8a93a6}
+.aff{display:inline-block;margin-top:8px;font-size:.8rem;border:1px dashed #555;padding:4px 8px;border-radius:6px;color:#aaa;text-decoration:none}
+.meta{font-size:.8rem;color:#8a93a6}.meta a{color:#8ab4f8}.ph{color:#ffb703;font-size:.85rem}
+form{display:flex;gap:8px}form input{flex:1}a{color:#8ab4f8}footer{color:#6b7385;font-size:.8rem;padding-bottom:40px}

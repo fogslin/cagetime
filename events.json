@@ -1,563 +1,3205 @@
 {
-  "updated": "2026-10-17",
-  "countries": {
-    "US": "United States",
-    "UK": "United Kingdom",
-    "CA": "Canada",
-    "AU": "Australia",
-    "IE": "Ireland",
-    "IN": "India",
-    "DE": "Germany",
-    "BR": "Brazil"
+ "updated": "2026-10-17",
+ "countries": {
+  "US": "United States",
+  "UK": "United Kingdom",
+  "CA": "Canada",
+  "AU": "Australia",
+  "IE": "Ireland",
+  "IN": "India",
+  "DE": "Germany",
+  "BR": "Brazil"
+ },
+ "events": [
+  {
+   "name": "ONE Samurai 4: Haggerty vs. Akimoto",
+   "promotion": "ONE",
+   "date": "2026-10-17",
+   "startUTC": "2026-10-17T06:30:00Z",
+   "venue": "Ariake Arena, Tokyo, Japan",
+   "broadcasters": {
+    "US": "TBA",
+    "UK": "TBA",
+    "CA": "TBA",
+    "AU": "TBA",
+    "IE": "TBA",
+    "IN": "TBA",
+    "DE": "TBA",
+    "BR": "TBA"
+   },
+   "sources": [
+    "https://www.mmanews.com/schedule",
+    "https://goodfights.app/schedule"
+   ],
+   "notes": "Time from third-party schedule (2:30 AM ET main card); broadcaster TBA.",
+   "id": "one-samurai-4-haggerty-vs-akimoto"
   },
-  "events": [
-    {
-      "name": "ONE Samurai 4: Haggerty vs. Akimoto",
-      "promotion": "ONE",
-      "date": "2026-10-17",
-      "startUTC": "2026-10-17T06:30:00Z",
-      "venue": "Ariake Arena, Tokyo, Japan",
-      "broadcasters": {
-        "US": "TBA",
-        "UK": "TBA",
-        "CA": "TBA",
-        "AU": "TBA",
-        "IE": "TBA",
-        "IN": "TBA",
-        "DE": "TBA",
-        "BR": "TBA"
-      },
-      "sources": [
-        "https://www.mmanews.com/schedule",
-        "https://goodfights.app/schedule"
-      ],
-      "notes": "Time from third-party schedule (2:30 AM ET main card); broadcaster TBA."
-    },
-    {
-      "name": "OKTAGON 95: Kincl vs. Humburger",
-      "promotion": "OKTAGON",
-      "date": "2026-10-17",
-      "startUTC": "2026-10-17T16:00:00Z",
-      "venue": "Mattoni Arena, Karlovy Vary, Czechia",
-      "broadcasters": {
-        "US": "OKTAGON.TV (PPV)",
-        "UK": "OKTAGON.TV (PPV)",
-        "CA": "OKTAGON.TV (PPV)",
-        "AU": "OKTAGON.TV (PPV)",
-        "IE": "OKTAGON.TV (PPV)",
-        "IN": "OKTAGON.TV (PPV)",
-        "DE": "RTL+",
-        "BR": "OKTAGON.TV (PPV)"
-      },
-      "sources": [
-        "https://www.ufcalendar.com/how-to-watch/oktagon",
-        "https://oktagonmma.com"
-      ],
-      "notes": "Worldwide OKTAGON.TV per third-party guide; verify on oktagonmma.com."
-    },
-    {
-      "name": "UFC Fight Night: Buckley vs. Malott",
-      "promotion": "UFC",
-      "date": "2026-10-17",
-      "startUTC": "2026-10-18T00:00:00Z",
-      "venue": "Rogers Place, Edmonton, Canada",
-      "broadcasters": {
-        "US": "Paramount+",
-        "UK": "TNT Sports / HBO Max",
-        "IE": "TNT Sports",
-        "CA": "Sportsnet+ / City TV / TVA Sports",
-        "AU": "Paramount+",
-        "IN": "Sony TEN 2",
-        "DE": "DAZN",
-        "BR": "Paramount+"
-      },
-      "sources": [
-        "https://www.ufc.com/events",
-        "https://www.ufc.com/news/how-watch-and-stream-ufc",
-        "https://www.ufc.com/news/how-to-watch-ufc-in-australia-2026"
-      ],
-      "notes": "Broadcasters follow UFC's 2026 territory pattern (UFC.com how-to-watch); verify per event. Time = main card."
-    },
-    {
-      "name": "BKFC 95: Herring vs. Dodson",
-      "promotion": "BKFC",
-      "date": "2026-10-17",
-      "startUTC": "2026-10-18T01:00:00Z",
-      "venue": "Prudential Center, Newark, USA",
-      "broadcasters": {
-        "US": "TBA",
-        "UK": "TBA",
-        "CA": "TBA",
-        "AU": "TBA",
-        "IE": "TBA",
-        "IN": "TBA",
-        "DE": "TBA",
-        "BR": "TBA"
-      },
-      "sources": [
-        "https://www.mmanews.com/schedule",
-        "https://goodfights.app/schedule"
-      ],
-      "notes": "Bare-knuckle. 9 PM ET main card per third-party schedule."
-    },
-    {
-      "name": "Cage Warriors 211: Rome",
-      "promotion": "Cage Warriors",
-      "date": "2026-10-17",
-      "startUTC": null,
-      "venue": "PalaPellicone, Rome, Italy",
-      "broadcasters": {
-        "US": "UFC Fight Pass",
-        "UK": "UFC Fight Pass",
-        "CA": "UFC Fight Pass",
-        "AU": "UFC Fight Pass",
-        "IE": "UFC Fight Pass",
-        "IN": "UFC Fight Pass",
-        "DE": "UFC Fight Pass",
-        "BR": "UFC Fight Pass"
-      },
-      "sources": [
-        "https://cagewarriors.com/cage-warriors-events/"
-      ],
-      "notes": "Official site: watch on UFC Fight Pass. Start time TBA."
-    },
-    {
-      "name": "BKFC Belgrade: Faulkner vs. Prasovic",
-      "promotion": "BKFC",
-      "date": "2026-10-17",
-      "startUTC": null,
-      "venue": "Beogradska Arena, Belgrade, Serbia",
-      "broadcasters": {
-        "US": "TBA",
-        "UK": "TBA",
-        "CA": "TBA",
-        "AU": "TBA",
-        "IE": "TBA",
-        "IN": "TBA",
-        "DE": "TBA",
-        "BR": "TBA"
-      },
-      "sources": [
-        "https://www.mmanews.com/schedule"
-      ],
-      "notes": "Bare-knuckle. Time & broadcaster TBA."
-    },
-    {
-      "name": "LFA 244: Woodley vs. Havener",
-      "promotion": "LFA",
-      "date": "2026-10-23",
-      "startUTC": null,
-      "venue": "Foxwoods Resort Casino, Mashantucket, USA",
-      "broadcasters": {
-        "US": "VICE TV",
-        "UK": "TBA",
-        "CA": "TBA",
-        "AU": "TBA",
-        "IE": "TBA",
-        "IN": "TBA",
-        "DE": "TBA",
-        "BR": "TBA"
-      },
-      "sources": [
-        "https://www.lfa.com/events/list/"
-      ],
-      "notes": "Also ESPN Deportes/ESPN KnockOut in Latin America (Brazil not confirmed)."
-    },
-    {
-      "name": "UFC 333: Volkanovski vs. Evloev",
-      "promotion": "UFC",
-      "date": "2026-10-24",
-      "startUTC": "2026-10-24T18:00:00Z",
-      "venue": "Etihad Arena, Abu Dhabi, UAE",
-      "broadcasters": {
-        "US": "Paramount+",
-        "UK": "TNT Sports Box Office (main card) / HBO Max",
-        "IE": "TNT Sports Box Office (main card)",
-        "CA": "PPV (main card); Sportsnet+ / TVA Sports (prelims)",
-        "AU": "Main Event PPV on Foxtel/Kayo (main card); Paramount+ / Network 10 (prelims)",
-        "IN": "Sony TEN 2",
-        "DE": "DAZN / UFC PPV on UFC Fight Pass",
-        "BR": "Paramount+"
-      },
-      "sources": [
-        "https://www.ufc.com/events",
-        "https://www.ufc.com/news/how-watch-and-stream-ufc",
-        "https://www.ufc.com/news/how-to-watch-ufc-in-australia-2026"
-      ],
-      "notes": "Broadcasters follow UFC's 2026 territory pattern (UFC.com how-to-watch); verify per event. Time = main card."
-    },
-    {
-      "name": "LFA 245: Khamzaev vs. Prescendo",
-      "promotion": "LFA",
-      "date": "2026-10-30",
-      "startUTC": "2026-10-31T01:00:00Z",
-      "venue": "Seneca Niagara Resort & Casino, Niagara Falls, USA",
-      "broadcasters": {
-        "US": "VICE TV",
-        "UK": "TBA",
-        "CA": "TBA",
-        "AU": "TBA",
-        "IE": "TBA",
-        "IN": "TBA",
-        "DE": "TBA",
-        "BR": "TBA"
-      },
-      "sources": [
-        "https://www.lfa.com/events/list/"
-      ],
-      "notes": "9 PM ET per LFA."
-    },
-    {
-      "name": "ONE Friday Fights 176",
-      "promotion": "ONE",
-      "date": "2026-10-30",
-      "startUTC": null,
-      "venue": "Lumpinee Stadium, Bangkok, Thailand",
-      "broadcasters": {
-        "US": "TBA",
-        "UK": "TBA",
-        "CA": "TBA",
-        "AU": "TBA",
-        "IE": "TBA",
-        "IN": "TBA",
-        "DE": "TBA",
-        "BR": "TBA"
-      },
-      "sources": [
-        "https://combatreg.com/events/upcoming",
-        "https://goodfights.app/schedule"
-      ],
-      "notes": "Friday Fights often streams on ONE's YouTube / watch.onefc.com (regional restrictions) \u2014 unconfirmed."
-    },
-    {
-      "name": "UFC Fight Night: Moicano vs. Nolan",
-      "promotion": "UFC",
-      "date": "2026-10-31",
-      "startUTC": "2026-11-01T00:00:00Z",
-      "venue": "Meta APEX, Las Vegas, USA",
-      "broadcasters": {
-        "US": "Paramount+",
-        "UK": "TNT Sports / HBO Max",
-        "IE": "TNT Sports",
-        "CA": "Sportsnet+ / City TV / TVA Sports",
-        "AU": "Paramount+",
-        "IN": "Sony TEN 2",
-        "DE": "DAZN",
-        "BR": "Paramount+"
-      },
-      "sources": [
-        "https://www.ufc.com/events",
-        "https://www.ufc.com/news/how-watch-and-stream-ufc",
-        "https://www.ufc.com/news/how-to-watch-ufc-in-australia-2026"
-      ],
-      "notes": "Broadcasters follow UFC's 2026 territory pattern (UFC.com how-to-watch); verify per event. Time = main card."
-    },
-    {
-      "name": "OKTAGON 96: Gogoladze vs. Klinkhammer",
-      "promotion": "OKTAGON",
-      "date": "2026-10-31",
-      "startUTC": null,
-      "venue": "SAP Garden, Munich, Germany",
-      "broadcasters": {
-        "US": "TBA",
-        "UK": "TBA",
-        "CA": "TBA",
-        "AU": "TBA",
-        "IE": "TBA",
-        "IN": "TBA",
-        "DE": "RTL+ (per third-party guide)",
-        "BR": "TBA"
-      },
-      "sources": [
-        "https://goodfights.app/schedule",
-        "https://www.ufcalendar.com/how-to-watch/oktagon"
-      ],
-      "notes": "Time TBA."
-    },
-    {
-      "name": "ONE Friday Fights 177",
-      "promotion": "ONE",
-      "date": "2026-11-06",
-      "startUTC": null,
-      "venue": "Lumpinee Stadium, Bangkok, Thailand",
-      "broadcasters": {
-        "US": "TBA",
-        "UK": "TBA",
-        "CA": "TBA",
-        "AU": "TBA",
-        "IE": "TBA",
-        "IN": "TBA",
-        "DE": "TBA",
-        "BR": "TBA"
-      },
-      "sources": [
-        "https://goodfights.app/schedule"
-      ],
-      "notes": ""
-    },
-    {
-      "name": "ONE Fight Night 49: Gabriel vs. Rasulov",
-      "promotion": "ONE",
-      "date": "2026-11-06",
-      "startUTC": null,
-      "venue": "TBA",
-      "broadcasters": {
-        "US": "Prime Video",
-        "UK": "Sky Sports (per third-party guide)",
-        "CA": "Prime Video",
-        "AU": "TBA",
-        "IE": "Sky Sports (per third-party guide)",
-        "IN": "TBA",
-        "DE": "TBA",
-        "BR": "TBA"
-      },
-      "sources": [
-        "https://goodfights.app/schedule",
-        "https://www.ufcalendar.com/how-to-watch/one",
-        "https://foreverwatch.net/where-to-watch-mma-fights/"
-      ],
-      "notes": "ONE Fight Night series streams on Prime Video in US/Canada. Date listed in US time; venue/time TBA."
-    },
-    {
-      "name": "UFC Fight Night: Bonfim vs. Brady",
-      "promotion": "UFC",
-      "date": "2026-11-07",
-      "startUTC": "2026-11-08T01:00:00Z",
-      "venue": "Meta APEX, Las Vegas, USA",
-      "broadcasters": {
-        "US": "Paramount+",
-        "UK": "TNT Sports / HBO Max",
-        "IE": "TNT Sports",
-        "CA": "Sportsnet+ / City TV / TVA Sports",
-        "AU": "Paramount+",
-        "IN": "Sony TEN 2",
-        "DE": "DAZN",
-        "BR": "Paramount+"
-      },
-      "sources": [
-        "https://www.ufc.com/events",
-        "https://www.ufc.com/news/how-watch-and-stream-ufc",
-        "https://www.ufc.com/news/how-to-watch-ufc-in-australia-2026"
-      ],
-      "notes": "Broadcasters follow UFC's 2026 territory pattern (UFC.com how-to-watch); verify per event. Time = main card."
-    },
-    {
-      "name": "OKTAGON 97: Severino vs. Holzer",
-      "promotion": "OKTAGON",
-      "date": "2026-11-07",
-      "startUTC": null,
-      "venue": "TBA",
-      "broadcasters": {
-        "US": "TBA",
-        "UK": "TBA",
-        "CA": "TBA",
-        "AU": "TBA",
-        "IE": "TBA",
-        "IN": "TBA",
-        "DE": "RTL+ (per third-party guide)",
-        "BR": "TBA"
-      },
-      "sources": [
-        "https://goodfights.app/schedule"
-      ],
-      "notes": ""
-    },
-    {
-      "name": "BKFC Glasgow",
-      "promotion": "BKFC",
-      "date": "2026-11-07",
-      "startUTC": null,
-      "venue": "Glasgow, UK",
-      "broadcasters": {
-        "US": "TBA",
-        "UK": "TBA",
-        "CA": "TBA",
-        "AU": "TBA",
-        "IE": "TBA",
-        "IN": "TBA",
-        "DE": "TBA",
-        "BR": "TBA"
-      },
-      "sources": [
-        "https://goodfights.app/schedule"
-      ],
-      "notes": "Bare-knuckle."
-    },
-    {
-      "name": "Cage Warriors 212: Spanish Showcase",
-      "promotion": "Cage Warriors",
-      "date": "2026-11-07",
-      "startUTC": null,
-      "venue": "BBC Studioworks Television Centre, London, UK",
-      "broadcasters": {
-        "US": "UFC Fight Pass",
-        "UK": "UFC Fight Pass",
-        "CA": "UFC Fight Pass",
-        "AU": "UFC Fight Pass",
-        "IE": "UFC Fight Pass",
-        "IN": "UFC Fight Pass",
-        "DE": "UFC Fight Pass",
-        "BR": "UFC Fight Pass"
-      },
-      "sources": [
-        "https://cagewarriors.com/cage-warriors-events/"
-      ],
-      "notes": ""
-    },
-    {
-      "name": "abc presents RIZIN.55: Shinryu vs. Laramie",
-      "promotion": "RIZIN",
-      "date": "2026-11-08",
-      "startUTC": "2026-11-08T05:00:00Z",
-      "venue": "LaLa arena TOKYO-BAY, Funabashi (Chiba), Japan",
-      "broadcasters": {
-        "US": "RIZIN.TV (PPV)",
-        "UK": "RIZIN.TV (PPV)",
-        "CA": "RIZIN.TV (PPV)",
-        "AU": "RIZIN.TV (PPV)",
-        "IE": "RIZIN.TV (PPV)",
-        "IN": "RIZIN.TV (PPV)",
-        "DE": "RIZIN.TV (PPV)",
-        "BR": "RIZIN.TV (PPV)"
-      },
-      "sources": [
-        "https://jp.rizinff.com/_ct/17852466",
-        "https://watch.rizin.tv/featured-category/events/rizin-landmark-17-11-8",
-        "https://www.rizin.tv/",
-        "https://abema.tv/lp/rizin"
-      ],
-      "notes": "Official site: 14:00 JST start (scheduled), doors 12:30. Flyweight title: Makoto Shinryu vs. Tony Laramie. Outside Japan: RIZIN.TV PPV ($19.99) or Premium Pass; RIZIN.TV says it is worldwide except a few unnamed restricted regions, so verify for your country. In Japan: ABEMA PPV (also RIZIN LIVE / RIZIN 100 CLUB, Japan only)."
-    },
-    {
-      "name": "ONE Friday Fights 178",
-      "promotion": "ONE",
-      "date": "2026-11-13",
-      "startUTC": null,
-      "venue": "Lumpinee Stadium, Bangkok, Thailand",
-      "broadcasters": {
-        "US": "TBA",
-        "UK": "TBA",
-        "CA": "TBA",
-        "AU": "TBA",
-        "IE": "TBA",
-        "IN": "TBA",
-        "DE": "TBA",
-        "BR": "TBA"
-      },
-      "sources": [
-        "https://goodfights.app/schedule"
-      ],
-      "notes": ""
-    },
-    {
-      "name": "LFA 246: TBA",
-      "promotion": "LFA",
-      "date": "2026-11-13",
-      "startUTC": null,
-      "venue": "TBA",
-      "broadcasters": {
-        "US": "TBA",
-        "UK": "TBA",
-        "CA": "TBA",
-        "AU": "TBA",
-        "IE": "TBA",
-        "IN": "TBA",
-        "DE": "TBA",
-        "BR": "TBA"
-      },
-      "sources": [
-        "https://www.lfa.com/events/list/"
-      ],
-      "notes": "Card and venue to be announced."
-    },
-    {
-      "name": "PFL Dubai: Nemkov vs. Bilostenniy",
-      "promotion": "PFL",
-      "date": "2026-11-14",
-      "startUTC": "2026-11-14T17:00:00Z",
-      "venue": "Coca-Cola Arena, Dubai, UAE",
-      "broadcasters": {
-        "US": "TBA",
-        "UK": "TBA",
-        "CA": "TBA",
-        "AU": "TBA",
-        "IE": "TBA",
-        "IN": "TBA",
-        "DE": "TBA",
-        "BR": "TBA"
-      },
-      "sources": [
-        "https://www.espn.com/mma/schedule",
-        "https://www.sherdog.com/events/upcoming/2-page"
-      ],
-      "notes": "Time from ESPN schedule listing (approx. card start). PFL broadcasters vary per card \u2014 TBA."
-    },
-    {
-      "name": "UFC 334: Gane vs. Hokit",
-      "promotion": "UFC",
-      "date": "2026-11-14",
-      "startUTC": "2026-11-15T02:00:00Z",
-      "venue": "Madison Square Garden, New York, USA",
-      "broadcasters": {
-        "US": "Paramount+",
-        "UK": "TNT Sports Box Office (main card) / HBO Max",
-        "IE": "TNT Sports Box Office (main card)",
-        "CA": "PPV (main card); Sportsnet+ / TVA Sports (prelims)",
-        "AU": "Main Event PPV on Foxtel/Kayo (main card); Paramount+ / Network 10 (prelims)",
-        "IN": "Sony TEN 2",
-        "DE": "DAZN / UFC PPV on UFC Fight Pass",
-        "BR": "Paramount+"
-      },
-      "sources": [
-        "https://www.ufc.com/events",
-        "https://www.ufc.com/news/how-watch-and-stream-ufc",
-        "https://www.ufc.com/news/how-to-watch-ufc-in-australia-2026"
-      ],
-      "notes": "Broadcasters follow UFC's 2026 territory pattern (UFC.com how-to-watch); verify per event. Time = main card. UFC.com page showed conflicting prelim times; 9 PM EST main card from event header."
-    },
-    {
-      "name": "Cage Warriors 213: London",
-      "promotion": "Cage Warriors",
-      "date": "2026-11-14",
-      "startUTC": null,
-      "venue": "BBC Studioworks Television Centre, London, UK",
-      "broadcasters": {
-        "US": "UFC Fight Pass",
-        "UK": "UFC Fight Pass",
-        "CA": "UFC Fight Pass",
-        "AU": "UFC Fight Pass",
-        "IE": "UFC Fight Pass",
-        "IN": "UFC Fight Pass",
-        "DE": "UFC Fight Pass",
-        "BR": "UFC Fight Pass"
-      },
-      "sources": [
-        "https://cagewarriors.com/cage-warriors-events/"
-      ],
-      "notes": ""
-    },
-    {
-      "name": "XTB KSW 123: Bartosi\u0144ski vs. \u0141opaczyk",
-      "promotion": "KSW",
-      "date": "2026-11-21",
-      "startUTC": "2026-11-21T18:00:00Z",
-      "venue": "Enea Arena (formerly Netto Arena), Szczecin, Poland",
-      "broadcasters": {
-        "US": "KSW TV (PPV)",
-        "UK": "KSW TV (PPV)",
-        "CA": "KSW TV (PPV)",
-        "AU": "KSW TV (PPV)",
-        "IE": "KSW TV (PPV)",
-        "IN": "KSW TV (PPV)",
-        "DE": "KSW TV (PPV)",
-        "BR": "KSW TV (PPV)"
-      },
-      "sources": [
-        "https://www.kswmma.com/en/event/xtb-ksw-123",
-        "https://www.kswmma.com/en/news/xtb-ksw-122-where-to-watch",
-        "https://www.ufcalendar.com/how-to-watch/ksw-ksw-123-2026-11-21"
-      ],
-      "notes": "Official site: 19:00 local (CET) start. Welterweight title main event; Mircea vs. Held lightweight title co-main. Broadcasters follow KSW's official pattern (KSW 122: CANAL+ in Poland, KSWTV.COM in all other countries); no KSW 123-specific watch notice yet, so verify closer to the event."
-    }
-  ]
+  {
+   "name": "OKTAGON 95: Škvor vs. Narkun",
+   "promotion": "OKTAGON",
+   "date": "2026-10-17",
+   "startUTC": "2026-10-17T16:00:00Z",
+   "venue": "Mattoni Arena, Karlovy Vary, Czechia",
+   "broadcasters": {
+    "US": "OKTAGON.TV (PPV)",
+    "UK": "OKTAGON.TV (PPV)",
+    "CA": "OKTAGON.TV (PPV)",
+    "AU": "OKTAGON.TV (PPV)",
+    "IE": "OKTAGON.TV (PPV)",
+    "IN": "OKTAGON.TV (PPV)",
+    "DE": "RTL+",
+    "BR": "OKTAGON.TV (PPV)"
+   },
+   "sources": [
+    "https://www.ufcalendar.com/how-to-watch/oktagon",
+    "https://oktagonmma.com"
+   ],
+   "notes": "Worldwide OKTAGON.TV per third-party guide; verify on oktagonmma.com.",
+   "id": "oktagon-95-skvor-vs-narkun"
+  },
+  {
+   "name": "UFC Fight Night: Buckley vs. Malott",
+   "promotion": "UFC",
+   "date": "2026-10-17",
+   "startUTC": "2026-10-18T00:00:00Z",
+   "venue": "Rogers Place, Edmonton, Canada",
+   "broadcasters": {
+    "US": "Paramount+",
+    "UK": "TNT Sports / HBO Max",
+    "IE": "TNT Sports",
+    "CA": "Sportsnet+ / City TV / TVA Sports",
+    "AU": "Paramount+",
+    "IN": "Sony TEN 2",
+    "DE": "DAZN",
+    "BR": "Paramount+"
+   },
+   "sources": [
+    "https://www.ufc.com/events",
+    "https://www.ufc.com/news/how-watch-and-stream-ufc",
+    "https://www.ufc.com/news/how-to-watch-ufc-in-australia-2026"
+   ],
+   "notes": "Broadcasters follow UFC's 2026 territory pattern (UFC.com how-to-watch); verify per event. Time = main card.",
+   "id": "ufc-fight-night-buckley-vs-malott",
+   "card": {
+    "status": "announced",
+    "updated": "2026-10-17",
+    "sources": [
+     "https://www.tapology.com/fightcenter/events/145985-ufc-fight-night",
+     "https://en.wikipedia.org/wiki/UFC_Fight_Night:_Buckley_vs._Malott"
+    ],
+    "bouts": [
+     {
+      "segment": "Main card",
+      "weightClass": "Welterweight",
+      "rounds": 5,
+      "discipline": "MMA",
+      "a": "tap-55022-joaquin-buckley",
+      "aName": "Joaquin Buckley",
+      "b": "tap-22740-mike-malott",
+      "bName": "Mike Malott",
+      "odds": {
+       "a": 102,
+       "b": -125,
+       "books": 6
+      }
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Women's Flyweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-167460-erin-blanchfield",
+      "aName": "Erin Blanchfield",
+      "b": "tap-171056-jasmine-jasdavicious",
+      "bName": "Jasmine Jasudavicius",
+      "odds": {
+       "a": -335,
+       "b": 257,
+       "books": 6
+      }
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Lightweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-21458-kyle-nelson-the-monster",
+      "aName": "Kyle Nelson",
+      "b": "tap-149590-cristian-perez-puas",
+      "bName": "Cristian Perez"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Middleweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-26658-marc-andre-barriault",
+      "aName": "Marc-André Barriault",
+      "b": "tap-16027-kyle-daukaus",
+      "bName": "Kyle Daukaus",
+      "odds": {
+       "a": 165,
+       "b": -200,
+       "books": 6
+      }
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Bantamweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-42366-louis-jourdain",
+      "aName": "Louis Jourdain",
+      "b": "tap-181377-timothy-cuamba",
+      "bName": "Timmy Cuamba",
+      "odds": {
+       "a": -175,
+       "b": 143,
+       "books": 6
+      }
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Lightweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-24751-mandell-nallo",
+      "aName": "Mandel Nallo",
+      "b": "tap-26263-nate-landwehr",
+      "bName": "Nate Landwehr",
+      "odds": {
+       "a": -286,
+       "b": 224,
+       "books": 6
+      }
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Heavyweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-35149-tanner-boser",
+      "aName": "Tanner Boser",
+      "b": "tap-198829-jhonata-diniz",
+      "bName": "Jhonata Diniz"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Middleweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-24714-julien-leblanc",
+      "aName": "Julien Leblanc",
+      "b": "tap-287925-nick-galanti",
+      "bName": "Nick Galanti"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Heavyweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-271555-javad-mahjoub",
+      "aName": "Javad Mahjoub",
+      "b": "tap-215576-joel-faglier",
+      "bName": "Joel Faglier"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Women's Flyweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-37760-katlyn-chookagian",
+      "aName": "Katlyn Cerminara",
+      "b": "tap-329344-mackenzie-stiller",
+      "bName": "Mackenzie Stiller"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Bantamweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-20364-chad-anheliger",
+      "aName": "Chad Anheliger",
+      "b": "tap-131139-steven-koslow",
+      "bName": "Steven Koslow"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Women's Bantamweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-134566-chelsea-chandler",
+      "aName": "Chelsea Chandler",
+      "b": "tap-140510-melissa-croden",
+      "bName": "Melissa Croden"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Bantamweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-73544-soo-young-yoo",
+      "aName": "Su Young You",
+      "b": "tap-186319-cody-chovancek",
+      "bName": "Cody Chovancek"
+     }
+    ]
+   },
+   "odds": {
+    "source": "BestFightOdds",
+    "url": "https://www.bestfightodds.com/events/ufc-edmonton-4403",
+    "asOf": "2026-10-17 22:00 UTC",
+    "method": "consensus = median implied probability across the sportsbooks BestFightOdds listed for each fighter"
+   }
+  },
+  {
+   "name": "BKFC 95: Herring vs. Dodson",
+   "promotion": "BKFC",
+   "date": "2026-10-17",
+   "startUTC": "2026-10-18T01:00:00Z",
+   "venue": "Prudential Center, Newark, USA",
+   "broadcasters": {
+    "US": "TBA",
+    "UK": "TBA",
+    "CA": "TBA",
+    "AU": "TBA",
+    "IE": "TBA",
+    "IN": "TBA",
+    "DE": "TBA",
+    "BR": "TBA"
+   },
+   "sources": [
+    "https://www.mmanews.com/schedule",
+    "https://goodfights.app/schedule",
+    "https://www.tapology.com/fightcenter/events/145571-bkfc-95"
+   ],
+   "notes": "Bare-knuckle. 9 PM ET main card per third-party schedule.",
+   "id": "bkfc-95-herring-vs-dodson",
+   "card": {
+    "status": "announced",
+    "updated": "2026-10-17",
+    "sources": [
+     "https://www.tapology.com/fightcenter/events/145571-bkfc-95",
+     "https://en.wikipedia.org/wiki/2026_in_Bare_Knuckle_Fighting_Championship"
+    ],
+    "bouts": [
+     {
+      "segment": "Main card",
+      "weightClass": "Bantamweight",
+      "title": "BKFC Bantamweight Championship",
+      "rounds": 5,
+      "discipline": "Bare-knuckle",
+      "a": "tap-203826-jamel-jerring-semper-fi",
+      "aName": "Jamel Herring",
+      "b": "tap-john-dodson-the-magician",
+      "bName": "John Dodson",
+      "odds": {
+       "a": -275,
+       "b": 188,
+       "books": 1
+      }
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Welterweight",
+      "rounds": 5,
+      "discipline": "Bare-knuckle",
+      "a": "tap-jimmie-rivera-el-terror",
+      "aName": "Jimmie Rivera",
+      "b": "tap-167602-brandon-meyer",
+      "bName": "Brandon Meyer",
+      "odds": {
+       "a": -715,
+       "b": 440,
+       "books": 1
+      }
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Lightweight",
+      "discipline": "Bare-knuckle",
+      "a": "tap-272269-antonio-soto-iii",
+      "aName": "Tony Soto",
+      "b": "tap-309496-tony-pike",
+      "bName": "Tony Pike",
+      "odds": {
+       "a": -335,
+       "b": 220,
+       "books": 1
+      }
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Flyweight",
+      "discipline": "Bare-knuckle",
+      "a": "tap-140934-santos-curatolo",
+      "aName": "Santo Curatolo",
+      "b": "tap-85227-anthony-yost",
+      "bName": "Anthony Yost",
+      "odds": {
+       "a": -225,
+       "b": 155,
+       "books": 1
+      }
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Lightweight",
+      "discipline": "Bare-knuckle",
+      "a": "tap-481625-dalvin-blair",
+      "aName": "Dalvin Blair",
+      "b": "tap-524054-paris-boyd",
+      "bName": "Paris Boyd",
+      "odds": {
+       "a": -225,
+       "b": 155,
+       "books": 1
+      }
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Lightweight",
+      "discipline": "Bare-knuckle",
+      "a": "tap-552788-dylan-pitt",
+      "aName": "Dylan Pitt",
+      "b": "tap-253781-nicholas-saragosa",
+      "bName": "Nicholas Saragosa",
+      "odds": {
+       "a": 115,
+       "b": -159,
+       "books": 1
+      }
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Middleweight",
+      "discipline": "Bare-knuckle",
+      "a": "tap-384036-noah-getahoun",
+      "aName": "Noah Getahoun",
+      "b": "tap-281811-dustin-bailey",
+      "bName": "Dustin Bailey"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Women's Flyweight",
+      "discipline": "Bare-knuckle",
+      "a": "tap-385289-gabrielle-roman",
+      "aName": "Gabrielle Roman",
+      "b": "tap-58604-brooke-evans",
+      "bName": "Brooke Evans"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Welterweight",
+      "discipline": "Bare-knuckle",
+      "a": "tap-mike-medrano",
+      "aName": "Mike Medrano",
+      "b": "tap-rob-emerson-the-saint",
+      "bName": "Rob Emerson"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Featherweight",
+      "discipline": "Bare-knuckle",
+      "a": "tap-78422-phil-caracappa",
+      "aName": "Phil Caracappa",
+      "b": "tap-146078-cole-cameron",
+      "bName": "Cole Cameron"
+     }
+    ],
+    "note": "Records shown are professional MMA records (Tapology); bare-knuckle records are not included."
+   },
+   "odds": {
+    "source": "BestFightOdds",
+    "url": "https://www.bestfightodds.com/events/bare-knuckle-fc-4413",
+    "asOf": "2026-10-17 22:00 UTC",
+    "method": "consensus = median implied probability across the sportsbooks BestFightOdds listed for each fighter"
+   }
+  },
+  {
+   "name": "Cage Warriors 211: Bellandi vs. Pereira",
+   "promotion": "Cage Warriors",
+   "date": "2026-10-17",
+   "startUTC": "2026-10-17T16:00:00Z",
+   "venue": "PalaPellicone, Rome, Italy",
+   "broadcasters": {
+    "US": "UFC Fight Pass",
+    "UK": "UFC Fight Pass",
+    "CA": "UFC Fight Pass",
+    "AU": "UFC Fight Pass",
+    "IE": "UFC Fight Pass",
+    "IN": "UFC Fight Pass",
+    "DE": "UFC Fight Pass",
+    "BR": "UFC Fight Pass"
+   },
+   "sources": [
+    "https://cagewarriors.com/cage-warriors-events/",
+    "https://www.tapology.com/fightcenter/events/145600-cage-warriors-211"
+   ],
+   "notes": "Official site: watch on UFC Fight Pass. Start time per Tapology.",
+   "id": "cage-warriors-211-bellandi-vs-pereira",
+   "card": {
+    "status": "announced",
+    "updated": "2026-10-17",
+    "sources": [
+     "https://www.tapology.com/fightcenter/events/145600-cage-warriors-211",
+     "https://en.wikipedia.org/wiki/2026_in_Cage_Warriors#Cage_Warriors_211"
+    ],
+    "bouts": [
+     {
+      "segment": "Main card",
+      "weightClass": "Middleweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-140683-dario-bellandi",
+      "aName": "Dario Bellandi",
+      "b": "tap-109633-aldo-pereira",
+      "bName": "Aldo Pereira",
+      "odds": {
+       "a": -681,
+       "b": 419,
+       "books": 2
+      }
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Featherweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-328202-giuseppe-mastrogiacomo",
+      "aName": "Giuseppe Mastrogiacomo",
+      "b": "tap-216624-alexis-tsarmantidis",
+      "bName": "Alexis Tsarmantidis",
+      "odds": {
+       "a": -307,
+       "b": 214,
+       "books": 2
+      }
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Bantamweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-106673-enrico-di-gangi",
+      "aName": "Enrico Di Gangi",
+      "b": "tap-183619-tommy-brunning",
+      "bName": "Tommy Brunning",
+      "odds": {
+       "a": -220,
+       "b": 156,
+       "books": 2
+      }
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Bantamweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-390451-federico-rotoni",
+      "aName": "Federico Rotoni",
+      "b": "tap-447831-andrei-gabura",
+      "bName": "Andrei Gabura",
+      "odds": {
+       "a": -2500,
+       "b": 890,
+       "books": 2
+      }
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Featherweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-385499-simone-ali",
+      "aName": "Simone Ali",
+      "b": "tap-419099-alessandro-ortolani",
+      "bName": "Alessandro Ortolani",
+      "odds": {
+       "a": -105,
+       "b": -128,
+       "books": 2
+      }
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Lightweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-325759-christian-tosco",
+      "aName": "Christian Tosco",
+      "b": "tap-227077-salvatore-bellotta",
+      "bName": "Salvatore Bellotta",
+      "odds": {
+       "a": -116,
+       "b": -116,
+       "books": 2
+      }
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Bantamweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-460188-angelo-coppola",
+      "aName": "Angelo Coppola",
+      "b": "tap-381656-jonathan-david-rivera",
+      "bName": "Jonathan Rivera",
+      "odds": {
+       "a": 300,
+       "b": -452,
+       "books": 2
+      }
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Flyweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-381792-elez-guri",
+      "aName": "Elez Guri",
+      "b": "tap-342392-gabriele-lionetti",
+      "bName": "Gabriele Lionetti",
+      "odds": {
+       "a": 214,
+       "b": -307,
+       "books": 2
+      }
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Lightweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-206990-niko-ceraglia",
+      "aName": "Niko Ceraglia",
+      "b": "tap-473969-valentino-greco",
+      "bName": "Valentino Greco",
+      "odds": {
+       "a": -1039,
+       "b": 529,
+       "books": 2
+      }
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Bantamweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-309969-jurgen-koci",
+      "aName": "Jurgen Koci",
+      "b": "tap-295339-ruben-vinci",
+      "bName": "Ruben Vinci",
+      "odds": {
+       "a": -334,
+       "b": 222,
+       "books": 2
+      }
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Flyweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-381647-diego-giangirolami",
+      "aName": "Diego Giangirolami",
+      "b": "tap-332603-kevin-caperna",
+      "bName": "Kevin Caperna",
+      "odds": {
+       "a": -119,
+       "b": -114,
+       "books": 2
+      }
+     }
+    ]
+   },
+   "odds": {
+    "source": "BestFightOdds",
+    "url": "https://www.bestfightodds.com/events/cage-warriors-211-4408",
+    "asOf": "2026-10-17 22:00 UTC",
+    "method": "consensus = median implied probability across the sportsbooks BestFightOdds listed for each fighter"
+   }
+  },
+  {
+   "name": "BKFC Belgrade: Faulkner vs. Prasovic",
+   "promotion": "BKFC",
+   "date": "2026-10-17",
+   "startUTC": null,
+   "venue": "Beogradska Arena, Belgrade, Serbia",
+   "broadcasters": {
+    "US": "TBA",
+    "UK": "TBA",
+    "CA": "TBA",
+    "AU": "TBA",
+    "IE": "TBA",
+    "IN": "TBA",
+    "DE": "TBA",
+    "BR": "TBA"
+   },
+   "sources": [
+    "https://www.mmanews.com/schedule",
+    "https://www.tapology.com/fightcenter/events/145743-bkfc-fight-night-belgrade"
+   ],
+   "notes": "Bare-knuckle. Tapology marks this event cancelled and Wikipedia marks it postponed — not taking place on Oct 17 as listed.",
+   "status": "Postponed/cancelled",
+   "id": "bkfc-belgrade-faulkner-vs-prasovic",
+   "card": {
+    "status": "tba",
+    "updated": "2026-10-17",
+    "sources": [
+     "https://www.tapology.com/fightcenter/events/145743-bkfc-fight-night-belgrade"
+    ],
+    "bouts": []
+   }
+  },
+  {
+   "name": "LFA 244: Woodley vs. Havener",
+   "promotion": "LFA",
+   "date": "2026-10-23",
+   "startUTC": "2026-10-24T01:00:00Z",
+   "venue": "Premier Theater at Foxwoods Resort Casino, Mashantucket, USA",
+   "broadcasters": {
+    "US": "VICE TV",
+    "UK": "TBA",
+    "CA": "TBA",
+    "AU": "TBA",
+    "IE": "TBA",
+    "IN": "TBA",
+    "DE": "TBA",
+    "BR": "TBA"
+   },
+   "sources": [
+    "https://www.lfa.com/events/list/",
+    "https://www.tapology.com/fightcenter/events/147388-lfa-244"
+   ],
+   "notes": "Also ESPN Deportes/ESPN KnockOut in Latin America (Brazil not confirmed).",
+   "id": "lfa-244-woodley-vs-havener",
+   "card": {
+    "status": "announced",
+    "updated": "2026-10-17",
+    "sources": [
+     "https://www.tapology.com/fightcenter/events/147388-lfa-244",
+     "https://en.wikipedia.org/wiki/2026_in_Legacy_Fighting_Alliance"
+    ],
+    "bouts": [
+     {
+      "segment": "Main card",
+      "weightClass": "Middleweight",
+      "title": "vacant LFA Middleweight Championship",
+      "rounds": 5,
+      "discipline": "MMA",
+      "a": "tap-396221-jake-woodley",
+      "aName": "Jake Woodley",
+      "b": "tap-296089-zayne-havener",
+      "bName": "Zayne Havener"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Bantamweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-134198-paul-capaldo",
+      "aName": "Paul Capaldo",
+      "b": "tap-171614-fabricio-ruiz",
+      "bName": "Sebastian Ruiz"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Welterweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-287809-devan-worth",
+      "aName": "Devan Worth",
+      "b": "tap-274105-thomas-blackorby",
+      "bName": "Thomas Blackorby"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Flyweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-128066-maikel-reinoso",
+      "aName": "Maikel Reinoso",
+      "b": "tap-178522-oscar-alejandro-jurado-snchez",
+      "bName": "Oscar Jurado Sánchez"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Women's Strawweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-87574-hillary-rose",
+      "aName": "Hilarie Rose",
+      "b": "tap-94986-bruna-ellen",
+      "bName": "Bruna Ellen"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Welterweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-315914-elton-dedaj",
+      "aName": "Elton Dedaj",
+      "b": "tap-298592-luis-melendez",
+      "bName": "Luis Melendez"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Middleweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-123244-guram-mestvirishvili",
+      "aName": "Guram Mestvirishvili",
+      "b": "tap-55405-jansen-silva",
+      "bName": "Jansey Silva"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Lightweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-301246-austin-halik",
+      "aName": "Austin Halik",
+      "b": "tap-448225-xavier-zeruth",
+      "bName": "Xavier Zeruth"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Bantamweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-239074-eliab-evangelista",
+      "aName": "Eli Evangelista",
+      "b": "tap-162571-angelo-robles",
+      "bName": "Angelo Robles"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Middleweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-214451-guram-gocashivili",
+      "aName": "Guram Gochashvili",
+      "b": "tap-62083-shane-sobnosky",
+      "bName": "Shane Sobnosky"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Light Heavyweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-295067-austin-ross",
+      "aName": "Austin Ross",
+      "b": "tap-236407-matheus-moraes",
+      "bName": "Matheus Moraes"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Flyweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-484740-joziah-fry",
+      "aName": "Joziah Fry",
+      "b": "tap-200526-nelson-eventon",
+      "bName": "Yve Nelson"
+     }
+    ]
+   }
+  },
+  {
+   "name": "UFC 333: Volkanovski vs. Evloev",
+   "promotion": "UFC",
+   "date": "2026-10-24",
+   "startUTC": "2026-10-24T18:00:00Z",
+   "venue": "Etihad Arena, Abu Dhabi, UAE",
+   "broadcasters": {
+    "US": "Paramount+",
+    "UK": "TNT Sports Box Office (main card) / HBO Max",
+    "IE": "TNT Sports Box Office (main card)",
+    "CA": "PPV (main card); Sportsnet+ / TVA Sports (prelims)",
+    "AU": "Main Event PPV on Foxtel/Kayo (main card); Paramount+ / Network 10 (prelims)",
+    "IN": "Sony TEN 2",
+    "DE": "DAZN / UFC PPV on UFC Fight Pass",
+    "BR": "Paramount+"
+   },
+   "sources": [
+    "https://www.ufc.com/events",
+    "https://www.ufc.com/news/how-watch-and-stream-ufc",
+    "https://www.ufc.com/news/how-to-watch-ufc-in-australia-2026"
+   ],
+   "notes": "Broadcasters follow UFC's 2026 territory pattern (UFC.com how-to-watch); verify per event. Time = main card.",
+   "featured": true,
+   "id": "ufc-333-volkanovski-vs-evloev",
+   "card": {
+    "status": "announced",
+    "updated": "2026-10-17",
+    "sources": [
+     "https://www.tapology.com/fightcenter/events/146338-ufc-333",
+     "https://en.wikipedia.org/wiki/UFC_333"
+    ],
+    "bouts": [
+     {
+      "segment": "Main card",
+      "weightClass": "Featherweight",
+      "title": "UFC Featherweight Championship",
+      "rounds": 5,
+      "discipline": "MMA",
+      "a": "tap-41705-alex-volkanski",
+      "aName": "Alexander Volkanovski",
+      "b": "tap-85897-movsar-evloev",
+      "bName": "Movsar Evloev",
+      "odds": {
+       "a": -112,
+       "b": -111,
+       "books": 6
+      }
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Bantamweight",
+      "title": "UFC Bantamweight Championship",
+      "rounds": 5,
+      "discipline": "MMA",
+      "a": "tap-90075-petr-yan",
+      "aName": "Petr Yan",
+      "b": "tap-47934-merab-dvalishvili",
+      "bName": "Merab Dvalishvili",
+      "odds": {
+       "a": -185,
+       "b": 145,
+       "books": 6
+      }
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Flyweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-112229-loneer-kavanagh",
+      "aName": "Lone'er Kavanagh",
+      "b": "tap-173956-razonbek-temirov",
+      "bName": "Ramazan Temirov",
+      "odds": {
+       "a": -112,
+       "b": -109,
+       "books": 4
+      }
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Heavyweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-alexander-volkov",
+      "aName": "Alexander Volkov",
+      "b": "tap-71638-rizvan-kuniev",
+      "bName": "Rizvan Kuniev",
+      "odds": {
+       "a": -121,
+       "b": -104,
+       "books": 4
+      }
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Featherweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-86018-aaron-pico",
+      "aName": "Aaron Pico",
+      "b": "tap-158525-losene-keita",
+      "bName": "Losene Keita",
+      "odds": {
+       "a": -101,
+       "b": -121,
+       "books": 4
+      }
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Light Heavyweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-61438-dominick-reyes",
+      "aName": "Dominick Reyes",
+      "b": "tap-93373-azamat-murzakanov",
+      "bName": "Azamat Murzakanov",
+      "odds": {
+       "a": 180,
+       "b": -232,
+       "books": 4
+      }
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Middleweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-30204-abusupiyan-magomedov-abus",
+      "aName": "Abus Magomedov",
+      "b": "tap-69262-cam-rowston",
+      "bName": "Cam Rowston",
+      "odds": {
+       "a": -105,
+       "b": -117,
+       "books": 4
+      }
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Light Heavyweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-37801-nikita-krylov",
+      "aName": "Nikita Krylov",
+      "b": "tap-243673-abdulrakhman-yakhyaev",
+      "bName": "Abdul Rakhman Yakhyaev",
+      "odds": {
+       "a": 336,
+       "b": -450,
+       "books": 4
+      }
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Lightweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-32750-grant-dawson",
+      "aName": "Grant Dawson",
+      "b": "tap-178801-nurullo-aliev",
+      "bName": "Nurullo Aliev",
+      "odds": {
+       "a": -115,
+       "b": -108,
+       "books": 4
+      }
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Middleweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-111323-jacob-malkoun",
+      "aName": "Jacob Malkoun",
+      "b": "tap-72240-abubakar-babaev",
+      "bName": "Abubakar Vagaev",
+      "odds": {
+       "a": 145,
+       "b": -191,
+       "books": 1
+      }
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Bantamweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-166902-colby-thicknesse",
+      "aName": "Colby Thicknesse",
+      "b": "tap-198455-asef-chopurov",
+      "bName": "Asaf Chopurov",
+      "odds": {
+       "a": 312,
+       "b": -526,
+       "books": 1
+      }
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Featherweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-65061-daniel-willycat",
+      "aName": "Daniel Santos",
+      "b": "tap-158527-bolaji-oki",
+      "bName": "Bolaji Oki"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Strawweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-166360-iasmin-lucindo",
+      "aName": "Iasmin Lucindo",
+      "b": "tap-107869-nicolle-caliari",
+      "bName": "Nicolle Caliari"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Lightweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-143198-noah-gugnon",
+      "aName": "Noah Gugnon",
+      "b": "tap-228289-kody-steele",
+      "bName": "Kody Steele"
+     }
+    ]
+   },
+   "odds": {
+    "source": "BestFightOdds",
+    "url": "https://www.bestfightodds.com/events/ufc-333-4321",
+    "asOf": "2026-10-17 22:00 UTC",
+    "method": "consensus = median implied probability across the sportsbooks BestFightOdds listed for each fighter"
+   }
+  },
+  {
+   "name": "LFA 245: Khamzaev vs. Prescendo",
+   "promotion": "LFA",
+   "date": "2026-10-30",
+   "startUTC": "2026-10-31T01:00:00Z",
+   "venue": "Seneca Niagara Resort & Casino, Niagara Falls, USA",
+   "broadcasters": {
+    "US": "VICE TV",
+    "UK": "TBA",
+    "CA": "TBA",
+    "AU": "TBA",
+    "IE": "TBA",
+    "IN": "TBA",
+    "DE": "TBA",
+    "BR": "TBA"
+   },
+   "sources": [
+    "https://www.lfa.com/events/list/"
+   ],
+   "notes": "9 PM ET per LFA.",
+   "id": "lfa-245-khamzaev-vs-prescendo",
+   "card": {
+    "status": "announced",
+    "updated": "2026-10-17",
+    "sources": [
+     "https://www.tapology.com/fightcenter/events/147389-lfa-245",
+     "https://en.wikipedia.org/wiki/2026_in_Legacy_Fighting_Alliance"
+    ],
+    "bouts": [
+     {
+      "segment": "Main card",
+      "weightClass": "Lightweight",
+      "title": "vacant LFA Lightweight Championship",
+      "rounds": 5,
+      "discipline": "MMA",
+      "a": "tap-446839-ansar-khamzaev",
+      "aName": "Ansar Khamzaev",
+      "b": "tap-100563-juliano-prescendo",
+      "bName": "Juliano Prescendo"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Featherweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-146942-thomas-picciano",
+      "aName": "Tom Picciano",
+      "b": "tap-238223-santos-verdinez",
+      "bName": "Santos Verdinez"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Middleweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-327470-david-wright",
+      "aName": "David Wright",
+      "b": "tap-42161-lance-wright",
+      "bName": "Lance Wright"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Light Heavyweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-143093-matthew-adams",
+      "aName": "Matt Adams",
+      "b": "tap-288919-shealor-ladd",
+      "bName": "Shealor Ladd"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Flyweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-336875-haseeb-khetab",
+      "aName": "Haseeb Khetab",
+      "b": "tap-307840-matias-valdez-marciano",
+      "bName": "Matias Valdes"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Welterweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-152535-joey-hart",
+      "aName": "Joey Hart",
+      "b": "tap-387646-albert-bahamondes",
+      "bName": "Alberth Bahamondes"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Strawweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-227573-naomie-young",
+      "aName": "Naomie Young",
+      "b": "tap-274744-aline-david",
+      "bName": "Aline David"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Heavyweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-166203-julian-flenory",
+      "aName": "Julian Flenory",
+      "b": "tap-305674-ryan-firinaiu",
+      "bName": "Ryan Firinaiu"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Middleweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-321656-travon-eller",
+      "aName": "Travon Eller",
+      "b": "tap-204455-akeem-lewis",
+      "bName": "Akeem Lewis"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Light Heavyweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-504356-isaiah-parks",
+      "aName": "Isaiah Parks",
+      "b": "tap-164243-christian-getsey",
+      "bName": "Christian Getsey"
+     }
+    ]
+   }
+  },
+  {
+   "name": "ONE Friday Fights 176",
+   "promotion": "ONE",
+   "date": "2026-10-30",
+   "startUTC": "2026-10-30T11:30:00Z",
+   "venue": "Lumpinee Stadium, Bangkok, Thailand",
+   "broadcasters": {
+    "US": "TBA",
+    "UK": "TBA",
+    "CA": "TBA",
+    "AU": "TBA",
+    "IE": "TBA",
+    "IN": "TBA",
+    "DE": "TBA",
+    "BR": "TBA"
+   },
+   "sources": [
+    "https://combatreg.com/events/upcoming",
+    "https://goodfights.app/schedule",
+    "https://www.tapology.com/fightcenter/events/147735-one-friday-fights-176"
+   ],
+   "notes": "Friday Fights often streams on ONE's YouTube / watch.onefc.com (regional restrictions) — unconfirmed.",
+   "id": "one-friday-fights-176",
+   "card": {
+    "status": "tba",
+    "updated": "2026-10-17",
+    "sources": [
+     "https://www.tapology.com/fightcenter/events/147735-one-friday-fights-176"
+    ],
+    "bouts": []
+   }
+  },
+  {
+   "name": "UFC Fight Night: Moicano vs. Nolan",
+   "promotion": "UFC",
+   "date": "2026-10-31",
+   "startUTC": "2026-11-01T00:00:00Z",
+   "venue": "Meta APEX, Las Vegas, USA",
+   "broadcasters": {
+    "US": "Paramount+",
+    "UK": "TNT Sports / HBO Max",
+    "IE": "TNT Sports",
+    "CA": "Sportsnet+ / City TV / TVA Sports",
+    "AU": "Paramount+",
+    "IN": "Sony TEN 2",
+    "DE": "DAZN",
+    "BR": "Paramount+"
+   },
+   "sources": [
+    "https://www.ufc.com/events",
+    "https://www.ufc.com/news/how-watch-and-stream-ufc",
+    "https://www.ufc.com/news/how-to-watch-ufc-in-australia-2026"
+   ],
+   "notes": "Broadcasters follow UFC's 2026 territory pattern (UFC.com how-to-watch); verify per event. Time = main card.",
+   "id": "ufc-fight-night-moicano-vs-nolan",
+   "card": {
+    "status": "announced",
+    "updated": "2026-10-17",
+    "sources": [
+     "https://www.tapology.com/fightcenter/events/147046-ufc-fight-night",
+     "https://en.wikipedia.org/wiki/UFC_Fight_Night:_Moicano_vs._Nolan"
+    ],
+    "bouts": [
+     {
+      "segment": "Main card",
+      "weightClass": "Lightweight",
+      "rounds": 5,
+      "discipline": "MMA",
+      "a": "tap-16950-renato-carneiro-moicano",
+      "aName": "Renato Moicano",
+      "b": "tap-145210-tom-nolan",
+      "bName": "Tom Nolan"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Women's Bantamweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-19820-yana-kunitskaya-foxy",
+      "aName": "Yana Santos",
+      "b": "tap-223129-luana-santos",
+      "bName": "Luana Santos"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Women's Strawweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-140642-pierangela-rodriguez",
+      "aName": "Piera Rodriguez",
+      "b": "tap-217437-talita-alencar",
+      "bName": "Talita Alencar"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Featherweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-18497-julian-erosa",
+      "aName": "Julian Erosa",
+      "b": "tap-51443-jeong-young-lee",
+      "bName": "Jeong Yeong Lee"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Middleweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-123353-andre-petroski",
+      "aName": "Andre Petroski",
+      "b": "tap-137588-azamat-bekoev",
+      "bName": "Azamat Bekoev"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Women's Bantamweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-139270-tainara-lisboa",
+      "aName": "Tainara Lisboa",
+      "b": "tap-187305-lucia-szabova-queen-bee",
+      "bName": "Lucia Szabová"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Middleweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-172768-nick-klein",
+      "aName": "Nick Klein",
+      "b": "tap-131395-joseph-kropschot",
+      "bName": "Joe Kropschot"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Welterweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-151988-jean-paul-lebosnoyani-the-lifeguard",
+      "aName": "Jean-Paul Lebosnoyani",
+      "b": "tap-347077-farman-hasanov",
+      "bName": "Farman Hasanov"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Welterweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-274790-rodrigo-sezinando",
+      "aName": "Rodrigo Sezinando",
+      "b": "tap-234290-theodor-berggren",
+      "bName": "Theodor Berggren"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Flyweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-50154-ode-osbourne",
+      "aName": "Ode Osbourne",
+      "b": "tap-68337-cody-durden",
+      "bName": "Cody Durden"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Lightweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-186284-francis-marshall",
+      "aName": "Francis Marshall",
+      "b": "tap-185829-dakota-hope",
+      "bName": "Dakota Hope"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Middleweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-35756-zack-reese",
+      "aName": "Zach Reese",
+      "b": "tap-63731-mickey-gall",
+      "bName": "Mickey Gall"
+     }
+    ]
+   }
+  },
+  {
+   "name": "OKTAGON 96: Gogoladze vs. Klinkhammer",
+   "promotion": "OKTAGON",
+   "date": "2026-10-31",
+   "startUTC": "2026-10-31T16:00:00Z",
+   "venue": "SAP Garden, Munich, Germany",
+   "broadcasters": {
+    "US": "TBA",
+    "UK": "TBA",
+    "CA": "TBA",
+    "AU": "TBA",
+    "IE": "TBA",
+    "IN": "TBA",
+    "DE": "RTL+ (per third-party guide)",
+    "BR": "TBA"
+   },
+   "sources": [
+    "https://goodfights.app/schedule",
+    "https://www.ufcalendar.com/how-to-watch/oktagon",
+    "https://www.tapology.com/fightcenter/events/143765-oktagon-96"
+   ],
+   "notes": "Start time per Tapology.",
+   "id": "oktagon-96-gogoladze-vs-klinkhammer",
+   "card": {
+    "status": "announced",
+    "updated": "2026-10-17",
+    "sources": [
+     "https://www.tapology.com/fightcenter/events/143765-oktagon-96",
+     "https://en.wikipedia.org/wiki/2026_in_Oktagon_MMA"
+    ],
+    "bouts": [
+     {
+      "segment": "Main card",
+      "weightClass": "Welterweight",
+      "title": "vacant Oktagon Welterweight Championship",
+      "rounds": 5,
+      "discipline": "MMA",
+      "a": "tap-162215-amiran-gogoladze",
+      "aName": "Amiran Gogoladze",
+      "b": "tap-120890-felix-klinkhammer",
+      "bName": "Felix Klinkhammer"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Heavyweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-95751-lazar-todev",
+      "aName": "Lazar Todev",
+      "b": "tap-156999-simon-binyom",
+      "bName": "Simon Biyong"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Featherweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-142056-henrique-madureira",
+      "aName": "Henrique Madureira",
+      "b": "tap-190268-daniel-schordje",
+      "bName": "Daniel Schordje"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Welterweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-28341-jessin-ayari-abacus",
+      "aName": "Jessin Ayari",
+      "b": "tap-139534-ion-surdu",
+      "bName": "Ion Surdu"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Welterweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-93432-ronald-paradeiser",
+      "aName": "Ronald Paradeiser",
+      "b": "tap-365420-tyrone-pfeifer",
+      "bName": "Tyrone Pfeifer"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Lightweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-428108-marat-nessar",
+      "aName": "Marat Nessar",
+      "b": "tap-348723-abdulmalik-aliev",
+      "bName": "Abdulmalik Aliev"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Lightweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-104264-gkhan-asku",
+      "aName": "Gökhan Aksu",
+      "b": "tap-89056-niko-samsonidse",
+      "bName": "Niko Samsonidse"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Middleweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-64759-marek-bartl",
+      "aName": "Marek Bartl",
+      "b": "tap-312231-brian-manning",
+      "bName": "Brian Manning"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Flyweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-169787-shawn-marcos-claudina-da-silva",
+      "aName": "Shawn Marcos da Silva",
+      "b": "tap-333178-fayaz-haqparast",
+      "bName": "Fayaz Haqparast"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Welterweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-136011-kevin-hangs",
+      "aName": "Kevin Hangs",
+      "b": "tap-131258-burak-kizilirmak",
+      "bName": "Burak Kizilirmak"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Welterweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-131257-endrit-brajshori",
+      "aName": "Endrit Brajshori",
+      "b": "tap-211112-christian-mach",
+      "bName": "Christian Mach"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Featherweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-120423-michael-deiga-scheck",
+      "aName": "Michael Deiga-Scheck",
+      "b": "tap-179980-luk-chotnovsk",
+      "bName": "Lukáš Chotěnovský"
+     }
+    ]
+   }
+  },
+  {
+   "name": "ONE Friday Fights 177",
+   "promotion": "ONE",
+   "date": "2026-11-06",
+   "startUTC": "2026-11-06T11:30:00Z",
+   "venue": "Lumpinee Stadium, Bangkok, Thailand",
+   "broadcasters": {
+    "US": "TBA",
+    "UK": "TBA",
+    "CA": "TBA",
+    "AU": "TBA",
+    "IE": "TBA",
+    "IN": "TBA",
+    "DE": "TBA",
+    "BR": "TBA"
+   },
+   "sources": [
+    "https://goodfights.app/schedule",
+    "https://www.tapology.com/fightcenter/events/147736-one-friday-fights-177"
+   ],
+   "notes": "",
+   "id": "one-friday-fights-177",
+   "card": {
+    "status": "announced",
+    "updated": "2026-10-17",
+    "sources": [
+     "https://www.tapology.com/fightcenter/events/147736-one-friday-fights-177"
+    ],
+    "bouts": [
+     {
+      "segment": "Main card",
+      "weightClass": "Welterweight",
+      "title": "ONE Welterweight Championship",
+      "rounds": 5,
+      "discipline": "MMA",
+      "a": "tap-120701-christian-lee",
+      "aName": "Christian Lee",
+      "b": "tap-214515-tye-ruotolo",
+      "bName": "Tye Ruotolo"
+     }
+    ]
+   }
+  },
+  {
+   "name": "ONE Fight Night 49: Gabriel vs. Rasulov",
+   "promotion": "ONE",
+   "date": "2026-11-06",
+   "startUTC": "2026-11-07T02:00:00Z",
+   "venue": "Lumpinee Boxing Stadium, Bangkok, Thailand",
+   "broadcasters": {
+    "US": "Prime Video",
+    "UK": "Sky Sports (per third-party guide)",
+    "CA": "Prime Video",
+    "AU": "TBA",
+    "IE": "Sky Sports (per third-party guide)",
+    "IN": "TBA",
+    "DE": "TBA",
+    "BR": "TBA"
+   },
+   "sources": [
+    "https://goodfights.app/schedule",
+    "https://www.ufcalendar.com/how-to-watch/one",
+    "https://foreverwatch.net/where-to-watch-mma-fights/",
+    "https://www.tapology.com/fightcenter/events/143727-one-fight-night-49"
+   ],
+   "notes": "ONE Fight Night series streams on Prime Video in US/Canada. Start time per Tapology (9 PM ET Friday = Saturday morning in Bangkok); verify closer to the event.",
+   "id": "one-fight-night-49-gabriel-vs-rasulov",
+   "card": {
+    "status": "announced",
+    "updated": "2026-10-17",
+    "sources": [
+     "https://www.tapology.com/fightcenter/events/143727-one-fight-night-49",
+     "https://en.wikipedia.org/wiki/2026_in_ONE_Championship#ONE_Fight_Night_49"
+    ],
+    "bouts": [
+     {
+      "segment": "Main card",
+      "weightClass": "Lightweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-189663-lucas-gabriel",
+      "aName": "Lucas Gabriel",
+      "b": "tap-121625-alibeg-rasulov",
+      "bName": "Alibeg Rasulov"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Openweight",
+      "discipline": "Grappling",
+      "a": "tap-223592-victor-hugo",
+      "aName": "Victor Hugo",
+      "b": "tap-216955-devhonte-johnson",
+      "bName": "Devhonte Johnson"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Flyweight",
+      "rounds": 3,
+      "discipline": "Kickboxing",
+      "a": "tap-153314-taiki-naito",
+      "aName": "Taiki Naito",
+      "b": "tap-281956-johan-estupinan",
+      "bName": "Johan Estupiñan"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Bantamweight",
+      "rounds": 3,
+      "discipline": "Muay Thai",
+      "a": "tap-196549-katsuki-kitano",
+      "aName": "Katsuki Kitano",
+      "b": "tap-271207-felipe-lobo",
+      "bName": "Felipe Lobo"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Featherweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-340433-qalandar-tabarov",
+      "aName": "Qalandar Tabarov",
+      "b": "tap-216863-ilmadi-israilov",
+      "bName": "Ilmadi Israilov"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Strawweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-222180-vick-souza",
+      "aName": "Victória Souza",
+      "b": "tap-152999-magda-czaban",
+      "bName": "Magdalena Czaban"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "155 lb",
+      "rounds": 3,
+      "discipline": "Kickboxing",
+      "a": "tap-300495-jiaqiang-zhou",
+      "aName": "Jiaqiang Zhou",
+      "b": "tap-280987-mamuka-usubyan",
+      "bName": "Mamuka Usubyan"
+     }
+    ],
+    "note": "Records shown are professional MMA records; Muay Thai, kickboxing and grappling records are not included."
+   }
+  },
+  {
+   "name": "UFC Fight Night: Bonfim vs. Brady",
+   "promotion": "UFC",
+   "date": "2026-11-07",
+   "startUTC": "2026-11-08T01:00:00Z",
+   "venue": "Meta APEX, Las Vegas, USA",
+   "broadcasters": {
+    "US": "Paramount+",
+    "UK": "TNT Sports / HBO Max",
+    "IE": "TNT Sports",
+    "CA": "Sportsnet+ / City TV / TVA Sports",
+    "AU": "Paramount+",
+    "IN": "Sony TEN 2",
+    "DE": "DAZN",
+    "BR": "Paramount+"
+   },
+   "sources": [
+    "https://www.ufc.com/events",
+    "https://www.ufc.com/news/how-watch-and-stream-ufc",
+    "https://www.ufc.com/news/how-to-watch-ufc-in-australia-2026"
+   ],
+   "notes": "Broadcasters follow UFC's 2026 territory pattern (UFC.com how-to-watch); verify per event. Time = main card.",
+   "id": "ufc-fight-night-bonfim-vs-brady",
+   "card": {
+    "status": "announced",
+    "updated": "2026-10-17",
+    "sources": [
+     "https://www.tapology.com/fightcenter/events/147038-ufc-fight-night",
+     "https://en.wikipedia.org/wiki/UFC_Fight_Night:_Bonfim_vs._Brady"
+    ],
+    "bouts": [
+     {
+      "segment": "Main card",
+      "weightClass": "Welterweight",
+      "rounds": 5,
+      "discipline": "MMA",
+      "a": "tap-88338-gabriel-marrentinha",
+      "aName": "Gabriel Bonfim",
+      "b": "tap-32242-sean-brady",
+      "bName": "Sean Brady"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Women's Strawweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-56622-virna-jandiroba",
+      "aName": "Virna Jandiroba",
+      "b": "tap-63005-tatiana-suarez",
+      "bName": "Tatiana Suarez"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Women's Flyweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-69225-karine-silva-killer",
+      "aName": "Karine Silva",
+      "b": "tap-193148-gabriela-fernandes-gaby",
+      "bName": "Gabriella Fernandes"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Bantamweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-18815-david-grant",
+      "aName": "Davey Grant",
+      "b": "tap-289643-elijah-smith",
+      "bName": "Elijah Smith"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Welterweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-289580-jose-henrique-canela",
+      "aName": "José Souza",
+      "b": "tap-99713-johnny-parsons",
+      "bName": "Jonny Parsons"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Featherweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-167070-jose-delano",
+      "aName": "José Delano",
+      "b": "tap-361797-murtazali-magomedov",
+      "bName": "Murtazali Magomedov"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Welterweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-175557-seok-hyun-ko",
+      "aName": "Seok Hyeon Ko",
+      "b": "tap-70129-wellington-turman-fofo",
+      "bName": "Wellington Turman"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Featherweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-251547-austin-bashi",
+      "aName": "Austin Bashi",
+      "b": "tap-162427-lucas-brennan",
+      "bName": "Lucas Brennan"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Light Heavyweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-152109-billy-elekana",
+      "aName": "Billy Elekana",
+      "b": "tap-135406-lucas-fernando",
+      "bName": "Lucas Fernando"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Heavyweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-29107-goozie-hines",
+      "aName": "Alvin Hines",
+      "b": "tap-311998-gabriel-lourenco",
+      "bName": "Gabriel Lorenço"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Featherweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-237487-oliver-schmid",
+      "aName": "Ollie Schmid",
+      "b": "tap-334478-keiichiro-nakamura",
+      "bName": "Keiichiro Nakamura"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Women's Bantamweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-128371-priscila-cachoeira",
+      "aName": "Priscila Cachoeira",
+      "b": "tap-355001-nina-nikolija-milosevic",
+      "bName": "Nina Milošević"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Middleweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-101215-mantas-kandratavicius",
+      "aName": "Mantas Kondratavičius",
+      "b": "tap-222807-wesley-schultz",
+      "bName": "Wes Schultz"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Flyweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-160416-mitch-raposo",
+      "aName": "Mitch Raposo",
+      "b": "tap-240354-marcos-tailandes",
+      "bName": "Marcos Degli"
+     }
+    ]
+   }
+  },
+  {
+   "name": "OKTAGON 97: Severino vs. Holzer",
+   "promotion": "OKTAGON",
+   "date": "2026-11-07",
+   "startUTC": "2026-11-07T17:00:00Z",
+   "venue": "ZAG Arena, Hanover, Germany",
+   "broadcasters": {
+    "US": "TBA",
+    "UK": "TBA",
+    "CA": "TBA",
+    "AU": "TBA",
+    "IE": "TBA",
+    "IN": "TBA",
+    "DE": "RTL+ (per third-party guide)",
+    "BR": "TBA"
+   },
+   "sources": [
+    "https://goodfights.app/schedule",
+    "https://www.tapology.com/fightcenter/events/145768-oktagon-97"
+   ],
+   "notes": "Start time per Tapology.",
+   "id": "oktagon-97-severino-vs-holzer",
+   "card": {
+    "status": "announced",
+    "updated": "2026-10-17",
+    "sources": [
+     "https://www.tapology.com/fightcenter/events/145768-oktagon-97",
+     "https://en.wikipedia.org/wiki/2026_in_Oktagon_MMA"
+    ],
+    "bouts": [
+     {
+      "segment": "Main card",
+      "weightClass": "Bantamweight",
+      "title": "Oktagon Bantamweight Championship",
+      "rounds": 5,
+      "discipline": "MMA",
+      "a": "tap-229458-igor-da-silva-severino-cogumelo",
+      "aName": "Igor Severino",
+      "b": "tap-255458-max-holzer",
+      "bName": "Max Holzer"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Welterweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-106414-daniel-makin",
+      "aName": "Daniel Makin",
+      "b": "tap-86333-petr-bartonk",
+      "bName": "Petr Bartoněk"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Featherweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-125750-gjoni-palokaj",
+      "aName": "Gjoni Palokaj",
+      "b": "tap-90413-zafar-mohsen",
+      "bName": "Zafar Mohsen"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Featherweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-537547-haci-akseker",
+      "aName": "Haci Akseker",
+      "b": "tap-116079-jonatan-kujawa",
+      "bName": "Jonatan Kujawa"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Middleweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-370147-justin-detzel",
+      "aName": "Justin Detzel",
+      "b": "tap-362261-kacper-fratczak-chini",
+      "bName": "Kacper Frątczak"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Welterweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-539975-jan-holzer",
+      "aName": "Jan Holzer",
+      "b": "tap-537366-rasto-zvara",
+      "bName": "Rastislav Zvara"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Featherweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-127463-karol-rysavy",
+      "aName": "Karol Ryšavý",
+      "b": "tap-229953-samuel-bark-sammon-decker",
+      "bName": "Samuel Bark"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Catchweight (159 lb)",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-107207-ozan-aslaner",
+      "aName": "Ozan Aslaner",
+      "b": "tap-304840-denis-frimpong",
+      "bName": "Denis Frimpong"
+     }
+    ]
+   }
+  },
+  {
+   "name": "BKFC 96 Glasgow: Cooke vs. Weir",
+   "promotion": "BKFC",
+   "date": "2026-11-07",
+   "startUTC": null,
+   "venue": "OVO Hydro, Glasgow, UK",
+   "broadcasters": {
+    "US": "TBA",
+    "UK": "TBA",
+    "CA": "TBA",
+    "AU": "TBA",
+    "IE": "TBA",
+    "IN": "TBA",
+    "DE": "TBA",
+    "BR": "TBA"
+   },
+   "sources": [
+    "https://goodfights.app/schedule",
+    "https://en.wikipedia.org/wiki/2026_in_Bare_Knuckle_Fighting_Championship"
+   ],
+   "notes": "Bare-knuckle.",
+   "id": "bkfc-96-glasgow-cooke-vs-weir",
+   "card": {
+    "status": "announced",
+    "updated": "2026-10-17",
+    "sources": [
+     "https://en.wikipedia.org/wiki/2026_in_Bare_Knuckle_Fighting_Championship#BKFC_96_Glasgow:_Cooke_vs._Weir"
+    ],
+    "bouts": [
+     {
+      "weightClass": "Light Heavyweight",
+      "title": "BKFC UK Light Heavyweight Championship",
+      "discipline": "Bare-knuckle",
+      "aName": "Conor Cooke",
+      "bName": "Sean Weir"
+     },
+     {
+      "weightClass": "Middleweight",
+      "discipline": "Bare-knuckle",
+      "aName": "Stevie Ray",
+      "bName": "Danny Christie"
+     },
+     {
+      "weightClass": "Bantamweight",
+      "discipline": "Bare-knuckle",
+      "aName": "Scott Malone",
+      "bName": "Kieron Sewell"
+     },
+     {
+      "weightClass": "Light Heavyweight",
+      "discipline": "Bare-knuckle",
+      "aName": "Rhys Pagan",
+      "bName": "Danny Moir"
+     },
+     {
+      "weightClass": "Bantamweight",
+      "discipline": "Bare-knuckle",
+      "aName": "Cory Chapman",
+      "bName": "Lewis Dixon"
+     },
+     {
+      "weightClass": "Welterweight",
+      "discipline": "Bare-knuckle",
+      "aName": "Doalty Torrance",
+      "bName": "Kyle Cassidy"
+     },
+     {
+      "weightClass": "Featherweight",
+      "discipline": "Bare-knuckle",
+      "aName": "Lewis Knox",
+      "bName": "Tommy Carus"
+     },
+     {
+      "weightClass": "Heavyweight",
+      "discipline": "Bare-knuckle",
+      "aName": "Barry Boyle",
+      "bName": "Kaseem Saleem"
+     },
+     {
+      "weightClass": "Middleweight",
+      "discipline": "Bare-knuckle",
+      "aName": "Barry Aikman",
+      "bName": "Cory Hardy"
+     },
+     {
+      "weightClass": "Middleweight",
+      "discipline": "Bare-knuckle",
+      "aName": "Ian Mulroy",
+      "bName": "Charlie Thomson"
+     },
+     {
+      "weightClass": "Featherweight",
+      "discipline": "Bare-knuckle",
+      "aName": "Dan Morel",
+      "bName": "Owen Webster"
+     }
+    ],
+    "note": "Card listed on Wikipedia only; fighter stats not yet verified, shown as —."
+   }
+  },
+  {
+   "name": "Cage Warriors 212: Spanish Showcase",
+   "promotion": "Cage Warriors",
+   "date": "2026-11-07",
+   "startUTC": null,
+   "venue": "BBC Studioworks Television Centre, London, UK",
+   "broadcasters": {
+    "US": "UFC Fight Pass",
+    "UK": "UFC Fight Pass",
+    "CA": "UFC Fight Pass",
+    "AU": "UFC Fight Pass",
+    "IE": "UFC Fight Pass",
+    "IN": "UFC Fight Pass",
+    "DE": "UFC Fight Pass",
+    "BR": "UFC Fight Pass"
+   },
+   "sources": [
+    "https://cagewarriors.com/cage-warriors-events/"
+   ],
+   "notes": "",
+   "id": "cage-warriors-212-spanish-showcase",
+   "card": {
+    "status": "tba",
+    "updated": "2026-10-17",
+    "sources": [
+     "https://en.wikipedia.org/wiki/2026_in_Cage_Warriors#Cage_Warriors_212"
+    ],
+    "bouts": []
+   }
+  },
+  {
+   "name": "abc presents RIZIN.55: Shinryu vs. Laramie",
+   "promotion": "RIZIN",
+   "date": "2026-11-08",
+   "startUTC": "2026-11-08T05:00:00Z",
+   "venue": "LaLa arena TOKYO-BAY, Funabashi (Chiba), Japan",
+   "broadcasters": {
+    "US": "RIZIN.TV (PPV)",
+    "UK": "RIZIN.TV (PPV)",
+    "CA": "RIZIN.TV (PPV)",
+    "AU": "RIZIN.TV (PPV)",
+    "IE": "RIZIN.TV (PPV)",
+    "IN": "RIZIN.TV (PPV)",
+    "DE": "RIZIN.TV (PPV)",
+    "BR": "RIZIN.TV (PPV)"
+   },
+   "sources": [
+    "https://jp.rizinff.com/_ct/17852466",
+    "https://watch.rizin.tv/featured-category/events/rizin-landmark-17-11-8",
+    "https://www.rizin.tv/",
+    "https://abema.tv/lp/rizin",
+    "https://www.tapology.com/fightcenter/events/146049-rizin-landmark-17-in-chiba"
+   ],
+   "notes": "Official site: 14:00 JST start (scheduled), doors 12:30. Flyweight title: Makoto Shinryu vs. Tony Laramie. Outside Japan: RIZIN.TV PPV ($19.99) or Premium Pass; RIZIN.TV says it is worldwide except a few unnamed restricted regions, so verify for your country. In Japan: ABEMA PPV (also RIZIN LIVE / RIZIN 100 CLUB, Japan only).",
+   "featured": true,
+   "id": "abc-presents-rizin-55-shinryu-vs-laramie",
+   "card": {
+    "status": "announced",
+    "updated": "2026-10-17",
+    "sources": [
+     "https://www.tapology.com/fightcenter/events/146049-rizin-landmark-17-in-chiba",
+     "https://en.wikipedia.org/wiki/2026_in_Rizin_Fighting_Federation#Rizin_55"
+    ],
+    "bouts": [
+     {
+      "segment": "Main card",
+      "weightClass": "Flyweight",
+      "title": "Rizin Flyweight Championship",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-128155-makoto-takahashi",
+      "aName": "Makoto Takahashi",
+      "b": "tap-126998-tony-laramie",
+      "bName": "Tony Laramie"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Bantamweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-39524-ryuya-fukuda",
+      "aName": "Ryuya Fukuda",
+      "b": "tap-13862-soo-chul-kim",
+      "bName": "Soo Chul Kim"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Bantamweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-254268-jinnosuke-kashimura",
+      "aName": "Jinnosuke Kashimura",
+      "b": "tap-279365-shinobu-ota",
+      "bName": "Shinobu Ota"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Featherweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-231813-keola-meheula-abjah",
+      "aName": "Kaleo Meheula",
+      "b": "tap-384882-soyo-aimoto",
+      "bName": "Kazuki Aimoto"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Featherweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-153381-hiroaki-suzuki",
+      "aName": "Hiroaki Suzuki",
+      "b": "tap-399689-chiharu",
+      "bName": "Sei Min Kim"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Featherweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-31839-kentaro-ushiku",
+      "aName": "Juntaro Ushiku",
+      "b": "tap-81509-kaiwen-li",
+      "bName": "Kaiwen Li"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Lightweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-76016-kyung-pyo-kim",
+      "aName": "Kyung Pyo Kim",
+      "b": "tap-361211-nurkhan-zhumagazy",
+      "bName": "Nurkhan Zhumagazy"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Lightweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-163022-tatsuya-saiga-yanbo",
+      "aName": "Tatsuya Saika",
+      "b": "tap-347587-daigo-kuramoto",
+      "bName": "Daigo Kuramoto"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Bantamweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-23454-taichi-nakashima",
+      "aName": "Taichi Nakajima",
+      "b": "tap-351609-tsukasa-mizoguchi",
+      "bName": "Tsukasa Mizoguchi"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Flyweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-242493-rikiya-matsuzawa",
+      "aName": "Rikiya Matsuzawa",
+      "b": "tap-237609-rune-kimura",
+      "bName": "Rio Kimura"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Flyweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-212328-takumi-hamada",
+      "aName": "Takumi Hamada",
+      "b": "tap-190932-sho-sekihara",
+      "bName": "Sho Sekihara"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Bantamweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-60855-naoki-inoue",
+      "aName": "Naoki Inoue",
+      "b": "tap-357301-yrysbek-tilenov",
+      "bName": "Yrysbek Tilenov"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Featherweight",
+      "rounds": 2,
+      "discipline": "MMA",
+      "a": "tap-528463",
+      "aName": "Shunya Inoue",
+      "b": "tap-528630-mighty-saw",
+      "bName": "Mighty Saw"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Featherweight",
+      "rounds": 2,
+      "discipline": "MMA",
+      "a": "tap-145657-naohiro-matsumoto",
+      "aName": "Naohiro Matsumoto",
+      "b": "tap-516931-masachika-takahashi",
+      "bName": "Masachika Takahashi"
+     }
+    ]
+   }
+  },
+  {
+   "name": "ONE Friday Fights 178",
+   "promotion": "ONE",
+   "date": "2026-11-13",
+   "startUTC": "2026-11-13T11:30:00Z",
+   "venue": "Lumpinee Stadium, Bangkok, Thailand",
+   "broadcasters": {
+    "US": "TBA",
+    "UK": "TBA",
+    "CA": "TBA",
+    "AU": "TBA",
+    "IE": "TBA",
+    "IN": "TBA",
+    "DE": "TBA",
+    "BR": "TBA"
+   },
+   "sources": [
+    "https://goodfights.app/schedule",
+    "https://www.tapology.com/fightcenter/events/147737-one-friday-fights-178"
+   ],
+   "notes": "",
+   "id": "one-friday-fights-178",
+   "card": {
+    "status": "announced",
+    "updated": "2026-10-17",
+    "sources": [
+     "https://www.tapology.com/fightcenter/events/147737-one-friday-fights-178"
+    ],
+    "bouts": [
+     {
+      "segment": "Prelims",
+      "weightClass": "135 lb",
+      "rounds": 3,
+      "discipline": "Muay Thai",
+      "a": "tap-208722-rodtang-jitmuangnon-the-iron-man",
+      "aName": "Rodtang Jitmuangnon",
+      "b": "tap-209737-nong-o-gaiyanghadao",
+      "bName": "Nong-O"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "135 lb",
+      "rounds": 3,
+      "discipline": "Muay Thai",
+      "a": "tap-272748-shimon-pk",
+      "aName": "Shimon Yoshinari",
+      "b": "tap-386574-ramadan-ondash",
+      "bName": "Ramadan Ondash"
+     }
+    ],
+    "note": "Records shown are professional MMA records; Muay Thai, kickboxing and grappling records are not included."
+   }
+  },
+  {
+   "name": "LFA 246: TBA",
+   "promotion": "LFA",
+   "date": "2026-11-13",
+   "startUTC": "2026-11-14T02:00:00Z",
+   "venue": "TBA, Brazil",
+   "broadcasters": {
+    "US": "TBA",
+    "UK": "TBA",
+    "CA": "TBA",
+    "AU": "TBA",
+    "IE": "TBA",
+    "IN": "TBA",
+    "DE": "TBA",
+    "BR": "TBA"
+   },
+   "sources": [
+    "https://www.lfa.com/events/list/",
+    "https://www.tapology.com/fightcenter/events/148241-lfa-246"
+   ],
+   "notes": "Card and exact venue to be announced (Tapology: Brazil, Vice TV).",
+   "id": "lfa-246-tba",
+   "card": {
+    "status": "tba",
+    "updated": "2026-10-17",
+    "sources": [
+     "https://www.tapology.com/fightcenter/events/148241-lfa-246"
+    ],
+    "bouts": []
+   }
+  },
+  {
+   "name": "PFL Dubai: Nemkov vs. Bilostenniy",
+   "promotion": "PFL",
+   "date": "2026-11-14",
+   "startUTC": "2026-11-14T17:00:00Z",
+   "venue": "Coca-Cola Arena, Dubai, UAE",
+   "broadcasters": {
+    "US": "TBA",
+    "UK": "TBA",
+    "CA": "TBA",
+    "AU": "TBA",
+    "IE": "TBA",
+    "IN": "TBA",
+    "DE": "TBA",
+    "BR": "TBA"
+   },
+   "sources": [
+    "https://www.espn.com/mma/schedule",
+    "https://www.sherdog.com/events/upcoming/2-page"
+   ],
+   "notes": "Time from ESPN schedule listing (approx. card start). PFL broadcasters vary per card — TBA.",
+   "featured": true,
+   "id": "pfl-dubai-nemkov-vs-bilostenniy",
+   "card": {
+    "status": "announced",
+    "updated": "2026-10-17",
+    "sources": [
+     "https://www.tapology.com/fightcenter/events/147315-pfl-dubai",
+     "https://en.wikipedia.org/wiki/PFL_Dubai:_Nemkov_vs._Bilostenniy"
+    ],
+    "bouts": [
+     {
+      "segment": "Main card",
+      "weightClass": "Heavyweight",
+      "title": "PFL Heavyweight Championship",
+      "rounds": 5,
+      "discipline": "MMA",
+      "a": "tap-62209-vadim-nemkov",
+      "aName": "Vadim Nemkov",
+      "b": "tap-104366-sergey-belostenniy",
+      "bName": "Sergey Bilostenniy"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Welterweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-209285-patrick-habirora",
+      "aName": "Patrick Habirora",
+      "b": "tap-143448-omar-el-dafrawy",
+      "bName": "Omar El Dafrawy"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Heavyweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-399362-poya-rahmani",
+      "aName": "Pouya Rahmani",
+      "b": "tap-117155-oleg-popov",
+      "bName": "Oleg Popov"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Bantamweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-17135-sergio-pettis",
+      "aName": "Sergio Pettis",
+      "b": "tap-120270-takechi-goto",
+      "bName": "Joji Goto"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Welterweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-65871-abubakr-nurmagomedov",
+      "aName": "Abubakar Nurmagomedov",
+      "b": "tap-61637-david-russell",
+      "bName": "David Martinez"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Featherweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-212534-gasan-magomedsharipov",
+      "aName": "Khasan Magomedsharipov",
+      "b": "tap-94515-adam-borics",
+      "bName": "Ádám Borics"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Featherweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-202606-asael-adjoudj",
+      "aName": "Asaël Adjoudj",
+      "b": "tap-68161-mavlidin-khaibulaev",
+      "bName": "Movlid Khaybulaev"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Welterweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-226008-ernesto-rodriguez",
+      "aName": "Ernesto Rodriguez",
+      "b": "tap-54321-rhys-mckee",
+      "bName": "Rhys McKee"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Lightweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-130621-shaqueme-rock",
+      "aName": "Shem Rock",
+      "b": "tap-165001-connor-hughes",
+      "bName": "Connor Hughes"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Lightweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-230250-alexei-pergande",
+      "aName": "Alexei Pergande",
+      "b": "tap-168662-akhmed-magomedov",
+      "bName": "Akhmed Magomedov"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Bantamweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-168234-lewis-mcgrillen-evans",
+      "aName": "Lewis McGrillen",
+      "b": "tap-68572-nawras-abzakh",
+      "bName": "Nawras Abzakh"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Welterweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-375445-khamzat-abaev",
+      "aName": "Khamzat Abaev",
+      "b": "tap-149133-leon-hill",
+      "bName": "Leon Hill"
+     }
+    ]
+   }
+  },
+  {
+   "name": "UFC 334: Gane vs. Hokit",
+   "promotion": "UFC",
+   "date": "2026-11-14",
+   "startUTC": "2026-11-15T02:00:00Z",
+   "venue": "Madison Square Garden, New York, USA",
+   "broadcasters": {
+    "US": "Paramount+",
+    "UK": "TNT Sports Box Office (main card) / HBO Max",
+    "IE": "TNT Sports Box Office (main card)",
+    "CA": "PPV (main card); Sportsnet+ / TVA Sports (prelims)",
+    "AU": "Main Event PPV on Foxtel/Kayo (main card); Paramount+ / Network 10 (prelims)",
+    "IN": "Sony TEN 2",
+    "DE": "DAZN / UFC PPV on UFC Fight Pass",
+    "BR": "Paramount+"
+   },
+   "sources": [
+    "https://www.ufc.com/events",
+    "https://www.ufc.com/news/how-watch-and-stream-ufc",
+    "https://www.ufc.com/news/how-to-watch-ufc-in-australia-2026"
+   ],
+   "notes": "Broadcasters follow UFC's 2026 territory pattern (UFC.com how-to-watch); verify per event. Time = main card. UFC.com page showed conflicting prelim times; 9 PM EST main card from event header.",
+   "featured": true,
+   "id": "ufc-334-gane-vs-hokit",
+   "card": {
+    "status": "announced",
+    "updated": "2026-10-17",
+    "sources": [
+     "https://www.tapology.com/fightcenter/events/147320-ufc-334",
+     "https://en.wikipedia.org/wiki/UFC_334"
+    ],
+    "bouts": [
+     {
+      "segment": "Main card",
+      "weightClass": "Heavyweight",
+      "title": "UFC Heavyweight Championship",
+      "rounds": 5,
+      "discipline": "MMA",
+      "a": "tap-187819-cyril-gane-real-c",
+      "aName": "Ciryl Gane",
+      "b": "tap-403293-josh-hokit",
+      "bName": "Josh Hokit",
+      "odds": {
+       "a": -275,
+       "b": 210,
+       "books": 5
+      }
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Women's Bantamweight",
+      "title": "UFC Women's Bantamweight Championship",
+      "rounds": 5,
+      "discipline": "MMA",
+      "a": "tap-34265-kayla-harrison",
+      "aName": "Kayla Harrison",
+      "b": "tap-amanda-nunes-lioness-of-the-ring",
+      "bName": "Amanda Nunes",
+      "odds": {
+       "a": -205,
+       "b": 163,
+       "books": 5
+      }
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Flyweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-301015-luis-gurule",
+      "aName": "Luis Gurule",
+      "b": "tap-326683-bilal-hasan",
+      "bName": "Bilal Hasan"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Middleweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-107316-caio-borralho-cara-de-kombi",
+      "aName": "Caio Borralho",
+      "b": "tap-237485-yousri-belgaroui-baby-face-assassin",
+      "bName": "Yousri Belgaroui"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Welterweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-175629-uros-medic",
+      "aName": "Uros Medic",
+      "b": "tap-35757-kevin-holland",
+      "bName": "Kevin Holland"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Bantamweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-34063-adrian-yanez",
+      "aName": "Adrian Yanez",
+      "b": "tap-170071-juan-diaz",
+      "bName": "Juan Díaz"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Welterweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-16753-stephen-thompson-wonderboy",
+      "aName": "Stephen Thompson",
+      "b": "tap-29374-charlie-radtke",
+      "bName": "Charles Radtke"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Lightweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-drew-dober",
+      "aName": "Drew Dober",
+      "b": "tap-68484-chris-duncan",
+      "bName": "Chris Duncan"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Lightweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-jim-miller",
+      "aName": "Jim Miller",
+      "b": "tap-126382-terrance-mckinney",
+      "bName": "Terrance McKinney"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Women's Bantamweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-77737-macy-chiasson",
+      "aName": "Macy Chiasson",
+      "b": "tap-210835-beatriz-mesquita",
+      "bName": "Bia Mesquita"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Middleweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-342862-donte-johnson",
+      "aName": "Donte Johnson",
+      "b": "tap-126015-csar-almeida",
+      "bName": "César Almeida"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Lightweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-101043-melquizael-costa-melkcalty",
+      "aName": "Melquizael Costa",
+      "b": "tap-17754-jared-gordon",
+      "bName": "Jared Gordon"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Lightweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-108144-evan-elders",
+      "aName": "Evan Elder",
+      "b": "tap-305793-samuel-sanches",
+      "bName": "Samuel Sanches"
+     }
+    ]
+   },
+   "odds": {
+    "source": "BestFightOdds",
+    "url": "https://www.bestfightodds.com/events/ufc-334-4370",
+    "asOf": "2026-10-17 22:00 UTC",
+    "method": "consensus = median implied probability across the sportsbooks BestFightOdds listed for each fighter"
+   }
+  },
+  {
+   "name": "Cage Warriors 213: London",
+   "promotion": "Cage Warriors",
+   "date": "2026-11-14",
+   "startUTC": null,
+   "venue": "BBC Studioworks Television Centre, London, UK",
+   "broadcasters": {
+    "US": "UFC Fight Pass",
+    "UK": "UFC Fight Pass",
+    "CA": "UFC Fight Pass",
+    "AU": "UFC Fight Pass",
+    "IE": "UFC Fight Pass",
+    "IN": "UFC Fight Pass",
+    "DE": "UFC Fight Pass",
+    "BR": "UFC Fight Pass"
+   },
+   "sources": [
+    "https://cagewarriors.com/cage-warriors-events/"
+   ],
+   "notes": "",
+   "id": "cage-warriors-213-london",
+   "card": {
+    "status": "tba",
+    "updated": "2026-10-17",
+    "sources": [
+     "https://en.wikipedia.org/wiki/2026_in_Cage_Warriors#Cage_Warriors_213"
+    ],
+    "bouts": []
+   }
+  },
+  {
+   "name": "XTB KSW 123: Bartosiński vs. Łopaczyk",
+   "promotion": "KSW",
+   "date": "2026-11-21",
+   "startUTC": "2026-11-21T18:00:00Z",
+   "venue": "Enea Arena (formerly Netto Arena), Szczecin, Poland",
+   "broadcasters": {
+    "US": "KSW TV (PPV)",
+    "UK": "KSW TV (PPV)",
+    "CA": "KSW TV (PPV)",
+    "AU": "KSW TV (PPV)",
+    "IE": "KSW TV (PPV)",
+    "IN": "KSW TV (PPV)",
+    "DE": "KSW TV (PPV)",
+    "BR": "KSW TV (PPV)"
+   },
+   "sources": [
+    "https://www.kswmma.com/en/event/xtb-ksw-123",
+    "https://www.kswmma.com/en/news/xtb-ksw-122-where-to-watch",
+    "https://www.ufcalendar.com/how-to-watch/ksw-ksw-123-2026-11-21"
+   ],
+   "notes": "Official site: 19:00 local (CET) start. Welterweight title main event; Mircea vs. Held lightweight title co-main. Broadcasters follow KSW's official pattern (KSW 122: CANAL+ in Poland, KSWTV.COM in all other countries); no KSW 123-specific watch notice yet, so verify closer to the event.",
+   "featured": true,
+   "id": "xtb-ksw-123-bartosinski-vs-lopaczyk",
+   "card": {
+    "status": "announced",
+    "updated": "2026-10-17",
+    "sources": [
+     "https://www.tapology.com/fightcenter/events/147781-ksw-123",
+     "https://en.wikipedia.org/wiki/2026_in_Konfrontacja_Sztuk_Walki"
+    ],
+    "bouts": [
+     {
+      "segment": "Main card",
+      "weightClass": "Welterweight",
+      "title": "KSW Welterweight Championship",
+      "rounds": 5,
+      "discipline": "MMA",
+      "a": "tap-170800-adrian-bartosiski",
+      "aName": "Adrian Bartosiński",
+      "b": "tap-143116-tymoteusz-opaczyk",
+      "bName": "Tymoteusz Łopaczyk"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Lightweight",
+      "title": "vacant KSW Lightweight Championship",
+      "rounds": 5,
+      "discipline": "MMA",
+      "a": "tap-105476-valeriu-mircea",
+      "aName": "Valeriu Mircea",
+      "b": "tap-marcin-held",
+      "bName": "Marcin Held"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Welterweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-162050-oskar-szczepaniak",
+      "aName": "Oskar Szczepaniak",
+      "b": "tap-159342-steven-krt",
+      "bName": "Steven Krt"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Lightweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-113185-wojciech-kawa",
+      "aName": "Wojciech Kawa",
+      "b": "tap-222905-sasha-moisa",
+      "bName": "Oleksandr Moisa"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Middleweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-31414-tomasz-romanowski",
+      "aName": "Tomasz Romanowski",
+      "b": "tap-72618-igor-michaliszyn",
+      "bName": "Igor Michaliszyn"
+     }
+    ]
+   }
+  },
+  {
+   "name": "UFC Fight Night: Procházka vs. Stirling",
+   "promotion": "UFC",
+   "date": "2026-11-21",
+   "startUTC": "2026-11-21T18:00:00Z",
+   "venue": "Ali Bin Hamad al-Attiyah Arena, Al Rayyan (Doha), Qatar",
+   "broadcasters": {
+    "US": "Paramount+",
+    "UK": "TNT Sports / HBO Max",
+    "IE": "TNT Sports",
+    "CA": "Sportsnet+ / City TV / TVA Sports",
+    "AU": "Paramount+",
+    "IN": "Sony TEN 2",
+    "DE": "DAZN",
+    "BR": "Paramount+"
+   },
+   "sources": [
+    "https://www.ufc.com/event/ufc-fight-night-november-21-2026",
+    "https://www.tapology.com/fightcenter/events/148467-ufc-fight-night",
+    "https://en.wikipedia.org/wiki/List_of_UFC_events"
+   ],
+   "notes": "Broadcasters follow UFC's 2026 territory pattern (UFC.com how-to-watch); verify per event. Time = main card (UFC.com: prelims 15:00 UTC, main card 18:00 UTC).",
+   "id": "ufc-fight-night-prochazka-vs-stirling",
+   "card": {
+    "status": "announced",
+    "updated": "2026-10-17",
+    "sources": [
+     "https://www.tapology.com/fightcenter/events/148467-ufc-fight-night",
+     "https://en.wikipedia.org/wiki/UFC_Fight_Night:_Proch%C3%A1zka_vs._Stirling"
+    ],
+    "bouts": [
+     {
+      "segment": "Main card",
+      "weightClass": "Light Heavyweight",
+      "rounds": 5,
+      "discipline": "MMA",
+      "a": "tap-34779-jiri-prochazka",
+      "aName": "Jiří Procházka",
+      "b": "tap-259609-navajo-sterling",
+      "bName": "Navajo Stirling"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Featherweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-aljamain-sterling",
+      "aName": "Aljamain Sterling",
+      "b": "tap-227542-kevin-vallejos",
+      "bName": "Kevin Vallejos"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Flyweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-19983-kyoji-horiguchi",
+      "aName": "Kyoji Horiguchi",
+      "b": "tap-127726-khamzat-sakalov",
+      "bName": "Asu Almabayev"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Lightweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-18854-daniel-hooker",
+      "aName": "Dan Hooker",
+      "b": "tap-40994-brian-ortega",
+      "bName": "Brian Ortega"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Middleweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-108253-ikram-aliskerov",
+      "aName": "Ikram Aliskerov",
+      "b": "tap-63163-jared-cannonier",
+      "bName": "Jared Cannonier"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Bantamweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-346450-santiago-luna",
+      "aName": "Santiago Luna",
+      "b": "tap-100890-alex-topuria",
+      "bName": "Aleksandre Topuria"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Lightweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-208204-emanuel-souza",
+      "aName": "Manoel Sousa",
+      "b": "tap-286665-magomed-zaynukov",
+      "bName": "Magomed Zaynukov"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Heavyweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-201352-shamil-gaziev",
+      "aName": "Shamil Gaziev",
+      "b": "tap-313650-xicao-teixeira",
+      "bName": "Tallison Teixeira"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Flyweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-84737-amir-albazi",
+      "aName": "Amir Albazi",
+      "b": "tap-125815-alessandro-costa",
+      "bName": "Alessandro Costa"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Welterweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-45260-jake-matthews",
+      "aName": "Jake Matthews",
+      "b": "tap-163438-tahir-abdullaev-tank",
+      "bName": "Tahir Abdullayev"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Lightweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-36808-nikolas-palhares",
+      "aName": "Nikolas Motta",
+      "b": "tap-196890-dom-mar-fan",
+      "bName": "Dom Mar Fan"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Bantamweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-196666-jaqueline-cavalcanti",
+      "aName": "Jacqueline Cavalcanti",
+      "b": "tap-237486-michell-montague",
+      "bName": "Michelle Montague"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Light Heavyweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-181154-diyar-nurkozhay",
+      "aName": "Diyar Nurgozhay",
+      "b": "tap-237265-alik-lorenz",
+      "bName": "Alik Lorenz"
+     }
+    ]
+   }
+  },
+  {
+   "name": "OKTAGON 98: Legierski vs. Buchinger",
+   "promotion": "OKTAGON",
+   "date": "2026-11-21",
+   "startUTC": "2026-11-21T17:00:00Z",
+   "venue": "Werk Arena, Třinec, Czechia",
+   "broadcasters": {
+    "US": "TBA",
+    "UK": "TBA",
+    "CA": "TBA",
+    "AU": "TBA",
+    "IE": "TBA",
+    "IN": "TBA",
+    "DE": "RTL+ (per third-party guide)",
+    "BR": "TBA"
+   },
+   "sources": [
+    "https://www.tapology.com/fightcenter/events/146790-oktagon-98",
+    "https://en.wikipedia.org/wiki/2026_in_Oktagon_MMA"
+   ],
+   "notes": "Start time per Tapology (12:00 PM ET). Broadcasters TBA; OKTAGON events usually stream on OKTAGON.TV.",
+   "id": "oktagon-98-legierski-vs-buchinger",
+   "card": {
+    "status": "announced",
+    "updated": "2026-10-17",
+    "sources": [
+     "https://www.tapology.com/fightcenter/events/146790-oktagon-98",
+     "https://en.wikipedia.org/wiki/2026_in_Oktagon_MMA"
+    ],
+    "bouts": [
+     {
+      "segment": "Main card",
+      "weightClass": "Lightweight",
+      "title": "Oktagon Lightweight Championship",
+      "rounds": 5,
+      "discipline": "MMA",
+      "a": "tap-67799-mateusz-legierski",
+      "aName": "Mateusz Legierski",
+      "b": "tap-4084-ivan-buchinger-buki",
+      "bName": "Ivan Buchinger"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Women's Flyweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-293817-verinika-smolkova",
+      "aName": "Veronika Smolková",
+      "b": "tap-201648-ivana-siric",
+      "bName": "Ivana Petrović"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Middleweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-112719-matj-pez",
+      "aName": "Matěj Peňáz",
+      "b": "tap-109966-kamil-oniszczuk",
+      "bName": "Kamil Oniszczuk"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Featherweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-159059-jakub-batfalsky",
+      "aName": "Jakub Batfalsky",
+      "b": "tap-130846-ayton-de-paepe",
+      "bName": "Ayton De Paepe"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Lightweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-312691-patrik-sebek",
+      "aName": "Patrik Šebek",
+      "b": "tap-183537-adrian-hamerski",
+      "bName": "Adrian Hamerski"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "185 lb",
+      "rounds": 3,
+      "discipline": "Boxing",
+      "a": "tap-286867-martin-prazdny",
+      "aName": "Martin Prázdný",
+      "b": "tap-253524-jindrich-byrtus",
+      "bName": "Jindřich Byrtus"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Middleweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-170276-hojat-khajevand",
+      "aName": "Hojat Khajevand",
+      "b": "tap-154667-mateusz-janur",
+      "bName": "Mateusz Janur"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Middleweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-86314-ondej-raka",
+      "aName": "Ondřej Raška",
+      "b": "tap-66395-dominic-schober",
+      "bName": "Dominic Schober"
+     }
+    ],
+    "note": "Non-MMA bouts are tagged; records shown are pro MMA records."
+   }
+  },
+  {
+   "name": "BKFC Fight Night Clearwater: Reber vs. Street",
+   "promotion": "BKFC",
+   "date": "2026-10-23",
+   "startUTC": "2026-10-23T23:00:00Z",
+   "venue": "OCC Road House, Clearwater, USA",
+   "broadcasters": {
+    "US": "TBA",
+    "UK": "TBA",
+    "CA": "TBA",
+    "AU": "TBA",
+    "IE": "TBA",
+    "IN": "TBA",
+    "DE": "TBA",
+    "BR": "TBA"
+   },
+   "sources": [
+    "https://www.tapology.com/fightcenter/events/143223-bkfc-fight-night-clearwater",
+    "https://en.wikipedia.org/wiki/2026_in_Bare_Knuckle_Fighting_Championship"
+   ],
+   "notes": "Bare-knuckle. Start time per Tapology (7 PM ET); Tapology lists TrillerTV as broadcaster — unconfirmed per country.",
+   "id": "bkfc-fight-night-clearwater-reber-vs-street",
+   "card": {
+    "status": "announced",
+    "updated": "2026-10-17",
+    "sources": [
+     "https://www.tapology.com/fightcenter/events/143223-bkfc-fight-night-clearwater",
+     "https://en.wikipedia.org/wiki/2026_in_Bare_Knuckle_Fighting_Championship"
+    ],
+    "bouts": [
+     {
+      "segment": "Main card",
+      "weightClass": "Bantamweight",
+      "discipline": "Bare-knuckle",
+      "a": "tap-335404-ryan-reber",
+      "aName": "Ryan Reber",
+      "b": "tap-119672-justin-street",
+      "bName": "Justin Street"
+     },
+     {
+      "segment": "Main card",
+      "discipline": "Bare-knuckle",
+      "a": "tap-52015-jared-warren",
+      "aName": "Jared Warren",
+      "b": "tap-29030-tom-angeloff",
+      "bName": "Tom Angeloff"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Bantamweight",
+      "discipline": "Bare-knuckle",
+      "a": "tap-168954-michael-larrimore",
+      "aName": "Michael Larrimore",
+      "b": "tap-86966-nate-morrow",
+      "bName": "Nate Morrow"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Welterweight",
+      "discipline": "Bare-knuckle",
+      "a": "tap-47166-mike-heckert",
+      "aName": "Mike Heckert",
+      "b": "tap-336199-rickie-mcconnico",
+      "bName": "Rickie McConnico"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Women's Strawweight",
+      "discipline": "Bare-knuckle",
+      "a": "tap-143353-crystal-van-wyk",
+      "aName": "Crystal Van Wyk",
+      "b": "tap-330091-noelia-vasallo-piper",
+      "bName": "Noelia Piper Vasallo"
+     },
+     {
+      "segment": "Main card",
+      "discipline": "Bare-knuckle",
+      "a": "tap-59860-tony-murphy",
+      "aName": "Tony Murphy",
+      "b": "tap-24329-brandon-conley-the-bulldog",
+      "bName": "Brandon Conley"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Middleweight",
+      "discipline": "Bare-knuckle",
+      "a": "tap-349423-tyler-baker",
+      "aName": "Tyler Baker",
+      "b": "tap-585356-yari-kaganovsky",
+      "bName": "Yari Kaganovsky"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Light Heavyweight",
+      "discipline": "Bare-knuckle",
+      "a": "tap-243104-sam-delao",
+      "aName": "Sam DeLao",
+      "b": "tap-484891-chris-keirn",
+      "bName": "Chris Keirn"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Lightweight",
+      "discipline": "Bare-knuckle",
+      "a": "tap-338622-jason-dinunzio",
+      "aName": "Jason DiNunzio",
+      "b": "tap-174693-gabriel-freyre-warrior-of-god",
+      "bName": "Gabriel Freyre"
+     },
+     {
+      "segment": "Main card",
+      "discipline": "Bare-knuckle",
+      "a": "tap-325874-gregorio-gonzalez-chachi-versace",
+      "aName": "Gregorio Gonzalez",
+      "b": "tap-132948-angelo-trujillo",
+      "bName": "Angelo Trujillo"
+     }
+    ],
+    "note": "Records shown are professional MMA records (Tapology); bare-knuckle records are not included."
+   }
+  }
+ ]
 }

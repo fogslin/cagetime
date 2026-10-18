@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MMA rankings — UFC, PFL, ONE, KSW, OKTAGON, BKFC &amp; champions | CageTime</title>
+<meta name="description" content="Official rankings and champions from UFC, PFL, ONE, KSW, OKTAGON and BKFC, plus current RIZIN, Cage Warriors and LFA champions. Pound-for-pound lists, division champions and contenders #1-#15 with movement.">
+<meta name="theme-color" content="#0b0b0e">
+<link rel="canonical" href="https://getcagetime.com/rankings.html">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="CageTime">
+<meta property="og:title" content="MMA rankings by promotion — CageTime">
+<meta property="og:description" content="Official promotion rankings and champions: pound-for-pound, every division, contenders and movement.">
+<meta property="og:url" content="https://getcagetime.com/rankings.html">
+<meta property="og:image" content="https://getcagetime.com/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="MMA rankings by promotion — CageTime">
+<meta name="twitter:description" content="Official promotion rankings and champions, every division.">
+<meta name="twitter:image" content="https://getcagetime.com/og-image.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Oswald:wght@500;600;700&amp;display=swap">
+<link rel="stylesheet" href="style.css?v=20261018b">
+</head>
+<body class="page-rankings">
+<a class="skip" href="#rankings">Skip to rankings</a>
+<header class="topbar">
+  <div class="wrap topbar-in">
+    <a class="logo" href="./" aria-label="CageTime home"><img src="favicon.svg" alt="" width="28" height="28"><span>CAGE<b>TIME</b></span></a>
+    <nav aria-label="Main"><a href="./#events">Events</a><a href="rankings.html" class="is-active" aria-current="page">Rankings</a><a href="./#newsletter">Newsletter</a><a href="#corrections">Corrections</a><a href="credits.html">Credits</a></nav>
+  </div>
+</header>
+
+<section class="rk-hero" aria-labelledby="rk-title">
+  <div class="wrap rk-hero-in">
+    <div>
+      <p class="eyebrow">Official promotion rankings</p>
+      <h1 id="rk-title">Rankings</h1>
+      <p class="lede">Pound-for-pound lists, champions and contenders exactly as each promotion publishes them. No third-party rankings.</p>
+    </div>
+    <div class="rk-pick">
+      <label class="ctl" for="rk-promo"><span>Promotion</span>
+        <select id="rk-promo" aria-describedby="rk-pick-help"><option>Loading…</option></select>
+      </label>
+      <p class="rk-help" id="rk-pick-help">Promotions that publish official rankings, then promotions that only list champions.</p>
+    </div>
+  </div>
+</section>
+
+<div class="wrap layout">
+  <main id="rankings" tabindex="-1" aria-live="polite" aria-busy="true">
+    <p class="muted">Loading rankings…</p>
+    <noscript><p class="muted">Rankings need JavaScript. The raw data is at <a href="data/rankings/index.json">data/rankings/</a>.</p></noscript>
+  </main>
+
+  <aside class="rail" aria-label="Sidebar">
+    <!-- AD SLOTS: reserved for future sponsors. Hidden via .is-hidden until real ads are approved. -->
+    <div class="ad-slot ad-rail is-hidden" data-slot="rankings-rail-top" aria-hidden="true"></div>
+    <section class="box rail-box">
+      <h2>About these rankings</h2>
+      <ul class="ticks">
+        <li>Only official lists published by each promotion. Each section names its source and date.</li>
+        <li>▲/▼ = places moved since the promotion's previous update, when the promotion shows it. NR = not previously ranked.</li>
+        <li>Records come from the promotion when it publishes them, otherwise from the fighter's CageTime profile (Tapology).</li>
+        <li>"—" means the source gives no value.</li>
+        <li>Rankings are refreshed weekly.</li>
+      </ul>
+    </section>
+    <div class="ad-slot ad-rail ad-sticky is-hidden" data-slot="rankings-rail-sticky" aria-hidden="true"></div>
+  </aside>
+</div>
+
+<div class="wrap extras">
+  <section class="box" id="newsletter-cta"><h2>Weekly fight-night newsletter</h2><p>Get the week's cards and start times in your time zone. <a href="./#newsletter">Sign up on the events page</a> <span class="ph">(placeholder, nothing is submitted yet)</span></p></section>
+  <section class="box" id="corrections"><h2>Spotted a mistake?</h2><p>Rankings change after every event. <a href="mailto:corrections@example.com?subject=CageTime%20rankings%20correction">Submit a correction</a> <span class="ph">(placeholder address)</span></p></section>
+</div>
+
+<footer class="footer">
+  <div class="wrap">
+    <p class="logo small"><span>CAGE<b>TIME</b></span></p>
+    <p>Rankings data updated <span id="rk-upd">—</span>. Fighter data updated <span id="fupd">—</span>. Rankings and champions belong to their promotions; CageTime only reproduces the official lists with links to the source. "—" = not given by the source. Fighter photos: Wikimedia Commons, see <a href="credits.html">credits</a>.</p>
+    <p class="gamble">Betting odds on the events page are for information only. 18+ only. Please gamble responsibly — <a href="https://www.begambleaware.org/" rel="noopener" target="_blank">BeGambleAware</a> · US: 1-800-GAMBLER.</p>
+  </div>
+</footer>
+<script src="app.js?v=20261018b" defer></script>
+<script src="rankings.js?v=20261018b" defer></script>
+</body>
+</html>

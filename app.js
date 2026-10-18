@@ -188,10 +188,11 @@ function dlg(){
   }
   return d;
 }
+let baseHash='';
 function closeProfile(){
   const d=document.getElementById('fp');if(d&&d.open)d.close();
   document.documentElement.classList.remove('fp-lock');
-  if(location.hash.startsWith('#fighter='))history.replaceState(null,'',location.pathname+location.search);
+  if(location.hash.startsWith('#fighter='))history.replaceState(null,'',location.pathname+location.search+baseHash);
   if(lastFocus&&document.contains(lastFocus))lastFocus.focus();
 }
 function oppHTML(x){
@@ -211,9 +212,9 @@ let F_cur_name='';
 function fightHTML(x){
   const r=RES[x.result]||[x.result||'—','u'];
   const dec=x.method==='Decision'&&x.round==null;
-  const sr=x.scheduled&&/^(\d+) x/.exec(x.scheduled);
+  const sr=x.scheduled&&/^(\d+) x (\d+) Min/.exec(x.scheduled)||x.scheduled&&/^(\d+) x/.exec(x.scheduled);
   const rnd=x.round!=null?esc(x.round):(dec&&sr?esc(sr[1]):'—');
-  const tm=x.time?esc(x.time):(dec&&sr?'5:00':'—');
+  const tm=x.time?esc(x.time):(dec&&sr?(sr[2]||'5')+':00':'—');
   return `<li class="fx fx-${r[1]}${x.counts===false?' fx-ex':''}">
     <span class="fx-r" title="${esc(r[0])}">${esc(x.result||'—')}</span>
     <div class="fx-main">
@@ -229,6 +230,13 @@ function bars(m,total,label){
   if(!total)return `<div class="pbars"><h4>${label}</h4><p class="muted">—</p></div>`;
   return `<div class="pbars"><h4>${label}</h4>${k.map(([a,b])=>`<div class="pbar"><span>${b}</span><i><b style="width:${Math.round(100*(m[a]||0)/total)}%"></b></i><em>${m[a]||0}</em></div>`).join('')}${m.other?`<div class="pbar"><span>Other</span><i><b style="width:${Math.round(100*m.other/total)}%"></b></i><em>${m.other}</em></div>`:''}</div>`;
 }
+function otherHTML(os){
+  return os.map(s=>{const l=s.listed||{},bs=s.bouts||[];
+    return `<section class="fp-sec fp-other"><h3>${esc(s.label)} <small>${bs.length} pro bout${bs.length===1?'':'s'} listed on Tapology</small></h3>
+      <p class="fp-line"><span>Listed results: <b>${l.W||0}-${l.L||0}-${l.D||0}</b>${l.NC?`, ${l.NC} NC`:''} (W-L-D)</span></p>
+      <p class="fp-small">${esc(s.note||'')}</p>
+      <ol class="fx-list">${bs.map(fightHTML).join('')}</ol></section>`}).join('');
+}
 function profileHTML(id,p){
   const f=F[id]||{},name=p.name||f.name||'Fighter',t=p.totals||{};F_cur_name=name;
   const a=age(f.dob),fl=flag(f.cc);
@@ -238,33 +246,36 @@ function profileHTML(id,p){
   const ph=p.photo||null;
   const u=p.ufc,c=u&&u.career;
   const up=(p.upcoming||[])[0];
-  const fights=p.fights||[];
+  const fights=p.fights||[],os=p.other_sports||[],onlyOther=!fights.length&&os.length>0,o0=os[0]||{},l0=o0.listed||{};
+  const recLine=onlyOther?`${l0.W||0}-${l0.L||0}-${l0.D||0} <small>${esc(o0.label)} bouts listed on Tapology (W-L-D) · no official record published</small>`
+    :`${t.wins!=null?`${t.wins}-${t.losses}-${t.draws}${t.nc?`, ${t.nc} NC`:''}`:dash(f.record)} <small>pro MMA (W-L-D)</small>`;
   return `<header class="fp-head">${avatarHTML(f,name,112)}
       <div><p class="eyebrow">Fighter profile</p><h2 id="fp-title">${fl?`<span class="flag" aria-hidden="true">${fl}</span> `:''}${esc(name)}</h2>
       ${p.nickname||f.nickname?`<p class="fp-nick">“${esc(p.nickname||f.nickname)}”</p>`:''}
-      <p class="fp-rec">${t.wins!=null?`${t.wins}-${t.losses}-${t.draws}${t.nc?`, ${t.nc} NC`:''}`:dash(f.record)} <small>pro MMA (W-L-D)</small></p></div></header>
+      <p class="fp-rec">${recLine}</p></div></header>
     ${ph?`<p class="fp-credit">Photo: ${esc(ph.photo_credit||'—')} · <a href="${esc(safeUrl(ph.photo_license_url||ph.photo_source))}" target="_blank" rel="noopener license">${esc(ph.photo_license||'')}</a> · <a href="${esc(safeUrl(ph.photo_source))}" target="_blank" rel="noopener">Wikimedia Commons</a> (cropped)</p>`:''}
     ${up?`<p class="fp-next">Next: vs ${up.opponent_id&&F[up.opponent_id]&&F[up.opponent_id].profile?`<a href="#fighter=${encodeURIComponent(up.opponent_id)}">${dash(up.opponent)}</a>`:dash(up.opponent)} · ${fmtDateISO(up.date)} · ${dash(up.event)}${up.title_fight?` · 🏆 ${esc(up.title_fight)}`:''}</p>`:''}
     <dl class="fp-bio">${bio.map(([k,v])=>`<div><dt>${k}</dt><dd>${dash(v)}</dd></div>`).join('')}</dl>
-    <section class="fp-sec"><h3>Pro MMA record</h3>
+    ${onlyOther?`<section class="fp-sec"><h3>Pro MMA record</h3><p class="muted">No professional MMA bouts on Tapology.</p></section>`:`<section class="fp-sec"><h3>Pro MMA record</h3>
       <div class="fp-tot"><div class="w"><b>${num(t.wins)}</b><small>Wins</small></div><div class="l"><b>${num(t.losses)}</b><small>Losses</small></div><div><b>${num(t.draws)}</b><small>Draws</small></div><div><b>${num(t.nc)}</b><small>No contests</small></div></div>
       <p class="fp-line"><span>Streak: <b>${st}</b></span><span>Title fights: <b>${num(t.title_fights)}</b>${t.title_fights?` (${t.title_fight_wins} won)`:''}</span></p>
       <div class="fp-bars">${bars(t.win_methods||{},t.wins,'Wins by method')}${bars(t.loss_methods||{},t.losses,'Losses by method')}</div>
-    </section>
+    </section>`}
     ${u?`<section class="fp-sec"><h3>UFC career averages</h3>${c?`<dl class="fp-avg">
       ${[['SLpM',num(c.slpm),'Sig. strikes landed per min'],['Str. Acc',pct(c.str_acc),'Sig. strike accuracy'],['SApM',num(c.sapm),'Sig. strikes absorbed per min'],['Str. Def',pct(c.str_def),'Sig. strike defence'],
          ['TD Avg',num(c.td_avg),'Takedowns per 15 min'],['TD Acc',pct(c.td_acc),'Takedown accuracy'],['TD Def',pct(c.td_def),'Takedown defence'],['Sub Avg',num(c.sub_avg),'Sub. attempts per 15 min']]
         .map(([k,v,tt])=>`<div title="${tt}"><dt>${k}</dt><dd>${v}</dd></div>`).join('')}</dl>
       <p class="fp-small">SLpM, Str. Acc, TD Avg, TD Acc, Sub Avg: ESPN career stats. SApM, Str. Def, TD Def: calculated by CageTime from ESPN per-fight stats of ${num(c.computed_from_fights)} UFC fights. ${u.fights_with_stats} of ${u.ufc_fights} UFC fights have per-fight stats.</p>`:'<p class="muted">No UFC per-fight stats found — shown as —.</p>'}</section>`:''}
-    <section class="fp-sec"><h3>Fight history <small>${fights.length} pro MMA bout${fights.length===1?'':'s'}</small></h3>
-      ${fights.length?`<ol class="fx-list">${fights.map(fightHTML).join('')}</ol>`:'<p class="muted">No professional MMA fights on record.</p>'}</section>
+    ${onlyOther?'':`<section class="fp-sec"><h3>Fight history <small>${fights.length} pro MMA bout${fights.length===1?'':'s'}</small></h3>
+      ${fights.length?`<ol class="fx-list">${fights.map(fightHTML).join('')}</ol>`:'<p class="muted">No professional MMA fights on record.</p>'}</section>`}
+    ${otherHTML(os)}
     <footer class="fp-foot"><p>Last updated ${fmtDateISO(p.updated)}. "—" = not available from our sources. Decisions show the scheduled final round.</p>
       <p>Sources: ${(p.sources||[]).map((s,i)=>`<a href="${esc(safeUrl(s))}" target="_blank" rel="noopener nofollow">[${i+1}] ${esc(String(s).replace(/^https?:\/\/(www\.)?/,'').split('/')[0])}</a>`).join(' ')} · <a href="credits.html">Photo credits</a></p></footer>`;
 }
 function openProfile(id,push){
   if(!id)return;
   const d=dlg(),body=d.querySelector('.fp-body'),f=F[id];
-  if(!d.open){lastFocus=document.activeElement;try{d.showModal()}catch(_){d.setAttribute('open','')}}
+  if(!d.open){lastFocus=document.activeElement;if(!location.hash.startsWith('#fighter='))baseHash=location.hash;try{d.showModal()}catch(_){d.setAttribute('open','')}}
   document.documentElement.classList.add('fp-lock');
   if(push!==false&&location.hash!=='#fighter='+encodeURIComponent(id))history.pushState(null,'','#fighter='+encodeURIComponent(id));
   if(!f||!f.profile){body.innerHTML=`<p class="muted">No profile for this fighter yet.</p>`;return}
@@ -288,6 +299,10 @@ window.addEventListener('hashchange',routeHash);
 
 /* ---------- boot ---------- */
 const getJSON=u=>fetch(u,{cache:'no-cache'}).then(r=>{if(!r.ok)throw new Error(u+' '+r.status);return r.json()});
+/* shared helpers for other pages (rankings.js) */
+const fightersReady=$('#list')?null:getJSON('fighters.json').then(f=>{F=f.fighters||{};FU=f.updated;const u=$('#fupd');if(u&&FU)u.textContent=FU;return F});
+window.CageTime={esc,dash,safeUrl,flag,avatarHTML,initials,openProfile,routeHash,fmtDateISO,PROMO,getJSON,fighters:()=>F,fightersReady};
+if(fightersReady){fightersReady.then(()=>{if(location.hash.startsWith('#fighter='))routeHash()}).catch(err=>console.error(err));return}
 Promise.all([getJSON('events.json'),getJSON('fighters.json').catch(()=>null)]).then(([d,f])=>{
   D=d;if(f){F=f.fighters||{};FU=f.updated}
   D.events.forEach((e,i)=>{if(!e.id)e.id='e'+i});

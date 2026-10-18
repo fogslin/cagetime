@@ -4,33 +4,33 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>CageTime Games — MMA games for fight fans | CageTime</title>
-<meta name="description" content="CageTime Games: free MMA games for fight fans. New games dropping soon.">
+<meta name="description" content="CageTime Games: Free MMA games for fight fans: UFC trivia, a UFC card builder, Career Mode and GM Mode.">
 <meta name="theme-color" content="#0b0b0e">
 <link rel="canonical" href="https://getcagetime.com/games.html">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="CageTime">
 <meta property="og:title" content="CageTime Games">
-<meta property="og:description" content="Free MMA games for fight fans. New games dropping soon.">
+<meta property="og:description" content="Free MMA games for fight fans: UFC trivia, a UFC card builder, Career Mode and GM Mode.">
 <meta property="og:url" content="https://getcagetime.com/games.html">
 <meta property="og:image" content="https://getcagetime.com/og-image.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="CageTime Games">
-<meta name="twitter:description" content="Free MMA games for fight fans. New games dropping soon.">
+<meta name="twitter:description" content="Free MMA games for fight fans: UFC trivia, a UFC card builder, Career Mode and GM Mode.">
 <meta name="twitter:image" content="https://getcagetime.com/og-image.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Oswald:wght@500;600;700&amp;display=swap">
-<link rel="stylesheet" href="style.css?v=20261018c">
+<link rel="stylesheet" href="style.css?v=20261018d">
 </head>
 <body class="page-games">
 <a class="skip" href="#games">Skip to games</a>
 <header class="topbar">
   <div class="wrap topbar-in">
     <a class="logo" href="./" aria-label="CageTime home"><img src="favicon.svg" alt="" width="28" height="28"><span>CAGE<b>TIME</b></span></a>
-    <nav aria-label="Main"><a href="./#events">Events</a><a href="rankings.html">Rankings</a><a href="games.html" class="is-active" aria-current="page">Games</a><a href="./#newsletter">Newsletter</a><a href="#corrections">Corrections</a><a href="credits.html">Credits</a></nav>
+    <nav aria-label="Main"><a href="./#events">Events</a><a href="rankings.html">Rankings</a><a href="games.html" class="is-active" aria-current="page">Games</a><a href="./#newsletter">Newsletter</a><a href="credits.html">Credits</a></nav>
   </div>
 </header>
 
@@ -44,8 +44,12 @@
 
 <main class="wrap gm-main" id="games">
   <h2 class="sr-only">All games</h2>
-  <ul class="gm-grid" id="games-grid" aria-busy="true"></ul>
-  <noscript><p class="muted">Turn on JavaScript to see the games.</p></noscript>
+  <ul class="gm-grid" id="games-grid" aria-busy="true" data-count="4">
+    <li><a class="gm-card" data-game="ufc-trivia" href="games/trivia/index.html"><span class="gm-num" aria-hidden="true">01</span><span class="gm-tag">Trivia</span><h3>UFC Fighter Trivia</h3><p>Champions, results, records and UFC history in 10-question rounds: Easy, Medium, Hard and a daily challenge.</p><span class="gm-go">Play now →</span></a></li>
+    <li><a class="gm-card" data-game="card-builder" href="games/card-builder/index.html"><span class="gm-num" aria-hidden="true">02</span><span class="gm-tag">Matchmaker</span><h3>UFC Card Builder</h3><p>Be the matchmaker: build a fight card from current UFC fighters, get a hype score and card grade, then simulate it.</p><span class="gm-go">Play now →</span></a></li>
+    <li><a class="gm-card" data-game="career" href="games/career/index.html"><span class="gm-num" aria-hidden="true">03</span><span class="gm-tag">Sim</span><h3>Career Mode</h3><p>Create a fighter and climb from the regional circuit to world champion and the Hall of Fame.</p><span class="gm-go">Play now →</span></a></li>
+    <li><a class="gm-card" data-game="gm" href="games/gm/index.html"><span class="gm-num" aria-hidden="true">04</span><span class="gm-tag">Sim</span><h3>GM Mode</h3><p>Run an MMA management stable: scout hidden gems, negotiate purses and collect belts across divisions.</p><span class="gm-go">Play now →</span></a></li>
+  </ul>
 </main>
 
 <div class="wrap extras">
@@ -60,6 +64,6 @@
     <p class="gamble">Betting odds on the events page are for information only. 18+ only. Please gamble responsibly — <a href="https://www.begambleaware.org/" rel="noopener" target="_blank">BeGambleAware</a> · US: 1-800-GAMBLER.</p>
   </div>
 </footer>
-<script src="games.js?v=20261018c" defer></script>
+<script src="games.js?v=20261018d" defer></script>
 </body>
 </html>

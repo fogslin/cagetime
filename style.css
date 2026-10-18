@@ -165,7 +165,6 @@ form input{flex:1;min-width:0}
   .ad-sticky{position:sticky;top:76px}
 }
 @media (max-width:420px){
-  .topbar nav a:nth-child(n+4){display:none}
   .countdown b{font-size:24px}
   .vs{grid-template-columns:1fr;gap:4px}
   .vs-mid{text-align:center;padding:0}
@@ -354,7 +353,11 @@ html.fp-lock{overflow:hidden}
   .rk-champ-n{font-size:19px}
 }
 /* ---------- Games page ---------- */
-@media (max-width:760px){.topbar nav{gap:12px}.topbar nav a{font-size:13px;letter-spacing:.06em}.topbar nav a:nth-child(n+5){display:none}}
+/* top nav, 5 items (Events, Rankings, Games, Newsletter, Credits): all fit down to ~490px; below that Newsletter hides, below 370px Credits too */
+@media (max-width:760px){.topbar nav{gap:12px}.topbar nav a{font-size:13px;letter-spacing:.06em}}
+@media (max-width:520px){.topbar nav a:nth-child(4){display:none}}
+@media (max-width:420px){.topbar .logo{font-size:19px;gap:8px}.topbar .logo img{width:24px;height:24px}.topbar nav{gap:10px}.topbar nav a{font-size:12px;letter-spacing:.05em}}
+@media (max-width:369px){.topbar nav a:nth-child(n+4){display:none}}
 .gm-hero{position:relative;overflow:hidden;border-bottom:1px solid var(--line);
   background:radial-gradient(900px 340px at 85% -10%,rgba(229,19,43,.22),transparent 60%),radial-gradient(600px 300px at 0% 120%,rgba(246,195,67,.08),transparent 60%),var(--bg)}
 .gm-hero::after{content:"";position:absolute;inset:0;background:repeating-linear-gradient(135deg,rgba(255,255,255,.018) 0 2px,transparent 2px 14px);pointer-events:none}
@@ -364,19 +367,28 @@ html.fp-lock{overflow:hidden}
 .gm-main{padding:28px 16px 8px}
 .gm-grid{display:grid;gap:16px;grid-template-columns:1fr;margin:0;padding:0;list-style:none}
 @media (min-width:640px){.gm-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media (min-width:1000px){.gm-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media (min-width:1100px){.gm-grid{grid-template-columns:repeat(4,minmax(0,1fr))}}
 .gm-card{display:flex;flex-direction:column;gap:8px;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:18px;min-height:150px;color:inherit;text-decoration:none;transition:border-color .15s,transform .15s}
 a.gm-card:hover,a.gm-card:focus-visible{border-color:var(--red);transform:translateY(-2px)}
 .gm-card h3{margin:0;font:700 20px/1.15 var(--head);text-transform:uppercase;letter-spacing:.03em}
 .gm-card p{margin:0;color:var(--muted);font-size:14px}
 .gm-tag{align-self:flex-start;font:600 11px/1 var(--head);letter-spacing:.14em;text-transform:uppercase;color:var(--gold);border:1px solid rgba(246,195,67,.4);border-radius:999px;padding:5px 9px}
 .gm-card .gm-go{margin-top:auto;color:var(--red);font:600 13px/1 var(--head);text-transform:uppercase;letter-spacing:.1em}
-.gm-soon{grid-column:1/-1;position:relative;overflow:hidden;text-align:center;align-items:center;justify-content:center;padding:44px 20px;min-height:220px;border-style:dashed;border-color:var(--line2);
   background:radial-gradient(420px 180px at 50% 0%,rgba(229,19,43,.14),transparent 70%),var(--card)}
-.gm-soon h2{margin:6px 0 0;font:700 clamp(26px,5vw,38px)/1.05 var(--head);text-transform:uppercase}
-.gm-soon p{max-width:440px;color:var(--muted)}
-.gm-soon .gm-icon{width:54px;height:54px;border-radius:50%;display:grid;place-items:center;border:2px solid var(--red);color:var(--red);font:700 18px/1 var(--body);padding-left:3px}
 .gm-cta{display:inline-block;margin-top:10px;background:var(--red);color:#fff;text-decoration:none;font:600 14px/1 var(--head);letter-spacing:.08em;text-transform:uppercase;padding:12px 18px;border-radius:10px}
 .gm-cta:hover,.gm-cta:focus-visible{background:var(--red-d)}
 @media (prefers-reduced-motion:reduce){.gm-card{transition:none}a.gm-card:hover{transform:none}}
 .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+/* games grid: 4 live cards with an accent per game */
+.gm-card{position:relative;overflow:hidden;border-top:3px solid var(--gm-ac,var(--red));min-height:200px;background:linear-gradient(180deg,rgba(255,255,255,.025),transparent 50%),var(--card)}
+.gm-card[data-game="ufc-trivia"]{--gm-ac:var(--red)}
+.gm-card[data-game="card-builder"]{--gm-ac:var(--gold)}
+.gm-card[data-game="career"]{--gm-ac:var(--blue)}
+.gm-card[data-game="gm"]{--gm-ac:var(--green)}
+.gm-card::after{content:"";position:absolute;right:-60px;top:-60px;width:180px;height:180px;border-radius:50%;background:radial-gradient(circle,var(--gm-ac,var(--red)),transparent 70%);opacity:.12;pointer-events:none;transition:opacity .2s}
+a.gm-card:hover::after,a.gm-card:focus-visible::after{opacity:.24}
+a.gm-card:hover,a.gm-card:focus-visible{border-color:var(--line2);border-top-color:var(--gm-ac,var(--red));box-shadow:0 14px 34px rgba(0,0,0,.35)}
+.gm-num{position:absolute;right:16px;top:12px;font:700 40px/1 var(--head);color:rgba(255,255,255,.06);letter-spacing:.02em}
+.gm-card .gm-tag{color:var(--gm-ac,var(--gold));border-color:currentColor}
+.gm-card .gm-go{color:var(--gm-ac,var(--red))}
+.gm-grid>li{display:flex}.gm-grid>li>.gm-card{flex:1;width:100%}

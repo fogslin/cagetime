@@ -1,5 +1,38 @@
 {
  "updated": "2026-10-18",
  "_how_to_add": "Add one object per game to 'games'. Fields: id (unique slug), title, blurb (one sentence), url (relative page, e.g. games/xyz.html, or https://...), tag (optional short label), status ('live' or 'soon'). While the list is empty the page shows the 'New games dropping soon' panel.",
- "games": []
+ "games": [
+  {
+   "id": "ufc-trivia",
+   "title": "UFC Fighter Trivia",
+   "blurb": "Champions, results, records and UFC history in 10-question rounds: Easy, Medium, Hard and a daily challenge.",
+   "url": "games/trivia/index.html",
+   "tag": "Trivia",
+   "status": "live"
+  },
+  {
+   "id": "card-builder",
+   "title": "UFC Card Builder",
+   "blurb": "Be the matchmaker: build a fight card from current UFC fighters, get a hype score and card grade, then simulate it.",
+   "url": "games/card-builder/index.html",
+   "tag": "Matchmaker",
+   "status": "live"
+  },
+  {
+   "id": "career",
+   "title": "Career Mode",
+   "blurb": "Create a fighter and climb from the regional circuit to world champion and the Hall of Fame.",
+   "url": "games/career/index.html",
+   "tag": "Sim",
+   "status": "live"
+  },
+  {
+   "id": "gm",
+   "title": "GM Mode",
+   "blurb": "Run an MMA management stable: scout hidden gems, negotiate purses and collect belts across divisions.",
+   "url": "games/gm/index.html",
+   "tag": "Sim",
+   "status": "live"
+  }
+ ]
 }

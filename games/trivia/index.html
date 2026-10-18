@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>UFC Fighter Trivia: Easy, Medium, Hard and a Daily Challenge | CageTime</title>
+<meta name="description" content="Free UFC fighter trivia: champions, rankings, results, records, reach and UFC history. 10-question rounds in Easy, Medium and Hard, plus a daily challenge.">
+<meta name="theme-color" content="#0b0b0e">
+<link rel="canonical" href="https://getcagetime.com/games/trivia/">
+<link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="CageTime">
+<meta property="og:title" content="UFC Fighter Trivia | CageTime">
+<meta property="og:description" content="How well do you know the UFC? 10 questions, 4 choices, a ticking clock. Easy, Medium, Hard and a daily challenge.">
+<meta property="og:url" content="https://getcagetime.com/games/trivia/">
+<meta property="og:image" content="https://getcagetime.com/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Oswald:wght@500;600;700&amp;display=swap">
+<link rel="stylesheet" href="../../style.css?v=20261018d">
+<link rel="stylesheet" href="trivia.css?v=20261018d">
+</head>
+<body class="page-games page-trivia">
+<a class="skip" href="#tv-app">Skip to the game</a>
+<header class="topbar">
+  <div class="wrap topbar-in">
+    <a class="logo" href="../../" aria-label="CageTime home"><img src="../../favicon.svg" alt="" width="28" height="28"><span>CAGE<b>TIME</b></span></a>
+    <nav aria-label="Main"><a href="../../#events">Events</a><a href="../../rankings.html">Rankings</a><a href="../../games.html" class="is-active" aria-current="page">Games</a><a href="../../#newsletter">Newsletter</a><a href="../../credits.html">Credits</a></nav>
+  </div>
+</header>
+
+<main id="tv-app" class="tv-app" aria-live="polite">
+  <!-- START -->
+  <section class="tv-screen tv-start is-on" id="tv-start" aria-labelledby="tv-title">
+    <div class="tv-hero">
+      <div class="wrap">
+        <p class="eyebrow"><a href="../../games.html" class="tv-back">Games</a> / Trivia</p>
+        <h1 id="tv-title">UFC Fighter <span>Trivia</span></h1>
+        <p class="lede">Champions, rankings, results, records, reach and UFC history. 10 questions, 4 choices, beat the clock.</p>
+      </div>
+    </div>
+    <div class="wrap tv-pick">
+      <div class="tv-modes" role="list">
+        <button class="tv-mode" data-mode="e" role="listitem"><span class="tv-mode-tag">x1</span><b>Easy</b><small>Champions, stars and big moments. 20 s per question.</small><em class="tv-best" data-best="e">Best: —</em></button>
+        <button class="tv-mode" data-mode="m" role="listitem"><span class="tv-mode-tag">x1.5</span><b>Medium</b><small>Ranked contenders, results and records. 17 s.</small><em class="tv-best" data-best="m">Best: —</em></button>
+        <button class="tv-mode" data-mode="h" role="listitem"><span class="tv-mode-tag">x2</span><b>Hard</b><small>Deep cuts, stat lines and methods. 15 s.</small><em class="tv-best" data-best="h">Best: —</em></button>
+      </div>
+      <button class="tv-daily" id="tv-daily-btn"><span class="tv-daily-ic" aria-hidden="true">&#9733;</span><span><b>Daily challenge</b><small id="tv-daily-sub">The same 10 questions for everyone today</small></span><em id="tv-daily-status"></em></button>
+      <div class="tv-opts">
+        <button class="tv-ghost" id="tv-sound" aria-pressed="false">Sound: off</button>
+        <span class="muted tv-bank" id="tv-bank">Loading questions…</span>
+      </div>
+      <details class="tv-how box">
+        <summary>How scoring works</summary>
+        <p>Each correct answer is worth 100 points plus up to 100 for speed, plus a streak bonus (+25 for every answer in a row after the first, up to +100). The total is multiplied by the difficulty: Easy x1, Medium x1.5, Hard x2. In the daily challenge each question uses its own difficulty multiplier. Best scores are saved on this device only.</p>
+        <p>Questions are built from CageTime's data: official UFC rankings, Tapology fight records and ESPN UFC stats, plus UFC history facts checked against the cited Wikipedia pages. Records and rankings are as of the last weekly update.</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- PLAY -->
+  <section class="tv-screen tv-play" id="tv-play" aria-label="Question">
+    <div class="wrap tv-play-in">
+      <div class="tv-hud">
+        <div class="tv-hud-l"><span class="tv-label" id="tv-modelabel">Easy</span><b id="tv-qnum">1/10</b></div>
+        <div class="tv-hud-c"><span class="tv-streak" id="tv-streak" title="Streak">0</span></div>
+        <div class="tv-hud-r"><span class="tv-label">Score</span><b id="tv-score">0</b></div>
+      </div>
+      <div class="tv-progress" aria-hidden="true"><i id="tv-prog"></i></div>
+      <div class="tv-timer" aria-hidden="true"><i id="tv-time"></i></div>
+      <article class="tv-card" id="tv-card">
+        <div class="tv-qhead"><span class="tv-type" id="tv-type">Champions</span><span class="tv-diff" id="tv-qdiff"></span><span class="tv-secs" id="tv-secs">20</span></div>
+        <div class="tv-qbody"><img id="tv-qimg" class="tv-qimg" alt="" width="84" height="84" hidden><h2 id="tv-q" class="tv-q"></h2></div>
+        <ol class="tv-choices" id="tv-choices"></ol>
+        <div class="tv-explain" id="tv-explain" hidden>
+          <p class="tv-verdict" id="tv-verdict"></p>
+          <div class="tv-x"><span id="tv-rimgs" class="tv-rimgs"></span><p id="tv-xtext"></p></div>
+          <p class="tv-src" id="tv-src"></p>
+          <button class="tv-next" id="tv-next">Next question</button>
+        </div>
+      </article>
+      <div class="tv-pop" id="tv-pop" aria-hidden="true"></div>
+      <p class="tv-quit"><button class="tv-ghost tv-small" id="tv-quit">Quit round</button></p>
+    </div>
+  </section>
+
+  <!-- RESULTS -->
+  <section class="tv-screen tv-results" id="tv-results" aria-labelledby="tv-rtitle">
+    <div class="wrap tv-res-in">
+      <p class="eyebrow" id="tv-rmode">Easy</p>
+      <h2 id="tv-rtitle" class="tv-rtitle">Round complete</h2>
+      <div class="tv-bigscore"><b id="tv-rscore">0</b><span>points</span></div>
+      <p class="tv-rline" id="tv-rline"></p>
+      <p class="tv-grid" id="tv-rgrid" aria-label="Answers"></p>
+      <p class="tv-newbest" id="tv-newbest" hidden>New personal best!</p>
+      <div class="tv-actions">
+        <button id="tv-share">Copy score to share</button>
+        <button class="tv-ghost" id="tv-again">Play again</button>
+        <button class="tv-ghost" id="tv-menu">Change mode</button>
+      </div>
+      <p class="tv-copied" id="tv-copied" role="status"></p>
+      <textarea class="tv-sharetext" id="tv-sharetext" readonly rows="5" aria-label="Share text"></textarea>
+      <details class="tv-review box"><summary>Review your answers</summary><ol id="tv-review"></ol></details>
+    </div>
+  </section>
+  <div class="tv-confetti" id="tv-confetti" aria-hidden="true"></div>
+</main>
+
+<div class="wrap extras">
+  <section class="box" id="corrections"><h2>Spotted a mistake?</h2><p>Tell us and we'll fix it. <a href="mailto:corrections@example.com?subject=CageTime%20trivia%20feedback">Send feedback</a> <span class="ph">(placeholder address)</span></p></section>
+</div>
+
+<footer class="footer">
+  <div class="wrap">
+    <p class="logo small"><span>CAGE<b>TIME</b></span></p>
+    <p class="tv-legal">Unofficial fan game. Not affiliated with or endorsed by the UFC or any promotion or fighter. Fighter names and stats used for informational purposes.</p>
+    <p>Data: official UFC rankings, Tapology fight records, ESPN UFC stats; history questions link their sources. Fighter photos: Wikimedia Commons, see <a href="../../credits.html">credits</a>. Question bank updated <span id="tv-upd">—</span>.</p>
+  </div>
+</footer>
+<noscript><p class="wrap muted">Turn on JavaScript to play.</p></noscript>
+<script src="trivia.js?v=20261018d" defer></script>
+</body>
+</html>

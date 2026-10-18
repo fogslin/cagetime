@@ -1,0 +1,5 @@
+{
+ "updated": "2026-10-18",
+ "_how_to_add": "Add one object per game to 'games'. Fields: id (unique slug), title, blurb (one sentence), url (relative page, e.g. games/xyz.html, or https://...), tag (optional short label), status ('live' or 'soon'). While the list is empty the page shows the 'New games dropping soon' panel.",
+ "games": []
+}

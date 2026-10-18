@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>UFC Card Builder: matchmake your own fight card | CageTime</title>
+<meta name="description" content="Be the matchmaker. Build a UFC fight card from current ranked and active fighters in every division, get a hype score and card grade, simulate it, and share it.">
+<meta name="theme-color" content="#0b0b0e">
+<link rel="canonical" href="https://getcagetime.com/games/card-builder/">
+<link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="CageTime">
+<meta property="og:title" content="UFC Card Builder | CageTime">
+<meta property="og:description" content="Matchmake your dream card from current UFC fighters. Hype meter, card grade, simulation and share links.">
+<meta property="og:url" content="https://getcagetime.com/games/card-builder/">
+<meta property="og:image" content="https://getcagetime.com/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Oswald:wght@500;600;700&amp;display=swap">
+<link rel="stylesheet" href="../../style.css?v=20261018d">
+<link rel="stylesheet" href="card-builder.css?v=20261018d">
+</head>
+<body class="page-games page-cardbuilder">
+<a class="skip" href="#cb-card">Skip to the card</a>
+<header class="topbar">
+  <div class="wrap topbar-in">
+    <a class="logo" href="../../" aria-label="CageTime home"><img src="../../favicon.svg" alt="" width="28" height="28"><span>CAGE<b>TIME</b></span></a>
+    <nav aria-label="Main"><a href="../../#events">Events</a><a href="../../rankings.html">Rankings</a><a href="../../games.html" class="is-active" aria-current="page">Games</a><a href="../../#newsletter">Newsletter</a><a href="../../credits.html">Credits</a></nav>
+  </div>
+</header>
+
+<section class="cb-hero" aria-labelledby="cb-title">
+  <div class="wrap">
+    <p class="eyebrow"><a href="../../games.html" class="cb-back">Games</a> / Card Builder</p>
+    <h1 id="cb-title">UFC Card <span>Builder</span></h1>
+    <p class="lede">You're the matchmaker. Pick current UFC fighters from every division, chase the hype, grade your card, then simulate it.</p>
+  </div>
+</section>
+
+<main class="wrap cb-main">
+  <div class="cb-toolbar" role="toolbar" aria-label="Card actions">
+    <label class="cb-name"><span>Card name</span><input id="cb-name" maxlength="48" value="CageTime Fight Night" autocomplete="off"></label>
+    <div class="cb-tools">
+      <button id="cb-auto" class="cb-ghost" title="Fill empty slots with sensible matchups">Surprise me</button>
+      <button id="cb-sim">Simulate card</button>
+      <button id="cb-save" class="cb-ghost">Save</button>
+      <button id="cb-sharebtn" class="cb-ghost">Share link</button>
+      <button id="cb-export" class="cb-ghost">Export image</button>
+      <button id="cb-clear" class="cb-ghost">Clear</button>
+    </div>
+  </div>
+  <div class="cb-saved" id="cb-savedbar" hidden><label><span>Saved cards</span><select id="cb-savedsel"><option value="">Load a saved card…</option></select></label><button id="cb-del" class="cb-ghost cb-small">Delete</button></div>
+  <p class="cb-msg" id="cb-msg" role="status"></p>
+  <div class="cb-share" id="cb-share" hidden><input id="cb-shareurl" readonly aria-label="Share link"><button id="cb-copy" class="cb-small">Copy</button></div>
+
+  <div class="cb-layout">
+    <section id="cb-card" class="cb-card" aria-label="Fight card"></section>
+    <aside class="cb-side">
+      <div class="cb-grade" id="cb-grade" aria-live="polite"></div>
+      <div class="box cb-legend">
+        <h2>How it works</h2>
+        <ul>
+          <li><b>Rules:</b> fighters come from the same division. Different divisions make a catchweight bout, and two champions make a super fight. A fighter can only appear once.</li>
+          <li><b>Warnings:</b> rematches (from Tapology fight histories), huge rank gaps and possible teammates (same Tapology affiliation).</li>
+          <li><b>Hype meter:</b> ranks, title stakes, P4P status, finish rates, output, style clash, rematch story and win streaks. Gym-mates and mismatches lose points.</li>
+          <li><b>Card grade:</b> weighted by slot (main event counts most), with a bonus for title fights.</li>
+        </ul>
+        <p class="muted cb-asof" id="cb-asof"></p>
+      </div>
+    </aside>
+  </div>
+
+  <section class="cb-simbox" id="cb-simbox" hidden aria-labelledby="cb-simtitle">
+    <h2 id="cb-simtitle">Simulation results <span class="cb-simtag">Simulation, not real results</span></h2>
+    <p class="muted">A weighted random simulation from record, rank, finish rates and ESPN UFC stats. Run it again and you'll get different results. It is not a prediction.</p>
+    <ol id="cb-simlist" class="cb-simlist"></ol>
+    <button id="cb-resim" class="cb-ghost">Simulate again</button>
+  </section>
+  <div class="cb-exportbox" id="cb-exportbox" hidden><p class="muted">Card image (no logos). <a id="cb-dl" download="cagetime-card.png" href="#">Download PNG</a></p><img id="cb-preview" alt="Exported fight card image"></div>
+</main>
+
+<dialog class="cb-pick" id="cb-pick" aria-labelledby="cb-pick-title">
+  <form method="dialog" class="cb-pick-in" id="cb-pickform">
+    <header class="cb-pick-h"><h2 id="cb-pick-title">Pick a fighter</h2><button value="cancel" class="cb-x" aria-label="Close">&times;</button></header>
+    <p class="cb-pick-sub" id="cb-pick-sub"></p>
+    <div class="cb-pick-f">
+      <label><span>Division</span><select id="cb-div"></select></label>
+      <label class="cb-q"><span>Search</span><input id="cb-search" type="search" placeholder="Name, country, gym, nickname" autocomplete="off"></label>
+    </div>
+    <label class="cb-all"><input type="checkbox" id="cb-alldiv"> Search all divisions (makes a catchweight or super fight)</label>
+    <ul class="cb-list" id="cb-list" role="listbox" aria-label="Fighters"></ul>
+  </form>
+</dialog>
+
+<div class="wrap extras">
+  <section class="box" id="corrections"><h2>Spotted a mistake?</h2><p>Tell us and we'll fix it. <a href="mailto:corrections@example.com?subject=CageTime%20card%20builder%20feedback">Send feedback</a> <span class="ph">(placeholder address)</span></p></section>
+</div>
+
+<footer class="footer">
+  <div class="wrap">
+    <p class="logo small"><span>CAGE<b>TIME</b></span></p>
+    <p class="cb-legal">Unofficial fan game. Not affiliated with or endorsed by the UFC or any promotion or fighter. Fighter names and stats used for informational purposes.</p>
+    <p>Roster: official UFC rankings (Meta board) plus fighters whose last bout was in the UFC in the past two years. Records: Tapology. UFC stats: ESPN. Fighter photos: Wikimedia Commons, see <a href="../../credits.html">credits</a>; others show initials. Roster updated <span id="cb-upd">—</span>.</p>
+  </div>
+</footer>
+<noscript><p class="wrap muted">Turn on JavaScript to build a card.</p></noscript>
+<script src="card-builder.js?v=20261018d" defer></script>
+</body>
+</html>

@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18",
+ "updated": "2026-10-26",
  "note": "Official promotion rankings and champion lists only. Re-fetched weekly by update_rankings.py.",
  "promotions": [
   {
@@ -8,7 +8,7 @@
    "promotion_full": "Ultimate Fighting Championship",
    "kind": "rankings",
    "label": "Official rankings",
-   "as_of": "2026-10-10",
+   "as_of": "2026-10-20",
    "source_url": "https://www.ufc.com/rankings",
    "boards": [
     {
@@ -16,14 +16,14 @@
      "label": "Meta UFC Rankings",
      "kind": "rankings",
      "sport": "MMA",
-     "as_of": "2026-10-10"
+     "as_of": "2026-10-17"
     },
     {
      "key": "media",
      "label": "Media panel rankings",
      "kind": "rankings",
      "sport": "MMA",
-     "as_of": "2026-10-06"
+     "as_of": "2026-10-20"
     }
    ],
    "divisions": 22,
@@ -37,7 +37,7 @@
    "promotion_full": "Professional Fighters League",
    "kind": "rankings",
    "label": "Official rankings",
-   "as_of": "2026-10-18",
+   "as_of": "2026-10-26",
    "source_url": "https://pflmma.com/rankings",
    "boards": [
     {
@@ -45,13 +45,13 @@
      "label": "PFL fighter rankings",
      "kind": "rankings",
      "sport": "MMA",
-     "as_of": "2026-10-18"
+     "as_of": "2026-10-26"
     }
    ],
    "divisions": 8,
-   "ranked": 88,
-   "linked": 95,
-   "names": 95
+   "ranked": 86,
+   "linked": 93,
+   "names": 94
   },
   {
    "key": "one",
@@ -59,7 +59,7 @@
    "promotion_full": "ONE Championship",
    "kind": "rankings",
    "label": "Official rankings (Muay Thai) + MMA champions",
-   "as_of": "2026-10-18",
+   "as_of": "2026-10-26",
    "source_url": "https://www.onefc.com/athlete-rankings/",
    "boards": [
     {
@@ -67,7 +67,7 @@
      "label": "MMA world champions",
      "kind": "champions",
      "sport": "MMA",
-     "as_of": "2026-10-18"
+     "as_of": "2026-10-26"
     },
     {
      "key": "muay-thai",
@@ -88,7 +88,7 @@
    "promotion_full": "KSW",
    "kind": "rankings",
    "label": "Official rankings",
-   "as_of": "2026-10-18",
+   "as_of": "2026-10-26",
    "source_url": "https://www.kswmma.com/rankingi",
    "boards": [
     {
@@ -96,7 +96,7 @@
      "label": "KSW rankings",
      "kind": "rankings",
      "sport": "MMA",
-     "as_of": "2026-10-18"
+     "as_of": "2026-10-26"
     }
    ],
    "divisions": 8,
@@ -110,7 +110,7 @@
    "promotion_full": "OKTAGON MMA",
    "kind": "rankings",
    "label": "Official rankings",
-   "as_of": "2026-09-30",
+   "as_of": "2026-10-23",
    "source_url": "https://oktagonmma.com/en/rankings/",
    "boards": [
     {
@@ -118,13 +118,13 @@
      "label": "OKTAGON rankings",
      "kind": "rankings",
      "sport": "MMA",
-     "as_of": "2026-09-30"
+     "as_of": "2026-10-23"
     }
    ],
    "divisions": 10,
-   "ranked": 104,
-   "linked": 111,
-   "names": 111
+   "ranked": 105,
+   "linked": 112,
+   "names": 112
   },
   {
    "key": "bkfc",
@@ -132,7 +132,7 @@
    "promotion_full": "Bare Knuckle Fighting Championship",
    "kind": "rankings",
    "label": "Official rankings",
-   "as_of": "2026-10-18",
+   "as_of": "2026-10-26",
    "source_url": "https://www.bkfc.com/rankings",
    "boards": [
     {
@@ -140,13 +140,13 @@
      "label": "BKFC rankings",
      "kind": "rankings",
      "sport": "Bare knuckle boxing",
-     "as_of": "2026-10-18"
+     "as_of": "2026-10-26"
     }
    ],
-   "divisions": 13,
-   "ranked": 57,
-   "linked": 72,
-   "names": 72
+   "divisions": 12,
+   "ranked": 53,
+   "linked": 66,
+   "names": 66
   },
   {
    "key": "rizin",
@@ -154,7 +154,7 @@
    "promotion_full": "RIZIN Fighting Federation",
    "kind": "champions",
    "label": "Champions only",
-   "as_of": "2026-10-18",
+   "as_of": "2026-10-26",
    "source_url": "https://jp.rizinff.com/fighters",
    "boards": [
     {
@@ -162,7 +162,7 @@
      "label": "Champions",
      "kind": "champions",
      "sport": "MMA",
-     "as_of": "2026-10-18"
+     "as_of": "2026-10-26"
     }
    ],
    "divisions": 6,
@@ -176,7 +176,7 @@
    "promotion_full": "Cage Warriors",
    "kind": "champions",
    "label": "Champions only",
-   "as_of": "2026-10-18",
+   "as_of": "2026-10-26",
    "source_url": "https://cagewarriors.com/athletes/",
    "boards": [
     {
@@ -184,7 +184,7 @@
      "label": "Champions",
      "kind": "champions",
      "sport": "MMA",
-     "as_of": "2026-10-18"
+     "as_of": "2026-10-26"
     }
    ],
    "divisions": 7,
@@ -198,7 +198,7 @@
    "promotion_full": "Legacy Fighting Alliance",
    "kind": "champions",
    "label": "Champions only",
-   "as_of": "2026-10-18",
+   "as_of": "2026-10-26",
    "source_url": "https://www.lfa.com/champions/",
    "boards": [
     {
@@ -206,7 +206,7 @@
      "label": "Champions",
      "kind": "champions",
      "sport": "MMA",
-     "as_of": "2026-10-18"
+     "as_of": "2026-10-26"
     }
    ],
    "divisions": 11,

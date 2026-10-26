@@ -1,5 +1,5 @@
 // Tiny DOM helpers shared by the sim games.
-import { flag } from './data.js';
+import { flag } from './data.js?v=20261026a';
 export const $ = (s, r = document) => r.querySelector(s);
 export const $$ = (s, r = document) => [...r.querySelectorAll(s)];
 export function esc(s) { return String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c])); }

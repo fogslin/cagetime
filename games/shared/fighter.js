@@ -1,11 +1,11 @@
 // Fighter generation, ratings, aging. All fighters are fictional.
-import { STYLES, STYLE_KEYS, ARCHETYPES, ATTR_KEYS, COUNTRIES, DIVISIONS } from './data.js';
-import { genName, genNick } from './names.js';
-import { clamp } from './rng.js';
+import { STYLES, STYLE_KEYS, ARCHETYPES, ATTR_KEYS, COUNTRIES, DIVISIONS, TIERS } from './data.js?v=20261026a';
+import { genName, genNick } from './names.js?v=20261026a';
+import { clamp } from './rng.js?v=20261026a';
 
 const W = { str: .14, pow: .1, spd: .1, chin: .1, cardio: .1, wre: .12, tdd: .1, bjj: .08, subd: .06, iq: .1 };
 export function ovr(a) { let s = 0; for (const k in W) s += (a[k] || 0) * W[k]; return Math.round(s); }
-export const TIER_BASE = [47, 59, 70];
+export const TIER_BASE = [47, 57, 60, 66, 70];
 const COLORS = ['#e5132b', '#f6c343', '#46d39a', '#6aa8ff', '#b06cff', '#ff8a3d', '#ff5fa2', '#3dd6d0', '#e8e8f0', '#8bd346'];
 
 export function pickCountry(rng) { return rng.weighted(COUNTRIES, c => c.w); }
@@ -18,7 +18,8 @@ export function genFighter(rng, { div, tier = 0, age, used, quality, id }) {
   const lean = { cauc: ['wrestler', 'sambo'], eslav: ['sambo', 'wrestler', 'boxer'], casia: ['wrestler', 'sambo'], luso: ['bjj', 'muaythai'], thai: ['muaythai'], jp: ['judo', 'karate'], wslav: ['kickboxer', 'boxer'], hisp: ['boxer', 'brawler'], anglo: ['wrestler', 'boxer', 'allround'], ng: ['wrestler', 'kickboxer'], kr: ['allround', 'kickboxer'], german: ['kickboxer', 'allround'] }[c.region];
   const style = lean && rng.chance(0.45) ? rng.pick(lean) : rng.pick(STYLE_KEYS);
   const arch = rng.chance(0.35) ? rng.pick(ARCHETYPES.filter(a => a.style === style)) || null : null;
-  age = age ?? Math.round(rng.range(20, 26) + tier * 2 + rng.range(0, 4));
+  const lvl = TIERS[tier].lvl;
+  age = age ?? Math.round(rng.range(20, 26) + lvl * 2.5 + rng.range(0, 4));
   const base = quality ?? (TIER_BASE[tier] + rng.gauss(0, 5));
   const attrs = {};
   for (const k of ATTR_KEYS) {
@@ -30,15 +31,17 @@ export function genFighter(rng, { div, tier = 0, age, used, quality, id }) {
   // a few hidden gems with a sky-high ceiling: scouting them is the GM's edge, and they keep the top fresh
   const gem = youth > 3 && rng.chance(0.1) ? rng.range(10, 20) : 0;
   const pot = clamp(Math.round(cur + youth * rng.range(0.6, 2.6) + gem + rng.gauss(0, 3)), cur, 96);
-  const exp = Math.max(0, Math.round((age - 19) * rng.range(1.2, 2.4) + tier * 3));
-  const w = Math.round(exp * rng.range(0.6, 0.85)), l = Math.max(0, exp - w);
+  // records match the level: the majors are full of proven winners, the regional scene is a mixed bag
+  const exp = Math.max(0, Math.round((age - 19) * rng.range(1.2, 2.4) + lvl * 4));
+  const wr = [[0.5, 0.82], [0.62, 0.86], [0.72, 0.92]][lvl];
+  const w = Math.round(exp * rng.range(wr[0], wr[1])), l = Math.max(0, exp - w);
   const ko = Math.round(w * rng.range(0.2, 0.5)), sub = Math.round(w * rng.range(0.05, 0.35) * (style === 'bjj' ? 1.6 : 1));
   return {
     id, first: nm.first, last: nm.last, nick: genNick(rng), cc: c.cc, country: c.name, g: d.g,
     div, style, arch: arch ? arch.id : null, age, attrs, pot, tier,
     w, l, d: rng.chance(0.15) ? 1 : 0, nc: 0, ko: Math.min(ko, w), sub: Math.min(sub, Math.max(0, w - ko)),
-    streak: 0, rp: Math.round(1000 + (cur - TIER_BASE[tier]) * 12), hype: clamp(Math.round(10 + tier * 15 + rng.range(0, 20)), 0, 100), pop: clamp(Math.round(5 + tier * 18 + rng.range(0, 15)), 0, 100),
-    act: 1, inj: 0, avail: 0, lw: -99, recent: [], kol: 0, col: [rng.pick(COLORS), rng.pick(COLORS)],
+    streak: 0, rp: Math.round(1000 + (cur - TIER_BASE[tier]) * 12), hype: clamp(Math.round(10 + lvl * 15 + tier * 2 + rng.range(0, 20)), 0, 100), pop: clamp(Math.round(5 + lvl * 18 + tier * 2 + rng.range(0, 15)), 0, 100),
+    act: 1, inj: 0, avail: 0, lw: -99, recent: [], kol: 0, qw: 0, col: [rng.pick(COLORS), rng.pick(COLORS)],
     rest: rng.int(10, 20),
   };
 }

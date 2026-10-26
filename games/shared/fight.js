@@ -1,7 +1,7 @@
 // Round-by-round MMA fight engine shared by Career Mode and GM Mode.
 // Attributes + per-round strategy drive every exchange; judges score each round with noise.
-import { STRATEGIES } from './data.js';
-import { clamp } from './rng.js';
+import { STRATEGIES } from './data.js?v=20261026a';
+import { clamp } from './rng.js?v=20261026a';
 
 const SUBS = ['rear-naked choke', 'guillotine', 'arm-triangle', 'armbar', 'triangle choke', 'kimura', "d'arce choke", 'heel hook', 'anaconda choke', 'kneebar'];
 const PUNCH = ['jab', 'straight right', 'left hook', 'right hook', 'uppercut', 'overhand right', 'body shot', 'one-two'];
@@ -260,4 +260,38 @@ export function methodLabel(res) {
   if (res.method === 'DRAW') return 'Draw (' + res.detail + ')';
   if (res.method === 'NC') return 'No contest (' + res.detail + ')';
   return res.method + ' (' + res.detail + ')';
+}
+// Summary fight for the lower-level AI undercards: one probability draw instead of a full
+// exchange-by-exchange sim, so the deep regional and mid-tier rosters stay fast on phones.
+// Same result shape as quickFight (result, A/B hp + stats).
+export function fastFight(fa, fb, { rng, rounds = 3 } = {}) {
+  const a = fa.attrs, b = fb.attrs;
+  const sc = (x, y) => x.str * 0.16 + x.pow * 0.1 + x.spd * 0.1 + x.chin * 0.1 + x.cardio * 0.1 + x.wre * 0.12 + x.tdd * 0.08 + x.bjj * 0.1 + x.subd * 0.06 + x.iq * 0.1
+    + Math.max(0, x.wre - y.tdd) * 0.08 + Math.max(0, x.bjj - y.subd) * 0.06 + Math.max(0, x.pow - y.chin) * 0.06;
+  const d = sc(a, b) - sc(b, a) + rng.gauss(0, 4.2);
+  const pA = 1 / (1 + Math.exp(-d / 3.2));
+  const mk = (hp, kd, sig) => ({ hp, st: { sig, sigAtt: Math.round(sig * 2.1), td: 0, tdAtt: 0, sub: 0, kd, ctrl: 0, dmg: 0 } });
+  const fs = { rounds, fast: true, A: null, B: null, result: null };
+  const x = rng();
+  if (x < 0.005) { fs.result = { winner: null, method: 'NC', detail: 'accidental foul', round: 1, time: '2:' + String(rng.int(10, 59)), close: true, contro: true }; }
+  else if (x < 0.015) { fs.result = { winner: null, method: 'DRAW', detail: rng.pick(['split draw', 'majority draw']), round: rounds, time: '5:00', close: true, contro: true }; }
+  else {
+    const winner = rng() < pA ? 'A' : 'B';
+    const W = winner === 'A' ? a : b, L = winner === 'A' ? b : a;
+    const ko = 0.18 + Math.max(0, W.pow - L.chin) / 140, sub = 0.17 + Math.max(0, W.bjj - L.subd) / 140, tko = 0.18;
+    const y = rng(), tot = ko + sub + tko + 0.45;
+    const round = rng.int(1, rounds), time = rng.int(0, 4) + ':' + String(rng.int(0, 59)).padStart(2, '0');
+    if (y < ko / tot) fs.result = { winner, method: 'KO', detail: rng.pick(['punch', 'punches', 'head kick', 'knee', 'elbow']), round, time, close: false, contro: false };
+    else if (y < (ko + tko) / tot) fs.result = { winner, method: 'TKO', detail: rng.pick(['punches', 'ground and pound', 'leg kicks', 'elbows']), round, time, close: false, contro: false };
+    else if (y < (ko + tko + sub) / tot) fs.result = { winner, method: 'SUB', detail: rng.pick(SUBS), round, time, close: false, contro: false };
+    else {
+      const det = rng.pick(['unanimous', 'unanimous', 'unanimous', 'unanimous', 'split', 'majority']);
+      const upset = (winner === 'A' ? pA : 1 - pA) < 0.4;
+      fs.result = { winner, method: 'DEC', detail: det, round: rounds, time: '5:00', close: det !== 'unanimous' || rng.chance(0.25), contro: det === 'split' || (upset && rng.chance(0.3)) };
+    }
+  }
+  const w = fs.result.winner;
+  fs.A = mk(w === 'B' ? rng.int(10, 60) : rng.int(45, 95), 0, rng.int(20, 90));
+  fs.B = mk(w === 'A' ? rng.int(10, 60) : rng.int(45, 95), 0, rng.int(20, 90));
+  return fs;
 }

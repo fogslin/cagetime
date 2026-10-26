@@ -1,10 +1,24 @@
 // Static game data for CageTime sim games. Everything here is fictional.
-export const LEAGUE = { name: 'Stormvale Fighting League', short: 'Stormvale' };
+// Five fictional promotions, ordered by prestige (index = promotion id, stored as fighter.tier).
+// lvl: 0 regional, 1 national / mid, 2 major. cap: max fights per calendar year (champions: CHAMP_CAP).
+// sr: share of the base purse paid as guaranteed show money (the rest is the win bonus).
 export const TIERS = [
-  { id: 0, name: 'Cinder Regional Circuit', short: 'Cinder', event: 'Cinder Circuit', basePurse: 3000, winBonus: 3000, size: 18 },
-  { id: 1, name: 'Harborline Fight Series', short: 'Harborline', event: 'Harborline', basePurse: 12000, winBonus: 12000, size: 16 },
-  { id: 2, name: 'Stormvale Fighting League', short: 'Stormvale', event: 'Stormvale', basePurse: 40000, winBonus: 40000, size: 26 },
+  { id: 0, lvl: 0, name: 'Cinder Regional Circuit', short: 'Cinder', event: 'Cinder Circuit', evn: 20, basePurse: 3000, winBonus: 3000, sr: 0.5, fights: 3, sign: 0, bonus: 1500, size: 80, cap: 5, col: '#ff8a3d',
+    style: 'Pay-per-fight regional deals. Small purses, busy schedule, the place to build a record.' },
+  { id: 1, lvl: 1, name: 'Harborline Fight Series', short: 'Harborline', event: 'Harborline', evn: 60, basePurse: 12000, winBonus: 12000, sr: 0.5, fights: 4, sign: 0, bonus: 6000, size: 56, cap: 5, col: '#3dd6d0',
+    style: 'The classic feeder league. Even show/win split, four-fight deals, the majors scout it every week.' },
+  { id: 2, lvl: 1, name: 'Ashmoor Grand Prix', short: 'Ashmoor', event: 'Ashmoor GP', evn: 10, basePurse: 14000, winBonus: 14000, sr: 0.7, fights: 3, sign: 0.4, bonus: 5000, size: 44, cap: 4, col: '#8bd346',
+    style: 'Season-format TV league. Mostly guaranteed money and a small signing bonus, smaller win bonus, a lighter schedule.' },
+  { id: 3, lvl: 2, name: 'Blackspire Fighting League', short: 'Blackspire', event: 'Blackspire', evn: 40, basePurse: 32000, winBonus: 32000, sr: 0.65, fights: 5, sign: 1.5, bonus: 20000, size: 40, cap: 4, belts: true, col: '#b06cff',
+    style: 'The big-money rival major. Large guaranteed purses and signing bonuses on long five-fight deals. Its own belts and rankings.' },
+  { id: 4, lvl: 2, name: 'Aurelian Fighting Championship', short: 'Aurelian', event: 'Aurelian', evn: 240, basePurse: 40000, winBonus: 40000, sr: 0.5, fights: 4, sign: 0.5, bonus: 50000, size: 48, cap: 4, belts: true, top: true, col: '#f6c343',
+    style: 'The most prestigious promotion in the sport. Even show/win split, the biggest bonuses and the most hype. Its belt is the one that matters.' },
 ];
+export const TOP = 4;
+export const BELT_PROMOS = TIERS.filter(t => t.belts).map(t => t.id);
+export const CHAMP_CAP = 3;
+export const MAX_BELTS = 2;
+export const LEAGUE = { name: TIERS[TOP].name, short: TIERS[TOP].short };
 export const DIVISIONS = [
   { id: 'FLW', name: 'Flyweight', lbs: 125, g: 'm' },
   { id: 'BW', name: 'Bantamweight', lbs: 135, g: 'm' },

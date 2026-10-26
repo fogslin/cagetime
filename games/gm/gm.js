@@ -1,25 +1,24 @@
 // GM Mode UI
-import * as G from './gm-core.js';
-import { STYLES, TIERS, GYMS, weekLabel, DIVISIONS } from '../shared/data.js';
-import { $, $$, esc, avatar, fl, tip, toast, modal, closeModal, initTips, bar, store } from '../shared/ui.js';
-import { fmtMoney } from '../shared/rng.js';
-import { REASONS } from '../shared/rematch.js';
+import * as G from './gm-core.js?v=20261026a';
+import { STYLES, TIERS, TOP, BELT_PROMOS, CHAMP_CAP, MAX_BELTS, GYMS, weekLabel, DIVISIONS } from '../shared/data.js?v=20261026a';
+import { writeSlot, readSlot } from '../shared/save.js?v=20261026a';
+import { $, $$, esc, avatar, fl, tip, toast, modal, closeModal, initTips, bar, store } from '../shared/ui.js?v=20261026a';
+import { fmtMoney } from '../shared/rng.js?v=20261026a';
+import { REASONS } from '../shared/rematch.js?v=20261026a';
 
 const app = $('#app');
 const KEY = (n) => 'ct-gm-slot-' + n, META = 'ct-gm-meta';
-let slot = null, save = null, tab = 'desk', rkDiv = null, busy = false;
+let slot = null, save = null, tab = 'desk', rkDiv = null, rkPid = null, busy = false;
 
 function persist() {
-  if (!save) return;
-  if (store.set(KEY(slot), save)) {
-    const m = store.get(META, {});
-    m[slot] = { name: save.g.name, wk: weekLabel(save.world.wk), money: save.g.money, clients: save.g.clients.length, belts: save.g.beltsWon, seasons: save.g.seasons.length };
-    store.set(META, m);
-  }
+  if (!save || !slot) return;
+  const meta = { v: 2, name: save.g.name, wk: weekLabel(save.world.wk), money: save.g.money, clients: save.g.clients.length, belts: save.g.beltsWon, seasons: save.g.seasons.length };
+  const s0 = slot;
+  writeSlot(KEY(s0), save).then(ok => { if (ok) { const m = store.get(META, {}); m[s0] = meta; store.set(META, m); } else toast('Could not save: browser storage is full. Delete an old save slot.', 'bad'); });
 }
 const W = () => save.world;
-const belts = () => W().divs.filter(d => save.g.clients.includes(W().div[d].champ));
-const rk = (f) => { const r = G.rankOf(W(), f.id); return r === 0 ? 'Champion' : r ? '#' + r : f.tier === 2 ? 'Unranked' : TIERS[f.tier].short + ' #' + G.tierStanding(W(), f.id); };
+const belts = () => G.clientBelts(save);
+const rk = (f) => { const r = G.rankOf(W(), f.id); return r === 0 ? 'Champion' : r ? TIERS[f.tier].short + ' #' + r : TIERS[f.tier].belts ? TIERS[f.tier].short + ' unranked' : TIERS[f.tier].short + ' #' + G.tierStanding(W(), f.id); };
 const mgrTag = (f) => { if (f.mgr === 'you') return '<span class="tag gold">Your client</span>'; const rv = f.mgr && save.g.rivals.find(x => x.id === f.mgr); return rv ? `<span class="tag" style="border-color:${rv.col};color:${rv.col}">${esc(rv.short)}</span>` : ''; };
 function who(f, sub = '') { return `<div class="who">${avatar(f, 40, f.mgr === 'you' ? 'you' : '')}<div><div class="nm">${fl(f.cc)} ${esc(f.first)} ${esc(f.last)}</div><div class="sub">${esc(G.recStr(f))} · ${esc(STYLES[f.style].name)} · ${esc(G.divName(f.div))}${sub ? ' · ' + sub : ''}</div></div></div>`; }
 
@@ -27,13 +26,15 @@ function renderSlots() {
   save = null;
   document.body.classList.remove('ingame');
   const m = store.get(META, {});
-  app.innerHTML = `<div class="gx-grid two">${[1, 2].map(n => m[n] ? `<div class="gx-card slot"><p class="gx-label">Slot ${n}</p><h2>${esc(m[n].name)}</h2><p class="gx-muted gx-small">${esc(m[n].wk)} · ${m[n].clients} fighters · ${fmtMoney(m[n].money)} · ${m[n].belts} titles won · ${m[n].seasons} seasons</p><div class="gx-row"><button class="btn" data-act="load" data-n="${n}">Continue</button><button class="btn ghost sm" data-act="del" data-n="${n}">Delete</button></div></div>`
+  app.innerHTML = `<div class="gx-grid two">${[1, 2].map(n => m[n] && !(m[n].v >= 2) ? `<div class="gx-card slot"><p class="gx-label">Slot ${n} · older version</p><h2>${esc(m[n].name)}</h2><p class="gx-small gx-muted">New version! The world now has 5 promotions, deep rosters, yearly fight limits and new champion rules, so this older agency can't continue.</p><button class="btn" data-act="old-new" data-n="${n}">Clear slot and start fresh</button></div>` : m[n] ? `<div class="gx-card slot"><p class="gx-label">Slot ${n}</p><h2>${esc(m[n].name)}</h2><p class="gx-muted gx-small">${esc(m[n].wk)} · ${m[n].clients} fighters · ${fmtMoney(m[n].money)} · ${m[n].belts} titles won · ${m[n].seasons} seasons</p><div class="gx-row"><button class="btn" data-act="load" data-n="${n}">Continue</button><button class="btn ghost sm" data-act="del" data-n="${n}">Delete</button></div></div>`
     : `<div class="gx-card slot"><p class="gx-label">Slot ${n}</p><label class="fld"><span>Agency name</span><input id="nm-${n}" maxlength="32" placeholder="e.g. Northside Fight Management" autocomplete="off"></label><button class="btn" data-act="new" data-n="${n}">Start agency</button></div>`).join('')}</div>
   <div class="gx-card"><h2>How it works</h2><ul class="ticks">
    <li>You manage a stable of fictional fighters. You take a cut of every purse, and pay for camps, scouting and staff.</li>
    <li>Scout prospects to reveal their hidden ceiling, sign them, then book the right fights. Accept, negotiate or decline offers.</li>
    <li>Keep fighters active and happy: unhappy fighters with low loyalty leave, and rival agencies will try to poach them.</li>
    <li>Every week the world moves: rankings update, champions change, prospects rise and veterans retire. Win belts across divisions and chase Manager of the Year.</li>
+   <li>Five promotions compete for your fighters, from the ${esc(TIERS[0].name)} up to the ${esc(TIERS[TOP].name)}. Yearly limits: ${TIERS.map(t => esc(t.short) + ' ' + t.cap).join(', ')} fights, champions ${CHAMP_CAP}.</li>
+   <li>Champions hold at most ${MAX_BELTS} belts, and a double champ must defend each belt every year or lose it.</li>
    <li>Same rematch rules as Career Mode: max 3 meetings, and every rematch needs a real reason.</li></ul></div>`;
 }
 function top() {
@@ -52,6 +53,7 @@ function render() {
   const n = save.g.events.length + save.g.offers.length;
   app.innerHTML = top() + `<div class="tabs" role="tablist">${tabs.map(([k, nm]) => `<button role="tab" aria-selected="${tab === k}" data-act="tab" data-t="${k}">${nm}${k === 'desk' && n ? ` <span class="tag red">${n}</span>` : ''}</button>`).join('')}</div><div id="tabp">${({ desk, stable, scout: scouting, rank, rivals, troph, news })[tab]()}</div>`;
   const s = $('#rk-div'); if (s) s.onchange = () => { rkDiv = s.value; render(); };
+  const s2 = $('#rk-pid'); if (s2) s2.onchange = () => { rkPid = +s2.value; render(); };
   $$('[data-gym]').forEach(el => el.onchange = () => { G.setGym(save, el.dataset.gym, el.value); persist(); render(); });
   $$('[data-plan]').forEach(el => el.onchange = () => { G.setPlan(save, el.dataset.plan, el.value); persist(); });
 }
@@ -70,7 +72,7 @@ function desk() {
     const s = G.series(w.h2h, f.id, o.id);
     const lab = { title: 'Title shot', defense: 'Title defense', superfight: 'Champ vs champ', short: 'Short notice', 'step-up': 'Step-up', 'tune-up': 'Tune-up', even: 'Even match', rematch: 'Rematch' }[of.type] || 'Fight';
     h += `<div class="gx-card ${of.title ? 'hl' : ''}" style="background:#0f0f14"><div class="gx-grid two">${who(f, rk(f))}${who(o, rk(o))}</div>
-     <div class="gx-row" style="margin-top:8px"><span class="tag ${of.title ? 'gold' : of.short ? 'red' : ''}">${lab}</span>${of.title ? `<span class="tag gold">${esc(G.divName(of.div))} title</span>` : ''}${of.reason ? `<span class="tag blue">${esc(REASONS[of.reason].label)}</span>${tip(REASONS[of.reason].tip)}` : ''}${of.stable ? `<span class="tag red">Stable rivalry</span>${tip('The opponent is managed by a rival agency. Bigger purse, more heat.')}` : ''}${mgrTag(o)}${s.n ? `<span class="tag">H2H ${s.aw}-${s.bw}${s.dn ? '-' + s.dn : ''}</span>` : ''}</div>
+     <div class="gx-row" style="margin-top:8px"><span class="tag ${of.title ? 'gold' : of.short ? 'red' : ''}">${lab}</span>${of.title ? `<span class="tag gold">${esc(TIERS[f.tier].short)} ${esc(G.divName(of.div))} title</span>` : ''}${of.reason ? `<span class="tag blue">${esc(REASONS[of.reason].label)}</span>${tip(REASONS[of.reason].tip)}` : ''}${of.stable ? `<span class="tag red">Stable rivalry</span>${tip('The opponent is managed by a rival agency. Bigger purse, more heat.')}` : ''}${mgrTag(o)}${G.offerNeeds(save, of.id) ? `<span class="tag red">Vacates ${esc(G.divName(G.offerNeeds(save, of.id).vacate))}</span>` : ''}${s.n ? `<span class="tag">H2H ${s.aw}-${s.bw}${s.dn ? '-' + s.dn : ''}</span>` : ''}</div>
      <div class="gx-row gx-sp" style="margin-top:8px"><span class="gx-small">${fmtMoney(of.show)} + ${fmtMoney(of.win)} · your ${f.mc.cut}%: <b>${fmtMoney((of.show) * f.mc.cut / 100)}–${fmtMoney((of.show + of.win) * f.mc.cut / 100)}</b> · ${of.weeks}-week camp · expires ${esc(weekLabel(of.exp))}</span>
      <span class="gx-row"><button class="btn sm" data-act="acc" data-id="${of.id}">Accept</button><button class="btn ghost sm" data-act="ask" data-id="${of.id}">Ask +20%</button><button class="btn ghost sm" data-act="dec" data-id="${of.id}">Decline</button></span></div></div>`;
   }
@@ -93,12 +95,13 @@ function stable() {
     const status = b ? `Booked vs ${esc(w.f[b.opp].last)}, ${esc(weekLabel(b.wk))}` : f.inj > 0 ? `<span class="gx-red">Injured (${f.inj}w)</span>` : idle > 18 ? `<span class="gx-gold">Restless: ${idle} weeks idle</span>` : `Idle ${Math.max(0, idle)} weeks`;
     return `<div class="gx-card">${who(f, rk(f))}
      <div class="gx-small gx-muted" style="margin:8px 0">Age ${f.age} · OVR ${G.ovr(f.attrs)} · ${esc(TIERS[f.tier].name)} · ${status}</div>
+     <div class="gx-row" style="margin-bottom:6px">${G.beltsOf(w, f.id).map(b => `<span class="belt">🏆 ${esc(TIERS[b.pid].short)} ${esc(G.divName(b.div))}</span>`).join('')}${(() => { const ci = G.capInfo(w, f); return `<span class="tag ${ci.hit ? 'red' : ''}">Fights this year ${ci.n}/${ci.cap}</span>${ci.hit ? tip('Yearly limit reached. Offers for this fighter resume in January.') : ''}`; })()}${G.undefended(w, f.id).length ? `<span class="tag red">Must defend ${G.undefended(w, f.id).map(b => esc(G.divName(b.div))).join(' & ')} this year</span>` : ''}</div>
      <div class="attr-row"><span>Morale ${tip('Wins, activity, good camps and accepted title shots raise it. Morale gives a small in-fight edge.')}</span>${bar(f.mor, 100, f.mor < 35 ? '' : 'green')}<b>${Math.round(f.mor)}</b></div>
      <div class="attr-row"><span>Loyalty ${tip('Drifts toward morale. Low-loyalty fighters leave when their deal ends or when a rival comes calling.')}</span>${bar(f.loy, 100, 'blue')}<b>${Math.round(f.loy)}</b></div>
      <p class="gx-small">Contract: ${f.mc.cut}% cut · ${Math.max(0, f.mc.wk - w.wk)} weeks left</p>
      <div class="gx-grid two"><label class="fld"><span>Camp ${tip('Paid by your agency each fight. Better camps = sharper fighter and faster growth.')}</span><select data-gym="${f.id}">${GYMS.map(x => `<option value="${x.id}" ${x.id === f.gym ? 'selected' : ''}>${esc(x.name)} (${x.cost ? fmtMoney(x.cost) : 'free'})</option>`).join('')}</select></label>
      <label class="fld"><span>Game plan</span><select data-plan="${f.id}">${Object.entries(G.PLAN_NAMES).map(([k, v]) => `<option value="${k}" ${k === (f.plan || 'auto') ? 'selected' : ''}>${esc(v)}</option>`).join('')}</select></label></div>
-     <div class="gx-row"><button class="btn sm" data-act="req" data-id="${f.id}" ${f.bk || f.inj > 0 ? 'disabled' : ''}>Request fight</button><button class="btn ghost sm" data-act="info" data-id="${f.id}">Profile</button><button class="btn ghost sm" data-act="divm" data-id="${f.id}" ${f.bk ? 'disabled' : ''}>Division</button><button class="btn ghost sm" data-act="rel" data-id="${f.id}">Release</button></div></div>`;
+     <div class="gx-row"><button class="btn sm" data-act="req" data-id="${f.id}" ${f.bk || f.inj > 0 ? 'disabled' : ''}>Request fight</button><button class="btn ghost sm" data-act="info" data-id="${f.id}">Profile</button><button class="btn ghost sm" data-act="divm" data-id="${f.id}" ${f.bk ? 'disabled' : ''}>Division</button><button class="btn ghost sm" data-act="rel" data-id="${f.id}">Release</button>${f.age >= 30 ? `<button class="btn ghost sm" data-act="ret" data-id="${f.id}">Retire</button>` : ''}</div></div>`;
   }).join('')}</div>`;
 }
 function scouting() {
@@ -109,16 +112,17 @@ function scouting() {
     <div class="gx-row"><button class="btn ghost sm" data-act="scout" data-id="${p.id}" ${p.lv >= 3 ? 'disabled' : ''}>${p.lv >= 3 ? 'Fully scouted' : 'Scout (' + fmtMoney(G.SCOUT_COST[p.lv]) + ')'}</button><button class="btn sm" data-act="offer" data-id="${p.id}">Make offer</button></div></div>`; }).join('')}</div></div>`;
 }
 function rank() {
-  const w = W(); const div = rkDiv && w.div[rkDiv] ? rkDiv : (G.clients(save)[0] || {}).div || 'LW';
-  const D = w.div[div]; const c = D.champ && w.f[D.champ];
-  return `<div class="gx-card"><div class="gx-row gx-sp"><h2 style="margin:0">Stormvale rankings</h2><select id="rk-div" aria-label="Division">${w.divs.map(d => `<option value="${d}" ${d === div ? 'selected' : ''}>${esc(G.divName(d))}${w.div[d].champ && save.g.clients.includes(w.div[d].champ) ? ' 🏆' : ''}</option>`).join('')}</select></div>
+  const w = W(); const div = rkDiv && w.divs.includes(rkDiv) ? rkDiv : (G.clients(save)[0] || {}).div || w.divs[0];
+  const pid = rkPid != null ? rkPid : TOP;
+  const D = w.T[pid][div]; const c = D.champ && w.f[D.champ];
+  return `<div class="gx-card"><div class="gx-row gx-sp"><h2 style="margin:0">${esc(TIERS[pid].short)} rankings ${tip('Top 15 needs a proven record: at least 7 wins, a 65%+ win rate and 5 more wins than losses. Recent form, win rate and quality of opposition decide the order.')}</h2><span class="gx-row"><select id="rk-pid" aria-label="Promotion">${BELT_PROMOS.slice().reverse().map(x => `<option value="${x}" ${x === pid ? 'selected' : ''}>${esc(TIERS[x].name)}</option>`).join('')}</select><select id="rk-div" aria-label="Division">${w.divs.map(d => `<option value="${d}" ${d === div ? 'selected' : ''}>${esc(G.divName(d))}${save.g.clients.includes(w.T[pid][d].champ) ? ' 🏆' : ''}</option>`).join('')}</select></span></div>
    <div class="gx-card hl" style="margin-top:12px;background:#0f0f14">${c ? `<p class="gx-label">Champion · ${D.def} defenses</p><div class="gx-row gx-sp">${who(c)}${mgrTag(c)}</div>` : '<p class="gx-muted">Vacant</p>'}</div>
-   <div class="tscroll"><table class="gx-table"><thead><tr><th>#</th><th>Fighter</th><th>Record</th><th>Streak</th><th>Manager</th></tr></thead><tbody>${G.rankings(w, div).map((id, i) => { const f = w.f[id]; return `<tr class="${f.mgr === 'you' ? 'me' : ''}"><td>${i + 1}</td><td>${fl(f.cc)} ${esc(f.first)} ${esc(f.last)}</td><td>${esc(G.recStr(f))}</td><td>${f.streak > 0 ? 'W' + f.streak : f.streak < 0 ? 'L' + -f.streak : '—'}</td><td>${mgrTag(f)}</td></tr>`; }).join('')}</tbody></table></div>
-   <p class="gx-small gx-dim">Title lineage: ${D.hist.slice(-6).map(x => esc(x.name)).join(' → ')}</p></div>`;
+   <div class="tscroll"><table class="gx-table"><thead><tr><th>#</th><th>Fighter</th><th>Record</th><th>Streak</th><th>Manager</th></tr></thead><tbody>${G.rankings(w, div, pid).map((id, i) => { const f = w.f[id]; return `<tr class="${f.mgr === 'you' ? 'me' : ''}"><td>${i + 1}</td><td>${fl(f.cc)} ${esc(f.first)} ${esc(f.last)}</td><td>${esc(G.recStr(f))}</td><td>${f.streak > 0 ? 'W' + f.streak : f.streak < 0 ? 'L' + -f.streak : '—'}</td><td>${mgrTag(f)}</td></tr>`; }).join('')}</tbody></table></div>
+   <p class="gx-small gx-dim">Title lineage: ${D.hist.slice(-6).map(x => esc(x.name)).join(' → ')} · Roster: ${G.activeIn(w, div, pid).length} signed fighters</p></div>`;
 }
 function rivals() {
   const g = save.g, w = W();
-  const rows = g.rivals.map(rv => { const fs = Object.values(w.f).filter(f => f.mgr === rv.id && f.act); return { rv, n: fs.length, b: w.divs.filter(d => fs.some(f => w.div[d].champ === f.id)).length, top: fs.filter(f => G.rankOf(w, f.id) != null).length }; });
+  const rows = g.rivals.map(rv => { const fs = Object.values(w.f).filter(f => f.mgr === rv.id && f.act); return { rv, n: fs.length, b: fs.reduce((n, f) => n + G.beltsOf(w, f.id).length, 0), top: fs.filter(f => G.rankOf(w, f.id) != null).length }; });
   return `<div class="gx-card"><h2>Rival agencies ${tip('Heat rises when you trash-talk or beat their fighters. Their fighters pay more to face, and they will try to poach your unhappy clients.')}</h2><div class="tscroll"><table class="gx-table"><thead><tr><th>Agency</th><th>Rep</th><th>Fighters</th><th>Ranked</th><th>Belts</th><th>Heat</th></tr></thead><tbody>
    <tr class="me"><td><b>${esc(g.name)}</b> (you)</td><td>${Math.round(g.rep)}</td><td>${g.clients.length}</td><td>${G.clients(save).filter(f => G.rankOf(w, f.id) != null).length}</td><td>${belts().length}</td><td>—</td></tr>
    ${rows.map(x => `<tr><td><span style="color:${x.rv.col}">●</span> ${esc(x.rv.name)}</td><td>${Math.round(x.rv.rep)}</td><td>${x.n}</td><td>${x.top}</td><td>${x.b}</td><td>${x.rv.heat >= 40 ? `<span class="tag red">${Math.round(x.rv.heat)}</span>` : Math.round(x.rv.heat)}</td></tr>`).join('')}</tbody></table></div></div>`;
@@ -151,8 +155,18 @@ function act(e) {
   const done = (msg, kind) => { if (msg) toast(esc(msg), kind); persist(); render(); };
   switch (a) {
     case 'new': { const n = +t.dataset.n; const nm = ($('#nm-' + n).value || '').trim() || 'Northside Fight Management'; app.innerHTML = '<p class="gx-muted">Building the fight world…</p>'; setTimeout(() => { save = G.newGM({ name: nm }); slot = n; tab = 'desk'; persist(); render(); toast('Welcome, manager. You have two fighters and offers on the desk.', 'good'); }, 30); break; }
-    case 'load': { const s = store.get(KEY(+t.dataset.n)); if (!s) { toast('Save could not be loaded.', 'bad'); return; } save = s; slot = +t.dataset.n; tab = 'desk'; render(); break; }
-    case 'del': if (confirm('Delete this agency save?')) { store.del(KEY(+t.dataset.n)); const m = store.get(META, {}); delete m[t.dataset.n]; store.set(META, m); renderSlots(); } break;
+    case 'load': {
+      const n = +t.dataset.n; t.disabled = true;
+      readSlot(KEY(n)).then(res => {
+        if (res.old) { const m = store.get(META, {}); if (m[n]) { m[n].v = 1; store.set(META, m); } renderSlots(); toast('That agency was saved by an older version. Start a new one in this slot.', 'bad'); return; }
+        if (!res.save || !res.save.g) { toast('Save could not be loaded.', 'bad'); renderSlots(); return; }
+        save = res.save; slot = n; tab = 'desk'; render();
+      });
+      break;
+    }
+    case 'del': modal(`<h2>Delete this agency?</h2><p>This cannot be undone.</p><div class="gx-row"><button class="btn" data-act="del-ok" data-n="${t.dataset.n}">Delete</button><button class="btn ghost" data-act="close-m">Cancel</button></div>`); break;
+    case 'del-ok': case 'old-new': { const n = +t.dataset.n; store.del(KEY(n)); const m = store.get(META, {}); delete m[n]; store.set(META, m); closeModal(); renderSlots(); break; }
+    case 'close-m': closeModal(); break;
     case 'tab': tab = t.dataset.t; closeModal(); render(); break;
     case 'adv': { const out = G.advance(save); showOut(out); persist(); render(); break; }
     case 'adv-n': {
@@ -165,8 +179,12 @@ function act(e) {
       };
       setTimeout(tick, 0); break;
     }
-    case 'acc': { const r = G.acceptOffer(save, id); done(r.msg, r.ok ? 'good' : 'bad'); break; }
-    case 'ask': { const of = save.g.offers.find(o => o.id === id); const r = G.acceptOffer(save, id, 1); if (r.mor && of) { const f = W().f[of.fid]; f.mor = Math.max(0, f.mor + r.mor); } done(r.msg, r.ok ? 'good' : 'bad'); break; }
+    case 'acc': case 'acc-v': {
+      const r = G.acceptOffer(save, id, +(t.dataset.ask || 0), { confirmVacate: a === 'acc-v' });
+      if (r.needVacate) { modal(`<h2>Vacate a title?</h2><p>${esc(r.msg)}</p><div class="gx-row"><button class="btn gold" data-act="acc-v" data-id="${id}">Vacate ${esc(G.divName(r.needVacate))} and accept</button><button class="btn ghost" data-act="close-m">Cancel</button></div>`); break; }
+      closeModal(); done(r.msg, r.ok ? 'good' : 'bad'); break;
+    }
+    case 'ask': { const of = save.g.offers.find(o => o.id === id); if (G.offerNeeds(save, id)) { toast('Settle the belt question first: use Accept.', 'bad'); break; } const r = G.acceptOffer(save, id, 1); if (r.mor && of) { const f = W().f[of.fid]; f.mor = Math.max(0, f.mor + r.mor); } done(r.msg, r.ok ? 'good' : 'bad'); break; }
     case 'dec': done(G.declineOffer(save, id)); break;
     case 'evt': done(G.resolveEvent(save, id, +t.dataset.i)); break;
     case 'watch': watch(id); break;
@@ -193,10 +211,14 @@ function act(e) {
     }
     case 'divm': { const f = W().f[id]; const adj = G.adjacentDivs(f.div); modal(`<h2>Move ${esc(f.last)}</h2><p class="gx-muted">Changing division resets their spot in the rankings a bit. Champions vacate their belt.</p><div class="gx-row">${[adj.down, adj.up].filter(Boolean).map(d => `<button class="btn" data-act="div2" data-id="${id}" data-d="${d}">${esc(G.divName(d))}</button>`).join('')}</div>`); break; }
     case 'div2': { const msg = G.moveDivision(save, id, t.dataset.d); closeModal(); done(msg); break; }
-    case 'rel': if (confirm('Release this fighter? Your reputation takes a small hit.')) done(G.releaseClient(save, id)); break;
+    case 'rel': { const f = W().f[id]; const bk = (save.g.bookings || []).find(b => b.fid === id); modal(`<h2>Release ${esc(f.first)} ${esc(f.last)}?</h2><p>They leave your stable for good and your reputation takes a small hit.${bk ? ' Their booked fight is cancelled.' : ''}${G.beltsOf(W(), id).length ? ' They keep their belt, but you lose the client.' : ''}</p><div class="gx-row"><button class="btn gold" data-act="rel-ok" data-id="${id}">Release</button><button class="btn ghost" data-act="close-m">Keep them</button></div>`); break; }
+    case 'rel-ok': { closeModal(); done(G.releaseClient(save, id)); break; }
+    case 'ret': { const f = W().f[id]; modal(`<h2>Retire ${esc(f.first)} ${esc(f.last)}?</h2><p>They hang up the gloves at ${esc(G.recStr(f))}.${G.beltsOf(W(), id).length ? ' Their belt is vacated.' : ''} This can't be undone.</p><div class="gx-row"><button class="btn gold" data-act="ret-ok" data-id="${id}">Retire</button><button class="btn ghost" data-act="close-m">Cancel</button></div>`); break; }
+    case 'ret-ok': { closeModal(); done(G.retireClientNow(save, id), 'good'); break; }
   }
 }
-app.addEventListener('click', act);
+// one delegated listener on the whole document: buttons inside modals (appended to <body>) work too
+document.addEventListener('click', act);
 initTips();
 renderSlots();
 window.__ct = { get save() { return save; } };

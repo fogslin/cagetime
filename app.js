@@ -47,6 +47,13 @@ function isGone(e){const dt=startOf(e);if(dt)return dt.getTime()<Date.now()-LIVE
   const v=new Date(e.date+'T23:59:59Z');return v.getTime()<Date.now()-LIVE_MS}
 function isLive(e){const dt=startOf(e);return !!dt&&dt.getTime()<=Date.now()&&dt.getTime()>Date.now()-LIVE_MS}
 
+/* labelled session times: headline = main card (startUTC); earlier sessions (prelims, early prelims, pre-shows) listed with their own time */
+function timesHTML(e,dt){
+  const t=(e.times||[]).filter(x=>x&&x.label&&x.startUTC);if(!t.length)return '';
+  return t.map(x=>{const d=new Date(x.startUTC),same=dt&&d.getTime()===dt.getTime();
+    const day=dt&&fDayShort.format(d)!==fDayShort.format(dt)?fDayShort.format(d)+' ':'';
+    return '<span class="sess"> · '+esc(x.label)+(same?'':' '+esc(day+fTime.format(d)))+'</span>'}).join('');
+}
 function broadcaster(e,c){return (e.broadcasters&&e.broadcasters[c])||'TBA'}
 function watchHTML(e,c){
   const b=broadcaster(e,c),aff=Object.keys(AFF).find(k=>b.includes(k));
@@ -69,7 +76,7 @@ function renderNext(){
   const dt=new Date(e.startUTC),c=state.country;
   box.innerHTML=`<span class="badge" style="--promo:${(PROMO[e.promotion]||[])[0]||'var(--red)'};--promo-ink:${(PROMO[e.promotion]||[])[1]||'#fff'}">${esc(e.promotion)}</span>
     <h2>${esc(e.name)}</h2>
-    <p class="when">${esc(fDayShort.format(dt))} · ${esc(fTime.format(dt))}</p>
+    <p class="when">${esc(fDayShort.format(dt))} · ${esc(fTime.format(dt))}${(()=>{const h=(e.times||[]).find(x=>x.startUTC===e.startUTC);return h?' <small>('+esc(h.label)+')</small>':''})()}</p>
     <div class="countdown" role="timer" aria-label="Countdown to ${esc(e.name)}"><div><b id="cd-d">0</b><small>days</small></div><div><b id="cd-h">0</b><small>hrs</small></div><div><b id="cd-m">0</b><small>min</small></div><div><b id="cd-s">0</b><small>sec</small></div></div>
     <p class="watch-line">Watch in ${esc(D.countries[c]||c)}: <b style="color:var(--green)">${esc(broadcaster(e,c))}</b></p>
     <p class="watch-line"><a href="#ev-${esc(e.id)}">See the full card ↓</a></p>`;
@@ -130,7 +137,7 @@ function eventHTML(e,c){
     <div class="card-top"><span class="badge">${esc(e.promotion)}</span>${live?'<span class="tag live">Live now</span>':''}${post?`<span class="tag warn">${esc(e.status)}</span>`:''}${e.featured?'<span class="tag">Headline event</span>':''}</div>
     <h3>${esc(e.name)}</h3>
     <div class="card-grid">
-      <div class="time">${dt?esc(fTime.format(dt)):'<span class="tba">Start time TBA</span>'}<small>${dt?esc(fDayShort.format(dt))+' · '+esc(rel(dt-Date.now())):esc(fDayShort.format(new Date(e.date+'T12:00:00')))+' (venue date)'}${dt&&e.timeNote?' · '+esc(e.timeNote):''}</small></div>
+      <div class="time">${dt?esc(fTime.format(dt)):`<span class="tba">${e.times&&e.times.length?'Main card time TBA':'Start time TBA'}</span>`}<small>${dt?esc(fDayShort.format(dt))+' · '+esc(rel(dt-Date.now())):esc(fDayShort.format(new Date(e.date+'T12:00:00')))+' (venue date)'}${timesHTML(e,dt)}${e.timeNote?' · '+esc(e.timeNote):''}</small></div>
       <div class="watch">${watchHTML(e,c)}</div>
       <div class="venue">📍 ${dash(e.venue)}</div>
     </div>

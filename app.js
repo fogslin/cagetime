@@ -1,10 +1,11 @@
 /* CageTime — static, no build step. Reads events.json + fighters.json. */
 (function(){
 'use strict';
+/* site root relative to this page (app.js always lives at the root): lets /events/<slug>/ and other sub-pages reuse it */
+const ROOT=(()=>{try{return new URL('.',document.currentScript.src).href}catch(_){return '/'}})();
+const rootURL=p=>/^(https?:)?\/\//.test(p||'')?p:ROOT+String(p||'').replace(/^\.?\//,'');
 const tz=Intl.DateTimeFormat().resolvedOptions().timeZone||'UTC';
 const guess={US:/^America\/(New_York|Chicago|Denver|Los_Angeles|Phoenix|Anchorage|Detroit|Indiana|Kentucky|Boise)/,CA:/^America\/(Toronto|Vancouver|Edmonton|Winnipeg|Halifax|Montreal|Regina|St_Johns)/,UK:/^Europe\/London/,IE:/^Europe\/Dublin/,AU:/^Australia\//,IN:/^Asia\/(Kolkata|Calcutta)/,DE:/^Europe\/Berlin/,BR:/^America\/(Sao_Paulo|Fortaleza|Recife|Manaus|Bahia|Belem)/};
-// AFFILIATE PLACEHOLDERS — replace href with real tracked links once approved. No real IDs here.
-const AFF={"Paramount+":"#aff-paramount-PLACEHOLDER","DAZN":"#aff-dazn-PLACEHOLDER","UFC Fight Pass":"#aff-fightpass-PLACEHOLDER","Prime Video":"#aff-prime-PLACEHOLDER"};
 const PROMO={UFC:['#e5132b','#fff'],PFL:['#2f6bff','#fff'],ONE:['#f6c343','#111'],RIZIN:['#c9a227','#111'],KSW:['#ffffff','#111'],OKTAGON:['#ff7a00','#111'],'Cage Warriors':['#00a3a3','#fff'],BKFC:['#8b1e1e','#fff'],LFA:['#7c4dff','#fff']};
 const BIG=['UFC','PFL','ONE','RIZIN','KSW'];
 const LIVE_MS=6*3600e3;
@@ -56,9 +57,8 @@ function timesHTML(e,dt){
 }
 function broadcaster(e,c){return (e.broadcasters&&e.broadcasters[c])||'TBA'}
 function watchHTML(e,c){
-  const b=broadcaster(e,c),aff=Object.keys(AFF).find(k=>b.includes(k));
-  return `<span class="lbl">Watch in ${esc(D.countries[c]||c)}</span>${b==='TBA'?'<span class="tba">TBA</span>':'<b>'+esc(b)+'</b>'}
-    ${aff?`<a class="aff" href="${AFF[aff]}" rel="sponsored nofollow">Get ${esc(aff)} → [affiliate slot]</a>`:''}`;
+  const b=broadcaster(e,c);
+  return `<span class="lbl">Watch in ${esc(D.countries[c]||c)}</span>${b==='TBA'?'<span class="tba">TBA</span>':'<b>'+esc(b)+'</b>'}`;
 }
 
 /* ---------- hero: next big event ---------- */
@@ -106,6 +106,10 @@ function fighterHTML(id,fallbackName,side,odds,favSide){
     ${f.updated?`<div class="upd">Stats updated ${fmtDateISO(f.updated)}</div>`:''}
   </div>`;
 }
+function compareLink(a,b){
+  if(!a||!b||!(F[a]&&F[a].profile)||!(F[b]&&F[b].profile))return '';
+  return `<a class="cmp-link" href="${esc(ROOT)}compare/?a=${encodeURIComponent(a)}&amp;b=${encodeURIComponent(b)}" aria-label="Compare ${esc((F[a]||{}).name)} and ${esc((F[b]||{}).name)} head to head">Compare ⇄</a>`;
+}
 function cardHTML(e){
   const c=e.card||{};
   const bouts=c.bouts||[];
@@ -117,7 +121,7 @@ function cardHTML(e){
     const o=b.odds;let fav=null;
     if(o&&o.a!=null&&o.b!=null){anyOdds=true;fav=o.a<o.b?'a':(o.b<o.a?'b':null)}
     html+=`<article class="bout">
-      <div class="bout-head"><span class="wc">${dash(b.weightClass)}${b.rounds?` · ${esc(b.rounds)} rds`:''}</span>${b.title?`<span class="belt">🏆 ${esc(b.title)}</span>`:''}${b.discipline&&b.discipline!=='MMA'?`<span class="tag">${esc(b.discipline)}</span>`:''}</div>
+      <div class="bout-head"><span class="wc">${dash(b.weightClass)}${b.rounds?` · ${esc(b.rounds)} rds`:''}</span>${b.title?`<span class="belt">🏆 ${esc(b.title)}</span>`:''}${b.discipline&&b.discipline!=='MMA'?`<span class="tag">${esc(b.discipline)}</span>`:''}${compareLink(b.a,b.b)}</div>
       <div class="vs">${fighterHTML(b.a,b.aName,'a',o?o.a:undefined,fav)}<div class="vs-mid" aria-hidden="true">VS</div>${fighterHTML(b.b,b.bName,'b',o?o.b:undefined,fav)}</div>
       ${b.note?`<p class="notes">${esc(b.note)}</p>`:''}
     </article>`});
@@ -142,6 +146,7 @@ function eventHTML(e,c){
       <div class="venue">📍 ${dash(e.venue)}</div>
     </div>
     ${e.notes?`<p class="notes">${esc(e.notes)}</p>`:''}
+    <p class="ev-actions"><a class="btn-sm" href="${esc(ROOT)}events/${encodeURIComponent(e.id)}/">Event page: times &amp; where to watch →</a><a class="btn-sm ghost" href="${esc(ROOT)}calendar/events/${encodeURIComponent(e.id)}.ics" download="${esc(e.id)}.ics" data-ics>📅 Add to calendar</a></p>
     <p class="src">Event sources: ${(e.sources||[]).map((s,i)=>`<a href="${esc(safeUrl(s))}" target="_blank" rel="noopener">[${i+1}]</a>`).join(' ')}</p>
    </div>
    <details class="fc" data-id="${esc(e.id)}"><summary><span>Fight card <span class="count">${nb?nb+' bouts':'TBA'}</span></span><span class="chev" aria-hidden="true"></span></summary><div class="fc-body"></div></details>
@@ -169,7 +174,7 @@ document.addEventListener('toggle',ev=>{
 /* ---------- fighter photos / initials ---------- */
 function initials(n){const w=String(n||'?').replace(/["'].*?["']/g,'').trim().split(/\s+/).filter(Boolean);return ((w[0]||'?')[0]+(w.length>1?w[w.length-1][0]:'')).toUpperCase()}
 function avatarHTML(f,name,size){
-  if(f&&f.photo)return `<img class="ava" src="${esc(f.photo)}" alt="${esc(name)}" width="${size}" height="${size}" loading="lazy" decoding="async" title="Photo: ${esc(f.photo_credit||'Wikimedia Commons')}, ${esc(f.photo_license||'')}">`;
+  if(f&&f.photo)return `<img class="ava" src="${esc(rootURL(f.photo))}" alt="${esc(name)}" width="${size}" height="${size}" loading="lazy" decoding="async" title="Photo: ${esc(f.photo_credit||'Wikimedia Commons')}, ${esc(f.photo_license||'')}">`;
   return `<span class="ava ava-ph" style="width:${size}px;height:${size}px;font-size:${Math.round(size*.38)}px" aria-hidden="true">${esc(initials(name))}</span>`;
 }
 
@@ -180,7 +185,7 @@ const pct=v=>v==null?'—':esc((+v).toFixed(v%1?1:0))+'%';
 const num=v=>v==null?'—':esc(v);
 const RES={W:['Win','w'],L:['Loss','l'],D:['Draw','d'],NC:['NC','nc']};
 function loadProfile(id){
-  if(!PCACHE[id])PCACHE[id]=fetch('data/fighters/'+encodeURIComponent(id)+'.json').then(r=>{if(!r.ok)throw new Error('profile '+r.status);return r.json()}).catch(e=>{delete PCACHE[id];throw e});
+  if(!PCACHE[id])PCACHE[id]=fetch(ROOT+'data/fighters/'+encodeURIComponent(id)+'.json').then(r=>{if(!r.ok)throw new Error('profile '+r.status);return r.json()}).catch(e=>{delete PCACHE[id];throw e});
   return PCACHE[id];
 }
 function dlg(){
@@ -259,7 +264,8 @@ function profileHTML(id,p){
   return `<header class="fp-head">${avatarHTML(f,name,112)}
       <div><p class="eyebrow">Fighter profile</p><h2 id="fp-title">${fl?`<span class="flag" aria-hidden="true">${fl}</span> `:''}${esc(name)}</h2>
       ${p.nickname||f.nickname?`<p class="fp-nick">“${esc(p.nickname||f.nickname)}”</p>`:''}
-      <p class="fp-rec">${recLine}</p></div></header>
+      <p class="fp-rec">${recLine}</p>
+      <p class="fp-acts"><a class="btn-sm" href="${esc(ROOT)}compare/?a=${encodeURIComponent(id)}${up&&up.opponent_id&&F[up.opponent_id]&&F[up.opponent_id].profile?'&amp;b='+encodeURIComponent(up.opponent_id):''}">Compare ⇄${up&&up.opponent_id&&F[up.opponent_id]&&F[up.opponent_id].profile?' vs '+esc(up.opponent):''}</a></p></div></header>
     ${ph?`<p class="fp-credit">Photo: ${esc(ph.photo_credit||'—')} · <a href="${esc(safeUrl(ph.photo_license_url||ph.photo_source))}" target="_blank" rel="noopener license">${esc(ph.photo_license||'')}</a> · <a href="${esc(safeUrl(ph.photo_source))}" target="_blank" rel="noopener">Wikimedia Commons</a> (cropped)</p>`:''}
     ${up?`<p class="fp-next">Next: vs ${up.opponent_id&&F[up.opponent_id]&&F[up.opponent_id].profile?`<a href="#fighter=${encodeURIComponent(up.opponent_id)}">${dash(up.opponent)}</a>`:dash(up.opponent)} · ${fmtDateISO(up.date)} · ${dash(up.event)}${up.title_fight?` · 🏆 ${esc(up.title_fight)}`:''}</p>`:''}
     <dl class="fp-bio">${bio.map(([k,v])=>`<div><dt>${k}</dt><dd>${dash(v)}</dd></div>`).join('')}</dl>
@@ -297,9 +303,11 @@ function routeHash(){
   else{const d=document.getElementById('fp');if(d&&d.open){d.close();document.documentElement.classList.remove('fp-lock')}}
 }
 document.addEventListener('click',ev=>{
-  const a=ev.target.closest&&ev.target.closest('a[href^="#fighter="]');
+  const a=ev.target.closest&&ev.target.closest('a[href^="#fighter="],a[data-fid]');
   if(!a||ev.metaKey||ev.ctrlKey||ev.shiftKey||ev.button)return;
-  ev.preventDefault();openProfile(decodeURIComponent(a.getAttribute('href').slice(9)));
+  const id=a.dataset.fid||decodeURIComponent(a.getAttribute('href').slice(9));
+  if(!(F[id]&&F[id].profile)&&!a.getAttribute('href').startsWith('#'))return;  /* data not loaded yet: follow the link to the home page */
+  ev.preventDefault();openProfile(id);
 });
 window.addEventListener('popstate',routeHash);
 window.addEventListener('hashchange',routeHash);
@@ -307,10 +315,10 @@ window.addEventListener('hashchange',routeHash);
 /* ---------- boot ---------- */
 const getJSON=u=>fetch(u,{cache:'no-cache'}).then(r=>{if(!r.ok)throw new Error(u+' '+r.status);return r.json()});
 /* shared helpers for other pages (rankings.js) */
-const fightersReady=$('#list')?null:getJSON('fighters.json').then(f=>{F=f.fighters||{};FU=f.updated;const u=$('#fupd');if(u&&FU)u.textContent=FU;return F});
-window.CageTime={esc,dash,safeUrl,flag,avatarHTML,initials,openProfile,routeHash,fmtDateISO,PROMO,getJSON,fighters:()=>F,fightersReady};
+const fightersReady=$('#list')?null:getJSON(ROOT+'fighters.json').then(f=>{F=f.fighters||{};FU=f.updated;const u=$('#fupd');if(u&&FU)u.textContent=FU;return F});
+window.CageTime={esc,dash,safeUrl,flag,avatarHTML,initials,openProfile,routeHash,fmtDateISO,PROMO,getJSON,fighters:()=>F,fightersReady,ROOT,rootURL,age};
 if(fightersReady){fightersReady.then(()=>{if(location.hash.startsWith('#fighter='))routeHash()}).catch(err=>console.error(err));return}
-Promise.all([getJSON('events.json'),getJSON('fighters.json').catch(()=>null)]).then(([d,f])=>{
+Promise.all([getJSON(ROOT+'events.json'),getJSON(ROOT+'fighters.json').catch(()=>null)]).then(([d,f])=>{
   D=d;if(f){F=f.fighters||{};FU=f.updated}
   D.events.forEach((e,i)=>{if(!e.id)e.id='e'+i});
   D.events.sort((a,b)=>{const ta=a.startUTC?new Date(a.startUTC):new Date(a.date+'T12:00:00Z'),tb=b.startUTC?new Date(b.startUTC):new Date(b.date+'T12:00:00Z');return ta-tb});

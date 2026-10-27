@@ -8,6 +8,8 @@
 <meta name="theme-color" content="#0b0b0e">
 <link rel="canonical" href="https://getcagetime.com/">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
+<!-- pwa --><link rel="manifest" href="manifest.webmanifest"><link rel="apple-touch-icon" href="icons/apple-touch-icon.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="CageTime"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><!-- /pwa -->
+
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="CageTime">
 <meta property="og:title" content="CageTime — every fight, in your time zone">
@@ -23,14 +25,14 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Oswald:wght@500;600;700&amp;display=swap">
-<link rel="stylesheet" href="style.css?v=20261018d">
+<link rel="stylesheet" href="style.css?v=20261026b">
 </head>
 <body>
 <a class="skip" href="#events">Skip to events</a>
 <header class="topbar">
   <div class="wrap topbar-in">
     <a class="logo" href="./" aria-label="CageTime home"><img src="favicon.svg" alt="" width="28" height="28"><span>CAGE<b>TIME</b></span></a>
-    <nav aria-label="Main"><a href="#events" class="is-active" aria-current="page">Events</a><a href="rankings.html">Rankings</a><a href="games.html">Games</a><a href="#newsletter">Newsletter</a><a href="credits.html">Credits</a></nav>
+    <nav aria-label="Main"><a href="#events" class="nav-events is-active" aria-current="page">Events</a><a href="results/" class="nav-results">Results</a><a href="rankings.html" class="nav-rankings">Rankings</a><a href="games.html" class="nav-games">Games</a><a href="#newsletter" class="nav-newsletter">Newsletter</a><a href="credits.html" class="nav-credits">Credits</a></nav>
   </div>
 </header>
 
@@ -79,6 +81,9 @@
 
 <div class="wrap extras">
   <section class="box" id="newsletter"><h2>Weekly fight-night newsletter</h2><p>Newsletter launching soon. There is no signup yet, so nothing is collected.</p></section>
+  <section class="box" id="subscribe"><h2>Fights in your calendar &amp; alerts</h2><p>Subscribe to a calendar feed (all promotions or just UFC, PFL, ONE…) and new events appear in Apple, Google or Outlook calendars automatically.</p>
+    <p class="ev-actions"><a class="btn-sm" href="webcal://getcagetime.com/calendar/all.ics">Subscribe: all events</a><a class="btn-sm ghost" href="calendar/">UFC only, Google Calendar &amp; more</a><button type="button" class="btn-sm ghost" data-alerts>🔔 Get fight alerts</button></p>
+    <div class="install-slot" data-install data-install-inline hidden></div></section>
   <section class="box" id="corrections"><h2>Spotted a mistake?</h2><p>Times, cards and broadcasters change often. <a href="https://github.com/fogslin/cagetime/issues/new" rel="noopener">Send a correction</a></p></section>
 </div>
 
@@ -89,6 +94,8 @@
     <p class="gamble">Betting odds are shown for information only. 18+ only. Odds change constantly. Please gamble responsibly — <a href="https://www.begambleaware.org/" rel="noopener" target="_blank">BeGambleAware</a> · US: 1-800-GAMBLER.</p>
   </div>
 </footer>
-<script src="app.js?v=20261026a" defer></script>
+<script src="app.js?v=20261026b" defer></script>
+
+<!-- pwa --><div class="install-slot" data-install hidden></div><script src="pwa.js?v=20261026b" defer></script><script src="push.js?v=20261026b" defer></script><!-- /pwa -->
 </body>
 </html>

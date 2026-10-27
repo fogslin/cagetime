@@ -8,10 +8,12 @@
 <meta name="theme-color" content="#0b0b0e">
 <link rel="canonical" href="https://getcagetime.com/credits.html">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
+<!-- pwa --><link rel="manifest" href="manifest.webmanifest"><link rel="apple-touch-icon" href="icons/apple-touch-icon.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="CageTime"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><!-- /pwa -->
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Oswald:wght@500;600;700&amp;display=swap">
-<link rel="stylesheet" href="style.css?v=20261018d">
+<link rel="stylesheet" href="style.css?v=20261026b">
 <style>
 body{margin:0;background:#0b0b0e;color:#e9e9ee;font:15px/1.55 Inter,system-ui,sans-serif}
 a{color:#ff5a6a}h1,h2{font-family:Oswald,Impact,sans-serif;letter-spacing:.02em;text-transform:uppercase}
@@ -27,7 +29,7 @@ ul.cr li b{color:#fff;font-size:14px}ul.cr img{border-radius:50%;flex:none;objec
 <header class="topbar">
   <div class="wrap topbar-in">
     <a class="logo" href="./" aria-label="CageTime home"><img src="favicon.svg" alt="" width="28" height="28"><span>CAGE<b>TIME</b></span></a>
-    <nav aria-label="Main"><a href="./#events">Events</a><a href="rankings.html">Rankings</a><a href="games.html">Games</a><a href="./#newsletter">Newsletter</a><a href="credits.html" class="is-active" aria-current="page">Credits</a></nav>
+    <nav aria-label="Main"><a href="./#events" class="nav-events">Events</a><a href="results/" class="nav-results">Results</a><a href="rankings.html" class="nav-rankings">Rankings</a><a href="games.html" class="nav-games">Games</a><a href="./#newsletter" class="nav-newsletter">Newsletter</a><a href="credits.html" class="nav-credits is-active" aria-current="page">Credits</a></nav>
   </div>
 </header>
 <main class="cwrap">
@@ -218,5 +220,7 @@ derivative work: Alexander Gustafsson · <a href="http://creativecommons.org/pub
 </ul>
 <p style="color:#888;font-size:12px">Last updated 2026-10-26. Spotted a wrong photo or credit? <a href="./#corrections">Tell us</a> and we will fix or remove it.</p>
 </main>
+
+<!-- pwa --><div class="install-slot" data-install hidden></div><script src="pwa.js?v=20261026b" defer></script><script src="push.js?v=20261026b" defer></script><!-- /pwa -->
 </body>
 </html>

@@ -8,6 +8,8 @@
 <meta name="theme-color" content="#0b0b0e">
 <link rel="canonical" href="https://getcagetime.com/games/career/">
 <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+<!-- pwa --><link rel="manifest" href="../../manifest.webmanifest"><link rel="apple-touch-icon" href="../../icons/apple-touch-icon.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="CageTime"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><!-- /pwa -->
+
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="CageTime">
 <meta property="og:title" content="Career Mode: build an MMA legend | CageTime Games">
@@ -18,7 +20,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Oswald:wght@500;600;700&amp;display=swap">
-<link rel="stylesheet" href="../../style.css?v=20261018d">
+<link rel="stylesheet" href="../../style.css?v=20261026b">
 <link rel="stylesheet" href="../shared/game.css?v=20261026a">
 </head>
 <body class="page-games page-career">
@@ -26,7 +28,7 @@
 <header class="topbar">
   <div class="wrap topbar-in">
     <a class="logo" href="../../" aria-label="CageTime home"><img src="../../favicon.svg" alt="" width="28" height="28"><span>CAGE<b>TIME</b></span></a>
-    <nav aria-label="Main"><a href="../../#events">Events</a><a href="../../rankings.html">Rankings</a><a href="../../games.html" class="is-active" aria-current="page">Games</a><a href="../../#newsletter">Newsletter</a><a href="../../credits.html">Credits</a></nav>
+    <nav aria-label="Main"><a href="../../#events" class="nav-events">Events</a><a href="../../results/" class="nav-results">Results</a><a href="../../rankings.html" class="nav-rankings">Rankings</a><a href="../../games.html" class="nav-games is-active" aria-current="page">Games</a><a href="../../#newsletter" class="nav-newsletter">Newsletter</a><a href="../../credits.html" class="nav-credits">Credits</a></nav>
   </div>
 </header>
 <section class="gx-hero"><div class="wrap gx-hero-in"><p class="eyebrow">CageTime Games</p><h1>Career <span>Mode</span></h1><p class="lede">Create a fighter. Climb from the regional circuit to the Aurelian Fighting Championship. Play it Simple (one tap per fight) or Full. Win the belt, defend it, and build a Hall of Fame legacy.</p></div></section>
@@ -40,5 +42,7 @@
   </div>
 </footer>
 <script type="module" src="./career.js?v=20261026a"></script>
+
+<!-- pwa --><div class="install-slot" data-install hidden></div><script src="../../pwa.js?v=20261026b" defer></script><script src="../../push.js?v=20261026b" defer></script><!-- /pwa -->
 </body>
 </html>

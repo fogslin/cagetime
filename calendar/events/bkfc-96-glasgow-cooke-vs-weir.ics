@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CageTime//getcagetime.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:BKFC 96 Glasgow: Cooke vs. Weir
+X-WR-CALDESC:From CageTime (getcagetime.com)
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:bkfc-96-glasgow-cooke-vs-weir@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261107T190000Z
+DTEND:20261107T220000Z
+SUMMARY:BKFC 96 Glasgow: Cooke vs. Weir
+LOCATION:OVO Hydro\, Glasgow\, UK
+DESCRIPTION:TIMES\nFree fights: Sat Nov 7 1:00 PM EST (18:00 UTC)\nMain car
+ d: Sat Nov 7 2:00 PM EST (19:00 UTC)\n\nWHERE TO WATCH\nUnited States: TBA
+ \nUnited Kingdom: TBA\nCanada: TBA\nAustralia: TBA\nIreland: TBA\nIndia: T
+ BA\nGermany: TBA\nBrazil: TBA\n\nFIGHT CARD\n— Main card —\nConor Cook
+ e vs. Sean Weir (Light Heavyweight)\nStevie Ray vs. Danny Christie (Middle
+ weight)\nScott Malone vs. Kiran Sewell (Bantamweight)\nBarry Boyle vs. Kas
+ eem Saleem (Heavyweight)\nDoalty Torrance vs. Kyle Cassidy (Welterweight)\
+ nCory Chapman vs. Lewis Dixon (Bantamweight)\nDan Morel vs. Owen Webster (
+ Featherweight)\nLewis Knox vs. Tommy Carus (Featherweight)\nRhys Pagan vs.
+  Danny Moir (Light Heavyweight)\nIan Mulroy vs. Charlie Thompson (Middlewe
+ ight)\nBarry Aikman vs. Cory Hardy (Middleweight)\n\nEvent page: https://g
+ etcagetime.com/events/bkfc-96-glasgow-cooke-vs-weir/\nTimes and broadcaste
+ rs can change\; check the event page. From CageTime (getcagetime.com).
+URL:https://getcagetime.com/events/bkfc-96-glasgow-cooke-vs-weir/
+CATEGORIES:BKFC,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

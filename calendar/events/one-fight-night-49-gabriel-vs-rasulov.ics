@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CageTime//getcagetime.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ONE Fight Night 49: Gabriel vs. Magomedov
+X-WR-CALDESC:From CageTime (getcagetime.com)
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:one-fight-night-49-gabriel-vs-rasulov@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261107T020000Z
+DTEND:20261107T050000Z
+SUMMARY:ONE Fight Night 49: Gabriel vs. Magomedov
+LOCATION:Lumpinee Boxing Stadium\, Bangkok\, Thailand
+DESCRIPTION:TIMES\nEvent start (ONE.com: live in U.S. primetime): Fri Nov 6
+  9:00 PM EST (02:00 UTC)\n\nWHERE TO WATCH\nUnited States: Prime Video\nUn
+ ited Kingdom: Sky Sports\nCanada: Prime Video\nAustralia: ESPN (Disney+ / 
+ Foxtel / Kayo)\nIreland: Sky Sports\nIndia: JioHotstar / Star Sports Selec
+ t 2\nGermany: TBA\nBrazil: Combate / SporTV\n\nFIGHT CARD\n— Main card 
+ —\nLucas Gabriel vs. Magomed Magomedov (Lightweight)\nKongthoranee vs. T
+ aiki Naito (Flyweight)\nSeung Chul Lee vs. Nazareth Lalthazuala (Strawweig
+ ht)\nNontachai Jitmuangnon vs. Felipe Lobo (Bantamweight)\nJiaqiang Zhou v
+ s. Mamuka Usubyan (Featherweight)\nVictória Souza vs. Magdalena Czaban (W
+ omen's Atomweight)\nVictor Hugo vs. Devhonte Johnson (Openweight)\nQalanda
+ r Tabarov vs. Ilmadi Israilov (Bantamweight)\nBogdan Shumarov vs. Gasham M
+ ammadov (Lightweight)\n\nEvent page: https://getcagetime.com/events/one-fi
+ ght-night-49-gabriel-vs-rasulov/\nTimes and broadcasters can change\; chec
+ k the event page. From CageTime (getcagetime.com).
+URL:https://getcagetime.com/events/one-fight-night-49-gabriel-vs-rasulov/
+CATEGORIES:ONE,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

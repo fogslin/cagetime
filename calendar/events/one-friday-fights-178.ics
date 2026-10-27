@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CageTime//getcagetime.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ONE Friday Fights 178
+X-WR-CALDESC:From CageTime (getcagetime.com)
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:one-friday-fights-178@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261113T133000Z
+DTEND:20261113T163000Z
+SUMMARY:ONE Friday Fights 178
+LOCATION:Lumpinee Stadium\, Bangkok\, Thailand
+DESCRIPTION:TIMES\nThe Inner Circle pre-show (live.onefc.com): Fri Nov 13 6
+ :30 AM EST (11:30 UTC)\nONE Friday Fights: Fri Nov 13 8:30 AM EST (13:30 U
+ TC)\n\nWHERE TO WATCH\nUnited States: beIN SPORTS\nUnited Kingdom: Sky Spo
+ rts (app / YouTube)\nCanada: beIN SPORTS\nAustralia: ESPN (Disney+ / Foxte
+ l / Kayo)\nIreland: Sky Sports (app / YouTube)\nIndia: Star Sports Select 
+ 2 / JioHotstar\nGermany: TBA\nBrazil: TBA\n\nFIGHT CARD\n— Prelims —\n
+ Rodtang Jitmuangnon vs. Nong-O (Flyweight)\nShimon Yoshinari vs. Ramadan O
+ ndash (Flyweight)\n\nEvent page: https://getcagetime.com/events/one-friday
+ -fights-178/\nTimes and broadcasters can change\; check the event page. Fr
+ om CageTime (getcagetime.com).
+URL:https://getcagetime.com/events/one-friday-fights-178/
+CATEGORIES:ONE,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

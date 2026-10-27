@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CageTime//getcagetime.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:BKFC Fight Night Myrtle Beach: Richardson vs. Oxendine
+X-WR-CALDESC:From CageTime (getcagetime.com)
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:bkfc-fight-night-myrtle-beach-richardson-vs-oxendine@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261121T020000Z
+DTEND:20261121T050000Z
+SUMMARY:BKFC Fight Night Myrtle Beach: Richardson vs. Oxendine
+LOCATION:Myrtle Beach Sports Center\, Myrtle Beach\, South Carolina
+DESCRIPTION:TIMES\nMain card: Fri Nov 20 9:00 PM EST (02:00 UTC)\n\nWHERE T
+ O WATCH\nUnited States: BKFC App (BKFC+)\nUnited Kingdom: BKFC App (BKFC+)
+ \nCanada: BKFC App (BKFC+)\nAustralia: BKFC App (BKFC+)\nIreland: BKFC App
+  (BKFC+)\nIndia: BKFC App (BKFC+)\nGermany: BKFC App (BKFC+)\nBrazil: BKFC
+  App (BKFC+)\n\nFIGHT CARD\n— Main card —\nKeith Richardson vs. Joshua
+  Oxendine (Bantamweight)\nDerek Brunson vs. Theo Doukas (Cruiserweight)\nR
+ yan Jett vs. Rodney Hinton (Welterweight)\nEvan Pierce vs. Diego Romo (Mid
+ dleweight)\nWindson Ramos vs. Robert Fichtner (Bantamweight)\nBrandon Bush
+ aw vs. Joshua Claudio (Featherweight)\nAustin Coleman vs. Alex Eliam (Bant
+ amweight)\nMaurice Morris vs. Lewis Glover (Cruiserweight)\n\nEvent page: 
+ https://getcagetime.com/events/bkfc-fight-night-myrtle-beach-richardson-vs
+ -oxendine/\nTimes and broadcasters can change\; check the event page. From
+  CageTime (getcagetime.com).
+URL:https://getcagetime.com/events/bkfc-fight-night-myrtle-beach-richardson
+ -vs-oxendine/
+CATEGORIES:BKFC,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

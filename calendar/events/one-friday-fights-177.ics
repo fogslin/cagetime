@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CageTime//getcagetime.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ONE Friday Fights 177
+X-WR-CALDESC:From CageTime (getcagetime.com)
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:one-friday-fights-177@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261106T133000Z
+DTEND:20261106T163000Z
+SUMMARY:ONE Friday Fights 177
+LOCATION:Lumpinee Stadium\, Bangkok\, Thailand
+DESCRIPTION:TIMES\nThe Inner Circle pre-show (live.onefc.com): Fri Nov 6 6:
+ 30 AM EST (11:30 UTC)\nONE Friday Fights: Fri Nov 6 8:30 AM EST (13:30 UTC
+ )\n\nWHERE TO WATCH\nUnited States: beIN SPORTS\nUnited Kingdom: Sky Sport
+ s (app / YouTube)\nCanada: beIN SPORTS\nAustralia: ESPN (Disney+ / Foxtel 
+ / Kayo)\nIreland: Sky Sports (app / YouTube)\nIndia: Star Sports Select 2 
+ / JioHotstar\nGermany: TBA\nBrazil: TBA\n\nFIGHT CARD\n— Main card —\n
+ Christian Lee vs. Tye Ruotolo (Lightweight)\n\nEvent page: https://getcage
+ time.com/events/one-friday-fights-177/\nTimes and broadcasters can change\
+ ; check the event page. From CageTime (getcagetime.com).
+URL:https://getcagetime.com/events/one-friday-fights-177/
+CATEGORIES:ONE,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

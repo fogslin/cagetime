@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CageTime//getcagetime.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Cage Warriors 213: London
+X-WR-CALDESC:From CageTime (getcagetime.com)
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:cage-warriors-213-london@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261114T170000Z
+DTEND:20261114T200000Z
+SUMMARY:Cage Warriors 213: London (Prelims (official countdown))
+LOCATION:BBC Studioworks Television Centre\, London\, UK
+DESCRIPTION:TIMES\nPrelims (official countdown): Sat Nov 14 12:00 PM EST (1
+ 7:00 UTC)\nMain card time not published yet\; this entry starts at the ear
+ liest listed time.\n\nWHERE TO WATCH\nUnited States: UFC Fight Pass\nUnite
+ d Kingdom: UFC Fight Pass\nCanada: UFC Fight Pass\nAustralia: UFC Fight Pa
+ ss\nIreland: UFC Fight Pass\nIndia: UFC Fight Pass\nGermany: UFC Fight Pas
+ s\nBrazil: UFC Fight Pass\n\nFIGHT CARD\n— Main card —\nNik Bagley vs.
+  Bruno Souza (Featherweight)\nSteven Hill vs. Sado Ucar (Welterweight)\nMa
+ rin Vetrila vs. Stefano Catacoli (Lightweight)\nBobby Chikavhu vs. Habib S
+ amadi (Flyweight)\nBen Edwards vs. James Wamsley (Welterweight)\nOllie Sar
+ wa vs. Kadeem Perkins (Bantamweight)\nCallum Haughian vs. Will Fox (Lightw
+ eight)\n\nEvent page: https://getcagetime.com/events/cage-warriors-213-lon
+ don/\nTimes and broadcasters can change\; check the event page. From CageT
+ ime (getcagetime.com).
+URL:https://getcagetime.com/events/cage-warriors-213-london/
+CATEGORIES:Cage Warriors,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

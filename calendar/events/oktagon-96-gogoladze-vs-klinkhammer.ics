@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CageTime//getcagetime.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:OKTAGON 96: Gogoladze vs. Klinkhammer
+X-WR-CALDESC:From CageTime (getcagetime.com)
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:oktagon-96-gogoladze-vs-klinkhammer@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261031T160000Z
+DTEND:20261031T190000Z
+SUMMARY:OKTAGON 96: Gogoladze vs. Klinkhammer
+LOCATION:SAP Garden\, Munich\, Germany
+DESCRIPTION:TIMES\nEvent start (official\; no separate main-card time publi
+ shed): Sat Oct 31 12:00 PM EDT (16:00 UTC)\n\nWHERE TO WATCH\nUnited State
+ s: OKTAGON.TV (PPV)\nUnited Kingdom: OKTAGON.TV (PPV)\nCanada: OKTAGON.TV 
+ (PPV)\nAustralia: OKTAGON.TV (PPV)\nIreland: OKTAGON.TV (PPV)\nIndia: OKTA
+ GON.TV (PPV)\nGermany: RTL+\nBrazil: OKTAGON.TV (PPV)\n\nFIGHT CARD\n— M
+ ain card —\nAmiran Gogoladze vs. Felix Klinkhammer (Welterweight)\nLazar
+  Todev vs. Simon Biyong (Heavyweight)\nHenrique Madureira vs. Daniel Schor
+ dje (Featherweight)\nRonald Paradeiser vs. Tyrone Pfeifer (Welterweight)\n
+ Marat Nessar vs. Abdulmalik Aliev (Lightweight)\nGökhan Aksu vs. Niko Sam
+ sonidse (Lightweight)\nMarek Bartl vs. Brian Manning (Middleweight)\nKevin
+  Hangs vs. Burak Kizilirmak (Welterweight)\nEndrit Brajshori vs. Christian
+  Mach (Welterweight)\nMichael Deiga-Scheck vs. Lukáš Chotěnovský (Feat
+ herweight)\nJessin Ayari vs. Kevin Pastran (Welterweight)\n\nEvent page: h
+ ttps://getcagetime.com/events/oktagon-96-gogoladze-vs-klinkhammer/\nTimes 
+ and broadcasters can change\; check the event page. From CageTime (getcage
+ time.com).
+URL:https://getcagetime.com/events/oktagon-96-gogoladze-vs-klinkhammer/
+CATEGORIES:OKTAGON,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

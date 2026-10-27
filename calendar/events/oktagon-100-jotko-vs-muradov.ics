@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CageTime//getcagetime.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:OKTAGON 100: Jotko vs. Muradov
+X-WR-CALDESC:From CageTime (getcagetime.com)
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:oktagon-100-jotko-vs-muradov@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261229T170000Z
+DTEND:20261229T200000Z
+SUMMARY:OKTAGON 100: Jotko vs. Muradov
+LOCATION:O2 Arena\, Prague\, Czech Republic
+DESCRIPTION:TIMES\nEvent start (official\; no separate main-card time publi
+ shed): Tue Dec 29 12:00 PM EST (17:00 UTC)\n\nWHERE TO WATCH\nUnited State
+ s: OKTAGON.TV (PPV)\nUnited Kingdom: OKTAGON.TV (PPV)\nCanada: OKTAGON.TV 
+ (PPV)\nAustralia: OKTAGON.TV (PPV)\nIreland: OKTAGON.TV (PPV)\nIndia: OKTA
+ GON.TV (PPV)\nGermany: RTL+\nBrazil: OKTAGON.TV (PPV)\n\nFIGHT CARD\n— M
+ ain card —\nKrzysztof Jotko vs. Makhmud Muradov (Middleweight)\nVladimí
+ r Lengál vs. Josef Hála (165 lb)\nAttila Végh vs. Luke Barnatt\n\nEvent
+  page: https://getcagetime.com/events/oktagon-100-jotko-vs-muradov/\nTimes
+  and broadcasters can change\; check the event page. From CageTime (getcag
+ etime.com).
+URL:https://getcagetime.com/events/oktagon-100-jotko-vs-muradov/
+CATEGORIES:OKTAGON,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

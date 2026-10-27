@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CageTime//getcagetime.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ONE Samurai 6
+X-WR-CALDESC:From CageTime (getcagetime.com)
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:one-samurai-6@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261202T083000Z
+DTEND:20261202T113000Z
+SUMMARY:ONE Samurai 6 (Card start per Tapology (unofficial\; may be prelims
+ ))
+LOCATION:Yokohama Buntai\, Yokohama\, Kanagawa\, Japan
+DESCRIPTION:TIMES\nCard start per Tapology (unofficial\; may be prelims): W
+ ed Dec 2 3:30 AM EST (08:30 UTC)\nMain card time not published yet\; this 
+ entry starts at the earliest listed time.\n\nWHERE TO WATCH\nUnited States
+ : TBA\nUnited Kingdom: TBA\nCanada: TBA\nAustralia: TBA\nIreland: TBA\nInd
+ ia: TBA\nGermany: TBA\nBrazil: TBA\n\nFIGHT CARD\n— Main card —\nChihi
+ ro Sawada vs. Anastasia Nikolakakos (Women's Atomweight)\n\nEvent page: ht
+ tps://getcagetime.com/events/one-samurai-6/\nTimes and broadcasters can ch
+ ange\; check the event page. From CageTime (getcagetime.com).
+URL:https://getcagetime.com/events/one-samurai-6/
+CATEGORIES:ONE,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

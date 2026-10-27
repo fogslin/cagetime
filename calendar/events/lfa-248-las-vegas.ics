@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CageTime//getcagetime.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:LFA 248: Las Vegas
+X-WR-CALDESC:From CageTime (getcagetime.com)
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:lfa-248-las-vegas@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261219T020000Z
+DTEND:20261219T050000Z
+SUMMARY:LFA 248: Las Vegas (Card start per Tapology (unofficial\; may be pr
+ elims))
+LOCATION:Pearl Theater at Palms\, Las Vegas\, Nevada
+DESCRIPTION:TIMES\nCard start per Tapology (unofficial\; may be prelims): F
+ ri Dec 18 9:00 PM EST (02:00 UTC)\nMain card time not published yet\; this
+  entry starts at the earliest listed time.\n\nWHERE TO WATCH\nUnited State
+ s: TBA\nUnited Kingdom: TBA\nCanada: TBA\nAustralia: TBA\nIreland: TBA\nIn
+ dia: TBA\nGermany: TBA\nBrazil: TBA\n\nFight card TBA\n\nEvent page: https
+ ://getcagetime.com/events/lfa-248-las-vegas/\nTimes and broadcasters can c
+ hange\; check the event page. From CageTime (getcagetime.com).
+URL:https://getcagetime.com/events/lfa-248-las-vegas/
+CATEGORIES:LFA,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

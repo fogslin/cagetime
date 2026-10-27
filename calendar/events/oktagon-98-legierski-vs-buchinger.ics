@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CageTime//getcagetime.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:OKTAGON 98: Legierski vs. Buchinger
+X-WR-CALDESC:From CageTime (getcagetime.com)
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:oktagon-98-legierski-vs-buchinger@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261121T170000Z
+DTEND:20261121T200000Z
+SUMMARY:OKTAGON 98: Legierski vs. Buchinger
+LOCATION:Werk Arena\, Třinec\, Czechia
+DESCRIPTION:TIMES\nEvent start (official\; no separate main-card time publi
+ shed): Sat Nov 21 12:00 PM EST (17:00 UTC)\n\nWHERE TO WATCH\nUnited State
+ s: OKTAGON.TV (PPV)\nUnited Kingdom: OKTAGON.TV (PPV)\nCanada: OKTAGON.TV 
+ (PPV)\nAustralia: OKTAGON.TV (PPV)\nIreland: OKTAGON.TV (PPV)\nIndia: OKTA
+ GON.TV (PPV)\nGermany: RTL+\nBrazil: OKTAGON.TV (PPV)\n\nFIGHT CARD\n— M
+ ain card —\nMateusz Legierski vs. Ivan Buchinger (Lightweight)\nVeronika
+  Smolková vs. Ivana Petrović (Women's Flyweight)\nJakub Batfalsky vs. Ay
+ ton De Paepe (Featherweight)\nPatrik Šebek vs. Adrian Hamerski (Lightweig
+ ht)\nMartin Prázdný vs. Jindřich Byrtus (185 lb)\nHojat Khajevand vs. M
+ ateusz Janur (Middleweight)\nOndřej Raška vs. Dominic Schober (Middlewei
+ ght)\nTomáš Mudroch vs. Jason Ponet (Catchweight (163 lb))\nDominik Tabo
+ r vs. Deniz Ilbay (152 lb)\nMichaela Hlaváčiková vs. Marta Sós (Women'
+ s Flyweight)\nDawid Śmiełowski vs. Arbi Mezhidov (Lightweight)\n\nEvent 
+ page: https://getcagetime.com/events/oktagon-98-legierski-vs-buchinger/\nT
+ imes and broadcasters can change\; check the event page. From CageTime (ge
+ tcagetime.com).
+URL:https://getcagetime.com/events/oktagon-98-legierski-vs-buchinger/
+CATEGORIES:OKTAGON,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CageTime//getcagetime.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:UFC 335: Oliveira vs. Lopes
+X-WR-CALDESC:From CageTime (getcagetime.com)
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:ufc-335-oliveira-vs-lopes@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261213T020000Z
+DTEND:20261213T050000Z
+SUMMARY:UFC 335: Oliveira vs. Lopes
+LOCATION:T-Mobile Arena\, Las Vegas\, Nevada\, United States
+DESCRIPTION:TIMES\nEarly prelims: Sat Dec 12 5:00 PM EST (22:00 UTC)\nPreli
+ ms: Sat Dec 12 7:00 PM EST (00:00 UTC)\nMain card: Sat Dec 12 9:00 PM EST 
+ (02:00 UTC)\n\nWHERE TO WATCH\nUnited States: Paramount+\nUnited Kingdom: 
+ TNT Sports Box Office (main card) / HBO Max\nCanada: PPV (main card)\; Spo
+ rtsnet+ / TVA Sports (prelims)\nAustralia: Main Event PPV on Foxtel/Kayo (
+ main card)\; Paramount+ / Network 10 (prelims)\nIreland: TNT Sports Box Of
+ fice (main card)\nIndia: Sony TEN 2\nGermany: DAZN / UFC PPV on UFC Fight 
+ Pass\nBrazil: Paramount+\n\nFIGHT CARD\n— Main card —\nCharles Oliveir
+ a vs. Diego Lopes (Lightweight)\nSergei Pavlovich vs. Alex Pereira (Heavyw
+ eight)\nBrandon Moreno vs. Charles Johnson (Flyweight)\n— Prelims —\nJ
+ unior Tafa vs. Quentin Pasley (Light Heavyweight)\nMaycee Barber vs. Carli
+  Judice (Women's Flyweight)\nChris Padilla vs. Chase Hooper (Lightweight)\
+ nNikolay Veretennikov vs. Ronald Humphrey (Welterweight)\nNilson Rojas vs.
+  Roque Conceição (Flyweight)\nAngela Hill vs. Shanelle Dyer (Women's Str
+ awweight)\n\nEvent page: https://getcagetime.com/events/ufc-335-oliveira-v
+ s-lopes/\nTimes and broadcasters can change\; check the event page. From C
+ ageTime (getcagetime.com).
+URL:https://getcagetime.com/events/ufc-335-oliveira-vs-lopes/
+CATEGORIES:UFC,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

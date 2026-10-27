@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CageTime//getcagetime.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:XTB KSW 123: Bartosiński vs. Łopaczyk
+X-WR-CALDESC:From CageTime (getcagetime.com)
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:xtb-ksw-123-bartosinski-vs-lopaczyk@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261121T180000Z
+DTEND:20261121T210000Z
+SUMMARY:XTB KSW 123: Bartosiński vs. Łopaczyk
+LOCATION:Enea Arena (formerly Netto Arena)\, Szczecin\, Poland
+DESCRIPTION:TIMES\nEvent start (official\; no separate main-card time publi
+ shed): Sat Nov 21 1:00 PM EST (18:00 UTC)\n\nWHERE TO WATCH\nUnited States
+ : KSW TV (PPV)\nUnited Kingdom: KSW TV (PPV)\nCanada: KSW TV (PPV)\nAustra
+ lia: KSW TV (PPV)\nIreland: KSW TV (PPV)\nIndia: KSW TV (PPV)\nGermany: KS
+ W TV (PPV)\nBrazil: KSW TV (PPV)\n\nFIGHT CARD\n— Main card —\nAdrian 
+ Bartosiński vs. Tymoteusz Łopaczyk (Welterweight)\nValeriu Mircea vs. Ma
+ rcin Held (Lightweight)\nWojciech Kawa vs. Oleksandr Moisa (Lightweight)\n
+ Tomasz Romanowski vs. Igor Michaliszyn (Middleweight)\nMaciej Kazieczko vs
+ . Bohdan Danylko (Lightweight)\nMadars Fleminas vs. Mateusz Pawlik (Welter
+ weight)\n— Prelims —\nOskar Szczepaniak vs. Steven Krt (Welterweight)\
+ n\nEvent page: https://getcagetime.com/events/xtb-ksw-123-bartosinski-vs-l
+ opaczyk/\nTimes and broadcasters can change\; check the event page. From C
+ ageTime (getcagetime.com).
+URL:https://getcagetime.com/events/xtb-ksw-123-bartosinski-vs-lopaczyk/
+CATEGORIES:KSW,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

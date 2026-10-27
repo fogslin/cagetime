@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CageTime//getcagetime.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:PFL MENA 12: Al Khobar
+X-WR-CALDESC:From CageTime (getcagetime.com)
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:pfl-mena-12-al-khobar@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261211T150000Z
+DTEND:20261211T180000Z
+SUMMARY:PFL MENA 12: Al Khobar (Card start per Tapology (unofficial\; may b
+ e prelims))
+LOCATION:Dhahran Expo\, Al Khobar\, Saudi Arabia
+DESCRIPTION:TIMES\nCard start per Tapology (unofficial\; may be prelims): F
+ ri Dec 11 10:00 AM EST (15:00 UTC)\nMain card time not published yet\; thi
+ s entry starts at the earliest listed time.\n\nWHERE TO WATCH\nUnited Stat
+ es: TBA\nUnited Kingdom: TBA\nCanada: TBA\nAustralia: Stan Sport\nIreland:
+  TBA\nIndia: TBA\nGermany: TBA\nBrazil: TBA\n\nFIGHT CARD\n— Main card 
+ —\nAbdelkrim Zouad vs. Badreddine Diani (Welterweight)\nMohammad Fahmi v
+ s. Ylies Djiroun (Lightweight)\nElias Boudegzdame vs. Mehdi Saadi (Feather
+ weight)\n\nEvent page: https://getcagetime.com/events/pfl-mena-12-al-khoba
+ r/\nTimes and broadcasters can change\; check the event page. From CageTim
+ e (getcagetime.com).
+URL:https://getcagetime.com/events/pfl-mena-12-al-khobar/
+CATEGORIES:PFL,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

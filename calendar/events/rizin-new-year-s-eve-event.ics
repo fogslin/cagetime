@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CageTime//getcagetime.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:RIZIN: New Year's Eve Event
+X-WR-CALDESC:From CageTime (getcagetime.com)
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:rizin-new-year-s-eve-event@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261231T050000Z
+DTEND:20261231T080000Z
+SUMMARY:RIZIN: New Year's Eve Event (Card start per Tapology (unofficial\; 
+ may be prelims))
+LOCATION:Vantelin Dome Nagoya\, Nagoya\, Aichi\, Japan
+DESCRIPTION:TIMES\nCard start per Tapology (unofficial\; may be prelims): T
+ hu Dec 31 12:00 AM EST (05:00 UTC)\nMain card time not published yet\; thi
+ s entry starts at the earliest listed time.\n\nWHERE TO WATCH\nUnited Stat
+ es: TBA\nUnited Kingdom: TBA\nCanada: TBA\nAustralia: TBA\nIreland: TBA\nI
+ ndia: TBA\nGermany: TBA\nBrazil: TBA\n\nFIGHT CARD\n— Main card —\nRaz
+ habali Shaydullaev vs. Kyoma Akimoto (Featherweight (66 kg))\n\nEvent page
+ : https://getcagetime.com/events/rizin-new-year-s-eve-event/\nTimes and br
+ oadcasters can change\; check the event page. From CageTime (getcagetime.c
+ om).
+URL:https://getcagetime.com/events/rizin-new-year-s-eve-event/
+CATEGORIES:RIZIN,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

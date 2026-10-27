@@ -1,0 +1,43 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CageTime//getcagetime.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:UFC 334: Gane vs. Hokit
+X-WR-CALDESC:From CageTime (getcagetime.com)
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:ufc-334-gane-vs-hokit@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261115T020000Z
+DTEND:20261115T050000Z
+SUMMARY:UFC 334: Gane vs. Hokit
+LOCATION:Madison Square Garden\, New York\, USA
+DESCRIPTION:TIMES\nEarly prelims: Sat Nov 14 5:00 PM EST (22:00 UTC)\nPreli
+ ms: Sat Nov 14 7:00 PM EST (00:00 UTC)\nMain card: Sat Nov 14 9:00 PM EST 
+ (02:00 UTC)\n\nWHERE TO WATCH\nUnited States: Paramount+\nUnited Kingdom: 
+ TNT Sports Box Office (main card) / HBO Max\nCanada: PPV (main card)\; Spo
+ rtsnet+ / TVA Sports (prelims)\nAustralia: Main Event PPV on Foxtel/Kayo (
+ main card)\; Paramount+ / Network 10 (prelims)\nIreland: TNT Sports Box Of
+ fice (main card)\nIndia: Sony TEN 2\nGermany: DAZN / UFC PPV on UFC Fight 
+ Pass\nBrazil: Paramount+\n\nFIGHT CARD\n— Main card —\nCiryl Gane vs. 
+ Josh Hokit (Heavyweight)\nKayla Harrison vs. Amanda Nunes (Women's Bantamw
+ eight)\nCaio Borralho vs. Yousri Belgaroui (Middleweight)\nUros Medic vs. 
+ Kevin Holland (Welterweight)\nLuis Gurule vs. Bilal Hasan (Flyweight)\n—
+  Prelims —\nStephen Thompson vs. Charles Radtke (Welterweight)\nDrew Dob
+ er vs. Chris Duncan (Lightweight)\nJim Miller vs. Terrance McKinney (Light
+ weight)\nDonte Johnson vs. César Almeida (Middleweight)\nMelquizael Costa
+  vs. Jared Gordon (Lightweight)\nEvan Elder vs. Samuel Sanches (Lightweigh
+ t)\n— Early prelims —\nMacy Chiasson vs. Bia Mesquita (Women's Bantamw
+ eight)\n\nEvent page: https://getcagetime.com/events/ufc-334-gane-vs-hokit
+ /\nTimes and broadcasters can change\; check the event page. From CageTime
+  (getcagetime.com).
+URL:https://getcagetime.com/events/ufc-334-gane-vs-hokit/
+CATEGORIES:UFC,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

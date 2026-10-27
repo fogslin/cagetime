@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CageTime//getcagetime.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:PFL Africa: Rwanda
+X-WR-CALDESC:From CageTime (getcagetime.com)
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:pfl-africa-rwanda@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261212T160000Z
+DTEND:20261212T190000Z
+SUMMARY:PFL Africa: Rwanda
+LOCATION:The BK Arena\, Kigali\, Rwanda
+DESCRIPTION:TIMES\nMain card (official\; early card listed at the same time
+ ): Sat Dec 12 11:00 AM EST (16:00 UTC)\n\nWHERE TO WATCH\nUnited States: T
+ BA\nUnited Kingdom: TBA\nCanada: TBA\nAustralia: Stan Sport\nIreland: TBA\
+ nIndia: TBA\nGermany: TBA\nBrazil: TBA\n\nFIGHT CARD\n— Main card —\nS
+ hido Boris Esperança vs. David Samuel (Welterweight)\nPatrick Ocheme vs. 
+ Demba Seck (Lightweight)\nRaphael Uchegbu vs. Dwight Joseph (Bantamweight)
+ \n\nEvent page: https://getcagetime.com/events/pfl-africa-rwanda/\nTimes a
+ nd broadcasters can change\; check the event page. From CageTime (getcaget
+ ime.com).
+URL:https://getcagetime.com/events/pfl-africa-rwanda/
+CATEGORIES:PFL,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

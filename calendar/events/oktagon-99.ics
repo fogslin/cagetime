@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CageTime//getcagetime.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:OKTAGON 99
+X-WR-CALDESC:From CageTime (getcagetime.com)
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:oktagon-99@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261205T170000Z
+DTEND:20261205T200000Z
+SUMMARY:OKTAGON 99
+LOCATION:Westfalenhalle\, Dortmund\, Germany
+DESCRIPTION:TIMES\nEvent start (official\; no separate main-card time publi
+ shed): Sat Dec 5 12:00 PM EST (17:00 UTC)\n\nWHERE TO WATCH\nUnited States
+ : OKTAGON.TV (PPV)\nUnited Kingdom: OKTAGON.TV (PPV)\nCanada: OKTAGON.TV (
+ PPV)\nAustralia: OKTAGON.TV (PPV)\nIreland: OKTAGON.TV (PPV)\nIndia: OKTAG
+ ON.TV (PPV)\nGermany: RTL+\nBrazil: OKTAGON.TV (PPV)\n\nFIGHT CARD\n— Ma
+ in card —\nPatrick Vespaziani vs. Nicolaj Wagner (Heavyweight)\nEmir-Can
+  Al vs. Adam Havran (Welterweight)\nAltin Zenuni vs. Tomáš Cigánik (Lig
+ htweight)\nMoh Eter vs. Tomáš Holeček (Featherweight)\nAdam Pałasz vs.
+  Marc Doussis (Heavyweight)\nAli Gündüz vs. Abdullah Sultani (Bantamweig
+ ht)\n\nEvent page: https://getcagetime.com/events/oktagon-99/\nTimes and b
+ roadcasters can change\; check the event page. From CageTime (getcagetime.
+ com).
+URL:https://getcagetime.com/events/oktagon-99/
+CATEGORIES:OKTAGON,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

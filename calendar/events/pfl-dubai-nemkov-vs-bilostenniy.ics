@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CageTime//getcagetime.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:PFL Dubai: Nemkov vs. Bilostenniy
+X-WR-CALDESC:From CageTime (getcagetime.com)
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:pfl-dubai-nemkov-vs-bilostenniy@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261114T180000Z
+DTEND:20261114T210000Z
+SUMMARY:PFL Dubai: Nemkov vs. Bilostenniy
+LOCATION:Coca-Cola Arena\, Dubai\, UAE
+DESCRIPTION:TIMES\nEarly card: Sat Nov 14 9:00 AM EST (14:00 UTC)\nMain car
+ d: Sat Nov 14 1:00 PM EST (18:00 UTC)\n\nWHERE TO WATCH\nUnited States: ES
+ PN app\nUnited Kingdom: talkSPORT (YouTube)\nCanada: PFL YouTube channel\n
+ Australia: Stan Sport\nIreland: TBA\nIndia: TBA\nGermany: TBA\nBrazil: ESP
+ N\n\nFIGHT CARD\n— Main card —\nVadim Nemkov vs. Sergey Bilostenniy (H
+ eavyweight)\nPatrick Habirora vs. Omar El Dafrawy (Welterweight)\nPouya Ra
+ hmani vs. Oleg Popov (Heavyweight)\nSergio Pettis vs. Joji Goto (Bantamwei
+ ght)\nAbubakar Nurmagomedov vs. David Martinez (Welterweight)\n— Prelims
+  —\nKhasan Magomedsharipov vs. Ádám Borics (Featherweight)\nAsaël Adj
+ oudj vs. Movlid Khaybulaev (Featherweight)\nErnesto Rodriguez vs. Rhys McK
+ ee (Welterweight)\nShem Rock vs. Connor Hughes (Lightweight)\nAlexei Perga
+ nde vs. Akhmed Magomedov (Lightweight)\nLewis McGrillen vs. Nawras Abzakh 
+ (Bantamweight)\nKhamzat Abaev vs. Leon Hill (Welterweight)\n\nEvent page: 
+ https://getcagetime.com/events/pfl-dubai-nemkov-vs-bilostenniy/\nTimes and
+  broadcasters can change\; check the event page. From CageTime (getcagetim
+ e.com).
+URL:https://getcagetime.com/events/pfl-dubai-nemkov-vs-bilostenniy/
+CATEGORIES:PFL,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CageTime//getcagetime.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:OKTAGON 97: Severino vs. Holzer
+X-WR-CALDESC:From CageTime (getcagetime.com)
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:oktagon-97-severino-vs-holzer@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261107T170000Z
+DTEND:20261107T200000Z
+SUMMARY:OKTAGON 97: Severino vs. Holzer
+LOCATION:ZAG Arena\, Hanover\, Germany
+DESCRIPTION:TIMES\nEvent start (official\; no separate main-card time publi
+ shed): Sat Nov 7 12:00 PM EST (17:00 UTC)\n\nWHERE TO WATCH\nUnited States
+ : OKTAGON.TV (PPV)\nUnited Kingdom: OKTAGON.TV (PPV)\nCanada: OKTAGON.TV (
+ PPV)\nAustralia: OKTAGON.TV (PPV)\nIreland: OKTAGON.TV (PPV)\nIndia: OKTAG
+ ON.TV (PPV)\nGermany: RTL+\nBrazil: OKTAGON.TV (PPV)\n\nFIGHT CARD\n— Ma
+ in card —\nIgor Severino vs. Max Holzer (Bantamweight)\nDaniel Makin vs.
+  Petr Bartoněk (Welterweight)\nGjoni Palokaj vs. Zafar Mohsen (Featherwei
+ ght)\nHaci Akseker vs. Jonatan Kujawa (Featherweight)\nJustin Detzel vs. K
+ acper Frątczak (Middleweight)\nKarol Ryšavý vs. Samuel Bark (Featherwei
+ ght)\nOzan Aslaner vs. Denis Frimpong (Catchweight (159 lb))\nJan Holzer v
+ s. Jan Švagerko (Welterweight)\n\nEvent page: https://getcagetime.com/ev
+ ents/oktagon-97-severino-vs-holzer/\nTimes and broadcasters can change\; c
+ heck the event page. From CageTime (getcagetime.com).
+URL:https://getcagetime.com/events/oktagon-97-severino-vs-holzer/
+CATEGORIES:OKTAGON,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CageTime//getcagetime.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:PFL Lyon: Lapilus vs. McKee
+X-WR-CALDESC:From CageTime (getcagetime.com)
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:pfl-lyon-lapilus-vs-mckee@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261219T200000Z
+DTEND:20261219T230000Z
+SUMMARY:PFL Lyon: Lapilus vs. McKee
+LOCATION:LDLC Arena\, Lyon\, France
+DESCRIPTION:TIMES\nEarly card: Sat Dec 19 11:00 AM EST (16:00 UTC)\nMain ca
+ rd: Sat Dec 19 3:00 PM EST (20:00 UTC)\n\nWHERE TO WATCH\nUnited States: E
+ SPN app\nUnited Kingdom: talkSPORT (YouTube)\nCanada: PFL YouTube channel\
+ nAustralia: Stan Sport\nIreland: TBA\nIndia: TBA\nGermany: TBA\nBrazil: ES
+ PN\n\nFIGHT CARD\n— Main card —\nTaylor Lapilus vs. Mitch McKee (Banta
+ mweight)\nBoris Atangana vs. Bryan Battle (Middleweight)\nAbdoul Abdouragu
+ imov vs. Andreeas Binder (Welterweight)\nFabian Edwards vs. Ilian Bouafia 
+ (Middleweight)\n— Prelims —\nBaris Adiguzel vs. Liam Gittins (Bantamwe
+ ight)\nBrandon Brachet vs. Adam Meskini (Featherweight)\n\nEvent page: htt
+ ps://getcagetime.com/events/pfl-lyon-lapilus-vs-mckee/\nTimes and broadcas
+ ters can change\; check the event page. From CageTime (getcagetime.com).
+URL:https://getcagetime.com/events/pfl-lyon-lapilus-vs-mckee/
+CATEGORIES:PFL,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

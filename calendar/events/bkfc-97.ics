@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CageTime//getcagetime.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:BKFC 97 Hollywood
+X-WR-CALDESC:From CageTime (getcagetime.com)
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:bkfc-97@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261212T010000Z
+DTEND:20261212T040000Z
+SUMMARY:BKFC 97 Hollywood
+LOCATION:Hard Rock Live\, Hollywood\, Florida
+DESCRIPTION:TIMES\nFree fights: Fri Dec 11 7:00 PM EST (00:00 UTC)\nMain ca
+ rd: Fri Dec 11 8:00 PM EST (01:00 UTC)\n\nWHERE TO WATCH\nUnited States: T
+ BA\nUnited Kingdom: TBA\nCanada: TBA\nAustralia: TBA\nIreland: TBA\nIndia:
+  TBA\nGermany: TBA\nBrazil: TBA\n\nFight card TBA\n\nEvent page: https://g
+ etcagetime.com/events/bkfc-97/\nTimes and broadcasters can change\; check 
+ the event page. From CageTime (getcagetime.com).
+URL:https://getcagetime.com/events/bkfc-97/
+CATEGORIES:BKFC,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CageTime//getcagetime.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:LFA 245: Khamzaev vs. Prescendo
+X-WR-CALDESC:From CageTime (getcagetime.com)
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:lfa-245-khamzaev-vs-prescendo@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261031T010000Z
+DTEND:20261031T040000Z
+SUMMARY:LFA 245: Khamzaev vs. Prescendo
+LOCATION:Seneca Niagara Resort & Casino\, Niagara Falls\, USA
+DESCRIPTION:TIMES\nMain card (VICE TV / FloCombat): Fri Oct 30 9:00 PM EDT 
+ (01:00 UTC)\n\nWHERE TO WATCH\nUnited States: VICE TV\nUnited Kingdom: TBA
+ \nCanada: FloCombat\nAustralia: TBA\nIreland: TBA\nIndia: TBA\nGermany: TB
+ A\nBrazil: TBA\n\nFIGHT CARD\n— Main card —\nAnsar Khamzaev vs. Julian
+ o Prescendo (Lightweight)\nTom Picciano vs. Santos Verdinez (Featherweight
+ )\nDavid Wright vs. Lance Wright (Middleweight)\nMatt Adams vs. Shealor La
+ dd (Light Heavyweight)\nJoey Hart vs. Alberth Bahamondes (Welterweight)\nS
+ haraf Davlatmurodov vs. Wildemar Santos (Light Heavyweight)\n— Prelims 
+ —\nNaomie Young vs. Aline David (Women's Strawweight)\nImed Dziri vs. Je
+ rmaine Edwards (Lightweight)\nIsaiah Parks vs. Delsin Gray (Light Heavywei
+ ght)\n\nEvent page: https://getcagetime.com/events/lfa-245-khamzaev-vs-pre
+ scendo/\nTimes and broadcasters can change\; check the event page. From Ca
+ geTime (getcagetime.com).
+URL:https://getcagetime.com/events/lfa-245-khamzaev-vs-prescendo/
+CATEGORIES:LFA,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

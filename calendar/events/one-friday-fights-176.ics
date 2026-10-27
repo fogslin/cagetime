@@ -1,0 +1,43 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CageTime//getcagetime.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ONE Friday Fights 176
+X-WR-CALDESC:From CageTime (getcagetime.com)
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:one-friday-fights-176@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261030T133000Z
+DTEND:20261030T163000Z
+SUMMARY:ONE Friday Fights 176
+LOCATION:Lumpinee Stadium\, Bangkok\, Thailand
+DESCRIPTION:TIMES\nThe Inner Circle pre-show (live.onefc.com): Fri Oct 30 7
+ :30 AM EDT (11:30 UTC)\nONE Friday Fights: Fri Oct 30 9:30 AM EDT (13:30 U
+ TC)\n\nWHERE TO WATCH\nUnited States: beIN SPORTS\nUnited Kingdom: Sky Spo
+ rts (app / YouTube)\nCanada: beIN SPORTS\nAustralia: ESPN (Disney+ / Foxte
+ l / Kayo)\nIreland: Sky Sports (app / YouTube)\nIndia: Star Sports Select 
+ 2 / JioHotstar\nGermany: TBA\nBrazil: TBA\n\nFIGHT CARD\n— Main card —
+ \nRambong Sor Terapat vs. Jacob Thompson (Flyweight)\nKhunsuk Sor Dechapan
+  vs. Yodudon Or UdUdon (Atomweight)\nSittichai Sor.Dechapan vs. Arthur Eva
+ n (Flyweight)\nCaviar Pudprachachuen vs. Klapichit K Tongtalingchan (Straw
+ weight)\nDenchailek Sor Dechapan vs. Adham Roziev (Strawweight)\nEthan Bro
+ ckett vs. Pedro Duarte (Featherweight)\nNihad Taghizade vs. Yumeto Mizuno 
+ (Strawweight)\nPrashanth Guda vs. Ouga Akita (Flyweight)\nSuperbest Winner
+ muaythai vs. Raize (Strawweight)\n— Prelims —\nNumSurin Chor Ketweena 
+ vs. Akram Hamidi (Atomweight)\nXavier Gonzalez vs. Exza WanKongOhm (Flywei
+ ght)\nTomyamkung Pakornpornsurin vs. Yassir Rassafi (Bantamweight)\nPetkha
+ okradong Lukjaomaesaithong vs. Abdelali Zahidi (Featherweight)\nEvan Gambu
+ to vs. Ranma (Bantamweight)\n\nEvent page: https://getcagetime.com/events/
+ one-friday-fights-176/\nTimes and broadcasters can change\; check the even
+ t page. From CageTime (getcagetime.com).
+URL:https://getcagetime.com/events/one-friday-fights-176/
+CATEGORIES:ONE,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

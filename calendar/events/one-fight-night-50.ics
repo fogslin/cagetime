@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CageTime//getcagetime.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ONE Fight Night 50
+X-WR-CALDESC:From CageTime (getcagetime.com)
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:one-fight-night-50@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261212T020000Z
+DTEND:20261212T050000Z
+SUMMARY:ONE Fight Night 50 (Card start per Tapology (unofficial\; may be pr
+ elims))
+LOCATION:Lumpinee Stadium\, Bangkok\, Thailand
+DESCRIPTION:TIMES\nCard start per Tapology (unofficial\; may be prelims): F
+ ri Dec 11 9:00 PM EST (02:00 UTC)\nMain card time not published yet\; this
+  entry starts at the earliest listed time.\n\nWHERE TO WATCH\nUnited State
+ s: Prime Video\nUnited Kingdom: Sky Sports\nCanada: Prime Video\nAustralia
+ : ESPN (Disney+ / Foxtel / Kayo)\nIreland: Sky Sports\nIndia: JioHotstar /
+  Star Sports Select 2\nGermany: TBA\nBrazil: Combate / SporTV\n\nFight car
+ d TBA\n\nEvent page: https://getcagetime.com/events/one-fight-night-50/\nT
+ imes and broadcasters can change\; check the event page. From CageTime (ge
+ tcagetime.com).
+URL:https://getcagetime.com/events/one-fight-night-50/
+CATEGORIES:ONE,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

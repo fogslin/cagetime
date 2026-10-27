@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CageTime//getcagetime.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Cage Warriors 214: Unplugged
+X-WR-CALDESC:From CageTime (getcagetime.com)
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:cage-warriors-214-unplugged@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261127T190000Z
+DTEND:20261127T220000Z
+SUMMARY:Cage Warriors 214: Unplugged (Prelims (official countdown))
+LOCATION:BEC Arena\, Manchester\, England
+DESCRIPTION:TIMES\nPrelims (official countdown): Fri Nov 27 2:00 PM EST (19
+ :00 UTC)\nMain card time not published yet\; this entry starts at the earl
+ iest listed time.\n\nWHERE TO WATCH\nUnited States: UFC Fight Pass\nUnited
+  Kingdom: UFC Fight Pass\nCanada: UFC Fight Pass\nAustralia: UFC Fight Pas
+ s\nIreland: UFC Fight Pass\nIndia: UFC Fight Pass\nGermany: UFC Fight Pass
+ \nBrazil: UFC Fight Pass\n\nFIGHT CARD\n— Main card —\nTanio Pagliaric
+ cio vs. Igor Wojtas (Flyweight)\nElsa Cerezo vs. Chloe Crozier (Women's Fl
+ yweight)\nChasen Blair vs. Nathan Jones (Welterweight)\nJordan O'Neill vs.
+  Christopher Bajo (Welterweight)\nAlexander Lööf vs. Oscar Ownsworth (Fe
+ atherweight)\n\nEvent page: https://getcagetime.com/events/cage-warriors-2
+ 14-unplugged/\nTimes and broadcasters can change\; check the event page. F
+ rom CageTime (getcagetime.com).
+URL:https://getcagetime.com/events/cage-warriors-214-unplugged/
+CATEGORIES:Cage Warriors,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

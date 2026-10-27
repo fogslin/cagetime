@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CageTime//getcagetime.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:UFC Fight Night: Moicano vs. Nolan
+X-WR-CALDESC:From CageTime (getcagetime.com)
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:ufc-fight-night-moicano-vs-nolan@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261101T000000Z
+DTEND:20261101T030000Z
+SUMMARY:UFC Fight Night: Moicano vs. Nolan
+LOCATION:Meta APEX\, Las Vegas\, USA
+DESCRIPTION:TIMES\nPrelims: Sat Oct 31 5:00 PM EDT (21:00 UTC)\nMain card: 
+ Sat Oct 31 8:00 PM EDT (00:00 UTC)\n\nWHERE TO WATCH\nUnited States: Param
+ ount+\nUnited Kingdom: TNT Sports / HBO Max\nCanada: Sportsnet+ / City TV 
+ / TVA Sports\nAustralia: Paramount+\nIreland: TNT Sports\nIndia: Sony TEN 
+ 2\nGermany: DAZN\nBrazil: Paramount+\n\nFIGHT CARD\n— Main card —\nRen
+ ato Moicano vs. Tom Nolan (Lightweight)\nRandy Brown vs. Jacobe Smith (Wel
+ terweight)\nYana Santos vs. Luana Santos (Women's Bantamweight)\nOde Osbou
+ rne vs. Cody Durden (Flyweight)\nJean-Paul Lebosnoyani vs. Farman Hasanov 
+ (Welterweight)\n— Prelims —\nZach Reese vs. Mickey Gall (Middleweight)
+ \nFrancis Marshall vs. Dakota Hope (Featherweight)\nRodrigo Sezinando vs. 
+ Theodor Berggren (Welterweight)\nJulian Erosa vs. Jeong Yeong Lee (Feather
+ weight)\nNick Klein vs. Joe Kropschot (Middleweight)\nPiera Rodriguez vs. 
+ Talita Alencar (Women's Strawweight)\nTainara Lisboa vs. Lucia Szabová (W
+ omen's Flyweight)\n\nEvent page: https://getcagetime.com/events/ufc-fight-
+ night-moicano-vs-nolan/\nTimes and broadcasters can change\; check the eve
+ nt page. From CageTime (getcagetime.com).
+URL:https://getcagetime.com/events/ufc-fight-night-moicano-vs-nolan/
+CATEGORIES:UFC,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

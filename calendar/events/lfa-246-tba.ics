@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CageTime//getcagetime.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:LFA 246: Alves vs. Vinuto
+X-WR-CALDESC:From CageTime (getcagetime.com)
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:lfa-246-tba@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261114T020000Z
+DTEND:20261114T050000Z
+SUMMARY:LFA 246: Alves vs. Vinuto
+LOCATION:TBA\, Brazil
+DESCRIPTION:TIMES\nMain card (VICE TV / FloSports): Fri Nov 13 9:00 PM EST 
+ (02:00 UTC)\n\nWHERE TO WATCH\nUnited States: VICE TV / FloSports\nUnited 
+ Kingdom: TBA\nCanada: TBA\nAustralia: TBA\nIreland: TBA\nIndia: TBA\nGerma
+ ny: TBA\nBrazil: TBA\n\nFIGHT CARD\n— Main card —\nNatalia Alves vs. R
+ aiane Vinuto (Women's Strawweight)\nJoão Paulo Silva vs. Gabriel Vinicius
+  (Welterweight)\nRafael Montouro vs. Lincon Santos (Flyweight)\nLaura Vasc
+ oncelos vs. Taynara Silva (Women's Strawweight)\nFernando Noriega vs. Deri
+ ck Borges (Bantamweight)\nLucas Silva vs. Vagner Gaúcho (Welterweight)\n
+ — Prelims —\nBeatriz Consuli vs. Carol Araujo (Women's Flyweight)\nCl
+ áudio Meireles vs. Adam Santos (Flyweight)\nKauã Campos vs. Paulo Cezar 
+ Araujo (Featherweight)\nRaycon Matiele vs. Edson Gonçalves (Lightweight)\
+ nMarllon Santos vs. Bruno de Jesus (Heavyweight)\nPedro Henrique Costa vs.
+  Pedro Henrique Prado (Featherweight)\nLaryssa Leila vs. Isabella Araujo (
+ Women's Strawweight)\n\nEvent page: https://getcagetime.com/events/lfa-246
+ -tba/\nTimes and broadcasters can change\; check the event page. From Cage
+ Time (getcagetime.com).
+URL:https://getcagetime.com/events/lfa-246-tba/
+CATEGORIES:LFA,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

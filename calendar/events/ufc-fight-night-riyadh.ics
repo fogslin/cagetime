@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CageTime//getcagetime.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:UFC Fight Night Riyadh
+X-WR-CALDESC:From CageTime (getcagetime.com)
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:ufc-fight-night-riyadh@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261205T140000Z
+DTEND:20261205T170000Z
+SUMMARY:UFC Fight Night Riyadh (Card start per Tapology (unofficial\; may b
+ e prelims))
+LOCATION:Venue TBA\, Riyadh\, Saudi Arabia
+DESCRIPTION:TIMES\nCard start per Tapology (unofficial\; may be prelims): S
+ at Dec 5 9:00 AM EST (14:00 UTC)\nMain card time not published yet\; this 
+ entry starts at the earliest listed time.\n\nWHERE TO WATCH\nUnited States
+ : Paramount+\nUnited Kingdom: TNT Sports / HBO Max\nCanada: Sportsnet+ / C
+ ity TV / TVA Sports\nAustralia: Paramount+\nIreland: TNT Sports\nIndia: So
+ ny TEN 2\nGermany: DAZN\nBrazil: Paramount+\n\nFIGHT CARD\n— Prelims —
+ \nJafel Filho vs. Bruno Silva (Flyweight)\nMatthieu Duclos vs. Modestino R
+ odrigues (Middleweight)\nAbdul Hussein vs. Hecher Sosa (Bantamweight)\nLev
+ an Chokheli vs. Islam Dulatov (Welterweight)\nUran Satybaldiev vs. Ivan Gn
+ izditskiy (Light Heavyweight)\n\nEvent page: https://getcagetime.com/event
+ s/ufc-fight-night-riyadh/\nTimes and broadcasters can change\; check the e
+ vent page. From CageTime (getcagetime.com).
+URL:https://getcagetime.com/events/ufc-fight-night-riyadh/
+CATEGORIES:UFC,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

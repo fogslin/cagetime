@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CageTime//getcagetime.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:LFA 247: Breno vs Torres
+X-WR-CALDESC:From CageTime (getcagetime.com)
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:lfa-247-breno-vs-torres@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261121T020000Z
+DTEND:20261121T050000Z
+SUMMARY:LFA 247: Breno vs Torres
+LOCATION:Arizona Financial Theatre\, Phoenix\, Arizona\, United States
+DESCRIPTION:TIMES\nMain card (VICE TV): Fri Nov 20 9:00 PM EST (02:00 UTC)\
+ n\nWHERE TO WATCH\nUnited States: VICE TV\nUnited Kingdom: LFA Fight Netwo
+ rk (YouTube)\nCanada: LFA Fight Network (YouTube)\nAustralia: LFA Fight Ne
+ twork (YouTube)\nIreland: LFA Fight Network (YouTube)\nIndia: LFA Fight Ne
+ twork (YouTube)\nGermany: LFA Fight Network (YouTube)\nBrazil: ESPN\n\nFIG
+ HT CARD\n— Main card —\nMarcos Breno vs. Eduardo Torres (Bantamweight)
+ \nChance Ikei vs. Agapito Orozco (Flyweight)\nFrancisco Hernandez vs. Ray 
+ Hayes (Featherweight)\nDelton Kaufmann vs. Abasi Young (Middleweight)\nBen
+ ny Orozco vs. Canon Swanson (Lightweight)\nLucas Ganin vs. Abbas Abasov (F
+ eatherweight)\nAiden Ingram vs. Ricardo Hussein (Flyweight)\n— Prelims 
+ —\nPaul Marghitas vs. Sergio Mamone Jr (Featherweight)\nZoe Nowicki vs. 
+ Mia Grawe (Women's Flyweight)\nErickson Quinzo vs. Adam Amado (Featherweig
+ ht)\nSean Polk vs. Luke La Vanway (Welterweight)\n\nEvent page: https://ge
+ tcagetime.com/events/lfa-247-breno-vs-torres/\nTimes and broadcasters can 
+ change\; check the event page. From CageTime (getcagetime.com).
+URL:https://getcagetime.com/events/lfa-247-breno-vs-torres/
+CATEGORIES:LFA,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

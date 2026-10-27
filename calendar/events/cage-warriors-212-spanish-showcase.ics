@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CageTime//getcagetime.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Cage Warriors 212: Spanish Showcase
+X-WR-CALDESC:From CageTime (getcagetime.com)
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:cage-warriors-212-spanish-showcase@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261107T170000Z
+DTEND:20261107T200000Z
+SUMMARY:Cage Warriors 212: Spanish Showcase (Prelims (official countdown))
+LOCATION:BBC Studioworks Television Centre\, London\, UK
+DESCRIPTION:TIMES\nPrelims (official countdown): Sat Nov 7 12:00 PM EST (17
+ :00 UTC)\nMain card time not published yet\; this entry starts at the earl
+ iest listed time.\n\nWHERE TO WATCH\nUnited States: UFC Fight Pass\nUnited
+  Kingdom: UFC Fight Pass\nCanada: UFC Fight Pass\nAustralia: UFC Fight Pas
+ s\nIreland: UFC Fight Pass\nIndia: UFC Fight Pass\nGermany: UFC Fight Pass
+ \nBrazil: UFC Fight Pass\n\nFIGHT CARD\n— Main card —\nPaddy Rutledge 
+ vs. Omar Sargent (Bantamweight)\nArturo Izquierdo vs. Hany Musleh (Lightwe
+ ight)\nAngel Bellucci vs. Shahram Hotak (Featherweight)\nSamuel Blasco vs.
+  Ermil Xhaferi (Catchweight (165 lb))\n\nEvent page: https://getcagetime.c
+ om/events/cage-warriors-212-spanish-showcase/\nTimes and broadcasters can 
+ change\; check the event page. From CageTime (getcagetime.com).
+URL:https://getcagetime.com/events/cage-warriors-212-spanish-showcase/
+CATEGORIES:Cage Warriors,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

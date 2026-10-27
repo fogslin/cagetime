@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CageTime//getcagetime.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Cage Warriors 215: Davies vs. Vucenic
+X-WR-CALDESC:From CageTime (getcagetime.com)
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:cage-warriors-215-davies-vs-vucenic@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261128T163000Z
+DTEND:20261128T193000Z
+SUMMARY:Cage Warriors 215: Davies vs. Vucenic (Prelims (official countdown)
+ )
+LOCATION:BEC Arena\, Manchester\, England
+DESCRIPTION:TIMES\nPrelims (official countdown): Sat Nov 28 11:30 AM EST (1
+ 6:30 UTC)\nMain card time not published yet\; this entry starts at the ear
+ liest listed time.\n\nWHERE TO WATCH\nUnited States: UFC Fight Pass\nUnite
+ d Kingdom: UFC Fight Pass\nCanada: UFC Fight Pass\nAustralia: UFC Fight Pa
+ ss\nIreland: UFC Fight Pass\nIndia: UFC Fight Pass\nGermany: UFC Fight Pas
+ s\nBrazil: UFC Fight Pass\n\nFIGHT CARD\n— Main card —\nIeuan Davies v
+ s. Jordan Vucenic (Lightweight)\nJack Humphries vs. Alexandros Moumtzis (B
+ antamweight)\nConnor Wilson vs. Davi Santos (Flyweight)\nOmiel Brown vs. K
+ onstantinos Ntelis (Lightweight)\nJoe Fields vs. Samir Faiddine (Flyweight
+ )\nJack McCloughlin vs. Jack Corr (Bantamweight)\nBranden Guest vs. Owen C
+ artridge (Light Heavyweight)\nShay Ingram vs. Steffen Rossevatn (Welterwei
+ ght)\nNathan Fletcher vs. Anderson Soares (Bantamweight)\nSheldon Ryan vs.
+  Gary Rooney (Flyweight)\n\nEvent page: https://getcagetime.com/events/cag
+ e-warriors-215-davies-vs-vucenic/\nTimes and broadcasters can change\; che
+ ck the event page. From CageTime (getcagetime.com).
+URL:https://getcagetime.com/events/cage-warriors-215-davies-vs-vucenic/
+CATEGORIES:Cage Warriors,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

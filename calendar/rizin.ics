@@ -1,0 +1,66 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CageTime//getcagetime.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:CageTime: RIZIN
+X-WR-CALDESC:RIZIN fight nights with start times\, cards and where to watch
+ . getcagetime.com
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:abc-presents-rizin-55-shinryu-vs-laramie@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261108T050000Z
+DTEND:20261108T080000Z
+SUMMARY:abc presents RIZIN.55: Shinryu vs. Laramie
+LOCATION:LaLa arena TOKYO-BAY\, Funabashi (Chiba)\, Japan
+DESCRIPTION:TIMES\nEvent start (official 14:00 JST): Sun Nov 8 12:00 AM EST
+  (05:00 UTC)\n\nWHERE TO WATCH\nUnited States: RIZIN.TV (PPV)\nUnited King
+ dom: RIZIN.TV (PPV)\nCanada: RIZIN.TV (PPV)\nAustralia: RIZIN.TV (PPV)\nIr
+ eland: RIZIN.TV (PPV)\nIndia: RIZIN.TV (PPV)\nGermany: RIZIN.TV (PPV)\nBra
+ zil: RIZIN.TV (PPV)\n\nFIGHT CARD\n— Main card —\nMakoto Takahashi vs.
+  Tony Laramie (Flyweight)\nRyuya Fukuda vs. Soo Chul Kim (Bantamweight)\nJ
+ innosuke Kashimura vs. Shinobu Ota (Bantamweight)\nKaleo Meheula vs. Kazuk
+ i Aimoto (Featherweight)\nHiroaki Suzuki vs. Sei Min Kim (Featherweight)\n
+ Juntaro Ushiku vs. Kaiwen Li (Featherweight)\nKyung Pyo Kim vs. Nurkhan Zh
+ umagazy (Lightweight)\nTatsuya Saika vs. Daigo Kuramoto (Lightweight)\nTai
+ chi Nakajima vs. Tsukasa Mizoguchi (Bantamweight)\nRikiya Matsuzawa vs. Ri
+ o Kimura (Flyweight)\nTakumi Hamada vs. Sho Sekihara (Flyweight)\nNaoki In
+ oue vs. Yrysbek Tilenov (Bantamweight)\n— Prelims —\nShunya Inoue vs. 
+ Mighty Saw (Featherweight)\nNaohiro Matsumoto vs. Masachika Takahashi (Fea
+ therweight)\n\nEvent page: https://getcagetime.com/events/abc-presents-riz
+ in-55-shinryu-vs-laramie/\nTimes and broadcasters can change\; check the e
+ vent page. From CageTime (getcagetime.com).
+URL:https://getcagetime.com/events/abc-presents-rizin-55-shinryu-vs-laramie
+ /
+CATEGORIES:RIZIN,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:rizin-new-year-s-eve-event@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261231T050000Z
+DTEND:20261231T080000Z
+SUMMARY:RIZIN: New Year's Eve Event (Card start per Tapology (unofficial\; 
+ may be prelims))
+LOCATION:Vantelin Dome Nagoya\, Nagoya\, Aichi\, Japan
+DESCRIPTION:TIMES\nCard start per Tapology (unofficial\; may be prelims): T
+ hu Dec 31 12:00 AM EST (05:00 UTC)\nMain card time not published yet\; thi
+ s entry starts at the earliest listed time.\n\nWHERE TO WATCH\nUnited Stat
+ es: TBA\nUnited Kingdom: TBA\nCanada: TBA\nAustralia: TBA\nIreland: TBA\nI
+ ndia: TBA\nGermany: TBA\nBrazil: TBA\n\nFIGHT CARD\n— Main card —\nRaz
+ habali Shaydullaev vs. Kyoma Akimoto (Featherweight (66 kg))\n\nEvent page
+ : https://getcagetime.com/events/rizin-new-year-s-eve-event/\nTimes and br
+ oadcasters can change\; check the event page. From CageTime (getcagetime.c
+ om).
+URL:https://getcagetime.com/events/rizin-new-year-s-eve-event/
+CATEGORIES:RIZIN,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

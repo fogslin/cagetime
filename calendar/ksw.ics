@@ -1,0 +1,62 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CageTime//getcagetime.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:CageTime: KSW
+X-WR-CALDESC:KSW fight nights with start times\, cards and where to watch. 
+ getcagetime.com
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:xtb-ksw-123-bartosinski-vs-lopaczyk@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261121T180000Z
+DTEND:20261121T210000Z
+SUMMARY:XTB KSW 123: Bartosiński vs. Łopaczyk
+LOCATION:Enea Arena (formerly Netto Arena)\, Szczecin\, Poland
+DESCRIPTION:TIMES\nEvent start (official\; no separate main-card time publi
+ shed): Sat Nov 21 1:00 PM EST (18:00 UTC)\n\nWHERE TO WATCH\nUnited States
+ : KSW TV (PPV)\nUnited Kingdom: KSW TV (PPV)\nCanada: KSW TV (PPV)\nAustra
+ lia: KSW TV (PPV)\nIreland: KSW TV (PPV)\nIndia: KSW TV (PPV)\nGermany: KS
+ W TV (PPV)\nBrazil: KSW TV (PPV)\n\nFIGHT CARD\n— Main card —\nAdrian 
+ Bartosiński vs. Tymoteusz Łopaczyk (Welterweight)\nValeriu Mircea vs. Ma
+ rcin Held (Lightweight)\nWojciech Kawa vs. Oleksandr Moisa (Lightweight)\n
+ Tomasz Romanowski vs. Igor Michaliszyn (Middleweight)\nMaciej Kazieczko vs
+ . Bohdan Danylko (Lightweight)\nMadars Fleminas vs. Mateusz Pawlik (Welter
+ weight)\n— Prelims —\nOskar Szczepaniak vs. Steven Krt (Welterweight)\
+ n\nEvent page: https://getcagetime.com/events/xtb-ksw-123-bartosinski-vs-l
+ opaczyk/\nTimes and broadcasters can change\; check the event page. From C
+ ageTime (getcagetime.com).
+URL:https://getcagetime.com/events/xtb-ksw-123-bartosinski-vs-lopaczyk/
+CATEGORIES:KSW,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ksw-124-pawlak-vs-kuberski@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261219T170000Z
+DTEND:20261219T200000Z
+SUMMARY:KSW 124: Pawlak vs. Kuberski (Card start per Tapology (unofficial\;
+  may be prelims))
+LOCATION:PreZero Arena\, Gliwice\, Poland
+DESCRIPTION:TIMES\nCard start per Tapology (unofficial\; may be prelims): S
+ at Dec 19 12:00 PM EST (17:00 UTC)\nMain card time not published yet\; thi
+ s entry starts at the earliest listed time.\n\nWHERE TO WATCH\nUnited Stat
+ es: KSW TV (PPV)\nUnited Kingdom: KSW TV (PPV)\nCanada: KSW TV (PPV)\nAust
+ ralia: KSW TV (PPV)\nIreland: KSW TV (PPV)\nIndia: KSW TV (PPV)\nGermany: 
+ KSW TV (PPV)\nBrazil: KSW TV (PPV)\n\nFIGHT CARD\n— Main card —\nPawe
+ ł Pawlak vs. Piotr Kuberski (Middleweight)\nŠtefan Vojčák vs. Artur Sz
+ pilka (Heavyweight)\n\nEvent page: https://getcagetime.com/events/ksw-124-
+ pawlak-vs-kuberski/\nTimes and broadcasters can change\; check the event p
+ age. From CageTime (getcagetime.com).
+URL:https://getcagetime.com/events/ksw-124-pawlak-vs-kuberski/
+CATEGORIES:KSW,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

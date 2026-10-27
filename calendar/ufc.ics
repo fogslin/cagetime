@@ -1,0 +1,254 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CageTime//getcagetime.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:CageTime: UFC
+X-WR-CALDESC:UFC fight nights with start times\, cards and where to watch. 
+ getcagetime.com
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:ufc-fight-night-buckley-vs-malott@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261018T000000Z
+DTEND:20261018T030000Z
+SUMMARY:UFC Fight Night: Buckley vs. Malott
+LOCATION:Rogers Place\, Edmonton\, Canada
+DESCRIPTION:RESULTS: https://getcagetime.com/results/ufc-fight-night-buckle
+ y-vs-malott/\nMain event: Mike Malott def. Joaquin Buckley by KO/TKO (R2 2
+ :32)\n\nTIMES\nMain card: Sat Oct 17 8:00 PM EDT (00:00 UTC)\n\nWHERE TO W
+ ATCH\nUnited States: Paramount+\nUnited Kingdom: TNT Sports / HBO Max\nCan
+ ada: Sportsnet+ / City TV / TVA Sports\nAustralia: Paramount+\nIreland: TN
+ T Sports\nIndia: Sony TEN 2\nGermany: DAZN\nBrazil: Paramount+\n\nFIGHT CA
+ RD\n— Main card —\nJoaquin Buckley vs. Mike Malott (Welterweight)\nEri
+ n Blanchfield vs. Jasmine Jasudavicius (Women's Flyweight)\nKyle Nelson vs
+ . Cristian Perez (Lightweight)\nMarc-André Barriault vs. Kyle Daukaus (Mi
+ ddleweight)\nLouis Jourdain vs. Timmy Cuamba (Bantamweight)\nMandel Nallo 
+ vs. Nate Landwehr (Lightweight)\n— Prelims —\nTanner Boser vs. Jhonata
+  Diniz (Heavyweight)\nJulien Leblanc vs. Nick Galanti (Middleweight)\nJava
+ d Mahjoub vs. Joel Faglier (Heavyweight)\nKatlyn Cerminara vs. Mackenzie S
+ tiller (Women's Flyweight)\nChad Anheliger vs. Steven Koslow (Bantamweight
+ )\nChelsea Chandler vs. Melissa Croden (Women's Bantamweight)\nSu Young Yo
+ u vs. Cody Chovancek (Bantamweight)\n\nEvent page: https://getcagetime.com
+ /events/ufc-fight-night-buckley-vs-malott/\nTimes and broadcasters can cha
+ nge\; check the event page. From CageTime (getcagetime.com).
+URL:https://getcagetime.com/events/ufc-fight-night-buckley-vs-malott/
+CATEGORIES:UFC,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ufc-333-volkanovski-vs-evloev@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261024T180000Z
+DTEND:20261024T210000Z
+SUMMARY:UFC 333: Volkanovski vs. Evloev
+LOCATION:Etihad Arena\, Abu Dhabi\, UAE
+DESCRIPTION:RESULTS: https://getcagetime.com/results/ufc-333-volkanovski-vs
+ -evloev/\nMain event: Alexander Volkanovski def. Movsar Evloev by KO/TKO (
+ R2 4:54)\n\nTIMES\nMain card: Sat Oct 24 2:00 PM EDT (18:00 UTC)\n\nWHERE 
+ TO WATCH\nUnited States: Paramount+\nUnited Kingdom: TNT Sports Box Office
+  (main card) / HBO Max\nCanada: PPV (main card)\; Sportsnet+ / TVA Sports 
+ (prelims)\nAustralia: Main Event PPV on Foxtel/Kayo (main card)\; Paramoun
+ t+ / Network 10 (prelims)\nIreland: TNT Sports Box Office (main card)\nInd
+ ia: Sony TEN 2\nGermany: DAZN / UFC PPV on UFC Fight Pass\nBrazil: Paramou
+ nt+\n\nFIGHT CARD\n— Main card —\nAlexander Volkanovski vs. Movsar Evl
+ oev (Featherweight)\nPetr Yan vs. Merab Dvalishvili (Bantamweight)\nLone'e
+ r Kavanagh vs. Ramazan Temirov (Flyweight)\nAlexander Volkov vs. Rizvan Ku
+ niev (Heavyweight)\nAaron Pico vs. Losene Keita (Featherweight)\n— Preli
+ ms —\nDominick Reyes vs. Azamat Murzakanov (Light Heavyweight)\nNikita K
+ rylov vs. Abdul Rakhman Yakhyaev (Light Heavyweight)\nAbus Magomedov vs. C
+ am Rowston (Middleweight)\nGrant Dawson vs. Nurullo Aliev (Lightweight)\nC
+ olby Thicknesse vs. Asaf Chopurov (Bantamweight)\nJacob Malkoun vs. Abubak
+ ar Vagaev (Middleweight)\nDaniel Santos vs. Bolaji Oki (Featherweight)\nNo
+ ah Gugnon vs. Kody Steele (Lightweight)\nIasmin Lucindo vs. Nicolle Caliar
+ i (Strawweight)\n\nEvent page: https://getcagetime.com/events/ufc-333-volk
+ anovski-vs-evloev/\nTimes and broadcasters can change\; check the event pa
+ ge. From CageTime (getcagetime.com).
+URL:https://getcagetime.com/events/ufc-333-volkanovski-vs-evloev/
+CATEGORIES:UFC,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ufc-fight-night-moicano-vs-nolan@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261101T000000Z
+DTEND:20261101T030000Z
+SUMMARY:UFC Fight Night: Moicano vs. Nolan
+LOCATION:Meta APEX\, Las Vegas\, USA
+DESCRIPTION:TIMES\nPrelims: Sat Oct 31 5:00 PM EDT (21:00 UTC)\nMain card: 
+ Sat Oct 31 8:00 PM EDT (00:00 UTC)\n\nWHERE TO WATCH\nUnited States: Param
+ ount+\nUnited Kingdom: TNT Sports / HBO Max\nCanada: Sportsnet+ / City TV 
+ / TVA Sports\nAustralia: Paramount+\nIreland: TNT Sports\nIndia: Sony TEN 
+ 2\nGermany: DAZN\nBrazil: Paramount+\n\nFIGHT CARD\n— Main card —\nRen
+ ato Moicano vs. Tom Nolan (Lightweight)\nRandy Brown vs. Jacobe Smith (Wel
+ terweight)\nYana Santos vs. Luana Santos (Women's Bantamweight)\nOde Osbou
+ rne vs. Cody Durden (Flyweight)\nJean-Paul Lebosnoyani vs. Farman Hasanov 
+ (Welterweight)\n— Prelims —\nZach Reese vs. Mickey Gall (Middleweight)
+ \nFrancis Marshall vs. Dakota Hope (Featherweight)\nRodrigo Sezinando vs. 
+ Theodor Berggren (Welterweight)\nJulian Erosa vs. Jeong Yeong Lee (Feather
+ weight)\nNick Klein vs. Joe Kropschot (Middleweight)\nPiera Rodriguez vs. 
+ Talita Alencar (Women's Strawweight)\nTainara Lisboa vs. Lucia Szabová (W
+ omen's Flyweight)\n\nEvent page: https://getcagetime.com/events/ufc-fight-
+ night-moicano-vs-nolan/\nTimes and broadcasters can change\; check the eve
+ nt page. From CageTime (getcagetime.com).
+URL:https://getcagetime.com/events/ufc-fight-night-moicano-vs-nolan/
+CATEGORIES:UFC,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ufc-fight-night-bonfim-vs-brady@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261108T010000Z
+DTEND:20261108T040000Z
+SUMMARY:UFC Fight Night: Bonfim vs. Brady
+LOCATION:Meta APEX\, Las Vegas\, USA
+DESCRIPTION:TIMES\nPrelims: Sat Nov 7 5:00 PM EST (22:00 UTC)\nMain card: S
+ at Nov 7 8:00 PM EST (01:00 UTC)\n\nWHERE TO WATCH\nUnited States: Paramou
+ nt+\nUnited Kingdom: TNT Sports / HBO Max\nCanada: Sportsnet+ / City TV / 
+ TVA Sports\nAustralia: Paramount+\nIreland: TNT Sports\nIndia: Sony TEN 2\
+ nGermany: DAZN\nBrazil: Paramount+\n\nFIGHT CARD\n— Main card —\nGabri
+ el Bonfim vs. Sean Brady (Welterweight)\nVirna Jandiroba vs. Tatiana Suare
+ z (Women's Strawweight)\nDavey Grant vs. Elijah Smith (Bantamweight)\nSeok
+  Hyeon Ko vs. Wellington Turman (Welterweight)\nAndre Petroski vs. Mantas 
+ Kondratavičius (Middleweight)\nBilly Elekana vs. Lucas Fernando (Light He
+ avyweight)\n— Prelims —\nKarine Silva vs. Gabriella Fernandes (Women's
+  Flyweight)\nJosé Delano vs. Murtazali Magomedov (Featherweight)\nOllie S
+ chmid vs. Keiichiro Nakamura (Featherweight)\nAustin Bashi vs. Lucas Brenn
+ an (Featherweight)\nPriscila Cachoeira vs. Nina Milošević (Women's Banta
+ mweight)\nJosé Souza vs. Jonny Parsons (Welterweight)\nMitch Raposo vs. M
+ arcos Degli (Flyweight)\nThomas Petersen vs. Gabriel Lorenço (Heavyweight
+ )\n\nEvent page: https://getcagetime.com/events/ufc-fight-night-bonfim-vs-
+ brady/\nTimes and broadcasters can change\; check the event page. From Cag
+ eTime (getcagetime.com).
+URL:https://getcagetime.com/events/ufc-fight-night-bonfim-vs-brady/
+CATEGORIES:UFC,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ufc-334-gane-vs-hokit@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261115T020000Z
+DTEND:20261115T050000Z
+SUMMARY:UFC 334: Gane vs. Hokit
+LOCATION:Madison Square Garden\, New York\, USA
+DESCRIPTION:TIMES\nEarly prelims: Sat Nov 14 5:00 PM EST (22:00 UTC)\nPreli
+ ms: Sat Nov 14 7:00 PM EST (00:00 UTC)\nMain card: Sat Nov 14 9:00 PM EST 
+ (02:00 UTC)\n\nWHERE TO WATCH\nUnited States: Paramount+\nUnited Kingdom: 
+ TNT Sports Box Office (main card) / HBO Max\nCanada: PPV (main card)\; Spo
+ rtsnet+ / TVA Sports (prelims)\nAustralia: Main Event PPV on Foxtel/Kayo (
+ main card)\; Paramount+ / Network 10 (prelims)\nIreland: TNT Sports Box Of
+ fice (main card)\nIndia: Sony TEN 2\nGermany: DAZN / UFC PPV on UFC Fight 
+ Pass\nBrazil: Paramount+\n\nFIGHT CARD\n— Main card —\nCiryl Gane vs. 
+ Josh Hokit (Heavyweight)\nKayla Harrison vs. Amanda Nunes (Women's Bantamw
+ eight)\nCaio Borralho vs. Yousri Belgaroui (Middleweight)\nUros Medic vs. 
+ Kevin Holland (Welterweight)\nLuis Gurule vs. Bilal Hasan (Flyweight)\n—
+  Prelims —\nStephen Thompson vs. Charles Radtke (Welterweight)\nDrew Dob
+ er vs. Chris Duncan (Lightweight)\nJim Miller vs. Terrance McKinney (Light
+ weight)\nDonte Johnson vs. César Almeida (Middleweight)\nMelquizael Costa
+  vs. Jared Gordon (Lightweight)\nEvan Elder vs. Samuel Sanches (Lightweigh
+ t)\n— Early prelims —\nMacy Chiasson vs. Bia Mesquita (Women's Bantamw
+ eight)\n\nEvent page: https://getcagetime.com/events/ufc-334-gane-vs-hokit
+ /\nTimes and broadcasters can change\; check the event page. From CageTime
+  (getcagetime.com).
+URL:https://getcagetime.com/events/ufc-334-gane-vs-hokit/
+CATEGORIES:UFC,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ufc-fight-night-prochazka-vs-stirling@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261121T180000Z
+DTEND:20261121T210000Z
+SUMMARY:UFC Fight Night: Procházka vs. Stirling
+LOCATION:Ali Bin Hamad al-Attiyah Arena\, Al Rayyan (Doha)\, Qatar
+DESCRIPTION:TIMES\nPrelims: Sat Nov 21 10:00 AM EST (15:00 UTC)\nMain card:
+  Sat Nov 21 1:00 PM EST (18:00 UTC)\n\nWHERE TO WATCH\nUnited States: Para
+ mount+\nUnited Kingdom: TNT Sports / HBO Max\nCanada: Sportsnet+ / City TV
+  / TVA Sports\nAustralia: Paramount+\nIreland: TNT Sports\nIndia: Sony TEN
+  2\nGermany: DAZN\nBrazil: Paramount+\n\nFIGHT CARD\n— Main card —\nJi
+ ří Procházka vs. Navajo Stirling (Light Heavyweight)\nAljamain Sterling
+  vs. Kevin Vallejos (Featherweight)\nDan Hooker vs. Brian Ortega (Lightwei
+ ght)\nIkram Aliskerov vs. Jared Cannonier (Middleweight)\nKyoji Horiguchi 
+ vs. Asu Almabayev (Flyweight)\n— Prelims —\nShamil Gaziev vs. Tallison
+  Teixeira (Heavyweight)\nJake Matthews vs. Tahir Abdullayev (Welterweight)
+ \nSantiago Luna vs. Aleksandre Topuria (Bantamweight)\nAmir Albazi vs. Ale
+ ssandro Costa (Flyweight)\nNikolas Motta vs. Dom Mar Fan (Lightweight)\nJa
+ cqueline Cavalcanti vs. Michelle Montague (Women's Bantamweight)\nDiyar Nu
+ rgozhay vs. Alik Lorenz (Light Heavyweight)\n\nEvent page: https://getcage
+ time.com/events/ufc-fight-night-prochazka-vs-stirling/\nTimes and broadcas
+ ters can change\; check the event page. From CageTime (getcagetime.com).
+URL:https://getcagetime.com/events/ufc-fight-night-prochazka-vs-stirling/
+CATEGORIES:UFC,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ufc-fight-night-riyadh@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261205T140000Z
+DTEND:20261205T170000Z
+SUMMARY:UFC Fight Night Riyadh (Card start per Tapology (unofficial\; may b
+ e prelims))
+LOCATION:Venue TBA\, Riyadh\, Saudi Arabia
+DESCRIPTION:TIMES\nCard start per Tapology (unofficial\; may be prelims): S
+ at Dec 5 9:00 AM EST (14:00 UTC)\nMain card time not published yet\; this 
+ entry starts at the earliest listed time.\n\nWHERE TO WATCH\nUnited States
+ : Paramount+\nUnited Kingdom: TNT Sports / HBO Max\nCanada: Sportsnet+ / C
+ ity TV / TVA Sports\nAustralia: Paramount+\nIreland: TNT Sports\nIndia: So
+ ny TEN 2\nGermany: DAZN\nBrazil: Paramount+\n\nFIGHT CARD\n— Prelims —
+ \nJafel Filho vs. Bruno Silva (Flyweight)\nMatthieu Duclos vs. Modestino R
+ odrigues (Middleweight)\nAbdul Hussein vs. Hecher Sosa (Bantamweight)\nLev
+ an Chokheli vs. Islam Dulatov (Welterweight)\nUran Satybaldiev vs. Ivan Gn
+ izditskiy (Light Heavyweight)\n\nEvent page: https://getcagetime.com/event
+ s/ufc-fight-night-riyadh/\nTimes and broadcasters can change\; check the e
+ vent page. From CageTime (getcagetime.com).
+URL:https://getcagetime.com/events/ufc-fight-night-riyadh/
+CATEGORIES:UFC,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ufc-335-oliveira-vs-lopes@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261213T020000Z
+DTEND:20261213T050000Z
+SUMMARY:UFC 335: Oliveira vs. Lopes
+LOCATION:T-Mobile Arena\, Las Vegas\, Nevada\, United States
+DESCRIPTION:TIMES\nEarly prelims: Sat Dec 12 5:00 PM EST (22:00 UTC)\nPreli
+ ms: Sat Dec 12 7:00 PM EST (00:00 UTC)\nMain card: Sat Dec 12 9:00 PM EST 
+ (02:00 UTC)\n\nWHERE TO WATCH\nUnited States: Paramount+\nUnited Kingdom: 
+ TNT Sports Box Office (main card) / HBO Max\nCanada: PPV (main card)\; Spo
+ rtsnet+ / TVA Sports (prelims)\nAustralia: Main Event PPV on Foxtel/Kayo (
+ main card)\; Paramount+ / Network 10 (prelims)\nIreland: TNT Sports Box Of
+ fice (main card)\nIndia: Sony TEN 2\nGermany: DAZN / UFC PPV on UFC Fight 
+ Pass\nBrazil: Paramount+\n\nFIGHT CARD\n— Main card —\nCharles Oliveir
+ a vs. Diego Lopes (Lightweight)\nSergei Pavlovich vs. Alex Pereira (Heavyw
+ eight)\nBrandon Moreno vs. Charles Johnson (Flyweight)\n— Prelims —\nJ
+ unior Tafa vs. Quentin Pasley (Light Heavyweight)\nMaycee Barber vs. Carli
+  Judice (Women's Flyweight)\nChris Padilla vs. Chase Hooper (Lightweight)\
+ nNikolay Veretennikov vs. Ronald Humphrey (Welterweight)\nNilson Rojas vs.
+  Roque Conceição (Flyweight)\nAngela Hill vs. Shanelle Dyer (Women's Str
+ awweight)\n\nEvent page: https://getcagetime.com/events/ufc-335-oliveira-v
+ s-lopes/\nTimes and broadcasters can change\; check the event page. From C
+ ageTime (getcagetime.com).
+URL:https://getcagetime.com/events/ufc-335-oliveira-vs-lopes/
+CATEGORIES:UFC,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,172 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CageTime//getcagetime.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:CageTime: OKTAGON
+X-WR-CALDESC:OKTAGON fight nights with start times\, cards and where to wat
+ ch. getcagetime.com
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:oktagon-95-skvor-vs-narkun@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261017T160000Z
+DTEND:20261017T190000Z
+SUMMARY:OKTAGON 95: Škvor vs. Narkun
+LOCATION:Mattoni Arena\, Karlovy Vary\, Czechia
+DESCRIPTION:RESULTS: https://getcagetime.com/results/oktagon-95-skvor-vs-na
+ rkun/\nMain event: Tomasz Narkun def. Daniel Škvor by Submission (R1 2:29
+ )\n\nTIMES\nMain card: Sat Oct 17 12:00 PM EDT (16:00 UTC)\n\nWHERE TO WAT
+ CH\nUnited States: OKTAGON.TV (PPV)\nUnited Kingdom: OKTAGON.TV (PPV)\nCan
+ ada: OKTAGON.TV (PPV)\nAustralia: OKTAGON.TV (PPV)\nIreland: OKTAGON.TV (P
+ PV)\nIndia: OKTAGON.TV (PPV)\nGermany: RTL+\nBrazil: OKTAGON.TV (PPV)\n\nF
+ IGHT CARD\n— Main card —\nTomasz Narkun vs. Daniel Škvor (205 lb)\nMa
+ túš Juráček vs. Jozef Wittner (185 lb)\nAaron Aby vs. David Dvořák (
+ 125 lb)\nTimo Feucht vs. Zdenek Polivka (205 lb)\n— Prelims —\nVáclav
+  Štěpán vs. Aria Azarnoosh (152 lb)\nRobin Fošum vs. Tomáš Klabík (
+ 205 lb)\nMarco Novák vs. Anatolij Baal (145 lb)\nViktor Červinský vs. D
+ aniel Hromek (170 lb)\nHusein Kadimagomaev vs. Marco Elpidio (159 lb)\nRak
+ him Iliskhanov vs. Patrik Pikeš (155 lb)\n\nEvent page: https://getcageti
+ me.com/events/oktagon-95-skvor-vs-narkun/\nTimes and broadcasters can chan
+ ge\; check the event page. From CageTime (getcagetime.com).
+URL:https://getcagetime.com/events/oktagon-95-skvor-vs-narkun/
+CATEGORIES:OKTAGON,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oktagon-96-gogoladze-vs-klinkhammer@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261031T160000Z
+DTEND:20261031T190000Z
+SUMMARY:OKTAGON 96: Gogoladze vs. Klinkhammer
+LOCATION:SAP Garden\, Munich\, Germany
+DESCRIPTION:TIMES\nEvent start (official\; no separate main-card time publi
+ shed): Sat Oct 31 12:00 PM EDT (16:00 UTC)\n\nWHERE TO WATCH\nUnited State
+ s: OKTAGON.TV (PPV)\nUnited Kingdom: OKTAGON.TV (PPV)\nCanada: OKTAGON.TV 
+ (PPV)\nAustralia: OKTAGON.TV (PPV)\nIreland: OKTAGON.TV (PPV)\nIndia: OKTA
+ GON.TV (PPV)\nGermany: RTL+\nBrazil: OKTAGON.TV (PPV)\n\nFIGHT CARD\n— M
+ ain card —\nAmiran Gogoladze vs. Felix Klinkhammer (Welterweight)\nLazar
+  Todev vs. Simon Biyong (Heavyweight)\nHenrique Madureira vs. Daniel Schor
+ dje (Featherweight)\nRonald Paradeiser vs. Tyrone Pfeifer (Welterweight)\n
+ Marat Nessar vs. Abdulmalik Aliev (Lightweight)\nGökhan Aksu vs. Niko Sam
+ sonidse (Lightweight)\nMarek Bartl vs. Brian Manning (Middleweight)\nKevin
+  Hangs vs. Burak Kizilirmak (Welterweight)\nEndrit Brajshori vs. Christian
+  Mach (Welterweight)\nMichael Deiga-Scheck vs. Lukáš Chotěnovský (Feat
+ herweight)\nJessin Ayari vs. Kevin Pastran (Welterweight)\n\nEvent page: h
+ ttps://getcagetime.com/events/oktagon-96-gogoladze-vs-klinkhammer/\nTimes 
+ and broadcasters can change\; check the event page. From CageTime (getcage
+ time.com).
+URL:https://getcagetime.com/events/oktagon-96-gogoladze-vs-klinkhammer/
+CATEGORIES:OKTAGON,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oktagon-97-severino-vs-holzer@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261107T170000Z
+DTEND:20261107T200000Z
+SUMMARY:OKTAGON 97: Severino vs. Holzer
+LOCATION:ZAG Arena\, Hanover\, Germany
+DESCRIPTION:TIMES\nEvent start (official\; no separate main-card time publi
+ shed): Sat Nov 7 12:00 PM EST (17:00 UTC)\n\nWHERE TO WATCH\nUnited States
+ : OKTAGON.TV (PPV)\nUnited Kingdom: OKTAGON.TV (PPV)\nCanada: OKTAGON.TV (
+ PPV)\nAustralia: OKTAGON.TV (PPV)\nIreland: OKTAGON.TV (PPV)\nIndia: OKTAG
+ ON.TV (PPV)\nGermany: RTL+\nBrazil: OKTAGON.TV (PPV)\n\nFIGHT CARD\n— Ma
+ in card —\nIgor Severino vs. Max Holzer (Bantamweight)\nDaniel Makin vs.
+  Petr Bartoněk (Welterweight)\nGjoni Palokaj vs. Zafar Mohsen (Featherwei
+ ght)\nHaci Akseker vs. Jonatan Kujawa (Featherweight)\nJustin Detzel vs. K
+ acper Frątczak (Middleweight)\nKarol Ryšavý vs. Samuel Bark (Featherwei
+ ght)\nOzan Aslaner vs. Denis Frimpong (Catchweight (159 lb))\nJan Holzer v
+ s. Jan Švagerko (Welterweight)\n\nEvent page: https://getcagetime.com/ev
+ ents/oktagon-97-severino-vs-holzer/\nTimes and broadcasters can change\; c
+ heck the event page. From CageTime (getcagetime.com).
+URL:https://getcagetime.com/events/oktagon-97-severino-vs-holzer/
+CATEGORIES:OKTAGON,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oktagon-98-legierski-vs-buchinger@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261121T170000Z
+DTEND:20261121T200000Z
+SUMMARY:OKTAGON 98: Legierski vs. Buchinger
+LOCATION:Werk Arena\, Třinec\, Czechia
+DESCRIPTION:TIMES\nEvent start (official\; no separate main-card time publi
+ shed): Sat Nov 21 12:00 PM EST (17:00 UTC)\n\nWHERE TO WATCH\nUnited State
+ s: OKTAGON.TV (PPV)\nUnited Kingdom: OKTAGON.TV (PPV)\nCanada: OKTAGON.TV 
+ (PPV)\nAustralia: OKTAGON.TV (PPV)\nIreland: OKTAGON.TV (PPV)\nIndia: OKTA
+ GON.TV (PPV)\nGermany: RTL+\nBrazil: OKTAGON.TV (PPV)\n\nFIGHT CARD\n— M
+ ain card —\nMateusz Legierski vs. Ivan Buchinger (Lightweight)\nVeronika
+  Smolková vs. Ivana Petrović (Women's Flyweight)\nJakub Batfalsky vs. Ay
+ ton De Paepe (Featherweight)\nPatrik Šebek vs. Adrian Hamerski (Lightweig
+ ht)\nMartin Prázdný vs. Jindřich Byrtus (185 lb)\nHojat Khajevand vs. M
+ ateusz Janur (Middleweight)\nOndřej Raška vs. Dominic Schober (Middlewei
+ ght)\nTomáš Mudroch vs. Jason Ponet (Catchweight (163 lb))\nDominik Tabo
+ r vs. Deniz Ilbay (152 lb)\nMichaela Hlaváčiková vs. Marta Sós (Women'
+ s Flyweight)\nDawid Śmiełowski vs. Arbi Mezhidov (Lightweight)\n\nEvent 
+ page: https://getcagetime.com/events/oktagon-98-legierski-vs-buchinger/\nT
+ imes and broadcasters can change\; check the event page. From CageTime (ge
+ tcagetime.com).
+URL:https://getcagetime.com/events/oktagon-98-legierski-vs-buchinger/
+CATEGORIES:OKTAGON,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oktagon-99@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261205T170000Z
+DTEND:20261205T200000Z
+SUMMARY:OKTAGON 99
+LOCATION:Westfalenhalle\, Dortmund\, Germany
+DESCRIPTION:TIMES\nEvent start (official\; no separate main-card time publi
+ shed): Sat Dec 5 12:00 PM EST (17:00 UTC)\n\nWHERE TO WATCH\nUnited States
+ : OKTAGON.TV (PPV)\nUnited Kingdom: OKTAGON.TV (PPV)\nCanada: OKTAGON.TV (
+ PPV)\nAustralia: OKTAGON.TV (PPV)\nIreland: OKTAGON.TV (PPV)\nIndia: OKTAG
+ ON.TV (PPV)\nGermany: RTL+\nBrazil: OKTAGON.TV (PPV)\n\nFIGHT CARD\n— Ma
+ in card —\nPatrick Vespaziani vs. Nicolaj Wagner (Heavyweight)\nEmir-Can
+  Al vs. Adam Havran (Welterweight)\nAltin Zenuni vs. Tomáš Cigánik (Lig
+ htweight)\nMoh Eter vs. Tomáš Holeček (Featherweight)\nAdam Pałasz vs.
+  Marc Doussis (Heavyweight)\nAli Gündüz vs. Abdullah Sultani (Bantamweig
+ ht)\n\nEvent page: https://getcagetime.com/events/oktagon-99/\nTimes and b
+ roadcasters can change\; check the event page. From CageTime (getcagetime.
+ com).
+URL:https://getcagetime.com/events/oktagon-99/
+CATEGORIES:OKTAGON,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oktagon-100-jotko-vs-muradov@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261229T170000Z
+DTEND:20261229T200000Z
+SUMMARY:OKTAGON 100: Jotko vs. Muradov
+LOCATION:O2 Arena\, Prague\, Czech Republic
+DESCRIPTION:TIMES\nEvent start (official\; no separate main-card time publi
+ shed): Tue Dec 29 12:00 PM EST (17:00 UTC)\n\nWHERE TO WATCH\nUnited State
+ s: OKTAGON.TV (PPV)\nUnited Kingdom: OKTAGON.TV (PPV)\nCanada: OKTAGON.TV 
+ (PPV)\nAustralia: OKTAGON.TV (PPV)\nIreland: OKTAGON.TV (PPV)\nIndia: OKTA
+ GON.TV (PPV)\nGermany: RTL+\nBrazil: OKTAGON.TV (PPV)\n\nFIGHT CARD\n— M
+ ain card —\nKrzysztof Jotko vs. Makhmud Muradov (Middleweight)\nVladimí
+ r Lengál vs. Josef Hála (165 lb)\nAttila Végh vs. Luke Barnatt\n\nEvent
+  page: https://getcagetime.com/events/oktagon-100-jotko-vs-muradov/\nTimes
+  and broadcasters can change\; check the event page. From CageTime (getcag
+ etime.com).
+URL:https://getcagetime.com/events/oktagon-100-jotko-vs-muradov/
+CATEGORIES:OKTAGON,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

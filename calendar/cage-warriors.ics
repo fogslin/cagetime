@@ -1,0 +1,171 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CageTime//getcagetime.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:CageTime: Cage Warriors
+X-WR-CALDESC:Cage Warriors fight nights with start times\, cards and where 
+ to watch. getcagetime.com
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:cage-warriors-211-bellandi-vs-pereira@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261017T160000Z
+DTEND:20261017T190000Z
+SUMMARY:Cage Warriors 211: Bellandi vs. Pereira
+LOCATION:PalaPellicone\, Rome\, Italy
+DESCRIPTION:RESULTS: https://getcagetime.com/results/cage-warriors-211-bell
+ andi-vs-pereira/\nMain event: Dario Bellandi def. Aldo Pereira by KO/TKO (
+ R2 0:13)\n\nTIMES\nMain card: Sat Oct 17 12:00 PM EDT (16:00 UTC)\n\nWHERE
+  TO WATCH\nUnited States: UFC Fight Pass\nUnited Kingdom: UFC Fight Pass\n
+ Canada: UFC Fight Pass\nAustralia: UFC Fight Pass\nIreland: UFC Fight Pass
+ \nIndia: UFC Fight Pass\nGermany: UFC Fight Pass\nBrazil: UFC Fight Pass\n
+ \nFIGHT CARD\n— Main card —\nDario Bellandi vs. Aldo Pereira (Middlewe
+ ight)\nGiuseppe Mastrogiacomo vs. Alexis Tsarmantidis (Featherweight)\nEnr
+ ico Di Gangi vs. Tommy Brunning (Bantamweight)\nFederico Rotoni vs. Andrei
+  Gabura (Bantamweight)\nSimone Ali vs. Alessandro Ortolani (Featherweight)
+ \n— Prelims —\nChristian Tosco vs. Salvatore Bellotta (Lightweight)\nA
+ ngelo Coppola vs. Jonathan Rivera (Bantamweight)\nElez Guri vs. Gabriele L
+ ionetti (Flyweight)\nNiko Ceraglia vs. Valentino Greco (Lightweight)\nJurg
+ en Koci vs. Ruben Vinci (Bantamweight)\nDiego Giangirolami vs. Kevin Caper
+ na (Flyweight)\n\nEvent page: https://getcagetime.com/events/cage-warriors
+ -211-bellandi-vs-pereira/\nTimes and broadcasters can change\; check the e
+ vent page. From CageTime (getcagetime.com).
+URL:https://getcagetime.com/events/cage-warriors-211-bellandi-vs-pereira/
+CATEGORIES:Cage Warriors,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cage-warriors-212-spanish-showcase@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261107T170000Z
+DTEND:20261107T200000Z
+SUMMARY:Cage Warriors 212: Spanish Showcase (Prelims (official countdown))
+LOCATION:BBC Studioworks Television Centre\, London\, UK
+DESCRIPTION:TIMES\nPrelims (official countdown): Sat Nov 7 12:00 PM EST (17
+ :00 UTC)\nMain card time not published yet\; this entry starts at the earl
+ iest listed time.\n\nWHERE TO WATCH\nUnited States: UFC Fight Pass\nUnited
+  Kingdom: UFC Fight Pass\nCanada: UFC Fight Pass\nAustralia: UFC Fight Pas
+ s\nIreland: UFC Fight Pass\nIndia: UFC Fight Pass\nGermany: UFC Fight Pass
+ \nBrazil: UFC Fight Pass\n\nFIGHT CARD\n— Main card —\nPaddy Rutledge 
+ vs. Omar Sargent (Bantamweight)\nArturo Izquierdo vs. Hany Musleh (Lightwe
+ ight)\nAngel Bellucci vs. Shahram Hotak (Featherweight)\nSamuel Blasco vs.
+  Ermil Xhaferi (Catchweight (165 lb))\n\nEvent page: https://getcagetime.c
+ om/events/cage-warriors-212-spanish-showcase/\nTimes and broadcasters can 
+ change\; check the event page. From CageTime (getcagetime.com).
+URL:https://getcagetime.com/events/cage-warriors-212-spanish-showcase/
+CATEGORIES:Cage Warriors,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cage-warriors-213-london@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261114T170000Z
+DTEND:20261114T200000Z
+SUMMARY:Cage Warriors 213: London (Prelims (official countdown))
+LOCATION:BBC Studioworks Television Centre\, London\, UK
+DESCRIPTION:TIMES\nPrelims (official countdown): Sat Nov 14 12:00 PM EST (1
+ 7:00 UTC)\nMain card time not published yet\; this entry starts at the ear
+ liest listed time.\n\nWHERE TO WATCH\nUnited States: UFC Fight Pass\nUnite
+ d Kingdom: UFC Fight Pass\nCanada: UFC Fight Pass\nAustralia: UFC Fight Pa
+ ss\nIreland: UFC Fight Pass\nIndia: UFC Fight Pass\nGermany: UFC Fight Pas
+ s\nBrazil: UFC Fight Pass\n\nFIGHT CARD\n— Main card —\nNik Bagley vs.
+  Bruno Souza (Featherweight)\nSteven Hill vs. Sado Ucar (Welterweight)\nMa
+ rin Vetrila vs. Stefano Catacoli (Lightweight)\nBobby Chikavhu vs. Habib S
+ amadi (Flyweight)\nBen Edwards vs. James Wamsley (Welterweight)\nOllie Sar
+ wa vs. Kadeem Perkins (Bantamweight)\nCallum Haughian vs. Will Fox (Lightw
+ eight)\n\nEvent page: https://getcagetime.com/events/cage-warriors-213-lon
+ don/\nTimes and broadcasters can change\; check the event page. From CageT
+ ime (getcagetime.com).
+URL:https://getcagetime.com/events/cage-warriors-213-london/
+CATEGORIES:Cage Warriors,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cage-warriors-214-unplugged@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261127T190000Z
+DTEND:20261127T220000Z
+SUMMARY:Cage Warriors 214: Unplugged (Prelims (official countdown))
+LOCATION:BEC Arena\, Manchester\, England
+DESCRIPTION:TIMES\nPrelims (official countdown): Fri Nov 27 2:00 PM EST (19
+ :00 UTC)\nMain card time not published yet\; this entry starts at the earl
+ iest listed time.\n\nWHERE TO WATCH\nUnited States: UFC Fight Pass\nUnited
+  Kingdom: UFC Fight Pass\nCanada: UFC Fight Pass\nAustralia: UFC Fight Pas
+ s\nIreland: UFC Fight Pass\nIndia: UFC Fight Pass\nGermany: UFC Fight Pass
+ \nBrazil: UFC Fight Pass\n\nFIGHT CARD\n— Main card —\nTanio Pagliaric
+ cio vs. Igor Wojtas (Flyweight)\nElsa Cerezo vs. Chloe Crozier (Women's Fl
+ yweight)\nChasen Blair vs. Nathan Jones (Welterweight)\nJordan O'Neill vs.
+  Christopher Bajo (Welterweight)\nAlexander Lööf vs. Oscar Ownsworth (Fe
+ atherweight)\n\nEvent page: https://getcagetime.com/events/cage-warriors-2
+ 14-unplugged/\nTimes and broadcasters can change\; check the event page. F
+ rom CageTime (getcagetime.com).
+URL:https://getcagetime.com/events/cage-warriors-214-unplugged/
+CATEGORIES:Cage Warriors,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cage-warriors-215-davies-vs-vucenic@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261128T163000Z
+DTEND:20261128T193000Z
+SUMMARY:Cage Warriors 215: Davies vs. Vucenic (Prelims (official countdown)
+ )
+LOCATION:BEC Arena\, Manchester\, England
+DESCRIPTION:TIMES\nPrelims (official countdown): Sat Nov 28 11:30 AM EST (1
+ 6:30 UTC)\nMain card time not published yet\; this entry starts at the ear
+ liest listed time.\n\nWHERE TO WATCH\nUnited States: UFC Fight Pass\nUnite
+ d Kingdom: UFC Fight Pass\nCanada: UFC Fight Pass\nAustralia: UFC Fight Pa
+ ss\nIreland: UFC Fight Pass\nIndia: UFC Fight Pass\nGermany: UFC Fight Pas
+ s\nBrazil: UFC Fight Pass\n\nFIGHT CARD\n— Main card —\nIeuan Davies v
+ s. Jordan Vucenic (Lightweight)\nJack Humphries vs. Alexandros Moumtzis (B
+ antamweight)\nConnor Wilson vs. Davi Santos (Flyweight)\nOmiel Brown vs. K
+ onstantinos Ntelis (Lightweight)\nJoe Fields vs. Samir Faiddine (Flyweight
+ )\nJack McCloughlin vs. Jack Corr (Bantamweight)\nBranden Guest vs. Owen C
+ artridge (Light Heavyweight)\nShay Ingram vs. Steffen Rossevatn (Welterwei
+ ght)\nNathan Fletcher vs. Anderson Soares (Bantamweight)\nSheldon Ryan vs.
+  Gary Rooney (Flyweight)\n\nEvent page: https://getcagetime.com/events/cag
+ e-warriors-215-davies-vs-vucenic/\nTimes and broadcasters can change\; che
+ ck the event page. From CageTime (getcagetime.com).
+URL:https://getcagetime.com/events/cage-warriors-215-davies-vs-vucenic/
+CATEGORIES:Cage Warriors,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cage-warriors-216-newcastle@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261205T173000Z
+DTEND:20261205T203000Z
+SUMMARY:Cage Warriors 216: Newcastle (Prelims (official countdown))
+LOCATION:Vertu Arena\, Newcastle\, England
+DESCRIPTION:TIMES\nPrelims (official countdown): Sat Dec 5 12:30 PM EST (17
+ :30 UTC)\nMain card time not published yet\; this entry starts at the earl
+ iest listed time.\n\nWHERE TO WATCH\nUnited States: UFC Fight Pass\nUnited
+  Kingdom: UFC Fight Pass\nCanada: UFC Fight Pass\nAustralia: UFC Fight Pas
+ s\nIreland: UFC Fight Pass\nIndia: UFC Fight Pass\nGermany: UFC Fight Pass
+ \nBrazil: UFC Fight Pass\n\nFIGHT CARD\n— Main card —\nJosh Abraham vs
+ . Miguel Haro (Featherweight)\nStevie Lee vs. Cristiano Oliveira (Featherw
+ eight)\nGeorge Hardwick vs. Gavin Hughes (Lightweight)\nMichael Blair vs. 
+ Thomas Paull (Lightweight)\nGeoff Pavey vs. Lewis Urquhart (Welterweight)\
+ nMilad Ahady vs. Alexander O'Sullivan (Featherweight)\n\nEvent page: https
+ ://getcagetime.com/events/cage-warriors-216-newcastle/\nTimes and broadcas
+ ters can change\; check the event page. From CageTime (getcagetime.com).
+URL:https://getcagetime.com/events/cage-warriors-216-newcastle/
+CATEGORIES:Cage Warriors,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

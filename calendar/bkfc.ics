@@ -1,0 +1,158 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CageTime//getcagetime.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:CageTime: BKFC
+X-WR-CALDESC:BKFC fight nights with start times\, cards and where to watch.
+  getcagetime.com
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:bkfc-95-herring-vs-dodson@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261018T010000Z
+DTEND:20261018T040000Z
+SUMMARY:BKFC 95: Herring vs. Dodson
+LOCATION:Prudential Center\, Newark\, USA
+DESCRIPTION:RESULTS: https://getcagetime.com/results/bkfc-95-herring-vs-dod
+ son/\nMain event: Jamel Herring def. John Dodson by Decision (R5 2:00)\n\n
+ TIMES\nMain card: Sat Oct 17 9:00 PM EDT (01:00 UTC)\n\nWHERE TO WATCH\nUn
+ ited States: BKFC App (BKFC+)\nUnited Kingdom: BKFC App (BKFC+)\nCanada: B
+ KFC App (BKFC+)\nAustralia: BKFC App (BKFC+)\nIreland: BKFC App (BKFC+)\nI
+ ndia: BKFC App (BKFC+)\nGermany: BKFC App (BKFC+)\nBrazil: BKFC App (BKFC+
+ )\n\nFIGHT CARD\n— Main card —\nJamel Herring vs. John Dodson (Bantamw
+ eight)\nJimmie Rivera vs. Brandon Meyer (Welterweight)\nTony Soto vs. Tony
+  Pike (Lightweight)\nSanto Curatolo vs. Anthony Yost (Flyweight)\nDalvin B
+ lair vs. Paris Boyd (Lightweight)\nNoah Getahoun vs. Dustin Bailey (Middle
+ weight)\n— Prelims —\nPhil Caracappa vs. Cole Cameron (Featherweight)\
+ nMike Medrano vs. Rob Emerson (Welterweight)\n— Main card —\nDylan Pit
+ t vs. Nicholas Saragosa (Lightweight)\n— Prelims —\nGabrielle Roman vs
+ . Brooke Evans (Women's Flyweight)\n\nEvent page: https://getcagetime.com/
+ events/bkfc-95-herring-vs-dodson/\nTimes and broadcasters can change\; che
+ ck the event page. From CageTime (getcagetime.com).
+URL:https://getcagetime.com/events/bkfc-95-herring-vs-dodson/
+CATEGORIES:BKFC,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bkfc-fight-night-clearwater-reber-vs-street@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261024T000000Z
+DTEND:20261024T030000Z
+SUMMARY:BKFC Fight Night Clearwater: Reber vs. Street
+LOCATION:OCC Road House\, Clearwater\, USA
+DESCRIPTION:RESULTS: https://getcagetime.com/results/bkfc-fight-night-clear
+ water-reber-vs-street/\n\nTIMES\nMain card: Fri Oct 23 8:00 PM EDT (00:00 
+ UTC)\n\nWHERE TO WATCH\nUnited States: TBA\nUnited Kingdom: TBA\nCanada: T
+ BA\nAustralia: TBA\nIreland: TBA\nIndia: TBA\nGermany: TBA\nBrazil: TBA\n\
+ nFIGHT CARD\n— Main card —\nRyan Reber vs. Justin Street (Bantamweight
+ )\nJared Warren vs. Tom Angeloff\nMichael Larrimore vs. Nate Morrow (Banta
+ mweight)\nMike Heckert vs. Rickie McConnico (Welterweight)\nTony Murphy vs
+ . Brandon Conley\nTyler Baker vs. Yari Kaganovsky (Middleweight)\nSam DeLa
+ o vs. Chris Keirn (Light Heavyweight)\nGregorio Gonzalez vs. Angelo Trujil
+ lo\n\nEvent page: https://getcagetime.com/events/bkfc-fight-night-clearwat
+ er-reber-vs-street/\nTimes and broadcasters can change\; check the event p
+ age. From CageTime (getcagetime.com).
+URL:https://getcagetime.com/events/bkfc-fight-night-clearwater-reber-vs-str
+ eet/
+CATEGORIES:BKFC,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bkfc-96-glasgow-cooke-vs-weir@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261107T190000Z
+DTEND:20261107T220000Z
+SUMMARY:BKFC 96 Glasgow: Cooke vs. Weir
+LOCATION:OVO Hydro\, Glasgow\, UK
+DESCRIPTION:TIMES\nFree fights: Sat Nov 7 1:00 PM EST (18:00 UTC)\nMain car
+ d: Sat Nov 7 2:00 PM EST (19:00 UTC)\n\nWHERE TO WATCH\nUnited States: TBA
+ \nUnited Kingdom: TBA\nCanada: TBA\nAustralia: TBA\nIreland: TBA\nIndia: T
+ BA\nGermany: TBA\nBrazil: TBA\n\nFIGHT CARD\n— Main card —\nConor Cook
+ e vs. Sean Weir (Light Heavyweight)\nStevie Ray vs. Danny Christie (Middle
+ weight)\nScott Malone vs. Kiran Sewell (Bantamweight)\nBarry Boyle vs. Kas
+ eem Saleem (Heavyweight)\nDoalty Torrance vs. Kyle Cassidy (Welterweight)\
+ nCory Chapman vs. Lewis Dixon (Bantamweight)\nDan Morel vs. Owen Webster (
+ Featherweight)\nLewis Knox vs. Tommy Carus (Featherweight)\nRhys Pagan vs.
+  Danny Moir (Light Heavyweight)\nIan Mulroy vs. Charlie Thompson (Middlewe
+ ight)\nBarry Aikman vs. Cory Hardy (Middleweight)\n\nEvent page: https://g
+ etcagetime.com/events/bkfc-96-glasgow-cooke-vs-weir/\nTimes and broadcaste
+ rs can change\; check the event page. From CageTime (getcagetime.com).
+URL:https://getcagetime.com/events/bkfc-96-glasgow-cooke-vs-weir/
+CATEGORIES:BKFC,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bkfc-fight-night-myrtle-beach-richardson-vs-oxendine@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261121T020000Z
+DTEND:20261121T050000Z
+SUMMARY:BKFC Fight Night Myrtle Beach: Richardson vs. Oxendine
+LOCATION:Myrtle Beach Sports Center\, Myrtle Beach\, South Carolina
+DESCRIPTION:TIMES\nMain card: Fri Nov 20 9:00 PM EST (02:00 UTC)\n\nWHERE T
+ O WATCH\nUnited States: BKFC App (BKFC+)\nUnited Kingdom: BKFC App (BKFC+)
+ \nCanada: BKFC App (BKFC+)\nAustralia: BKFC App (BKFC+)\nIreland: BKFC App
+  (BKFC+)\nIndia: BKFC App (BKFC+)\nGermany: BKFC App (BKFC+)\nBrazil: BKFC
+  App (BKFC+)\n\nFIGHT CARD\n— Main card —\nKeith Richardson vs. Joshua
+  Oxendine (Bantamweight)\nDerek Brunson vs. Theo Doukas (Cruiserweight)\nR
+ yan Jett vs. Rodney Hinton (Welterweight)\nEvan Pierce vs. Diego Romo (Mid
+ dleweight)\nWindson Ramos vs. Robert Fichtner (Bantamweight)\nBrandon Bush
+ aw vs. Joshua Claudio (Featherweight)\nAustin Coleman vs. Alex Eliam (Bant
+ amweight)\nMaurice Morris vs. Lewis Glover (Cruiserweight)\n\nEvent page: 
+ https://getcagetime.com/events/bkfc-fight-night-myrtle-beach-richardson-vs
+ -oxendine/\nTimes and broadcasters can change\; check the event page. From
+  CageTime (getcagetime.com).
+URL:https://getcagetime.com/events/bkfc-fight-night-myrtle-beach-richardson
+ -vs-oxendine/
+CATEGORIES:BKFC,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bkfc-fight-night-hershey@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261205T010000Z
+DTEND:20261205T040000Z
+SUMMARY:BKFC Fight Night Hershey: Pague vs. Richman
+LOCATION:Giant Center\, Hershey\, Pennsylvania
+DESCRIPTION:TIMES\nMain card: Fri Dec 4 8:00 PM EST (01:00 UTC)\n\nWHERE TO
+  WATCH\nUnited States: TBA\nUnited Kingdom: TBA\nCanada: TBA\nAustralia: T
+ BA\nIreland: TBA\nIndia: TBA\nGermany: TBA\nBrazil: TBA\n\nFIGHT CARD\n—
+  Main card —\nDustin Pague vs. Mike Richman\n\nEvent page: https://getca
+ getime.com/events/bkfc-fight-night-hershey/\nTimes and broadcasters can ch
+ ange\; check the event page. From CageTime (getcagetime.com).
+URL:https://getcagetime.com/events/bkfc-fight-night-hershey/
+CATEGORIES:BKFC,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bkfc-97@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261212T010000Z
+DTEND:20261212T040000Z
+SUMMARY:BKFC 97 Hollywood
+LOCATION:Hard Rock Live\, Hollywood\, Florida
+DESCRIPTION:TIMES\nFree fights: Fri Dec 11 7:00 PM EST (00:00 UTC)\nMain ca
+ rd: Fri Dec 11 8:00 PM EST (01:00 UTC)\n\nWHERE TO WATCH\nUnited States: T
+ BA\nUnited Kingdom: TBA\nCanada: TBA\nAustralia: TBA\nIreland: TBA\nIndia:
+  TBA\nGermany: TBA\nBrazil: TBA\n\nFight card TBA\n\nEvent page: https://g
+ etcagetime.com/events/bkfc-97/\nTimes and broadcasters can change\; check 
+ the event page. From CageTime (getcagetime.com).
+URL:https://getcagetime.com/events/bkfc-97/
+CATEGORIES:BKFC,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,111 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CageTime//getcagetime.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:CageTime: PFL
+X-WR-CALDESC:PFL fight nights with start times\, cards and where to watch. 
+ getcagetime.com
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:pfl-dubai-nemkov-vs-bilostenniy@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261114T180000Z
+DTEND:20261114T210000Z
+SUMMARY:PFL Dubai: Nemkov vs. Bilostenniy
+LOCATION:Coca-Cola Arena\, Dubai\, UAE
+DESCRIPTION:TIMES\nEarly card: Sat Nov 14 9:00 AM EST (14:00 UTC)\nMain car
+ d: Sat Nov 14 1:00 PM EST (18:00 UTC)\n\nWHERE TO WATCH\nUnited States: ES
+ PN app\nUnited Kingdom: talkSPORT (YouTube)\nCanada: PFL YouTube channel\n
+ Australia: Stan Sport\nIreland: TBA\nIndia: TBA\nGermany: TBA\nBrazil: ESP
+ N\n\nFIGHT CARD\n— Main card —\nVadim Nemkov vs. Sergey Bilostenniy (H
+ eavyweight)\nPatrick Habirora vs. Omar El Dafrawy (Welterweight)\nPouya Ra
+ hmani vs. Oleg Popov (Heavyweight)\nSergio Pettis vs. Joji Goto (Bantamwei
+ ght)\nAbubakar Nurmagomedov vs. David Martinez (Welterweight)\n— Prelims
+  —\nKhasan Magomedsharipov vs. Ádám Borics (Featherweight)\nAsaël Adj
+ oudj vs. Movlid Khaybulaev (Featherweight)\nErnesto Rodriguez vs. Rhys McK
+ ee (Welterweight)\nShem Rock vs. Connor Hughes (Lightweight)\nAlexei Perga
+ nde vs. Akhmed Magomedov (Lightweight)\nLewis McGrillen vs. Nawras Abzakh 
+ (Bantamweight)\nKhamzat Abaev vs. Leon Hill (Welterweight)\n\nEvent page: 
+ https://getcagetime.com/events/pfl-dubai-nemkov-vs-bilostenniy/\nTimes and
+  broadcasters can change\; check the event page. From CageTime (getcagetim
+ e.com).
+URL:https://getcagetime.com/events/pfl-dubai-nemkov-vs-bilostenniy/
+CATEGORIES:PFL,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pfl-mena-12-al-khobar@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261211T150000Z
+DTEND:20261211T180000Z
+SUMMARY:PFL MENA 12: Al Khobar (Card start per Tapology (unofficial\; may b
+ e prelims))
+LOCATION:Dhahran Expo\, Al Khobar\, Saudi Arabia
+DESCRIPTION:TIMES\nCard start per Tapology (unofficial\; may be prelims): F
+ ri Dec 11 10:00 AM EST (15:00 UTC)\nMain card time not published yet\; thi
+ s entry starts at the earliest listed time.\n\nWHERE TO WATCH\nUnited Stat
+ es: TBA\nUnited Kingdom: TBA\nCanada: TBA\nAustralia: Stan Sport\nIreland:
+  TBA\nIndia: TBA\nGermany: TBA\nBrazil: TBA\n\nFIGHT CARD\n— Main card 
+ —\nAbdelkrim Zouad vs. Badreddine Diani (Welterweight)\nMohammad Fahmi v
+ s. Ylies Djiroun (Lightweight)\nElias Boudegzdame vs. Mehdi Saadi (Feather
+ weight)\n\nEvent page: https://getcagetime.com/events/pfl-mena-12-al-khoba
+ r/\nTimes and broadcasters can change\; check the event page. From CageTim
+ e (getcagetime.com).
+URL:https://getcagetime.com/events/pfl-mena-12-al-khobar/
+CATEGORIES:PFL,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pfl-africa-rwanda@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261212T160000Z
+DTEND:20261212T190000Z
+SUMMARY:PFL Africa: Rwanda
+LOCATION:The BK Arena\, Kigali\, Rwanda
+DESCRIPTION:TIMES\nMain card (official\; early card listed at the same time
+ ): Sat Dec 12 11:00 AM EST (16:00 UTC)\n\nWHERE TO WATCH\nUnited States: T
+ BA\nUnited Kingdom: TBA\nCanada: TBA\nAustralia: Stan Sport\nIreland: TBA\
+ nIndia: TBA\nGermany: TBA\nBrazil: TBA\n\nFIGHT CARD\n— Main card —\nS
+ hido Boris Esperança vs. David Samuel (Welterweight)\nPatrick Ocheme vs. 
+ Demba Seck (Lightweight)\nRaphael Uchegbu vs. Dwight Joseph (Bantamweight)
+ \n\nEvent page: https://getcagetime.com/events/pfl-africa-rwanda/\nTimes a
+ nd broadcasters can change\; check the event page. From CageTime (getcaget
+ ime.com).
+URL:https://getcagetime.com/events/pfl-africa-rwanda/
+CATEGORIES:PFL,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:pfl-lyon-lapilus-vs-mckee@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261219T200000Z
+DTEND:20261219T230000Z
+SUMMARY:PFL Lyon: Lapilus vs. McKee
+LOCATION:LDLC Arena\, Lyon\, France
+DESCRIPTION:TIMES\nEarly card: Sat Dec 19 11:00 AM EST (16:00 UTC)\nMain ca
+ rd: Sat Dec 19 3:00 PM EST (20:00 UTC)\n\nWHERE TO WATCH\nUnited States: E
+ SPN app\nUnited Kingdom: talkSPORT (YouTube)\nCanada: PFL YouTube channel\
+ nAustralia: Stan Sport\nIreland: TBA\nIndia: TBA\nGermany: TBA\nBrazil: ES
+ PN\n\nFIGHT CARD\n— Main card —\nTaylor Lapilus vs. Mitch McKee (Banta
+ mweight)\nBoris Atangana vs. Bryan Battle (Middleweight)\nAbdoul Abdouragu
+ imov vs. Andreeas Binder (Welterweight)\nFabian Edwards vs. Ilian Bouafia 
+ (Middleweight)\n— Prelims —\nBaris Adiguzel vs. Liam Gittins (Bantamwe
+ ight)\nBrandon Brachet vs. Adam Meskini (Featherweight)\n\nEvent page: htt
+ ps://getcagetime.com/events/pfl-lyon-lapilus-vs-mckee/\nTimes and broadcas
+ ters can change\; check the event page. From CageTime (getcagetime.com).
+URL:https://getcagetime.com/events/pfl-lyon-lapilus-vs-mckee/
+CATEGORIES:PFL,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

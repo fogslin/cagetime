@@ -1,0 +1,330 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CageTime//getcagetime.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:CageTime: ONE
+X-WR-CALDESC:ONE fight nights with start times\, cards and where to watch. 
+ getcagetime.com
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:one-samurai-4-haggerty-vs-akimoto@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261017T063000Z
+DTEND:20261017T093000Z
+SUMMARY:ONE Samurai 4: Haggerty vs. Akimoto
+LOCATION:Ariake Arena\, Tokyo\, Japan
+DESCRIPTION:RESULTS: https://getcagetime.com/results/one-samurai-4-haggerty
+ -vs-akimoto/\nMain event: Jonathan Haggerty def. Hiroki Akimoto by KO/TKO 
+ (R3 0:45)\n\nTIMES\nMain card: Sat Oct 17 2:30 AM EDT (06:30 UTC)\n\nWHERE
+  TO WATCH\nUnited States: live.onefc.com (first 3 bouts free on ONE YouTub
+ e/Facebook)\nUnited Kingdom: live.onefc.com (first 3 bouts free on ONE You
+ Tube/Facebook)\nCanada: live.onefc.com (first 3 bouts free on ONE YouTube/
+ Facebook)\nAustralia: live.onefc.com (first 3 bouts free on ONE YouTube/Fa
+ cebook)\nIreland: live.onefc.com (first 3 bouts free on ONE YouTube/Facebo
+ ok)\nIndia: live.onefc.com (first 3 bouts free on ONE YouTube/Facebook)\nG
+ ermany: live.onefc.com (first 3 bouts free on ONE YouTube/Facebook)\nBrazi
+ l: live.onefc.com (first 3 bouts free on ONE YouTube/Facebook)\n\nFIGHT CA
+ RD\n— Main card —\nJonathan Haggerty vs. Hiroki Akimoto (145 lb)\nNada
+ ka Yoshinari vs. Rifdean Masdor (115 lb)\nMasaaki Noiri vs. Mohammed Siasa
+ rani (155 lb)\nNabil Anane vs. Yuki Yoza (145 lb)\nItsuki Hirata vs. Jihin
+  Radzuan (115 lb)\nSinsamut vs. Shintaro Matsukura (170 lb)\nKota Abe vs. 
+ Shozo Isojima (170 lb)\nShoma Okumura vs. Toki Tamaru (125 lb)\nRyoto Nish
+ iyama vs. Yu Takeuchi (135 lb)\nMasaki Takeura vs. Yoshinari Fukushima\n\n
+ Event page: https://getcagetime.com/events/one-samurai-4-haggerty-vs-akimo
+ to/\nTimes and broadcasters can change\; check the event page. From CageTi
+ me (getcagetime.com).
+URL:https://getcagetime.com/events/one-samurai-4-haggerty-vs-akimoto/
+CATEGORIES:ONE,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:one-friday-fights-176@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261030T133000Z
+DTEND:20261030T163000Z
+SUMMARY:ONE Friday Fights 176
+LOCATION:Lumpinee Stadium\, Bangkok\, Thailand
+DESCRIPTION:TIMES\nThe Inner Circle pre-show (live.onefc.com): Fri Oct 30 7
+ :30 AM EDT (11:30 UTC)\nONE Friday Fights: Fri Oct 30 9:30 AM EDT (13:30 U
+ TC)\n\nWHERE TO WATCH\nUnited States: beIN SPORTS\nUnited Kingdom: Sky Spo
+ rts (app / YouTube)\nCanada: beIN SPORTS\nAustralia: ESPN (Disney+ / Foxte
+ l / Kayo)\nIreland: Sky Sports (app / YouTube)\nIndia: Star Sports Select 
+ 2 / JioHotstar\nGermany: TBA\nBrazil: TBA\n\nFIGHT CARD\n— Main card —
+ \nRambong Sor Terapat vs. Jacob Thompson (Flyweight)\nKhunsuk Sor Dechapan
+  vs. Yodudon Or UdUdon (Atomweight)\nSittichai Sor.Dechapan vs. Arthur Eva
+ n (Flyweight)\nCaviar Pudprachachuen vs. Klapichit K Tongtalingchan (Straw
+ weight)\nDenchailek Sor Dechapan vs. Adham Roziev (Strawweight)\nEthan Bro
+ ckett vs. Pedro Duarte (Featherweight)\nNihad Taghizade vs. Yumeto Mizuno 
+ (Strawweight)\nPrashanth Guda vs. Ouga Akita (Flyweight)\nSuperbest Winner
+ muaythai vs. Raize (Strawweight)\n— Prelims —\nNumSurin Chor Ketweena 
+ vs. Akram Hamidi (Atomweight)\nXavier Gonzalez vs. Exza WanKongOhm (Flywei
+ ght)\nTomyamkung Pakornpornsurin vs. Yassir Rassafi (Bantamweight)\nPetkha
+ okradong Lukjaomaesaithong vs. Abdelali Zahidi (Featherweight)\nEvan Gambu
+ to vs. Ranma (Bantamweight)\n\nEvent page: https://getcagetime.com/events/
+ one-friday-fights-176/\nTimes and broadcasters can change\; check the even
+ t page. From CageTime (getcagetime.com).
+URL:https://getcagetime.com/events/one-friday-fights-176/
+CATEGORIES:ONE,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:one-friday-fights-177@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261106T133000Z
+DTEND:20261106T163000Z
+SUMMARY:ONE Friday Fights 177
+LOCATION:Lumpinee Stadium\, Bangkok\, Thailand
+DESCRIPTION:TIMES\nThe Inner Circle pre-show (live.onefc.com): Fri Nov 6 6:
+ 30 AM EST (11:30 UTC)\nONE Friday Fights: Fri Nov 6 8:30 AM EST (13:30 UTC
+ )\n\nWHERE TO WATCH\nUnited States: beIN SPORTS\nUnited Kingdom: Sky Sport
+ s (app / YouTube)\nCanada: beIN SPORTS\nAustralia: ESPN (Disney+ / Foxtel 
+ / Kayo)\nIreland: Sky Sports (app / YouTube)\nIndia: Star Sports Select 2 
+ / JioHotstar\nGermany: TBA\nBrazil: TBA\n\nFIGHT CARD\n— Main card —\n
+ Christian Lee vs. Tye Ruotolo (Lightweight)\n\nEvent page: https://getcage
+ time.com/events/one-friday-fights-177/\nTimes and broadcasters can change\
+ ; check the event page. From CageTime (getcagetime.com).
+URL:https://getcagetime.com/events/one-friday-fights-177/
+CATEGORIES:ONE,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:one-fight-night-49-gabriel-vs-rasulov@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261107T020000Z
+DTEND:20261107T050000Z
+SUMMARY:ONE Fight Night 49: Gabriel vs. Magomedov
+LOCATION:Lumpinee Boxing Stadium\, Bangkok\, Thailand
+DESCRIPTION:TIMES\nEvent start (ONE.com: live in U.S. primetime): Fri Nov 6
+  9:00 PM EST (02:00 UTC)\n\nWHERE TO WATCH\nUnited States: Prime Video\nUn
+ ited Kingdom: Sky Sports\nCanada: Prime Video\nAustralia: ESPN (Disney+ / 
+ Foxtel / Kayo)\nIreland: Sky Sports\nIndia: JioHotstar / Star Sports Selec
+ t 2\nGermany: TBA\nBrazil: Combate / SporTV\n\nFIGHT CARD\n— Main card 
+ —\nLucas Gabriel vs. Magomed Magomedov (Lightweight)\nKongthoranee vs. T
+ aiki Naito (Flyweight)\nSeung Chul Lee vs. Nazareth Lalthazuala (Strawweig
+ ht)\nNontachai Jitmuangnon vs. Felipe Lobo (Bantamweight)\nJiaqiang Zhou v
+ s. Mamuka Usubyan (Featherweight)\nVictória Souza vs. Magdalena Czaban (W
+ omen's Atomweight)\nVictor Hugo vs. Devhonte Johnson (Openweight)\nQalanda
+ r Tabarov vs. Ilmadi Israilov (Bantamweight)\nBogdan Shumarov vs. Gasham M
+ ammadov (Lightweight)\n\nEvent page: https://getcagetime.com/events/one-fi
+ ght-night-49-gabriel-vs-rasulov/\nTimes and broadcasters can change\; chec
+ k the event page. From CageTime (getcagetime.com).
+URL:https://getcagetime.com/events/one-fight-night-49-gabriel-vs-rasulov/
+CATEGORIES:ONE,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:one-friday-fights-178@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261113T133000Z
+DTEND:20261113T163000Z
+SUMMARY:ONE Friday Fights 178
+LOCATION:Lumpinee Stadium\, Bangkok\, Thailand
+DESCRIPTION:TIMES\nThe Inner Circle pre-show (live.onefc.com): Fri Nov 13 6
+ :30 AM EST (11:30 UTC)\nONE Friday Fights: Fri Nov 13 8:30 AM EST (13:30 U
+ TC)\n\nWHERE TO WATCH\nUnited States: beIN SPORTS\nUnited Kingdom: Sky Spo
+ rts (app / YouTube)\nCanada: beIN SPORTS\nAustralia: ESPN (Disney+ / Foxte
+ l / Kayo)\nIreland: Sky Sports (app / YouTube)\nIndia: Star Sports Select 
+ 2 / JioHotstar\nGermany: TBA\nBrazil: TBA\n\nFIGHT CARD\n— Prelims —\n
+ Rodtang Jitmuangnon vs. Nong-O (Flyweight)\nShimon Yoshinari vs. Ramadan O
+ ndash (Flyweight)\n\nEvent page: https://getcagetime.com/events/one-friday
+ -fights-178/\nTimes and broadcasters can change\; check the event page. Fr
+ om CageTime (getcagetime.com).
+URL:https://getcagetime.com/events/one-friday-fights-178/
+CATEGORIES:ONE,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:one-samurai-5-pacio-vs-yamakita@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261118T083000Z
+DTEND:20261118T113000Z
+SUMMARY:ONE Samurai 5: Pacio vs. Yamakita (Card start per Tapology (unoffic
+ ial\; may be prelims))
+LOCATION:EBARA WAVE Arena Ota\, Tokyo\, Japan
+DESCRIPTION:TIMES\nCard start per Tapology (unofficial\; may be prelims): W
+ ed Nov 18 3:30 AM EST (08:30 UTC)\nMain card time not published yet\; this
+  entry starts at the earliest listed time.\n\nWHERE TO WATCH\nUnited State
+ s: TBA\nUnited Kingdom: TBA\nCanada: TBA\nAustralia: TBA\nIreland: TBA\nIn
+ dia: TBA\nGermany: TBA\nBrazil: TBA\n\nFIGHT CARD\n— Main card —\nJosh
+ ua Pacio vs. Keito Yamakita (Strawweight)\nRyujin Nasukawa vs. Elmehdi El 
+ Jamari (Strawweight)\nMasashi Kumura vs. Ellis Barboza (Strawweight)\nJarr
+ ed Brooks vs. Tatsumitsu Wada (Strawweight)\nRyugo Takeuchi vs. Brandon Ha
+ shimoto (Heavyweight)\nReiji Takagi vs. Rui Botelho (Strawweight)\nYuki Ha
+ mada vs. Shuto Inui (Bantamweight)\n\nEvent page: https://getcagetime.com/
+ events/one-samurai-5-pacio-vs-yamakita/\nTimes and broadcasters can change
+ \; check the event page. From CageTime (getcagetime.com).
+URL:https://getcagetime.com/events/one-samurai-5-pacio-vs-yamakita/
+CATEGORIES:ONE,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:one-friday-fights-179@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261120T133000Z
+DTEND:20261120T163000Z
+SUMMARY:ONE Friday Fights 179
+LOCATION:Lumpinee Stadium\, Bangkok\, Thailand
+DESCRIPTION:TIMES\nThe Inner Circle pre-show (live.onefc.com): Fri Nov 20 6
+ :30 AM EST (11:30 UTC)\nONE Friday Fights: Fri Nov 20 8:30 AM EST (13:30 U
+ TC)\n\nWHERE TO WATCH\nUnited States: beIN SPORTS\nUnited Kingdom: Sky Spo
+ rts (app / YouTube)\nCanada: beIN SPORTS\nAustralia: ESPN (Disney+ / Foxte
+ l / Kayo)\nIreland: Sky Sports (app / YouTube)\nIndia: Star Sports Select 
+ 2 / JioHotstar\nGermany: TBA\nBrazil: TBA\n\nFIGHT CARD\n— Prelims —\n
+ Asadula Imangazaliev vs. Aslamjon Ortikov (Flyweight)\nBlack Panther vs. U
+ baid Hussain (Flyweight)\nAllycia Hellen Rodrigues vs. Charlotte Padié (W
+ omen's Atomweight)\n\nEvent page: https://getcagetime.com/events/one-frida
+ y-fights-179/\nTimes and broadcasters can change\; check the event page. F
+ rom CageTime (getcagetime.com).
+URL:https://getcagetime.com/events/one-friday-fights-179/
+CATEGORIES:ONE,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:one-friday-fights-180@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261127T133000Z
+DTEND:20261127T163000Z
+SUMMARY:ONE Friday Fights 180
+LOCATION:Lumpinee Stadium\, Bangkok\, Thailand
+DESCRIPTION:TIMES\nThe Inner Circle pre-show (live.onefc.com): Fri Nov 27 6
+ :30 AM EST (11:30 UTC)\nONE Friday Fights: Fri Nov 27 8:30 AM EST (13:30 U
+ TC)\n\nWHERE TO WATCH\nUnited States: beIN SPORTS\nUnited Kingdom: Sky Spo
+ rts (app / YouTube)\nCanada: beIN SPORTS\nAustralia: ESPN (Disney+ / Foxte
+ l / Kayo)\nIreland: Sky Sports (app / YouTube)\nIndia: Star Sports Select 
+ 2 / JioHotstar\nGermany: TBA\nBrazil: TBA\n\nFight card TBA\n\nEvent page:
+  https://getcagetime.com/events/one-friday-fights-180/\nTimes and broadcas
+ ters can change\; check the event page. From CageTime (getcagetime.com).
+URL:https://getcagetime.com/events/one-friday-fights-180/
+CATEGORIES:ONE,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:one-samurai-6@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261202T083000Z
+DTEND:20261202T113000Z
+SUMMARY:ONE Samurai 6 (Card start per Tapology (unofficial\; may be prelims
+ ))
+LOCATION:Yokohama Buntai\, Yokohama\, Kanagawa\, Japan
+DESCRIPTION:TIMES\nCard start per Tapology (unofficial\; may be prelims): W
+ ed Dec 2 3:30 AM EST (08:30 UTC)\nMain card time not published yet\; this 
+ entry starts at the earliest listed time.\n\nWHERE TO WATCH\nUnited States
+ : TBA\nUnited Kingdom: TBA\nCanada: TBA\nAustralia: TBA\nIreland: TBA\nInd
+ ia: TBA\nGermany: TBA\nBrazil: TBA\n\nFIGHT CARD\n— Main card —\nChihi
+ ro Sawada vs. Anastasia Nikolakakos (Women's Atomweight)\n\nEvent page: ht
+ tps://getcagetime.com/events/one-samurai-6/\nTimes and broadcasters can ch
+ ange\; check the event page. From CageTime (getcagetime.com).
+URL:https://getcagetime.com/events/one-samurai-6/
+CATEGORIES:ONE,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:one-friday-fights-181@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261204T133000Z
+DTEND:20261204T163000Z
+SUMMARY:ONE Friday Fights 181
+LOCATION:Lumpinee Stadium\, Bangkok\, Thailand
+DESCRIPTION:TIMES\nThe Inner Circle pre-show (live.onefc.com): Fri Dec 4 6:
+ 30 AM EST (11:30 UTC)\nONE Friday Fights: Fri Dec 4 8:30 AM EST (13:30 UTC
+ )\n\nWHERE TO WATCH\nUnited States: beIN SPORTS\nUnited Kingdom: Sky Sport
+ s (app / YouTube)\nCanada: beIN SPORTS\nAustralia: ESPN (Disney+ / Foxtel 
+ / Kayo)\nIreland: Sky Sports (app / YouTube)\nIndia: Star Sports Select 2 
+ / JioHotstar\nGermany: TBA\nBrazil: TBA\n\nFight card TBA\n\nEvent page: h
+ ttps://getcagetime.com/events/one-friday-fights-181/\nTimes and broadcaste
+ rs can change\; check the event page. From CageTime (getcagetime.com).
+URL:https://getcagetime.com/events/one-friday-fights-181/
+CATEGORIES:ONE,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:one-friday-fights-182@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261211T133000Z
+DTEND:20261211T163000Z
+SUMMARY:ONE Friday Fights 182
+LOCATION:Lumpinee Stadium\, Bangkok\, Thailand
+DESCRIPTION:TIMES\nThe Inner Circle pre-show (live.onefc.com): Fri Dec 11 6
+ :30 AM EST (11:30 UTC)\nONE Friday Fights: Fri Dec 11 8:30 AM EST (13:30 U
+ TC)\n\nWHERE TO WATCH\nUnited States: beIN SPORTS\nUnited Kingdom: Sky Spo
+ rts (app / YouTube)\nCanada: beIN SPORTS\nAustralia: ESPN (Disney+ / Foxte
+ l / Kayo)\nIreland: Sky Sports (app / YouTube)\nIndia: Star Sports Select 
+ 2 / JioHotstar\nGermany: TBA\nBrazil: TBA\n\nFight card TBA\n\nEvent page:
+  https://getcagetime.com/events/one-friday-fights-182/\nTimes and broadcas
+ ters can change\; check the event page. From CageTime (getcagetime.com).
+URL:https://getcagetime.com/events/one-friday-fights-182/
+CATEGORIES:ONE,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:one-fight-night-50@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261212T020000Z
+DTEND:20261212T050000Z
+SUMMARY:ONE Fight Night 50 (Card start per Tapology (unofficial\; may be pr
+ elims))
+LOCATION:Lumpinee Stadium\, Bangkok\, Thailand
+DESCRIPTION:TIMES\nCard start per Tapology (unofficial\; may be prelims): F
+ ri Dec 11 9:00 PM EST (02:00 UTC)\nMain card time not published yet\; this
+  entry starts at the earliest listed time.\n\nWHERE TO WATCH\nUnited State
+ s: Prime Video\nUnited Kingdom: Sky Sports\nCanada: Prime Video\nAustralia
+ : ESPN (Disney+ / Foxtel / Kayo)\nIreland: Sky Sports\nIndia: JioHotstar /
+  Star Sports Select 2\nGermany: TBA\nBrazil: Combate / SporTV\n\nFight car
+ d TBA\n\nEvent page: https://getcagetime.com/events/one-fight-night-50/\nT
+ imes and broadcasters can change\; check the event page. From CageTime (ge
+ tcagetime.com).
+URL:https://getcagetime.com/events/one-fight-night-50/
+CATEGORIES:ONE,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:one-friday-fights-183@getcagetime.com
+DTSTAMP:20261026T000000Z
+LAST-MODIFIED:20261026T000000Z
+DTSTART:20261218T133000Z
+DTEND:20261218T163000Z
+SUMMARY:ONE Friday Fights 183
+LOCATION:Lumpinee Stadium\, Bangkok\, Thailand
+DESCRIPTION:TIMES\nThe Inner Circle pre-show (live.onefc.com): Fri Dec 18 6
+ :30 AM EST (11:30 UTC)\nONE Friday Fights: Fri Dec 18 8:30 AM EST (13:30 U
+ TC)\n\nWHERE TO WATCH\nUnited States: beIN SPORTS\nUnited Kingdom: Sky Spo
+ rts (app / YouTube)\nCanada: beIN SPORTS\nAustralia: ESPN (Disney+ / Foxte
+ l / Kayo)\nIreland: Sky Sports (app / YouTube)\nIndia: Star Sports Select 
+ 2 / JioHotstar\nGermany: TBA\nBrazil: TBA\n\nFIGHT CARD\n— Main card —
+ \nPrajanchai Petchnamthong vs. Aliff Sor Dechapan (Strawweight)\n\nEvent p
+ age: https://getcagetime.com/events/one-friday-fights-183/\nTimes and broa
+ dcasters can change\; check the event page. From CageTime (getcagetime.com
+ ).
+URL:https://getcagetime.com/events/one-friday-fights-183/
+CATEGORIES:ONE,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -8,7 +8,7 @@
 <meta name="theme-color" content="#0b0b0e">
 <link rel="canonical" href="https://getcagetime.com/calendar/">
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
-<!-- pwa --><link rel="manifest" href="../manifest.webmanifest"><link rel="apple-touch-icon" href="../icons/apple-touch-icon.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="CageTime"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><!-- /pwa -->
+<!-- pwa --><link rel="manifest" href="../manifest.webmanifest"><link rel="apple-touch-icon" href="../icons/apple-touch-icon.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="CageTime"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><script src="../prefs.js?v=20261026c" defer></script><!-- /pwa -->
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="CageTime">
 <meta property="og:title" content="MMA calendar feeds (UFC, PFL, ONE &amp; more) — subscribe in Google, Apple or Outlook | CageTime">
@@ -24,7 +24,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Oswald:wght@500;600;700&amp;display=swap">
-<link rel="stylesheet" href="../style.css?v=20261026b">
+<link rel="stylesheet" href="../style.css?v=20261026c">
 </head>
 <body class="page-calendar">
 <a class="skip" href="#main">Skip to content</a>
@@ -40,13 +40,15 @@
 </div></section>
 <main id="main" class="wrap ev-main" tabindex="-1">
 <section class="box ev-sec"><h2>Subscribe</h2>
+  <ul class="cal-list"><li class="cal-item" style="--promo:#e5132b">
+  <h3>UFC<small>8 events in the feed now</small></h3>
+  <div class="btns"><a class="btn-sm" href="webcal://getcagetime.com/calendar/ufc.ics">Subscribe</a><a class="btn-sm ghost" href="https://calendar.google.com/calendar/r?cid=webcal%3A%2F%2Fgetcagetime.com%2Fcalendar%2Fufc.ics" target="_blank" rel="noopener">Google Calendar</a><button type="button" class="btn-sm ghost" data-copy="https://getcagetime.com/calendar/ufc.ics">Copy link</button><a class="btn-sm ghost" href="ufc.ics" download>Download .ics</a></div>
+  <code class="cal-url">https://getcagetime.com/calendar/ufc.ics</code></li></ul>
+  <details class="cal-more" id="cal-more"><summary>Other promotions <small>All promotions in one feed, plus PFL, ONE, RIZIN, KSW, OKTAGON, Cage Warriors, BKFC and LFA</small></summary>
   <ul class="cal-list"><li class="cal-item" style="--promo:var(--red)">
   <h3>All promotions<small>52 events in the feed now</small></h3>
   <div class="btns"><a class="btn-sm" href="webcal://getcagetime.com/calendar/all.ics">Subscribe</a><a class="btn-sm ghost" href="https://calendar.google.com/calendar/r?cid=webcal%3A%2F%2Fgetcagetime.com%2Fcalendar%2Fall.ics" target="_blank" rel="noopener">Google Calendar</a><button type="button" class="btn-sm ghost" data-copy="https://getcagetime.com/calendar/all.ics">Copy link</button><a class="btn-sm ghost" href="all.ics" download>Download .ics</a></div>
-  <code class="cal-url">https://getcagetime.com/calendar/all.ics</code></li><li class="cal-item" style="--promo:#e5132b">
-  <h3>UFC<small>8 events in the feed now</small></h3>
-  <div class="btns"><a class="btn-sm" href="webcal://getcagetime.com/calendar/ufc.ics">Subscribe</a><a class="btn-sm ghost" href="https://calendar.google.com/calendar/r?cid=webcal%3A%2F%2Fgetcagetime.com%2Fcalendar%2Fufc.ics" target="_blank" rel="noopener">Google Calendar</a><button type="button" class="btn-sm ghost" data-copy="https://getcagetime.com/calendar/ufc.ics">Copy link</button><a class="btn-sm ghost" href="ufc.ics" download>Download .ics</a></div>
-  <code class="cal-url">https://getcagetime.com/calendar/ufc.ics</code></li><li class="cal-item" style="--promo:#2f6bff">
+  <code class="cal-url">https://getcagetime.com/calendar/all.ics</code></li><li class="cal-item" style="--promo:#2f6bff">
   <h3>PFL<small>4 events in the feed now</small></h3>
   <div class="btns"><a class="btn-sm" href="webcal://getcagetime.com/calendar/pfl.ics">Subscribe</a><a class="btn-sm ghost" href="https://calendar.google.com/calendar/r?cid=webcal%3A%2F%2Fgetcagetime.com%2Fcalendar%2Fpfl.ics" target="_blank" rel="noopener">Google Calendar</a><button type="button" class="btn-sm ghost" data-copy="https://getcagetime.com/calendar/pfl.ics">Copy link</button><a class="btn-sm ghost" href="pfl.ics" download>Download .ics</a></div>
   <code class="cal-url">https://getcagetime.com/calendar/pfl.ics</code></li><li class="cal-item" style="--promo:#f6c343">
@@ -70,7 +72,7 @@
   <code class="cal-url">https://getcagetime.com/calendar/bkfc.ics</code></li><li class="cal-item" style="--promo:#7c4dff">
   <h3>LFA<small>5 events in the feed now</small></h3>
   <div class="btns"><a class="btn-sm" href="webcal://getcagetime.com/calendar/lfa.ics">Subscribe</a><a class="btn-sm ghost" href="https://calendar.google.com/calendar/r?cid=webcal%3A%2F%2Fgetcagetime.com%2Fcalendar%2Flfa.ics" target="_blank" rel="noopener">Google Calendar</a><button type="button" class="btn-sm ghost" data-copy="https://getcagetime.com/calendar/lfa.ics">Copy link</button><a class="btn-sm ghost" href="lfa.ics" download>Download .ics</a></div>
-  <code class="cal-url">https://getcagetime.com/calendar/lfa.ics</code></li></ul>
+  <code class="cal-url">https://getcagetime.com/calendar/lfa.ics</code></li></ul></details>
   <p class="cal-msg" role="status" aria-live="polite"></p>
 </section>
 <section class="box ev-sec"><h2>How it works</h2>
@@ -83,7 +85,8 @@
   <div class="install-slot" data-install data-install-inline hidden></div>
 </section>
 </main>
-<script>document.addEventListener('click',e=>{const b=e.target.closest('[data-copy]');if(!b)return;const u=b.dataset.copy,m=document.querySelector('.cal-msg');
+<script>document.addEventListener('DOMContentLoaded',()=>{const P=window.CageTimePrefs,d=document.getElementById('cal-more');if(d&&(!P||P.mode()!=='ufc'))d.open=true});
+document.addEventListener('click',e=>{const b=e.target.closest('[data-copy]');if(!b)return;const u=b.dataset.copy,m=document.querySelector('.cal-msg');
 const ok=()=>{m.textContent='Link copied: '+u};if(navigator.clipboard&&window.isSecureContext)navigator.clipboard.writeText(u).then(ok,()=>{prompt('Copy this link',u)});else{prompt('Copy this link',u)}});</script>
 <footer class="footer">
   <div class="wrap">
@@ -93,6 +96,6 @@ const ok=()=>{m.textContent='Link copied: '+u};if(navigator.clipboard&&window.is
     <p class="gamble">Betting odds are shown for information only. 18+ only. Odds change constantly. Please gamble responsibly — <a href="https://www.begambleaware.org/" rel="noopener" target="_blank">BeGambleAware</a> · US: 1-800-GAMBLER.</p>
   </div>
 </footer>
-<!-- pwa --><div class="install-slot" data-install hidden></div><script src="../pwa.js?v=20261026b" defer></script><script src="../push.js?v=20261026b" defer></script><!-- /pwa -->
+<!-- pwa --><div class="install-slot" data-install hidden></div><script src="../pwa.js?v=20261026c" defer></script><script src="../push.js?v=20261026c" defer></script><!-- /pwa -->
 </body>
 </html>

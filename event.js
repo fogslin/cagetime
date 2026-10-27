@@ -16,10 +16,16 @@ let cc=null;try{cc=localStorage.ct}catch(_){}
 if(!cc)cc=Object.keys(guess).find(k=>guess[k].test(tz))||null;
 const row=cc&&document.querySelector('.watch-table tr[data-cc="'+cc+'"]');
 if(row){row.classList.add('is-you');row.querySelector('th').insertAdjacentHTML('beforeend',' <small class="you">your country</small>');row.parentNode.prepend(row)}
-/* results archive filter */
-const sel=document.getElementById('res-promo');
-if(sel)sel.onchange=()=>{const v=sel.value;document.querySelectorAll('.res-item').forEach(li=>{li.hidden=!!v&&li.dataset.promo!==v});
-  document.querySelectorAll('.res-list').forEach(ol=>{const any=[...ol.children].some(li=>!li.hidden);ol.hidden=!any;const h=ol.previousElementSibling;if(h&&h.tagName==='H2')h.hidden=!any})};
+/* results archive: follows the sitewide promotion preference (prefs.js, default UFC only). The HTML lists every event
+   (no-JS visitors and crawlers see all of them); single result pages are never filtered. */
+const items=[...document.querySelectorAll('.res-item[data-promo]')];
+function applyPromos(){
+  const P=window.CageTimePrefs;if(!P||!items.length)return;
+  let hid=0;items.forEach(li=>{const h=!P.allows(li.dataset.promo);li.hidden=h;if(h)hid++});
+  document.querySelectorAll('.res-list').forEach(ol=>{const any=[...ol.children].some(li=>!li.hidden);ol.hidden=!any;const h=ol.previousElementSibling;if(h&&h.tagName==='H2')h.hidden=!any});
+  const n=document.querySelector('[data-pf-note]');if(n){const t=P.noteHTML(hid,'results',items.length-hid);n.innerHTML=t;n.hidden=!t}
+}
+applyPromos();window.addEventListener('ct-promos',applyPromos);
 /* fighter profiles: load app.js on demand */
 let loading=null;
 function loadApp(){if(window.CageTime)return Promise.resolve(window.CageTime);

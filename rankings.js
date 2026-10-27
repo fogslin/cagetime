@@ -114,7 +114,9 @@ function render(d,bkey){
 function route(){
   const h=parseHash();
   if(!h&&cur.p&&location.hash.startsWith('#fighter='))return;   // drawer open over the current promotion
-  const def=IDX.promotions[0].key;
+  /* default: the visitor's promotion preference (prefs.js; UFC unless they picked others), then the first list */
+  const P=window.CageTimePrefs,mine=P&&P.mode()!=='all'?IDX.promotions.find(p=>P.allows(p.promotion)):null;
+  const def=(mine||IDX.promotions.find(p=>p.key==='ufc')||IDX.promotions[0]).key;
   let key=h&&IDX.promotions.some(p=>p.key===h.p)?h.p:(cur.p||def);
   if(h&&h.p&&key!==h.p){history.replaceState(null,'','#'+key)}   // unknown promotion in the URL
   const want=h&&h.p===key?h.b:'';
@@ -126,10 +128,16 @@ function route(){
 }
 Promise.all([CT.getJSON('data/rankings/index.json'),CT.fightersReady.catch(()=>null)]).then(([idx])=>{
   IDX=idx;
-  const R=idx.promotions.filter(p=>p.kind==='rankings'),C=idx.promotions.filter(p=>p.kind!=='rankings');
-  sel.innerHTML=`<optgroup label="Official rankings">${R.map(p=>`<option value="${esc(p.key)}">${esc(p.promotion)}${p.key==='one'?' (Muay Thai rankings · MMA champions)':p.key==='bkfc'?' (bare knuckle)':''}</option>`).join('')}</optgroup>`+
-    (C.length?`<optgroup label="Champions only (no official rankings)">${C.map(p=>`<option value="${esc(p.key)}">${esc(p.promotion)} — champions only</option>`).join('')}</optgroup>`:'');
+  /* your promotions (prefs.js, default UFC) first; every other promotion stays one pick away below */
+  const P=window.CageTimePrefs,filt=P&&P.mode()!=='all';
+  const mine=filt?idx.promotions.filter(p=>P.allows(p.promotion)):[],rest=idx.promotions.filter(p=>!mine.includes(p));
+  const R=rest.filter(p=>p.kind==='rankings'),C=rest.filter(p=>p.kind!=='rankings');
+  const opt=p=>`<option value="${esc(p.key)}">${esc(p.promotion)}${p.kind!=='rankings'?' — champions only':p.key==='one'?' (Muay Thai rankings · MMA champions)':p.key==='bkfc'?' (bare knuckle)':''}</option>`;
+  sel.innerHTML=(mine.length?`<optgroup label="Your promotions">${mine.map(opt).join('')}</optgroup>`:'')+
+    (R.length?`<optgroup label="${filt?'More promotions: official rankings':'Official rankings'}">${R.map(opt).join('')}</optgroup>`:'')+
+    (C.length?`<optgroup label="${filt?'More promotions: champions only':'Champions only (no official rankings)'}">${C.map(opt).join('')}</optgroup>`:'');
   $('#rk-upd').textContent=idx.updated||'—';
+  const help=$('#rk-pick-help');if(help)help.textContent=filt?(P.mode()==='ufc'?'UFC first. ':'Your promotions first ('+P.label()+'). ')+'Every other promotion is further down this list.':'Promotions that publish official rankings, then promotions that only list champions.';
   sel.onchange=()=>{location.hash='#'+sel.value};
   route();
 }).catch(err=>{console.error(err);main.innerHTML='<p class="muted">Could not load rankings data. Please refresh.</p>'});

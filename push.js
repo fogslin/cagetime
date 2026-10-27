@@ -4,7 +4,8 @@
    - Never prompts on page load. The "Get fight alerts" button (top bar on every page, plus [data-alerts] buttons on event
      pages) opens a panel; only "Turn on alerts" there asks the browser for permission.
    - Privacy: init uses requiresUserPrivacyConsent, so OneSignal collects nothing until the visitor turns alerts on.
-   - Interest tags per promotion: promo_ufc=1, promo_pfl=1 ... (UFC is ticked by default). Unticked = tag removed.
+   - Interest tags per promotion: promo_ufc=1, promo_pfl=1 ... (UFC is ticked by default; the other promotions sit
+     behind "More promotions", opened automatically when one of them was picked before). Unticked = tag removed.
    - iOS/iPadOS: web push only works from the Home Screen app (iOS 16.4+), so Safari shows that hint instead.
    - The SDK only initialises on https://getcagetime.com (the origin registered in OneSignal); elsewhere (local tests)
      the button still works as UI but says alerts are only available on the live site.
@@ -62,13 +63,15 @@ function addTopButton(){
   const b=document.createElement('button');b.type='button';b.className='alerts-btn';b.setAttribute('data-alerts','');
   b.setAttribute('aria-label','Get fight alerts');b.innerHTML=bell()+'<span>Alerts</span>';bar.appendChild(b);
 }
+function box([k,n]){return `<label><input type="checkbox" value="${k}"${st.promos.includes(k)?' checked':''}> ${esc(n)}</label>`}
 function panelHTML(msg){
   const ios=isIOS&&!standalone;
   return `<div class="al-in" role="document">
   <button type="button" class="fp-x" data-al-x aria-label="Close">✕</button>
   <p class="eyebrow">Fight alerts</p><h2 id="al-title">Get fight alerts</h2>
   <p class="muted">Pick the promotions you follow. Fight-night alerts are rolling out soon, and you'll be first in line when they go live. You can turn them off here at any time.</p>
-  <fieldset class="al-promos"><legend>Promotions</legend>${PROMOS.map(([k,n])=>`<label><input type="checkbox" value="${k}"${st.promos.includes(k)?' checked':''}> ${esc(n)}</label>`).join('')}</fieldset>
+  <fieldset class="al-promos"><legend>Promotions</legend>${PROMOS.slice(0,1).map(box).join('')}
+    <details class="al-more"${st.promos.some(k=>k!=='ufc')?' open':''}><summary>More promotions</summary><div class="al-more-in">${PROMOS.slice(1).map(box).join('')}</div></details></fieldset>
   ${ios?`<p class="al-ios"><b>iPhone / iPad:</b> notifications only work from the CageTime Home Screen app. In Safari tap <b>Share</b> then <b>Add to Home Screen</b>, open CageTime from your Home Screen and tap Alerts there (iOS 16.4 or later).</p>`:''}
   <p class="al-acts"><button type="button" class="btn-sm" data-al-on${ios||!supported?' disabled':''}>${st.on?'Save alert choices':'Turn on alerts'}</button>${st.on?'<button type="button" class="btn-sm ghost" data-al-off>Turn alerts off</button>':''}</p>
   <p class="al-msg" role="status" aria-live="polite">${esc(msg|| (st.on?'Alerts are on for '+PROMOS.filter(([k])=>st.promos.includes(k)).map(p=>p[1]).join(', ')+'.':(!supported&&!ios?'This browser does not support web push notifications.':'')))}</p>

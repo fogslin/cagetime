@@ -42,6 +42,9 @@ function fmtOdds(o){return o==null?'—':(o>0?'+'+o:String(o))}
 function fmtDateISO(s){if(!s)return'—';const d=new Date(s.length<=10?s+'T12:00:00Z':s);return isNaN(d)?esc(s):fDate.format(d)}
 
 let D=null,F={},FU=null,state={};
+/* sitewide promotion preference (prefs.js; default UFC only). forced = events opened by a direct #ev- link, shown even when filtered out */
+const PREF=()=>window.CageTimePrefs||{allows:()=>true,mode:()=>'all',noteHTML:()=>''};
+const forced=new Set();
 
 function startOf(e){return e.startUTC?new Date(e.startUTC):null}
 function isGone(e){const dt=startOf(e);if(dt)return dt.getTime()<Date.now()-LIVE_MS;
@@ -65,14 +68,14 @@ function watchHTML(e,c){
 let cdTimer=null;
 function pickNext(){
   const now=Date.now();
-  const up=D.events.filter(e=>e.startUTC&&!/postponed|cancel/i.test(e.status||'')).sort((a,b)=>new Date(a.startUTC)-new Date(b.startUTC));
+  const up=D.events.filter(e=>e.startUTC&&!/postponed|cancel/i.test(e.status||'')&&PREF().allows(e.promotion)).sort((a,b)=>new Date(a.startUTC)-new Date(b.startUTC));
   const live=up.find(e=>e.featured&&isLive(e));
   if(live)return live;
   return up.find(e=>e.featured&&new Date(e.startUTC).getTime()>now)||up.find(e=>BIG.includes(e.promotion)&&new Date(e.startUTC).getTime()>now)||null;
 }
 function renderNext(){
   const box=$('#next .next-body'),e=pickNext();
-  if(!e){box.innerHTML='<p class="muted">No upcoming headline event in our data.</p>';return}
+  if(!e){clearInterval(cdTimer);box.innerHTML=`<p class="muted">No upcoming ${PREF().mode()==='ufc'?'UFC ':''}headline event in our data.</p>${PREF().mode()==='all'?'':'<p class="watch-line"><button type="button" class="pf-link" data-pf-set="all">Show all promotions</button></p>'}`;return}
   const dt=new Date(e.startUTC),c=state.country;
   box.innerHTML=`<span class="badge" style="--promo:${(PROMO[e.promotion]||[])[0]||'var(--red)'};--promo-ink:${(PROMO[e.promotion]||[])[1]||'#fff'}">${esc(e.promotion)}</span>
     <h2>${esc(e.name)}</h2>
@@ -154,14 +157,16 @@ function eventHTML(e,c){
 }
 function render(){
   const c=state.country=$('#country').value;try{localStorage.ct=c}catch(_){}
-  const p=$('#promo').value;
+  const P=PREF(),up=D.events.filter(e=>!isGone(e)),shown=up.filter(e=>P.allows(e.promotion)||forced.has(e.id));
   let html='',last='';
-  D.events.filter(e=>(!p||e.promotion===p)&&!isGone(e)).forEach(e=>{
+  shown.forEach(e=>{
     const dt=startOf(e);
     const day=dt?fDay.format(dt):fDay.format(new Date(e.date+'T12:00:00'));
     if(day!==last){html+=`<h3 class="day">${esc(day)}</h3>`;last=day}
     html+=eventHTML(e,c)});
   $('#list').innerHTML=html||'<p class="muted">No upcoming events for this filter.</p>';
+  const note=$('#pf-note');if(note){const h=P.noteHTML(up.length-shown.length,'events',shown.length);note.innerHTML=h;note.hidden=!h}
+  const sub=$('#sub-main');if(sub){const all=P.mode()==='all';sub.href='webcal://getcagetime.com/calendar/'+(all?'all':'ufc')+'.ics';sub.textContent=all?'Subscribe: all events':'Subscribe: UFC events'}
   renderNext();
 }
 document.addEventListener('toggle',ev=>{
@@ -322,14 +327,14 @@ Promise.all([getJSON(ROOT+'events.json'),getJSON(ROOT+'fighters.json').catch(()=
   D=d;if(f){F=f.fighters||{};FU=f.updated}
   D.events.forEach((e,i)=>{if(!e.id)e.id='e'+i});
   D.events.sort((a,b)=>{const ta=a.startUTC?new Date(a.startUTC):new Date(a.date+'T12:00:00Z'),tb=b.startUTC?new Date(b.startUTC):new Date(b.date+'T12:00:00Z');return ta-tb});
-  const cs=$('#country'),ps=$('#promo');
+  const cs=$('#country');
   let saved=null;try{saved=localStorage.ct}catch(_){}
   const def=(saved&&D.countries[saved])?saved:(Object.keys(guess).find(k=>guess[k].test(tz))||'US');
   for(const[k,v] of Object.entries(D.countries))cs.add(new Option(v,k,false,k===def));
-  [...new Set(D.events.map(e=>e.promotion))].forEach(p=>ps.add(new Option(p,p)));
   $('#tz').textContent='Times shown in your time zone: '+tz;
   $('#upd').textContent=D.updated;if(FU)$('#fupd').textContent=FU;
-  cs.onchange=ps.onchange=render;render();
+  if(location.hash.startsWith('#ev-')){const id=location.hash.slice(4);if(D.events.some(e=>e.id===id))forced.add(id)}
+  cs.onchange=render;window.addEventListener('ct-promos',render);render();
   if(location.hash.startsWith('#ev-')){const el=document.getElementById(location.hash.slice(1));if(el)el.scrollIntoView()}
   if(location.hash.startsWith('#fighter='))routeHash();
 }).catch(err=>{console.error(err);$('#list').innerHTML='<p class="muted">Could not load event data. Please refresh.</p>'});

@@ -3,28 +3,28 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>UFC Pick&#x27;em: pick the winners of the next UFC card | CageTime</title>
-<meta name="description" content="Free UFC Pick&#x27;em: pick the winner, method and round of every bout on the next UFC card. Picks lock when each part of the card starts and are scored against the official results.">
+<title>MMA Pick&#x27;em: pick the winners of every UFC card and track your record | CageTime</title>
+<meta name="description" content="Free Pick&#x27;em: pick the winner, method and round of every bout on any upcoming UFC card (other promotions too). Picks lock when the card starts; your history is graded against the official results.">
 <meta name="theme-color" content="#0b0b0e">
 <link rel="canonical" href="https://getcagetime.com/pickem/">
 <link rel="icon" href="../favicon.svg" type="image/svg+xml">
-<!-- pwa --><link rel="manifest" href="../manifest.webmanifest"><link rel="apple-touch-icon" href="../icons/apple-touch-icon.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="CageTime"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><script src="../prefs.js?v=20261026c" defer></script><!-- /pwa -->
+<!-- pwa --><link rel="manifest" href="../manifest.webmanifest"><link rel="apple-touch-icon" href="../icons/apple-touch-icon.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="CageTime"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><script src="../prefs.js?v=20261029b" defer></script><!-- /pwa -->
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="CageTime">
-<meta property="og:title" content="UFC Pick&#x27;em: pick the winners of the next UFC card | CageTime">
-<meta property="og:description" content="Free UFC Pick&#x27;em: pick the winner, method and round of every bout on the next UFC card. Picks lock when each part of the card starts and are scored against the official results.">
+<meta property="og:title" content="MMA Pick&#x27;em: pick the winners of every UFC card and track your record | CageTime">
+<meta property="og:description" content="Free Pick&#x27;em: pick the winner, method and round of every bout on any upcoming UFC card (other promotions too). Picks lock when the card starts; your history is graded against the official results.">
 <meta property="og:url" content="https://getcagetime.com/pickem/">
 <meta property="og:image" content="https://getcagetime.com/og-image.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="UFC Pick&#x27;em: pick the winners of the next UFC card | CageTime">
-<meta name="twitter:description" content="Free UFC Pick&#x27;em: pick the winner, method and round of every bout on the next UFC card. Picks lock when each part of the card starts and are scored against the official results.">
+<meta name="twitter:title" content="MMA Pick&#x27;em: pick the winners of every UFC card and track your record | CageTime">
+<meta name="twitter:description" content="Free Pick&#x27;em: pick the winner, method and round of every bout on any upcoming UFC card (other promotions too). Picks lock when the card starts; your history is graded against the official results.">
 <meta name="twitter:image" content="https://getcagetime.com/og-image.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Oswald:wght@500;600;700&amp;display=swap">
-<link rel="stylesheet" href="../style.css?v=20261026c">
+<link rel="stylesheet" href="../style.css?v=20261029b">
 </head>
 <body class="page-pickem">
 <a class="skip" href="#main">Skip to content</a>
@@ -35,14 +35,33 @@
   </div>
 </header>
 <section class="ev-hero" style="--promo:#e5132b"><div class="wrap ev-hero-in">
-  <p class="eyebrow">Pick'em</p><h1>UFC Pick'em</h1>
-  <p class="lede">Pick a winner for every bout on the next UFC card, and optionally the method and round. Picks lock when that part of the card starts (prelims or main card). After the event your picks are scored against the results.</p>
+  <p class="eyebrow">Pick'em</p><h1>Pick'em</h1>
+  <p class="lede">Pick a winner for every bout on any upcoming card, and optionally the method and round. Picks lock when the card starts. After each event your picks are graded against the results in <a href="#history" data-tab-link>My history</a>.</p>
 </div></section>
 <main id="main" class="wrap ev-main" tabindex="-1">
-  <div class="pk-soon"><p><b>Global leaderboard coming soon.</b> For now your picks and record are saved only in this browser (nothing is sent anywhere), so there is no ranking against other players yet.</p></div>
+  <div class="pk-soon"><p><b>Global leaderboard coming soon.</b> For now your picks and record are saved only in this browser (nothing is sent anywhere), so there is no ranking against other players yet. Switching devices? Use <a href="#pk-move" data-move-link>Move your picks</a>.</p></div>
   <section id="pk-stats" aria-label="Your record"></section>
-  <section id="pk-card" aria-live="polite"><p class="muted">Loading the next UFC card…</p></section>
-  <section id="pk-past" class="pk-past"></section>
+  <div class="pk-tabs" role="tablist" aria-label="Pick'em">
+    <button type="button" role="tab" id="tab-picks" aria-controls="pk-picks" aria-selected="true">Make picks</button><button type="button" role="tab" id="tab-history" aria-controls="pk-history" aria-selected="false" tabindex="-1">My history</button>
+  </div>
+  <div id="pk-picks" role="tabpanel" aria-labelledby="tab-picks">
+    <div class="pk-pick-ctl">
+      <div class="pk-selwrap"><label for="pk-sel">Card</label><select id="pk-sel"><option>Loading cards…</option></select></div>
+      <div class="ctl ctl-pf"><span id="pf-lbl">Promotions</span><div data-promo-pref data-labelledby="pf-lbl"></div></div>
+    </div>
+    <p class="pf-note" id="pk-pfnote" role="status"></p>
+    <section id="pk-card" class="pk-loading" aria-live="polite"><p class="muted">Loading the next card…</p></section>
+  </div>
+  <div id="pk-history" role="tabpanel" aria-labelledby="tab-history" hidden>
+    <section id="pk-past" class="pk-past"></section>
+  </div>
+  <details class="pk-move" id="pk-move"><summary>Move your picks to another device</summary>
+    <p class="muted small">Your picks live only in this browser. Download them as a small file (or copy them as a code), then import that file or paste that code on your other device. Imports are merged: the newer pick wins, and picks made after a card locked are skipped.</p>
+    <div class="pk-io"><button type="button" class="btn-sm" id="pk-export">Download picks file</button><label class="btn-sm ghost pk-filebtn">Import picks file<input type="file" id="pk-file" accept="application/json,.json"></label><button type="button" class="btn-sm ghost" id="pk-copy">Copy as code</button></div>
+    <label class="pk-codelbl" for="pk-code">Picks code</label><textarea id="pk-code" rows="3" spellcheck="false" placeholder="Paste a picks code here, then press Import code"></textarea>
+    <p class="pk-io"><button type="button" class="btn-sm ghost" id="pk-import-code">Import code</button></p>
+    <p class="small pk-io-msg" id="pk-io-msg" role="status" aria-live="polite"></p>
+  </details>
   <noscript><p class="muted">Pick'em needs JavaScript.</p></noscript>
 </main>
 <footer class="footer">
@@ -53,7 +72,7 @@
     <p class="gamble">Betting odds are shown for information only. 18+ only. Odds change constantly. Please gamble responsibly — <a href="https://www.begambleaware.org/" rel="noopener" target="_blank">BeGambleAware</a> · US: 1-800-GAMBLER.</p>
   </div>
 </footer>
-<script src="../pickem.js?v=20261026c" defer></script>
-<!-- pwa --><div class="install-slot" data-install hidden></div><script src="../pwa.js?v=20261026c" defer></script><script src="../push.js?v=20261026c" defer></script><!-- /pwa -->
+<script src="../pickem.js?v=20261029b" defer></script>
+<!-- pwa --><div class="install-slot" data-install hidden></div><script src="../pwa.js?v=20261029b" defer></script><script src="../push.js?v=20261029b" defer></script><!-- /pwa -->
 </body>
 </html>

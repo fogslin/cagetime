@@ -15,7 +15,10 @@ const guess={US:/^America\/(New_York|Chicago|Denver|Los_Angeles|Phoenix|Anchorag
 let cc=null;try{cc=localStorage.ct}catch(_){}
 if(!cc)cc=Object.keys(guess).find(k=>guess[k].test(tz))||null;
 const row=cc&&document.querySelector('.watch-table tr[data-cc="'+cc+'"]');
-if(row){row.classList.add('is-you');row.querySelector('th').insertAdjacentHTML('beforeend',' <small class="you">your country</small>');row.parentNode.prepend(row)}
+if(row){row.classList.add('is-you');row.querySelector('th').insertAdjacentHTML('beforeend',' <small class="you">your country</small>');
+  const from=row.closest('.watch-more');document.querySelector('.watch-table tbody').prepend(row);
+  if(from){const left=[...from.querySelectorAll('tbody tr')];if(!left.length)from.remove();
+    else from.querySelector('summary').innerHTML=left.length+' more countr'+(left.length===1?'y':'ies')+' <small>('+left.map(r=>r.querySelector('th').textContent.replace(/^\S+\s/,'').trim()).join(', ')+')</small>'}}
 /* results archive: follows the sitewide promotion preference (prefs.js, default UFC only). The HTML lists every event
    (no-JS visitors and crawlers see all of them); single result pages are never filtered. */
 const items=[...document.querySelectorAll('.res-item[data-promo]')];

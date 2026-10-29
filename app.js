@@ -99,15 +99,18 @@ function fighterHTML(id,fallbackName,side,odds,favSide){
   const flagHTML=fl?`<span class="flag" role="img" aria-label="${esc(f.nationality||'')}">${fl}</span>`:'';
   const nm=f.profile&&id?`<a class="flink" href="#fighter=${encodeURIComponent(id)}" data-fid="${esc(id)}" aria-label="Open profile: ${esc(name)}">${esc(name)}</a>`:esc(name);
   const nameHTML=side==='b'?`${nm}${flagHTML}`:`${flagHTML}${nm}`;
-  const a=age(f.dob);
-  const rows=[['Nation',f.nationality],['Height',f.height],['Reach',f.reach],['Stance',f.stance],['Division',f.weightClass],['Age',a]];
   return `<div class="fighter ${side}">
     <div class="fhead">${avatarHTML(f,name,40)}<div class="fname">${nameHTML}</div></div>
-    <div class="rec">${dash(f.record)} <small>W-L-D</small></div>
-    <dl class="stats">${rows.map(([k,v])=>`<dt>${k}</dt><dd>${dash(v)}</dd>`).join('')}</dl>
-    ${odds!==undefined?`<span class="odds${favSide===side?' fav':''}" title="Moneyline (American odds)">${fmtOdds(odds)}</span>`:''}
-    ${f.updated?`<div class="upd">Stats updated ${fmtDateISO(f.updated)}</div>`:''}
+    <div class="rec">${dash(f.record)} <small>W-L-D</small>${odds!==undefined?` <span class="odds${favSide===side?' fav':''}" title="Moneyline (American odds)">${fmtOdds(odds)}</span>`:''}</div>
   </div>`;
+}
+/* "Tale of the tape" under a bout: nation, height, reach, stance, division, age of both fighters (folded away) */
+function tapeHTML(b){
+  const fa=F[b.a]||{},fb=F[b.b]||{};
+  const rows=[['Nation','nationality'],['Height','height'],['Reach','reach'],['Stance','stance'],['Division','weightClass']].map(([l,k])=>[l,fa[k],fb[k]]).concat([['Age',age(fa.dob),age(fb.dob)]]);
+  if(!rows.some(r=>r[1]||r[2]))return '';
+  const upd=[fa.updated,fb.updated].filter(Boolean).sort().pop();
+  return `<details class="tape"><summary>Tale of the tape</summary><table class="tape-t"><caption class="sr">${esc(b.aName)} vs ${esc(b.bName)}</caption><tbody>${rows.map(r=>`<tr><td>${dash(r[1])}</td><th scope="row">${r[0]}</th><td>${dash(r[2])}</td></tr>`).join('')}</tbody></table>${upd?`<p class="upd">Stats updated ${fmtDateISO(upd)}</p>`:''}</details>`;
 }
 function compareLink(a,b){
   if(!a||!b||!(F[a]&&F[a].profile)||!(F[b]&&F[b].profile))return '';
@@ -126,7 +129,7 @@ function cardHTML(e){
     html+=`<article class="bout">
       <div class="bout-head"><span class="wc">${dash(b.weightClass)}${b.rounds?` · ${esc(b.rounds)} rds`:''}</span>${b.title?`<span class="belt">🏆 ${esc(b.title)}</span>`:''}${b.discipline&&b.discipline!=='MMA'?`<span class="tag">${esc(b.discipline)}</span>`:''}${compareLink(b.a,b.b)}</div>
       <div class="vs">${fighterHTML(b.a,b.aName,'a',o?o.a:undefined,fav)}<div class="vs-mid" aria-hidden="true">VS</div>${fighterHTML(b.b,b.bName,'b',o?o.b:undefined,fav)}</div>
-      ${b.note?`<p class="notes">${esc(b.note)}</p>`:''}
+      ${b.note?`<p class="notes">${esc(b.note)}</p>`:''}${tapeHTML(b)}
     </article>`});
   const oi=e.odds;
   html+=`<p class="fc-foot">Card source: ${(c.sources||[]).map((s,i)=>`<a href="${esc(safeUrl(s))}" target="_blank" rel="noopener">[${i+1}]</a>`).join(' ')||'—'}${c.updated?' · checked '+fmtDateISO(c.updated):''}. Bouts can change late; "—" = not found in our sources.
@@ -148,9 +151,9 @@ function eventHTML(e,c){
       <div class="watch">${watchHTML(e,c)}</div>
       <div class="venue">📍 ${dash(e.venue)}</div>
     </div>
-    ${e.notes?`<p class="notes">${esc(e.notes)}</p>`:''}
     <p class="ev-actions"><a class="btn-sm" href="${esc(ROOT)}events/${encodeURIComponent(e.id)}/">Event page: times &amp; where to watch →</a><a class="btn-sm ghost" href="${esc(ROOT)}calendar/events/${encodeURIComponent(e.id)}.ics" download="${esc(e.id)}.ics" data-ics>📅 Add to calendar</a></p>
-    <p class="src">Event sources: ${(e.sources||[]).map((s,i)=>`<a href="${esc(safeUrl(s))}" target="_blank" rel="noopener">[${i+1}]</a>`).join(' ')}</p>
+    <details class="more-info"><summary>Notes &amp; sources</summary>${e.notes?`<p class="notes">${esc(e.notes)}</p>`:''}
+    <p class="src">Event sources: ${(e.sources||[]).map((s,i)=>`<a href="${esc(safeUrl(s))}" target="_blank" rel="noopener">[${i+1}]</a>`).join(' ')}</p></details>
    </div>
    <details class="fc" data-id="${esc(e.id)}"><summary><span>Fight card <span class="count">${nb?nb+' bouts':'TBA'}</span></span><span class="chev" aria-hidden="true"></span></summary><div class="fc-body"></div></details>
   </article>`;

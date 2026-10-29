@@ -352,7 +352,7 @@ html.fp-lock{overflow:hidden}
   .rk-champ-n{font-size:19px}
 }
 /* ---------- Games page ---------- */
-/* top nav, 6 items (Events, Results, Rankings, Games, Newsletter, Credits). Measured with games/test_integration.py:
+/* (v=20261029c: now 7 items with Pick'em; the breakpoints are re-measured at the end of this file) top nav, 6 items (Events, Results, Rankings, Games, Newsletter, Credits). Measured with games/test_integration.py:
    plus the Alerts bell (push.js). All fit from 640px; <=639: Newsletter hides; <=539: Credits hides too; <=430: smaller type;
    <=439: the wordmark hides (the logo mark stays) so Events, Results, Rankings, Games + bell fit on one line down to 320px */
 @media (max-width:760px){.topbar nav{gap:12px}.topbar nav a{font-size:13px;letter-spacing:.06em}}
@@ -735,3 +735,19 @@ select,input,button{border-radius:12px}
 /* reserve room for content drawn by app.js so the page does not jump while it loads */
 .next-body{min-height:244px}
 #list:has(>p.muted:only-child){min-height:100vh}
+/* home: Upcoming events heading + Pick'em call-to-action (v=20261029c) */
+.sec-head{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:var(--s3) var(--s4);margin:var(--s2) 0 var(--s4)}
+.sec-head .section-title{margin:0}
+.pk-cta{white-space:nowrap}
+/* top nav, 7 items (Events, Pick'em, Results, Rankings, Games, Newsletter, Credits) + Alerts bell */
+.topbar .logo{flex:none}
+.topbar nav{min-width:0;overflow-x:auto;overflow-y:hidden;scrollbar-width:none;overscroll-behavior-x:contain}
+.topbar nav::-webkit-scrollbar{display:none}
+/* breakpoints re-measured for 7 items with games/test_integration.py + test_static_features nav check: <=679 Newsletter hides,
+   <=599 Credits hides, <=519 the wordmark hides (logo mark stays), <=389 / <=359 tighter type so Events, Pick'em, Results,
+   Rankings, Games + bell fit on one line down to 320px. If text is enlarged the nav scrolls sideways instead of overlapping the logo. */
+@media (max-width:679px){.topbar nav a.nav-newsletter{display:none}}
+@media (max-width:599px){.topbar nav a.nav-credits{display:none}}
+@media (max-width:519px){.topbar .logo span{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}.topbar .logo img{width:28px;height:28px}}
+@media (max-width:389px){.topbar nav{gap:8px}.topbar nav a{font-size:11.5px;letter-spacing:.04em}}
+@media (max-width:359px){.topbar nav{gap:6px}.topbar nav a{font-size:11px;letter-spacing:.02em}.topbar-in{gap:8px}}

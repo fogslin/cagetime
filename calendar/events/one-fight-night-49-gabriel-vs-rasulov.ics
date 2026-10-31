@@ -10,8 +10,8 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:one-fight-night-49-gabriel-vs-rasulov@getcagetime.com
-DTSTAMP:20261026T000000Z
-LAST-MODIFIED:20261026T000000Z
+DTSTAMP:20261031T000000Z
+LAST-MODIFIED:20261031T000000Z
 DTSTART:20261107T020000Z
 DTEND:20261107T050000Z
 SUMMARY:ONE Fight Night 49: Gabriel vs. Magomedov
@@ -25,9 +25,9 @@ DESCRIPTION:TIMES\nEvent start (ONE.com: live in U.S. primetime): Fri Nov 6
  aiki Naito (Flyweight)\nSeung Chul Lee vs. Nazareth Lalthazuala (Strawweig
  ht)\nNontachai Jitmuangnon vs. Felipe Lobo (Bantamweight)\nJiaqiang Zhou v
  s. Mamuka Usubyan (Featherweight)\nVictória Souza vs. Magdalena Czaban (W
- omen's Atomweight)\nVictor Hugo vs. Devhonte Johnson (Openweight)\nQalanda
- r Tabarov vs. Ilmadi Israilov (Bantamweight)\nBogdan Shumarov vs. Gasham M
- ammadov (Lightweight)\n\nEvent page: https://getcagetime.com/events/one-fi
+ omen's Atomweight)\nBogdan Shumarov vs. Gasham Mammadov (Lightweight)\nVic
+ tor Hugo vs. Devhonte Johnson (Openweight)\nQalandar Tabarov vs. Ilmadi Is
+ railov (Bantamweight)\n\nEvent page: https://getcagetime.com/events/one-fi
  ght-night-49-gabriel-vs-rasulov/\nTimes and broadcasters can change\; chec
  k the event page. From CageTime (getcagetime.com).
 URL:https://getcagetime.com/events/one-fight-night-49-gabriel-vs-rasulov/

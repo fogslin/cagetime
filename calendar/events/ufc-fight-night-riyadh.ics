@@ -10,8 +10,8 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:ufc-fight-night-riyadh@getcagetime.com
-DTSTAMP:20261026T000000Z
-LAST-MODIFIED:20261026T000000Z
+DTSTAMP:20261031T000000Z
+LAST-MODIFIED:20261031T000000Z
 DTSTART:20261205T140000Z
 DTEND:20261205T170000Z
 SUMMARY:UFC Fight Night Riyadh (Card start per Tapology (unofficial\; may b
@@ -22,13 +22,14 @@ DESCRIPTION:TIMES\nCard start per Tapology (unofficial\; may be prelims): S
  entry starts at the earliest listed time.\n\nWHERE TO WATCH\nUnited States
  : Paramount+\nUnited Kingdom: TNT Sports / HBO Max\nCanada: Sportsnet+ / C
  ity TV / TVA Sports\nAustralia: Paramount+\nIreland: TNT Sports\nIndia: So
- ny TEN 2\nGermany: DAZN\nBrazil: Paramount+\n\nFIGHT CARD\n— Prelims —
- \nJafel Filho vs. Bruno Silva (Flyweight)\nMatthieu Duclos vs. Modestino R
- odrigues (Middleweight)\nAbdul Hussein vs. Hecher Sosa (Bantamweight)\nLev
- an Chokheli vs. Islam Dulatov (Welterweight)\nUran Satybaldiev vs. Ivan Gn
- izditskiy (Light Heavyweight)\n\nEvent page: https://getcagetime.com/event
- s/ufc-fight-night-riyadh/\nTimes and broadcasters can change\; check the e
- vent page. From CageTime (getcagetime.com).
+ ny TEN 2\nGermany: DAZN\nBrazil: Paramount+\n\nFIGHT CARD\n— Main card 
+ —\nIon Cutelaba vs. Magomed Tuchalov (Light Heavyweight)\n— Prelims 
+ —\nJafel Filho vs. Bruno Silva (Flyweight)\nMatthieu Duclos vs. Modestin
+ o Rodrigues (Middleweight)\nAbdul Hussein vs. Hecher Sosa (Bantamweight)\n
+ Levan Chokheli vs. Islam Dulatov (Welterweight)\nUran Satybaldiev vs. Ivan
+  Gnizditskiy (Light Heavyweight)\n\nEvent page: https://getcagetime.com/ev
+ ents/ufc-fight-night-riyadh/\nTimes and broadcasters can change\; check th
+ e event page. From CageTime (getcagetime.com).
 URL:https://getcagetime.com/events/ufc-fight-night-riyadh/
 CATEGORIES:UFC,MMA
 STATUS:CONFIRMED

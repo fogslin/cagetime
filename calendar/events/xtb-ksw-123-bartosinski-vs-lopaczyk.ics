@@ -10,8 +10,8 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:xtb-ksw-123-bartosinski-vs-lopaczyk@getcagetime.com
-DTSTAMP:20261026T000000Z
-LAST-MODIFIED:20261026T000000Z
+DTSTAMP:20261031T000000Z
+LAST-MODIFIED:20261031T000000Z
 DTSTART:20261121T180000Z
 DTEND:20261121T210000Z
 SUMMARY:XTB KSW 123: Bartosiński vs. Łopaczyk
@@ -23,12 +23,13 @@ DESCRIPTION:TIMES\nEvent start (official\; no separate main-card time publi
  W TV (PPV)\nBrazil: KSW TV (PPV)\n\nFIGHT CARD\n— Main card —\nAdrian 
  Bartosiński vs. Tymoteusz Łopaczyk (Welterweight)\nValeriu Mircea vs. Ma
  rcin Held (Lightweight)\nWojciech Kawa vs. Oleksandr Moisa (Lightweight)\n
- Tomasz Romanowski vs. Igor Michaliszyn (Middleweight)\nMaciej Kazieczko vs
- . Bohdan Danylko (Lightweight)\nMadars Fleminas vs. Mateusz Pawlik (Welter
- weight)\n— Prelims —\nOskar Szczepaniak vs. Steven Krt (Welterweight)\
- n\nEvent page: https://getcagetime.com/events/xtb-ksw-123-bartosinski-vs-l
- opaczyk/\nTimes and broadcasters can change\; check the event page. From C
- ageTime (getcagetime.com).
+ Tomasz Romanowski vs. Igor Michaliszyn (Middleweight)\nMadars Fleminas vs.
+  Mateusz Pawlik (Welterweight)\nOskar Szczepaniak vs. Michał Hir (Catchwe
+ ight (174 lb))\n— Prelims —\nMaciej Kazieczko vs. Bohdan Danylko (Ligh
+ tweight)\nAlain Van De Merckt vs. Szymon Herrmann (Middleweight)\n\nEvent 
+ page: https://getcagetime.com/events/xtb-ksw-123-bartosinski-vs-lopaczyk/\
+ nTimes and broadcasters can change\; check the event page. From CageTime (
+ getcagetime.com).
 URL:https://getcagetime.com/events/xtb-ksw-123-bartosinski-vs-lopaczyk/
 CATEGORIES:KSW,MMA
 STATUS:CONFIRMED

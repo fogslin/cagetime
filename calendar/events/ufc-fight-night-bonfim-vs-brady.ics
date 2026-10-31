@@ -3,37 +3,36 @@ VERSION:2.0
 PRODID:-//CageTime//getcagetime.com//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:UFC Fight Night: Bonfim vs. Brady
+X-WR-CALNAME:UFC Fight Night: Cortes-Acosta vs. Walker
 X-WR-CALDESC:From CageTime (getcagetime.com)
 X-WR-TIMEZONE:UTC
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:ufc-fight-night-bonfim-vs-brady@getcagetime.com
-DTSTAMP:20261026T000000Z
-LAST-MODIFIED:20261026T000000Z
+DTSTAMP:20261031T000000Z
+LAST-MODIFIED:20261031T000000Z
 DTSTART:20261108T010000Z
 DTEND:20261108T040000Z
-SUMMARY:UFC Fight Night: Bonfim vs. Brady
+SUMMARY:UFC Fight Night: Cortes-Acosta vs. Walker
 LOCATION:Meta APEX\, Las Vegas\, USA
 DESCRIPTION:TIMES\nPrelims: Sat Nov 7 5:00 PM EST (22:00 UTC)\nMain card: S
  at Nov 7 8:00 PM EST (01:00 UTC)\n\nWHERE TO WATCH\nUnited States: Paramou
  nt+\nUnited Kingdom: TNT Sports / HBO Max\nCanada: Sportsnet+ / City TV / 
  TVA Sports\nAustralia: Paramount+\nIreland: TNT Sports\nIndia: Sony TEN 2\
- nGermany: DAZN\nBrazil: Paramount+\n\nFIGHT CARD\n— Main card —\nGabri
- el Bonfim vs. Sean Brady (Welterweight)\nVirna Jandiroba vs. Tatiana Suare
- z (Women's Strawweight)\nDavey Grant vs. Elijah Smith (Bantamweight)\nSeok
-  Hyeon Ko vs. Wellington Turman (Welterweight)\nAndre Petroski vs. Mantas 
- Kondratavičius (Middleweight)\nBilly Elekana vs. Lucas Fernando (Light He
- avyweight)\n— Prelims —\nKarine Silva vs. Gabriella Fernandes (Women's
-  Flyweight)\nJosé Delano vs. Murtazali Magomedov (Featherweight)\nOllie S
- chmid vs. Keiichiro Nakamura (Featherweight)\nAustin Bashi vs. Lucas Brenn
- an (Featherweight)\nPriscila Cachoeira vs. Nina Milošević (Women's Banta
- mweight)\nJosé Souza vs. Jonny Parsons (Welterweight)\nMitch Raposo vs. M
- arcos Degli (Flyweight)\nThomas Petersen vs. Gabriel Lorenço (Heavyweight
- )\n\nEvent page: https://getcagetime.com/events/ufc-fight-night-bonfim-vs-
- brady/\nTimes and broadcasters can change\; check the event page. From Cag
- eTime (getcagetime.com).
+ nGermany: DAZN\nBrazil: Paramount+\n\nFIGHT CARD\n— Main card —\nWaldo
+  Cortes-Acosta vs. Johnny Walker (Heavyweight)\nVirna Jandiroba vs. Tatian
+ a Suarez (Women's Strawweight)\nDavey Grant vs. Elijah Smith (Bantamweight
+ )\nSeok Hyeon Ko vs. Wellington Turman (Welterweight)\nBilly Elekana vs. L
+ ucas Fernando (Light Heavyweight)\nAndre Petroski vs. Mantas Kondrataviči
+ us (Middleweight)\n— Prelims —\nKarine Silva vs. Gabriella Fernandes (
+ Women's Flyweight)\nJosé Souza vs. Jonny Parsons (Welterweight)\nJosé De
+ lano vs. Murtazali Magomedov (Featherweight)\nOllie Schmid vs. Keiichiro N
+ akamura (Featherweight)\nPriscila Cachoeira vs. Nina Milošević (Women's 
+ Bantamweight)\nMitch Raposo vs. Marcos Degli (Flyweight)\nThomas Petersen 
+ vs. Gabriel Lorenço (Heavyweight)\n\nEvent page: https://getcagetime.com/
+ events/ufc-fight-night-bonfim-vs-brady/\nTimes and broadcasters can change
+ \; check the event page. From CageTime (getcagetime.com).
 URL:https://getcagetime.com/events/ufc-fight-night-bonfim-vs-brady/
 CATEGORIES:UFC,MMA
 STATUS:CONFIRMED

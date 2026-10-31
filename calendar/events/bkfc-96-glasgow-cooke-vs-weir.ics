@@ -10,8 +10,8 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:bkfc-96-glasgow-cooke-vs-weir@getcagetime.com
-DTSTAMP:20261026T000000Z
-LAST-MODIFIED:20261026T000000Z
+DTSTAMP:20261031T000000Z
+LAST-MODIFIED:20261031T000000Z
 DTSTART:20261107T190000Z
 DTEND:20261107T220000Z
 SUMMARY:BKFC 96 Glasgow: Cooke vs. Weir
@@ -21,12 +21,12 @@ DESCRIPTION:TIMES\nFree fights: Sat Nov 7 1:00 PM EST (18:00 UTC)\nMain car
  \nUnited Kingdom: TBA\nCanada: TBA\nAustralia: TBA\nIreland: TBA\nIndia: T
  BA\nGermany: TBA\nBrazil: TBA\n\nFIGHT CARD\n— Main card —\nConor Cook
  e vs. Sean Weir (Light Heavyweight)\nStevie Ray vs. Danny Christie (Middle
- weight)\nScott Malone vs. Kiran Sewell (Bantamweight)\nBarry Boyle vs. Kas
- eem Saleem (Heavyweight)\nDoalty Torrance vs. Kyle Cassidy (Welterweight)\
- nCory Chapman vs. Lewis Dixon (Bantamweight)\nDan Morel vs. Owen Webster (
- Featherweight)\nLewis Knox vs. Tommy Carus (Featherweight)\nRhys Pagan vs.
-  Danny Moir (Light Heavyweight)\nIan Mulroy vs. Charlie Thompson (Middlewe
- ight)\nBarry Aikman vs. Cory Hardy (Middleweight)\n\nEvent page: https://g
+ weight)\nScott Malone vs. Kiran Sewell (Bantamweight)\nRhys Pagan vs. Dann
+ y Moir (Light Heavyweight)\nCory Chapman vs. Lewis Dixon (Bantamweight)\nD
+ oalty Torrance vs. Kyle Cassidy (Welterweight)\nLewis Knox vs. Tommy Carus
+  (Featherweight)\nBarry Boyle vs. Kaseem Saleem (Heavyweight)\nBarry Aikma
+ n vs. Cory Hardy (Middleweight)\nIan Mulroy vs. Charlie Thompson (Middlewe
+ ight)\nDan Morel vs. Owen Webster (Featherweight)\n\nEvent page: https://g
  etcagetime.com/events/bkfc-96-glasgow-cooke-vs-weir/\nTimes and broadcaste
  rs can change\; check the event page. From CageTime (getcagetime.com).
 URL:https://getcagetime.com/events/bkfc-96-glasgow-cooke-vs-weir/

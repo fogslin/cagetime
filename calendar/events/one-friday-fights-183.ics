@@ -10,8 +10,8 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:one-friday-fights-183@getcagetime.com
-DTSTAMP:20261026T000000Z
-LAST-MODIFIED:20261026T000000Z
+DTSTAMP:20261031T000000Z
+LAST-MODIFIED:20261031T000000Z
 DTSTART:20261218T133000Z
 DTEND:20261218T163000Z
 SUMMARY:ONE Friday Fights 183
@@ -22,10 +22,10 @@ DESCRIPTION:TIMES\nThe Inner Circle pre-show (live.onefc.com): Fri Dec 18 6
  rts (app / YouTube)\nCanada: beIN SPORTS\nAustralia: ESPN (Disney+ / Foxte
  l / Kayo)\nIreland: Sky Sports (app / YouTube)\nIndia: Star Sports Select 
  2 / JioHotstar\nGermany: TBA\nBrazil: TBA\n\nFIGHT CARD\n— Main card —
- \nPrajanchai Petchnamthong vs. Aliff Sor Dechapan (Strawweight)\n\nEvent p
- age: https://getcagetime.com/events/one-friday-fights-183/\nTimes and broa
- dcasters can change\; check the event page. From CageTime (getcagetime.com
- ).
+ \nPrajanchai Petchnamthong vs. Aliff Sor Dechapan (Strawweight)\nNico Carr
+ illo vs. Nabil Anane\n\nEvent page: https://getcagetime.com/events/one-fri
+ day-fights-183/\nTimes and broadcasters can change\; check the event page.
+  From CageTime (getcagetime.com).
 URL:https://getcagetime.com/events/one-friday-fights-183/
 CATEGORIES:ONE,MMA
 STATUS:CONFIRMED

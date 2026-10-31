@@ -10,8 +10,8 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:cage-warriors-216-newcastle@getcagetime.com
-DTSTAMP:20261026T000000Z
-LAST-MODIFIED:20261026T000000Z
+DTSTAMP:20261031T000000Z
+LAST-MODIFIED:20261031T000000Z
 DTSTART:20261205T173000Z
 DTEND:20261205T203000Z
 SUMMARY:Cage Warriors 216: Newcastle (Prelims (official countdown))
@@ -25,9 +25,11 @@ DESCRIPTION:TIMES\nPrelims (official countdown): Sat Dec 5 12:30 PM EST (17
  . Miguel Haro (Featherweight)\nStevie Lee vs. Cristiano Oliveira (Featherw
  eight)\nGeorge Hardwick vs. Gavin Hughes (Lightweight)\nMichael Blair vs. 
  Thomas Paull (Lightweight)\nGeoff Pavey vs. Lewis Urquhart (Welterweight)\
- nMilad Ahady vs. Alexander O'Sullivan (Featherweight)\n\nEvent page: https
- ://getcagetime.com/events/cage-warriors-216-newcastle/\nTimes and broadcas
- ters can change\; check the event page. From CageTime (getcagetime.com).
+ nMilad Ahady vs. Alexander O'Sullivan (Featherweight)\nJustin Burlinson vs
+ . Farshad Nazarnia (Middleweight)\nLeon Armes vs. Manny Akpan (Catchweight
+  (148 lb))\n\nEvent page: https://getcagetime.com/events/cage-warriors-216
+ -newcastle/\nTimes and broadcasters can change\; check the event page. Fro
+ m CageTime (getcagetime.com).
 URL:https://getcagetime.com/events/cage-warriors-216-newcastle/
 CATEGORIES:Cage Warriors,MMA
 STATUS:CONFIRMED

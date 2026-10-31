@@ -10,8 +10,8 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:one-fight-night-50@getcagetime.com
-DTSTAMP:20261026T000000Z
-LAST-MODIFIED:20261026T000000Z
+DTSTAMP:20261031T000000Z
+LAST-MODIFIED:20261031T000000Z
 DTSTART:20261212T020000Z
 DTEND:20261212T050000Z
 SUMMARY:ONE Fight Night 50 (Card start per Tapology (unofficial\; may be pr
@@ -22,10 +22,13 @@ DESCRIPTION:TIMES\nCard start per Tapology (unofficial\; may be prelims): F
   entry starts at the earliest listed time.\n\nWHERE TO WATCH\nUnited State
  s: Prime Video\nUnited Kingdom: Sky Sports\nCanada: Prime Video\nAustralia
  : ESPN (Disney+ / Foxtel / Kayo)\nIreland: Sky Sports\nIndia: JioHotstar /
-  Star Sports Select 2\nGermany: TBA\nBrazil: Combate / SporTV\n\nFight car
- d TBA\n\nEvent page: https://getcagetime.com/events/one-fight-night-50/\nT
- imes and broadcasters can change\; check the event page. From CageTime (ge
- tcagetime.com).
+  Star Sports Select 2\nGermany: TBA\nBrazil: Combate / SporTV\n\nFIGHT CAR
+ D\n— Main card —\nKade Ruotolo vs. Rae Yoon Ok (Lightweight)\nMaurice 
+ Abévi vs. Dzhabir Dzhabrailov (Welterweight)\nBampara Kouyate vs. Ricardo
+  Bravo (Featherweight)\nSuablack Tor.Pran49 vs. Jordan Estupiñan (Flyweig
+ ht)\n\nEvent page: https://getcagetime.com/events/one-fight-night-50/\nTim
+ es and broadcasters can change\; check the event page. From CageTime (getc
+ agetime.com).
 URL:https://getcagetime.com/events/one-fight-night-50/
 CATEGORIES:ONE,MMA
 STATUS:CONFIRMED

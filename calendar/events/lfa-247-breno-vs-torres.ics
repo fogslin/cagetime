@@ -10,8 +10,8 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:lfa-247-breno-vs-torres@getcagetime.com
-DTSTAMP:20261026T000000Z
-LAST-MODIFIED:20261026T000000Z
+DTSTAMP:20261031T000000Z
+LAST-MODIFIED:20261031T000000Z
 DTSTART:20261121T020000Z
 DTEND:20261121T050000Z
 SUMMARY:LFA 247: Breno vs Torres
@@ -25,12 +25,13 @@ DESCRIPTION:TIMES\nMain card (VICE TV): Fri Nov 20 9:00 PM EST (02:00 UTC)\
  \nChance Ikei vs. Agapito Orozco (Flyweight)\nFrancisco Hernandez vs. Ray 
  Hayes (Featherweight)\nDelton Kaufmann vs. Abasi Young (Middleweight)\nBen
  ny Orozco vs. Canon Swanson (Lightweight)\nLucas Ganin vs. Abbas Abasov (F
- eatherweight)\nAiden Ingram vs. Ricardo Hussein (Flyweight)\n— Prelims 
- —\nPaul Marghitas vs. Sergio Mamone Jr (Featherweight)\nZoe Nowicki vs. 
- Mia Grawe (Women's Flyweight)\nErickson Quinzo vs. Adam Amado (Featherweig
- ht)\nSean Polk vs. Luke La Vanway (Welterweight)\n\nEvent page: https://ge
- tcagetime.com/events/lfa-247-breno-vs-torres/\nTimes and broadcasters can 
- change\; check the event page. From CageTime (getcagetime.com).
+ eatherweight)\nAiden Ingram vs. Ricardo Hussein (Flyweight)\nTalal Yousufz
+ ai vs. Joshua McReynolds (Light Heavyweight)\n— Prelims —\nPaul Marghi
+ tas vs. Sergio Mamone Jr (Featherweight)\nZoe Nowicki vs. Mia Grawe (Women
+ 's Flyweight)\nErickson Quinzo vs. Adam Amado (Featherweight)\nSean Polk v
+ s. Luke La Vanway (Welterweight)\n\nEvent page: https://getcagetime.com/ev
+ ents/lfa-247-breno-vs-torres/\nTimes and broadcasters can change\; check t
+ he event page. From CageTime (getcagetime.com).
 URL:https://getcagetime.com/events/lfa-247-breno-vs-torres/
 CATEGORIES:LFA,MMA
 STATUS:CONFIRMED

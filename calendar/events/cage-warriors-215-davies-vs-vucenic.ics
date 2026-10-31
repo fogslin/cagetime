@@ -10,8 +10,8 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:cage-warriors-215-davies-vs-vucenic@getcagetime.com
-DTSTAMP:20261026T000000Z
-LAST-MODIFIED:20261026T000000Z
+DTSTAMP:20261031T000000Z
+LAST-MODIFIED:20261031T000000Z
 DTSTART:20261128T163000Z
 DTEND:20261128T193000Z
 SUMMARY:Cage Warriors 215: Davies vs. Vucenic (Prelims (official countdown)
@@ -29,9 +29,11 @@ DESCRIPTION:TIMES\nPrelims (official countdown): Sat Nov 28 11:30 AM EST (1
  )\nJack McCloughlin vs. Jack Corr (Bantamweight)\nBranden Guest vs. Owen C
  artridge (Light Heavyweight)\nShay Ingram vs. Steffen Rossevatn (Welterwei
  ght)\nNathan Fletcher vs. Anderson Soares (Bantamweight)\nSheldon Ryan vs.
-  Gary Rooney (Flyweight)\n\nEvent page: https://getcagetime.com/events/cag
- e-warriors-215-davies-vs-vucenic/\nTimes and broadcasters can change\; che
- ck the event page. From CageTime (getcagetime.com).
+  Gary Rooney (Flyweight)\nCharlie Dando vs. Jordan Walters (Featherweight)
+ \nAdam Cullen vs. Jefferson André (Lightweight)\n\nEvent page: https://ge
+ tcagetime.com/events/cage-warriors-215-davies-vs-vucenic/\nTimes and broad
+ casters can change\; check the event page. From CageTime (getcagetime.com)
+ .
 URL:https://getcagetime.com/events/cage-warriors-215-davies-vs-vucenic/
 CATEGORIES:Cage Warriors,MMA
 STATUS:CONFIRMED

@@ -11,8 +11,8 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:one-samurai-4-haggerty-vs-akimoto@getcagetime.com
-DTSTAMP:20261026T000000Z
-LAST-MODIFIED:20261026T000000Z
+DTSTAMP:20261031T000000Z
+LAST-MODIFIED:20261031T000000Z
 DTSTART:20261017T063000Z
 DTEND:20261017T093000Z
 SUMMARY:ONE Samurai 4: Haggerty vs. Akimoto
@@ -44,31 +44,32 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:one-friday-fights-176@getcagetime.com
-DTSTAMP:20261026T000000Z
-LAST-MODIFIED:20261026T000000Z
+DTSTAMP:20261031T000000Z
+LAST-MODIFIED:20261031T000000Z
 DTSTART:20261030T133000Z
 DTEND:20261030T163000Z
 SUMMARY:ONE Friday Fights 176
 LOCATION:Lumpinee Stadium\, Bangkok\, Thailand
-DESCRIPTION:TIMES\nThe Inner Circle pre-show (live.onefc.com): Fri Oct 30 7
- :30 AM EDT (11:30 UTC)\nONE Friday Fights: Fri Oct 30 9:30 AM EDT (13:30 U
- TC)\n\nWHERE TO WATCH\nUnited States: beIN SPORTS\nUnited Kingdom: Sky Spo
- rts (app / YouTube)\nCanada: beIN SPORTS\nAustralia: ESPN (Disney+ / Foxte
- l / Kayo)\nIreland: Sky Sports (app / YouTube)\nIndia: Star Sports Select 
- 2 / JioHotstar\nGermany: TBA\nBrazil: TBA\n\nFIGHT CARD\n— Main card —
- \nRambong Sor Terapat vs. Jacob Thompson (Flyweight)\nKhunsuk Sor Dechapan
-  vs. Yodudon Or UdUdon (Atomweight)\nSittichai Sor.Dechapan vs. Arthur Eva
- n (Flyweight)\nCaviar Pudprachachuen vs. Klapichit K Tongtalingchan (Straw
- weight)\nDenchailek Sor Dechapan vs. Adham Roziev (Strawweight)\nEthan Bro
- ckett vs. Pedro Duarte (Featherweight)\nNihad Taghizade vs. Yumeto Mizuno 
- (Strawweight)\nPrashanth Guda vs. Ouga Akita (Flyweight)\nSuperbest Winner
- muaythai vs. Raize (Strawweight)\n— Prelims —\nNumSurin Chor Ketweena 
- vs. Akram Hamidi (Atomweight)\nXavier Gonzalez vs. Exza WanKongOhm (Flywei
- ght)\nTomyamkung Pakornpornsurin vs. Yassir Rassafi (Bantamweight)\nPetkha
- okradong Lukjaomaesaithong vs. Abdelali Zahidi (Featherweight)\nEvan Gambu
- to vs. Ranma (Bantamweight)\n\nEvent page: https://getcagetime.com/events/
- one-friday-fights-176/\nTimes and broadcasters can change\; check the even
- t page. From CageTime (getcagetime.com).
+DESCRIPTION:RESULTS: https://getcagetime.com/results/one-friday-fights-176/
+ \nMain event: Khunsuk Sor Dechapan def. Yodudon Or UdUdon by KO/TKO (R2 2:
+ 59)\n\nTIMES\nThe Inner Circle pre-show (live.onefc.com): Fri Oct 30 7:30 
+ AM EDT (11:30 UTC)\nONE Friday Fights: Fri Oct 30 9:30 AM EDT (13:30 UTC)\
+ n\nWHERE TO WATCH\nUnited States: beIN SPORTS\nUnited Kingdom: Sky Sports 
+ (app / YouTube)\nCanada: beIN SPORTS\nAustralia: ESPN (Disney+ / Foxtel / 
+ Kayo)\nIreland: Sky Sports (app / YouTube)\nIndia: Star Sports Select 2 / 
+ JioHotstar\nGermany: TBA\nBrazil: TBA\n\nFIGHT CARD\n— Main card —\nKh
+ unsuk Sor Dechapan vs. Yodudon Or UdUdon (Atomweight)\nSittichai Sor.Decha
+ pan vs. Arthur Evan (Flyweight)\nCaviar Pudprachachuen vs. Klapichit K Ton
+ gtalingchan (Strawweight)\nEthan Brockett vs. Pedro Duarte (Featherweight)
+ \nDenchailek Sor Dechapan vs. Adham Roziev (Strawweight)\nPrashanth Guda v
+ s. Ouga Akita (Flyweight)\nNihad Taghizade vs. Yumeto Mizuno (Strawweight)
+ \n— Prelims —\nNumSurin Chor Ketweena vs. Akram Hamidi (Atomweight)\nX
+ avier Gonzalez vs. Exza WanKongOhm (Flyweight)\nTomyamkung Pakornpornsurin
+  vs. Yassir Rassafi (Bantamweight)\nEvan Gambuto vs. Ranma (Bantamweight)\
+ n— Main card —\nSuperbest Winnermuaythai vs. Raize (Strawweight)\n\nEv
+ ent page: https://getcagetime.com/events/one-friday-fights-176/\nTimes and
+  broadcasters can change\; check the event page. From CageTime (getcagetim
+ e.com).
 URL:https://getcagetime.com/events/one-friday-fights-176/
 CATEGORIES:ONE,MMA
 STATUS:CONFIRMED
@@ -76,8 +77,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:one-friday-fights-177@getcagetime.com
-DTSTAMP:20261026T000000Z
-LAST-MODIFIED:20261026T000000Z
+DTSTAMP:20261031T000000Z
+LAST-MODIFIED:20261031T000000Z
 DTSTART:20261106T133000Z
 DTEND:20261106T163000Z
 SUMMARY:ONE Friday Fights 177
@@ -98,8 +99,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:one-fight-night-49-gabriel-vs-rasulov@getcagetime.com
-DTSTAMP:20261026T000000Z
-LAST-MODIFIED:20261026T000000Z
+DTSTAMP:20261031T000000Z
+LAST-MODIFIED:20261031T000000Z
 DTSTART:20261107T020000Z
 DTEND:20261107T050000Z
 SUMMARY:ONE Fight Night 49: Gabriel vs. Magomedov
@@ -113,9 +114,9 @@ DESCRIPTION:TIMES\nEvent start (ONE.com: live in U.S. primetime): Fri Nov 6
  aiki Naito (Flyweight)\nSeung Chul Lee vs. Nazareth Lalthazuala (Strawweig
  ht)\nNontachai Jitmuangnon vs. Felipe Lobo (Bantamweight)\nJiaqiang Zhou v
  s. Mamuka Usubyan (Featherweight)\nVictória Souza vs. Magdalena Czaban (W
- omen's Atomweight)\nVictor Hugo vs. Devhonte Johnson (Openweight)\nQalanda
- r Tabarov vs. Ilmadi Israilov (Bantamweight)\nBogdan Shumarov vs. Gasham M
- ammadov (Lightweight)\n\nEvent page: https://getcagetime.com/events/one-fi
+ omen's Atomweight)\nBogdan Shumarov vs. Gasham Mammadov (Lightweight)\nVic
+ tor Hugo vs. Devhonte Johnson (Openweight)\nQalandar Tabarov vs. Ilmadi Is
+ railov (Bantamweight)\n\nEvent page: https://getcagetime.com/events/one-fi
  ght-night-49-gabriel-vs-rasulov/\nTimes and broadcasters can change\; chec
  k the event page. From CageTime (getcagetime.com).
 URL:https://getcagetime.com/events/one-fight-night-49-gabriel-vs-rasulov/
@@ -125,8 +126,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:one-friday-fights-178@getcagetime.com
-DTSTAMP:20261026T000000Z
-LAST-MODIFIED:20261026T000000Z
+DTSTAMP:20261031T000000Z
+LAST-MODIFIED:20261031T000000Z
 DTSTART:20261113T133000Z
 DTEND:20261113T163000Z
 SUMMARY:ONE Friday Fights 178
@@ -148,8 +149,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:one-samurai-5-pacio-vs-yamakita@getcagetime.com
-DTSTAMP:20261026T000000Z
-LAST-MODIFIED:20261026T000000Z
+DTSTAMP:20261031T000000Z
+LAST-MODIFIED:20261031T000000Z
 DTSTART:20261118T083000Z
 DTEND:20261118T113000Z
 SUMMARY:ONE Samurai 5: Pacio vs. Yamakita (Card start per Tapology (unoffic
@@ -174,8 +175,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:one-friday-fights-179@getcagetime.com
-DTSTAMP:20261026T000000Z
-LAST-MODIFIED:20261026T000000Z
+DTSTAMP:20261031T000000Z
+LAST-MODIFIED:20261031T000000Z
 DTSTART:20261120T133000Z
 DTEND:20261120T163000Z
 SUMMARY:ONE Friday Fights 179
@@ -198,8 +199,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:one-friday-fights-180@getcagetime.com
-DTSTAMP:20261026T000000Z
-LAST-MODIFIED:20261026T000000Z
+DTSTAMP:20261031T000000Z
+LAST-MODIFIED:20261031T000000Z
 DTSTART:20261127T133000Z
 DTEND:20261127T163000Z
 SUMMARY:ONE Friday Fights 180
@@ -219,8 +220,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:one-samurai-6@getcagetime.com
-DTSTAMP:20261026T000000Z
-LAST-MODIFIED:20261026T000000Z
+DTSTAMP:20261031T000000Z
+LAST-MODIFIED:20261031T000000Z
 DTSTART:20261202T083000Z
 DTEND:20261202T113000Z
 SUMMARY:ONE Samurai 6 (Card start per Tapology (unofficial\; may be prelims
@@ -241,8 +242,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:one-friday-fights-181@getcagetime.com
-DTSTAMP:20261026T000000Z
-LAST-MODIFIED:20261026T000000Z
+DTSTAMP:20261031T000000Z
+LAST-MODIFIED:20261031T000000Z
 DTSTART:20261204T133000Z
 DTEND:20261204T163000Z
 SUMMARY:ONE Friday Fights 181
@@ -262,8 +263,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:one-friday-fights-182@getcagetime.com
-DTSTAMP:20261026T000000Z
-LAST-MODIFIED:20261026T000000Z
+DTSTAMP:20261031T000000Z
+LAST-MODIFIED:20261031T000000Z
 DTSTART:20261211T133000Z
 DTEND:20261211T163000Z
 SUMMARY:ONE Friday Fights 182
@@ -283,8 +284,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:one-fight-night-50@getcagetime.com
-DTSTAMP:20261026T000000Z
-LAST-MODIFIED:20261026T000000Z
+DTSTAMP:20261031T000000Z
+LAST-MODIFIED:20261031T000000Z
 DTSTART:20261212T020000Z
 DTEND:20261212T050000Z
 SUMMARY:ONE Fight Night 50 (Card start per Tapology (unofficial\; may be pr
@@ -295,10 +296,13 @@ DESCRIPTION:TIMES\nCard start per Tapology (unofficial\; may be prelims): F
   entry starts at the earliest listed time.\n\nWHERE TO WATCH\nUnited State
  s: Prime Video\nUnited Kingdom: Sky Sports\nCanada: Prime Video\nAustralia
  : ESPN (Disney+ / Foxtel / Kayo)\nIreland: Sky Sports\nIndia: JioHotstar /
-  Star Sports Select 2\nGermany: TBA\nBrazil: Combate / SporTV\n\nFight car
- d TBA\n\nEvent page: https://getcagetime.com/events/one-fight-night-50/\nT
- imes and broadcasters can change\; check the event page. From CageTime (ge
- tcagetime.com).
+  Star Sports Select 2\nGermany: TBA\nBrazil: Combate / SporTV\n\nFIGHT CAR
+ D\n— Main card —\nKade Ruotolo vs. Rae Yoon Ok (Lightweight)\nMaurice 
+ Abévi vs. Dzhabir Dzhabrailov (Welterweight)\nBampara Kouyate vs. Ricardo
+  Bravo (Featherweight)\nSuablack Tor.Pran49 vs. Jordan Estupiñan (Flyweig
+ ht)\n\nEvent page: https://getcagetime.com/events/one-fight-night-50/\nTim
+ es and broadcasters can change\; check the event page. From CageTime (getc
+ agetime.com).
 URL:https://getcagetime.com/events/one-fight-night-50/
 CATEGORIES:ONE,MMA
 STATUS:CONFIRMED
@@ -306,8 +310,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:one-friday-fights-183@getcagetime.com
-DTSTAMP:20261026T000000Z
-LAST-MODIFIED:20261026T000000Z
+DTSTAMP:20261031T000000Z
+LAST-MODIFIED:20261031T000000Z
 DTSTART:20261218T133000Z
 DTEND:20261218T163000Z
 SUMMARY:ONE Friday Fights 183
@@ -318,10 +322,10 @@ DESCRIPTION:TIMES\nThe Inner Circle pre-show (live.onefc.com): Fri Dec 18 6
  rts (app / YouTube)\nCanada: beIN SPORTS\nAustralia: ESPN (Disney+ / Foxte
  l / Kayo)\nIreland: Sky Sports (app / YouTube)\nIndia: Star Sports Select 
  2 / JioHotstar\nGermany: TBA\nBrazil: TBA\n\nFIGHT CARD\n— Main card —
- \nPrajanchai Petchnamthong vs. Aliff Sor Dechapan (Strawweight)\n\nEvent p
- age: https://getcagetime.com/events/one-friday-fights-183/\nTimes and broa
- dcasters can change\; check the event page. From CageTime (getcagetime.com
- ).
+ \nPrajanchai Petchnamthong vs. Aliff Sor Dechapan (Strawweight)\nNico Carr
+ illo vs. Nabil Anane\n\nEvent page: https://getcagetime.com/events/one-fri
+ day-fights-183/\nTimes and broadcasters can change\; check the event page.
+  From CageTime (getcagetime.com).
 URL:https://getcagetime.com/events/one-friday-fights-183/
 CATEGORIES:ONE,MMA
 STATUS:CONFIRMED

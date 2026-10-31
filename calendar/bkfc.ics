@@ -11,8 +11,8 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:bkfc-95-herring-vs-dodson@getcagetime.com
-DTSTAMP:20261026T000000Z
-LAST-MODIFIED:20261026T000000Z
+DTSTAMP:20261031T000000Z
+LAST-MODIFIED:20261031T000000Z
 DTSTART:20261018T010000Z
 DTEND:20261018T040000Z
 SUMMARY:BKFC 95: Herring vs. Dodson
@@ -40,24 +40,26 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:bkfc-fight-night-clearwater-reber-vs-street@getcagetime.com
-DTSTAMP:20261026T000000Z
-LAST-MODIFIED:20261026T000000Z
+DTSTAMP:20261031T000000Z
+LAST-MODIFIED:20261031T000000Z
 DTSTART:20261024T000000Z
 DTEND:20261024T030000Z
 SUMMARY:BKFC Fight Night Clearwater: Reber vs. Street
 LOCATION:OCC Road House\, Clearwater\, USA
 DESCRIPTION:RESULTS: https://getcagetime.com/results/bkfc-fight-night-clear
- water-reber-vs-street/\n\nTIMES\nMain card: Fri Oct 23 8:00 PM EDT (00:00 
- UTC)\n\nWHERE TO WATCH\nUnited States: TBA\nUnited Kingdom: TBA\nCanada: T
- BA\nAustralia: TBA\nIreland: TBA\nIndia: TBA\nGermany: TBA\nBrazil: TBA\n\
- nFIGHT CARD\n— Main card —\nRyan Reber vs. Justin Street (Bantamweight
- )\nJared Warren vs. Tom Angeloff\nMichael Larrimore vs. Nate Morrow (Banta
- mweight)\nMike Heckert vs. Rickie McConnico (Welterweight)\nTony Murphy vs
- . Brandon Conley\nTyler Baker vs. Yari Kaganovsky (Middleweight)\nSam DeLa
- o vs. Chris Keirn (Light Heavyweight)\nGregorio Gonzalez vs. Angelo Trujil
- lo\n\nEvent page: https://getcagetime.com/events/bkfc-fight-night-clearwat
- er-reber-vs-street/\nTimes and broadcasters can change\; check the event p
- age. From CageTime (getcagetime.com).
+ water-reber-vs-street/\nMain event: Ryan Reber def. Justin Street by Decis
+ ion (R5 2:00)\n\nTIMES\nMain card: Fri Oct 23 8:00 PM EDT (00:00 UTC)\n\nW
+ HERE TO WATCH\nUnited States: TBA\nUnited Kingdom: TBA\nCanada: TBA\nAustr
+ alia: TBA\nIreland: TBA\nIndia: TBA\nGermany: TBA\nBrazil: TBA\n\nFIGHT CA
+ RD\n— Main card —\nRyan Reber vs. Justin Street (Bantamweight)\nMichae
+ l Larrimore vs. Nate Morrow (Bantamweight)\nDoug Coltrane vs. Tony Murphy 
+ (175 lb)\nMike Heckert vs. Rickie McConnico (Welterweight)\nGregorio Gonza
+ lez vs. Angelo Trujillo (125 lb)\n— Prelims —\nDonny Korbel vs. Jadon 
+ Lee (135 lb)\n— Main card —\nSam DeLao vs. Chris Keirn (Light Heavywei
+ ght)\nTyler Baker vs. Yari Kaganovsky (Middleweight)\n\nEvent page: https:
+ //getcagetime.com/events/bkfc-fight-night-clearwater-reber-vs-street/\nTim
+ es and broadcasters can change\; check the event page. From CageTime (getc
+ agetime.com).
 URL:https://getcagetime.com/events/bkfc-fight-night-clearwater-reber-vs-str
  eet/
 CATEGORIES:BKFC,MMA
@@ -66,8 +68,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:bkfc-96-glasgow-cooke-vs-weir@getcagetime.com
-DTSTAMP:20261026T000000Z
-LAST-MODIFIED:20261026T000000Z
+DTSTAMP:20261031T000000Z
+LAST-MODIFIED:20261031T000000Z
 DTSTART:20261107T190000Z
 DTEND:20261107T220000Z
 SUMMARY:BKFC 96 Glasgow: Cooke vs. Weir
@@ -77,12 +79,12 @@ DESCRIPTION:TIMES\nFree fights: Sat Nov 7 1:00 PM EST (18:00 UTC)\nMain car
  \nUnited Kingdom: TBA\nCanada: TBA\nAustralia: TBA\nIreland: TBA\nIndia: T
  BA\nGermany: TBA\nBrazil: TBA\n\nFIGHT CARD\n— Main card —\nConor Cook
  e vs. Sean Weir (Light Heavyweight)\nStevie Ray vs. Danny Christie (Middle
- weight)\nScott Malone vs. Kiran Sewell (Bantamweight)\nBarry Boyle vs. Kas
- eem Saleem (Heavyweight)\nDoalty Torrance vs. Kyle Cassidy (Welterweight)\
- nCory Chapman vs. Lewis Dixon (Bantamweight)\nDan Morel vs. Owen Webster (
- Featherweight)\nLewis Knox vs. Tommy Carus (Featherweight)\nRhys Pagan vs.
-  Danny Moir (Light Heavyweight)\nIan Mulroy vs. Charlie Thompson (Middlewe
- ight)\nBarry Aikman vs. Cory Hardy (Middleweight)\n\nEvent page: https://g
+ weight)\nScott Malone vs. Kiran Sewell (Bantamweight)\nRhys Pagan vs. Dann
+ y Moir (Light Heavyweight)\nCory Chapman vs. Lewis Dixon (Bantamweight)\nD
+ oalty Torrance vs. Kyle Cassidy (Welterweight)\nLewis Knox vs. Tommy Carus
+  (Featherweight)\nBarry Boyle vs. Kaseem Saleem (Heavyweight)\nBarry Aikma
+ n vs. Cory Hardy (Middleweight)\nIan Mulroy vs. Charlie Thompson (Middlewe
+ ight)\nDan Morel vs. Owen Webster (Featherweight)\n\nEvent page: https://g
  etcagetime.com/events/bkfc-96-glasgow-cooke-vs-weir/\nTimes and broadcaste
  rs can change\; check the event page. From CageTime (getcagetime.com).
 URL:https://getcagetime.com/events/bkfc-96-glasgow-cooke-vs-weir/
@@ -92,8 +94,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:bkfc-fight-night-myrtle-beach-richardson-vs-oxendine@getcagetime.com
-DTSTAMP:20261026T000000Z
-LAST-MODIFIED:20261026T000000Z
+DTSTAMP:20261031T000000Z
+LAST-MODIFIED:20261031T000000Z
 DTSTART:20261121T020000Z
 DTEND:20261121T050000Z
 SUMMARY:BKFC Fight Night Myrtle Beach: Richardson vs. Oxendine
@@ -119,8 +121,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:bkfc-fight-night-hershey@getcagetime.com
-DTSTAMP:20261026T000000Z
-LAST-MODIFIED:20261026T000000Z
+DTSTAMP:20261031T000000Z
+LAST-MODIFIED:20261031T000000Z
 DTSTART:20261205T010000Z
 DTEND:20261205T040000Z
 SUMMARY:BKFC Fight Night Hershey: Pague vs. Richman
@@ -138,8 +140,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:bkfc-97@getcagetime.com
-DTSTAMP:20261026T000000Z
-LAST-MODIFIED:20261026T000000Z
+DTSTAMP:20261031T000000Z
+LAST-MODIFIED:20261031T000000Z
 DTSTART:20261212T010000Z
 DTEND:20261212T040000Z
 SUMMARY:BKFC 97 Hollywood

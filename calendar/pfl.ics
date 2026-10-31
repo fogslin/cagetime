@@ -11,8 +11,8 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:pfl-dubai-nemkov-vs-bilostenniy@getcagetime.com
-DTSTAMP:20261026T000000Z
-LAST-MODIFIED:20261026T000000Z
+DTSTAMP:20261031T000000Z
+LAST-MODIFIED:20261031T000000Z
 DTSTART:20261114T180000Z
 DTEND:20261114T210000Z
 SUMMARY:PFL Dubai: Nemkov vs. Bilostenniy
@@ -29,10 +29,12 @@ DESCRIPTION:TIMES\nEarly card: Sat Nov 14 9:00 AM EST (14:00 UTC)\nMain car
  oudj vs. Movlid Khaybulaev (Featherweight)\nErnesto Rodriguez vs. Rhys McK
  ee (Welterweight)\nShem Rock vs. Connor Hughes (Lightweight)\nAlexei Perga
  nde vs. Akhmed Magomedov (Lightweight)\nLewis McGrillen vs. Nawras Abzakh 
- (Bantamweight)\nKhamzat Abaev vs. Leon Hill (Welterweight)\n\nEvent page: 
- https://getcagetime.com/events/pfl-dubai-nemkov-vs-bilostenniy/\nTimes and
-  broadcasters can change\; check the event page. From CageTime (getcagetim
- e.com).
+ (Bantamweight)\nKhamzat Abaev vs. Leon Hill (Welterweight)\nAleksandra Sav
+ icheva vs. Jacinta Austin (Women's Strawweight)\nKhabib Nabiev vs. Styve N
+ gono (Light Heavyweight)\nDenis Goltsov vs. Maxwell Djantou Nana (Heavywei
+ ght)\n\nEvent page: https://getcagetime.com/events/pfl-dubai-nemkov-vs-bil
+ ostenniy/\nTimes and broadcasters can change\; check the event page. From 
+ CageTime (getcagetime.com).
 URL:https://getcagetime.com/events/pfl-dubai-nemkov-vs-bilostenniy/
 CATEGORIES:PFL,MMA
 STATUS:CONFIRMED
@@ -40,8 +42,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:pfl-mena-12-al-khobar@getcagetime.com
-DTSTAMP:20261026T000000Z
-LAST-MODIFIED:20261026T000000Z
+DTSTAMP:20261031T000000Z
+LAST-MODIFIED:20261031T000000Z
 DTSTART:20261211T150000Z
 DTEND:20261211T180000Z
 SUMMARY:PFL MENA 12: Al Khobar (Card start per Tapology (unofficial\; may b
@@ -64,8 +66,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:pfl-africa-rwanda@getcagetime.com
-DTSTAMP:20261026T000000Z
-LAST-MODIFIED:20261026T000000Z
+DTSTAMP:20261031T000000Z
+LAST-MODIFIED:20261031T000000Z
 DTSTART:20261212T160000Z
 DTEND:20261212T190000Z
 SUMMARY:PFL Africa: Rwanda
@@ -86,8 +88,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:pfl-lyon-lapilus-vs-mckee@getcagetime.com
-DTSTAMP:20261026T000000Z
-LAST-MODIFIED:20261026T000000Z
+DTSTAMP:20261031T000000Z
+LAST-MODIFIED:20261031T000000Z
 DTSTART:20261219T200000Z
 DTEND:20261219T230000Z
 SUMMARY:PFL Lyon: Lapilus vs. McKee

@@ -11,8 +11,8 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:lfa-244-woodley-vs-havener@getcagetime.com
-DTSTAMP:20261026T000000Z
-LAST-MODIFIED:20261026T000000Z
+DTSTAMP:20261031T000000Z
+LAST-MODIFIED:20261031T000000Z
 DTSTART:20261024T010000Z
 DTEND:20261024T040000Z
 SUMMARY:LFA 244: Woodley vs. Havener
@@ -39,25 +39,27 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:lfa-245-khamzaev-vs-prescendo@getcagetime.com
-DTSTAMP:20261026T000000Z
-LAST-MODIFIED:20261026T000000Z
+DTSTAMP:20261031T000000Z
+LAST-MODIFIED:20261031T000000Z
 DTSTART:20261031T010000Z
 DTEND:20261031T040000Z
 SUMMARY:LFA 245: Khamzaev vs. Prescendo
 LOCATION:Seneca Niagara Resort & Casino\, Niagara Falls\, USA
-DESCRIPTION:TIMES\nMain card (VICE TV / FloCombat): Fri Oct 30 9:00 PM EDT 
- (01:00 UTC)\n\nWHERE TO WATCH\nUnited States: VICE TV\nUnited Kingdom: TBA
- \nCanada: FloCombat\nAustralia: TBA\nIreland: TBA\nIndia: TBA\nGermany: TB
- A\nBrazil: TBA\n\nFIGHT CARD\n— Main card —\nAnsar Khamzaev vs. Julian
- o Prescendo (Lightweight)\nTom Picciano vs. Santos Verdinez (Featherweight
- )\nDavid Wright vs. Lance Wright (Middleweight)\nMatt Adams vs. Shealor La
- dd (Light Heavyweight)\nJoey Hart vs. Alberth Bahamondes (Welterweight)\nS
- haraf Davlatmurodov vs. Wildemar Santos (Light Heavyweight)\n— Prelims 
- —\nNaomie Young vs. Aline David (Women's Strawweight)\nImed Dziri vs. Je
- rmaine Edwards (Lightweight)\nIsaiah Parks vs. Delsin Gray (Light Heavywei
- ght)\n\nEvent page: https://getcagetime.com/events/lfa-245-khamzaev-vs-pre
- scendo/\nTimes and broadcasters can change\; check the event page. From Ca
- geTime (getcagetime.com).
+DESCRIPTION:RESULTS: https://getcagetime.com/results/lfa-245-khamzaev-vs-pr
+ escendo/\nMain event: Ansar Khamzaev def. Juliano Prescendo by Submission 
+ (R1 3:20)\n\nTIMES\nMain card (VICE TV / FloCombat): Fri Oct 30 9:00 PM ED
+ T (01:00 UTC)\n\nWHERE TO WATCH\nUnited States: VICE TV\nUnited Kingdom: T
+ BA\nCanada: FloCombat\nAustralia: TBA\nIreland: TBA\nIndia: TBA\nGermany: 
+ TBA\nBrazil: TBA\n\nFIGHT CARD\n— Main card —\nAnsar Khamzaev vs. Juli
+ ano Prescendo (Lightweight)\nTom Picciano vs. Santos Verdinez (Featherweig
+ ht)\nJoey Hart vs. Alberth Bahamondes (Welterweight)\nSharaf Davlatmurodov
+  vs. Wildemar Santos (Light Heavyweight)\nMatt Adams vs. Shealor Ladd (Lig
+ ht Heavyweight)\nDavid Wright vs. Lance Wright (Middleweight)\n— Prelims
+  —\nNaomie Young vs. Aline David (Women's Strawweight)\nImed Dziri vs. J
+ ermaine Edwards (Lightweight)\nIsaiah Parks vs. Delsin Gray (Light Heavywe
+ ight)\n\nEvent page: https://getcagetime.com/events/lfa-245-khamzaev-vs-pr
+ escendo/\nTimes and broadcasters can change\; check the event page. From C
+ ageTime (getcagetime.com).
 URL:https://getcagetime.com/events/lfa-245-khamzaev-vs-prescendo/
 CATEGORIES:LFA,MMA
 STATUS:CONFIRMED
@@ -65,8 +67,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:lfa-246-tba@getcagetime.com
-DTSTAMP:20261026T000000Z
-LAST-MODIFIED:20261026T000000Z
+DTSTAMP:20261031T000000Z
+LAST-MODIFIED:20261031T000000Z
 DTSTART:20261114T020000Z
 DTEND:20261114T050000Z
 SUMMARY:LFA 246: Alves vs. Vinuto
@@ -94,8 +96,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:lfa-247-breno-vs-torres@getcagetime.com
-DTSTAMP:20261026T000000Z
-LAST-MODIFIED:20261026T000000Z
+DTSTAMP:20261031T000000Z
+LAST-MODIFIED:20261031T000000Z
 DTSTART:20261121T020000Z
 DTEND:20261121T050000Z
 SUMMARY:LFA 247: Breno vs Torres
@@ -109,12 +111,13 @@ DESCRIPTION:TIMES\nMain card (VICE TV): Fri Nov 20 9:00 PM EST (02:00 UTC)\
  \nChance Ikei vs. Agapito Orozco (Flyweight)\nFrancisco Hernandez vs. Ray 
  Hayes (Featherweight)\nDelton Kaufmann vs. Abasi Young (Middleweight)\nBen
  ny Orozco vs. Canon Swanson (Lightweight)\nLucas Ganin vs. Abbas Abasov (F
- eatherweight)\nAiden Ingram vs. Ricardo Hussein (Flyweight)\n— Prelims 
- —\nPaul Marghitas vs. Sergio Mamone Jr (Featherweight)\nZoe Nowicki vs. 
- Mia Grawe (Women's Flyweight)\nErickson Quinzo vs. Adam Amado (Featherweig
- ht)\nSean Polk vs. Luke La Vanway (Welterweight)\n\nEvent page: https://ge
- tcagetime.com/events/lfa-247-breno-vs-torres/\nTimes and broadcasters can 
- change\; check the event page. From CageTime (getcagetime.com).
+ eatherweight)\nAiden Ingram vs. Ricardo Hussein (Flyweight)\nTalal Yousufz
+ ai vs. Joshua McReynolds (Light Heavyweight)\n— Prelims —\nPaul Marghi
+ tas vs. Sergio Mamone Jr (Featherweight)\nZoe Nowicki vs. Mia Grawe (Women
+ 's Flyweight)\nErickson Quinzo vs. Adam Amado (Featherweight)\nSean Polk v
+ s. Luke La Vanway (Welterweight)\n\nEvent page: https://getcagetime.com/ev
+ ents/lfa-247-breno-vs-torres/\nTimes and broadcasters can change\; check t
+ he event page. From CageTime (getcagetime.com).
 URL:https://getcagetime.com/events/lfa-247-breno-vs-torres/
 CATEGORIES:LFA,MMA
 STATUS:CONFIRMED
@@ -122,8 +125,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:lfa-248-las-vegas@getcagetime.com
-DTSTAMP:20261026T000000Z
-LAST-MODIFIED:20261026T000000Z
+DTSTAMP:20261031T000000Z
+LAST-MODIFIED:20261031T000000Z
 DTSTART:20261219T020000Z
 DTEND:20261219T050000Z
 SUMMARY:LFA 248: Las Vegas (Card start per Tapology (unofficial\; may be pr

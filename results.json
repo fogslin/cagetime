@@ -1,7 +1,556 @@
 {
- "updated": "2026-10-26",
+ "updated": "2026-10-31",
  "note": "Results from Tapology event pages (fallback: the fighters' Tapology careers). result=null = no result published in those sources yet.",
  "events": [
+  {
+   "name": "LFA 245: Khamzaev vs. Prescendo",
+   "promotion": "LFA",
+   "date": "2026-10-30",
+   "startUTC": "2026-10-31T01:00:00Z",
+   "times": [
+    {
+     "label": "Main card (VICE TV / FloCombat)",
+     "startUTC": "2026-10-31T01:00:00Z"
+    }
+   ],
+   "venue": "Seneca Niagara Resort & Casino, Niagara Falls, USA",
+   "broadcasters": {
+    "US": "VICE TV",
+    "UK": "TBA",
+    "CA": "FloCombat",
+    "AU": "TBA",
+    "IE": "TBA",
+    "IN": "TBA",
+    "DE": "TBA",
+    "BR": "TBA"
+   },
+   "sources": [
+    "https://www.lfa.com/events/list/",
+    "https://www.lfa.com/event/lfa-245-niagara-falls-new-york/",
+    "https://www.tapology.com/fightcenter/events/147389-lfa-245"
+   ],
+   "notes": "9 PM ET per LFA.com (main card on VICE TV in the US, streaming in North America on FloCombat; ESPN Deportes / ESPN KnockOut across Latin America — Brazil not named). Other countries TBA.",
+   "id": "lfa-245-khamzaev-vs-prescendo",
+   "tapology": "https://www.tapology.com/fightcenter/events/147389-lfa-245",
+   "bouts": [
+    {
+     "segment": "Main card",
+     "weightClass": "Lightweight",
+     "rounds": 5,
+     "title": "vacant LFA Lightweight Championship",
+     "discipline": "MMA",
+     "a": "tap-446839-ansar-khamzaev",
+     "aName": "Ansar Khamzaev",
+     "b": "tap-100563-juliano-prescendo",
+     "bName": "Juliano Prescendo",
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "Submission",
+      "detail": "D'arce Choke",
+      "round": 1,
+      "time": "3:20",
+      "of": 5,
+      "source": "tapology-event",
+      "winnerId": "tap-446839-ansar-khamzaev",
+      "winnerName": "Ansar Khamzaev"
+     }
+    },
+    {
+     "segment": "Main card",
+     "weightClass": "Featherweight",
+     "rounds": 3,
+     "discipline": "MMA",
+     "a": "tap-146942-thomas-picciano",
+     "aName": "Tom Picciano",
+     "b": "tap-238223-santos-verdinez",
+     "bName": "Santos Verdinez",
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "Decision",
+      "detail": "Unanimous",
+      "round": 3,
+      "time": "5:00",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-146942-thomas-picciano",
+      "winnerName": "Tom Picciano"
+     }
+    },
+    {
+     "segment": "Main card",
+     "weightClass": "Welterweight",
+     "rounds": 3,
+     "discipline": "MMA",
+     "a": "tap-152535-joey-hart",
+     "aName": "Joey Hart",
+     "b": "tap-387646-albert-bahamondes",
+     "bName": "Alberth Bahamondes",
+     "result": {
+      "outcome": "win",
+      "winner": "b",
+      "method": "KO/TKO",
+      "detail": "Punches",
+      "round": null,
+      "time": null,
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-387646-albert-bahamondes",
+      "winnerName": "Alberth Bahamondes"
+     }
+    },
+    {
+     "segment": "Main card",
+     "weightClass": "Light Heavyweight",
+     "rounds": 3,
+     "discipline": "MMA",
+     "a": "tap-112958-sharaf-davlatmurodov",
+     "aName": "Sharaf Davlatmurodov",
+     "b": "tap-130374-wildemar-matheus-souza",
+     "bName": "Wildemar Santos",
+     "result": {
+      "outcome": "win",
+      "winner": "b",
+      "method": "Submission",
+      "detail": "Rear Naked Choke",
+      "round": 3,
+      "time": "3:23",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-130374-wildemar-matheus-souza",
+      "winnerName": "Wildemar Santos"
+     }
+    },
+    {
+     "segment": "Main card",
+     "weightClass": "Light Heavyweight",
+     "rounds": 3,
+     "discipline": "MMA",
+     "a": "tap-143093-matthew-adams",
+     "aName": "Matt Adams",
+     "b": "tap-288919-shealor-ladd",
+     "bName": "Shealor Ladd",
+     "result": {
+      "outcome": "win",
+      "winner": "b",
+      "method": "Submission",
+      "detail": "Rear Naked Choke",
+      "round": 1,
+      "time": "1:30",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-288919-shealor-ladd",
+      "winnerName": "Shealor Ladd"
+     }
+    },
+    {
+     "segment": "Main card",
+     "weightClass": "Middleweight",
+     "rounds": 3,
+     "discipline": "MMA",
+     "a": "tap-327470-david-wright",
+     "aName": "David Wright",
+     "b": "tap-42161-lance-wright",
+     "bName": "Lance Wright",
+     "result": {
+      "outcome": "win",
+      "winner": "b",
+      "method": "KO/TKO",
+      "detail": "Punches",
+      "round": 1,
+      "time": "0:52",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-42161-lance-wright",
+      "winnerName": "Lance Wright"
+     }
+    },
+    {
+     "segment": "Prelims",
+     "weightClass": "Women's Strawweight",
+     "rounds": 3,
+     "discipline": "MMA",
+     "a": "tap-227573-naomie-young",
+     "aName": "Naomie Young",
+     "b": "tap-274744-aline-david",
+     "bName": "Aline David",
+     "result": {
+      "outcome": "win",
+      "winner": "b",
+      "method": "KO/TKO",
+      "detail": "Knees",
+      "round": 3,
+      "time": "3:49",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-274744-aline-david",
+      "winnerName": "Aline David"
+     }
+    },
+    {
+     "segment": "Prelims",
+     "weightClass": "Lightweight",
+     "rounds": 3,
+     "discipline": "MMA",
+     "a": "tap-370799-dziri-imed-eddine",
+     "aName": "Imed Dziri",
+     "b": "tap-389704-jermaine-edwards",
+     "bName": "Jermaine Edwards",
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "Decision",
+      "detail": "Unanimous",
+      "round": 3,
+      "time": "5:00",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-370799-dziri-imed-eddine",
+      "winnerName": "Imed Dziri"
+     }
+    },
+    {
+     "segment": "Prelims",
+     "weightClass": "Light Heavyweight",
+     "rounds": 3,
+     "discipline": "MMA",
+     "a": "tap-504356-isaiah-parks",
+     "aName": "Isaiah Parks",
+     "b": "tap-567959-delsin-gray",
+     "bName": "Delsin Gray",
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "KO/TKO",
+      "detail": "Punches From Mount",
+      "round": 1,
+      "time": "2:13",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-504356-isaiah-parks",
+      "winnerName": "Isaiah Parks"
+     }
+    }
+   ],
+   "resultsChecked": "2026-10-31",
+   "resultCount": 9
+  },
+  {
+   "name": "ONE Friday Fights 176",
+   "promotion": "ONE",
+   "date": "2026-10-30",
+   "startUTC": "2026-10-30T13:30:00Z",
+   "times": [
+    {
+     "label": "ONE Friday Fights",
+     "startUTC": "2026-10-30T13:30:00Z"
+    },
+    {
+     "label": "The Inner Circle pre-show (live.onefc.com)",
+     "startUTC": "2026-10-30T11:30:00Z"
+    }
+   ],
+   "venue": "Lumpinee Stadium, Bangkok, Thailand",
+   "broadcasters": {
+    "US": "beIN SPORTS",
+    "UK": "Sky Sports (app / YouTube)",
+    "CA": "beIN SPORTS",
+    "AU": "ESPN (Disney+ / Foxtel / Kayo)",
+    "IE": "Sky Sports (app / YouTube)",
+    "IN": "Star Sports Select 2 / JioHotstar",
+    "DE": "TBA",
+    "BR": "TBA"
+   },
+   "sources": [
+    "https://combatreg.com/events/upcoming",
+    "https://goodfights.app/schedule",
+    "https://www.tapology.com/fightcenter/events/147735-one-friday-fights-176",
+    "https://faq.beincontent.com/hc/en-us/articles/48622526939539-Which-events-does-beIN-SPORTS-in-North-America-have-broadcast-rights-to",
+    "https://www.onefc.com/news/how-to-watch-the-inner-circle-35-and-one-friday-fights-175-live-on-october-16/",
+    "https://www.onefc.com/press-releases/espn-and-one-championship-enter-exclusive-multi-year-broadcast-agreement-for-australia-and-new-zealand/",
+    "https://www.onefc.com/press-releases/one-championship-and-sky-sports-announce-exclusive-partnership-to-broadcast-live-one-events-in-the-uk-and-ireland/",
+    "https://media.sportbusiness.com/news/star-india-agrees-multi-year-rights-deal-with-one-championship/",
+    "https://www.onefc.com/events/one-friday-fights-176/",
+    "https://www.onefc.com/news/how-to-watch-the-inner-circle-34-and-one-friday-fights-174-live-on-october-9/",
+    "https://live.onefc.com/"
+   ],
+   "notes": "Time = ONE Friday Fights broadcast (8:30 PM ICT). ONE.com lists this as a doubleheader starting 6:30 PM ICT with The Inner Circle 36 (live.onefc.com only); ONE's Friday Fights 174/175 guides put the Friday Fights broadcast 2 h after the opener — verify in fight week. Friday Fights often streams on ONE's YouTube / watch.onefc.com (regional restrictions) — unconfirmed. Broadcasters from ONE's current rights deals (beIN SPORTS North America, ESPN Australia, Sky Sports UK & Ireland, Star/JioStar India), as confirmed on ONE's Friday Fights 175 watch guide; Germany/Brazil/other countries are usually ONE's own free stream (watch.onefc.com / YouTube) but not yet confirmed for this card — TBA.",
+   "id": "one-friday-fights-176",
+   "tapology": "https://www.tapology.com/fightcenter/events/147735-one-friday-fights-176",
+   "bouts": [
+    {
+     "segment": "Main card",
+     "weightClass": "Atomweight",
+     "rounds": 3,
+     "discipline": "Muay Thai",
+     "a": "tap-318527-khunsuek-sor-dechapan",
+     "aName": "Khunsuk Sor Dechapan",
+     "b": "tap-325396-yodudon-or-ududon",
+     "bName": "Yodudon Or UdUdon",
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "KO/TKO",
+      "detail": "Left Hook",
+      "round": 2,
+      "time": "2:59",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-318527-khunsuek-sor-dechapan",
+      "winnerName": "Khunsuk Sor Dechapan"
+     }
+    },
+    {
+     "segment": "Main card",
+     "weightClass": "Flyweight",
+     "rounds": 3,
+     "discipline": "Muay Thai",
+     "a": "tap-424111-sittichai-sor-dechapan",
+     "aName": "Sittichai Sor.Dechapan",
+     "b": "tap-591340-arthur-evan",
+     "bName": "Arthur Evan",
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "KO/TKO",
+      "detail": "Punches, Knees, Elbows and Head Kick",
+      "round": 2,
+      "time": "2:55",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-424111-sittichai-sor-dechapan",
+      "winnerName": "Sittichai Sor.Dechapan"
+     }
+    },
+    {
+     "segment": "Main card",
+     "weightClass": "Strawweight",
+     "rounds": 3,
+     "discipline": "Muay Thai",
+     "a": "tap-591341-caviar",
+     "aName": "Caviar Pudprachachuen",
+     "b": "tap-591342-klapichit",
+     "bName": "Klapichit K Tongtalingchan",
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "Decision",
+      "detail": "Split",
+      "round": 3,
+      "time": "3:00",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-591341-caviar",
+      "winnerName": "Caviar Pudprachachuen"
+     }
+    },
+    {
+     "segment": "Main card",
+     "weightClass": "Featherweight",
+     "rounds": 3,
+     "discipline": "MMA",
+     "a": "tap-329936-ethan-brockett",
+     "aName": "Ethan Brockett",
+     "b": "tap-386046-pedro-duarte",
+     "bName": "Pedro Duarte",
+     "result": {
+      "outcome": "win",
+      "winner": "b",
+      "method": "KO/TKO",
+      "detail": "Left Hook to Ground and Pound",
+      "round": 1,
+      "time": "2:53",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-386046-pedro-duarte",
+      "winnerName": "Pedro Duarte"
+     }
+    },
+    {
+     "segment": "Main card",
+     "weightClass": "Strawweight",
+     "rounds": 3,
+     "discipline": "Muay Thai",
+     "a": "tap-591343-denchailek",
+     "aName": "Denchailek Sor Dechapan",
+     "b": "tap-552806-adham-roziev",
+     "bName": "Adham Roziev",
+     "result": {
+      "outcome": "win",
+      "winner": "b",
+      "method": "KO/TKO",
+      "detail": "Punches",
+      "round": 1,
+      "time": "1:14",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-552806-adham-roziev",
+      "winnerName": "Adham Roziev"
+     }
+    },
+    {
+     "segment": "Main card",
+     "weightClass": "Flyweight",
+     "rounds": 3,
+     "discipline": "MMA",
+     "a": "tap-231672-prashanth-guda-oliver",
+     "aName": "Prashanth Guda",
+     "b": "tap-511244-ouga-akita",
+     "bName": "Ouga Akita",
+     "result": {
+      "outcome": "win",
+      "winner": "b",
+      "method": "KO/TKO",
+      "detail": "Punches",
+      "round": 1,
+      "time": "2:08",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-511244-ouga-akita",
+      "winnerName": "Ouga Akita"
+     }
+    },
+    {
+     "segment": "Main card",
+     "weightClass": "Strawweight",
+     "rounds": 3,
+     "discipline": "Kickboxing",
+     "a": "tap-562146-nihad-tagizade",
+     "aName": "Nihad Taghizade",
+     "b": "tap-437837-yumeto-mizuno",
+     "bName": "Yumeto Mizuno",
+     "result": {
+      "outcome": "win",
+      "winner": "b",
+      "method": "KO/TKO",
+      "detail": "Injury to Leg",
+      "round": 2,
+      "time": "2:13",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-437837-yumeto-mizuno",
+      "winnerName": "Yumeto Mizuno"
+     }
+    },
+    {
+     "segment": "Prelims",
+     "weightClass": "Atomweight",
+     "rounds": 3,
+     "discipline": "Muay Thai",
+     "a": "tap-293005-numsurin-chor-ketweena",
+     "aName": "NumSurin Chor Ketweena",
+     "b": "tap-238903-akram-hamidi",
+     "bName": "Akram Hamidi",
+     "result": {
+      "outcome": "win",
+      "winner": "b",
+      "method": "KO/TKO",
+      "detail": "Punches to the Body",
+      "round": 1,
+      "time": "1:58",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-238903-akram-hamidi",
+      "winnerName": "Akram Hamidi"
+     }
+    },
+    {
+     "segment": "Prelims",
+     "weightClass": "Flyweight",
+     "rounds": 3,
+     "discipline": "Muay Thai",
+     "a": "tap-265414-xavier-gonzalez",
+     "aName": "Xavier Gonzalez",
+     "b": "tap-587179-exza-wan-kong-ohm-wankongohm",
+     "bName": "Exza WanKongOhm",
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "KO/TKO",
+      "detail": "Punch",
+      "round": 1,
+      "time": "1:18",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-265414-xavier-gonzalez",
+      "winnerName": "Xavier Gonzalez"
+     }
+    },
+    {
+     "segment": "Prelims",
+     "weightClass": "Bantamweight",
+     "rounds": 3,
+     "discipline": "Muay Thai",
+     "a": "tap-248085-tomyumkung-pakornpornsurin",
+     "aName": "Tomyamkung Pakornpornsurin",
+     "b": "tap-562976-yassir-rassafi",
+     "bName": "Yassir Rassafi",
+     "result": {
+      "outcome": "win",
+      "winner": "b",
+      "method": "KO/TKO",
+      "detail": "Head Kick",
+      "round": 1,
+      "time": "2:41",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-562976-yassir-rassafi",
+      "winnerName": "Yassir Rassafi"
+     }
+    },
+    {
+     "segment": "Prelims",
+     "weightClass": "Bantamweight",
+     "rounds": 3,
+     "discipline": "Muay Thai",
+     "a": "tap-472902-evan-gambuto",
+     "aName": "Evan Gambuto",
+     "b": "tap-410876-ranma",
+     "bName": "Ranma",
+     "result": {
+      "outcome": "win",
+      "winner": "b",
+      "method": "Decision",
+      "detail": "Unanimous",
+      "round": 3,
+      "time": "3:00",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-410876-ranma",
+      "winnerName": "Ranma"
+     }
+    },
+    {
+     "segment": "Main card",
+     "weightClass": "Strawweight",
+     "rounds": 3,
+     "discipline": "Muay Thai",
+     "a": "tap-591345-superbest",
+     "aName": "Superbest Winnermuaythai",
+     "b": "tap-338502-raize",
+     "bName": "Raize",
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "Decision",
+      "detail": "Unanimous",
+      "round": 3,
+      "time": "3:00",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-591345-superbest",
+      "winnerName": "Superbest Winnermuaythai"
+     }
+    }
+   ],
+   "resultsChecked": "2026-10-31",
+   "cardDroppedFromTapology": [
+    "Rambong Sor Terapat vs Jacob Thompson",
+    "Petkhaokradong Lukjaomaesaithong vs Abdelali Zahidi"
+   ],
+   "resultCount": 12
+  },
   {
    "name": "UFC 333: Volkanovski vs. Evloev",
    "promotion": "UFC",
@@ -58,7 +607,9 @@
       "round": 2,
       "time": "4:54",
       "of": 5,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerId": "tap-41705-alex-volkanski",
+      "winnerName": "Alexander Volkanovski"
      }
     },
     {
@@ -84,7 +635,9 @@
       "round": 5,
       "time": "5:00",
       "of": 5,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerId": "tap-90075-petr-yan",
+      "winnerName": "Petr Yan"
      }
     },
     {
@@ -109,7 +662,9 @@
       "round": 1,
       "time": "4:28",
       "of": 3,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerId": "tap-112229-loneer-kavanagh",
+      "winnerName": "Lone'er Kavanagh"
      }
     },
     {
@@ -134,7 +689,9 @@
       "round": 3,
       "time": "5:00",
       "of": 3,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerId": "tap-alexander-volkov",
+      "winnerName": "Alexander Volkov"
      }
     },
     {
@@ -159,7 +716,9 @@
       "round": 1,
       "time": "1:14",
       "of": 3,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerId": "tap-86018-aaron-pico",
+      "winnerName": "Aaron Pico"
      }
     },
     {
@@ -184,7 +743,9 @@
       "round": 1,
       "time": "2:40",
       "of": 3,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerId": "tap-61438-dominick-reyes",
+      "winnerName": "Dominick Reyes"
      }
     },
     {
@@ -209,7 +770,9 @@
       "round": 1,
       "time": "2:38",
       "of": 3,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerId": "tap-243673-abdulrakhman-yakhyaev",
+      "winnerName": "Abdul Rakhman Yakhyaev"
      }
     },
     {
@@ -234,7 +797,9 @@
       "round": 1,
       "time": "1:44",
       "of": 3,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerId": "tap-30204-abusupiyan-magomedov-abus",
+      "winnerName": "Abus Magomedov"
      }
     },
     {
@@ -259,7 +824,9 @@
       "round": 3,
       "time": "5:00",
       "of": 3,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerId": "tap-32750-grant-dawson",
+      "winnerName": "Grant Dawson"
      }
     },
     {
@@ -284,7 +851,9 @@
       "round": 3,
       "time": "5:00",
       "of": 3,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerId": "tap-166902-colby-thicknesse",
+      "winnerName": "Colby Thicknesse"
      }
     },
     {
@@ -309,7 +878,9 @@
       "round": 3,
       "time": "5:00",
       "of": 3,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerId": "tap-72240-abubakar-babaev",
+      "winnerName": "Abubakar Vagaev"
      }
     },
     {
@@ -329,7 +900,9 @@
       "round": 3,
       "time": "5:00",
       "of": 3,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerId": "tap-65061-daniel-willycat",
+      "winnerName": "Daniel Santos"
      }
     },
     {
@@ -349,7 +922,9 @@
       "round": 1,
       "time": "3:54",
       "of": 3,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerId": "tap-228289-kody-steele",
+      "winnerName": "Kody Steele"
      }
     },
     {
@@ -369,11 +944,13 @@
       "round": 3,
       "time": "5:00",
       "of": 3,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerId": "tap-166360-iasmin-lucindo",
+      "winnerName": "Iasmin Lucindo"
      }
     }
    ],
-   "resultsChecked": "2026-10-26",
+   "resultsChecked": "2026-10-31",
    "resultCount": 14
   },
   {
@@ -418,7 +995,9 @@
       "round": 2,
       "time": "4:16",
       "of": 5,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerId": "tap-396221-jake-woodley",
+      "winnerName": "Jake Woodley"
      }
     },
     {
@@ -438,7 +1017,9 @@
       "round": 3,
       "time": "5:00",
       "of": 3,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerId": "tap-274105-thomas-blackorby",
+      "winnerName": "Thomas Blackorby"
      }
     },
     {
@@ -458,7 +1039,9 @@
       "round": 3,
       "time": "5:00",
       "of": 3,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerId": "tap-55405-jansen-silva",
+      "winnerName": "Jansey Silva"
      }
     },
     {
@@ -478,7 +1061,9 @@
       "round": 3,
       "time": "5:00",
       "of": 3,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerId": "tap-87574-hillary-rose",
+      "winnerName": "Hilarie Rose"
      }
     },
     {
@@ -498,7 +1083,9 @@
       "round": 1,
       "time": "1:57",
       "of": 3,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerId": "tap-178522-oscar-alejandro-jurado-snchez",
+      "winnerName": "Oscar Jurado Sánchez"
      }
     },
     {
@@ -517,7 +1104,9 @@
       "round": 1,
       "time": "4:47",
       "of": 3,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerId": "tap-214451-guram-gocashivili",
+      "winnerName": "Guram Gochashvili"
      }
     },
     {
@@ -537,7 +1126,9 @@
       "round": 1,
       "time": "1:26",
       "of": 3,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerId": "tap-301246-austin-halik",
+      "winnerName": "Austin Halik"
      }
     },
     {
@@ -557,7 +1148,9 @@
       "round": 3,
       "time": "5:00",
       "of": 3,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerId": "tap-298592-luis-melendez",
+      "winnerName": "Luis Melendez"
      }
     },
     {
@@ -577,7 +1170,9 @@
       "round": 3,
       "time": "5:00",
       "of": 3,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerId": "tap-484740-joziah-fry",
+      "winnerName": "Joziah Fry"
      }
     },
     {
@@ -597,11 +1192,13 @@
       "round": 1,
       "time": "3:37",
       "of": 3,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerId": "tap-295067-austin-ross",
+      "winnerName": "Austin Ross"
      }
     }
    ],
-   "resultsChecked": "2026-10-26",
+   "resultsChecked": "2026-10-31",
    "cardDroppedFromTapology": [
     "Paul Capaldo vs Sebastian Ruiz",
     "Eli Evangelista vs Angelo Robles",
@@ -639,87 +1236,181 @@
     {
      "segment": "Main card",
      "weightClass": "Bantamweight",
+     "rounds": 5,
      "discipline": "Bare-knuckle",
      "a": "tap-335404-ryan-reber",
      "aName": "Ryan Reber",
      "b": "tap-119672-justin-street",
      "bName": "Justin Street",
-     "result": null
-    },
-    {
-     "segment": "Main card",
-     "discipline": "Bare-knuckle",
-     "a": "tap-52015-jared-warren",
-     "aName": "Jared Warren",
-     "b": "tap-29030-tom-angeloff",
-     "bName": "Tom Angeloff",
-     "result": null
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "Decision",
+      "detail": "Unanimous",
+      "round": 5,
+      "time": "2:00",
+      "of": 5,
+      "source": "tapology-event",
+      "winnerId": "tap-335404-ryan-reber",
+      "winnerName": "Ryan Reber"
+     }
     },
     {
      "segment": "Main card",
      "weightClass": "Bantamweight",
+     "rounds": 5,
      "discipline": "Bare-knuckle",
      "a": "tap-168954-michael-larrimore",
      "aName": "Michael Larrimore",
      "b": "tap-86966-nate-morrow",
      "bName": "Nate Morrow",
-     "result": null
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "KO/TKO",
+      "detail": null,
+      "round": 2,
+      "time": "1:31",
+      "of": 5,
+      "source": "tapology-event",
+      "winnerId": "tap-168954-michael-larrimore",
+      "winnerName": "Michael Larrimore"
+     }
+    },
+    {
+     "segment": "Main card",
+     "weightClass": "175 lb",
+     "rounds": 5,
+     "discipline": "Bare-knuckle",
+     "aName": "Doug Coltrane",
+     "b": "tap-59860-tony-murphy",
+     "bName": "Tony Murphy",
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "KO/TKO",
+      "detail": null,
+      "round": 2,
+      "time": "0:53",
+      "of": 5,
+      "source": "tapology-event",
+      "winnerName": "Doug Coltrane"
+     }
     },
     {
      "segment": "Main card",
      "weightClass": "Welterweight",
+     "rounds": 5,
      "discipline": "Bare-knuckle",
      "a": "tap-47166-mike-heckert",
      "aName": "Mike Heckert",
      "b": "tap-336199-rickie-mcconnico",
      "bName": "Rickie McConnico",
-     "result": null
+     "result": {
+      "outcome": "win",
+      "winner": "b",
+      "method": "KO/TKO",
+      "detail": null,
+      "round": 3,
+      "time": "0:47",
+      "of": 5,
+      "source": "tapology-event",
+      "winnerId": "tap-336199-rickie-mcconnico",
+      "winnerName": "Rickie McConnico"
+     }
     },
     {
      "segment": "Main card",
-     "discipline": "Bare-knuckle",
-     "a": "tap-59860-tony-murphy",
-     "aName": "Tony Murphy",
-     "b": "tap-24329-brandon-conley-the-bulldog",
-     "bName": "Brandon Conley",
-     "result": null
-    },
-    {
-     "segment": "Main card",
-     "weightClass": "Middleweight",
-     "discipline": "Bare-knuckle",
-     "a": "tap-349423-tyler-baker",
-     "aName": "Tyler Baker",
-     "b": "tap-585356-yari-kaganovsky",
-     "bName": "Yari Kaganovsky",
-     "result": null
-    },
-    {
-     "segment": "Main card",
-     "weightClass": "Light Heavyweight",
-     "discipline": "Bare-knuckle",
-     "a": "tap-243104-sam-delao",
-     "aName": "Sam DeLao",
-     "b": "tap-484891-chris-keirn",
-     "bName": "Chris Keirn",
-     "result": null
-    },
-    {
-     "segment": "Main card",
+     "weightClass": "125 lb",
+     "rounds": 5,
      "discipline": "Bare-knuckle",
      "a": "tap-325874-gregorio-gonzalez-chachi-versace",
      "aName": "Gregorio Gonzalez",
      "b": "tap-132948-angelo-trujillo",
      "bName": "Angelo Trujillo",
-     "result": null
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "Decision",
+      "detail": "Majority",
+      "round": 5,
+      "time": "2:00",
+      "of": 5,
+      "source": "tapology-event",
+      "winnerId": "tap-325874-gregorio-gonzalez-chachi-versace",
+      "winnerName": "Gregorio Gonzalez"
+     }
+    },
+    {
+     "segment": "Prelims",
+     "weightClass": "135 lb",
+     "rounds": 3,
+     "discipline": "Bare-knuckle",
+     "aName": "Donny Korbel",
+     "bName": "Jadon Lee",
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "KO/TKO",
+      "detail": null,
+      "round": 2,
+      "time": "2:00",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerName": "Donny Korbel"
+     }
+    },
+    {
+     "segment": "Main card",
+     "weightClass": "Light Heavyweight",
+     "rounds": 3,
+     "discipline": "Bare-knuckle",
+     "a": "tap-243104-sam-delao",
+     "aName": "Sam DeLao",
+     "b": "tap-484891-chris-keirn",
+     "bName": "Chris Keirn",
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "Decision",
+      "detail": "Unanimous",
+      "round": 3,
+      "time": "2:00",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-243104-sam-delao",
+      "winnerName": "Sam DeLao"
+     }
+    },
+    {
+     "segment": "Main card",
+     "weightClass": "Middleweight",
+     "rounds": 3,
+     "discipline": "Bare-knuckle",
+     "a": "tap-349423-tyler-baker",
+     "aName": "Tyler Baker",
+     "b": "tap-585356-yari-kaganovsky",
+     "bName": "Yari Kaganovsky",
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "KO/TKO",
+      "detail": null,
+      "round": 1,
+      "time": "0:43",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-349423-tyler-baker",
+      "winnerName": "Tyler Baker"
+     }
     }
    ],
-   "resultsChecked": "2026-10-26",
+   "resultsChecked": "2026-10-31",
    "cardDroppedFromTapology": [
-    "Crystal Van Wyk vs Noelia Piper Vasallo",
-    "Jason DiNunzio vs Gabriel Freyre"
+    "Jared Warren vs Tom Angeloff",
+    "Tony Murphy vs Brandon Conley"
    ],
-   "resultCount": 0
+   "resultCount": 8
   },
   {
    "name": "BKFC 95: Herring vs. Dodson",
@@ -776,7 +1467,9 @@
       "round": 5,
       "time": "2:00",
       "of": 5,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerId": "tap-203826-jamel-jerring-semper-fi",
+      "winnerName": "Jamel Herring"
      }
     },
     {
@@ -801,7 +1494,9 @@
       "round": 4,
       "time": "0:46",
       "of": 5,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerId": "tap-jimmie-rivera-el-terror",
+      "winnerName": "Jimmie Rivera"
      }
     },
     {
@@ -826,7 +1521,9 @@
       "round": 2,
       "time": "0:40",
       "of": 5,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerId": "tap-272269-antonio-soto-iii",
+      "winnerName": "Tony Soto"
      }
     },
     {
@@ -851,7 +1548,9 @@
       "round": 2,
       "time": "0:37",
       "of": 5,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerId": "tap-140934-santos-curatolo",
+      "winnerName": "Santo Curatolo"
      }
     },
     {
@@ -876,7 +1575,9 @@
       "round": 1,
       "time": "1:22",
       "of": 5,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerId": "tap-481625-dalvin-blair",
+      "winnerName": "Dalvin Blair"
      }
     },
     {
@@ -916,7 +1617,9 @@
       "round": 1,
       "time": "1:44",
       "of": 3,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerId": "tap-146078-cole-cameron",
+      "winnerName": "Cole Cameron"
      }
     },
     {
@@ -936,7 +1639,9 @@
       "round": 3,
       "time": "2:00",
       "of": 3,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerId": "tap-mike-medrano",
+      "winnerName": "Mike Medrano"
      }
     },
     {
@@ -961,7 +1666,9 @@
       "round": 1,
       "time": "0:52",
       "of": 3,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerId": "tap-552788-dylan-pitt",
+      "winnerName": "Dylan Pitt"
      }
     },
     {
@@ -981,11 +1688,13 @@
       "round": 2,
       "time": "1:59",
       "of": 3,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerId": "tap-58604-brooke-evans",
+      "winnerName": "Brooke Evans"
      }
     }
    ],
-   "resultsChecked": "2026-10-26",
+   "resultsChecked": "2026-10-31",
    "resultCount": 10
   },
   {
@@ -1042,7 +1751,9 @@
       "round": 2,
       "time": "2:32",
       "of": 5,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerId": "tap-22740-mike-malott",
+      "winnerName": "Mike Malott"
      }
     },
     {
@@ -1067,7 +1778,9 @@
       "round": 3,
       "time": "5:00",
       "of": 3,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerId": "tap-171056-jasmine-jasdavicious",
+      "winnerName": "Jasmine Jasudavicius"
      }
     },
     {
@@ -1087,7 +1800,9 @@
       "round": 1,
       "time": "0:27",
       "of": 3,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerId": "tap-149590-cristian-perez-puas",
+      "winnerName": "Cristian Perez"
      }
     },
     {
@@ -1112,7 +1827,9 @@
       "round": 1,
       "time": "4:28",
       "of": 3,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerId": "tap-26658-marc-andre-barriault",
+      "winnerName": "Marc-André Barriault"
      }
     },
     {
@@ -1137,7 +1854,9 @@
       "round": 2,
       "time": "2:48",
       "of": 3,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerId": "tap-181377-timothy-cuamba",
+      "winnerName": "Timmy Cuamba"
      }
     },
     {
@@ -1162,7 +1881,9 @@
       "round": 2,
       "time": "0:47",
       "of": 3,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerId": "tap-24751-mandell-nallo",
+      "winnerName": "Mandel Nallo"
      }
     },
     {
@@ -1182,7 +1903,9 @@
       "round": 3,
       "time": "4:26",
       "of": 3,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerId": "tap-35149-tanner-boser",
+      "winnerName": "Tanner Boser"
      }
     },
     {
@@ -1202,7 +1925,9 @@
       "round": 1,
       "time": "1:26",
       "of": 3,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerId": "tap-287925-nick-galanti",
+      "winnerName": "Nick Galanti"
      }
     },
     {
@@ -1222,7 +1947,9 @@
       "round": 2,
       "time": "2:11",
       "of": 3,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerId": "tap-215576-joel-faglier",
+      "winnerName": "Joel Faglier"
      }
     },
     {
@@ -1242,7 +1969,9 @@
       "round": 1,
       "time": "4:46",
       "of": 3,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerId": "tap-37760-katlyn-chookagian",
+      "winnerName": "Katlyn Cerminara"
      }
     },
     {
@@ -1262,7 +1991,9 @@
       "round": 3,
       "time": "4:31",
       "of": 3,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerId": "tap-131139-steven-koslow",
+      "winnerName": "Steven Koslow"
      }
     },
     {
@@ -1282,7 +2013,9 @@
       "round": 1,
       "time": "4:52",
       "of": 3,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerId": "tap-134566-chelsea-chandler",
+      "winnerName": "Chelsea Chandler"
      }
     },
     {
@@ -1302,11 +2035,13 @@
       "round": 3,
       "time": "4:19",
       "of": 3,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerId": "tap-73544-soo-young-yoo",
+      "winnerName": "Su Young You"
      }
     }
    ],
-   "resultsChecked": "2026-10-26",
+   "resultsChecked": "2026-10-31",
    "resultCount": 13
   },
   {
@@ -1351,7 +2086,9 @@
       "round": 1,
       "time": "2:29",
       "of": 3,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerId": "tap-18008-tomasz-narkun-giraffe",
+      "winnerName": "Tomasz Narkun"
      }
     },
     {
@@ -1369,7 +2106,8 @@
       "round": 3,
       "time": "3:17",
       "of": 3,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerName": "Matúš Juráček"
      }
     },
     {
@@ -1389,7 +2127,9 @@
       "round": 3,
       "time": "5:00",
       "of": 3,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerId": "tap-49189-aaron-aby",
+      "winnerName": "Aaron Aby"
      }
     },
     {
@@ -1408,7 +2148,9 @@
       "round": 1,
       "time": "0:13",
       "of": 3,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerId": "tap-97787-timo-feucht",
+      "winnerName": "Timo Feucht"
      }
     },
     {
@@ -1426,7 +2168,8 @@
       "round": 3,
       "time": "5:00",
       "of": 3,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerName": "Václav Štěpán"
      }
     },
     {
@@ -1444,7 +2187,8 @@
       "round": 3,
       "time": "3:00",
       "of": 3,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerName": "Robin Fošum"
      }
     },
     {
@@ -1462,7 +2206,8 @@
       "round": 2,
       "time": "0:57",
       "of": 3,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerName": "Marco Novák"
      }
     },
     {
@@ -1480,7 +2225,8 @@
       "round": 3,
       "time": "5:00",
       "of": 3,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerName": "Viktor Červinský"
      }
     },
     {
@@ -1498,7 +2244,8 @@
       "round": 3,
       "time": "5:00",
       "of": 3,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerName": "Husein Kadimagomaev"
      }
     },
     {
@@ -1516,11 +2263,12 @@
       "round": 3,
       "time": "3:00",
       "of": 3,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerName": "Rakhim Iliskhanov"
      }
     }
    ],
-   "resultsChecked": "2026-10-26",
+   "resultsChecked": "2026-10-31",
    "resultCount": 10
   },
   {
@@ -1575,7 +2323,9 @@
       "round": 2,
       "time": "0:13",
       "of": 3,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerId": "tap-140683-dario-bellandi",
+      "winnerName": "Dario Bellandi"
      }
     },
     {
@@ -1600,7 +2350,9 @@
       "round": 1,
       "time": "3:47",
       "of": 3,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerId": "tap-328202-giuseppe-mastrogiacomo",
+      "winnerName": "Giuseppe Mastrogiacomo"
      }
     },
     {
@@ -1625,7 +2377,9 @@
       "round": 2,
       "time": "2:43",
       "of": 3,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerId": "tap-106673-enrico-di-gangi",
+      "winnerName": "Enrico Di Gangi"
      }
     },
     {
@@ -1650,7 +2404,9 @@
       "round": 1,
       "time": "4:52",
       "of": 3,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerId": "tap-390451-federico-rotoni",
+      "winnerName": "Federico Rotoni"
      }
     },
     {
@@ -1675,7 +2431,9 @@
       "round": 1,
       "time": "4:05",
       "of": 3,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerId": "tap-385499-simone-ali",
+      "winnerName": "Simone Ali"
      }
     },
     {
@@ -1700,7 +2458,9 @@
       "round": 3,
       "time": "2:29",
       "of": 3,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerId": "tap-325759-christian-tosco",
+      "winnerName": "Christian Tosco"
      }
     },
     {
@@ -1750,7 +2510,9 @@
       "round": 3,
       "time": "5:00",
       "of": 3,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerId": "tap-381792-elez-guri",
+      "winnerName": "Elez Guri"
      }
     },
     {
@@ -1775,7 +2537,9 @@
       "round": 1,
       "time": "4:26",
       "of": 3,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerId": "tap-206990-niko-ceraglia",
+      "winnerName": "Niko Ceraglia"
      }
     },
     {
@@ -1800,7 +2564,9 @@
       "round": 1,
       "time": "1:48",
       "of": 3,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerId": "tap-309969-jurgen-koci",
+      "winnerName": "Jurgen Koci"
      }
     },
     {
@@ -1825,11 +2591,13 @@
       "round": 1,
       "time": "2:41",
       "of": 3,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerId": "tap-381647-diego-giangirolami",
+      "winnerName": "Diego Giangirolami"
      }
     }
    ],
-   "resultsChecked": "2026-10-26",
+   "resultsChecked": "2026-10-31",
    "resultCount": 11
   },
   {
@@ -1874,7 +2642,8 @@
       "round": 3,
       "time": "0:45",
       "of": 5,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerName": "Jonathan Haggerty"
      }
     },
     {
@@ -1893,7 +2662,8 @@
       "round": 2,
       "time": "0:58",
       "of": 5,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerName": "Nadaka Yoshinari"
      }
     },
     {
@@ -1912,7 +2682,8 @@
       "round": 3,
       "time": "3:00",
       "of": 3,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerName": "Masaaki Noiri"
      }
     },
     {
@@ -1931,7 +2702,9 @@
       "round": 3,
       "time": "3:00",
       "of": 3,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerId": "tap-269565-nabil-anane",
+      "winnerName": "Nabil Anane"
      }
     },
     {
@@ -1949,7 +2722,8 @@
       "round": 3,
       "time": "5:00",
       "of": 3,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerName": "Itsuki Hirata"
      }
     },
     {
@@ -1967,7 +2741,8 @@
       "round": 2,
       "time": "1:17",
       "of": 3,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerName": "Sinsamut"
      }
     },
     {
@@ -1985,7 +2760,8 @@
       "round": 1,
       "time": "1:34",
       "of": 3,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerName": "Kota Abe"
      }
     },
     {
@@ -2003,7 +2779,8 @@
       "round": 3,
       "time": "3:00",
       "of": 3,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerName": "Shoma Okumura"
      }
     },
     {
@@ -2021,7 +2798,8 @@
       "round": 1,
       "time": "0:58",
       "of": 3,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerName": "Ryoto Nishiyama"
      }
     },
     {
@@ -2037,11 +2815,12 @@
       "round": 1,
       "time": "5:13",
       "of": 1,
-      "source": "tapology-event"
+      "source": "tapology-event",
+      "winnerName": "Masaki Takeura"
      }
     }
    ],
-   "resultsChecked": "2026-10-26",
+   "resultsChecked": "2026-10-31",
    "resultCount": 10
   }
  ]

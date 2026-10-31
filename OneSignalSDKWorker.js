@@ -7,4 +7,4 @@
    - sw.js holds the PWA caching logic. Its ?v= changes every release so browsers pick up new versions.
    Keep this file at this URL permanently: push subscribers' browsers fetch it from here. */
 try { importScripts('https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.sw.js'); } catch (e) { /* push unavailable; PWA still works */ }
-importScripts('/sw.js?v=20261029c');
+importScripts('/sw.js?v=20261031a');

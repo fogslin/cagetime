@@ -7,7 +7,7 @@
    - Pages: network-first, then the cached copy, then /offline.html.
    - .ics calendar feeds are never cached (calendar apps must always see the live file).
    Push: handled by OneSignal's worker, imported in /OneSignalSDKWorker.js (see push.js for the page side). */
-const VERSION = '20261029c';
+const VERSION = '20261031a';
 const STATIC = 'ct-static-' + VERSION, DATA = 'ct-data-' + VERSION, PAGES = 'ct-pages-' + VERSION;
 const PRECACHE = ['/offline.html', '/style.css?v=' + VERSION, '/app.js?v=' + VERSION, '/pwa.js?v=' + VERSION, '/prefs.js?v=' + VERSION, '/pickem.js?v=' + VERSION,
   '/favicon.svg', '/icons/icon-192.png', '/manifest.webmanifest'];

@@ -11,8 +11,8 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:ufc-fight-night-buckley-vs-malott@getcagetime.com
-DTSTAMP:20261031T000000Z
-LAST-MODIFIED:20261031T000000Z
+DTSTAMP:20261101T000000Z
+LAST-MODIFIED:20261101T000000Z
 DTSTART:20261018T000000Z
 DTEND:20261018T030000Z
 SUMMARY:UFC Fight Night: Buckley vs. Malott
@@ -42,8 +42,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-333-volkanovski-vs-evloev@getcagetime.com
-DTSTAMP:20261031T000000Z
-LAST-MODIFIED:20261031T000000Z
+DTSTAMP:20261101T000000Z
+LAST-MODIFIED:20261101T000000Z
 DTSTART:20261024T180000Z
 DTEND:20261024T210000Z
 SUMMARY:UFC 333: Volkanovski vs. Evloev
@@ -76,28 +76,30 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-fight-night-moicano-vs-nolan@getcagetime.com
-DTSTAMP:20261031T000000Z
-LAST-MODIFIED:20261031T000000Z
+DTSTAMP:20261101T000000Z
+LAST-MODIFIED:20261101T000000Z
 DTSTART:20261101T000000Z
 DTEND:20261101T030000Z
 SUMMARY:UFC Fight Night: Moicano vs. Nolan
 LOCATION:Meta APEX\, Las Vegas\, USA
-DESCRIPTION:TIMES\nPrelims: Sat Oct 31 5:00 PM EDT (21:00 UTC)\nMain card: 
- Sat Oct 31 8:00 PM EDT (00:00 UTC)\n\nWHERE TO WATCH\nUnited States: Param
- ount+\nUnited Kingdom: TNT Sports / HBO Max\nCanada: Sportsnet+ / City TV 
- / TVA Sports\nAustralia: Paramount+\nIreland: TNT Sports\nIndia: Sony TEN 
- 2\nGermany: DAZN\nBrazil: Paramount+\n\nFIGHT CARD\n— Main card —\nRen
- ato Moicano vs. Tom Nolan (Lightweight)\nRandy Brown vs. Jacobe Smith (Wel
- terweight)\nOde Osbourne vs. Cody Durden (Flyweight)\nYana Santos vs. Luan
- a Santos (Women's Bantamweight)\nJean-Paul Lebosnoyani vs. Farman Hasanov 
- (Welterweight)\n— Prelims —\nFrancis Marshall vs. Dakota Hope (Catchwe
- ight (148 lb))\nRodrigo Sezinando vs. Theodor Berggren (Welterweight)\nJul
- ian Erosa vs. Jeong Yeong Lee (Featherweight)\nZach Reese vs. Mickey Gall 
- (Middleweight)\nNick Klein vs. Joe Kropschot (Middleweight)\nPiera Rodrigu
- ez vs. Talita Alencar (Women's Strawweight)\nTainara Lisboa vs. Lucia Szab
- ová (Women's Flyweight)\n\nEvent page: https://getcagetime.com/events/ufc
- -fight-night-moicano-vs-nolan/\nTimes and broadcasters can change\; check 
- the event page. From CageTime (getcagetime.com).
+DESCRIPTION:RESULTS: https://getcagetime.com/results/ufc-fight-night-moican
+ o-vs-nolan/\nMain event: Tom Nolan def. Renato Moicano by KO/TKO (R3 1:28)
+ \n\nTIMES\nPrelims: Sat Oct 31 5:00 PM EDT (21:00 UTC)\nMain card: Sat Oct
+  31 8:00 PM EDT (00:00 UTC)\n\nWHERE TO WATCH\nUnited States: Paramount+\n
+ United Kingdom: TNT Sports / HBO Max\nCanada: Sportsnet+ / City TV / TVA S
+ ports\nAustralia: Paramount+\nIreland: TNT Sports\nIndia: Sony TEN 2\nGerm
+ any: DAZN\nBrazil: Paramount+\n\nFIGHT CARD\n— Main card —\nRenato Moi
+ cano vs. Tom Nolan (Lightweight)\nRandy Brown vs. Jacobe Smith (Welterweig
+ ht)\nOde Osbourne vs. Cody Durden (Flyweight)\nYana Santos vs. Luana Santo
+ s (Women's Bantamweight)\nJean-Paul Lebosnoyani vs. Farman Hasanov (Welter
+ weight)\n— Prelims —\nFrancis Marshall vs. Dakota Hope (Catchweight (1
+ 48 lb))\nRodrigo Sezinando vs. Theodor Berggren (Welterweight)\nJulian Ero
+ sa vs. Jeong Yeong Lee (Featherweight)\nZach Reese vs. Mickey Gall (Middle
+ weight)\nNick Klein vs. Joe Kropschot (Middleweight)\nPiera Rodriguez vs. 
+ Talita Alencar (Women's Strawweight)\nTainara Lisboa vs. Lucia Szabová (W
+ omen's Flyweight)\n\nEvent page: https://getcagetime.com/events/ufc-fight-
+ night-moicano-vs-nolan/\nTimes and broadcasters can change\; check the eve
+ nt page. From CageTime (getcagetime.com).
 URL:https://getcagetime.com/events/ufc-fight-night-moicano-vs-nolan/
 CATEGORIES:UFC,MMA
 STATUS:CONFIRMED
@@ -105,8 +107,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-fight-night-bonfim-vs-brady@getcagetime.com
-DTSTAMP:20261031T000000Z
-LAST-MODIFIED:20261031T000000Z
+DTSTAMP:20261101T000000Z
+LAST-MODIFIED:20261101T000000Z
 DTSTART:20261108T010000Z
 DTEND:20261108T040000Z
 SUMMARY:UFC Fight Night: Cortes-Acosta vs. Walker
@@ -135,8 +137,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-334-gane-vs-hokit@getcagetime.com
-DTSTAMP:20261031T000000Z
-LAST-MODIFIED:20261031T000000Z
+DTSTAMP:20261101T000000Z
+LAST-MODIFIED:20261101T000000Z
 DTSTART:20261115T020000Z
 DTEND:20261115T050000Z
 SUMMARY:UFC 334: Gane vs. Hokit
@@ -166,8 +168,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-fight-night-prochazka-vs-stirling@getcagetime.com
-DTSTAMP:20261031T000000Z
-LAST-MODIFIED:20261031T000000Z
+DTSTAMP:20261101T000000Z
+LAST-MODIFIED:20261101T000000Z
 DTSTART:20261121T180000Z
 DTEND:20261121T210000Z
 SUMMARY:UFC Fight Night: Procházka vs. Stirling
@@ -195,8 +197,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-fight-night-riyadh@getcagetime.com
-DTSTAMP:20261031T000000Z
-LAST-MODIFIED:20261031T000000Z
+DTSTAMP:20261101T000000Z
+LAST-MODIFIED:20261101T000000Z
 DTSTART:20261205T140000Z
 DTEND:20261205T170000Z
 SUMMARY:UFC Fight Night Riyadh (Card start per Tapology (unofficial\; may b
@@ -222,8 +224,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-335-oliveira-vs-lopes@getcagetime.com
-DTSTAMP:20261031T000000Z
-LAST-MODIFIED:20261031T000000Z
+DTSTAMP:20261101T000000Z
+LAST-MODIFIED:20261101T000000Z
 DTSTART:20261213T020000Z
 DTEND:20261213T050000Z
 SUMMARY:UFC 335: Oliveira vs. Lopes

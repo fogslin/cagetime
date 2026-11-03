@@ -10,8 +10,8 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:ufc-fight-night-bonfim-vs-brady@getcagetime.com
-DTSTAMP:20261031T000000Z
-LAST-MODIFIED:20261031T000000Z
+DTSTAMP:20261101T000000Z
+LAST-MODIFIED:20261101T000000Z
 DTSTART:20261108T010000Z
 DTEND:20261108T040000Z
 SUMMARY:UFC Fight Night: Cortes-Acosta vs. Walker
@@ -25,12 +25,12 @@ DESCRIPTION:TIMES\nPrelims: Sat Nov 7 5:00 PM EST (22:00 UTC)\nMain card: S
  a Suarez (Women's Strawweight)\nDavey Grant vs. Elijah Smith (Bantamweight
  )\nSeok Hyeon Ko vs. Wellington Turman (Welterweight)\nBilly Elekana vs. L
  ucas Fernando (Light Heavyweight)\nAndre Petroski vs. Mantas Kondrataviči
- us (Middleweight)\n— Prelims —\nKarine Silva vs. Gabriella Fernandes (
- Women's Flyweight)\nJosé Souza vs. Jonny Parsons (Welterweight)\nJosé De
- lano vs. Murtazali Magomedov (Featherweight)\nOllie Schmid vs. Keiichiro N
- akamura (Featherweight)\nPriscila Cachoeira vs. Nina Milošević (Women's 
- Bantamweight)\nMitch Raposo vs. Marcos Degli (Flyweight)\nThomas Petersen 
- vs. Gabriel Lorenço (Heavyweight)\n\nEvent page: https://getcagetime.com/
+ us (Middleweight)\n— Prelims —\nThomas Petersen vs. Gabriel Lorenço (
+ Heavyweight)\nKarine Silva vs. Gabriella Fernandes (Women's Flyweight)\nMi
+ tch Raposo vs. Marcos Degli (Flyweight)\nJosé Delano vs. Murtazali Magome
+ dov (Featherweight)\nOllie Schmid vs. Keiichiro Nakamura (Featherweight)\n
+ Priscila Cachoeira vs. Nina Milošević (Women's Bantamweight)\nJosé Souz
+ a vs. Jonny Parsons (Welterweight)\n\nEvent page: https://getcagetime.com/
  events/ufc-fight-night-bonfim-vs-brady/\nTimes and broadcasters can change
  \; check the event page. From CageTime (getcagetime.com).
 URL:https://getcagetime.com/events/ufc-fight-night-bonfim-vs-brady/

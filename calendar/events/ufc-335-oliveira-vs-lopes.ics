@@ -10,8 +10,8 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:ufc-335-oliveira-vs-lopes@getcagetime.com
-DTSTAMP:20261031T000000Z
-LAST-MODIFIED:20261031T000000Z
+DTSTAMP:20261101T000000Z
+LAST-MODIFIED:20261101T000000Z
 DTSTART:20261213T020000Z
 DTEND:20261213T050000Z
 SUMMARY:UFC 335: Oliveira vs. Lopes
@@ -30,9 +30,10 @@ DESCRIPTION:TIMES\nEarly prelims: Sat Dec 12 5:00 PM EST (22:00 UTC)\nPreli
   Judice (Women's Flyweight)\nChris Padilla vs. Chase Hooper (Lightweight)\
  nNikolay Veretennikov vs. Ronald Humphrey (Welterweight)\nNilson Rojas vs.
   Roque Conceição (Flyweight)\nAngela Hill vs. Shanelle Dyer (Women's Str
- awweight)\n\nEvent page: https://getcagetime.com/events/ufc-335-oliveira-v
- s-lopes/\nTimes and broadcasters can change\; check the event page. From C
- ageTime (getcagetime.com).
+ awweight)\nJacqueline Cavalcanti vs. Michelle Montague (Women's Bantamweig
+ ht)\n\nEvent page: https://getcagetime.com/events/ufc-335-oliveira-vs-lope
+ s/\nTimes and broadcasters can change\; check the event page. From CageTim
+ e (getcagetime.com).
 URL:https://getcagetime.com/events/ufc-335-oliveira-vs-lopes/
 CATEGORIES:UFC,MMA
 STATUS:CONFIRMED

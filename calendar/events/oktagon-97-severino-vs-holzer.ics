@@ -10,8 +10,8 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:oktagon-97-severino-vs-holzer@getcagetime.com
-DTSTAMP:20261031T000000Z
-LAST-MODIFIED:20261031T000000Z
+DTSTAMP:20261101T000000Z
+LAST-MODIFIED:20261101T000000Z
 DTSTART:20261107T170000Z
 DTEND:20261107T200000Z
 SUMMARY:OKTAGON 97: Severino vs. Holzer
@@ -21,14 +21,18 @@ DESCRIPTION:TIMES\nEvent start (official\; no separate main-card time publi
  : OKTAGON.TV (PPV)\nUnited Kingdom: OKTAGON.TV (PPV)\nCanada: OKTAGON.TV (
  PPV)\nAustralia: OKTAGON.TV (PPV)\nIreland: OKTAGON.TV (PPV)\nIndia: OKTAG
  ON.TV (PPV)\nGermany: RTL+\nBrazil: OKTAGON.TV (PPV)\n\nFIGHT CARD\n— Ma
- in card —\nIgor Severino vs. Max Holzer (Bantamweight)\nDaniel Makin vs.
-  Petr Bartoněk (Welterweight)\nGjoni Palokaj vs. Zafar Mohsen (Featherwei
- ght)\nHaci Akseker vs. Jonatan Kujawa (Featherweight)\nJustin Detzel vs. K
- acper Frątczak (Middleweight)\nKarol Ryšavý vs. Samuel Bark (Featherwei
- ght)\nOzan Aslaner vs. Denis Frimpong (Catchweight (159 lb))\nJan Holzer v
- s. Jan Švagerko (Welterweight)\n\nEvent page: https://getcagetime.com/ev
- ents/oktagon-97-severino-vs-holzer/\nTimes and broadcasters can change\; c
- heck the event page. From CageTime (getcagetime.com).
+ in card —\nIgor Severino vs. Max Holzer (Bantamweight)\nGjoni Palokaj vs
+ . Zafar Mohsen (Featherweight)\nOzan Aslaner vs. Denis Frimpong (Catchweig
+ ht (159 lb))\nJustin Detzel vs. Kacper Frątczak (Middleweight)\nKarol Ry
+ šavý vs. Samuel Bark (Featherweight)\nDaniel Makin vs. Petr Bartoněk (W
+ elterweight)\n— Prelims —\nHaci Akseker vs. Jonatan Kujawa (Featherwei
+ ght)\nJan Holzer vs. Jan Švagerko (Welterweight)\nIslam Djabrailov vs. K
+ enji Bortoluzzi (Featherweight)\nJosefine Knutsson vs. Yasmin Guimarães (
+ Women's Strawweight)\nMatheus Severino vs. Abdul Karim Badakhshi (Flyweigh
+ t)\nKathrin Haberle vs. Thais Vasconcelos (Women's Bantamweight)\n\nEvent 
+ page: https://getcagetime.com/events/oktagon-97-severino-vs-holzer/\nTimes
+  and broadcasters can change\; check the event page. From CageTime (getcag
+ etime.com).
 URL:https://getcagetime.com/events/oktagon-97-severino-vs-holzer/
 CATEGORIES:OKTAGON,MMA
 STATUS:CONFIRMED

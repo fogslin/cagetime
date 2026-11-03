@@ -10,8 +10,8 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:one-friday-fights-178@getcagetime.com
-DTSTAMP:20261031T000000Z
-LAST-MODIFIED:20261031T000000Z
+DTSTAMP:20261101T000000Z
+LAST-MODIFIED:20261101T000000Z
 DTSTART:20261113T133000Z
 DTEND:20261113T163000Z
 SUMMARY:ONE Friday Fights 178
@@ -21,11 +21,12 @@ DESCRIPTION:TIMES\nThe Inner Circle pre-show (live.onefc.com): Fri Nov 13 6
  TC)\n\nWHERE TO WATCH\nUnited States: beIN SPORTS\nUnited Kingdom: Sky Spo
  rts (app / YouTube)\nCanada: beIN SPORTS\nAustralia: ESPN (Disney+ / Foxte
  l / Kayo)\nIreland: Sky Sports (app / YouTube)\nIndia: Star Sports Select 
- 2 / JioHotstar\nGermany: TBA\nBrazil: TBA\n\nFIGHT CARD\n— Prelims —\n
- Rodtang Jitmuangnon vs. Nong-O (Flyweight)\nShimon Yoshinari vs. Ramadan O
- ndash (Flyweight)\n\nEvent page: https://getcagetime.com/events/one-friday
- -fights-178/\nTimes and broadcasters can change\; check the event page. Fr
- om CageTime (getcagetime.com).
+ 2 / JioHotstar\nGermany: watch.onefc.com (free)\nBrazil: ONE YouTube / Fac
+ ebook / watch.onefc.com (free)\n\nFIGHT CARD\n— Prelims —\nRodtang Jit
+ muangnon vs. Nong-O (Flyweight)\nShimon Yoshinari vs. Ramadan Ondash (Flyw
+ eight)\n\nEvent page: https://getcagetime.com/events/one-friday-fights-178
+ /\nTimes and broadcasters can change\; check the event page. From CageTime
+  (getcagetime.com).
 URL:https://getcagetime.com/events/one-friday-fights-178/
 CATEGORIES:ONE,MMA
 STATUS:CONFIRMED

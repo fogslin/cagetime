@@ -10,8 +10,8 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:one-friday-fights-179@getcagetime.com
-DTSTAMP:20261031T000000Z
-LAST-MODIFIED:20261031T000000Z
+DTSTAMP:20261101T000000Z
+LAST-MODIFIED:20261101T000000Z
 DTSTART:20261120T133000Z
 DTEND:20261120T163000Z
 SUMMARY:ONE Friday Fights 179
@@ -21,12 +21,13 @@ DESCRIPTION:TIMES\nThe Inner Circle pre-show (live.onefc.com): Fri Nov 20 6
  TC)\n\nWHERE TO WATCH\nUnited States: beIN SPORTS\nUnited Kingdom: Sky Spo
  rts (app / YouTube)\nCanada: beIN SPORTS\nAustralia: ESPN (Disney+ / Foxte
  l / Kayo)\nIreland: Sky Sports (app / YouTube)\nIndia: Star Sports Select 
- 2 / JioHotstar\nGermany: TBA\nBrazil: TBA\n\nFIGHT CARD\n— Prelims —\n
- Asadula Imangazaliev vs. Aslamjon Ortikov (Flyweight)\nBlack Panther vs. U
- baid Hussain (Flyweight)\nAllycia Hellen Rodrigues vs. Charlotte Padié (W
- omen's Atomweight)\n\nEvent page: https://getcagetime.com/events/one-frida
- y-fights-179/\nTimes and broadcasters can change\; check the event page. F
- rom CageTime (getcagetime.com).
+ 2 / JioHotstar\nGermany: watch.onefc.com (free)\nBrazil: ONE YouTube / Fac
+ ebook / watch.onefc.com (free)\n\nFIGHT CARD\n— Prelims —\nAsadula Ima
+ ngazaliev vs. Aslamjon Ortikov (Flyweight)\nBlack Panther vs. Ubaid Hussai
+ n (Flyweight)\nAllycia Hellen Rodrigues vs. Charlotte Padié (Women's Atom
+ weight)\n\nEvent page: https://getcagetime.com/events/one-friday-fights-17
+ 9/\nTimes and broadcasters can change\; check the event page. From CageTim
+ e (getcagetime.com).
 URL:https://getcagetime.com/events/one-friday-fights-179/
 CATEGORIES:ONE,MMA
 STATUS:CONFIRMED

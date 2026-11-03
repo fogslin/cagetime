@@ -10,8 +10,8 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:ufc-fight-night-prochazka-vs-stirling@getcagetime.com
-DTSTAMP:20261031T000000Z
-LAST-MODIFIED:20261031T000000Z
+DTSTAMP:20261101T000000Z
+LAST-MODIFIED:20261101T000000Z
 DTSTART:20261121T180000Z
 DTEND:20261121T210000Z
 SUMMARY:UFC Fight Night: Procházka vs. Stirling
@@ -27,11 +27,11 @@ DESCRIPTION:TIMES\nPrelims: Sat Nov 21 10:00 AM EST (15:00 UTC)\nMain card:
  ared Cannonier (Middleweight)\n— Prelims —\nSantiago Luna vs. Aleksand
  re Topuria (Bantamweight)\nShamil Gaziev vs. Tallison Teixeira (Heavyweigh
  t)\nAmir Albazi vs. Alessandro Costa (Flyweight)\nJake Matthews vs. Tahir 
- Abdullayev (Welterweight)\nNikolas Motta vs. Dom Mar Fan (Lightweight)\nJa
- cqueline Cavalcanti vs. Michelle Montague (Women's Bantamweight)\nDiyar Nu
- rgozhay vs. Alik Lorenz (Light Heavyweight)\n\nEvent page: https://getcage
- time.com/events/ufc-fight-night-prochazka-vs-stirling/\nTimes and broadcas
- ters can change\; check the event page. From CageTime (getcagetime.com).
+ Abdullayev (Welterweight)\nNikolas Motta vs. Dom Mar Fan (Lightweight)\nDi
+ yar Nurgozhay vs. Alik Lorenz (Light Heavyweight)\n\nEvent page: https://g
+ etcagetime.com/events/ufc-fight-night-prochazka-vs-stirling/\nTimes and br
+ oadcasters can change\; check the event page. From CageTime (getcagetime.c
+ om).
 URL:https://getcagetime.com/events/ufc-fight-night-prochazka-vs-stirling/
 CATEGORIES:UFC,MMA
 STATUS:CONFIRMED

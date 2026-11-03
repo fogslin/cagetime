@@ -24,8 +24,8 @@
     "AU": "ESPN (Disney+ / Foxtel / Kayo)",
     "IE": "Sky Sports (app / YouTube)",
     "IN": "Star Sports Select 2 / JioHotstar",
-    "DE": "TBA",
-    "BR": "TBA"
+    "DE": "watch.onefc.com (free)",
+    "BR": "ONE YouTube / Facebook / watch.onefc.com (free)"
    },
    "sources": [
     "https://goodfights.app/schedule",
@@ -37,17 +37,98 @@
     "https://media.sportbusiness.com/news/star-india-agrees-multi-year-rights-deal-with-one-championship/",
     "https://www.onefc.com/events/one-friday-fights-177/",
     "https://www.onefc.com/news/how-to-watch-the-inner-circle-34-and-one-friday-fights-174-live-on-october-9/",
-    "https://live.onefc.com/"
+    "https://live.onefc.com/",
+    "https://www.onefc.com/news/how-to-watch-the-inner-circle-36-and-one-friday-fights-176-live-on-october-30/"
    ],
-   "notes": "Time = ONE Friday Fights broadcast (8:30 PM ICT). ONE.com lists this as a doubleheader starting 6:30 PM ICT with The Inner Circle 37 (live.onefc.com only); ONE's Friday Fights 174/175 guides put the Friday Fights broadcast 2 h after the opener — verify in fight week. Broadcasters from ONE's current rights deals (beIN SPORTS North America, ESPN Australia, Sky Sports UK & Ireland, Star/JioStar India), as confirmed on ONE's Friday Fights 175 watch guide; Germany/Brazil/other countries are usually ONE's own free stream (watch.onefc.com / YouTube) but not yet confirmed for this card — TBA.",
+   "notes": "Time = ONE Friday Fights broadcast (8:30 PM ICT). ONE.com lists this as a doubleheader starting 6:30 PM ICT with The Inner Circle 37 (live.onefc.com only); ONE's Friday Fights 174/175 guides put the Friday Fights broadcast 2 h after the opener — verify in fight week. Broadcasters from ONE's current rights deals (beIN SPORTS North America, ESPN Australia, Sky Sports UK & Ireland, Star/JioStar India), as confirmed on ONE's Friday Fights 175 watch guide; Germany (watch.onefc.com) and Brazil (ONE YouTube/Facebook/watch.onefc.com) as on ONE's Friday Fights 176 watch guide; the card-specific guide comes out in fight week.",
    "id": "one-friday-fights-177",
    "card": {
     "status": "announced",
-    "updated": "2026-10-26",
+    "updated": "2026-11-02",
     "sources": [
      "https://www.tapology.com/fightcenter/events/147736-one-friday-fights-177"
     ],
     "bouts": [
+     {
+      "segment": "Main card",
+      "weightClass": "Bantamweight",
+      "rounds": 3,
+      "discipline": "Muay Thai",
+      "a": "tap-286743-esanneua-chotbangsaen",
+      "aName": "IsanNua Chotbangsaen",
+      "b": "tap-313662-jack-apichat",
+      "bName": "Jack Apichat Muaythai"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Flyweight",
+      "rounds": 3,
+      "discipline": "Muay Thai",
+      "a": "tap-248087-saksri-kiat-moo",
+      "aName": "Saksri Kiatmoo9",
+      "b": "tap-288251-superball-sityodtong",
+      "bName": "Superball"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Atomweight",
+      "rounds": 3,
+      "discipline": "Muay Thai",
+      "a": "tap-559240-chatpet",
+      "aName": "Chatpet Suablackmuaythai",
+      "b": "tap-577610-saipetlek",
+      "bName": "Saipetlek Coachnatsamartmuaythai"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Atomweight",
+      "rounds": 3,
+      "discipline": "Muay Thai",
+      "a": "tap-534637-petdam-siterawan",
+      "aName": "Petdam SitErawan",
+      "b": "tap-585489-chaisongkhram-looksuan",
+      "bName": "Chaisongkhram Looksuan"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Atomweight",
+      "rounds": 3,
+      "discipline": "Muay Thai",
+      "a": "tap-497985-klinphakha",
+      "aName": "Klinphakha Por.Thaisong",
+      "b": "tap-477107-longshu-ran",
+      "bName": "Longshu Ran"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Flyweight",
+      "rounds": 3,
+      "discipline": "Kickboxing",
+      "a": "tap-592885-phun-suea-muang",
+      "aName": "Phun Suea Muang",
+      "b": "tap-401697-kazuo-yamazaki",
+      "bName": "Kazuteru Yamazaki"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Bantamweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-228492-chayut-rojanakat",
+      "aName": "Chayut Rojanakat",
+      "b": "tap-407967-kentaro-okumura",
+      "bName": "Kentaro Okumura"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Flyweight",
+      "rounds": 3,
+      "discipline": "Muay Thai",
+      "a": "tap-427690-marats-jankovskis",
+      "aName": "Marats Jankovskis",
+      "b": "tap-332132-retsu-sashida",
+      "bName": "Retsu Sashida"
+     },
      {
       "segment": "Main card",
       "weightClass": "Lightweight",
@@ -58,8 +139,49 @@
       "aName": "Christian Lee",
       "b": "tap-214515-tye-ruotolo",
       "bName": "Tye Ruotolo"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Bantamweight",
+      "rounds": 3,
+      "discipline": "Muay Thai",
+      "a": "tap-290053-komawut-fagroup",
+      "aName": "KomAwut FAGroup",
+      "b": "tap-375854-yodphupha-tor-yotha",
+      "bName": "Yodphupha Wimanair"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Flyweight",
+      "rounds": 3,
+      "discipline": "Muay Thai",
+      "a": "tap-288571-kongchai-chanaidonmuang",
+      "aName": "Kongchai ChanaiDonMuang",
+      "b": "tap-576577-tantawy-ahmed-hafez",
+      "bName": "Tantawy Ahmed Hafez"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Lightweight",
+      "rounds": 3,
+      "discipline": "Muay Thai",
+      "a": "tap-489370-titus-proctor",
+      "aName": "Titus Proctor",
+      "b": "tap-296420-maciej-karpinski",
+      "bName": "Maciej Karpiński"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Strawweight",
+      "rounds": 3,
+      "discipline": "Muay Thai",
+      "a": "tap-543087-cal-cook",
+      "aName": "Cal Cook",
+      "b": "tap-266491-dabdam-portortor-thongtawee",
+      "bName": "Dabdam Thongtawee"
      }
-    ]
+    ],
+    "note": "Records shown are professional MMA records; Muay Thai, kickboxing and grappling records are not included."
    },
    "times": [
     {
@@ -85,7 +207,7 @@
     "AU": "ESPN (Disney+ / Foxtel / Kayo)",
     "IE": "Sky Sports",
     "IN": "JioHotstar / Star Sports Select 2",
-    "DE": "TBA",
+    "DE": "ONE free stream (watch.onefc.com / YouTube / Facebook)",
     "BR": "Combate / SporTV"
    },
    "sources": [
@@ -101,7 +223,7 @@
     "https://ge.globo.com/combate/noticia/2025/04/01/combate-segue-como-a-casa-do-one-championship-no-brasil.ghtml",
     "https://www.onefc.com/events/onefightnight49/"
    ],
-   "notes": "ONE Fight Night series: Prime Video (US/Canada), Sky Sports (UK & Ireland), ESPN (Australia), JioHotstar/Star Sports Select 2 (India), Combate/SporTV (Brazil) per ONE's current rights deals as confirmed on the ONE Fight Night 48 watch guide; Germany is usually ONE's free stream (watch.onefc.com/YouTube) — not yet confirmed. Start time 9 AM Saturday ICT = 9 PM ET Friday (ONE.com event page). Main event changed: Alibeg Rasulov out, promotional newcomer Magomed Magomedov in (ONE.com).",
+   "notes": "ONE Fight Night series: Prime Video (US/Canada), Sky Sports (UK & Ireland), ESPN (Australia), JioHotstar/Star Sports Select 2 (India), Combate/SporTV (Brazil) per ONE's current rights deals as confirmed on the ONE Fight Night 48 watch guide; Germany: ONE's free platforms (watch.onefc.com / YouTube / Facebook), as on the ONE Fight Night 48 watch guide. Start time 9 AM Saturday ICT = 9 PM ET Friday (ONE.com event page). Main event changed: Alibeg Rasulov out, promotional newcomer Magomed Magomedov in (ONE.com).",
    "id": "one-fight-night-49-gabriel-vs-rasulov",
    "card": {
     "status": "announced",
@@ -215,7 +337,7 @@
    "name": "Cage Warriors 212: Spanish Showcase",
    "promotion": "Cage Warriors",
    "date": "2026-11-07",
-   "startUTC": null,
+   "startUTC": "2026-11-07T20:30:00Z",
    "venue": "BBC Studioworks Television Centre, London, UK",
    "broadcasters": {
     "US": "UFC Fight Pass",
@@ -232,14 +354,15 @@
     "https://cagewarriors.com/cw-212-london-spanish-showcase/",
     "https://cagewarriors.com/cw-211-rome-official-fight-card-broadcast-times/"
    ],
-   "notes": "Start time = prelims, from the official event page countdown (the CW 211 countdown matched its official prelim start). Main card time is announced in fight week. Cage Warriors events stream on UFC Fight Pass (official site).",
+   "notes": "Official CW 212 page: main card 3:30 PM ET (20:30 GMT), prelims 1:30 PM ET (18:30 GMT); fight order TBC. Cage Warriors events stream on UFC Fight Pass (official site).",
    "id": "cage-warriors-212-spanish-showcase",
    "card": {
     "status": "announced",
-    "updated": "2026-10-31",
+    "updated": "2026-11-02",
     "sources": [
      "https://www.tapology.com/fightcenter/events/148777-cage-warriors-212-spanish-showcase",
-     "https://en.wikipedia.org/wiki/2026_in_Cage_Warriors#Cage_Warriors_212"
+     "https://en.wikipedia.org/wiki/2026_in_Cage_Warriors#Cage_Warriors_212",
+     "https://cagewarriors.com/cw-212-london-spanish-showcase/"
     ],
     "bouts": [
      {
@@ -254,6 +377,16 @@
      },
      {
       "segment": "Main card",
+      "weightClass": "Catchweight (129 lb)",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-302240-mattia-giordano",
+      "aName": "Mattia Giordano",
+      "b": "tap-134093-maximillien-vallot",
+      "bName": "Maximilien Vallot"
+     },
+     {
+      "segment": "Main card",
       "weightClass": "Bantamweight",
       "rounds": 3,
       "discipline": "MMA",
@@ -264,23 +397,13 @@
      },
      {
       "segment": "Main card",
-      "weightClass": "Lightweight",
-      "rounds": 3,
-      "discipline": "MMA",
-      "a": "tap-334049-arturo-martin",
-      "aName": "Arturo Izquierdo",
-      "b": "tap-402598-hany-musleh",
-      "bName": "Hany Musleh"
-     },
-     {
-      "segment": "Main card",
       "weightClass": "Featherweight",
       "rounds": 3,
       "discipline": "MMA",
       "a": "tap-335922-angel-belucci-el-pastor",
       "aName": "Angel Bellucci",
-      "b": "tap-330691-shahram-hotak",
-      "bName": "Shahram Hotak"
+      "b": "tap-183619-tommy-brunning",
+      "bName": "Tommy Brunning"
      },
      {
       "segment": "Main card",
@@ -294,16 +417,16 @@
      },
      {
       "segment": "Main card",
-      "weightClass": "Catchweight (129 lb)",
+      "weightClass": "Lightweight",
       "rounds": 3,
       "discipline": "MMA",
-      "a": "tap-302240-mattia-giordano",
-      "aName": "Mattia Giordano",
-      "b": "tap-134093-maximillien-vallot",
-      "bName": "Maximilien Vallot"
+      "a": "tap-334049-arturo-martin",
+      "aName": "Arturo Izquierdo",
+      "b": "tap-402598-hany-musleh",
+      "bName": "Hany Musleh"
      },
      {
-      "segment": "Main card",
+      "segment": "Prelims",
       "weightClass": "Catchweight (161 lb)",
       "rounds": 3,
       "discipline": "MMA",
@@ -313,7 +436,7 @@
       "bName": "Armands Gruznovs"
      },
      {
-      "segment": "Main card",
+      "segment": "Prelims",
       "weightClass": "Catchweight (150 lb)",
       "rounds": 3,
       "discipline": "MMA",
@@ -326,8 +449,12 @@
    },
    "times": [
     {
-     "label": "Prelims (official countdown)",
-     "startUTC": "2026-11-07T17:00:00Z"
+     "label": "Main card",
+     "startUTC": "2026-11-07T20:30:00Z"
+    },
+    {
+     "label": "Prelims",
+     "startUTC": "2026-11-07T18:30:00Z"
     }
    ]
   },
@@ -357,7 +484,7 @@
    "id": "oktagon-97-severino-vs-holzer",
    "card": {
     "status": "announced",
-    "updated": "2026-10-26",
+    "updated": "2026-11-02",
     "sources": [
      "https://www.tapology.com/fightcenter/events/145768-oktagon-97",
      "https://en.wikipedia.org/wiki/2026_in_Oktagon_MMA"
@@ -372,17 +499,12 @@
       "a": "tap-229458-igor-da-silva-severino-cogumelo",
       "aName": "Igor Severino",
       "b": "tap-255458-max-holzer",
-      "bName": "Max Holzer"
-     },
-     {
-      "segment": "Main card",
-      "weightClass": "Welterweight",
-      "rounds": 3,
-      "discipline": "MMA",
-      "a": "tap-106414-daniel-makin",
-      "aName": "Daniel Makin",
-      "b": "tap-86333-petr-bartonk",
-      "bName": "Petr Bartoněk"
+      "bName": "Max Holzer",
+      "odds": {
+       "a": -250,
+       "b": 175,
+       "books": 1
+      }
      },
      {
       "segment": "Main card",
@@ -392,37 +514,12 @@
       "a": "tap-125750-gjoni-palokaj",
       "aName": "Gjoni Palokaj",
       "b": "tap-90413-zafar-mohsen",
-      "bName": "Zafar Mohsen"
-     },
-     {
-      "segment": "Main card",
-      "weightClass": "Featherweight",
-      "rounds": 3,
-      "discipline": "MMA",
-      "a": "tap-537547-haci-akseker",
-      "aName": "Haci Akseker",
-      "b": "tap-116079-jonatan-kujawa",
-      "bName": "Jonatan Kujawa"
-     },
-     {
-      "segment": "Main card",
-      "weightClass": "Middleweight",
-      "rounds": 3,
-      "discipline": "MMA",
-      "a": "tap-370147-justin-detzel",
-      "aName": "Justin Detzel",
-      "b": "tap-362261-kacper-fratczak-chini",
-      "bName": "Kacper Frątczak"
-     },
-     {
-      "segment": "Main card",
-      "weightClass": "Featherweight",
-      "rounds": 3,
-      "discipline": "MMA",
-      "a": "tap-127463-karol-rysavy",
-      "aName": "Karol Ryšavý",
-      "b": "tap-229953-samuel-bark-sammon-decker",
-      "bName": "Samuel Bark"
+      "bName": "Zafar Mohsen",
+      "odds": {
+       "a": -120,
+       "b": -110,
+       "books": 1
+      }
      },
      {
       "segment": "Main card",
@@ -432,17 +529,147 @@
       "a": "tap-107207-ozan-aslaner",
       "aName": "Ozan Aslaner",
       "b": "tap-304840-denis-frimpong",
-      "bName": "Denis Frimpong"
+      "bName": "Denis Frimpong",
+      "odds": {
+       "a": -120,
+       "b": -110,
+       "books": 1
+      }
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Middleweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-370147-justin-detzel",
+      "aName": "Justin Detzel",
+      "b": "tap-362261-kacper-fratczak-chini",
+      "bName": "Kacper Frątczak",
+      "odds": {
+       "a": -175,
+       "b": 130,
+       "books": 1
+      }
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Featherweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-127463-karol-rysavy",
+      "aName": "Karol Ryšavý",
+      "b": "tap-229953-samuel-bark-sammon-decker",
+      "bName": "Samuel Bark",
+      "odds": {
+       "a": 163,
+       "b": -225,
+       "books": 1
+      }
      },
      {
       "segment": "Main card",
       "weightClass": "Welterweight",
       "rounds": 3,
       "discipline": "MMA",
+      "a": "tap-106414-daniel-makin",
+      "aName": "Daniel Makin",
+      "b": "tap-86333-petr-bartonk",
+      "bName": "Petr Bartoněk",
+      "odds": {
+       "a": -188,
+       "b": 140,
+       "books": 1
+      }
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Featherweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-537547-haci-akseker",
+      "aName": "Haci Akseker",
+      "b": "tap-116079-jonatan-kujawa",
+      "bName": "Jonatan Kujawa",
+      "odds": {
+       "a": -138,
+       "b": 105,
+       "books": 1
+      }
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Welterweight",
+      "rounds": 3,
+      "discipline": "MMA",
       "a": "tap-539975-jan-holzer",
       "aName": "Jan Holzer",
       "b": "tap-374223-jan-svagerko",
-      "bName": "Jan Švagerko"
+      "bName": "Jan Švagerko",
+      "odds": {
+       "a": -800,
+       "b": 450,
+       "books": 1
+      }
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Featherweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-183895-islam-djabrailov",
+      "aName": "Islam Djabrailov",
+      "b": "tap-56864-kenji-bortoluzzi",
+      "bName": "Kenji Bortoluzzi",
+      "odds": {
+       "a": -225,
+       "b": 163,
+       "books": 1
+      }
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Women's Strawweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-174069-josefine-lindgren-knutsson-little-thunder",
+      "aName": "Josefine Knutsson",
+      "b": "tap-286554-yasmin-guimaraes",
+      "bName": "Yasmin Guimarães",
+      "odds": {
+       "a": -150,
+       "b": 110,
+       "books": 1
+      }
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Flyweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-107492-matheus-da-silva-calabresa",
+      "aName": "Matheus Severino",
+      "b": "tap-199483-abdul-karim-the-rock",
+      "bName": "Abdul Karim Badakhshi",
+      "odds": {
+       "a": -450,
+       "b": 300,
+       "books": 1
+      }
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Women's Bantamweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-483631-kathrin-haberle",
+      "aName": "Kathrin Haberle",
+      "b": "tap-377358-thais-vasconcelos",
+      "bName": "Thais Vasconcelos",
+      "odds": {
+       "a": -800,
+       "b": 450,
+       "books": 1
+      }
      }
     ]
    },
@@ -451,10 +678,16 @@
      "label": "Event start (official; no separate main-card time published)",
      "startUTC": "2026-11-07T17:00:00Z"
     }
-   ]
+   ],
+   "odds": {
+    "source": "BestFightOdds",
+    "url": "https://www.bestfightodds.com/events/oktagon-97-4443",
+    "asOf": "2026-11-03 14:20 UTC",
+    "method": "consensus = median implied probability across the sportsbooks BestFightOdds listed for each fighter"
+   }
   },
   {
-   "name": "BKFC 96 Glasgow: Cooke vs. Weir",
+   "name": "BKFC 96 Glasgow: Weir vs. Cohoon",
    "promotion": "BKFC",
    "date": "2026-11-07",
    "startUTC": "2026-11-07T19:00:00Z",
@@ -479,8 +712,9 @@
    "id": "bkfc-96-glasgow-cooke-vs-weir",
    "card": {
     "status": "announced",
-    "updated": "2026-10-31",
+    "updated": "2026-11-03",
     "sources": [
+     "https://www.bkfc.com/events/bkfc-glasgow",
      "https://www.tapology.com/fightcenter/events/147390-bkfc-fight-night-glasgow",
      "https://en.wikipedia.org/wiki/2026_in_Bare_Knuckle_Fighting_Championship#BKFC_96_Glasgow:_Cooke_vs._Weir"
     ],
@@ -489,10 +723,10 @@
       "weightClass": "Light Heavyweight",
       "title": "BKFC UK Light Heavyweight Championship",
       "discipline": "Bare-knuckle",
-      "aName": "Conor Cooke",
-      "bName": "Sean Weir",
-      "a": "tap-26159-conor-cooke",
-      "b": "tap-51465-sean-weir",
+      "aName": "Sean Weir",
+      "bName": "Leigh Cohoon",
+      "a": "tap-51465-sean-weir",
+      "b": "tap-lee-cohoon-the-boom",
       "segment": "Main card"
      },
      {
@@ -505,48 +739,21 @@
       "segment": "Main card"
      },
      {
+      "segment": "Main card",
+      "weightClass": "Heavyweight",
+      "discipline": "Bare-knuckle",
+      "a": "tap-55464-gzim-selmani",
+      "aName": "Gzim Selmani",
+      "b": "tap-482569-reece-heer",
+      "bName": "Reece Heer"
+     },
+     {
       "weightClass": "Bantamweight",
       "discipline": "Bare-knuckle",
       "aName": "Scott Malone",
       "bName": "Kiran Sewell",
       "a": "tap-52320-scott-malone",
       "b": "tap-501315-kiran-sewell",
-      "segment": "Main card"
-     },
-     {
-      "weightClass": "Light Heavyweight",
-      "discipline": "Bare-knuckle",
-      "aName": "Rhys Pagan",
-      "bName": "Danny Moir",
-      "a": "tap-269699-rhys-pagan",
-      "b": "tap-440336-danny-moir",
-      "segment": "Main card"
-     },
-     {
-      "weightClass": "Bantamweight",
-      "discipline": "Bare-knuckle",
-      "aName": "Cory Chapman",
-      "bName": "Lewis Dixon",
-      "a": "tap-574411-cory-chapman",
-      "b": "tap-566920-lewis-dixon",
-      "segment": "Main card"
-     },
-     {
-      "weightClass": "Welterweight",
-      "discipline": "Bare-knuckle",
-      "aName": "Doalty Torrance",
-      "bName": "Kyle Cassidy",
-      "a": "tap-527657-doalty-torrance",
-      "b": "tap-22496-kyle-cassidy",
-      "segment": "Main card"
-     },
-     {
-      "weightClass": "Featherweight",
-      "discipline": "Bare-knuckle",
-      "aName": "Lewis Knox",
-      "bName": "Tommy Carus",
-      "a": "tap-459243-lewis-knox",
-      "b": "tap-489907-tommy-carus-chaos",
       "segment": "Main card"
      },
      {
@@ -559,21 +766,21 @@
       "segment": "Main card"
      },
      {
-      "weightClass": "Middleweight",
+      "segment": "Main card",
       "discipline": "Bare-knuckle",
-      "aName": "Barry Aikman",
-      "bName": "Cory Hardy",
-      "a": "tap-588249-barry-aikman",
-      "b": "tap-256881-cory-hardy",
-      "segment": "Main card"
+      "a": "tap-527657-doalty-torrance",
+      "aName": "Doalty Torrance",
+      "b": "tap-132121-kj-metcalfe",
+      "bName": "KJ Metcalfe",
+      "weightClass": "Welterweight"
      },
      {
-      "weightClass": "Middleweight",
+      "weightClass": "Bantamweight",
       "discipline": "Bare-knuckle",
-      "aName": "Ian Mulroy",
-      "bName": "Charlie Thompson",
-      "a": "tap-545868-ian-mulroy",
-      "b": "tap-537957-charlie-thompson",
+      "aName": "Cory Chapman",
+      "bName": "Lewis Dixon",
+      "a": "tap-574411-cory-chapman",
+      "b": "tap-566920-lewis-dixon",
       "segment": "Main card"
      },
      {
@@ -584,9 +791,36 @@
       "a": "tap-534520-dan-morel",
       "b": "tap-588252-owen-webster",
       "segment": "Main card"
+     },
+     {
+      "weightClass": "Featherweight",
+      "discipline": "Bare-knuckle",
+      "aName": "Lewis Knox",
+      "bName": "Tommy Carus",
+      "a": "tap-459243-lewis-knox",
+      "b": "tap-489907-tommy-carus-chaos",
+      "segment": "Prelims"
+     },
+     {
+      "weightClass": "Light Heavyweight",
+      "discipline": "Bare-knuckle",
+      "aName": "Rhys Pagan",
+      "bName": "Danny Moir",
+      "a": "tap-269699-rhys-pagan",
+      "b": "tap-440336-danny-moir",
+      "segment": "Prelims"
+     },
+     {
+      "weightClass": "Middleweight",
+      "discipline": "Bare-knuckle",
+      "aName": "Ian Mulroy",
+      "bName": "Charlie Thompson",
+      "a": "tap-545868-ian-mulroy",
+      "b": "tap-537957-charlie-thompson",
+      "segment": "Prelims"
      }
     ],
-    "note": "BKFC.com and Tapology differ: BKFC.com also lists Gzim Selmani vs. Rob Cunningham and has Doalty Torrance facing KJ Metcalfe (Tapology: Kyle Cassidy), and does not list Barry Aikman vs. Cory Hardy. Shown here as Tapology lists it until the two agree."
+    "note": "Card per the official BKFC.com event page (2026-11-03): Sean Weir faces Leigh Cohoon for the vacant title after Conor Cooke came off the card; the last three bouts are the free undercard (1:00 PM ET). Records shown are professional MMA records (Tapology); bare-knuckle records are not included."
    },
    "times": [
     {
@@ -625,7 +859,7 @@
    "id": "ufc-fight-night-bonfim-vs-brady",
    "card": {
     "status": "announced",
-    "updated": "2026-10-31",
+    "updated": "2026-11-02",
     "sources": [
      "https://www.ufc.com/event/ufc-fight-night-november-07-2026",
      "https://www.tapology.com/fightcenter/events/147038-ufc-fight-night",
@@ -642,9 +876,9 @@
       "b": "tap-85671-johnny-walker",
       "bName": "Johnny Walker",
       "odds": {
-       "a": -195,
-       "b": 150,
-       "books": 5
+       "a": -225,
+       "b": 180,
+       "books": 7
       }
      },
      {
@@ -657,9 +891,9 @@
       "b": "tap-63005-tatiana-suarez",
       "bName": "Tatiana Suarez",
       "odds": {
-       "a": 163,
-       "b": -188,
-       "books": 5
+       "a": 165,
+       "b": -209,
+       "books": 7
       }
      },
      {
@@ -672,9 +906,9 @@
       "b": "tap-289643-elijah-smith",
       "bName": "Elijah Smith",
       "odds": {
-       "a": 175,
-       "b": -240,
-       "books": 4
+       "a": 240,
+       "b": -286,
+       "books": 7
       }
      },
      {
@@ -687,9 +921,9 @@
       "b": "tap-70129-wellington-turman-fofo",
       "bName": "Wellington Turman",
       "odds": {
-       "a": -550,
-       "b": 410,
-       "books": 5
+       "a": -755,
+       "b": 512,
+       "books": 6
       }
      },
      {
@@ -702,9 +936,9 @@
       "b": "tap-135406-lucas-fernando",
       "bName": "Lucas Fernando",
       "odds": {
-       "a": 205,
-       "b": -260,
-       "books": 5
+       "a": 240,
+       "b": -315,
+       "books": 7
       }
      },
      {
@@ -717,9 +951,24 @@
       "b": "tap-101215-mantas-kandratavicius",
       "bName": "Mantas Kondratavičius",
       "odds": {
-       "a": 235,
-       "b": -286,
-       "books": 5
+       "a": 240,
+       "b": -315,
+       "books": 7
+      }
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Heavyweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-187808-thomas-peterson",
+      "aName": "Thomas Petersen",
+      "b": "tap-311998-gabriel-lourenco",
+      "bName": "Gabriel Lorenço",
+      "odds": {
+       "a": -166,
+       "b": 130,
+       "books": 7
       }
      },
      {
@@ -732,24 +981,24 @@
       "b": "tap-193148-gabriela-fernandes-gaby",
       "bName": "Gabriella Fernandes",
       "odds": {
-       "a": -163,
-       "b": 135,
-       "books": 5
+       "a": -220,
+       "b": 172,
+       "books": 7
       }
      },
      {
       "segment": "Prelims",
-      "weightClass": "Welterweight",
+      "weightClass": "Flyweight",
       "rounds": 3,
       "discipline": "MMA",
-      "a": "tap-289580-jose-henrique-canela",
-      "aName": "José Souza",
-      "b": "tap-99713-johnny-parsons",
-      "bName": "Jonny Parsons",
+      "a": "tap-160416-mitch-raposo",
+      "aName": "Mitch Raposo",
+      "b": "tap-240354-marcos-tailandes",
+      "bName": "Marcos Degli",
       "odds": {
-       "a": -180,
-       "b": 141,
-       "books": 4
+       "a": 180,
+       "b": -225,
+       "books": 7
       }
      },
      {
@@ -762,9 +1011,9 @@
       "b": "tap-361797-murtazali-magomedov",
       "bName": "Murtazali Magomedov",
       "odds": {
-       "a": -118,
-       "b": -105,
-       "books": 5
+       "a": -111,
+       "b": -109,
+       "books": 7
       }
      },
      {
@@ -778,8 +1027,8 @@
       "bName": "Keiichiro Nakamura",
       "odds": {
        "a": 275,
-       "b": -350,
-       "books": 5
+       "b": -360,
+       "books": 7
       }
      },
      {
@@ -792,39 +1041,24 @@
       "b": "tap-355001-nina-nikolija-milosevic",
       "bName": "Nina Milošević",
       "odds": {
-       "a": 335,
-       "b": -450,
-       "books": 5
+       "a": 350,
+       "b": -480,
+       "books": 7
       }
      },
      {
       "segment": "Prelims",
-      "weightClass": "Flyweight",
+      "weightClass": "Welterweight",
       "rounds": 3,
       "discipline": "MMA",
-      "a": "tap-160416-mitch-raposo",
-      "aName": "Mitch Raposo",
-      "b": "tap-240354-marcos-tailandes",
-      "bName": "Marcos Degli",
+      "a": "tap-289580-jose-henrique-canela",
+      "aName": "José Souza",
+      "b": "tap-99713-johnny-parsons",
+      "bName": "Jonny Parsons",
       "odds": {
-       "a": 200,
-       "b": -250,
-       "books": 5
-      }
-     },
-     {
-      "segment": "Prelims",
-      "weightClass": "Heavyweight",
-      "rounds": 3,
-      "discipline": "MMA",
-      "a": "tap-187808-thomas-peterson",
-      "aName": "Thomas Petersen",
-      "b": "tap-311998-gabriel-lourenco",
-      "bName": "Gabriel Lorenço",
-      "odds": {
-       "a": -165,
-       "b": 138,
-       "books": 5
+       "a": -235,
+       "b": 188,
+       "books": 6
       }
      }
     ]
@@ -842,7 +1076,7 @@
    "odds": {
     "source": "BestFightOdds",
     "url": "https://www.bestfightodds.com/events/ufc-vegas-124-4437",
-    "asOf": "2026-11-01 14:03 UTC",
+    "asOf": "2026-11-03 14:20 UTC",
     "method": "consensus = median implied probability across the sportsbooks BestFightOdds listed for each fighter"
    }
   },
@@ -874,7 +1108,7 @@
    "id": "abc-presents-rizin-55-shinryu-vs-laramie",
    "card": {
     "status": "announced",
-    "updated": "2026-10-17",
+    "updated": "2026-11-03",
     "sources": [
      "https://www.tapology.com/fightcenter/events/146049-rizin-landmark-17-in-chiba",
      "https://en.wikipedia.org/wiki/2026_in_Rizin_Fighting_Federation#Rizin_55"
@@ -1020,6 +1254,16 @@
       "aName": "Naohiro Matsumoto",
       "b": "tap-516931-masachika-takahashi",
       "bName": "Masachika Takahashi"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Catchweight (157 lb)",
+      "rounds": 2,
+      "discipline": "MMA",
+      "a": "tap-295068-jake-wilkins",
+      "aName": "Jake Wilkins",
+      "b": "tap-517048-yajuro-yamazaki",
+      "bName": "Yajuro Yamasaki"
      }
     ]
    },
@@ -1043,8 +1287,8 @@
     "AU": "ESPN (Disney+ / Foxtel / Kayo)",
     "IE": "Sky Sports (app / YouTube)",
     "IN": "Star Sports Select 2 / JioHotstar",
-    "DE": "TBA",
-    "BR": "TBA"
+    "DE": "watch.onefc.com (free)",
+    "BR": "ONE YouTube / Facebook / watch.onefc.com (free)"
    },
    "sources": [
     "https://goodfights.app/schedule",
@@ -1056,9 +1300,10 @@
     "https://media.sportbusiness.com/news/star-india-agrees-multi-year-rights-deal-with-one-championship/",
     "https://www.onefc.com/events/one-friday-fights-178/",
     "https://www.onefc.com/news/how-to-watch-the-inner-circle-34-and-one-friday-fights-174-live-on-october-9/",
-    "https://live.onefc.com/"
+    "https://live.onefc.com/",
+    "https://www.onefc.com/news/how-to-watch-the-inner-circle-36-and-one-friday-fights-176-live-on-october-30/"
    ],
-   "notes": "Time = ONE Friday Fights broadcast (8:30 PM ICT). ONE.com lists this as a doubleheader starting 6:30 PM ICT with The Inner Circle 38 (live.onefc.com only); ONE's Friday Fights 174/175 guides put the Friday Fights broadcast 2 h after the opener — verify in fight week. Broadcasters from ONE's current rights deals (beIN SPORTS North America, ESPN Australia, Sky Sports UK & Ireland, Star/JioStar India), as confirmed on ONE's Friday Fights 175 watch guide; Germany/Brazil/other countries are usually ONE's own free stream (watch.onefc.com / YouTube) but not yet confirmed for this card — TBA.",
+   "notes": "Time = ONE Friday Fights broadcast (8:30 PM ICT). ONE.com lists this as a doubleheader starting 6:30 PM ICT with The Inner Circle 38 (live.onefc.com only); ONE's Friday Fights 174/175 guides put the Friday Fights broadcast 2 h after the opener — verify in fight week. Broadcasters from ONE's current rights deals (beIN SPORTS North America, ESPN Australia, Sky Sports UK & Ireland, Star/JioStar India), as confirmed on ONE's Friday Fights 175 watch guide; Germany (watch.onefc.com) and Brazil (ONE YouTube/Facebook/watch.onefc.com) as on ONE's Friday Fights 176 watch guide; the card-specific guide comes out in fight week.",
    "id": "one-friday-fights-178",
    "card": {
     "status": "announced",
@@ -1106,7 +1351,7 @@
    "promotion": "LFA",
    "date": "2026-11-13",
    "startUTC": "2026-11-14T02:00:00Z",
-   "venue": "TBA, Brazil",
+   "venue": "Ginásio do Polvilho, Cajamar, São Paulo, Brazil",
    "broadcasters": {
     "US": "VICE TV / FloSports",
     "UK": "TBA",
@@ -1122,7 +1367,7 @@
     "https://www.tapology.com/fightcenter/events/148241-lfa-246",
     "https://www.lfa.com/event/lfa-246/"
    ],
-   "notes": "Card and exact venue to be announced (Tapology: Brazil, Vice TV). Official (LFA.com): US on VICE TV and FloSports; Spanish-language ESPN Deportes (US) and ESPN KnockOut (Latin America). Other countries TBA.",
+   "notes": "Official (LFA.com): venue Ginásio do Polvilho, Cajamar (São Paulo); US on VICE TV and FloSports; Spanish-language ESPN Deportes (US) and ESPN KnockOut (Latin America). Other countries TBA.",
    "id": "lfa-246-tba",
    "card": {
     "status": "announced",
@@ -1293,14 +1538,15 @@
     "https://cagewarriors.com/cw-213-london/",
     "https://cagewarriors.com/cw-211-rome-official-fight-card-broadcast-times/"
    ],
-   "notes": "Start time = prelims, from the official event page countdown (the CW 211 countdown matched its official prelim start). Main card time is announced in fight week. Cage Warriors events stream on UFC Fight Pass (official site).",
+   "notes": "Start time = the official event page countdown (re-read 2026-11-02; it now ends 1 h later than when first read, after UK clocks went back). On CW 212 the countdown ended 30 min before the published prelims start, so treat it as approximate; main card time is announced in fight week. Cage Warriors events stream on UFC Fight Pass (official site).",
    "id": "cage-warriors-213-london",
    "card": {
     "status": "announced",
-    "updated": "2026-10-31",
+    "updated": "2026-11-02",
     "sources": [
      "https://www.tapology.com/fightcenter/events/148778-cage-warriors-213",
-     "https://en.wikipedia.org/wiki/2026_in_Cage_Warriors#Cage_Warriors_213"
+     "https://en.wikipedia.org/wiki/2026_in_Cage_Warriors#Cage_Warriors_213",
+     "https://cagewarriors.com/cw-213-london/"
     ],
     "bouts": [
      {
@@ -1384,13 +1630,23 @@
       "aName": "Ollie Sarwa",
       "b": "tap-190945-ieuan-mackenzie",
       "bName": "Ieuan Mackenzie"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Bantamweight",
+      "discipline": "MMA",
+      "a": null,
+      "aName": "Shirzad Qadrian",
+      "b": null,
+      "bName": "Manoel Silva"
      }
-    ]
+    ],
+    "note": "Official CW 213 page lists Ben Edwards vs. James Wamsley as a flyweight bout; Tapology and both fighters' records list welterweight, so welterweight is shown until confirmed."
    },
    "times": [
     {
-     "label": "Prelims (official countdown)",
-     "startUTC": "2026-11-14T17:00:00Z"
+     "label": "Countdown on official event page (likely prelims; main card time not yet published)",
+     "startUTC": "2026-11-14T18:00:00Z"
     }
    ]
   },
@@ -1620,7 +1876,7 @@
    "id": "ufc-334-gane-vs-hokit",
    "card": {
     "status": "announced",
-    "updated": "2026-10-31",
+    "updated": "2026-11-02",
     "sources": [
      "https://www.ufc.com/event/ufc-334",
      "https://www.tapology.com/fightcenter/events/147320-ufc-334",
@@ -1654,8 +1910,38 @@
       "b": "tap-amanda-nunes-lioness-of-the-ring",
       "bName": "Amanda Nunes",
       "odds": {
-       "a": -200,
-       "b": 162,
+       "a": -191,
+       "b": 163,
+       "books": 7
+      }
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Middleweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-107316-caio-borralho-cara-de-kombi",
+      "aName": "Caio Borralho",
+      "b": "tap-237485-yousri-belgaroui-baby-face-assassin",
+      "bName": "Yousri Belgaroui",
+      "odds": {
+       "a": -150,
+       "b": 120,
+       "books": 7
+      }
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Welterweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-175629-uros-medic",
+      "aName": "Uros Medic",
+      "b": "tap-35757-kevin-holland",
+      "bName": "Kevin Holland",
+      "odds": {
+       "a": -163,
+       "b": 130,
        "books": 7
       }
      },
@@ -1671,37 +1957,7 @@
       "odds": {
        "a": 575,
        "b": -910,
-       "books": 5
-      }
-     },
-     {
-      "segment": "Main card",
-      "weightClass": "Middleweight",
-      "rounds": 3,
-      "discipline": "MMA",
-      "a": "tap-107316-caio-borralho-cara-de-kombi",
-      "aName": "Caio Borralho",
-      "b": "tap-237485-yousri-belgaroui-baby-face-assassin",
-      "bName": "Yousri Belgaroui",
-      "odds": {
-       "a": -150,
-       "b": 120,
-       "books": 5
-      }
-     },
-     {
-      "segment": "Main card",
-      "weightClass": "Welterweight",
-      "rounds": 3,
-      "discipline": "MMA",
-      "a": "tap-175629-uros-medic",
-      "aName": "Uros Medic",
-      "b": "tap-35757-kevin-holland",
-      "bName": "Kevin Holland",
-      "odds": {
-       "a": -162,
-       "b": 130,
-       "books": 5
+       "books": 7
       }
      },
      {
@@ -1712,7 +1968,12 @@
       "a": "tap-16753-stephen-thompson-wonderboy",
       "aName": "Stephen Thompson",
       "b": "tap-29374-charlie-radtke",
-      "bName": "Charles Radtke"
+      "bName": "Charles Radtke",
+      "odds": {
+       "a": -122,
+       "b": 105,
+       "books": 4
+      }
      },
      {
       "segment": "Prelims",
@@ -1722,7 +1983,12 @@
       "a": "tap-drew-dober",
       "aName": "Drew Dober",
       "b": "tap-68484-chris-duncan",
-      "bName": "Chris Duncan"
+      "bName": "Chris Duncan",
+      "odds": {
+       "a": 117,
+       "b": -143,
+       "books": 4
+      }
      },
      {
       "segment": "Prelims",
@@ -1732,17 +1998,12 @@
       "a": "tap-jim-miller",
       "aName": "Jim Miller",
       "b": "tap-126382-terrance-mckinney",
-      "bName": "Terrance McKinney"
-     },
-     {
-      "segment": "Prelims",
-      "weightClass": "Women's Bantamweight",
-      "rounds": 3,
-      "discipline": "MMA",
-      "a": "tap-77737-macy-chiasson",
-      "aName": "Macy Chiasson",
-      "b": "tap-210835-beatriz-mesquita",
-      "bName": "Bia Mesquita"
+      "bName": "Terrance McKinney",
+      "odds": {
+       "a": 171,
+       "b": -222,
+       "books": 4
+      }
      },
      {
       "segment": "Prelims",
@@ -1752,7 +2013,12 @@
       "a": "tap-342862-donte-johnson",
       "aName": "Donte Johnson",
       "b": "tap-126015-csar-almeida",
-      "bName": "César Almeida"
+      "bName": "César Almeida",
+      "odds": {
+       "a": -155,
+       "b": 130,
+       "books": 3
+      }
      },
      {
       "segment": "Prelims",
@@ -1762,7 +2028,12 @@
       "a": "tap-101043-melquizael-costa-melkcalty",
       "aName": "Melquizael Costa",
       "b": "tap-17754-jared-gordon",
-      "bName": "Jared Gordon"
+      "bName": "Jared Gordon",
+      "odds": {
+       "a": -400,
+       "b": 310,
+       "books": 3
+      }
      },
      {
       "segment": "Prelims",
@@ -1772,14 +2043,34 @@
       "a": "tap-108144-evan-elders",
       "aName": "Evan Elder",
       "b": "tap-305793-samuel-sanches",
-      "bName": "Samuel Sanches"
+      "bName": "Samuel Sanches",
+      "odds": {
+       "a": -110,
+       "b": -110,
+       "books": 3
+      }
+     },
+     {
+      "segment": "Early prelims",
+      "weightClass": "Women's Bantamweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-77737-macy-chiasson",
+      "aName": "Macy Chiasson",
+      "b": "tap-210835-beatriz-mesquita",
+      "bName": "Bia Mesquita",
+      "odds": {
+       "a": 171,
+       "b": -222,
+       "books": 4
+      }
      }
     ]
    },
    "odds": {
     "source": "BestFightOdds",
     "url": "https://www.bestfightodds.com/events/ufc-334-4370",
-    "asOf": "2026-11-01 14:03 UTC",
+    "asOf": "2026-11-03 14:20 UTC",
     "method": "consensus = median implied probability across the sportsbooks BestFightOdds listed for each fighter"
    },
    "times": [
@@ -1919,8 +2210,8 @@
     "AU": "ESPN (Disney+ / Foxtel / Kayo)",
     "IE": "Sky Sports (app / YouTube)",
     "IN": "Star Sports Select 2 / JioHotstar",
-    "DE": "TBA",
-    "BR": "TBA"
+    "DE": "watch.onefc.com (free)",
+    "BR": "ONE YouTube / Facebook / watch.onefc.com (free)"
    },
    "sources": [
     "https://www.tapology.com/fightcenter/events/147738-one-friday-fights-179",
@@ -1931,9 +2222,10 @@
     "https://media.sportbusiness.com/news/star-india-agrees-multi-year-rights-deal-with-one-championship/",
     "https://www.onefc.com/events/one-friday-fights-179/",
     "https://www.onefc.com/news/how-to-watch-the-inner-circle-34-and-one-friday-fights-174-live-on-october-9/",
-    "https://live.onefc.com/"
+    "https://live.onefc.com/",
+    "https://www.onefc.com/news/how-to-watch-the-inner-circle-36-and-one-friday-fights-176-live-on-october-30/"
    ],
-   "notes": "Time = ONE Friday Fights broadcast (8:30 PM ICT). ONE.com lists this as a doubleheader starting 6:30 PM ICT with The Inner Circle 39 (live.onefc.com only); ONE's Friday Fights 174/175 guides put the Friday Fights broadcast 2 h after the opener — verify in fight week. Tapology lists broadcast: YouTube — not confirmed per country. Broadcasters from ONE's current rights deals (beIN SPORTS North America, ESPN Australia, Sky Sports UK & Ireland, Star/JioStar India), as confirmed on ONE's Friday Fights 175 watch guide; Germany/Brazil/other countries are usually ONE's own free stream (watch.onefc.com / YouTube) but not yet confirmed for this card — TBA.",
+   "notes": "Time = ONE Friday Fights broadcast (8:30 PM ICT). ONE.com lists this as a doubleheader starting 6:30 PM ICT with The Inner Circle 39 (live.onefc.com only); ONE's Friday Fights 174/175 guides put the Friday Fights broadcast 2 h after the opener — verify in fight week. Tapology lists broadcast: YouTube — not confirmed per country. Broadcasters from ONE's current rights deals (beIN SPORTS North America, ESPN Australia, Sky Sports UK & Ireland, Star/JioStar India), as confirmed on ONE's Friday Fights 175 watch guide; Germany (watch.onefc.com) and Brazil (ONE YouTube/Facebook/watch.onefc.com) as on ONE's Friday Fights 176 watch guide; the card-specific guide comes out in fight week.",
    "card": {
     "status": "announced",
     "updated": "2026-10-26",
@@ -2125,7 +2417,7 @@
    "notes": "Start time per Tapology (9:00 PM ET main card, matches LFA.com). Official: VICE TV in the US (Spanish simulcast ESPN Deportes), ESPN across Latin America incl. Brazil, main card worldwide on LFA Fight Network on YouTube.",
    "card": {
     "status": "announced",
-    "updated": "2026-10-31",
+    "updated": "2026-11-03",
     "sources": [
      "https://www.tapology.com/fightcenter/events/148242-lfa-247"
     ],
@@ -2201,16 +2493,6 @@
       "bName": "Ricardo Hussein"
      },
      {
-      "segment": "Main card",
-      "weightClass": "Light Heavyweight",
-      "rounds": 3,
-      "discipline": "MMA",
-      "a": "tap-335495-talal-yousufzai",
-      "aName": "Talal Yousufzai",
-      "b": "tap-217853-joshua-mcreynolds",
-      "bName": "Joshua McReynolds"
-     },
-     {
       "segment": "Prelims",
       "weightClass": "Featherweight",
       "rounds": 3,
@@ -2242,6 +2524,26 @@
      },
      {
       "segment": "Prelims",
+      "weightClass": "Catchweight (132 lb)",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-82597-nolan-linebaugh",
+      "aName": "Nolan Linebaugh",
+      "b": "tap-187761-joseph-rivas",
+      "bName": "Joseph Rivas"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Featherweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-450722-jacob-lagoa",
+      "aName": "Jacob Lagoa",
+      "b": "tap-340947-zane-corey",
+      "bName": "Zane Corey"
+     },
+     {
+      "segment": "Prelims",
       "weightClass": "Welterweight",
       "rounds": 3,
       "discipline": "MMA",
@@ -2249,9 +2551,19 @@
       "aName": "Sean Polk",
       "b": "tap-324998-luke-la-vanway",
       "bName": "Luke La Vanway"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Light Heavyweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-335495-talal-yousufzai",
+      "aName": "Talal Yousufzai",
+      "b": "tap-217853-joshua-mcreynolds",
+      "bName": "Joshua McReynolds"
      }
     ],
-    "note": "Partially announced card (12 bouts confirmed on Tapology); remaining bouts TBA."
+    "note": "Partially announced card (14 bouts confirmed on Tapology); remaining bouts TBA."
    },
    "id": "lfa-247-breno-vs-torres",
    "times": [
@@ -2566,7 +2878,7 @@
    "odds": {
     "source": "BestFightOdds",
     "url": "https://www.bestfightodds.com/events/ksw-123-4423",
-    "asOf": "2026-11-01 14:03 UTC",
+    "asOf": "2026-11-03 14:20 UTC",
     "method": "consensus = median implied probability across the sportsbooks BestFightOdds listed for each fighter"
    }
   },
@@ -2595,7 +2907,7 @@
    "id": "ufc-fight-night-prochazka-vs-stirling",
    "card": {
     "status": "announced",
-    "updated": "2026-10-31",
+    "updated": "2026-11-02",
     "sources": [
      "https://www.ufc.com/event/ufc-fight-night-november-21-2026",
      "https://www.tapology.com/fightcenter/events/148467-ufc-fight-night",
@@ -2610,7 +2922,12 @@
       "a": "tap-34779-jiri-prochazka",
       "aName": "Jiří Procházka",
       "b": "tap-259609-navajo-sterling",
-      "bName": "Navajo Stirling"
+      "bName": "Navajo Stirling",
+      "odds": {
+       "a": 110,
+       "b": -138,
+       "books": 1
+      }
      },
      {
       "segment": "Main card",
@@ -2704,16 +3021,6 @@
      },
      {
       "segment": "Prelims",
-      "weightClass": "Women's Bantamweight",
-      "rounds": 3,
-      "discipline": "MMA",
-      "a": "tap-196666-jaqueline-cavalcanti",
-      "aName": "Jacqueline Cavalcanti",
-      "b": "tap-237486-michell-montague",
-      "bName": "Michelle Montague"
-     },
-     {
-      "segment": "Prelims",
       "weightClass": "Light Heavyweight",
       "rounds": 3,
       "discipline": "MMA",
@@ -2733,7 +3040,13 @@
      "label": "Prelims",
      "startUTC": "2026-11-21T15:00:00Z"
     }
-   ]
+   ],
+   "odds": {
+    "source": "BestFightOdds",
+    "url": "https://www.bestfightodds.com/events/ufc-doha-4440",
+    "asOf": "2026-11-03 14:20 UTC",
+    "method": "consensus = median implied probability across the sportsbooks BestFightOdds listed for each fighter"
+   }
   },
   {
    "name": "ONE Friday Fights 180",
@@ -2748,8 +3061,8 @@
     "AU": "ESPN (Disney+ / Foxtel / Kayo)",
     "IE": "Sky Sports (app / YouTube)",
     "IN": "Star Sports Select 2 / JioHotstar",
-    "DE": "TBA",
-    "BR": "TBA"
+    "DE": "watch.onefc.com (free)",
+    "BR": "ONE YouTube / Facebook / watch.onefc.com (free)"
    },
    "sources": [
     "https://www.tapology.com/fightcenter/events/147739-one-friday-fights-180",
@@ -2760,9 +3073,10 @@
     "https://media.sportbusiness.com/news/star-india-agrees-multi-year-rights-deal-with-one-championship/",
     "https://www.onefc.com/events/one-friday-fights-180/",
     "https://www.onefc.com/news/how-to-watch-the-inner-circle-34-and-one-friday-fights-174-live-on-october-9/",
-    "https://live.onefc.com/"
+    "https://live.onefc.com/",
+    "https://www.onefc.com/news/how-to-watch-the-inner-circle-36-and-one-friday-fights-176-live-on-october-30/"
    ],
-   "notes": "Time = ONE Friday Fights broadcast (8:30 PM ICT). ONE.com lists this as a doubleheader starting 6:30 PM ICT with The Inner Circle 40 (live.onefc.com only); ONE's Friday Fights 174/175 guides put the Friday Fights broadcast 2 h after the opener — verify in fight week. Tapology lists broadcast: YouTube — not confirmed per country. Broadcasters from ONE's current rights deals (beIN SPORTS North America, ESPN Australia, Sky Sports UK & Ireland, Star/JioStar India), as confirmed on ONE's Friday Fights 175 watch guide; Germany/Brazil/other countries are usually ONE's own free stream (watch.onefc.com / YouTube) but not yet confirmed for this card — TBA.",
+   "notes": "Time = ONE Friday Fights broadcast (8:30 PM ICT). ONE.com lists this as a doubleheader starting 6:30 PM ICT with The Inner Circle 40 (live.onefc.com only); ONE's Friday Fights 174/175 guides put the Friday Fights broadcast 2 h after the opener — verify in fight week. Tapology lists broadcast: YouTube — not confirmed per country. Broadcasters from ONE's current rights deals (beIN SPORTS North America, ESPN Australia, Sky Sports UK & Ireland, Star/JioStar India), as confirmed on ONE's Friday Fights 175 watch guide; Germany (watch.onefc.com) and Brazil (ONE YouTube/Facebook/watch.onefc.com) as on ONE's Friday Fights 176 watch guide; the card-specific guide comes out in fight week.",
    "card": {
     "status": "tba",
     "updated": "2026-10-17",
@@ -2805,10 +3119,10 @@
     "https://cagewarriors.com/cw-unplugged-nov27th/",
     "https://cagewarriors.com/cw-211-rome-official-fight-card-broadcast-times/"
    ],
-   "notes": "Start time = prelims, from the official event page countdown (the CW 211 countdown matched its official prelim start). Main card time is announced in fight week. Cage Warriors events stream on UFC Fight Pass (official site).",
+   "notes": "Start time = the official event page countdown (re-read 2026-11-02; it now ends 1 h later than when first read, after UK clocks went back). On CW 212 the countdown ended 30 min before the published prelims start, so treat it as approximate; main card time is announced in fight week. Cage Warriors events stream on UFC Fight Pass (official site).",
    "card": {
     "status": "announced",
-    "updated": "2026-10-31",
+    "updated": "2026-11-02",
     "sources": [
      "https://www.tapology.com/fightcenter/events/147415-cage-warriors-unplugged"
     ],
@@ -2892,15 +3206,25 @@
       "aName": "Mohamed El Karchouh",
       "b": "tap-337390-kevin-kehoe",
       "bName": "Kevin Kehoe"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Flyweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-365573-nat-wood",
+      "aName": "Nathanael Woods",
+      "b": "tap-407678-angelo-terenzio",
+      "bName": "Angelo Terenzio"
      }
     ],
-    "note": "Partially announced card (8 bouts confirmed on Tapology); remaining bouts TBA."
+    "note": "Partially announced card (9 bouts confirmed on Tapology); remaining bouts TBA."
    },
    "id": "cage-warriors-214-unplugged",
    "times": [
     {
-     "label": "Prelims (official countdown)",
-     "startUTC": "2026-11-27T19:00:00Z"
+     "label": "Countdown on official event page (likely prelims; main card time not yet published)",
+     "startUTC": "2026-11-27T20:00:00Z"
     }
    ]
   },
@@ -2926,12 +3250,13 @@
     "https://cagewarriors.com/cw-manchester-nov-28th/",
     "https://cagewarriors.com/cw-211-rome-official-fight-card-broadcast-times/"
    ],
-   "notes": "Start time = prelims, from the official event page countdown (the CW 211 countdown matched its official prelim start). Main card time is announced in fight week. Cage Warriors events stream on UFC Fight Pass (official site).",
+   "notes": "Start time = the official event page countdown (re-read 2026-11-02; it now ends 1 h later than when first read, after UK clocks went back). On CW 212 the countdown ended 30 min before the published prelims start, so treat it as approximate; main card time is announced in fight week. Cage Warriors events stream on UFC Fight Pass (official site).",
    "card": {
     "status": "announced",
-    "updated": "2026-10-31",
+    "updated": "2026-11-03",
     "sources": [
-     "https://www.tapology.com/fightcenter/events/147416-cage-warriors-manchester"
+     "https://www.tapology.com/fightcenter/events/147416-cage-warriors-manchester",
+     "https://cagewarriors.com/cw-manchester-nov-28th/"
     ],
     "bouts": [
      {
@@ -3054,15 +3379,25 @@
       "aName": "Adam Cullen",
       "b": "tap-101971-jefferson-andr",
       "bName": "Jefferson André"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Middleweight",
+      "discipline": "MMA",
+      "a": "tap-178732-emile-vujakovic",
+      "aName": "Emile Vujakovic",
+      "b": "tap-147092-mario-mingaj",
+      "bName": "Mario Mingaj",
+      "rounds": 3
      }
     ],
-    "note": "Partially announced card (12 bouts confirmed on Tapology); remaining bouts TBA."
+    "note": "Partially announced card (13 bouts confirmed on Tapology); remaining bouts TBA."
    },
    "id": "cage-warriors-215-davies-vs-vucenic",
    "times": [
     {
-     "label": "Prelims (official countdown)",
-     "startUTC": "2026-11-28T16:30:00Z"
+     "label": "Countdown on official event page (likely prelims; main card time not yet published)",
+     "startUTC": "2026-11-28T17:30:00Z"
     }
    ]
   },
@@ -3128,8 +3463,8 @@
     "AU": "ESPN (Disney+ / Foxtel / Kayo)",
     "IE": "Sky Sports (app / YouTube)",
     "IN": "Star Sports Select 2 / JioHotstar",
-    "DE": "TBA",
-    "BR": "TBA"
+    "DE": "watch.onefc.com (free)",
+    "BR": "ONE YouTube / Facebook / watch.onefc.com (free)"
    },
    "sources": [
     "https://www.tapology.com/fightcenter/events/147741-one-friday-fights-181",
@@ -3140,9 +3475,10 @@
     "https://media.sportbusiness.com/news/star-india-agrees-multi-year-rights-deal-with-one-championship/",
     "https://www.onefc.com/events/one-friday-fights-181/",
     "https://www.onefc.com/news/how-to-watch-the-inner-circle-34-and-one-friday-fights-174-live-on-october-9/",
-    "https://live.onefc.com/"
+    "https://live.onefc.com/",
+    "https://www.onefc.com/news/how-to-watch-the-inner-circle-36-and-one-friday-fights-176-live-on-october-30/"
    ],
-   "notes": "Time = ONE Friday Fights broadcast (8:30 PM ICT). ONE.com lists this as a doubleheader starting 6:30 PM ICT with The Inner Circle 41 (live.onefc.com only); ONE's Friday Fights 174/175 guides put the Friday Fights broadcast 2 h after the opener — verify in fight week. Tapology lists broadcast: YouTube — not confirmed per country. Broadcasters from ONE's current rights deals (beIN SPORTS North America, ESPN Australia, Sky Sports UK & Ireland, Star/JioStar India), as confirmed on ONE's Friday Fights 175 watch guide; Germany/Brazil/other countries are usually ONE's own free stream (watch.onefc.com / YouTube) but not yet confirmed for this card — TBA.",
+   "notes": "Time = ONE Friday Fights broadcast (8:30 PM ICT). ONE.com lists this as a doubleheader starting 6:30 PM ICT with The Inner Circle 41 (live.onefc.com only); ONE's Friday Fights 174/175 guides put the Friday Fights broadcast 2 h after the opener — verify in fight week. Tapology lists broadcast: YouTube — not confirmed per country. Broadcasters from ONE's current rights deals (beIN SPORTS North America, ESPN Australia, Sky Sports UK & Ireland, Star/JioStar India), as confirmed on ONE's Friday Fights 175 watch guide; Germany (watch.onefc.com) and Brazil (ONE YouTube/Facebook/watch.onefc.com) as on ONE's Friday Fights 176 watch guide; the card-specific guide comes out in fight week.",
    "card": {
     "status": "tba",
     "updated": "2026-10-17",
@@ -3186,7 +3522,7 @@
    "notes": "Bare-knuckle. Main card 8:00 PM ET per BKFC.com event page (free-fights start time not yet listed). Broadcasters TBA until BKFC publishes a broadcast notice (event page links BKFC+).",
    "card": {
     "status": "announced",
-    "updated": "2026-10-26",
+    "updated": "2026-11-03",
     "sources": [
      "https://www.tapology.com/fightcenter/events/148983-bkfc-fight-night-hershey"
     ],
@@ -3198,8 +3534,57 @@
       "aName": "Dustin Pague",
       "b": "tap-11407-mike-richman-the-marine",
       "bName": "Mike Richman"
+     },
+     {
+      "segment": "Main card",
+      "discipline": "Bare-knuckle",
+      "a": "tap-sam-alvey",
+      "aName": "Sam Alvey",
+      "b": "tap-355473-jonathan-miller-slugga",
+      "bName": "Johnathan Miller"
+     },
+     {
+      "segment": "Main card",
+      "discipline": "Bare-knuckle",
+      "a": "tap-98220-matthew-semelsberger",
+      "aName": "Matthew Semelsberger",
+      "b": "tap-54916-michael-manno",
+      "bName": "Michael Manno"
+     },
+     {
+      "segment": "Main card",
+      "discipline": "Bare-knuckle",
+      "a": "tap-481626-pat-carroll",
+      "aName": "Pat Carroll",
+      "b": "tap-234705-nelson-best",
+      "bName": "Nelson Best"
+     },
+     {
+      "segment": "Main card",
+      "discipline": "Bare-knuckle",
+      "a": "tap-77891-elijah-harris",
+      "aName": "Elijah Harris",
+      "b": "tap-128470-steve-morris",
+      "bName": "Stevo Morris"
+     },
+     {
+      "segment": "Main card",
+      "discipline": "Bare-knuckle",
+      "a": "tap-jay-haas",
+      "aName": "Jay Haas",
+      "b": "tap-168153-eduardo-peralta",
+      "bName": "Eduardo Peralta"
+     },
+     {
+      "segment": "Main card",
+      "discipline": "Bare-knuckle",
+      "a": "tap-384032-colin-reeser",
+      "aName": "Colin Reeser",
+      "b": "tap-463043-fabricio-berrun",
+      "bName": "Fabricio Berrun"
      }
-    ]
+    ],
+    "note": "Records shown are professional MMA records (Tapology); bare-knuckle records are not included. Partially announced card (7 bouts confirmed on Tapology); remaining bouts TBA."
    },
    "id": "bkfc-fight-night-hershey",
    "times": [
@@ -3337,7 +3722,7 @@
    "notes": "Start 17:00 local per the official event page. Official: PPV live stream on OKTAGON.TV worldwide (not geo-blocked), except Germany/Austria/Switzerland (RTL+, exclusive DACH deal) and Poland (TVP Sport).",
    "card": {
     "status": "announced",
-    "updated": "2026-10-26",
+    "updated": "2026-11-03",
     "sources": [
      "https://www.tapology.com/fightcenter/events/145012-oktagon-98"
     ],
@@ -3401,9 +3786,29 @@
       "aName": "Ali Gündüz",
       "b": "tap-390307-abdullah-sultani",
       "bName": "Abdullah Sultani"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Lightweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-341218-murat-tuysuz",
+      "aName": "Murat Tüysüz",
+      "b": "tap-197428-jan-stanovsky",
+      "bName": "Jan Stanovský"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Lightweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-381071-furkan-ugur",
+      "aName": "Furkan Ugur",
+      "b": "tap-213131-said-osmanov",
+      "bName": "Said Osmanov"
      }
     ],
-    "note": "Partially announced card (6 bouts confirmed on Tapology); remaining bouts TBA."
+    "note": "Partially announced card (8 bouts confirmed on Tapology); remaining bouts TBA."
    },
    "id": "oktagon-99",
    "times": [
@@ -3435,12 +3840,13 @@
     "https://cagewarriors.com/cw-newcastle-dec-5th/",
     "https://cagewarriors.com/cw-211-rome-official-fight-card-broadcast-times/"
    ],
-   "notes": "Start time = prelims, from the official event page countdown (the CW 211 countdown matched its official prelim start). Main card time is announced in fight week. Cage Warriors events stream on UFC Fight Pass (official site).",
+   "notes": "Start time = the official event page countdown (re-read 2026-11-02; it now ends 1 h later than when first read, after UK clocks went back). On CW 212 the countdown ended 30 min before the published prelims start, so treat it as approximate; main card time is announced in fight week. Cage Warriors events stream on UFC Fight Pass (official site).",
    "card": {
     "status": "announced",
-    "updated": "2026-10-31",
+    "updated": "2026-11-03",
     "sources": [
-     "https://www.tapology.com/fightcenter/events/147408-cage-warriors"
+     "https://www.tapology.com/fightcenter/events/147408-cage-warriors",
+     "https://cagewarriors.com/cw-newcastle-dec-5th/"
     ],
     "bouts": [
      {
@@ -3522,15 +3928,25 @@
       "aName": "Leon Armes",
       "b": "tap-86653-manny-akpan",
       "bName": "Manny Akpan"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Featherweight",
+      "discipline": "MMA",
+      "a": "tap-113777-bailey-gilbert",
+      "aName": "Bailey Gilbert",
+      "b": "tap-116879-julien-lopez",
+      "bName": "Julien Lopez",
+      "rounds": 3
      }
     ],
-    "note": "Partially announced card (8 bouts confirmed on Tapology); remaining bouts TBA."
+    "note": "Partially announced card (9 bouts confirmed on Tapology); remaining bouts TBA."
    },
    "id": "cage-warriors-216-newcastle",
    "times": [
     {
-     "label": "Prelims (official countdown)",
-     "startUTC": "2026-12-05T17:30:00Z"
+     "label": "Countdown on official event page (likely prelims; main card time not yet published)",
+     "startUTC": "2026-12-05T18:30:00Z"
     }
    ]
   },
@@ -3547,8 +3963,8 @@
     "AU": "ESPN (Disney+ / Foxtel / Kayo)",
     "IE": "Sky Sports (app / YouTube)",
     "IN": "Star Sports Select 2 / JioHotstar",
-    "DE": "TBA",
-    "BR": "TBA"
+    "DE": "watch.onefc.com (free)",
+    "BR": "ONE YouTube / Facebook / watch.onefc.com (free)"
    },
    "sources": [
     "https://www.tapology.com/fightcenter/events/147742-one-friday-fights-182",
@@ -3559,9 +3975,10 @@
     "https://media.sportbusiness.com/news/star-india-agrees-multi-year-rights-deal-with-one-championship/",
     "https://www.onefc.com/events/one-friday-fights-182/",
     "https://www.onefc.com/news/how-to-watch-the-inner-circle-34-and-one-friday-fights-174-live-on-october-9/",
-    "https://live.onefc.com/"
+    "https://live.onefc.com/",
+    "https://www.onefc.com/news/how-to-watch-the-inner-circle-36-and-one-friday-fights-176-live-on-october-30/"
    ],
-   "notes": "Time = ONE Friday Fights broadcast (8:30 PM ICT). ONE.com lists this as a doubleheader starting 6:30 PM ICT with The Inner Circle 42 (live.onefc.com only); ONE's Friday Fights 174/175 guides put the Friday Fights broadcast 2 h after the opener — verify in fight week. Tapology lists broadcast: YouTube — not confirmed per country. Broadcasters from ONE's current rights deals (beIN SPORTS North America, ESPN Australia, Sky Sports UK & Ireland, Star/JioStar India), as confirmed on ONE's Friday Fights 175 watch guide; Germany/Brazil/other countries are usually ONE's own free stream (watch.onefc.com / YouTube) but not yet confirmed for this card — TBA.",
+   "notes": "Time = ONE Friday Fights broadcast (8:30 PM ICT). ONE.com lists this as a doubleheader starting 6:30 PM ICT with The Inner Circle 42 (live.onefc.com only); ONE's Friday Fights 174/175 guides put the Friday Fights broadcast 2 h after the opener — verify in fight week. Tapology lists broadcast: YouTube — not confirmed per country. Broadcasters from ONE's current rights deals (beIN SPORTS North America, ESPN Australia, Sky Sports UK & Ireland, Star/JioStar India), as confirmed on ONE's Friday Fights 175 watch guide; Germany (watch.onefc.com) and Brazil (ONE YouTube/Facebook/watch.onefc.com) as on ONE's Friday Fights 176 watch guide; the card-specific guide comes out in fight week.",
    "card": {
     "status": "tba",
     "updated": "2026-10-17",
@@ -3672,14 +4089,24 @@
     "https://www.tapology.com/fightcenter/events/149587-bkfc-97",
     "https://www.bkfc.com/events/bkfc-hollywood-3"
    ],
-   "notes": "Bare-knuckle. Main card 8:00 PM ET, free fights 7:00 PM ET per BKFC.com event page; fights to be announced. Broadcasters TBA until BKFC publishes a broadcast notice (event page links BKFC+).",
+   "notes": "Bare-knuckle. Main card 8:00 PM ET, free fights 7:00 PM ET per BKFC.com event page; card being announced (see fight card). Broadcasters TBA until BKFC publishes a broadcast notice (event page links BKFC+).",
    "card": {
-    "status": "tba",
-    "updated": "2026-10-26",
+    "status": "announced",
+    "updated": "2026-11-03",
     "sources": [
      "https://www.tapology.com/fightcenter/events/149587-bkfc-97"
     ],
-    "bouts": []
+    "bouts": [
+     {
+      "segment": "Main card",
+      "discipline": "Bare-knuckle",
+      "a": "tap-274042-bryce-henry",
+      "aName": "Bryce Henry",
+      "b": "tap-18435-clay-collard",
+      "bName": "Clay Collard"
+     }
+    ],
+    "note": "Records shown are professional MMA records (Tapology); bare-knuckle records are not included. Partially announced card (1 bout confirmed on Tapology); remaining bouts TBA."
    },
    "id": "bkfc-97",
    "times": [
@@ -3706,7 +4133,7 @@
     "AU": "ESPN (Disney+ / Foxtel / Kayo)",
     "IE": "Sky Sports",
     "IN": "JioHotstar / Star Sports Select 2",
-    "DE": "TBA",
+    "DE": "ONE free stream (watch.onefc.com / YouTube / Facebook)",
     "BR": "Combate / SporTV"
    },
    "sources": [
@@ -3877,7 +4304,7 @@
    "featured": true,
    "card": {
     "status": "announced",
-    "updated": "2026-10-26",
+    "updated": "2026-11-02",
     "sources": [
      "https://www.ufc.com/event/ufc-335",
      "https://www.tapology.com/fightcenter/events/147321-ufc-335"
@@ -3983,15 +4410,25 @@
       "aName": "Angela Hill",
       "b": "tap-221195-shanelle-dyer",
       "bName": "Shanelle Dyer"
+     },
+     {
+      "segment": "Prelims",
+      "weightClass": "Women's Bantamweight",
+      "rounds": 3,
+      "discipline": "MMA",
+      "a": "tap-196666-jaqueline-cavalcanti",
+      "aName": "Jacqueline Cavalcanti",
+      "b": "tap-237486-michell-montague",
+      "bName": "Michelle Montague"
      }
     ],
-    "note": "Partially announced card (9 bouts confirmed on Tapology); remaining bouts TBA."
+    "note": "Partially announced card (10 bouts confirmed on Tapology); remaining bouts TBA."
    },
    "id": "ufc-335-oliveira-vs-lopes",
    "odds": {
     "source": "BestFightOdds",
     "url": "https://www.bestfightodds.com/events/ufc-335-4394",
-    "asOf": "2026-11-01 14:03 UTC",
+    "asOf": "2026-11-03 14:20 UTC",
     "method": "consensus = median implied probability across the sportsbooks BestFightOdds listed for each fighter"
    },
    "times": [
@@ -4022,8 +4459,8 @@
     "AU": "ESPN (Disney+ / Foxtel / Kayo)",
     "IE": "Sky Sports (app / YouTube)",
     "IN": "Star Sports Select 2 / JioHotstar",
-    "DE": "TBA",
-    "BR": "TBA"
+    "DE": "watch.onefc.com (free)",
+    "BR": "ONE YouTube / Facebook / watch.onefc.com (free)"
    },
    "sources": [
     "https://www.tapology.com/fightcenter/events/147743-one-friday-fights-183",
@@ -4034,12 +4471,13 @@
     "https://media.sportbusiness.com/news/star-india-agrees-multi-year-rights-deal-with-one-championship/",
     "https://www.onefc.com/events/one-friday-fights-183/",
     "https://www.onefc.com/news/how-to-watch-the-inner-circle-34-and-one-friday-fights-174-live-on-october-9/",
-    "https://live.onefc.com/"
+    "https://live.onefc.com/",
+    "https://www.onefc.com/news/how-to-watch-the-inner-circle-36-and-one-friday-fights-176-live-on-october-30/"
    ],
-   "notes": "Time = ONE Friday Fights broadcast (8:30 PM ICT). ONE.com lists this as a doubleheader starting 6:30 PM ICT with The Inner Circle 43 (live.onefc.com only); ONE's Friday Fights 174/175 guides put the Friday Fights broadcast 2 h after the opener — verify in fight week. Tapology lists broadcast: YouTube — not confirmed per country. Broadcasters from ONE's current rights deals (beIN SPORTS North America, ESPN Australia, Sky Sports UK & Ireland, Star/JioStar India), as confirmed on ONE's Friday Fights 175 watch guide; Germany/Brazil/other countries are usually ONE's own free stream (watch.onefc.com / YouTube) but not yet confirmed for this card — TBA.",
+   "notes": "Time = ONE Friday Fights broadcast (8:30 PM ICT). ONE.com lists this as a doubleheader starting 6:30 PM ICT with The Inner Circle 43 (live.onefc.com only); ONE's Friday Fights 174/175 guides put the Friday Fights broadcast 2 h after the opener — verify in fight week. Tapology lists broadcast: YouTube — not confirmed per country. Broadcasters from ONE's current rights deals (beIN SPORTS North America, ESPN Australia, Sky Sports UK & Ireland, Star/JioStar India), as confirmed on ONE's Friday Fights 175 watch guide; Germany (watch.onefc.com) and Brazil (ONE YouTube/Facebook/watch.onefc.com) as on ONE's Friday Fights 176 watch guide; the card-specific guide comes out in fight week.",
    "card": {
     "status": "announced",
-    "updated": "2026-10-31",
+    "updated": "2026-11-02",
     "sources": [
      "https://www.tapology.com/fightcenter/events/147743-one-friday-fights-183",
      "https://www.onefc.com/events/one-friday-fights-183/"

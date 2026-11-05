@@ -10,8 +10,8 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:ksw-124-pawlak-vs-kuberski@getcagetime.com
-DTSTAMP:20261031T000000Z
-LAST-MODIFIED:20261031T000000Z
+DTSTAMP:20261101T000000Z
+LAST-MODIFIED:20261101T000000Z
 DTSTART:20261219T170000Z
 DTEND:20261219T200000Z
 SUMMARY:KSW 124: Pawlak vs. Kuberski (Card start per Tapology (unofficial\;
@@ -26,9 +26,11 @@ DESCRIPTION:TIMES\nCard start per Tapology (unofficial\; may be prelims): S
  ł Pawlak vs. Piotr Kuberski (Middleweight)\nŠtefan Vojčák vs. Artur Sz
  pilka (Heavyweight)\nRafał Haratyk vs. Andi Vrtačić (Middleweight)\nAda
  m Soldaev vs. Hugo Deux (Lightweight)\nDawid Kuczmarski vs. Adam Niedźwie
- dź (Welterweight)\n\nEvent page: https://getcagetime.com/events/ksw-124-p
- awlak-vs-kuberski/\nTimes and broadcasters can change\; check the event pa
- ge. From CageTime (getcagetime.com).
+ dź (Welterweight)\nOleksiy Polischuck vs. Souheil Kaouchen (Featherweight
+ )\nKacper Sochacki vs. Aleksander Winiarski (Light Heavyweight)\n\nEvent p
+ age: https://getcagetime.com/events/ksw-124-pawlak-vs-kuberski/\nTimes and
+  broadcasters can change\; check the event page. From CageTime (getcagetim
+ e.com).
 URL:https://getcagetime.com/events/ksw-124-pawlak-vs-kuberski/
 CATEGORIES:KSW,MMA
 STATUS:CONFIRMED

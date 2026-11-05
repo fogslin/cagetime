@@ -10,8 +10,8 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:oktagon-100-jotko-vs-muradov@getcagetime.com
-DTSTAMP:20261031T000000Z
-LAST-MODIFIED:20261031T000000Z
+DTSTAMP:20261101T000000Z
+LAST-MODIFIED:20261101T000000Z
 DTSTART:20261229T170000Z
 DTEND:20261229T200000Z
 SUMMARY:OKTAGON 100: Jotko vs. Muradov
@@ -22,10 +22,10 @@ DESCRIPTION:TIMES\nEvent start (official\; no separate main-card time publi
  (PPV)\nAustralia: OKTAGON.TV (PPV)\nIreland: OKTAGON.TV (PPV)\nIndia: OKTA
  GON.TV (PPV)\nGermany: RTL+\nBrazil: OKTAGON.TV (PPV)\n\nFIGHT CARD\n— M
  ain card —\nKrzysztof Jotko vs. Makhmud Muradov (Middleweight)\nVladimí
- r Lengál vs. Josef Hála (165 lb)\nAttila Végh vs. Luke Barnatt\n\nEvent
-  page: https://getcagetime.com/events/oktagon-100-jotko-vs-muradov/\nTimes
-  and broadcasters can change\; check the event page. From CageTime (getcag
- etime.com).
+ r Lengál vs. Josef Hála (165 lb)\nAttila Végh vs. Luke Barnatt\nKarlos 
+ Vémola vs. Tomasz Narkun (Light Heavyweight)\n\nEvent page: https://getca
+ getime.com/events/oktagon-100-jotko-vs-muradov/\nTimes and broadcasters ca
+ n change\; check the event page. From CageTime (getcagetime.com).
 URL:https://getcagetime.com/events/oktagon-100-jotko-vs-muradov/
 CATEGORIES:OKTAGON,MMA
 STATUS:CONFIRMED

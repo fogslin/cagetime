@@ -10,8 +10,8 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:oktagon-98-legierski-vs-buchinger@getcagetime.com
-DTSTAMP:20261031T000000Z
-LAST-MODIFIED:20261031T000000Z
+DTSTAMP:20261101T000000Z
+LAST-MODIFIED:20261101T000000Z
 DTSTART:20261121T170000Z
 DTEND:20261121T200000Z
 SUMMARY:OKTAGON 98: Legierski vs. Buchinger
@@ -28,10 +28,10 @@ DESCRIPTION:TIMES\nEvent start (official\; no separate main-card time publi
  ateusz Janur (Middleweight)\nOndřej Raška vs. Dominic Schober (Middlewei
  ght)\nTomáš Mudroch vs. Jason Ponet (Catchweight (163 lb))\nDominik Tabo
  r vs. Deniz Ilbay (152 lb)\nMichaela Hlaváčiková vs. Marta Sós (Women'
- s Flyweight)\nDawid Śmiełowski vs. Arbi Mezhidov (Lightweight)\n\nEvent 
- page: https://getcagetime.com/events/oktagon-98-legierski-vs-buchinger/\nT
- imes and broadcasters can change\; check the event page. From CageTime (ge
- tcagetime.com).
+ s Flyweight)\nDawid Śmiełowski vs. Arbi Mezhidov (Lightweight)\nJames He
+ ndin vs. Sayed Murtaza Sadat (Featherweight)\n\nEvent page: https://getcag
+ etime.com/events/oktagon-98-legierski-vs-buchinger/\nTimes and broadcaster
+ s can change\; check the event page. From CageTime (getcagetime.com).
 URL:https://getcagetime.com/events/oktagon-98-legierski-vs-buchinger/
 CATEGORIES:OKTAGON,MMA
 STATUS:CONFIRMED

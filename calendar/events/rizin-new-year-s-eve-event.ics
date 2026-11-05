@@ -3,29 +3,36 @@ VERSION:2.0
 PRODID:-//CageTime//getcagetime.com//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:RIZIN: New Year's Eve Event
+X-WR-CALNAME:Super RIZIN.6: Shiwasu No Owari Nagoya Gekokujo Matsuri
 X-WR-CALDESC:From CageTime (getcagetime.com)
 X-WR-TIMEZONE:UTC
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:rizin-new-year-s-eve-event@getcagetime.com
-DTSTAMP:20261031T000000Z
-LAST-MODIFIED:20261031T000000Z
+DTSTAMP:20261101T000000Z
+LAST-MODIFIED:20261101T000000Z
 DTSTART:20261231T050000Z
 DTEND:20261231T080000Z
-SUMMARY:RIZIN: New Year's Eve Event (Card start per Tapology (unofficial\; 
- may be prelims))
+SUMMARY:Super RIZIN.6: Shiwasu No Owari Nagoya Gekokujo Matsuri (Card start
+  per Tapology (unofficial\; may be prelims))
 LOCATION:Vantelin Dome Nagoya\, Nagoya\, Aichi\, Japan
 DESCRIPTION:TIMES\nCard start per Tapology (unofficial\; may be prelims): T
  hu Dec 31 12:00 AM EST (05:00 UTC)\nMain card time not published yet\; thi
  s entry starts at the earliest listed time.\n\nWHERE TO WATCH\nUnited Stat
  es: TBA\nUnited Kingdom: TBA\nCanada: TBA\nAustralia: TBA\nIreland: TBA\nI
  ndia: TBA\nGermany: TBA\nBrazil: TBA\n\nFIGHT CARD\n— Main card —\nRaz
- habali Shaydullaev vs. Kyoma Akimoto (Featherweight (66 kg))\n\nEvent page
- : https://getcagetime.com/events/rizin-new-year-s-eve-event/\nTimes and br
- oadcasters can change\; check the event page. From CageTime (getcagetime.c
- om).
+ habali Shaydullaev vs. Kyoma Akimoto (Featherweight (66 kg))\nLuiz Gustavo
+  vs. Mikuru Asakura (Catchweight (157 lb))\nChihiro Suzuki vs. Ren Sugiyam
+ a (Catchweight (146 lb))\nSaori Oshima vs. Natasha Kuziutina (Catchweight 
+ (108 lb))\nTsuyoshi Sudario vs. King Edokpolo (Heavyweight)\nHiroya Kondo 
+ vs. Joe Hiramoto (Catchweight (126 lb))\nKyohei Takagi vs. Tatsuki Shinots
+ uka (Catchweight (126 lb))\nYutaro Muramoto vs. Erson Yamamoto (Catchweigh
+ t (126 lb))\nDaichi Tomizawa vs. Ryo Kawabata (Catchweight (130 lb))\nChri
+ stian Akira Matsuo vs. Sora Kaneko (Catchweight (134 lb))\n\nEvent page: h
+ ttps://getcagetime.com/events/rizin-new-year-s-eve-event/\nTimes and broad
+ casters can change\; check the event page. From CageTime (getcagetime.com)
+ .
 URL:https://getcagetime.com/events/rizin-new-year-s-eve-event/
 CATEGORIES:RIZIN,MMA
 STATUS:CONFIRMED

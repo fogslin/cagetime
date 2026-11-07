@@ -10,8 +10,8 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:one-samurai-5-pacio-vs-yamakita@getcagetime.com
-DTSTAMP:20261031T000000Z
-LAST-MODIFIED:20261031T000000Z
+DTSTAMP:20261101T000000Z
+LAST-MODIFIED:20261101T000000Z
 DTSTART:20261118T083000Z
 DTEND:20261118T113000Z
 SUMMARY:ONE Samurai 5: Pacio vs. Yamakita (Card start per Tapology (unoffic
@@ -26,9 +26,11 @@ DESCRIPTION:TIMES\nCard start per Tapology (unofficial\; may be prelims): W
  Jamari (Strawweight)\nMasashi Kumura vs. Ellis Barboza (Strawweight)\nJarr
  ed Brooks vs. Tatsumitsu Wada (Strawweight)\nRyugo Takeuchi vs. Brandon Ha
  shimoto (Heavyweight)\nReiji Takagi vs. Rui Botelho (Strawweight)\nYuki Ha
- mada vs. Shuto Inui (Bantamweight)\n\nEvent page: https://getcagetime.com/
- events/one-samurai-5-pacio-vs-yamakita/\nTimes and broadcasters can change
- \; check the event page. From CageTime (getcagetime.com).
+ mada vs. Shuto Inui (Bantamweight)\nYutaro Asahi vs. Petchtanong Banchamek
+  (Featherweight)\nYugo Kato vs. Jurai Ishii (Strawweight)\nShosuke Kinoshi
+ ta vs. Takuya Shibamura (Featherweight)\n\nEvent page: https://getcagetime
+ .com/events/one-samurai-5-pacio-vs-yamakita/\nTimes and broadcasters can c
+ hange\; check the event page. From CageTime (getcagetime.com).
 URL:https://getcagetime.com/events/one-samurai-5-pacio-vs-yamakita/
 CATEGORIES:ONE,MMA
 STATUS:CONFIRMED

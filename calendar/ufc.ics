@@ -11,8 +11,8 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:ufc-fight-night-buckley-vs-malott@getcagetime.com
-DTSTAMP:20261101T000000Z
-LAST-MODIFIED:20261101T000000Z
+DTSTAMP:20261107T000000Z
+LAST-MODIFIED:20261107T000000Z
 DTSTART:20261018T000000Z
 DTEND:20261018T030000Z
 SUMMARY:UFC Fight Night: Buckley vs. Malott
@@ -42,8 +42,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-333-volkanovski-vs-evloev@getcagetime.com
-DTSTAMP:20261101T000000Z
-LAST-MODIFIED:20261101T000000Z
+DTSTAMP:20261107T000000Z
+LAST-MODIFIED:20261107T000000Z
 DTSTART:20261024T180000Z
 DTEND:20261024T210000Z
 SUMMARY:UFC 333: Volkanovski vs. Evloev
@@ -76,8 +76,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-fight-night-moicano-vs-nolan@getcagetime.com
-DTSTAMP:20261101T000000Z
-LAST-MODIFIED:20261101T000000Z
+DTSTAMP:20261107T000000Z
+LAST-MODIFIED:20261107T000000Z
 DTSTART:20261101T000000Z
 DTEND:20261101T030000Z
 SUMMARY:UFC Fight Night: Moicano vs. Nolan
@@ -157,12 +157,13 @@ DESCRIPTION:TIMES\nEarly prelims: Sat Nov 14 5:00 PM EST (22:00 UTC)\nPreli
  Kevin Holland (Welterweight)\nLuis Gurule vs. Bilal Hasan (Flyweight)\n—
   Prelims —\nStephen Thompson vs. Charles Radtke (Welterweight)\nDrew Dob
  er vs. Chris Duncan (Lightweight)\nJim Miller vs. Terrance McKinney (Light
- weight)\nDonte Johnson vs. César Almeida (Middleweight)\nMelquizael Costa
-  vs. Jared Gordon (Lightweight)\nEvan Elder vs. Samuel Sanches (Lightweigh
- t)\n— Early prelims —\nMacy Chiasson vs. Bia Mesquita (Women's Bantamw
- eight)\n\nEvent page: https://getcagetime.com/events/ufc-334-gane-vs-hokit
- /\nTimes and broadcasters can change\; check the event page. From CageTime
-  (getcagetime.com).
+ weight)\nDonte Johnson vs. César Almeida (Middleweight)\n— Early prelim
+ s —\nMelquizael Costa vs. Jared Gordon (Lightweight)\nMacy Chiasson vs. 
+ Bia Mesquita (Women's Bantamweight)\nEvan Elder vs. Samuel Sanches (Lightw
+ eight)\n— Prelims —\nAlatengheili vs. Juan Díaz (Bantamweight)\n\nEve
+ nt page: https://getcagetime.com/events/ufc-334-gane-vs-hokit/\nTimes and 
+ broadcasters can change\; check the event page. From CageTime (getcagetime
+ .com).
 URL:https://getcagetime.com/events/ufc-334-gane-vs-hokit/
 CATEGORIES:UFC,MMA
 STATUS:CONFIRMED
@@ -182,8 +183,8 @@ DESCRIPTION:TIMES\nPrelims: Sat Nov 21 10:00 AM EST (15:00 UTC)\nMain card:
   / TVA Sports\nAustralia: Paramount+\nIreland: TNT Sports\nIndia: Sony TEN
   2\nGermany: DAZN\nBrazil: Paramount+\n\nFIGHT CARD\n— Main card —\nJi
  ří Procházka vs. Navajo Stirling (Light Heavyweight)\nAljamain Sterling
-  vs. Kevin Vallejos (Featherweight)\nKyoji Horiguchi vs. Asu Almabayev (Fl
- yweight)\nDan Hooker vs. Brian Ortega (Lightweight)\nIkram Aliskerov vs. J
+  vs. Kevin Vallejos (Featherweight)\nDan Hooker vs. Brian Ortega (Lightwei
+ ght)\nKyoji Horiguchi vs. Asu Almabayev (Flyweight)\nIkram Aliskerov vs. J
  ared Cannonier (Middleweight)\n— Prelims —\nSantiago Luna vs. Aleksand
  re Topuria (Bantamweight)\nShamil Gaziev vs. Tallison Teixeira (Heavyweigh
  t)\nAmir Albazi vs. Alessandro Costa (Flyweight)\nJake Matthews vs. Tahir 
@@ -217,9 +218,10 @@ DESCRIPTION:TIMES\nCard start per Tapology (unofficial\; may be prelims): S
  o Rodrigues (Middleweight)\nAbdul Hussein vs. Hecher Sosa (Bantamweight)\n
  Levan Chokheli vs. Islam Dulatov (Welterweight)\nUran Satybaldiev vs. Ivan
   Gnizditskiy (Light Heavyweight)\nJun Yong Park vs. Marco Tulio (Middlewei
- ght)\nMairon Santos vs. Akbar Abdullaev (Lightweight)\n\nEvent page: https
- ://getcagetime.com/events/ufc-fight-night-riyadh/\nTimes and broadcasters 
- can change\; check the event page. From CageTime (getcagetime.com).
+ ght)\nMairon Santos vs. Akbar Abdullaev (Lightweight)\nMahammadali Osmanli
+  vs. Pavel Andrusca (Bantamweight)\n\nEvent page: https://getcagetime.com/
+ events/ufc-fight-night-riyadh/\nTimes and broadcasters can change\; check 
+ the event page. From CageTime (getcagetime.com).
 URL:https://getcagetime.com/events/ufc-fight-night-riyadh/
 CATEGORIES:UFC,MMA
 STATUS:CONFIRMED

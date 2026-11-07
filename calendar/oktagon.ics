@@ -11,8 +11,8 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:oktagon-95-skvor-vs-narkun@getcagetime.com
-DTSTAMP:20261101T000000Z
-LAST-MODIFIED:20261101T000000Z
+DTSTAMP:20261107T000000Z
+LAST-MODIFIED:20261107T000000Z
 DTSTART:20261017T160000Z
 DTEND:20261017T190000Z
 SUMMARY:OKTAGON 95: Škvor vs. Narkun
@@ -39,8 +39,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:oktagon-96-gogoladze-vs-klinkhammer@getcagetime.com
-DTSTAMP:20261101T000000Z
-LAST-MODIFIED:20261101T000000Z
+DTSTAMP:20261107T000000Z
+LAST-MODIFIED:20261107T000000Z
 DTSTART:20261031T160000Z
 DTEND:20261031T190000Z
 SUMMARY:OKTAGON 96: Gogoladze vs. Ayari
@@ -89,10 +89,10 @@ DESCRIPTION:TIMES\nEvent start (official\; no separate main-card time publi
  ght)\nJan Holzer vs. Jan Švagerko (Welterweight)\nIslam Djabrailov vs. K
  enji Bortoluzzi (Featherweight)\nJosefine Knutsson vs. Yasmin Guimarães (
  Women's Strawweight)\nMatheus Severino vs. Mohammed Walid (Bantamweight)\n
- Kathrin Haberle vs. Thais Vasconcelos (Women's Bantamweight)\n\nEvent page
- : https://getcagetime.com/events/oktagon-97-severino-vs-holzer/\nTimes and
-  broadcasters can change\; check the event page. From CageTime (getcagetim
- e.com).
+ Kathrin Haberle vs. Poliana Albuquerque (Women's Bantamweight)\n\nEvent pa
+ ge: https://getcagetime.com/events/oktagon-97-severino-vs-holzer/\nTimes a
+ nd broadcasters can change\; check the event page. From CageTime (getcaget
+ ime.com).
 URL:https://getcagetime.com/events/oktagon-97-severino-vs-holzer/
 CATEGORIES:OKTAGON,MMA
 STATUS:CONFIRMED

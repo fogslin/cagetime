@@ -11,8 +11,8 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:one-samurai-4-haggerty-vs-akimoto@getcagetime.com
-DTSTAMP:20261101T000000Z
-LAST-MODIFIED:20261101T000000Z
+DTSTAMP:20261107T000000Z
+LAST-MODIFIED:20261107T000000Z
 DTSTART:20261017T063000Z
 DTEND:20261017T093000Z
 SUMMARY:ONE Samurai 4: Haggerty vs. Akimoto
@@ -44,8 +44,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:one-friday-fights-176@getcagetime.com
-DTSTAMP:20261101T000000Z
-LAST-MODIFIED:20261101T000000Z
+DTSTAMP:20261107T000000Z
+LAST-MODIFIED:20261107T000000Z
 DTSTART:20261030T133000Z
 DTEND:20261030T163000Z
 SUMMARY:ONE Friday Fights 176
@@ -77,32 +77,34 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:one-friday-fights-177@getcagetime.com
-DTSTAMP:20261101T000000Z
-LAST-MODIFIED:20261101T000000Z
+DTSTAMP:20261107T000000Z
+LAST-MODIFIED:20261107T000000Z
 DTSTART:20261106T133000Z
 DTEND:20261106T163000Z
 SUMMARY:ONE Friday Fights 177
 LOCATION:Lumpinee Stadium\, Bangkok\, Thailand
-DESCRIPTION:TIMES\nThe Inner Circle pre-show (live.onefc.com): Fri Nov 6 6:
- 30 AM EST (11:30 UTC)\nONE Friday Fights: Fri Nov 6 8:30 AM EST (13:30 UTC
- )\n\nWHERE TO WATCH\nUnited States: beIN SPORTS\nUnited Kingdom: Sky Sport
- s (app / YouTube)\nCanada: beIN SPORTS\nAustralia: ESPN (Disney+ / Foxtel 
- / Kayo)\nIreland: Sky Sports (app / YouTube)\nIndia: Star Sports Select 2 
- / JioHotstar\nGermany: watch.onefc.com (free)\nBrazil: ONE YouTube / Faceb
- ook / watch.onefc.com (free)\n\nFIGHT CARD\n— Main card —\nIsanNua Cho
- tbangsaen vs. Jack Apichat Muaythai (Bantamweight)\nSaksri Kiatmoo9 vs. Su
- perball Sitcho (Flyweight)\nChatpet Suablackmuaythai vs. Saipetlek Coachna
- tsamartmuaythai (Atomweight)\nPetdam BS Muaythai vs. Chaisongkhram Looksua
- n (Atomweight)\nKlinphakha Por.Thaisong vs. Longshu Ran (Atomweight)\nPhun
-  Suea Muang vs. Kazuteru Yamazaki (Flyweight)\nChayut Rojanakat vs. Kentar
- o Okumura (Bantamweight)\nOga Silk MuayThai vs. Yuhi (Atomweight)\nMarats 
- Jankovskis vs. Retsu Sashida (Flyweight)\nChristian Lee vs. Tye Ruotolo (L
- ightweight)\n— Prelims —\nKomAwut FAGroup vs. Yodphupha Wimanair (Bant
- amweight)\nKongchai ChanaiDonMuang vs. Tantawy Ahmed Hafez (Flyweight)\nTi
- tus Proctor vs. Maciej Karpiński (Lightweight)\nCal Cook vs. Dabdam Thong
- tawee (Strawweight)\n\nEvent page: https://getcagetime.com/events/one-frid
- ay-fights-177/\nTimes and broadcasters can change\; check the event page. 
- From CageTime (getcagetime.com).
+DESCRIPTION:RESULTS: https://getcagetime.com/results/one-friday-fights-177/
+ \nMain event: Jack Apichat Muaythai def. IsanNua Chotbangsaen by Decision 
+ (R3 3:00)\n\nTIMES\nThe Inner Circle pre-show (live.onefc.com): Fri Nov 6 
+ 6:30 AM EST (11:30 UTC)\nONE Friday Fights: Fri Nov 6 8:30 AM EST (13:30 U
+ TC)\n\nWHERE TO WATCH\nUnited States: beIN SPORTS\nUnited Kingdom: Sky Spo
+ rts (app / YouTube)\nCanada: beIN SPORTS\nAustralia: ESPN (Disney+ / Foxte
+ l / Kayo)\nIreland: Sky Sports (app / YouTube)\nIndia: Star Sports Select 
+ 2 / JioHotstar\nGermany: watch.onefc.com (free)\nBrazil: ONE YouTube / Fac
+ ebook / watch.onefc.com (free)\n\nFIGHT CARD\n— Main card —\nIsanNua C
+ hotbangsaen vs. Jack Apichat Muaythai (Bantamweight)\nSaksri Kiatmoo9 vs. 
+ Superball Sitcho (Flyweight)\nChatpet Suablackmuaythai vs. Saipetlek Coach
+ natsamartmuaythai (Atomweight)\nPetdam BS Muaythai vs. Chaisongkhram Looks
+ uan (Atomweight)\nKlinphakha Por.Thaisong vs. Longshu Ran (Atomweight)\nPh
+ un Suea Muang vs. Kazuteru Yamazaki (Flyweight)\nChayut Rojanakat vs. Kent
+ aro Okumura (Bantamweight)\nOga Silk MuayThai vs. Yuhi (Atomweight)\nMarat
+ s Jankovskis vs. Retsu Sashida (Flyweight)\nChristian Lee vs. Tye Ruotolo 
+ (Lightweight)\n— Prelims —\nKomAwut FAGroup vs. Yodphupha Wimanair (Ba
+ ntamweight)\nKongchai ChanaiDonMuang vs. Tantawy Ahmed Hafez (Flyweight)\n
+ Titus Proctor vs. Maciej Karpiński (Lightweight)\nCal Cook vs. Dabdam Tho
+ ngtawee (Strawweight)\n\nEvent page: https://getcagetime.com/events/one-fr
+ iday-fights-177/\nTimes and broadcasters can change\; check the event page
+ . From CageTime (getcagetime.com).
 URL:https://getcagetime.com/events/one-friday-fights-177/
 CATEGORIES:ONE,MMA
 STATUS:CONFIRMED
@@ -110,27 +112,29 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:one-fight-night-49-gabriel-vs-rasulov@getcagetime.com
-DTSTAMP:20261101T000000Z
-LAST-MODIFIED:20261101T000000Z
+DTSTAMP:20261107T000000Z
+LAST-MODIFIED:20261107T000000Z
 DTSTART:20261107T020000Z
 DTEND:20261107T050000Z
 SUMMARY:ONE Fight Night 49: Gabriel vs. Magomedov
 LOCATION:Lumpinee Boxing Stadium\, Bangkok\, Thailand
-DESCRIPTION:TIMES\nEvent start (ONE.com: live in U.S. primetime): Fri Nov 6
-  9:00 PM EST (02:00 UTC)\n\nWHERE TO WATCH\nUnited States: Prime Video\nUn
- ited Kingdom: Sky Sports\nCanada: Prime Video\nAustralia: ESPN (Disney+ / 
- Foxtel / Kayo)\nIreland: Sky Sports\nIndia: JioHotstar / Star Sports Selec
- t 2\nGermany: ONE free stream (watch.onefc.com / YouTube / Facebook)\nBraz
- il: Combate / SporTV\n\nFIGHT CARD\n— Main card —\nLucas Gabriel vs. M
- agomed Magomedov (Lightweight)\nKongthoranee vs. Taiki Naito (Flyweight)\n
- Seung Chul Lee vs. Nazareth Lalthazuala (Strawweight)\nNontachai Jitmuangn
- on vs. Felipe Lobo (Bantamweight)\nJiaqiang Zhou vs. Mamuka Usubyan (Feath
- erweight)\nVictória Souza vs. Magdalena Czaban (Women's Atomweight)\nBogd
- an Shumarov vs. Gasham Mammadov (Lightweight)\nVictor Hugo vs. Devhonte Jo
- hnson (Openweight)\nQalandar Tabarov vs. Ilmadi Israilov (Bantamweight)\n\
- nEvent page: https://getcagetime.com/events/one-fight-night-49-gabriel-vs-
- rasulov/\nTimes and broadcasters can change\; check the event page. From C
- ageTime (getcagetime.com).
+DESCRIPTION:RESULTS: https://getcagetime.com/results/one-fight-night-49-gab
+ riel-vs-rasulov/\nMain event: Magomed Magomedov def. Lucas Gabriel by Deci
+ sion (R3 5:00)\n\nTIMES\nEvent start (ONE.com: live in U.S. primetime): Fr
+ i Nov 6 9:00 PM EST (02:00 UTC)\n\nWHERE TO WATCH\nUnited States: Prime Vi
+ deo\nUnited Kingdom: Sky Sports\nCanada: Prime Video\nAustralia: ESPN (Dis
+ ney+ / Foxtel / Kayo)\nIreland: Sky Sports\nIndia: JioHotstar / Star Sport
+ s Select 2\nGermany: ONE free stream (watch.onefc.com / YouTube / Facebook
+ )\nBrazil: Combate / SporTV\n\nFIGHT CARD\n— Main card —\nLucas Gabrie
+ l vs. Magomed Magomedov (Lightweight)\nKongthoranee vs. Taiki Naito (Flywe
+ ight)\nSeung Chul Lee vs. Nazareth Lalthazuala (Strawweight)\nNontachai Ji
+ tmuangnon vs. Felipe Lobo (Bantamweight)\nJiaqiang Zhou vs. Mamuka Usubyan
+  (Featherweight)\nVictória Souza vs. Magdalena Czaban (Women's Atomweight
+ )\nBogdan Shumarov vs. Gasham Mammadov (Lightweight)\nVictor Hugo vs. Devh
+ onte Johnson (Openweight)\nQalandar Tabarov vs. Ilmadi Israilov (Bantamwei
+ ght)\n\nEvent page: https://getcagetime.com/events/one-fight-night-49-gabr
+ iel-vs-rasulov/\nTimes and broadcasters can change\; check the event page.
+  From CageTime (getcagetime.com).
 URL:https://getcagetime.com/events/one-fight-night-49-gabriel-vs-rasulov/
 CATEGORIES:ONE,MMA
 STATUS:CONFIRMED
@@ -150,11 +154,12 @@ DESCRIPTION:TIMES\nThe Inner Circle pre-show (live.onefc.com): Fri Nov 13 6
  rts (app / YouTube)\nCanada: beIN SPORTS\nAustralia: ESPN (Disney+ / Foxte
  l / Kayo)\nIreland: Sky Sports (app / YouTube)\nIndia: Star Sports Select 
  2 / JioHotstar\nGermany: watch.onefc.com (free)\nBrazil: ONE YouTube / Fac
- ebook / watch.onefc.com (free)\n\nFIGHT CARD\n— Prelims —\nRodtang Jit
- muangnon vs. Nong-O (Flyweight)\nShimon Yoshinari vs. Ramadan Ondash (Flyw
- eight)\n\nEvent page: https://getcagetime.com/events/one-friday-fights-178
- /\nTimes and broadcasters can change\; check the event page. From CageTime
-  (getcagetime.com).
+ ebook / watch.onefc.com (free)\n\nFIGHT CARD\n— Main card —\nYodlekpet
+  Or Atchariya vs. Kyaw Swar Win (Bantamweight)\n— Prelims —\nRodtang J
+ itmuangnon vs. Nong-O (Flyweight)\nShimon Yoshinari vs. Ramadan Ondash (Fl
+ yweight)\n\nEvent page: https://getcagetime.com/events/one-friday-fights-1
+ 78/\nTimes and broadcasters can change\; check the event page. From CageTi
+ me (getcagetime.com).
 URL:https://getcagetime.com/events/one-friday-fights-178/
 CATEGORIES:ONE,MMA
 STATUS:CONFIRMED
@@ -178,9 +183,11 @@ DESCRIPTION:TIMES\nCard start per Tapology (unofficial\; may be prelims): W
  Jamari (Strawweight)\nMasashi Kumura vs. Ellis Barboza (Strawweight)\nJarr
  ed Brooks vs. Tatsumitsu Wada (Strawweight)\nRyugo Takeuchi vs. Brandon Ha
  shimoto (Heavyweight)\nReiji Takagi vs. Rui Botelho (Strawweight)\nYuki Ha
- mada vs. Shuto Inui (Bantamweight)\n\nEvent page: https://getcagetime.com/
- events/one-samurai-5-pacio-vs-yamakita/\nTimes and broadcasters can change
- \; check the event page. From CageTime (getcagetime.com).
+ mada vs. Shuto Inui (Bantamweight)\nYutaro Asahi vs. Petchtanong Banchamek
+  (Featherweight)\nYugo Kato vs. Jurai Ishii (Strawweight)\nShosuke Kinoshi
+ ta vs. Takuya Shibamura (Featherweight)\n\nEvent page: https://getcagetime
+ .com/events/one-samurai-5-pacio-vs-yamakita/\nTimes and broadcasters can c
+ hange\; check the event page. From CageTime (getcagetime.com).
 URL:https://getcagetime.com/events/one-samurai-5-pacio-vs-yamakita/
 CATEGORIES:ONE,MMA
 STATUS:CONFIRMED
@@ -225,9 +232,11 @@ DESCRIPTION:TIMES\nThe Inner Circle pre-show (live.onefc.com): Fri Nov 27 6
  rts (app / YouTube)\nCanada: beIN SPORTS\nAustralia: ESPN (Disney+ / Foxte
  l / Kayo)\nIreland: Sky Sports (app / YouTube)\nIndia: Star Sports Select 
  2 / JioHotstar\nGermany: watch.onefc.com (free)\nBrazil: ONE YouTube / Fac
- ebook / watch.onefc.com (free)\n\nFight card TBA\n\nEvent page: https://ge
- tcagetime.com/events/one-friday-fights-180/\nTimes and broadcasters can ch
- ange\; check the event page. From CageTime (getcagetime.com).
+ ebook / watch.onefc.com (free)\n\nFIGHT CARD\n— Prelims —\nYodkhunpon 
+ vs. Detchawalit Silkmuaythai (Bantamweight)\nWorapon Kiatchachanan vs. Kon
+ gklai AnnyMuayThai (Bantamweight)\n\nEvent page: https://getcagetime.com/e
+ vents/one-friday-fights-180/\nTimes and broadcasters can change\; check th
+ e event page. From CageTime (getcagetime.com).
 URL:https://getcagetime.com/events/one-friday-fights-180/
 CATEGORIES:ONE,MMA
 STATUS:CONFIRMED
@@ -291,9 +300,10 @@ DESCRIPTION:TIMES\nThe Inner Circle pre-show (live.onefc.com): Fri Dec 11 6
  rts (app / YouTube)\nCanada: beIN SPORTS\nAustralia: ESPN (Disney+ / Foxte
  l / Kayo)\nIreland: Sky Sports (app / YouTube)\nIndia: Star Sports Select 
  2 / JioHotstar\nGermany: watch.onefc.com (free)\nBrazil: ONE YouTube / Fac
- ebook / watch.onefc.com (free)\n\nFight card TBA\n\nEvent page: https://ge
- tcagetime.com/events/one-friday-fights-182/\nTimes and broadcasters can ch
- ange\; check the event page. From CageTime (getcagetime.com).
+ ebook / watch.onefc.com (free)\n\nFIGHT CARD\n— Prelims —\nJohan Ghaza
+ li vs. Johan Estupiñan (Flyweight)\n\nEvent page: https://getcagetime.com
+ /events/one-friday-fights-182/\nTimes and broadcasters can change\; check 
+ the event page. From CageTime (getcagetime.com).
 URL:https://getcagetime.com/events/one-friday-fights-182/
 CATEGORIES:ONE,MMA
 STATUS:CONFIRMED
@@ -314,12 +324,14 @@ DESCRIPTION:TIMES\nCard start per Tapology (unofficial\; may be prelims): F
  s: Prime Video\nUnited Kingdom: Sky Sports\nCanada: Prime Video\nAustralia
  : ESPN (Disney+ / Foxtel / Kayo)\nIreland: Sky Sports\nIndia: JioHotstar /
   Star Sports Select 2\nGermany: ONE free stream (watch.onefc.com / YouTube
-  / Facebook)\nBrazil: Combate / SporTV\n\nFIGHT CARD\n— Main card —\nK
- ade Ruotolo vs. Rae Yoon Ok (Lightweight)\nMaurice Abévi vs. Dzhabir Dzha
- brailov (Welterweight)\nBampara Kouyate vs. Ricardo Bravo (Featherweight)\
- nSuablack Tor.Pran49 vs. Jordan Estupiñan (Flyweight)\n\nEvent page: http
- s://getcagetime.com/events/one-fight-night-50/\nTimes and broadcasters can
-  change\; check the event page. From CageTime (getcagetime.com).
+  / Facebook)\nBrazil: Combate / SporTV\n\nFIGHT CARD\n— Main card —\nD
+ iogo Reis vs. Bebeto Oliveira (Flyweight)\nKade Ruotolo vs. Rae Yoon Ok (L
+ ightweight)\nMaurice Abévi vs. Dzhabir Dzhabrailov (Welterweight)\nBampar
+ a Kouyate vs. Ricardo Bravo (Featherweight)\nSuablack Tor.Pran49 vs. Jorda
+ n Estupiñan (Flyweight)\nSelina Flores vs. Kana Morimoto (Atomweight)\n\n
+ Event page: https://getcagetime.com/events/one-fight-night-50/\nTimes and 
+ broadcasters can change\; check the event page. From CageTime (getcagetime
+ .com).
 URL:https://getcagetime.com/events/one-fight-night-50/
 CATEGORIES:ONE,MMA
 STATUS:CONFIRMED
@@ -341,9 +353,9 @@ DESCRIPTION:TIMES\nThe Inner Circle pre-show (live.onefc.com): Fri Dec 18 6
  2 / JioHotstar\nGermany: watch.onefc.com (free)\nBrazil: ONE YouTube / Fac
  ebook / watch.onefc.com (free)\n\nFIGHT CARD\n— Main card —\nPrajancha
  i Petchnamthong vs. Aliff Sor Dechapan (Strawweight)\nNico Carrillo vs. Na
- bil Anane\n\nEvent page: https://getcagetime.com/events/one-friday-fights-
- 183/\nTimes and broadcasters can change\; check the event page. From CageT
- ime (getcagetime.com).
+ bil Anane (Featherweight)\n\nEvent page: https://getcagetime.com/events/on
+ e-friday-fights-183/\nTimes and broadcasters can change\; check the event 
+ page. From CageTime (getcagetime.com).
 URL:https://getcagetime.com/events/one-friday-fights-183/
 CATEGORIES:ONE,MMA
 STATUS:CONFIRMED

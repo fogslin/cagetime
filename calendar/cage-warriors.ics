@@ -11,8 +11,8 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:cage-warriors-211-bellandi-vs-pereira@getcagetime.com
-DTSTAMP:20261107T000000Z
-LAST-MODIFIED:20261107T000000Z
+DTSTAMP:20261109T000000Z
+LAST-MODIFIED:20261109T000000Z
 DTSTART:20261017T160000Z
 DTEND:20261017T190000Z
 SUMMARY:Cage Warriors 211: Bellandi vs. Pereira
@@ -41,27 +41,29 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:cage-warriors-212-spanish-showcase@getcagetime.com
-DTSTAMP:20261101T000000Z
-LAST-MODIFIED:20261101T000000Z
+DTSTAMP:20261109T000000Z
+LAST-MODIFIED:20261109T000000Z
 DTSTART:20261107T200000Z
 DTEND:20261107T230000Z
 SUMMARY:Cage Warriors 212: Spanish Showcase
 LOCATION:BBC Studioworks Television Centre\, London\, UK
-DESCRIPTION:TIMES\nPrelims: Sat Nov 7 2:00 PM EST (19:00 UTC)\nMain card: S
- at Nov 7 3:00 PM EST (20:00 UTC)\n\nWHERE TO WATCH\nUnited States: UFC Fig
- ht Pass\nUnited Kingdom: UFC Fight Pass\nCanada: UFC Fight Pass\nAustralia
- : UFC Fight Pass\nIreland: UFC Fight Pass\nIndia: UFC Fight Pass\nGermany:
-  UFC Fight Pass\nBrazil: UFC Fight Pass\n\nFIGHT CARD\n— Main card —\n
- Manuel Del Valle vs. Luan Duarte (Welterweight)\nMattia Giordano vs. Maxim
- ilien Vallot (Catchweight (129 lb))\nPaddy Rutledge vs. Omar Sargent (Bant
- amweight)\nAngel Bellucci vs. Tommy Brunning (Featherweight)\nSamuel Blasc
- o vs. Ermil Xhaferi (Catchweight (165 lb))\nArturo Izquierdo vs. Hany Musl
- eh (Lightweight)\n— Prelims —\nSimone Patrizi vs. Armands Gruznovs (Ca
- tchweight (161 lb))\nConnor Patterson vs. Efstathios Piperigos (Catchweigh
- t (150 lb))\nTaylor Rose vs. Milton Afonso Cabral (Catchweight (177 lb))\n
- \nEvent page: https://getcagetime.com/events/cage-warriors-212-spanish-sho
- wcase/\nTimes and broadcasters can change\; check the event page. From Cag
- eTime (getcagetime.com).
+DESCRIPTION:RESULTS: https://getcagetime.com/results/cage-warriors-212-span
+ ish-showcase/\nMain event: Manuel Del Valle def. Luan Duarte by KO/TKO (R2
+  2:13)\n\nTIMES\nPrelims: Sat Nov 7 2:00 PM EST (19:00 UTC)\nMain card: Sa
+ t Nov 7 3:00 PM EST (20:00 UTC)\n\nWHERE TO WATCH\nUnited States: UFC Figh
+ t Pass\nUnited Kingdom: UFC Fight Pass\nCanada: UFC Fight Pass\nAustralia:
+  UFC Fight Pass\nIreland: UFC Fight Pass\nIndia: UFC Fight Pass\nGermany: 
+ UFC Fight Pass\nBrazil: UFC Fight Pass\n\nFIGHT CARD\n— Main card —\nM
+ anuel Del Valle vs. Luan Duarte (Welterweight)\nMattia Giordano vs. Maximi
+ lien Vallot (Catchweight (129 lb))\nPaddy Rutledge vs. Omar Sargent (Banta
+ mweight)\nAngel Bellucci vs. Tommy Brunning (Featherweight)\nSamuel Blasco
+  vs. Ermil Xhaferi (Catchweight (165 lb))\nArturo Izquierdo vs. Hany Musle
+ h (Lightweight)\n— Prelims —\nSimone Patrizi vs. Armands Gruznovs (Cat
+ chweight (161 lb))\nConnor Patterson vs. Efstathios Piperigos (Catchweight
+  (150 lb))\nTaylor Rose vs. Milton Afonso Cabral (Catchweight (177 lb))\n\
+ nEvent page: https://getcagetime.com/events/cage-warriors-212-spanish-show
+ case/\nTimes and broadcasters can change\; check the event page. From Cage
+ Time (getcagetime.com).
 URL:https://getcagetime.com/events/cage-warriors-212-spanish-showcase/
 CATEGORIES:Cage Warriors,MMA
 STATUS:CONFIRMED
@@ -118,9 +120,10 @@ DESCRIPTION:TIMES\nCountdown on official event page (likely prelims\; main
  (Welterweight)\nAlexander Lööf vs. Oscar Ownsworth (Featherweight)\nJord
  an Molinari vs. Mariano Neto (Flyweight)\nVictor Yeo vs. Charlie Boulton (
  Featherweight)\nMohamed El Karchouh vs. Kevin Kehoe (Catchweight (150 lb))
- \nNathanael Woods vs. Angelo Terenzio (Flyweight)\n\nEvent page: https://g
- etcagetime.com/events/cage-warriors-214-unplugged/\nTimes and broadcasters
-  can change\; check the event page. From CageTime (getcagetime.com).
+ \nNathanael Woods vs. Angelo Terenzio (Flyweight)\nCraig Rawlins vs. Graha
+ m Sheehan (Middleweight)\n\nEvent page: https://getcagetime.com/events/cag
+ e-warriors-214-unplugged/\nTimes and broadcasters can change\; check the e
+ vent page. From CageTime (getcagetime.com).
 URL:https://getcagetime.com/events/cage-warriors-214-unplugged/
 CATEGORIES:Cage Warriors,MMA
 STATUS:CONFIRMED
@@ -179,9 +182,10 @@ DESCRIPTION:TIMES\nCountdown on official event page (likely prelims\; main
  weight)\nGeoff Pavey vs. Lewis Urquhart (Welterweight)\nMilad Ahady vs. Al
  exander O'Sullivan (Featherweight)\nJustin Burlinson vs. Farshad Nazarnia 
  (Middleweight)\nLeon Armes vs. Manny Akpan (Catchweight (148 lb))\nBailey 
- Gilbert vs. Julien Lopez (Featherweight)\n\nEvent page: https://getcagetim
- e.com/events/cage-warriors-216-newcastle/\nTimes and broadcasters can chan
- ge\; check the event page. From CageTime (getcagetime.com).
+ Gilbert vs. Julien Lopez (Featherweight)\nChris Bungard vs. Leon Aliu (Wel
+ terweight)\n\nEvent page: https://getcagetime.com/events/cage-warriors-216
+ -newcastle/\nTimes and broadcasters can change\; check the event page. Fro
+ m CageTime (getcagetime.com).
 URL:https://getcagetime.com/events/cage-warriors-216-newcastle/
 CATEGORIES:Cage Warriors,MMA
 STATUS:CONFIRMED

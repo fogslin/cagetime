@@ -11,30 +11,33 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:abc-presents-rizin-55-shinryu-vs-laramie@getcagetime.com
-DTSTAMP:20261101T000000Z
-LAST-MODIFIED:20261101T000000Z
+DTSTAMP:20261109T000000Z
+LAST-MODIFIED:20261109T000000Z
 DTSTART:20261108T050000Z
 DTEND:20261108T080000Z
 SUMMARY:abc presents RIZIN.55: Shinryu vs. Laramie
 LOCATION:LaLa arena TOKYO-BAY\, Funabashi (Chiba)\, Japan
-DESCRIPTION:TIMES\nEvent start (official 14:00 JST): Sun Nov 8 12:00 AM EST
-  (05:00 UTC)\n\nWHERE TO WATCH\nUnited States: RIZIN.TV (PPV)\nUnited King
- dom: RIZIN.TV (PPV)\nCanada: RIZIN.TV (PPV)\nAustralia: RIZIN.TV (PPV)\nIr
- eland: RIZIN.TV (PPV)\nIndia: RIZIN.TV (PPV)\nGermany: RIZIN.TV (PPV)\nBra
- zil: RIZIN.TV (PPV)\n\nFIGHT CARD\n— Main card —\nMakoto Takahashi vs.
-  Tony Laramie (Flyweight)\nNaoki Inoue vs. Yrysbek Tilenov (Bantamweight)\
- nRyuya Fukuda vs. Soo Chul Kim (Bantamweight)\nJinnosuke Kashimura vs. Shi
- nobu Ota (Bantamweight)\nKaleo Meheula vs. Kazuki Aimoto (Featherweight)\n
- Juntaro Ushiku vs. Kaiwen Li (Featherweight)\nKyung Pyo Kim vs. Nurkhan Zh
- umagazy (Lightweight)\nMac Papalii vs. Yukinori Akazawa (Heavyweight)\nHir
- oaki Suzuki vs. Sei Min Kim (Featherweight)\nTaichi Nakajima vs. Tsukasa M
- izoguchi (Bantamweight)\nTatsuya Saika vs. Daigo Kuramoto (Lightweight)\nT
- akumi Hamada vs. Sho Sekihara (Flyweight)\nRikiya Matsuzawa vs. Rio Kimura
-  (Flyweight)\n— Prelims —\nJake Wilkins vs. Yajuro Yamasaki (Catchweig
- ht (157 lb))\nShunya Inoue vs. Mighty Saw (Featherweight)\nNaohiro Matsumo
- to vs. Masachika Takahashi (Featherweight)\n\nEvent page: https://getcaget
- ime.com/events/abc-presents-rizin-55-shinryu-vs-laramie/\nTimes and broadc
- asters can change\; check the event page. From CageTime (getcagetime.com).
+DESCRIPTION:RESULTS: https://getcagetime.com/results/abc-presents-rizin-55-
+ shinryu-vs-laramie/\nMain event: Tony Laramie def. Makoto Takahashi by Dec
+ ision (R3 5:00)\n\nTIMES\nEvent start (official 14:00 JST): Sun Nov 8 12:0
+ 0 AM EST (05:00 UTC)\n\nWHERE TO WATCH\nUnited States: RIZIN.TV (PPV)\nUni
+ ted Kingdom: RIZIN.TV (PPV)\nCanada: RIZIN.TV (PPV)\nAustralia: RIZIN.TV (
+ PPV)\nIreland: RIZIN.TV (PPV)\nIndia: RIZIN.TV (PPV)\nGermany: RIZIN.TV (P
+ PV)\nBrazil: RIZIN.TV (PPV)\n\nFIGHT CARD\n— Main card —\nMakoto Takah
+ ashi vs. Tony Laramie (Flyweight)\nNaoki Inoue vs. Yrysbek Tilenov (Bantam
+ weight)\nRyuya Fukuda vs. Soo Chul Kim (Bantamweight)\nJinnosuke Kashimura
+  vs. Shinobu Ota (Bantamweight)\nKaleo Meheula vs. Kazuki Aimoto (Featherw
+ eight)\nJuntaro Ushiku vs. Kaiwen Li (Featherweight)\nKyung Pyo Kim vs. Nu
+ rkhan Zhumagazy (Lightweight)\nMac Papalii vs. Yukinori Akazawa (Heavyweig
+ ht)\nHiroaki Suzuki vs. Sei Min Kim (Featherweight)\nTaichi Nakajima vs. T
+ sukasa Mizoguchi (Bantamweight)\nTatsuya Saika vs. Daigo Kuramoto (Lightwe
+ ight)\nTakumi Hamada vs. Sho Sekihara (Flyweight)\nRikiya Matsuzawa vs. Ri
+ o Kimura (Flyweight)\n— Prelims —\nJake Wilkins vs. Yajuro Yamasaki (C
+ atchweight (157 lb))\nShunya Inoue vs. Mighty Saw (Featherweight)\nNaohiro
+  Matsumoto vs. Masachika Takahashi (Featherweight)\n\nEvent page: https://
+ getcagetime.com/events/abc-presents-rizin-55-shinryu-vs-laramie/\nTimes an
+ d broadcasters can change\; check the event page. From CageTime (getcageti
+ me.com).
 URL:https://getcagetime.com/events/abc-presents-rizin-55-shinryu-vs-laramie
  /
 CATEGORIES:RIZIN,MMA
@@ -62,10 +65,10 @@ DESCRIPTION:TIMES\nCard start per Tapology (unofficial\; may be prelims): T
  vs. Joe Hiramoto (Catchweight (126 lb))\nKyohei Takagi vs. Tatsuki Shinots
  uka (Catchweight (126 lb))\nYutaro Muramoto vs. Erson Yamamoto (Catchweigh
  t (126 lb))\nDaichi Tomizawa vs. Ryo Kawabata (Catchweight (130 lb))\nChri
- stian Akira Matsuo vs. Sora Kaneko (Catchweight (134 lb))\n\nEvent page: h
- ttps://getcagetime.com/events/rizin-new-year-s-eve-event/\nTimes and broad
- casters can change\; check the event page. From CageTime (getcagetime.com)
- .
+ stian Akira Matsuo vs. Sora Kaneko (Catchweight (134 lb))\nShinya Aoki vs.
+  Taisei Sakuraba (Catchweight (157 lb))\n\nEvent page: https://getcagetime
+ .com/events/rizin-new-year-s-eve-event/\nTimes and broadcasters can change
+ \; check the event page. From CageTime (getcagetime.com).
 URL:https://getcagetime.com/events/rizin-new-year-s-eve-event/
 CATEGORIES:RIZIN,MMA
 STATUS:CONFIRMED

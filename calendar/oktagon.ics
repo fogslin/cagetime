@@ -11,8 +11,8 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:oktagon-95-skvor-vs-narkun@getcagetime.com
-DTSTAMP:20261107T000000Z
-LAST-MODIFIED:20261107T000000Z
+DTSTAMP:20261109T000000Z
+LAST-MODIFIED:20261109T000000Z
 DTSTART:20261017T160000Z
 DTEND:20261017T190000Z
 SUMMARY:OKTAGON 95: Škvor vs. Narkun
@@ -39,8 +39,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:oktagon-96-gogoladze-vs-klinkhammer@getcagetime.com
-DTSTAMP:20261107T000000Z
-LAST-MODIFIED:20261107T000000Z
+DTSTAMP:20261109T000000Z
+LAST-MODIFIED:20261109T000000Z
 DTSTART:20261031T160000Z
 DTEND:20261031T190000Z
 SUMMARY:OKTAGON 96: Gogoladze vs. Ayari
@@ -70,29 +70,30 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:oktagon-97-severino-vs-holzer@getcagetime.com
-DTSTAMP:20261101T000000Z
-LAST-MODIFIED:20261101T000000Z
+DTSTAMP:20261109T000000Z
+LAST-MODIFIED:20261109T000000Z
 DTSTART:20261107T170000Z
 DTEND:20261107T200000Z
 SUMMARY:OKTAGON 97: Severino vs. Holzer
 LOCATION:ZAG Arena\, Hanover\, Germany
-DESCRIPTION:TIMES\nEvent start (official\; no separate main-card time publi
- shed): Sat Nov 7 12:00 PM EST (17:00 UTC)\n\nWHERE TO WATCH\nUnited States
- : OKTAGON.TV (PPV)\nUnited Kingdom: OKTAGON.TV (PPV)\nCanada: OKTAGON.TV (
- PPV)\nAustralia: OKTAGON.TV (PPV)\nIreland: OKTAGON.TV (PPV)\nIndia: OKTAG
- ON.TV (PPV)\nGermany: RTL+\nBrazil: OKTAGON.TV (PPV)\n\nFIGHT CARD\n— Ma
- in card —\nIgor Severino vs. Max Holzer (Bantamweight)\nGjoni Palokaj vs
- . Zafar Mohsen (Featherweight)\nOzan Aslaner vs. Denis Frimpong (Catchweig
- ht (159 lb))\nJustin Detzel vs. Kacper Frątczak (Middleweight)\nKarol Ry
- šavý vs. Samuel Bark (Featherweight)\nDaniel Makin vs. Petr Bartoněk (W
- elterweight)\n— Prelims —\nHaci Akseker vs. Jonatan Kujawa (Featherwei
- ght)\nJan Holzer vs. Jan Švagerko (Welterweight)\nIslam Djabrailov vs. K
- enji Bortoluzzi (Featherweight)\nJosefine Knutsson vs. Yasmin Guimarães (
- Women's Strawweight)\nMatheus Severino vs. Mohammed Walid (Bantamweight)\n
- Kathrin Haberle vs. Poliana Albuquerque (Women's Bantamweight)\n\nEvent pa
- ge: https://getcagetime.com/events/oktagon-97-severino-vs-holzer/\nTimes a
- nd broadcasters can change\; check the event page. From CageTime (getcaget
- ime.com).
+DESCRIPTION:RESULTS: https://getcagetime.com/results/oktagon-97-severino-vs
+ -holzer/\nMain event: Igor Severino def. Max Holzer by KO/TKO (R1 0:54)\n\
+ nTIMES\nEvent start (official\; no separate main-card time published): Sat
+  Nov 7 12:00 PM EST (17:00 UTC)\n\nWHERE TO WATCH\nUnited States: OKTAGON.
+ TV (PPV)\nUnited Kingdom: OKTAGON.TV (PPV)\nCanada: OKTAGON.TV (PPV)\nAust
+ ralia: OKTAGON.TV (PPV)\nIreland: OKTAGON.TV (PPV)\nIndia: OKTAGON.TV (PPV
+ )\nGermany: RTL+\nBrazil: OKTAGON.TV (PPV)\n\nFIGHT CARD\n— Main card 
+ —\nIgor Severino vs. Max Holzer (Bantamweight)\nGjoni Palokaj vs. Zafar 
+ Mohsen (Featherweight)\nOzan Aslaner vs. Denis Frimpong (Catchweight (159 
+ lb))\nJustin Detzel vs. Kacper Frątczak (Middleweight)\nKarol Ryšavý vs
+ . Samuel Bark (Featherweight)\nDaniel Makin vs. Petr Bartoněk (Welterweig
+ ht)\n— Prelims —\nHaci Akseker vs. Jonatan Kujawa (Featherweight)\nJan
+  Holzer vs. Jan Švagerko (Welterweight)\nIslam Djabrailov vs. Kenji Bort
+ oluzzi (Featherweight)\nJosefine Knutsson vs. Yasmin Guimarães (Women's S
+ trawweight)\nMatheus Severino vs. Mohammed Walid (Bantamweight)\nKathrin H
+ aberle vs. Poliana Albuquerque (Women's Bantamweight)\n\nEvent page: https
+ ://getcagetime.com/events/oktagon-97-severino-vs-holzer/\nTimes and broadc
+ asters can change\; check the event page. From CageTime (getcagetime.com).
 URL:https://getcagetime.com/events/oktagon-97-severino-vs-holzer/
 CATEGORIES:OKTAGON,MMA
 STATUS:CONFIRMED

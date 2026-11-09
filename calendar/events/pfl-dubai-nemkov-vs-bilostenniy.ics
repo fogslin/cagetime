@@ -10,8 +10,8 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:pfl-dubai-nemkov-vs-bilostenniy@getcagetime.com
-DTSTAMP:20261031T000000Z
-LAST-MODIFIED:20261031T000000Z
+DTSTAMP:20261101T000000Z
+LAST-MODIFIED:20261101T000000Z
 DTSTART:20261114T180000Z
 DTEND:20261114T210000Z
 SUMMARY:PFL Dubai: Nemkov vs. Bilostenniy
@@ -23,17 +23,15 @@ DESCRIPTION:TIMES\nEarly card: Sat Nov 14 9:00 AM EST (14:00 UTC)\nMain car
  N\n\nFIGHT CARD\n— Main card —\nVadim Nemkov vs. Sergey Bilostenniy (H
  eavyweight)\nPatrick Habirora vs. Omar El Dafrawy (Welterweight)\nPouya Ra
  hmani vs. Oleg Popov (Heavyweight)\nSergio Pettis vs. Joji Goto (Bantamwei
- ght)\nAbubakar Nurmagomedov vs. David Martinez (Welterweight)\n— Prelims
-  —\nKhasan Magomedsharipov vs. Ádám Borics (Featherweight)\nAsaël Adj
- oudj vs. Movlid Khaybulaev (Featherweight)\nErnesto Rodriguez vs. Rhys McK
- ee (Welterweight)\nShem Rock vs. Connor Hughes (Lightweight)\nAlexei Perga
- nde vs. Akhmed Magomedov (Lightweight)\nLewis McGrillen vs. Nawras Abzakh 
- (Bantamweight)\nKhamzat Abaev vs. Leon Hill (Welterweight)\nAleksandra Sav
- icheva vs. Jacinta Austin (Women's Strawweight)\nKhabib Nabiev vs. Styve N
- gono (Light Heavyweight)\nDenis Goltsov vs. Maxwell Djantou Nana (Heavywei
- ght)\n\nEvent page: https://getcagetime.com/events/pfl-dubai-nemkov-vs-bil
- ostenniy/\nTimes and broadcasters can change\; check the event page. From 
- CageTime (getcagetime.com).
+ ght)\nLewis McGrillen vs. Nawras Abzakh (Bantamweight)\n— Prelims —\nS
+ hem Rock vs. Connor Hughes (Lightweight)\nAlexei Pergande vs. Akhmed Magom
+ edov (Lightweight)\nKhasan Magomedsharipov vs. Ádám Borics (Featherweigh
+ t)\nDenis Goltsov vs. Maxwell Djantou Nana (Heavyweight)\nErnesto Rodrigue
+ z vs. Rhys McKee (Welterweight)\nKhabib Nabiev vs. Styve Ngono (Light Heav
+ yweight)\nAleksandra Savicheva vs. Jacinta Austin (Women's Strawweight)\n\
+ nEvent page: https://getcagetime.com/events/pfl-dubai-nemkov-vs-bilostenni
+ y/\nTimes and broadcasters can change\; check the event page. From CageTim
+ e (getcagetime.com).
 URL:https://getcagetime.com/events/pfl-dubai-nemkov-vs-bilostenniy/
 CATEGORIES:PFL,MMA
 STATUS:CONFIRMED

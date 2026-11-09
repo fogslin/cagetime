@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//CageTime//getcagetime.com//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:UFC Fight Night Riyadh
+X-WR-CALNAME:UFC Fight Night Riyadh: Adesanya vs. Magomedov
 X-WR-CALDESC:From CageTime (getcagetime.com)
 X-WR-TIMEZONE:UTC
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
@@ -14,24 +14,26 @@ DTSTAMP:20261101T000000Z
 LAST-MODIFIED:20261101T000000Z
 DTSTART:20261205T140000Z
 DTEND:20261205T170000Z
-SUMMARY:UFC Fight Night Riyadh (Card start per Tapology (unofficial\; may b
- e prelims))
-LOCATION:Venue TBA\, Riyadh\, Saudi Arabia
+SUMMARY:UFC Fight Night Riyadh: Adesanya vs. Magomedov (Card start per Tapo
+ logy (unofficial\; may be prelims))
+LOCATION:ANB Arena\, Riyadh\, Saudi Arabia
 DESCRIPTION:TIMES\nCard start per Tapology (unofficial\; may be prelims): S
  at Dec 5 9:00 AM EST (14:00 UTC)\nMain card time not published yet\; this 
  entry starts at the earliest listed time.\n\nWHERE TO WATCH\nUnited States
  : Paramount+\nUnited Kingdom: TNT Sports / HBO Max\nCanada: Sportsnet+ / C
  ity TV / TVA Sports\nAustralia: Paramount+\nIreland: TNT Sports\nIndia: So
  ny TEN 2\nGermany: DAZN\nBrazil: Paramount+\n\nFIGHT CARD\n— Main card 
- —\nIon Cutelaba vs. Magomed Tuchalov (Light Heavyweight)\n— Prelims 
- —\nJafel Filho vs. Bruno Silva (Flyweight)\nMatthieu Duclos vs. Modestin
- o Rodrigues (Middleweight)\nAbdul Hussein vs. Hecher Sosa (Bantamweight)\n
- Levan Chokheli vs. Islam Dulatov (Welterweight)\nUran Satybaldiev vs. Ivan
-  Gnizditskiy (Light Heavyweight)\nJun Yong Park vs. Marco Tulio (Middlewei
- ght)\nMairon Santos vs. Akbar Abdullaev (Lightweight)\nMahammadali Osmanli
-  vs. Pavel Andrusca (Bantamweight)\n\nEvent page: https://getcagetime.com/
- events/ufc-fight-night-riyadh/\nTimes and broadcasters can change\; check 
- the event page. From CageTime (getcagetime.com).
+ —\nIsrael Adesanya vs. Shara Magomedov (Middleweight)\nIan Machado Garry
+  vs. Yaroslav Amosov (Welterweight)\nLevan Chokheli vs. Islam Dulatov (Wel
+ terweight)\nIon Cutelaba vs. Magomed Tuchalov (Light Heavyweight)\nMairon 
+ Santos vs. Akbar Abdullaev (Lightweight)\nSerghei Spivac vs. Mario Pinto (
+ Heavyweight)\n— Prelims —\nJafel Filho vs. Bruno Silva (Flyweight)\nMa
+ tthieu Duclos vs. Modestino Rodrigues (Middleweight)\nAbdul Hussein vs. He
+ cher Sosa (Bantamweight)\nUran Satybaldiev vs. Ivan Gnizditskiy (Light Hea
+ vyweight)\nJun Yong Park vs. Marco Tulio (Middleweight)\nMahammadali Osman
+ li vs. Pavel Andrusca (Bantamweight)\n\nEvent page: https://getcagetime.co
+ m/events/ufc-fight-night-riyadh/\nTimes and broadcasters can change\; chec
+ k the event page. From CageTime (getcagetime.com).
 URL:https://getcagetime.com/events/ufc-fight-night-riyadh/
 CATEGORIES:UFC,MMA
 STATUS:CONFIRMED

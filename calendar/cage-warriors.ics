@@ -11,8 +11,8 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:cage-warriors-211-bellandi-vs-pereira@getcagetime.com
-DTSTAMP:20261109T000000Z
-LAST-MODIFIED:20261109T000000Z
+DTSTAMP:20261111T000000Z
+LAST-MODIFIED:20261111T000000Z
 DTSTART:20261017T160000Z
 DTEND:20261017T190000Z
 SUMMARY:Cage Warriors 211: Bellandi vs. Pereira
@@ -41,8 +41,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:cage-warriors-212-spanish-showcase@getcagetime.com
-DTSTAMP:20261109T000000Z
-LAST-MODIFIED:20261109T000000Z
+DTSTAMP:20261111T000000Z
+LAST-MODIFIED:20261111T000000Z
 DTSTART:20261107T200000Z
 DTEND:20261107T230000Z
 SUMMARY:Cage Warriors 212: Spanish Showcase
@@ -85,15 +85,14 @@ DESCRIPTION:TIMES\nCountdown on official event page (likely prelims\; main
  t Pass\nCanada: UFC Fight Pass\nAustralia: UFC Fight Pass\nIreland: UFC Fi
  ght Pass\nIndia: UFC Fight Pass\nGermany: UFC Fight Pass\nBrazil: UFC Figh
  t Pass\n\nFIGHT CARD\n— Main card —\nNik Bagley vs. Bruno Souza (Feath
- erweight)\nJawany Scott vs. Willians Nogueira (Flyweight)\nSteven Hill vs.
-  Sado Ucar (Welterweight)\nTariq Pell vs. Wellington Lopes (Catchweight (1
- 61 lb))\nMarin Vetrila vs. Stefano Catacoli (Lightweight)\nBobby Chikavhu 
- vs. Habib Samadi (Flyweight)\nBen Edwards vs. James Wamsley (Welterweight)
- \nCallum Haughian vs. Will Fox (Lightweight)\nOllie Sarwa vs. Ieuan Macken
- zie (Catchweight (140 lb))\nShirzad Qadrian vs. Manoel Silva (Bantamweight
- )\n\nEvent page: https://getcagetime.com/events/cage-warriors-213-london/\
- nTimes and broadcasters can change\; check the event page. From CageTime (
- getcagetime.com).
+ erweight)\nJawany Scott vs. Willians Nogueira (Flyweight)\nTariq Pell vs. 
+ Wellington Lopes (Catchweight (161 lb))\nShirzad Qadrian vs. Manoel Silva 
+ (Bantamweight)\nSteven Hill vs. Sado Ucar (Welterweight)\nOllie Sarwa vs. 
+ Ieuan Mackenzie (Catchweight (140 lb))\n— Prelims —\nBobby Chikavhu vs
+ . Christos Ploumpis (Catchweight (130 lb))\nBen Edwards vs. James Wamsley 
+ (Welterweight)\nCallum Haughian vs. Will Fox (Lightweight)\n\nEvent page: 
+ https://getcagetime.com/events/cage-warriors-213-london/\nTimes and broadc
+ asters can change\; check the event page. From CageTime (getcagetime.com).
 URL:https://getcagetime.com/events/cage-warriors-213-london/
 CATEGORIES:Cage Warriors,MMA
 STATUS:CONFIRMED
@@ -183,9 +182,10 @@ DESCRIPTION:TIMES\nCountdown on official event page (likely prelims\; main
  exander O'Sullivan (Featherweight)\nJustin Burlinson vs. Farshad Nazarnia 
  (Middleweight)\nLeon Armes vs. Manny Akpan (Catchweight (148 lb))\nBailey 
  Gilbert vs. Julien Lopez (Featherweight)\nChris Bungard vs. Leon Aliu (Wel
- terweight)\n\nEvent page: https://getcagetime.com/events/cage-warriors-216
- -newcastle/\nTimes and broadcasters can change\; check the event page. Fro
- m CageTime (getcagetime.com).
+ terweight)\nZanyar Kamaran vs. Kai Holmes (Featherweight)\n\nEvent page: h
+ ttps://getcagetime.com/events/cage-warriors-216-newcastle/\nTimes and broa
+ dcasters can change\; check the event page. From CageTime (getcagetime.com
+ ).
 URL:https://getcagetime.com/events/cage-warriors-216-newcastle/
 CATEGORIES:Cage Warriors,MMA
 STATUS:CONFIRMED

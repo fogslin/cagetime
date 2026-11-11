@@ -11,8 +11,8 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:one-samurai-4-haggerty-vs-akimoto@getcagetime.com
-DTSTAMP:20261109T000000Z
-LAST-MODIFIED:20261109T000000Z
+DTSTAMP:20261111T000000Z
+LAST-MODIFIED:20261111T000000Z
 DTSTART:20261017T063000Z
 DTEND:20261017T093000Z
 SUMMARY:ONE Samurai 4: Haggerty vs. Akimoto
@@ -44,8 +44,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:one-friday-fights-176@getcagetime.com
-DTSTAMP:20261109T000000Z
-LAST-MODIFIED:20261109T000000Z
+DTSTAMP:20261111T000000Z
+LAST-MODIFIED:20261111T000000Z
 DTSTART:20261030T133000Z
 DTEND:20261030T163000Z
 SUMMARY:ONE Friday Fights 176
@@ -77,8 +77,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:one-friday-fights-177@getcagetime.com
-DTSTAMP:20261109T000000Z
-LAST-MODIFIED:20261109T000000Z
+DTSTAMP:20261111T000000Z
+LAST-MODIFIED:20261111T000000Z
 DTSTART:20261106T133000Z
 DTEND:20261106T163000Z
 SUMMARY:ONE Friday Fights 177
@@ -112,8 +112,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:one-fight-night-49-gabriel-vs-rasulov@getcagetime.com
-DTSTAMP:20261109T000000Z
-LAST-MODIFIED:20261109T000000Z
+DTSTAMP:20261111T000000Z
+LAST-MODIFIED:20261111T000000Z
 DTSTART:20261107T020000Z
 DTEND:20261107T050000Z
 SUMMARY:ONE Fight Night 49: Gabriel vs. Magomedov
@@ -333,13 +333,13 @@ DESCRIPTION:TIMES\nCard start per Tapology (unofficial\; may be prelims): F
  : ESPN (Disney+ / Foxtel / Kayo)\nIreland: Sky Sports\nIndia: JioHotstar /
   Star Sports Select 2\nGermany: ONE free stream (watch.onefc.com / YouTube
   / Facebook)\nBrazil: Combate / SporTV\n\nFIGHT CARD\n— Main card —\nD
- iogo Reis vs. Bebeto Oliveira (Flyweight)\nKade Ruotolo vs. Rae Yoon Ok (L
- ightweight)\nMaurice Abévi vs. Dzhabir Dzhabrailov (Welterweight)\nBampar
- a Kouyate vs. Ricardo Bravo (Featherweight)\nSuablack Tor.Pran49 vs. Jorda
- n Estupiñan (Flyweight)\nSelina Flores vs. Kana Morimoto (Atomweight)\n\n
- Event page: https://getcagetime.com/events/one-fight-night-50/\nTimes and 
- broadcasters can change\; check the event page. From CageTime (getcagetime
- .com).
+ iogo Reis vs. Bebeto Oliveira (Flyweight)\nMaurice Abévi vs. Dzhabir Dzha
+ brailov (Welterweight)\nBampara Kouyate vs. Ricardo Bravo (Featherweight)\
+ nSuablack Tor.Pran49 vs. Jordan Estupiñan (Flyweight)\nSelina Flores vs. 
+ Kana Morimoto (Atomweight)\nFerrari Fairtex vs. Denis Souza Jr. (Bantamwei
+ ght)\n\nEvent page: https://getcagetime.com/events/one-fight-night-50/\nTi
+ mes and broadcasters can change\; check the event page. From CageTime (get
+ cagetime.com).
 URL:https://getcagetime.com/events/one-fight-night-50/
 CATEGORIES:ONE,MMA
 STATUS:CONFIRMED

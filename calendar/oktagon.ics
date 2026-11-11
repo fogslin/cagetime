@@ -11,8 +11,8 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:oktagon-95-skvor-vs-narkun@getcagetime.com
-DTSTAMP:20261109T000000Z
-LAST-MODIFIED:20261109T000000Z
+DTSTAMP:20261111T000000Z
+LAST-MODIFIED:20261111T000000Z
 DTSTART:20261017T160000Z
 DTEND:20261017T190000Z
 SUMMARY:OKTAGON 95: Škvor vs. Narkun
@@ -39,8 +39,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:oktagon-96-gogoladze-vs-klinkhammer@getcagetime.com
-DTSTAMP:20261109T000000Z
-LAST-MODIFIED:20261109T000000Z
+DTSTAMP:20261111T000000Z
+LAST-MODIFIED:20261111T000000Z
 DTSTART:20261031T160000Z
 DTEND:20261031T190000Z
 SUMMARY:OKTAGON 96: Gogoladze vs. Ayari
@@ -70,8 +70,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:oktagon-97-severino-vs-holzer@getcagetime.com
-DTSTAMP:20261109T000000Z
-LAST-MODIFIED:20261109T000000Z
+DTSTAMP:20261111T000000Z
+LAST-MODIFIED:20261111T000000Z
 DTSTART:20261107T170000Z
 DTEND:20261107T200000Z
 SUMMARY:OKTAGON 97: Severino vs. Holzer
@@ -115,14 +115,14 @@ DESCRIPTION:TIMES\nEvent start (official\; no separate main-card time publi
  ain card —\nMateusz Legierski vs. Ivan Buchinger (Lightweight)\nVeronika
   Smolková vs. Ivana Petrović (Women's Flyweight)\nJakub Batfalsky vs. Ay
  ton De Paepe (Featherweight)\nPatrik Šebek vs. Adrian Hamerski (Lightweig
- ht)\nMartin Prázdný vs. Jindřich Byrtus (185 lb)\nHojat Khajevand vs. M
- ateusz Janur (Middleweight)\nOndřej Raška vs. Dominic Schober (Middlewei
- ght)\nTomáš Mudroch vs. Jason Ponet (Catchweight (163 lb))\nDominik Tabo
- r vs. Deniz Ilbay (152 lb)\nMichaela Hlaváčiková vs. Marta Sós (Women'
- s Flyweight)\nDawid Śmiełowski vs. Arbi Mezhidov (Lightweight)\nJames He
- ndin vs. Sayed Murtaza Sadat (Featherweight)\n\nEvent page: https://getcag
- etime.com/events/oktagon-98-legierski-vs-buchinger/\nTimes and broadcaster
- s can change\; check the event page. From CageTime (getcagetime.com).
+ ht)\nMartin Prázdný vs. Jindřich Byrtus (185 lb)\nOndřej Raška vs. Do
+ minic Schober (Middleweight)\nTomáš Mudroch vs. Jason Ponet (Catchweight
+  (163 lb))\nDominik Tabor vs. Deniz Ilbay (152 lb)\nMichaela Hlaváčikov
+ á vs. Marta Sós (Women's Flyweight)\nDawid Śmiełowski vs. Arbi Mezhido
+ v (Lightweight)\nJames Hendin vs. Sayed Murtaza Sadat (Featherweight)\nDav
+ id Hošek vs. Mateusz Janur (Middleweight)\n\nEvent page: https://getcaget
+ ime.com/events/oktagon-98-legierski-vs-buchinger/\nTimes and broadcasters 
+ can change\; check the event page. From CageTime (getcagetime.com).
 URL:https://getcagetime.com/events/oktagon-98-legierski-vs-buchinger/
 CATEGORIES:OKTAGON,MMA
 STATUS:CONFIRMED
@@ -146,10 +146,11 @@ DESCRIPTION:TIMES\nEvent start (official\; no separate main-card time publi
  \nAltin Zenuni vs. Tomáš Cigánik (Lightweight)\nMoh Eter vs. Tomáš Ho
  leček (Featherweight)\nAdam Pałasz vs. Marc Doussis (Heavyweight)\nAli G
  ündüz vs. Abdullah Sultani (Bantamweight)\nMurat Tüysüz vs. Jan Stanov
- ský (Lightweight)\n— Prelims —\nFurkan Ugur vs. Said Osmanov (Lightwe
- ight)\n\nEvent page: https://getcagetime.com/events/oktagon-99/\nTimes and
-  broadcasters can change\; check the event page. From CageTime (getcagetim
- e.com).
+ ský (Lightweight)\nIwan Tagner vs. Bedirhan Kabak (Welterweight)\nHarun U
+ zun vs. Aleksandar Stefanovic (Light Heavyweight)\n— Prelims —\nFurkan
+  Ugur vs. Said Osmanov (Lightweight)\n\nEvent page: https://getcagetime.co
+ m/events/oktagon-99/\nTimes and broadcasters can change\; check the event 
+ page. From CageTime (getcagetime.com).
 URL:https://getcagetime.com/events/oktagon-99/
 CATEGORIES:OKTAGON,MMA
 STATUS:CONFIRMED
@@ -170,9 +171,10 @@ DESCRIPTION:TIMES\nEvent start (official\; no separate main-card time publi
  GON.TV (PPV)\nGermany: RTL+\nBrazil: OKTAGON.TV (PPV)\n\nFIGHT CARD\n— M
  ain card —\nKrzysztof Jotko vs. Makhmud Muradov (Middleweight)\nVladimí
  r Lengál vs. Josef Hála (165 lb)\nAttila Végh vs. Luke Barnatt\nKarlos 
- Vémola vs. Tomasz Narkun (Light Heavyweight)\n\nEvent page: https://getca
- getime.com/events/oktagon-100-jotko-vs-muradov/\nTimes and broadcasters ca
- n change\; check the event page. From CageTime (getcagetime.com).
+ Vémola vs. Tomasz Narkun (Light Heavyweight)\nMarek Mazuch vs. Robin Foš
+ um (Light Heavyweight)\n\nEvent page: https://getcagetime.com/events/oktag
+ on-100-jotko-vs-muradov/\nTimes and broadcasters can change\; check the ev
+ ent page. From CageTime (getcagetime.com).
 URL:https://getcagetime.com/events/oktagon-100-jotko-vs-muradov/
 CATEGORIES:OKTAGON,MMA
 STATUS:CONFIRMED

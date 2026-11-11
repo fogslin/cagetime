@@ -11,8 +11,8 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:lfa-244-woodley-vs-havener@getcagetime.com
-DTSTAMP:20261109T000000Z
-LAST-MODIFIED:20261109T000000Z
+DTSTAMP:20261111T000000Z
+LAST-MODIFIED:20261111T000000Z
 DTSTART:20261024T010000Z
 DTEND:20261024T040000Z
 SUMMARY:LFA 244: Woodley vs. Havener
@@ -39,8 +39,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:lfa-245-khamzaev-vs-prescendo@getcagetime.com
-DTSTAMP:20261109T000000Z
-LAST-MODIFIED:20261109T000000Z
+DTSTAMP:20261111T000000Z
+LAST-MODIFIED:20261111T000000Z
 DTSTART:20261031T010000Z
 DTEND:20261031T040000Z
 SUMMARY:LFA 245: Khamzaev vs. Prescendo
@@ -138,9 +138,16 @@ DESCRIPTION:TIMES\nCard start per Tapology (unofficial\; may be prelims): F
  ri Dec 18 9:00 PM EST (02:00 UTC)\nMain card time not published yet\; this
   entry starts at the earliest listed time.\n\nWHERE TO WATCH\nUnited State
  s: TBA\nUnited Kingdom: TBA\nCanada: TBA\nAustralia: TBA\nIreland: TBA\nIn
- dia: TBA\nGermany: TBA\nBrazil: TBA\n\nFight card TBA\n\nEvent page: https
- ://getcagetime.com/events/lfa-248-las-vegas/\nTimes and broadcasters can c
- hange\; check the event page. From CageTime (getcagetime.com).
+ dia: TBA\nGermany: TBA\nBrazil: TBA\n\nFIGHT CARD\n— Main card —\nDavi
+  Bittencourt vs. Mason Hartshorn (Flyweight)\nShealor Ladd vs. Wildemar Sa
+ ntos (Light Heavyweight)\nRoberto Hernandez vs. Chris Mecate (Featherweigh
+ t)\nBrahyam Zurcher vs. Elvis Silva (Featherweight)\nCharlie Cleveland vs.
+  Luther Jean Egerson III (Heavyweight)\nArtur Gadzhikhanov vs. Jacob Wiggi
+ ns (Bantamweight)\n— Prelims —\nDavid Goldenberg vs. Carter Beekman (F
+ eatherweight)\nAlberto Romo vs. Michael Jamiyandorj (Bantamweight)\nAdrian
+  Lyons-Lopez vs. Oleg Mikhov (Lightweight)\n\nEvent page: https://getcaget
+ ime.com/events/lfa-248-las-vegas/\nTimes and broadcasters can change\; che
+ ck the event page. From CageTime (getcagetime.com).
 URL:https://getcagetime.com/events/lfa-248-las-vegas/
 CATEGORIES:LFA,MMA
 STATUS:CONFIRMED

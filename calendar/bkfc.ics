@@ -11,8 +11,8 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:bkfc-95-herring-vs-dodson@getcagetime.com
-DTSTAMP:20261109T000000Z
-LAST-MODIFIED:20261109T000000Z
+DTSTAMP:20261111T000000Z
+LAST-MODIFIED:20261111T000000Z
 DTSTART:20261018T010000Z
 DTEND:20261018T040000Z
 SUMMARY:BKFC 95: Herring vs. Dodson
@@ -40,8 +40,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:bkfc-fight-night-clearwater-reber-vs-street@getcagetime.com
-DTSTAMP:20261109T000000Z
-LAST-MODIFIED:20261109T000000Z
+DTSTAMP:20261111T000000Z
+LAST-MODIFIED:20261111T000000Z
 DTSTART:20261024T000000Z
 DTEND:20261024T030000Z
 SUMMARY:BKFC Fight Night Clearwater: Reber vs. Street
@@ -68,29 +68,27 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:bkfc-96-glasgow-cooke-vs-weir@getcagetime.com
-DTSTAMP:20261109T000000Z
-LAST-MODIFIED:20261109T000000Z
+DTSTAMP:20261111T000000Z
+LAST-MODIFIED:20261111T000000Z
 DTSTART:20261107T190000Z
 DTEND:20261107T220000Z
 SUMMARY:BKFC 96 Glasgow: Weir vs. Cohoon
 LOCATION:OVO Hydro\, Glasgow\, UK
 DESCRIPTION:RESULTS: https://getcagetime.com/results/bkfc-96-glasgow-cooke-
- vs-weir/\n\nTIMES\nFree fights: Sat Nov 7 1:00 PM EST (18:00 UTC)\nMain ca
- rd: Sat Nov 7 2:00 PM EST (19:00 UTC)\n\nWHERE TO WATCH\nUnited States: TB
- A\nUnited Kingdom: TBA\nCanada: TBA\nAustralia: TBA\nIreland: TBA\nIndia: 
- TBA\nGermany: TBA\nBrazil: TBA\n\nFIGHT CARD\n— Main card —\nSean Weir
-  vs. Leigh Cohoon (Light Heavyweight)\nStevie Ray vs. Danny Christie (Midd
- leweight)\nScott Malone vs. Kiran Sewell (Bantamweight)\n— Prelims —\n
- Rhys Pagan vs. Danny Moir (Light Heavyweight)\n— Main card —\nCory Cha
- pman vs. Lewis Dixon (Bantamweight)\nDoalty Torrance vs. Kyle Cassidy\n—
-  Prelims —\nLewis Knox vs. Tommy Carus (Featherweight)\n— Main card 
- —\nBarry Boyle vs. Kaseem Saleem (Heavyweight)\nBarry Aikman vs. Cory Ha
- rdy\n— Prelims —\nIan Mulroy vs. Charlie Thompson (Middleweight)\n— 
- Main card —\nGzim Selmani vs. Reece Heer (Heavyweight)\nDoalty Torrance 
- vs. KJ Metcalfe (Welterweight)\nDan Morel vs. Owen Webster (Featherweight)
- \n\nEvent page: https://getcagetime.com/events/bkfc-96-glasgow-cooke-vs-we
- ir/\nTimes and broadcasters can change\; check the event page. From CageTi
- me (getcagetime.com).
+ vs-weir/\nMain event: Sean Weir def. Leigh Cohoon by KO/TKO (R1 1:41)\n\nT
+ IMES\nFree fights: Sat Nov 7 1:00 PM EST (18:00 UTC)\nMain card: Sat Nov 7
+  2:00 PM EST (19:00 UTC)\n\nWHERE TO WATCH\nUnited States: TBA\nUnited Kin
+ gdom: TBA\nCanada: TBA\nAustralia: TBA\nIreland: TBA\nIndia: TBA\nGermany:
+  TBA\nBrazil: TBA\n\nFIGHT CARD\n— Main card —\nSean Weir vs. Leigh Co
+ hoon (Light Heavyweight)\nStevie Ray vs. Danny Christie (Middleweight)\nGz
+ im Selmani vs. Reece Heer (Heavyweight)\nScott Malone vs. Kiran Sewell (Ba
+ ntamweight)\nBarry Boyle vs. Kaseem Saleem (Heavyweight)\nDoalty Torrance 
+ vs. KJ Metcalfe (Welterweight)\nCory Chapman vs. Lewis Dixon (Bantamweight
+ )\nDan Morel vs. Owen Webster (Featherweight)\n— Prelims —\nLewis Knox
+  vs. Tommy Carus (Featherweight)\nRhys Pagan vs. Danny Moir (Light Heavywe
+ ight)\nIan Mulroy vs. Charlie Thompson (Middleweight)\n\nEvent page: https
+ ://getcagetime.com/events/bkfc-96-glasgow-cooke-vs-weir/\nTimes and broadc
+ asters can change\; check the event page. From CageTime (getcagetime.com).
 URL:https://getcagetime.com/events/bkfc-96-glasgow-cooke-vs-weir/
 CATEGORIES:BKFC,MMA
 STATUS:CONFIRMED

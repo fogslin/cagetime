@@ -1,7 +1,1817 @@
 {
- "updated": "2026-11-11",
+ "updated": "2026-11-15",
  "note": "Results from Tapology event pages (fallback: the fighters' Tapology careers). result=null = no result published in those sources yet.",
  "events": [
+  {
+   "name": "UFC 334: Gane vs. Hokit",
+   "promotion": "UFC",
+   "date": "2026-11-14",
+   "startUTC": "2026-11-15T02:00:00Z",
+   "times": [
+    {
+     "label": "Main card",
+     "startUTC": "2026-11-15T02:00:00Z"
+    },
+    {
+     "label": "Prelims",
+     "startUTC": "2026-11-15T00:00:00Z"
+    },
+    {
+     "label": "Early prelims",
+     "startUTC": "2026-11-14T22:00:00Z"
+    }
+   ],
+   "venue": "Madison Square Garden, New York, USA",
+   "broadcasters": {
+    "US": "Paramount+",
+    "UK": "TNT Sports Box Office (main card) / HBO Max",
+    "IE": "TNT Sports Box Office (main card)",
+    "CA": "PPV (main card); Sportsnet+ / TVA Sports (prelims)",
+    "AU": "Main Event PPV on Foxtel/Kayo (main card); Paramount+ / Network 10 (prelims)",
+    "IN": "Sony TEN 2",
+    "DE": "DAZN / UFC PPV on UFC Fight Pass",
+    "BR": "Paramount+"
+   },
+   "sources": [
+    "https://www.ufc.com/event/ufc-334",
+    "https://www.ufc.com/events",
+    "https://www.ufc.com/news/how-watch-and-stream-ufc",
+    "https://www.ufc.com/news/how-to-watch-ufc-in-australia-2026",
+    "https://www.tapology.com/fightcenter/events/147320-ufc-334"
+   ],
+   "notes": "Broadcasters follow UFC's 2026 territory pattern (UFC.com how-to-watch); verify per event. Times from the UFC.com event page: headline = main card, earlier sessions listed separately.",
+   "odds": {
+    "source": "BestFightOdds",
+    "url": "https://www.bestfightodds.com/events/ufc-334-4370",
+    "asOf": "2026-11-13 14:04 UTC",
+    "method": "consensus = median implied probability across the sportsbooks BestFightOdds listed for each fighter"
+   },
+   "featured": true,
+   "id": "ufc-334-gane-vs-hokit",
+   "tapology": "https://www.tapology.com/fightcenter/events/147320-ufc-334",
+   "bouts": [
+    {
+     "segment": "Main card",
+     "weightClass": "Heavyweight",
+     "rounds": 5,
+     "title": "UFC Heavyweight Championship",
+     "discipline": "MMA",
+     "a": "tap-187819-cyril-gane-real-c",
+     "aName": "Ciryl Gane",
+     "b": "tap-403293-josh-hokit",
+     "bName": "Josh Hokit",
+     "odds": {
+      "a": -195,
+      "b": 160,
+      "books": 7
+     },
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "Decision",
+      "detail": "Unanimous",
+      "round": 5,
+      "time": "5:00",
+      "of": 5,
+      "source": "tapology-event",
+      "winnerId": "tap-187819-cyril-gane-real-c",
+      "winnerName": "Ciryl Gane"
+     }
+    },
+    {
+     "segment": "Main card",
+     "weightClass": "Women's Bantamweight",
+     "rounds": 5,
+     "title": "UFC Women's Bantamweight Championship",
+     "discipline": "MMA",
+     "a": "tap-34265-kayla-harrison",
+     "aName": "Kayla Harrison",
+     "b": "tap-amanda-nunes-lioness-of-the-ring",
+     "bName": "Amanda Nunes",
+     "odds": {
+      "a": -175,
+      "b": 146,
+      "books": 7
+     },
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "Submission",
+      "detail": "Rear Naked Choke",
+      "round": 4,
+      "time": "1:29",
+      "of": 5,
+      "source": "tapology-event",
+      "winnerId": "tap-34265-kayla-harrison",
+      "winnerName": "Kayla Harrison"
+     }
+    },
+    {
+     "segment": "Main card",
+     "weightClass": "Middleweight",
+     "rounds": 3,
+     "discipline": "MMA",
+     "a": "tap-107316-caio-borralho-cara-de-kombi",
+     "aName": "Caio Borralho",
+     "b": "tap-237485-yousri-belgaroui-baby-face-assassin",
+     "bName": "Yousri Belgaroui",
+     "odds": {
+      "a": -161,
+      "b": 130,
+      "books": 7
+     },
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "Decision",
+      "detail": "Unanimous",
+      "round": 3,
+      "time": "5:00",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-107316-caio-borralho-cara-de-kombi",
+      "winnerName": "Caio Borralho"
+     }
+    },
+    {
+     "segment": "Main card",
+     "weightClass": "Welterweight",
+     "rounds": 3,
+     "discipline": "MMA",
+     "a": "tap-175629-uros-medic",
+     "aName": "Uros Medic",
+     "b": "tap-35757-kevin-holland",
+     "bName": "Kevin Holland",
+     "odds": {
+      "a": -161,
+      "b": 135,
+      "books": 7
+     },
+     "result": {
+      "outcome": "draw",
+      "winner": null,
+      "method": "Draw",
+      "detail": "Majority",
+      "round": 3,
+      "time": "5:00",
+      "of": 3,
+      "source": "tapology-event"
+     }
+    },
+    {
+     "segment": "Main card",
+     "weightClass": "Flyweight",
+     "rounds": 3,
+     "discipline": "MMA",
+     "a": "tap-301015-luis-gurule",
+     "aName": "Luis Gurule",
+     "b": "tap-326683-bilal-hasan",
+     "bName": "Bilal Hasan",
+     "odds": {
+      "a": 623,
+      "b": -1000,
+      "books": 7
+     },
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "Decision",
+      "detail": "Split",
+      "round": 3,
+      "time": "5:00",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-301015-luis-gurule",
+      "winnerName": "Luis Gurule"
+     }
+    },
+    {
+     "segment": "Prelims",
+     "weightClass": "Welterweight",
+     "rounds": 3,
+     "discipline": "MMA",
+     "a": "tap-16753-stephen-thompson-wonderboy",
+     "aName": "Stephen Thompson",
+     "b": "tap-29374-charlie-radtke",
+     "bName": "Charles Radtke",
+     "odds": {
+      "a": -152,
+      "b": 130,
+      "books": 7
+     },
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "KO/TKO",
+      "detail": "Spinning Wheel Kick",
+      "round": 3,
+      "time": "2:54",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-16753-stephen-thompson-wonderboy",
+      "winnerName": "Stephen Thompson"
+     }
+    },
+    {
+     "segment": "Prelims",
+     "weightClass": "Lightweight",
+     "rounds": 3,
+     "discipline": "MMA",
+     "a": "tap-drew-dober",
+     "aName": "Drew Dober",
+     "b": "tap-68484-chris-duncan",
+     "bName": "Chris Duncan",
+     "odds": {
+      "a": 150,
+      "b": -188,
+      "books": 7
+     },
+     "result": {
+      "outcome": "win",
+      "winner": "b",
+      "method": "Decision",
+      "detail": "Unanimous",
+      "round": 3,
+      "time": "5:00",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-68484-chris-duncan",
+      "winnerName": "Chris Duncan"
+     }
+    },
+    {
+     "segment": "Prelims",
+     "weightClass": "Lightweight",
+     "rounds": 3,
+     "discipline": "MMA",
+     "a": "tap-jim-miller",
+     "aName": "Jim Miller",
+     "b": "tap-126382-terrance-mckinney",
+     "bName": "Terrance McKinney",
+     "odds": {
+      "a": 180,
+      "b": -220,
+      "books": 7
+     },
+     "result": {
+      "outcome": "win",
+      "winner": "b",
+      "method": "KO/TKO",
+      "detail": "Left Hook to Ground Punches",
+      "round": 1,
+      "time": "1:53",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-126382-terrance-mckinney",
+      "winnerName": "Terrance McKinney"
+     }
+    },
+    {
+     "segment": "Prelims",
+     "weightClass": "Middleweight",
+     "rounds": 3,
+     "discipline": "MMA",
+     "a": "tap-342862-donte-johnson",
+     "aName": "Donte Johnson",
+     "b": "tap-126015-csar-almeida",
+     "bName": "César Almeida",
+     "odds": {
+      "a": -180,
+      "b": 143,
+      "books": 7
+     },
+     "result": {
+      "outcome": "win",
+      "winner": "b",
+      "method": "KO/TKO",
+      "detail": "Right Hooks",
+      "round": 1,
+      "time": "3:20",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-126015-csar-almeida",
+      "winnerName": "César Almeida"
+     }
+    },
+    {
+     "segment": "Early prelims",
+     "weightClass": "Lightweight",
+     "rounds": 3,
+     "discipline": "MMA",
+     "a": "tap-101043-melquizael-costa-melkcalty",
+     "aName": "Melquizael Costa",
+     "b": "tap-17754-jared-gordon",
+     "bName": "Jared Gordon",
+     "odds": {
+      "a": -400,
+      "b": 310,
+      "books": 7
+     },
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "Decision",
+      "detail": "Unanimous",
+      "round": 3,
+      "time": "5:00",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-101043-melquizael-costa-melkcalty",
+      "winnerName": "Melquizael Costa"
+     }
+    },
+    {
+     "segment": "Early prelims",
+     "weightClass": "Women's Bantamweight",
+     "rounds": 3,
+     "discipline": "MMA",
+     "a": "tap-77737-macy-chiasson",
+     "aName": "Macy Chiasson",
+     "b": "tap-210835-beatriz-mesquita",
+     "bName": "Bia Mesquita",
+     "odds": {
+      "a": 205,
+      "b": -251,
+      "books": 7
+     },
+     "result": {
+      "outcome": "win",
+      "winner": "b",
+      "method": "Submission",
+      "detail": "Rear Naked Choke",
+      "round": 1,
+      "time": "3:23",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-210835-beatriz-mesquita",
+      "winnerName": "Bia Mesquita"
+     }
+    },
+    {
+     "segment": "Early prelims",
+     "weightClass": "Bantamweight",
+     "rounds": 3,
+     "discipline": "MMA",
+     "a": "tap-57170-ala-tengheili",
+     "aName": "Alatengheili",
+     "b": "tap-170071-juan-diaz",
+     "bName": "Juan Díaz",
+     "odds": {
+      "a": 310,
+      "b": -420,
+      "books": 7
+     },
+     "result": {
+      "outcome": "win",
+      "winner": "b",
+      "method": "Decision",
+      "detail": "Unanimous",
+      "round": 3,
+      "time": "5:00",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-170071-juan-diaz",
+      "winnerName": "Juan Díaz"
+     }
+    },
+    {
+     "segment": "Early prelims",
+     "weightClass": "Lightweight",
+     "rounds": 3,
+     "discipline": "MMA",
+     "a": "tap-108144-evan-elders",
+     "aName": "Evan Elder",
+     "b": "tap-305793-samuel-sanches",
+     "bName": "Samuel Sanches",
+     "odds": {
+      "a": -104,
+      "b": -120,
+      "books": 7
+     },
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "Decision",
+      "detail": "Unanimous",
+      "round": 3,
+      "time": "5:00",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-108144-evan-elders",
+      "winnerName": "Evan Elder"
+     }
+    }
+   ],
+   "resultsChecked": "2026-11-15",
+   "resultCount": 13
+  },
+  {
+   "name": "PFL Dubai: Nemkov vs. Bilostenniy",
+   "promotion": "PFL",
+   "date": "2026-11-14",
+   "startUTC": "2026-11-14T18:00:00Z",
+   "times": [
+    {
+     "label": "Main card",
+     "startUTC": "2026-11-14T18:00:00Z"
+    },
+    {
+     "label": "Early card",
+     "startUTC": "2026-11-14T14:00:00Z"
+    }
+   ],
+   "venue": "Coca-Cola Arena, Dubai, UAE",
+   "broadcasters": {
+    "US": "ESPN app",
+    "UK": "talkSPORT (YouTube)",
+    "CA": "PFL YouTube channel",
+    "AU": "Stan Sport",
+    "IE": "TBA",
+    "IN": "TBA",
+    "DE": "TBA",
+    "BR": "ESPN"
+   },
+   "sources": [
+    "https://www.espn.com/mma/schedule",
+    "https://www.sherdog.com/events/upcoming/2-page",
+    "https://pflmma.com/news/heavyweight-gold-on-the-line-as-vadim-nemkov-defends-his-pfl-world-title-against-sergei-bilostenniy-at-pfl-dubai",
+    "https://pflmma.com/watch",
+    "https://www.stan.news/nine-partners-with-pfl-to-continue-global-mma-expansion-with-pfl-pacific",
+    "https://pflmma.com/event/pfl-returns-to-dubai",
+    "https://www.tapology.com/fightcenter/events/147315-pfl-dubai"
+   ],
+   "notes": "Official PFL.com: main card 1:00 PM ET, early card 9:00 AM ET. US on the ESPN app (press release); UK talkSPORT, Canada PFL YouTube, Brazil ESPN, Australia Stan Sport per PFL where-to-watch page. Ireland/India/Germany TBA.",
+   "odds": {
+    "source": "BestFightOdds",
+    "url": "https://www.bestfightodds.com/events/pfl-dubai-4455",
+    "asOf": "2026-11-13 14:04 UTC",
+    "method": "consensus = median implied probability across the sportsbooks BestFightOdds listed for each fighter"
+   },
+   "featured": true,
+   "id": "pfl-dubai-nemkov-vs-bilostenniy",
+   "tapology": "https://www.tapology.com/fightcenter/events/147315-pfl-dubai",
+   "bouts": [
+    {
+     "segment": "Main card",
+     "weightClass": "Heavyweight",
+     "rounds": 5,
+     "title": "PFL Heavyweight Championship",
+     "discipline": "MMA",
+     "a": "tap-62209-vadim-nemkov",
+     "aName": "Vadim Nemkov",
+     "b": "tap-104366-sergey-belostenniy",
+     "bName": "Sergey Bilostenniy",
+     "odds": {
+      "a": -375,
+      "b": 270,
+      "books": 5
+     },
+     "result": {
+      "outcome": "win",
+      "winner": "b",
+      "method": "Decision",
+      "detail": "Unanimous",
+      "round": 5,
+      "time": "5:00",
+      "of": 5,
+      "source": "tapology-event",
+      "winnerId": "tap-104366-sergey-belostenniy",
+      "winnerName": "Sergey Bilostenniy"
+     }
+    },
+    {
+     "segment": "Main card",
+     "weightClass": "Welterweight",
+     "rounds": 3,
+     "discipline": "MMA",
+     "a": "tap-209285-patrick-habirora",
+     "aName": "Patrick Habirora",
+     "b": "tap-143448-omar-el-dafrawy",
+     "bName": "Omar El Dafrawy",
+     "odds": {
+      "a": -670,
+      "b": 425,
+      "books": 5
+     },
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "Submission",
+      "detail": "Guillotine Choke",
+      "round": 1,
+      "time": "3:11",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-209285-patrick-habirora",
+      "winnerName": "Patrick Habirora"
+     }
+    },
+    {
+     "segment": "Main card",
+     "weightClass": "Heavyweight",
+     "rounds": 3,
+     "discipline": "MMA",
+     "a": "tap-399362-poya-rahmani",
+     "aName": "Pouya Rahmani",
+     "b": "tap-117155-oleg-popov",
+     "bName": "Oleg Popov",
+     "odds": {
+      "a": -240,
+      "b": 180,
+      "books": 5
+     },
+     "result": {
+      "outcome": "win",
+      "winner": "b",
+      "method": "Decision",
+      "detail": "Unanimous",
+      "round": 3,
+      "time": "5:00",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-117155-oleg-popov",
+      "winnerName": "Oleg Popov"
+     }
+    },
+    {
+     "segment": "Main card",
+     "weightClass": "Bantamweight",
+     "rounds": 3,
+     "discipline": "MMA",
+     "a": "tap-17135-sergio-pettis",
+     "aName": "Sergio Pettis",
+     "b": "tap-120270-takechi-goto",
+     "bName": "Joji Goto",
+     "odds": {
+      "a": -175,
+      "b": 138,
+      "books": 5
+     },
+     "result": {
+      "outcome": "win",
+      "winner": "b",
+      "method": "Decision",
+      "detail": "Unanimous",
+      "round": 3,
+      "time": "5:00",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-120270-takechi-goto",
+      "winnerName": "Joji Goto"
+     }
+    },
+    {
+     "segment": "Main card",
+     "weightClass": "Bantamweight",
+     "rounds": 3,
+     "discipline": "MMA",
+     "a": "tap-168234-lewis-mcgrillen-evans",
+     "aName": "Lewis McGrillen",
+     "b": "tap-68572-nawras-abzakh",
+     "bName": "Nawras Abzakh",
+     "odds": {
+      "a": -440,
+      "b": 320,
+      "books": 5
+     },
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "KO/TKO",
+      "detail": "Retirement",
+      "round": 1,
+      "time": "5:00",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-168234-lewis-mcgrillen-evans",
+      "winnerName": "Lewis McGrillen"
+     }
+    },
+    {
+     "segment": "Prelims",
+     "weightClass": "Lightweight",
+     "rounds": 3,
+     "discipline": "MMA",
+     "a": "tap-130621-shaqueme-rock",
+     "aName": "Shem Rock",
+     "b": "tap-165001-connor-hughes",
+     "bName": "Connor Hughes",
+     "odds": {
+      "a": 150,
+      "b": -190,
+      "books": 5
+     },
+     "result": {
+      "outcome": "win",
+      "winner": "b",
+      "method": "KO/TKO",
+      "detail": "Left Hook and Right Hook",
+      "round": 2,
+      "time": "1:04",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-165001-connor-hughes",
+      "winnerName": "Connor Hughes"
+     }
+    },
+    {
+     "segment": "Prelims",
+     "weightClass": "Welterweight",
+     "rounds": 3,
+     "discipline": "MMA",
+     "a": "tap-104330-saigid-izagahmayev",
+     "aName": "Saygid Izagakhmaev",
+     "b": "tap-61637-david-russell",
+     "bName": "David Martinez",
+     "odds": {
+      "a": -212,
+      "b": 159,
+      "books": 4
+     },
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "Submission",
+      "detail": "Rear Naked Choke",
+      "round": 3,
+      "time": "4:27",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-104330-saigid-izagahmayev",
+      "winnerName": "Saygid Izagakhmaev"
+     }
+    },
+    {
+     "segment": "Prelims",
+     "weightClass": "Lightweight",
+     "rounds": 3,
+     "discipline": "MMA",
+     "a": "tap-230250-alexei-pergande",
+     "aName": "Alexei Pergande",
+     "b": "tap-168662-akhmed-magomedov",
+     "bName": "Akhmed Magomedov",
+     "odds": {
+      "a": -170,
+      "b": 140,
+      "books": 5
+     },
+     "result": {
+      "outcome": "win",
+      "winner": "b",
+      "method": "Decision",
+      "detail": "Unanimous",
+      "round": 3,
+      "time": "5:00",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-168662-akhmed-magomedov",
+      "winnerName": "Akhmed Magomedov"
+     }
+    },
+    {
+     "segment": "Prelims",
+     "weightClass": "Featherweight",
+     "rounds": 3,
+     "discipline": "MMA",
+     "a": "tap-212534-gasan-magomedsharipov",
+     "aName": "Khasan Magomedsharipov",
+     "b": "tap-94515-adam-borics",
+     "bName": "Ádám Borics",
+     "odds": {
+      "a": -265,
+      "b": 200,
+      "books": 5
+     },
+     "result": {
+      "outcome": "win",
+      "winner": "b",
+      "method": "Submission",
+      "detail": "Triangle Choke",
+      "round": 1,
+      "time": "4:17",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-94515-adam-borics",
+      "winnerName": "Ádám Borics"
+     }
+    },
+    {
+     "segment": "Prelims",
+     "weightClass": "Heavyweight",
+     "rounds": 3,
+     "discipline": "MMA",
+     "a": "tap-13594-Denis-Goltsov",
+     "aName": "Denis Goltsov",
+     "b": "tap-343664-maxwell-djantou-nana",
+     "bName": "Maxwell Djantou Nana",
+     "odds": {
+      "a": -420,
+      "b": 295,
+      "books": 5
+     },
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "KO/TKO",
+      "detail": "Right Hook to Ground Strikes",
+      "round": 1,
+      "time": "3:41",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-13594-Denis-Goltsov",
+      "winnerName": "Denis Goltsov"
+     }
+    },
+    {
+     "segment": "Prelims",
+     "weightClass": "Welterweight",
+     "rounds": 3,
+     "discipline": "MMA",
+     "a": "tap-226008-ernesto-rodriguez",
+     "aName": "Ernesto Rodriguez",
+     "b": "tap-54321-rhys-mckee",
+     "bName": "Rhys McKee",
+     "odds": {
+      "a": -128,
+      "b": -100,
+      "books": 5
+     },
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "KO/TKO",
+      "detail": "Overhand Right to Ground Strikes",
+      "round": 1,
+      "time": "2:28",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-226008-ernesto-rodriguez",
+      "winnerName": "Ernesto Rodriguez"
+     }
+    },
+    {
+     "segment": "Prelims",
+     "weightClass": "Light Heavyweight",
+     "rounds": 3,
+     "discipline": "MMA",
+     "a": "tap-246422-khabib-nabiev",
+     "aName": "Khabib Nabiev",
+     "b": "tap-379317-styve-ngono-essono",
+     "bName": "Styve Ngono",
+     "odds": {
+      "a": -625,
+      "b": 400,
+      "books": 5
+     },
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "KO/TKO",
+      "detail": "Ground and Pound",
+      "round": 3,
+      "time": "0:46",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-246422-khabib-nabiev",
+      "winnerName": "Khabib Nabiev"
+     }
+    },
+    {
+     "segment": "Prelims",
+     "weightClass": "Women's Strawweight",
+     "rounds": 3,
+     "discipline": "MMA",
+     "a": "tap-352283-aleksandra-savicheva",
+     "aName": "Aleksandra Savicheva",
+     "b": "tap-237494-jacinta-austin",
+     "bName": "Jacinta Austin",
+     "odds": {
+      "a": 200,
+      "b": -270,
+      "books": 5
+     },
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "Decision",
+      "detail": "Unanimous",
+      "round": 3,
+      "time": "5:00",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-352283-aleksandra-savicheva",
+      "winnerName": "Aleksandra Savicheva"
+     }
+    }
+   ],
+   "resultsChecked": "2026-11-15",
+   "resultCount": 13
+  },
+  {
+   "name": "Cage Warriors 213: London",
+   "promotion": "Cage Warriors",
+   "date": "2026-11-14",
+   "times": [
+    {
+     "label": "Countdown on official event page (likely prelims; main card time not yet published)",
+     "startUTC": "2026-11-14T18:00:00Z"
+    }
+   ],
+   "venue": "BBC Studioworks Television Centre, London, UK",
+   "broadcasters": {
+    "US": "UFC Fight Pass",
+    "UK": "UFC Fight Pass",
+    "CA": "UFC Fight Pass",
+    "AU": "UFC Fight Pass",
+    "IE": "UFC Fight Pass",
+    "IN": "UFC Fight Pass",
+    "DE": "UFC Fight Pass",
+    "BR": "UFC Fight Pass"
+   },
+   "sources": [
+    "https://cagewarriors.com/cage-warriors-events/",
+    "https://cagewarriors.com/cw-213-london/",
+    "https://cagewarriors.com/cw-211-rome-official-fight-card-broadcast-times/",
+    "https://www.tapology.com/fightcenter/events/148778-cage-warriors-213",
+    "https://cagewarriors.com/nik-bagley-retains-featherweight-belt-after-cw-213-london-ends-in-no-contest/"
+   ],
+   "notes": "Start time = the official event page countdown (re-read 2026-11-02; it now ends 1 h later than when first read, after UK clocks went back). On CW 212 the countdown ended 30 min before the published prelims start, so treat it as approximate; main card time is announced in fight week. Cage Warriors events stream on UFC Fight Pass (official site).",
+   "odds": {
+    "source": "BestFightOdds",
+    "url": "https://www.bestfightodds.com/events/cage-warriors-213-4460",
+    "asOf": "2026-11-13 14:04 UTC",
+    "method": "consensus = median implied probability across the sportsbooks BestFightOdds listed for each fighter"
+   },
+   "id": "cage-warriors-213-london",
+   "tapology": "https://www.tapology.com/fightcenter/events/148778-cage-warriors-213",
+   "bouts": [
+    {
+     "segment": "Main card",
+     "weightClass": "Featherweight",
+     "rounds": 5,
+     "title": "Cage Warriors Featherweight Championship",
+     "discipline": "MMA",
+     "a": "tap-133584-nik-bagley",
+     "aName": "Nik Bagley",
+     "b": "tap-136658-bruno-assis-karate",
+     "bName": "Bruno Souza",
+     "odds": {
+      "a": -333,
+      "b": 225,
+      "books": 1
+     },
+     "result": {
+      "outcome": "nc",
+      "winner": null,
+      "method": "No contest",
+      "detail": "Accidental Foul (Groin Kick)",
+      "round": 1,
+      "time": "0:43",
+      "of": 5,
+      "source": "tapology-event"
+     }
+    },
+    {
+     "segment": "Main card",
+     "weightClass": "Flyweight",
+     "rounds": 5,
+     "title": "Cage Warriors Interim Flyweight Championship",
+     "discipline": "MMA",
+     "a": "tap-114993-jawany-scott",
+     "aName": "Jawany Scott",
+     "b": "tap-307702-willians-nogueira-jubila",
+     "bName": "Willians Nogueira",
+     "odds": {
+      "a": -400,
+      "b": 275,
+      "books": 1
+     },
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "Decision",
+      "detail": "Unanimous",
+      "round": 5,
+      "time": "5:00",
+      "of": 5,
+      "source": "tapology-event",
+      "winnerId": "tap-114993-jawany-scott",
+      "winnerName": "Jawany Scott"
+     }
+    },
+    {
+     "segment": "Main card",
+     "weightClass": "Catchweight (161 lb)",
+     "rounds": 3,
+     "discipline": "MMA",
+     "a": "tap-133882-tariq-pell",
+     "aName": "Tariq Pell",
+     "b": "tap-106332-wellington-lopes-nenem",
+     "bName": "Wellington Lopes",
+     "odds": {
+      "a": -800,
+      "b": 450,
+      "books": 1
+     },
+     "result": {
+      "outcome": "win",
+      "winner": "b",
+      "method": "KO/TKO",
+      "detail": "Right Hook to Ground Strikes",
+      "round": 1,
+      "time": "3:58",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-106332-wellington-lopes-nenem",
+      "winnerName": "Wellington Lopes"
+     }
+    },
+    {
+     "segment": "Main card",
+     "weightClass": "Bantamweight",
+     "rounds": 3,
+     "discipline": "MMA",
+     "a": "tap-332802-shirzad-qadrian",
+     "aName": "Shirzad Qadrian",
+     "b": "tap-226493-manoel-costa-da-silva-lorinho",
+     "bName": "Manoel Silva",
+     "odds": {
+      "a": -649,
+      "b": 400,
+      "books": 1
+     },
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "KO/TKO",
+      "detail": "Referee Stoppage Between Rounds",
+      "round": 1,
+      "time": "5:00",
+      "of": 3,
+      "source": "cagewarriors-official",
+      "winnerId": "tap-332802-shirzad-qadrian",
+      "winnerName": "Shirzad Qadrian"
+     }
+    },
+    {
+     "segment": "Main card",
+     "weightClass": "Welterweight",
+     "rounds": 3,
+     "discipline": "MMA",
+     "a": "tap-124867-steven-hill",
+     "aName": "Steven Hill",
+     "b": "tap-33038-sado-ucar",
+     "bName": "Sado Ucar",
+     "odds": {
+      "a": 105,
+      "b": -138,
+      "books": 1
+     },
+     "result": {
+      "outcome": "win",
+      "winner": "b",
+      "method": "Submission",
+      "detail": "Armbar",
+      "round": 1,
+      "time": "2:03",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-33038-sado-ucar",
+      "winnerName": "Sado Ucar"
+     }
+    },
+    {
+     "segment": "Main card",
+     "weightClass": "Catchweight (140 lb)",
+     "rounds": 3,
+     "discipline": "MMA",
+     "a": "tap-85426-ollie-sarwa",
+     "aName": "Ollie Sarwa",
+     "b": "tap-190945-ieuan-mackenzie",
+     "bName": "Ieuan Mackenzie",
+     "odds": {
+      "a": -500,
+      "b": 333,
+      "books": 1
+     },
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "KO/TKO",
+      "detail": "Punches From Back Mount",
+      "round": 1,
+      "time": "2:53",
+      "of": 3,
+      "source": "cagewarriors-official",
+      "winnerId": "tap-85426-ollie-sarwa",
+      "winnerName": "Ollie Sarwa"
+     }
+    },
+    {
+     "segment": "Main card",
+     "weightClass": "Catchweight (130 lb)",
+     "rounds": 3,
+     "discipline": "MMA",
+     "a": "tap-343655-bobby-chikavhu",
+     "aName": "Bobby Chikavhu",
+     "b": "tap-327135-christos-ploumpis",
+     "bName": "Christos Ploumpis",
+     "odds": {
+      "a": -800,
+      "b": 450,
+      "books": 1
+     },
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "Submission",
+      "detail": "D'Arce Choke",
+      "round": 3,
+      "time": "2:51",
+      "of": 3,
+      "source": "cagewarriors-official",
+      "winnerId": "tap-343655-bobby-chikavhu",
+      "winnerName": "Bobby Chikavhu"
+     }
+    },
+    {
+     "segment": "Prelims",
+     "weightClass": "Welterweight",
+     "rounds": 3,
+     "discipline": "MMA",
+     "a": "tap-387732-ben-edwards",
+     "aName": "Ben Edwards",
+     "b": "tap-308718-james-wamsley",
+     "bName": "James Wamsley",
+     "odds": {
+      "a": -275,
+      "b": 200,
+      "books": 1
+     },
+     "result": {
+      "outcome": "win",
+      "winner": "b",
+      "method": "Decision",
+      "detail": "Unanimous",
+      "round": 3,
+      "time": "5:00",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-308718-james-wamsley",
+      "winnerName": "James Wamsley"
+     }
+    },
+    {
+     "segment": "Prelims",
+     "weightClass": "Lightweight",
+     "rounds": 3,
+     "discipline": "MMA",
+     "a": "tap-158641-callum-haughian",
+     "aName": "Callum Haughian",
+     "b": "tap-376605-will-cox",
+     "bName": "Will Fox",
+     "odds": {
+      "a": -275,
+      "b": 200,
+      "books": 1
+     },
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "Submission",
+      "detail": "Rear Naked Choke",
+      "round": 3,
+      "time": "1:13",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-158641-callum-haughian",
+      "winnerName": "Callum Haughian"
+     }
+    }
+   ],
+   "resultsChecked": "2026-11-15",
+   "resultCount": 9
+  },
+  {
+   "name": "LFA 246: Alves vs. Vinuto",
+   "promotion": "LFA",
+   "date": "2026-11-13",
+   "startUTC": "2026-11-14T02:00:00Z",
+   "times": [
+    {
+     "label": "Main card (VICE TV / FloSports)",
+     "startUTC": "2026-11-14T02:00:00Z"
+    }
+   ],
+   "venue": "Ginásio do Polvilho, Cajamar, São Paulo, Brazil",
+   "broadcasters": {
+    "US": "VICE TV / FloSports",
+    "UK": "TBA",
+    "CA": "TBA",
+    "AU": "TBA",
+    "IE": "TBA",
+    "IN": "TBA",
+    "DE": "TBA",
+    "BR": "TBA"
+   },
+   "sources": [
+    "https://www.lfa.com/events/list/",
+    "https://www.tapology.com/fightcenter/events/148241-lfa-246",
+    "https://www.lfa.com/event/lfa-246/"
+   ],
+   "notes": "Official (LFA.com): venue Ginásio do Polvilho, Cajamar (São Paulo); US on VICE TV and FloSports; Spanish-language ESPN Deportes (US) and ESPN KnockOut (Latin America). Other countries TBA.",
+   "odds": {
+    "source": "BestFightOdds",
+    "url": "https://www.bestfightodds.com/events/lfa-246-4457",
+    "asOf": "2026-11-13 14:04 UTC",
+    "method": "consensus = median implied probability across the sportsbooks BestFightOdds listed for each fighter"
+   },
+   "id": "lfa-246-tba",
+   "tapology": "https://www.tapology.com/fightcenter/events/148241-lfa-246",
+   "bouts": [
+    {
+     "segment": "Main card",
+     "weightClass": "Women's Strawweight",
+     "rounds": 5,
+     "title": "LFA Strawweight Championship",
+     "discipline": "MMA",
+     "a": "tap-274599-natalia-alves",
+     "aName": "Natalia Alves",
+     "b": "tap-292687-raiane-vinuto",
+     "bName": "Raiane Vinuto",
+     "odds": {
+      "a": -303,
+      "b": 212,
+      "books": 2
+     },
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "Submission",
+      "detail": "Armbar",
+      "round": 1,
+      "time": "4:34",
+      "of": 5,
+      "source": "tapology-event",
+      "winnerId": "tap-274599-natalia-alves",
+      "winnerName": "Natalia Alves"
+     }
+    },
+    {
+     "segment": "Main card",
+     "weightClass": "Welterweight",
+     "rounds": 5,
+     "title": "LFA Welterweight Championship",
+     "discipline": "MMA",
+     "a": "tap-295384-joao-paulo",
+     "aName": "João Paulo Silva",
+     "b": "tap-345289-gabriel-vinicius",
+     "bName": "Gabriel Vinicius",
+     "odds": {
+      "a": 324,
+      "b": -500,
+      "books": 2
+     },
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "Decision",
+      "detail": "Unanimous",
+      "round": 5,
+      "time": "5:00",
+      "of": 5,
+      "source": "tapology-event",
+      "winnerId": "tap-295384-joao-paulo",
+      "winnerName": "João Paulo Silva"
+     }
+    },
+    {
+     "segment": "Main card",
+     "weightClass": "Flyweight",
+     "rounds": 3,
+     "discipline": "MMA",
+     "a": "tap-201487-rafael-montouro-ribeiro-rafinha",
+     "aName": "Rafael Montouro",
+     "b": "tap-222229-lincon-santos",
+     "bName": "Lincon Santos",
+     "odds": {
+      "a": 175,
+      "b": -248,
+      "books": 2
+     },
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "KO/TKO",
+      "detail": "Left Hook to Ground Strikes",
+      "round": 2,
+      "time": "0:27",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-201487-rafael-montouro-ribeiro-rafinha",
+      "winnerName": "Rafael Montouro"
+     }
+    },
+    {
+     "segment": "Main card",
+     "weightClass": "Bantamweight",
+     "rounds": 3,
+     "discipline": "MMA",
+     "a": "tap-66093-nando-noriega",
+     "aName": "Fernando Noriega",
+     "b": "tap-187654-derick-borges",
+     "bName": "Derick Borges",
+     "odds": {
+      "a": 342,
+      "b": -539,
+      "books": 2
+     },
+     "result": {
+      "outcome": "win",
+      "winner": "b",
+      "method": "KO/TKO",
+      "detail": "Straight Right to Ground Strikes",
+      "round": 2,
+      "time": "2:33",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-187654-derick-borges",
+      "winnerName": "Derick Borges"
+     }
+    },
+    {
+     "segment": "Main card",
+     "weightClass": "Women's Strawweight",
+     "rounds": 3,
+     "discipline": "MMA",
+     "a": "tap-306012-laura-vieira",
+     "aName": "Laura Vasconcelos",
+     "b": "tap-158854-taynara-silva",
+     "bName": "Taynara Silva",
+     "odds": {
+      "a": -452,
+      "b": 300,
+      "books": 2
+     },
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "KO/TKO",
+      "detail": "Leg Injury",
+      "round": 2,
+      "time": "0:34",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-306012-laura-vieira",
+      "winnerName": "Laura Vasconcelos"
+     }
+    },
+    {
+     "segment": "Main card",
+     "weightClass": "Welterweight",
+     "rounds": 3,
+     "discipline": "MMA",
+     "a": "tap-354328-lucas-silva-bolacha",
+     "aName": "Lucas Silva",
+     "b": "tap-187288-vagner-gaucho",
+     "bName": "Vagner Gaúcho",
+     "odds": {
+      "a": -1000,
+      "b": 550,
+      "books": 1
+     },
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "KO/TKO",
+      "detail": "Doctor Stoppage",
+      "round": 2,
+      "time": "5:00",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-354328-lucas-silva-bolacha",
+      "winnerName": "Lucas Silva"
+     }
+    },
+    {
+     "segment": "Prelims",
+     "weightClass": "Women's Flyweight",
+     "rounds": 3,
+     "discipline": "MMA",
+     "a": "tap-242362-beatriz-consuli-diniz",
+     "aName": "Beatriz Consuli",
+     "b": "tap-389102-ana-carolina-araujo-ksonha",
+     "bName": "Carol Araujo",
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "Decision",
+      "detail": "Unanimous",
+      "round": 3,
+      "time": "5:00",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-242362-beatriz-consuli-diniz",
+      "winnerName": "Beatriz Consuli"
+     }
+    },
+    {
+     "segment": "Prelims",
+     "weightClass": "Flyweight",
+     "rounds": 3,
+     "discipline": "MMA",
+     "a": "tap-444888-claudio-meireles-blackout",
+     "aName": "Cláudio Meireles",
+     "b": "tap-236698-adam-santos-paqueta",
+     "bName": "Adam Santos",
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "KO/TKO",
+      "detail": "Knee to the Body",
+      "round": 1,
+      "time": "4:43",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-444888-claudio-meireles-blackout",
+      "winnerName": "Cláudio Meireles"
+     }
+    },
+    {
+     "segment": "Prelims",
+     "weightClass": "Women's Strawweight",
+     "rounds": 3,
+     "discipline": "MMA",
+     "a": "tap-243275-laryssa-leila",
+     "aName": "Laryssa Leila",
+     "b": "tap-294087-isa-kick",
+     "bName": "Isabella Araujo",
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "Submission",
+      "detail": "Rear Naked Choke",
+      "round": 2,
+      "time": "4:38",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-243275-laryssa-leila",
+      "winnerName": "Laryssa Leila"
+     }
+    },
+    {
+     "segment": "Prelims",
+     "weightClass": "Heavyweight",
+     "rounds": 3,
+     "discipline": "MMA",
+     "a": "tap-528602-marllon-santos",
+     "aName": "Marllon Santos",
+     "b": "tap-492393-bruno-de-jesus-sabugo",
+     "bName": "Bruno de Jesus",
+     "result": {
+      "outcome": "win",
+      "winner": "b",
+      "method": "KO/TKO",
+      "detail": "Elbow",
+      "round": 2,
+      "time": "0:57",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-492393-bruno-de-jesus-sabugo",
+      "winnerName": "Bruno de Jesus"
+     }
+    },
+    {
+     "segment": "Prelims",
+     "weightClass": "Lightweight",
+     "rounds": 3,
+     "discipline": "MMA",
+     "a": "tap-294692-raycon-matieli",
+     "aName": "Raycon Matiele",
+     "b": "tap-455924-edson-goncalves",
+     "bName": "Edson Gonçalves",
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "KO/TKO",
+      "detail": "Left Hook",
+      "round": 1,
+      "time": "3:36",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-294692-raycon-matieli",
+      "winnerName": "Raycon Matiele"
+     }
+    },
+    {
+     "segment": "Prelims",
+     "weightClass": "Featherweight",
+     "rounds": 3,
+     "discipline": "MMA",
+     "a": "tap-392643-pedro-henrique",
+     "aName": "Pedro Henrique Costa",
+     "b": "tap-497150-pedro-henrique-do-prado",
+     "bName": "Pedro Henrique Prado",
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "Submission",
+      "detail": "Heel Hook",
+      "round": 1,
+      "time": "1:29",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-392643-pedro-henrique",
+      "winnerName": "Pedro Henrique Costa"
+     }
+    }
+   ],
+   "resultsChecked": "2026-11-15",
+   "resultCount": 12
+  },
+  {
+   "name": "ONE Friday Fights 178",
+   "promotion": "ONE",
+   "date": "2026-11-13",
+   "startUTC": "2026-11-13T13:30:00Z",
+   "times": [
+    {
+     "label": "ONE Friday Fights",
+     "startUTC": "2026-11-13T13:30:00Z"
+    },
+    {
+     "label": "The Inner Circle pre-show (live.onefc.com)",
+     "startUTC": "2026-11-13T11:30:00Z"
+    }
+   ],
+   "venue": "Lumpinee Stadium, Bangkok, Thailand",
+   "broadcasters": {
+    "US": "beIN SPORTS",
+    "UK": "Sky Sports (app / YouTube)",
+    "CA": "beIN SPORTS",
+    "AU": "ESPN (Disney+ / Foxtel / Kayo)",
+    "IE": "Sky Sports (app / YouTube)",
+    "IN": "Star Sports Select 2 / JioHotstar",
+    "DE": "watch.onefc.com (free)",
+    "BR": "ONE YouTube / Facebook / watch.onefc.com (free)"
+   },
+   "sources": [
+    "https://goodfights.app/schedule",
+    "https://www.tapology.com/fightcenter/events/147737-one-friday-fights-178",
+    "https://faq.beincontent.com/hc/en-us/articles/48622526939539-Which-events-does-beIN-SPORTS-in-North-America-have-broadcast-rights-to",
+    "https://www.onefc.com/news/how-to-watch-the-inner-circle-35-and-one-friday-fights-175-live-on-october-16/",
+    "https://www.onefc.com/press-releases/espn-and-one-championship-enter-exclusive-multi-year-broadcast-agreement-for-australia-and-new-zealand/",
+    "https://www.onefc.com/press-releases/one-championship-and-sky-sports-announce-exclusive-partnership-to-broadcast-live-one-events-in-the-uk-and-ireland/",
+    "https://media.sportbusiness.com/news/star-india-agrees-multi-year-rights-deal-with-one-championship/",
+    "https://www.onefc.com/events/one-friday-fights-178/",
+    "https://www.onefc.com/news/how-to-watch-the-inner-circle-34-and-one-friday-fights-174-live-on-october-9/",
+    "https://live.onefc.com/",
+    "https://www.onefc.com/news/how-to-watch-the-inner-circle-36-and-one-friday-fights-176-live-on-october-30/"
+   ],
+   "notes": "Time = ONE Friday Fights broadcast (8:30 PM ICT). ONE.com lists this as a doubleheader starting 6:30 PM ICT with The Inner Circle 38 (live.onefc.com only); ONE's Friday Fights 174/175 guides put the Friday Fights broadcast 2 h after the opener — verify in fight week. Broadcasters from ONE's current rights deals (beIN SPORTS North America, ESPN Australia, Sky Sports UK & Ireland, Star/JioStar India), as confirmed on ONE's Friday Fights 175 watch guide; Germany (watch.onefc.com) and Brazil (ONE YouTube/Facebook/watch.onefc.com) as on ONE's Friday Fights 176 watch guide; the card-specific guide comes out in fight week.",
+   "odds": {
+    "source": "BestFightOdds",
+    "url": "https://www.bestfightodds.com/events/one-friday-fights-178-4454",
+    "asOf": "2026-11-11 14:01 UTC",
+    "method": "consensus = median implied probability across the sportsbooks BestFightOdds listed for each fighter"
+   },
+   "id": "one-friday-fights-178",
+   "tapology": "https://www.tapology.com/fightcenter/events/147737-one-friday-fights-178",
+   "bouts": [
+    {
+     "segment": "Main card",
+     "weightClass": "Atomweight",
+     "rounds": 3,
+     "discipline": "Muay Thai",
+     "a": "tap-323556-pek-thongtawee",
+     "aName": "Pek PorTorTor.Thongtawee",
+     "b": "tap-560392-cihan-dogu",
+     "bName": "Cihan Dogu",
+     "result": {
+      "outcome": "win",
+      "winner": "b",
+      "method": "Decision",
+      "detail": "Unanimous",
+      "round": 3,
+      "time": "3:00",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-560392-cihan-dogu",
+      "winnerName": "Cihan Dogu"
+     }
+    },
+    {
+     "segment": "Main card",
+     "weightClass": "Bantamweight",
+     "rounds": 3,
+     "discipline": "Muay Thai",
+     "a": "tap-289026-superlek-jitmuangnon",
+     "aName": "Superlek",
+     "b": "tap-523446-anar-mammadov",
+     "bName": "Anar Mammadov",
+     "result": {
+      "outcome": "win",
+      "winner": "b",
+      "method": "KO/TKO",
+      "detail": "Overhand Right",
+      "round": 1,
+      "time": "2:08",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-523446-anar-mammadov",
+      "winnerName": "Anar Mammadov"
+     }
+    },
+    {
+     "segment": "Main card",
+     "weightClass": "145 lb",
+     "rounds": 3,
+     "discipline": "Muay Thai",
+     "a": "tap-253766-kyar-swar-win",
+     "aName": "Kyaw Swar Win",
+     "bName": "Sherzodi Sadullo",
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "Decision",
+      "detail": "Unanimous",
+      "round": 3,
+      "time": "3:00",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-253766-kyar-swar-win",
+      "winnerName": "Kyaw Swar Win"
+     }
+    },
+    {
+     "segment": "Main card",
+     "weightClass": "Strawweight",
+     "rounds": 3,
+     "discipline": "Muay Thai",
+     "a": "tap-326974-kumanngern-jitmuangnon",
+     "aName": "KumanNgern",
+     "b": "tap-574069-ali-al-kinani",
+     "bName": "Ali Al-Kinani",
+     "result": {
+      "outcome": "win",
+      "winner": "b",
+      "method": "KO/TKO",
+      "detail": "Straight Right",
+      "round": 2,
+      "time": "1:24",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-574069-ali-al-kinani",
+      "winnerName": "Ali Al-Kinani"
+     }
+    },
+    {
+     "segment": "Main card",
+     "weightClass": "Strawweight",
+     "rounds": 3,
+     "discipline": "MMA",
+     "a": "tap-588811-nattakorn-kesorn",
+     "aName": "Nattakorn Kesorn",
+     "b": "tap-456274-mathew-gesto",
+     "bName": "Mathew Gesto",
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "Decision",
+      "detail": "Split",
+      "round": 3,
+      "time": "5:00",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-588811-nattakorn-kesorn",
+      "winnerName": "Nattakorn Kesorn"
+     }
+    },
+    {
+     "segment": "Main card",
+     "weightClass": "125 lb",
+     "rounds": 3,
+     "discipline": "Muay Thai",
+     "a": "tap-576583-superchamp",
+     "aName": "Superchamp Wutdychonburipraleasing",
+     "bName": "Superjang Sor. Rungsak",
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "KO/TKO",
+      "detail": "Body Shot",
+      "round": 1,
+      "time": "1:57",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-576583-superchamp",
+      "winnerName": "Superchamp Wutdychonburipraleasing"
+     }
+    },
+    {
+     "segment": "Main card",
+     "weightClass": "Bantamweight",
+     "rounds": 3,
+     "discipline": "MMA",
+     "a": "tap-141018-soo-hyun-kim",
+     "aName": "Soo Hyun Kim",
+     "b": "tap-506466-takumi-fukamachi",
+     "bName": "Takumi Fukamachi",
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "Decision",
+      "detail": "Split",
+      "round": 3,
+      "time": "5:00",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-141018-soo-hyun-kim",
+      "winnerName": "Soo Hyun Kim"
+     }
+    },
+    {
+     "segment": "Main card",
+     "weightClass": "Atomweight",
+     "rounds": 3,
+     "discipline": "Muay Thai",
+     "a": "tap-565573-nongnuk",
+     "aName": "Nongnuk Sor. Dechapan",
+     "b": "tap-489569-giorgia-pieropan",
+     "bName": "Giorgia Pieropan",
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "Decision",
+      "detail": "Unanimous",
+      "round": 3,
+      "time": "3:00",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-565573-nongnuk",
+      "winnerName": "Nongnuk Sor. Dechapan"
+     }
+    },
+    {
+     "segment": "Prelims",
+     "weightClass": "Flyweight",
+     "rounds": 3,
+     "discipline": "Muay Thai",
+     "a": "tap-272748-shimon-pk",
+     "aName": "Shimon Yoshinari",
+     "b": "tap-386574-ramadan-ondash",
+     "bName": "Ramadan Ondash",
+     "odds": {
+      "a": -350,
+      "b": 225,
+      "books": 1
+     },
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "Decision",
+      "detail": "Unanimous",
+      "round": 3,
+      "time": "3:00",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-272748-shimon-pk",
+      "winnerName": "Shimon Yoshinari"
+     }
+    },
+    {
+     "segment": "Prelims",
+     "weightClass": "Flyweight",
+     "rounds": 3,
+     "discipline": "Muay Thai",
+     "a": "tap-208722-rodtang-jitmuangnon-the-iron-man",
+     "aName": "Rodtang Jitmuangnon",
+     "b": "tap-209737-nong-o-gaiyanghadao",
+     "bName": "Nong-O",
+     "odds": {
+      "a": -450,
+      "b": 300,
+      "books": 1
+     },
+     "result": {
+      "outcome": "win",
+      "winner": "b",
+      "method": "Decision",
+      "detail": "Unanimous",
+      "round": 3,
+      "time": "3:00",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-209737-nong-o-gaiyanghadao",
+      "winnerName": "Nong-O"
+     }
+    },
+    {
+     "segment": "Prelims",
+     "weightClass": "Bantamweight",
+     "rounds": 3,
+     "discipline": "Muay Thai",
+     "a": "tap-290571-ptt-vor-rujirawong",
+     "aName": "PTT Vor Rujirawong",
+     "b": "tap-367912-hamza-rachid",
+     "bName": "Hamza Rachid",
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "KO/TKO",
+      "detail": "Straight Right",
+      "round": 1,
+      "time": "2:37",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-290571-ptt-vor-rujirawong",
+      "winnerName": "PTT Vor Rujirawong"
+     }
+    },
+    {
+     "segment": "Prelims",
+     "weightClass": "Bantamweight",
+     "rounds": 3,
+     "discipline": "Muay Thai",
+     "a": "tap-398433-lenny-blasi",
+     "aName": "Lenny Blasi",
+     "b": "tap-547929-adam-benwarwar",
+     "bName": "Adam Benwarwar",
+     "odds": {
+      "a": -138,
+      "b": 105,
+      "books": 1
+     },
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "Decision",
+      "detail": "Unanimous",
+      "round": 3,
+      "time": "3:00",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-398433-lenny-blasi",
+      "winnerName": "Lenny Blasi"
+     }
+    },
+    {
+     "segment": "Main card",
+     "weightClass": "Flyweight",
+     "rounds": 3,
+     "discipline": "Muay Thai",
+     "a": "tap-289741-petchubon",
+     "aName": "Petchubon Sor.Kongkiat",
+     "b": "tap-423289-songpandin-chor-kaewwiset",
+     "bName": "Songpaendin Chor Kaewwiset",
+     "result": {
+      "outcome": "win",
+      "winner": "b",
+      "method": "Decision",
+      "detail": "Split",
+      "round": 3,
+      "time": "3:00",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-423289-songpandin-chor-kaewwiset",
+      "winnerName": "Songpaendin Chor Kaewwiset"
+     }
+    },
+    {
+     "segment": "Prelims",
+     "weightClass": "Atomweight",
+     "rounds": 3,
+     "discipline": "Muay Thai",
+     "a": "tap-464342-banluelok-sitwatcharachai",
+     "aName": "Banluelok Sitwatcharachai",
+     "b": "tap-594328-mya-long-chaw",
+     "bName": "Mya Long Chaw",
+     "odds": {
+      "a": -333,
+      "b": 225,
+      "books": 1
+     },
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "KO/TKO",
+      "detail": "Left Hook",
+      "round": 2,
+      "time": "1:04",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerId": "tap-464342-banluelok-sitwatcharachai",
+      "winnerName": "Banluelok Sitwatcharachai"
+     }
+    }
+   ],
+   "resultsChecked": "2026-11-15",
+   "cardDroppedFromTapology": [
+    "Yodlekpet Or Atchariya vs Kyaw Swar Win",
+    "Superchamp Wutdychonburipraleasing vs Saiyok"
+   ],
+   "resultCount": 14
+  },
   {
    "name": "abc presents RIZIN.55: Shinryu vs. Laramie",
    "promotion": "RIZIN",
@@ -446,7 +2256,7 @@
      }
     }
    ],
-   "resultsChecked": "2026-11-11",
+   "resultsChecked": "2026-11-15",
    "resultCount": 16
   },
   {
@@ -871,7 +2681,7 @@
      }
     }
    ],
-   "resultsChecked": "2026-11-11",
+   "resultsChecked": "2026-11-15",
    "resultCount": 14
   },
   {
@@ -1160,7 +2970,7 @@
      }
     }
    ],
-   "resultsChecked": "2026-11-11",
+   "resultsChecked": "2026-11-15",
    "resultCount": 9
   },
   {
@@ -1502,7 +3312,7 @@
      }
     }
    ],
-   "resultsChecked": "2026-11-11",
+   "resultsChecked": "2026-11-15",
    "cardDroppedFromTapology": [
     "Doalty Torrance vs Kyle Cassidy",
     "Barry Aikman vs Cory Hardy"
@@ -1863,7 +3673,7 @@
      }
     }
    ],
-   "resultsChecked": "2026-11-11",
+   "resultsChecked": "2026-11-15",
    "resultCount": 12
   },
   {
@@ -2154,7 +3964,7 @@
      }
     }
    ],
-   "resultsChecked": "2026-11-11",
+   "resultsChecked": "2026-11-15",
    "resultCount": 9
   },
   {
@@ -2571,7 +4381,7 @@
      }
     }
    ],
-   "resultsChecked": "2026-11-11",
+   "resultsChecked": "2026-11-15",
    "resultCount": 14
   },
   {
@@ -2942,7 +4752,7 @@
      }
     }
    ],
-   "resultsChecked": "2026-11-11",
+   "resultsChecked": "2026-11-15",
    "resultCount": 12
   },
   {
@@ -3278,7 +5088,7 @@
      }
     }
    ],
-   "resultsChecked": "2026-11-11",
+   "resultsChecked": "2026-11-15",
    "resultCount": 11
   },
   {
@@ -3512,7 +5322,7 @@
      }
     }
    ],
-   "resultsChecked": "2026-11-11",
+   "resultsChecked": "2026-11-15",
    "resultCount": 9
   },
   {
@@ -3823,7 +5633,7 @@
      }
     }
    ],
-   "resultsChecked": "2026-11-11",
+   "resultsChecked": "2026-11-15",
    "cardDroppedFromTapology": [
     "Rambong Sor Terapat vs Jacob Thompson",
     "Petkhaokradong Lukjaomaesaithong vs Abdelali Zahidi"
@@ -4229,7 +6039,7 @@
      }
     }
    ],
-   "resultsChecked": "2026-11-11",
+   "resultsChecked": "2026-11-15",
    "resultCount": 14
   },
   {
@@ -4477,7 +6287,7 @@
      }
     }
    ],
-   "resultsChecked": "2026-11-11",
+   "resultsChecked": "2026-11-15",
    "cardDroppedFromTapology": [
     "Paul Capaldo vs Sebastian Ruiz",
     "Eli Evangelista vs Angelo Robles",
@@ -4684,7 +6494,7 @@
      }
     }
    ],
-   "resultsChecked": "2026-11-11",
+   "resultsChecked": "2026-11-15",
    "cardDroppedFromTapology": [
     "Jared Warren vs Tom Angeloff",
     "Tony Murphy vs Brandon Conley"
@@ -4973,7 +6783,7 @@
      }
     }
    ],
-   "resultsChecked": "2026-11-11",
+   "resultsChecked": "2026-11-15",
    "resultCount": 10
   },
   {
@@ -5320,7 +7130,7 @@
      }
     }
    ],
-   "resultsChecked": "2026-11-11",
+   "resultsChecked": "2026-11-15",
    "resultCount": 13
   },
   {
@@ -5549,7 +7359,7 @@
      }
     }
    ],
-   "resultsChecked": "2026-11-11",
+   "resultsChecked": "2026-11-15",
    "resultCount": 10
   },
   {
@@ -5878,7 +7688,7 @@
      }
     }
    ],
-   "resultsChecked": "2026-11-11",
+   "resultsChecked": "2026-11-15",
    "resultCount": 11
   },
   {
@@ -6101,7 +7911,7 @@
      }
     }
    ],
-   "resultsChecked": "2026-11-11",
+   "resultsChecked": "2026-11-15",
    "resultCount": 10
   }
  ]

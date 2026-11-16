@@ -11,8 +11,8 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:lfa-244-woodley-vs-havener@getcagetime.com
-DTSTAMP:20261111T000000Z
-LAST-MODIFIED:20261111T000000Z
+DTSTAMP:20261115T000000Z
+LAST-MODIFIED:20261115T000000Z
 DTSTART:20261024T010000Z
 DTEND:20261024T040000Z
 SUMMARY:LFA 244: Woodley vs. Havener
@@ -39,8 +39,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:lfa-245-khamzaev-vs-prescendo@getcagetime.com
-DTSTAMP:20261111T000000Z
-LAST-MODIFIED:20261111T000000Z
+DTSTAMP:20261115T000000Z
+LAST-MODIFIED:20261115T000000Z
 DTSTART:20261031T010000Z
 DTEND:20261031T040000Z
 SUMMARY:LFA 245: Khamzaev vs. Prescendo
@@ -67,27 +67,29 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:lfa-246-tba@getcagetime.com
-DTSTAMP:20261101T000000Z
-LAST-MODIFIED:20261101T000000Z
+DTSTAMP:20261115T000000Z
+LAST-MODIFIED:20261115T000000Z
 DTSTART:20261114T020000Z
 DTEND:20261114T050000Z
 SUMMARY:LFA 246: Alves vs. Vinuto
 LOCATION:Ginásio do Polvilho\, Cajamar\, São Paulo\, Brazil
-DESCRIPTION:TIMES\nMain card (VICE TV / FloSports): Fri Nov 13 9:00 PM EST 
- (02:00 UTC)\n\nWHERE TO WATCH\nUnited States: VICE TV / FloSports\nUnited 
- Kingdom: TBA\nCanada: TBA\nAustralia: TBA\nIreland: TBA\nIndia: TBA\nGerma
- ny: TBA\nBrazil: TBA\n\nFIGHT CARD\n— Main card —\nNatalia Alves vs. R
- aiane Vinuto (Women's Strawweight)\nJoão Paulo Silva vs. Gabriel Vinicius
-  (Welterweight)\nRafael Montouro vs. Lincon Santos (Flyweight)\nFernando N
- oriega vs. Derick Borges (Bantamweight)\nLaura Vasconcelos vs. Taynara Sil
- va (Women's Strawweight)\nLucas Silva vs. Vagner Gaúcho (Welterweight)\n
- — Prelims —\nBeatriz Consuli vs. Carol Araujo (Women's Flyweight)\nCl
- áudio Meireles vs. Adam Santos (Flyweight)\nLaryssa Leila vs. Isabella Ar
- aujo (Women's Strawweight)\nMarllon Santos vs. Bruno de Jesus (Heavyweight
- )\nRaycon Matiele vs. Edson Gonçalves (Lightweight)\nPedro Henrique Costa
-  vs. Pedro Henrique Prado (Featherweight)\n\nEvent page: https://getcageti
- me.com/events/lfa-246-tba/\nTimes and broadcasters can change\; check the 
- event page. From CageTime (getcagetime.com).
+DESCRIPTION:RESULTS: https://getcagetime.com/results/lfa-246-tba/\nMain eve
+ nt: Natalia Alves def. Raiane Vinuto by Submission (R1 4:34)\n\nTIMES\nMai
+ n card (VICE TV / FloSports): Fri Nov 13 9:00 PM EST (02:00 UTC)\n\nWHERE 
+ TO WATCH\nUnited States: VICE TV / FloSports\nUnited Kingdom: TBA\nCanada:
+  TBA\nAustralia: TBA\nIreland: TBA\nIndia: TBA\nGermany: TBA\nBrazil: TBA\
+ n\nFIGHT CARD\n— Main card —\nNatalia Alves vs. Raiane Vinuto (Women's
+  Strawweight)\nJoão Paulo Silva vs. Gabriel Vinicius (Welterweight)\nRafa
+ el Montouro vs. Lincon Santos (Flyweight)\nFernando Noriega vs. Derick Bor
+ ges (Bantamweight)\nLaura Vasconcelos vs. Taynara Silva (Women's Strawweig
+ ht)\nLucas Silva vs. Vagner Gaúcho (Welterweight)\n— Prelims —\nBeatr
+ iz Consuli vs. Carol Araujo (Women's Flyweight)\nCláudio Meireles vs. Ada
+ m Santos (Flyweight)\nLaryssa Leila vs. Isabella Araujo (Women's Strawweig
+ ht)\nMarllon Santos vs. Bruno de Jesus (Heavyweight)\nRaycon Matiele vs. E
+ dson Gonçalves (Lightweight)\nPedro Henrique Costa vs. Pedro Henrique Pra
+ do (Featherweight)\n\nEvent page: https://getcagetime.com/events/lfa-246-t
+ ba/\nTimes and broadcasters can change\; check the event page. From CageTi
+ me (getcagetime.com).
 URL:https://getcagetime.com/events/lfa-246-tba/
 CATEGORIES:LFA,MMA
 STATUS:CONFIRMED

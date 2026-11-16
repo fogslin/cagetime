@@ -11,8 +11,8 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:oktagon-95-skvor-vs-narkun@getcagetime.com
-DTSTAMP:20261111T000000Z
-LAST-MODIFIED:20261111T000000Z
+DTSTAMP:20261115T000000Z
+LAST-MODIFIED:20261115T000000Z
 DTSTART:20261017T160000Z
 DTEND:20261017T190000Z
 SUMMARY:OKTAGON 95: Škvor vs. Narkun
@@ -39,8 +39,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:oktagon-96-gogoladze-vs-klinkhammer@getcagetime.com
-DTSTAMP:20261111T000000Z
-LAST-MODIFIED:20261111T000000Z
+DTSTAMP:20261115T000000Z
+LAST-MODIFIED:20261115T000000Z
 DTSTART:20261031T160000Z
 DTEND:20261031T190000Z
 SUMMARY:OKTAGON 96: Gogoladze vs. Ayari
@@ -70,8 +70,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:oktagon-97-severino-vs-holzer@getcagetime.com
-DTSTAMP:20261111T000000Z
-LAST-MODIFIED:20261111T000000Z
+DTSTAMP:20261115T000000Z
+LAST-MODIFIED:20261115T000000Z
 DTSTART:20261107T170000Z
 DTEND:20261107T200000Z
 SUMMARY:OKTAGON 97: Severino vs. Holzer
@@ -148,10 +148,11 @@ DESCRIPTION:TIMES\nEvent start (official\; no separate main-card time publi
  leček (Featherweight)\nAdam Pałasz vs. Marc Doussis (Heavyweight)\nAli G
  ündüz vs. Abdullah Sultani (Bantamweight)\nMurat Tüysüz vs. Jan Stanov
  ský (Lightweight)\nIwan Tagner vs. Bedirhan Kabak (Welterweight)\nHarun U
- zun vs. Aleksandar Stefanovic (Light Heavyweight)\n— Prelims —\nFurkan
-  Ugur vs. Said Osmanov (Lightweight)\n\nEvent page: https://getcagetime.co
- m/events/oktagon-99/\nTimes and broadcasters can change\; check the event 
- page. From CageTime (getcagetime.com).
+ zun vs. Aleksandar Stefanovic (Light Heavyweight)\nKhalid Taha vs. João P
+ edro Saldanha (Catchweight (152 lb))\n— Prelims —\nFurkan Ugur vs. Sai
+ d Osmanov (Lightweight)\n\nEvent page: https://getcagetime.com/events/okta
+ gon-99/\nTimes and broadcasters can change\; check the event page. From Ca
+ geTime (getcagetime.com).
 URL:https://getcagetime.com/events/oktagon-99/
 CATEGORIES:OKTAGON,MMA
 STATUS:CONFIRMED

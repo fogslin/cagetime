@@ -11,8 +11,8 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:oktagon-95-skvor-vs-narkun@getcagetime.com
-DTSTAMP:20261115T000000Z
-LAST-MODIFIED:20261115T000000Z
+DTSTAMP:20261117T000000Z
+LAST-MODIFIED:20261117T000000Z
 DTSTART:20261017T160000Z
 DTEND:20261017T190000Z
 SUMMARY:OKTAGON 95: Škvor vs. Narkun
@@ -39,8 +39,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:oktagon-96-gogoladze-vs-klinkhammer@getcagetime.com
-DTSTAMP:20261115T000000Z
-LAST-MODIFIED:20261115T000000Z
+DTSTAMP:20261117T000000Z
+LAST-MODIFIED:20261117T000000Z
 DTSTART:20261031T160000Z
 DTEND:20261031T190000Z
 SUMMARY:OKTAGON 96: Gogoladze vs. Ayari
@@ -70,8 +70,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:oktagon-97-severino-vs-holzer@getcagetime.com
-DTSTAMP:20261115T000000Z
-LAST-MODIFIED:20261115T000000Z
+DTSTAMP:20261117T000000Z
+LAST-MODIFIED:20261117T000000Z
 DTSTART:20261107T170000Z
 DTEND:20261107T200000Z
 SUMMARY:OKTAGON 97: Severino vs. Holzer
@@ -101,8 +101,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:oktagon-98-legierski-vs-buchinger@getcagetime.com
-DTSTAMP:20261101T000000Z
-LAST-MODIFIED:20261101T000000Z
+DTSTAMP:20261116T000000Z
+LAST-MODIFIED:20261116T000000Z
 DTSTART:20261121T170000Z
 DTEND:20261121T200000Z
 SUMMARY:OKTAGON 98: Legierski vs. Buchinger
@@ -131,8 +131,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:oktagon-99@getcagetime.com
-DTSTAMP:20261101T000000Z
-LAST-MODIFIED:20261101T000000Z
+DTSTAMP:20261116T000000Z
+LAST-MODIFIED:20261116T000000Z
 DTSTART:20261205T170000Z
 DTEND:20261205T200000Z
 SUMMARY:OKTAGON 99: Aras vs. Flores
@@ -149,10 +149,12 @@ DESCRIPTION:TIMES\nEvent start (official\; no separate main-card time publi
  ündüz vs. Abdullah Sultani (Bantamweight)\nMurat Tüysüz vs. Jan Stanov
  ský (Lightweight)\nIwan Tagner vs. Bedirhan Kabak (Welterweight)\nHarun U
  zun vs. Aleksandar Stefanovic (Light Heavyweight)\nKhalid Taha vs. João P
- edro Saldanha (Catchweight (152 lb))\n— Prelims —\nFurkan Ugur vs. Sai
- d Osmanov (Lightweight)\n\nEvent page: https://getcagetime.com/events/okta
- gon-99/\nTimes and broadcasters can change\; check the event page. From Ca
- geTime (getcagetime.com).
+ edro Saldanha (Catchweight (152 lb))\nMatěj Peňáz vs. Jonathan Figueroa
+  (Catchweight (190 lb))\nAhmad Chikh Mousa vs. Zinedine El Mahdi (Catchwei
+ ght (151 lb))\n— Prelims —\nFurkan Ugur vs. Said Osmanov (Lightweight)
+ \n\nEvent page: https://getcagetime.com/events/oktagon-99/\nTimes and broa
+ dcasters can change\; check the event page. From CageTime (getcagetime.com
+ ).
 URL:https://getcagetime.com/events/oktagon-99/
 CATEGORIES:OKTAGON,MMA
 STATUS:CONFIRMED
@@ -160,8 +162,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:oktagon-100-jotko-vs-muradov@getcagetime.com
-DTSTAMP:20261101T000000Z
-LAST-MODIFIED:20261101T000000Z
+DTSTAMP:20261116T000000Z
+LAST-MODIFIED:20261116T000000Z
 DTSTART:20261229T170000Z
 DTEND:20261229T200000Z
 SUMMARY:OKTAGON 100: Jotko vs. Muradov
@@ -178,6 +180,27 @@ DESCRIPTION:TIMES\nEvent start (official\; no separate main-card time publi
  on-100-jotko-vs-muradov/\nTimes and broadcasters can change\; check the ev
  ent page. From CageTime (getcagetime.com).
 URL:https://getcagetime.com/events/oktagon-100-jotko-vs-muradov/
+CATEGORIES:OKTAGON,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oktagon-101-dalaslan-vs-kinehan@getcagetime.com
+DTSTAMP:20261116T000000Z
+LAST-MODIFIED:20261116T000000Z
+DTSTART:20270116T170000Z
+DTEND:20270116T200000Z
+SUMMARY:OKTAGON 101: Dalaslan vs. Kinehan
+LOCATION:Hanns-Martin-Schleyer-Halle\, Stuttgart\, Germany
+DESCRIPTION:TIMES\nMain card: Sat Jan 16 12:00 PM EST (17:00 UTC)\n\nWHERE 
+ TO WATCH\nUnited States: TBA\nUnited Kingdom: TBA\nCanada: TBA\nAustralia:
+  TBA\nIreland: TBA\nIndia: TBA\nGermany: TBA\nBrazil: TBA\n\nFIGHT CARD\n
+ — Main card —\nAlina Dalaslan vs. Niamh Kinehan (Women's Bantamweight)
+ \nShawn Marcos da Silva vs. Fayaz Haqparast (Flyweight)\nEmilio Quissua vs
+ . Mick Stanton (Light Heavyweight)\n\nEvent page: https://getcagetime.com/
+ events/oktagon-101-dalaslan-vs-kinehan/\nTimes and broadcasters can change
+ \; check the event page. From CageTime (getcagetime.com).
+URL:https://getcagetime.com/events/oktagon-101-dalaslan-vs-kinehan/
 CATEGORIES:OKTAGON,MMA
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT

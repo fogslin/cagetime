@@ -12,8 +12,8 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:one-samurai-4-haggerty-vs-akimoto@getcagetime.com
-DTSTAMP:20261115T000000Z
-LAST-MODIFIED:20261115T000000Z
+DTSTAMP:20261117T000000Z
+LAST-MODIFIED:20261117T000000Z
 DTSTART:20261017T063000Z
 DTEND:20261017T093000Z
 SUMMARY:ONE Samurai 4: Haggerty vs. Akimoto
@@ -45,8 +45,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:oktagon-95-skvor-vs-narkun@getcagetime.com
-DTSTAMP:20261115T000000Z
-LAST-MODIFIED:20261115T000000Z
+DTSTAMP:20261117T000000Z
+LAST-MODIFIED:20261117T000000Z
 DTSTART:20261017T160000Z
 DTEND:20261017T190000Z
 SUMMARY:OKTAGON 95: Škvor vs. Narkun
@@ -73,8 +73,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:cage-warriors-211-bellandi-vs-pereira@getcagetime.com
-DTSTAMP:20261115T000000Z
-LAST-MODIFIED:20261115T000000Z
+DTSTAMP:20261117T000000Z
+LAST-MODIFIED:20261117T000000Z
 DTSTART:20261017T160000Z
 DTEND:20261017T190000Z
 SUMMARY:Cage Warriors 211: Bellandi vs. Pereira
@@ -103,8 +103,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-fight-night-buckley-vs-malott@getcagetime.com
-DTSTAMP:20261115T000000Z
-LAST-MODIFIED:20261115T000000Z
+DTSTAMP:20261117T000000Z
+LAST-MODIFIED:20261117T000000Z
 DTSTART:20261018T000000Z
 DTEND:20261018T030000Z
 SUMMARY:UFC Fight Night: Buckley vs. Malott
@@ -134,8 +134,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:bkfc-95-herring-vs-dodson@getcagetime.com
-DTSTAMP:20261115T000000Z
-LAST-MODIFIED:20261115T000000Z
+DTSTAMP:20261117T000000Z
+LAST-MODIFIED:20261117T000000Z
 DTSTART:20261018T010000Z
 DTEND:20261018T040000Z
 SUMMARY:BKFC 95: Herring vs. Dodson
@@ -163,8 +163,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:bkfc-fight-night-clearwater-reber-vs-street@getcagetime.com
-DTSTAMP:20261115T000000Z
-LAST-MODIFIED:20261115T000000Z
+DTSTAMP:20261117T000000Z
+LAST-MODIFIED:20261117T000000Z
 DTSTART:20261024T000000Z
 DTEND:20261024T030000Z
 SUMMARY:BKFC Fight Night Clearwater: Reber vs. Street
@@ -191,8 +191,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:lfa-244-woodley-vs-havener@getcagetime.com
-DTSTAMP:20261115T000000Z
-LAST-MODIFIED:20261115T000000Z
+DTSTAMP:20261117T000000Z
+LAST-MODIFIED:20261117T000000Z
 DTSTART:20261024T010000Z
 DTEND:20261024T040000Z
 SUMMARY:LFA 244: Woodley vs. Havener
@@ -219,8 +219,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-333-volkanovski-vs-evloev@getcagetime.com
-DTSTAMP:20261115T000000Z
-LAST-MODIFIED:20261115T000000Z
+DTSTAMP:20261117T000000Z
+LAST-MODIFIED:20261117T000000Z
 DTSTART:20261024T180000Z
 DTEND:20261024T210000Z
 SUMMARY:UFC 333: Volkanovski vs. Evloev
@@ -253,8 +253,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:one-friday-fights-176@getcagetime.com
-DTSTAMP:20261115T000000Z
-LAST-MODIFIED:20261115T000000Z
+DTSTAMP:20261117T000000Z
+LAST-MODIFIED:20261117T000000Z
 DTSTART:20261030T133000Z
 DTEND:20261030T163000Z
 SUMMARY:ONE Friday Fights 176
@@ -286,8 +286,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:lfa-245-khamzaev-vs-prescendo@getcagetime.com
-DTSTAMP:20261115T000000Z
-LAST-MODIFIED:20261115T000000Z
+DTSTAMP:20261117T000000Z
+LAST-MODIFIED:20261117T000000Z
 DTSTART:20261031T010000Z
 DTEND:20261031T040000Z
 SUMMARY:LFA 245: Khamzaev vs. Prescendo
@@ -314,8 +314,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:oktagon-96-gogoladze-vs-klinkhammer@getcagetime.com
-DTSTAMP:20261115T000000Z
-LAST-MODIFIED:20261115T000000Z
+DTSTAMP:20261117T000000Z
+LAST-MODIFIED:20261117T000000Z
 DTSTART:20261031T160000Z
 DTEND:20261031T190000Z
 SUMMARY:OKTAGON 96: Gogoladze vs. Ayari
@@ -345,8 +345,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-fight-night-moicano-vs-nolan@getcagetime.com
-DTSTAMP:20261115T000000Z
-LAST-MODIFIED:20261115T000000Z
+DTSTAMP:20261117T000000Z
+LAST-MODIFIED:20261117T000000Z
 DTSTART:20261101T000000Z
 DTEND:20261101T030000Z
 SUMMARY:UFC Fight Night: Moicano vs. Nolan
@@ -376,8 +376,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:one-friday-fights-177@getcagetime.com
-DTSTAMP:20261115T000000Z
-LAST-MODIFIED:20261115T000000Z
+DTSTAMP:20261117T000000Z
+LAST-MODIFIED:20261117T000000Z
 DTSTART:20261106T133000Z
 DTEND:20261106T163000Z
 SUMMARY:ONE Friday Fights 177
@@ -411,8 +411,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:one-fight-night-49-gabriel-vs-rasulov@getcagetime.com
-DTSTAMP:20261115T000000Z
-LAST-MODIFIED:20261115T000000Z
+DTSTAMP:20261117T000000Z
+LAST-MODIFIED:20261117T000000Z
 DTSTART:20261107T020000Z
 DTEND:20261107T050000Z
 SUMMARY:ONE Fight Night 49: Gabriel vs. Magomedov
@@ -441,8 +441,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:oktagon-97-severino-vs-holzer@getcagetime.com
-DTSTAMP:20261115T000000Z
-LAST-MODIFIED:20261115T000000Z
+DTSTAMP:20261117T000000Z
+LAST-MODIFIED:20261117T000000Z
 DTSTART:20261107T170000Z
 DTEND:20261107T200000Z
 SUMMARY:OKTAGON 97: Severino vs. Holzer
@@ -472,8 +472,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:bkfc-96-glasgow-cooke-vs-weir@getcagetime.com
-DTSTAMP:20261115T000000Z
-LAST-MODIFIED:20261115T000000Z
+DTSTAMP:20261117T000000Z
+LAST-MODIFIED:20261117T000000Z
 DTSTART:20261107T190000Z
 DTEND:20261107T220000Z
 SUMMARY:BKFC 96 Glasgow: Weir vs. Cohoon
@@ -500,8 +500,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:cage-warriors-212-spanish-showcase@getcagetime.com
-DTSTAMP:20261115T000000Z
-LAST-MODIFIED:20261115T000000Z
+DTSTAMP:20261117T000000Z
+LAST-MODIFIED:20261117T000000Z
 DTSTART:20261107T200000Z
 DTEND:20261107T230000Z
 SUMMARY:Cage Warriors 212: Spanish Showcase
@@ -530,8 +530,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-fight-night-bonfim-vs-brady@getcagetime.com
-DTSTAMP:20261115T000000Z
-LAST-MODIFIED:20261115T000000Z
+DTSTAMP:20261117T000000Z
+LAST-MODIFIED:20261117T000000Z
 DTSTART:20261108T010000Z
 DTEND:20261108T040000Z
 SUMMARY:UFC Fight Night: Cortes-Acosta vs. Walker
@@ -563,8 +563,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:abc-presents-rizin-55-shinryu-vs-laramie@getcagetime.com
-DTSTAMP:20261115T000000Z
-LAST-MODIFIED:20261115T000000Z
+DTSTAMP:20261117T000000Z
+LAST-MODIFIED:20261117T000000Z
 DTSTART:20261108T050000Z
 DTEND:20261108T080000Z
 SUMMARY:abc presents RIZIN.55: Shinryu vs. Laramie
@@ -598,8 +598,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:one-friday-fights-178@getcagetime.com
-DTSTAMP:20261115T000000Z
-LAST-MODIFIED:20261115T000000Z
+DTSTAMP:20261117T000000Z
+LAST-MODIFIED:20261117T000000Z
 DTSTART:20261113T133000Z
 DTEND:20261113T163000Z
 SUMMARY:ONE Friday Fights 178
@@ -633,8 +633,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:lfa-246-tba@getcagetime.com
-DTSTAMP:20261115T000000Z
-LAST-MODIFIED:20261115T000000Z
+DTSTAMP:20261117T000000Z
+LAST-MODIFIED:20261117T000000Z
 DTSTART:20261114T020000Z
 DTEND:20261114T050000Z
 SUMMARY:LFA 246: Alves vs. Vinuto
@@ -663,8 +663,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:pfl-dubai-nemkov-vs-bilostenniy@getcagetime.com
-DTSTAMP:20261115T000000Z
-LAST-MODIFIED:20261115T000000Z
+DTSTAMP:20261117T000000Z
+LAST-MODIFIED:20261117T000000Z
 DTSTART:20261114T180000Z
 DTEND:20261114T210000Z
 SUMMARY:PFL Dubai: Nemkov vs. Bilostenniy
@@ -695,8 +695,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:cage-warriors-213-london@getcagetime.com
-DTSTAMP:20261115T000000Z
-LAST-MODIFIED:20261115T000000Z
+DTSTAMP:20261117T000000Z
+LAST-MODIFIED:20261117T000000Z
 DTSTART:20261114T180000Z
 DTEND:20261114T210000Z
 SUMMARY:Cage Warriors 213: London (Countdown on official event page (likely
@@ -725,8 +725,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-334-gane-vs-hokit@getcagetime.com
-DTSTAMP:20261115T000000Z
-LAST-MODIFIED:20261115T000000Z
+DTSTAMP:20261117T000000Z
+LAST-MODIFIED:20261117T000000Z
 DTSTART:20261115T020000Z
 DTEND:20261115T050000Z
 SUMMARY:UFC 334: Gane vs. Hokit
@@ -759,27 +759,28 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:one-samurai-5-pacio-vs-yamakita@getcagetime.com
-DTSTAMP:20261101T000000Z
-LAST-MODIFIED:20261101T000000Z
+DTSTAMP:20261116T000000Z
+LAST-MODIFIED:20261116T000000Z
 DTSTART:20261118T083000Z
 DTEND:20261118T113000Z
-SUMMARY:ONE Samurai 5: Pacio vs. Yamakita (Card start per Tapology (unoffic
- ial\; may be prelims))
+SUMMARY:ONE Samurai 5: Pacio vs. Yamakita
 LOCATION:EBARA WAVE Arena Ota\, Tokyo\, Japan
-DESCRIPTION:TIMES\nCard start per Tapology (unofficial\; may be prelims): W
- ed Nov 18 3:30 AM EST (08:30 UTC)\nMain card time not published yet\; this
-  entry starts at the earliest listed time.\n\nWHERE TO WATCH\nUnited State
- s: TBA\nUnited Kingdom: TBA\nCanada: TBA\nAustralia: TBA\nIreland: TBA\nIn
- dia: TBA\nGermany: TBA\nBrazil: TBA\n\nFIGHT CARD\n— Main card —\nJosh
- ua Pacio vs. Keito Yamakita (Strawweight)\nRyujin Nasukawa vs. Elmehdi El 
- Jamari (Strawweight)\nJarred Brooks vs. Tatsumitsu Wada (Strawweight)\nMas
- ashi Kumura vs. Ellis Barboza (Strawweight)\nYutaro Asahi vs. Petchtanong 
- Banchamek (Featherweight)\nRyugo Takeuchi vs. Brandon Hashimoto (Heavyweig
- ht)\nYugo Kato vs. Jurai Ishii (Strawweight)\nReiji Takagi vs. Rui Botelho
-  (Strawweight)\nYuki Hamada vs. Shuto Inui (Bantamweight)\nShosuke Kinoshi
- ta vs. Takuya Shibamura (Featherweight)\n\nEvent page: https://getcagetime
- .com/events/one-samurai-5-pacio-vs-yamakita/\nTimes and broadcasters can c
- hange\; check the event page. From CageTime (getcagetime.com).
+DESCRIPTION:TIMES\nEvent start (official: 5:30 PM JST / 3:30 AM ET): Wed No
+ v 18 3:30 AM EST (08:30 UTC)\n\nWHERE TO WATCH\nUnited States: live.onefc.
+ com (The Inner Circle)\nUnited Kingdom: live.onefc.com (The Inner Circle)\
+ nCanada: live.onefc.com (The Inner Circle)\nAustralia: live.onefc.com (The
+  Inner Circle)\nIreland: live.onefc.com (The Inner Circle)\nIndia: live.on
+ efc.com (The Inner Circle)\nGermany: live.onefc.com (The Inner Circle)\nBr
+ azil: live.onefc.com (The Inner Circle)\n\nFIGHT CARD\n— Main card —\n
+ Joshua Pacio vs. Keito Yamakita (Strawweight)\nRyujin Nasukawa vs. Raichi 
+ Nagai (Strawweight)\nJarred Brooks vs. Tatsumitsu Wada (Strawweight)\nMasa
+ shi Kumura vs. Ellis Barboza (Strawweight)\nYutaro Asahi vs. Petchtanong B
+ anchamek (Featherweight)\nRyugo Takeuchi vs. Brandon Hashimoto (Heavyweigh
+ t)\nReiji Takagi vs. Rui Botelho (Strawweight)\nYugo Kato vs. Jurai Ishii 
+ (Strawweight)\nYuki Hamada vs. Shuto Inui (Bantamweight)\nShosuke Kinoshit
+ a vs. Takuya Shibamura (Featherweight)\n\nEvent page: https://getcagetime.
+ com/events/one-samurai-5-pacio-vs-yamakita/\nTimes and broadcasters can ch
+ ange\; check the event page. From CageTime (getcagetime.com).
 URL:https://getcagetime.com/events/one-samurai-5-pacio-vs-yamakita/
 CATEGORIES:ONE,MMA
 STATUS:CONFIRMED
@@ -787,8 +788,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:one-friday-fights-179@getcagetime.com
-DTSTAMP:20261101T000000Z
-LAST-MODIFIED:20261101T000000Z
+DTSTAMP:20261116T000000Z
+LAST-MODIFIED:20261116T000000Z
 DTSTART:20261120T133000Z
 DTEND:20261120T163000Z
 SUMMARY:ONE Friday Fights 179
@@ -799,9 +800,17 @@ DESCRIPTION:TIMES\nThe Inner Circle pre-show (live.onefc.com): Fri Nov 20 6
  rts (app / YouTube)\nCanada: beIN SPORTS\nAustralia: ESPN (Disney+ / Foxte
  l / Kayo)\nIreland: Sky Sports (app / YouTube)\nIndia: Star Sports Select 
  2 / JioHotstar\nGermany: watch.onefc.com (free)\nBrazil: ONE YouTube / Fac
- ebook / watch.onefc.com (free)\n\nFIGHT CARD\n— Prelims —\nAsadula Ima
- ngazaliev vs. Aslamjon Ortikov (Flyweight)\nBlack Panther vs. Ubaid Hussai
- n (Flyweight)\nAllycia Hellen Rodrigues vs. Charlotte Padié (Women's Atom
+ ebook / watch.onefc.com (free)\n\nFIGHT CARD\n— Main card —\nChartpaya
+ k Saksatun vs. Klarob Nuicafeboran (Flyweight)\nWuttikrai VK KhaoYai vs. S
+ uperjeng Wankhongohm MBK (Bantamweight)\nSunvo TDed99 vs. Rahim Tcherkhaik
+ o (Flyweight)\nNatty Dodds vs. Chalamkaw Team Mehdi Zatout (Bantamweight)\
+ nMirmehti Miriyev vs. Waldi Britez (Bantamweight)\nChalamdam vs. Chaiheng 
+ (Flyweight)\nMin Sung Kang vs. Hero Marco Manguray (Lightweight)\nKwankhao
+  Pitaknongrua vs. Kana Oshikawa (Atomweight)\nYiyang Sheng vs. Fuga Tokoro
+  (Strawweight)\n— Prelims —\nAsadula Imangazaliev vs. Aslamjon Ortikov
+  (Flyweight)\nBlack Panther vs. Ubaid Hussain (Flyweight)\nAttachai Kelasp
+ ort vs. Petnamkhong Sor Maneekhot (Strawweight)\nAlessio Malatesta vs. Uza
+ ir Ismoiljonov (Featherweight)\nRak Erawan vs. Salai Htan Khee Shein (Atom
  weight)\n\nEvent page: https://getcagetime.com/events/one-friday-fights-17
  9/\nTimes and broadcasters can change\; check the event page. From CageTim
  e (getcagetime.com).
@@ -812,8 +821,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:bkfc-fight-night-myrtle-beach-richardson-vs-oxendine@getcagetime.com
-DTSTAMP:20261101T000000Z
-LAST-MODIFIED:20261101T000000Z
+DTSTAMP:20261116T000000Z
+LAST-MODIFIED:20261116T000000Z
 DTSTART:20261121T020000Z
 DTEND:20261121T050000Z
 SUMMARY:BKFC Fight Night Myrtle Beach: Richardson vs. Oxendine
@@ -827,10 +836,11 @@ DESCRIPTION:TIMES\nMain card: Fri Nov 20 9:00 PM EST (02:00 UTC)\n\nWHERE T
  yan Jett vs. Rodney Hinton (Welterweight)\nEvan Pierce vs. Diego Romo (Mid
  dleweight)\nWindson Ramos vs. Robert Fichtner (Bantamweight)\nBrandon Bush
  aw vs. Joshua Claudio (Featherweight)\nAustin Coleman vs. Alex Eliam (Bant
- amweight)\nMaurice Morris vs. Lewis Glover (Cruiserweight)\n\nEvent page: 
- https://getcagetime.com/events/bkfc-fight-night-myrtle-beach-richardson-vs
- -oxendine/\nTimes and broadcasters can change\; check the event page. From
-  CageTime (getcagetime.com).
+ amweight)\nMaurice Morris vs. Lewis Glover (Cruiserweight)\nAmos Collins v
+ s. Ashton Caniglia\nJustin Howell vs. Brian Maxwell\n\nEvent page: https:/
+ /getcagetime.com/events/bkfc-fight-night-myrtle-beach-richardson-vs-oxendi
+ ne/\nTimes and broadcasters can change\; check the event page. From CageTi
+ me (getcagetime.com).
 URL:https://getcagetime.com/events/bkfc-fight-night-myrtle-beach-richardson
  -vs-oxendine/
 CATEGORIES:BKFC,MMA
@@ -839,8 +849,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:lfa-247-breno-vs-torres@getcagetime.com
-DTSTAMP:20261101T000000Z
-LAST-MODIFIED:20261101T000000Z
+DTSTAMP:20261116T000000Z
+LAST-MODIFIED:20261116T000000Z
 DTSTART:20261121T020000Z
 DTEND:20261121T050000Z
 SUMMARY:LFA 247: Breno vs Torres
@@ -851,18 +861,17 @@ DESCRIPTION:TIMES\nMain card (VICE TV): Fri Nov 20 9:00 PM EST (02:00 UTC)\
  twork (YouTube)\nIreland: LFA Fight Network (YouTube)\nIndia: LFA Fight Ne
  twork (YouTube)\nGermany: LFA Fight Network (YouTube)\nBrazil: ESPN\n\nFIG
  HT CARD\n— Main card —\nMarcos Breno vs. Eduardo Torres (Bantamweight)
- \nChance Ikei vs. Agapito Orozco (Flyweight)\nFrancisco Hernandez vs. Ray 
- Hayes (Featherweight)\nDelton Kaufmann vs. Abasi Young (Middleweight)\nBen
- ny Orozco vs. Canon Swanson (Lightweight)\nLucas Ganin vs. Abbas Abasov (F
- eatherweight)\nAiden Ingram vs. Ricardo Hussein (Flyweight)\n— Prelims 
- —\nPaul Marghitas vs. Sergio Mamone Jr (Featherweight)\nZoe Nowicki vs. 
- Mia Grawe (Women's Flyweight)\nErickson Quinzo vs. Adam Amado (Featherweig
- ht)\nNolan Linebaugh vs. Joseph Rivas (Catchweight (132 lb))\nJacob Lagoa 
- vs. Zane Corey (Featherweight)\nSean Polk vs. Luke La Vanway (Welterweight
- )\nTalal Yousufzai vs. Joshua McReynolds (Light Heavyweight)\n\nEvent page
- : https://getcagetime.com/events/lfa-247-breno-vs-torres/\nTimes and broad
- casters can change\; check the event page. From CageTime (getcagetime.com)
- .
+ \nChance Ikei vs. Agapito Orozco (Flyweight)\nDelton Kaufmann vs. Abasi Yo
+ ung (Middleweight)\nBenny Orozco vs. Canon Swanson (Lightweight)\nLucas Ga
+ nin vs. Abbas Abasov (Featherweight)\nAiden Ingram vs. Ricardo Hussein (Fl
+ yweight)\nDylan Smerillo vs. Ray Hayes (Lightweight)\n— Prelims —\nPau
+ l Marghitas vs. Sergio Mamone Jr (Featherweight)\nZoe Nowicki vs. Mia Graw
+ e (Women's Flyweight)\nErickson Quinzo vs. Adam Amado (Featherweight)\nNol
+ an Linebaugh vs. Joseph Rivas (Catchweight (132 lb))\nSean Polk vs. Luke L
+ a Vanway (Welterweight)\nTalal Yousufzai vs. Joshua McReynolds (Light Heav
+ yweight)\n\nEvent page: https://getcagetime.com/events/lfa-247-breno-vs-to
+ rres/\nTimes and broadcasters can change\; check the event page. From Cage
+ Time (getcagetime.com).
 URL:https://getcagetime.com/events/lfa-247-breno-vs-torres/
 CATEGORIES:LFA,MMA
 STATUS:CONFIRMED
@@ -870,8 +879,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-fight-night-prochazka-vs-stirling@getcagetime.com
-DTSTAMP:20261101T000000Z
-LAST-MODIFIED:20261101T000000Z
+DTSTAMP:20261116T000000Z
+LAST-MODIFIED:20261116T000000Z
 DTSTART:20261121T180000Z
 DTEND:20261121T210000Z
 SUMMARY:UFC Fight Night: Procházka vs. Stirling
@@ -899,8 +908,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:oktagon-98-legierski-vs-buchinger@getcagetime.com
-DTSTAMP:20261101T000000Z
-LAST-MODIFIED:20261101T000000Z
+DTSTAMP:20261116T000000Z
+LAST-MODIFIED:20261116T000000Z
 DTSTART:20261121T170000Z
 DTEND:20261121T200000Z
 SUMMARY:OKTAGON 98: Legierski vs. Buchinger
@@ -929,8 +938,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:xtb-ksw-123-bartosinski-vs-lopaczyk@getcagetime.com
-DTSTAMP:20261101T000000Z
-LAST-MODIFIED:20261101T000000Z
+DTSTAMP:20261116T000000Z
+LAST-MODIFIED:20261116T000000Z
 DTSTART:20261121T180000Z
 DTEND:20261121T210000Z
 SUMMARY:XTB KSW 123: Mircea vs. Held
@@ -957,8 +966,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:one-friday-fights-180@getcagetime.com
-DTSTAMP:20261101T000000Z
-LAST-MODIFIED:20261101T000000Z
+DTSTAMP:20261116T000000Z
+LAST-MODIFIED:20261116T000000Z
 DTSTART:20261127T133000Z
 DTEND:20261127T163000Z
 SUMMARY:ONE Friday Fights 180
@@ -981,8 +990,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:cage-warriors-214-unplugged@getcagetime.com
-DTSTAMP:20261101T000000Z
-LAST-MODIFIED:20261101T000000Z
+DTSTAMP:20261116T000000Z
+LAST-MODIFIED:20261116T000000Z
 DTSTART:20261127T200000Z
 DTEND:20261127T230000Z
 SUMMARY:Cage Warriors 214: Unplugged (Countdown on official event page (lik
@@ -1001,9 +1010,10 @@ DESCRIPTION:TIMES\nCountdown on official event page (likely prelims\; main
  an Molinari vs. Mariano Neto (Flyweight)\nVictor Yeo vs. Charlie Boulton (
  Featherweight)\nMohamed El Karchouh vs. Kevin Kehoe (Catchweight (150 lb))
  \nNathanael Woods vs. Angelo Terenzio (Flyweight)\nCraig Rawlins vs. Graha
- m Sheehan (Middleweight)\n\nEvent page: https://getcagetime.com/events/cag
- e-warriors-214-unplugged/\nTimes and broadcasters can change\; check the e
- vent page. From CageTime (getcagetime.com).
+ m Sheehan (Middleweight)\nMichael Pagani vs. Yusuf Ali-Taleb (Welterweight
+ )\n\nEvent page: https://getcagetime.com/events/cage-warriors-214-unplugge
+ d/\nTimes and broadcasters can change\; check the event page. From CageTim
+ e (getcagetime.com).
 URL:https://getcagetime.com/events/cage-warriors-214-unplugged/
 CATEGORIES:Cage Warriors,MMA
 STATUS:CONFIRMED
@@ -1011,8 +1021,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:cage-warriors-215-davies-vs-vucenic@getcagetime.com
-DTSTAMP:20261101T000000Z
-LAST-MODIFIED:20261101T000000Z
+DTSTAMP:20261116T000000Z
+LAST-MODIFIED:20261116T000000Z
 DTSTART:20261128T173000Z
 DTEND:20261128T203000Z
 SUMMARY:Cage Warriors 215: Davies vs. Vucenic (Countdown on official event 
@@ -1025,17 +1035,18 @@ DESCRIPTION:TIMES\nCountdown on official event page (likely prelims\; main
  ht Pass\nCanada: UFC Fight Pass\nAustralia: UFC Fight Pass\nIreland: UFC F
  ight Pass\nIndia: UFC Fight Pass\nGermany: UFC Fight Pass\nBrazil: UFC Fig
  ht Pass\n\nFIGHT CARD\n— Main card —\nIeuan Davies vs. Jordan Vucenic 
- (Lightweight)\nJack Humphries vs. Alexandros Moumtzis (Bantamweight)\nConn
- or Wilson vs. Davi Santos (Flyweight)\nOmiel Brown vs. Konstantinos Ntelis
-  (Lightweight)\nJoe Fields vs. Samir Faiddine (Flyweight)\nJack McCloughli
- n vs. Jack Corr (Bantamweight)\nBranden Guest vs. Owen Cartridge (Light He
- avyweight)\nShay Ingram vs. Steffen Rossevatn (Welterweight)\nNathan Fletc
- her vs. Anderson Soares (Bantamweight)\nSheldon Ryan vs. Gary Rooney (Flyw
- eight)\nCharlie Dando vs. Jordan Walters (Featherweight)\nAdam Cullen vs. 
- Jefferson André (Lightweight)\nEmile Vujakovic vs. Mario Mingaj (Middlewe
- ight)\n\nEvent page: https://getcagetime.com/events/cage-warriors-215-davi
- es-vs-vucenic/\nTimes and broadcasters can change\; check the event page. 
- From CageTime (getcagetime.com).
+ (Lightweight)\nConnor Wilson vs. Davi Santos (Flyweight)\nOmiel Brown vs. 
+ Konstantinos Ntelis (Lightweight)\nJoe Fields vs. Samir Faiddine (Flyweigh
+ t)\nJack McCloughlin vs. Jack Corr (Bantamweight)\nBranden Guest vs. Owen 
+ Cartridge (Light Heavyweight)\nShay Ingram vs. Steffen Rossevatn (Welterwe
+ ight)\nNathan Fletcher vs. Anderson Soares (Bantamweight)\nSheldon Ryan vs
+ . Gary Rooney (Flyweight)\nCharlie Dando vs. Jordan Walters (Featherweight
+ )\nAdam Cullen vs. Jefferson André (Lightweight)\nEmile Vujakovic vs. Mar
+ io Mingaj (Middleweight)\nTeddy Stringer vs. Stefano Catacoli (Lightweight
+ )\nJack Humphries vs. João Antônio (Catchweight (140 lb))\n\nEvent page:
+  https://getcagetime.com/events/cage-warriors-215-davies-vs-vucenic/\nTime
+ s and broadcasters can change\; check the event page. From CageTime (getca
+ getime.com).
 URL:https://getcagetime.com/events/cage-warriors-215-davies-vs-vucenic/
 CATEGORIES:Cage Warriors,MMA
 STATUS:CONFIRMED
@@ -1043,8 +1054,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:one-samurai-6@getcagetime.com
-DTSTAMP:20261101T000000Z
-LAST-MODIFIED:20261101T000000Z
+DTSTAMP:20261116T000000Z
+LAST-MODIFIED:20261116T000000Z
 DTSTART:20261202T083000Z
 DTEND:20261202T113000Z
 SUMMARY:ONE Samurai 6 (Card start per Tapology (unofficial\; may be prelims
@@ -1055,9 +1066,13 @@ DESCRIPTION:TIMES\nCard start per Tapology (unofficial\; may be prelims): W
  entry starts at the earliest listed time.\n\nWHERE TO WATCH\nUnited States
  : TBA\nUnited Kingdom: TBA\nCanada: TBA\nAustralia: TBA\nIreland: TBA\nInd
  ia: TBA\nGermany: TBA\nBrazil: TBA\n\nFIGHT CARD\n— Main card —\nChihi
- ro Sawada vs. Anastasia Nikolakakos (Women's Atomweight)\n\nEvent page: ht
- tps://getcagetime.com/events/one-samurai-6/\nTimes and broadcasters can ch
- ange\; check the event page. From CageTime (getcagetime.com).
+ ro Sawada vs. Anastasia Nikolakakos (Women's Atomweight)\nHiromi Wajima vs
+ . Mohammed Siasarani (Featherweight)\nHiroba Minowa vs. Fábio Henrique (S
+ trawweight)\nMisaki Morita vs. Kanyarat Yoohanngoh (Atomweight)\nRyuya Oku
+ waki vs. Thongpoon Petchportoror (Atomweight)\nTaiga Orii vs. Ryo Hirayama
+  (Bantamweight)\nTaiju Shiratori vs. Shota Tezuka (Bantamweight)\n\nEvent 
+ page: https://getcagetime.com/events/one-samurai-6/\nTimes and broadcaster
+ s can change\; check the event page. From CageTime (getcagetime.com).
 URL:https://getcagetime.com/events/one-samurai-6/
 CATEGORIES:ONE,MMA
 STATUS:CONFIRMED
@@ -1065,8 +1080,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:one-friday-fights-181@getcagetime.com
-DTSTAMP:20261101T000000Z
-LAST-MODIFIED:20261101T000000Z
+DTSTAMP:20261116T000000Z
+LAST-MODIFIED:20261116T000000Z
 DTSTART:20261204T133000Z
 DTEND:20261204T163000Z
 SUMMARY:ONE Friday Fights 181
@@ -1087,8 +1102,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:bkfc-fight-night-hershey@getcagetime.com
-DTSTAMP:20261101T000000Z
-LAST-MODIFIED:20261101T000000Z
+DTSTAMP:20261116T000000Z
+LAST-MODIFIED:20261116T000000Z
 DTSTART:20261205T010000Z
 DTEND:20261205T040000Z
 SUMMARY:BKFC Fight Night Hershey: Pague vs. Richman
@@ -1109,30 +1124,28 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-fight-night-riyadh@getcagetime.com
-DTSTAMP:20261101T000000Z
-LAST-MODIFIED:20261101T000000Z
-DTSTART:20261205T140000Z
-DTEND:20261205T170000Z
-SUMMARY:UFC Fight Night Riyadh: Adesanya vs. Magomedov (Card start per Tapo
- logy (unofficial\; may be prelims))
+DTSTAMP:20261116T000000Z
+LAST-MODIFIED:20261116T000000Z
+DTSTART:20261205T180000Z
+DTEND:20261205T210000Z
+SUMMARY:UFC Fight Night Riyadh: Adesanya vs. Magomedov
 LOCATION:ANB Arena\, Riyadh\, Saudi Arabia
-DESCRIPTION:TIMES\nCard start per Tapology (unofficial\; may be prelims): S
- at Dec 5 9:00 AM EST (14:00 UTC)\nMain card time not published yet\; this 
- entry starts at the earliest listed time.\n\nWHERE TO WATCH\nUnited States
- : Paramount+\nUnited Kingdom: TNT Sports / HBO Max\nCanada: Sportsnet+ / C
- ity TV / TVA Sports\nAustralia: Paramount+\nIreland: TNT Sports\nIndia: So
- ny TEN 2\nGermany: DAZN\nBrazil: Paramount+\n\nFIGHT CARD\n— Main card 
- —\nIsrael Adesanya vs. Shara Magomedov (Middleweight)\nIan Machado Garry
-  vs. Yaroslav Amosov (Welterweight)\nLevan Chokheli vs. Islam Dulatov (Wel
- terweight)\nIon Cutelaba vs. Magomed Tuchalov (Light Heavyweight)\nMairon 
- Santos vs. Akbar Abdullaev (Lightweight)\nSerghei Spivac vs. Mario Pinto (
- Heavyweight)\n— Prelims —\nJafel Filho vs. Bruno Silva (Flyweight)\nMa
- tthieu Duclos vs. Modestino Rodrigues (Middleweight)\nAbdul Hussein vs. He
- cher Sosa (Bantamweight)\nUran Satybaldiev vs. Ivan Gnizditskiy (Light Hea
- vyweight)\nJun Yong Park vs. Marco Tulio (Middleweight)\nMahammadali Osman
- li vs. Pavel Andrusca (Bantamweight)\n\nEvent page: https://getcagetime.co
- m/events/ufc-fight-night-riyadh/\nTimes and broadcasters can change\; chec
- k the event page. From CageTime (getcagetime.com).
+DESCRIPTION:TIMES\nPrelims: Sat Dec 5 10:00 AM EST (15:00 UTC)\nMain card: 
+ Sat Dec 5 1:00 PM EST (18:00 UTC)\n\nWHERE TO WATCH\nUnited States: Paramo
+ unt+\nUnited Kingdom: TNT Sports / HBO Max\nCanada: Sportsnet+ / City TV /
+  TVA Sports\nAustralia: Paramount+\nIreland: TNT Sports\nIndia: Sony TEN 2
+ \nGermany: DAZN\nBrazil: Paramount+\n\nFIGHT CARD\n— Main card —\nIsra
+ el Adesanya vs. Shara Magomedov (Middleweight)\nIan Machado Garry vs. Yaro
+ slav Amosov (Welterweight)\nLevan Chokheli vs. Islam Dulatov (Welterweight
+ )\nIon Cutelaba vs. Magomed Tuchalov (Light Heavyweight)\nMairon Santos vs
+ . Akbar Abdullaev (Lightweight)\nSerghei Spivac vs. Mario Pinto (Heavyweig
+ ht)\n— Prelims —\nJafel Filho vs. Bruno Silva (Flyweight)\nMatthieu Du
+ clos vs. Modestino Rodrigues (Middleweight)\nAbdul Hussein vs. Hecher Sosa
+  (Bantamweight)\nUran Satybaldiev vs. Ivan Gnizditskiy (Light Heavyweight)
+ \nJun Yong Park vs. Marco Tulio (Middleweight)\nMahammadali Osmanli vs. Pa
+ vel Andrusca (Bantamweight)\n\nEvent page: https://getcagetime.com/events/
+ ufc-fight-night-riyadh/\nTimes and broadcasters can change\; check the eve
+ nt page. From CageTime (getcagetime.com).
 URL:https://getcagetime.com/events/ufc-fight-night-riyadh/
 CATEGORIES:UFC,MMA
 STATUS:CONFIRMED
@@ -1140,8 +1153,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:oktagon-99@getcagetime.com
-DTSTAMP:20261101T000000Z
-LAST-MODIFIED:20261101T000000Z
+DTSTAMP:20261116T000000Z
+LAST-MODIFIED:20261116T000000Z
 DTSTART:20261205T170000Z
 DTEND:20261205T200000Z
 SUMMARY:OKTAGON 99: Aras vs. Flores
@@ -1158,10 +1171,12 @@ DESCRIPTION:TIMES\nEvent start (official\; no separate main-card time publi
  ündüz vs. Abdullah Sultani (Bantamweight)\nMurat Tüysüz vs. Jan Stanov
  ský (Lightweight)\nIwan Tagner vs. Bedirhan Kabak (Welterweight)\nHarun U
  zun vs. Aleksandar Stefanovic (Light Heavyweight)\nKhalid Taha vs. João P
- edro Saldanha (Catchweight (152 lb))\n— Prelims —\nFurkan Ugur vs. Sai
- d Osmanov (Lightweight)\n\nEvent page: https://getcagetime.com/events/okta
- gon-99/\nTimes and broadcasters can change\; check the event page. From Ca
- geTime (getcagetime.com).
+ edro Saldanha (Catchweight (152 lb))\nMatěj Peňáz vs. Jonathan Figueroa
+  (Catchweight (190 lb))\nAhmad Chikh Mousa vs. Zinedine El Mahdi (Catchwei
+ ght (151 lb))\n— Prelims —\nFurkan Ugur vs. Said Osmanov (Lightweight)
+ \n\nEvent page: https://getcagetime.com/events/oktagon-99/\nTimes and broa
+ dcasters can change\; check the event page. From CageTime (getcagetime.com
+ ).
 URL:https://getcagetime.com/events/oktagon-99/
 CATEGORIES:OKTAGON,MMA
 STATUS:CONFIRMED
@@ -1169,8 +1184,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:cage-warriors-216-newcastle@getcagetime.com
-DTSTAMP:20261101T000000Z
-LAST-MODIFIED:20261101T000000Z
+DTSTAMP:20261116T000000Z
+LAST-MODIFIED:20261116T000000Z
 DTSTART:20261205T183000Z
 DTEND:20261205T213000Z
 SUMMARY:Cage Warriors 216: Newcastle (Countdown on official event page (lik
@@ -1200,8 +1215,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:one-friday-fights-182@getcagetime.com
-DTSTAMP:20261101T000000Z
-LAST-MODIFIED:20261101T000000Z
+DTSTAMP:20261116T000000Z
+LAST-MODIFIED:20261116T000000Z
 DTSTART:20261211T133000Z
 DTEND:20261211T163000Z
 SUMMARY:ONE Friday Fights 182
@@ -1223,23 +1238,21 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:pfl-mena-12-al-khobar@getcagetime.com
-DTSTAMP:20261101T000000Z
-LAST-MODIFIED:20261101T000000Z
+DTSTAMP:20261116T000000Z
+LAST-MODIFIED:20261116T000000Z
 DTSTART:20261211T150000Z
 DTEND:20261211T180000Z
-SUMMARY:PFL MENA 12: Al Khobar (Card start per Tapology (unofficial\; may b
- e prelims))
+SUMMARY:PFL MENA 12: Al Khobar
 LOCATION:Dhahran Expo\, Al Khobar\, Saudi Arabia
-DESCRIPTION:TIMES\nCard start per Tapology (unofficial\; may be prelims): F
- ri Dec 11 10:00 AM EST (15:00 UTC)\nMain card time not published yet\; thi
- s entry starts at the earliest listed time.\n\nWHERE TO WATCH\nUnited Stat
- es: TBA\nUnited Kingdom: TBA\nCanada: TBA\nAustralia: Stan Sport\nIreland:
-  TBA\nIndia: TBA\nGermany: TBA\nBrazil: TBA\n\nFIGHT CARD\n— Main card 
- —\nAbdelkrim Zouad vs. Badreddine Diani (Welterweight)\nMohammad Fahmi v
- s. Ylies Djiroun (Lightweight)\nElias Boudegzdame vs. Mehdi Saadi (Feather
- weight)\n\nEvent page: https://getcagetime.com/events/pfl-mena-12-al-khoba
- r/\nTimes and broadcasters can change\; check the event page. From CageTim
- e (getcagetime.com).
+DESCRIPTION:TIMES\nMain card (official\; early card listed at the same time
+ ): Fri Dec 11 10:00 AM EST (15:00 UTC)\n\nWHERE TO WATCH\nUnited States: T
+ BA\nUnited Kingdom: TBA\nCanada: TBA\nAustralia: Stan Sport\nIreland: TBA\
+ nIndia: TBA\nGermany: TBA\nBrazil: TBA\n\nFIGHT CARD\n— Main card —\nA
+ bdelkrim Zouad vs. Badreddine Diani (Welterweight)\nMohammad Fahmi vs. Yli
+ es Djiroun (Lightweight)\nElias Boudegzdame vs. Mehdi Saadi (Featherweight
+ )\n\nEvent page: https://getcagetime.com/events/pfl-mena-12-al-khobar/\nTi
+ mes and broadcasters can change\; check the event page. From CageTime (get
+ cagetime.com).
 URL:https://getcagetime.com/events/pfl-mena-12-al-khobar/
 CATEGORIES:PFL,MMA
 STATUS:CONFIRMED
@@ -1247,8 +1260,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:bkfc-97@getcagetime.com
-DTSTAMP:20261101T000000Z
-LAST-MODIFIED:20261101T000000Z
+DTSTAMP:20261116T000000Z
+LAST-MODIFIED:20261116T000000Z
 DTSTART:20261212T010000Z
 DTEND:20261212T040000Z
 SUMMARY:BKFC 97 Hollywood
@@ -1267,8 +1280,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:one-fight-night-50@getcagetime.com
-DTSTAMP:20261101T000000Z
-LAST-MODIFIED:20261101T000000Z
+DTSTAMP:20261116T000000Z
+LAST-MODIFIED:20261116T000000Z
 DTSTART:20261212T020000Z
 DTEND:20261212T050000Z
 SUMMARY:ONE Fight Night 50 (Card start per Tapology (unofficial\; may be pr
@@ -1295,8 +1308,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:pfl-africa-rwanda@getcagetime.com
-DTSTAMP:20261101T000000Z
-LAST-MODIFIED:20261101T000000Z
+DTSTAMP:20261116T000000Z
+LAST-MODIFIED:20261116T000000Z
 DTSTART:20261212T160000Z
 DTEND:20261212T190000Z
 SUMMARY:PFL Africa: Rwanda
@@ -1317,8 +1330,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-335-oliveira-vs-lopes@getcagetime.com
-DTSTAMP:20261101T000000Z
-LAST-MODIFIED:20261101T000000Z
+DTSTAMP:20261116T000000Z
+LAST-MODIFIED:20261116T000000Z
 DTSTART:20261213T020000Z
 DTEND:20261213T050000Z
 SUMMARY:UFC 335: Oliveira vs. Lopes
@@ -1333,12 +1346,12 @@ DESCRIPTION:TIMES\nEarly prelims: Sat Dec 12 5:00 PM EST (22:00 UTC)\nPreli
  Pass\nBrazil: Paramount+\n\nFIGHT CARD\n— Main card —\nCharles Oliveir
  a vs. Diego Lopes (Lightweight)\nSergei Pavlovich vs. Alex Pereira (Heavyw
  eight)\nBrandon Moreno vs. Charles Johnson (Flyweight)\nKyler Phillips vs.
-  Ethyn Ewing (Bantamweight)\n— Prelims —\nJunior Tafa vs. Quentin Pasl
- ey (Light Heavyweight)\nChris Padilla vs. Chase Hooper (Lightweight)\nNiko
- lay Veretennikov vs. Ronald Humphrey (Welterweight)\nNilson Rojas vs. Roqu
- e Conceição (Flyweight)\nAngela Hill vs. Shanelle Dyer (Women's Strawwei
- ght)\nJacqueline Cavalcanti vs. Michelle Montague (Women's Bantamweight)\n
- Baisangur Susurkaev vs. Damian Pinas (Middleweight)\n\nEvent page: https:/
+  Ethyn Ewing (Bantamweight)\nBaisangur Susurkaev vs. Damian Pinas (Middlew
+ eight)\n— Prelims —\nJunior Tafa vs. Quentin Pasley (Light Heavyweight
+ )\nChris Padilla vs. Chase Hooper (Lightweight)\nNikolay Veretennikov vs. 
+ Ronald Humphrey (Welterweight)\nNilson Rojas vs. Roque Conceição (Flywei
+ ght)\nAngela Hill vs. Shanelle Dyer (Women's Strawweight)\nJacqueline Cava
+ lcanti vs. Michelle Montague (Women's Bantamweight)\n\nEvent page: https:/
  /getcagetime.com/events/ufc-335-oliveira-vs-lopes/\nTimes and broadcasters
   can change\; check the event page. From CageTime (getcagetime.com).
 URL:https://getcagetime.com/events/ufc-335-oliveira-vs-lopes/
@@ -1348,8 +1361,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:one-friday-fights-183@getcagetime.com
-DTSTAMP:20261101T000000Z
-LAST-MODIFIED:20261101T000000Z
+DTSTAMP:20261116T000000Z
+LAST-MODIFIED:20261116T000000Z
 DTSTART:20261218T133000Z
 DTEND:20261218T163000Z
 SUMMARY:ONE Friday Fights 183
@@ -1372,27 +1385,25 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:lfa-248-las-vegas@getcagetime.com
-DTSTAMP:20261101T000000Z
-LAST-MODIFIED:20261101T000000Z
+DTSTAMP:20261116T000000Z
+LAST-MODIFIED:20261116T000000Z
 DTSTART:20261219T020000Z
 DTEND:20261219T050000Z
-SUMMARY:LFA 248: Las Vegas (Card start per Tapology (unofficial\; may be pr
- elims))
+SUMMARY:LFA 248: Las Vegas
 LOCATION:Pearl Theater at Palms\, Las Vegas\, Nevada
-DESCRIPTION:TIMES\nCard start per Tapology (unofficial\; may be prelims): F
- ri Dec 18 9:00 PM EST (02:00 UTC)\nMain card time not published yet\; this
-  entry starts at the earliest listed time.\n\nWHERE TO WATCH\nUnited State
- s: TBA\nUnited Kingdom: TBA\nCanada: TBA\nAustralia: TBA\nIreland: TBA\nIn
- dia: TBA\nGermany: TBA\nBrazil: TBA\n\nFIGHT CARD\n— Main card —\nDavi
-  Bittencourt vs. Mason Hartshorn (Flyweight)\nShealor Ladd vs. Wildemar Sa
- ntos (Light Heavyweight)\nRoberto Hernandez vs. Chris Mecate (Featherweigh
- t)\nBrahyam Zurcher vs. Elvis Silva (Featherweight)\nCharlie Cleveland vs.
-  Luther Jean Egerson III (Heavyweight)\nArtur Gadzhikhanov vs. Jacob Wiggi
- ns (Bantamweight)\n— Prelims —\nDavid Goldenberg vs. Carter Beekman (F
- eatherweight)\nAlberto Romo vs. Michael Jamiyandorj (Bantamweight)\nAdrian
-  Lyons-Lopez vs. Oleg Mikhov (Lightweight)\n\nEvent page: https://getcaget
- ime.com/events/lfa-248-las-vegas/\nTimes and broadcasters can change\; che
- ck the event page. From CageTime (getcagetime.com).
+DESCRIPTION:TIMES\nMain card (VICE TV\; official 9 PM ET): Fri Dec 18 9:00 
+ PM EST (02:00 UTC)\n\nWHERE TO WATCH\nUnited States: VICE TV\nUnited Kingd
+ om: TBA\nCanada: FloCombat\nAustralia: TBA\nIreland: TBA\nIndia: TBA\nGerm
+ any: TBA\nBrazil: TBA\n\nFIGHT CARD\n— Main card —\nDavi Bittencourt v
+ s. Mason Hartshorn (Flyweight)\nShealor Ladd vs. Wildemar Santos (Light He
+ avyweight)\nRoberto Hernandez vs. Chris Mecate (Featherweight)\nBrahyam Zu
+ rcher vs. Elvis Silva (Featherweight)\nCharlie Cleveland vs. Luther Jean E
+ gerson III (Heavyweight)\nArtur Gadzhikhanov vs. Jacob Wiggins (Bantamweig
+ ht)\n— Prelims —\nDavid Goldenberg vs. Carter Beekman (Featherweight)\
+ nAlberto Romo vs. Michael Jamiyandorj (Bantamweight)\nAdrian Lyons-Lopez v
+ s. Oleg Mikhov (Lightweight)\n\nEvent page: https://getcagetime.com/events
+ /lfa-248-las-vegas/\nTimes and broadcasters can change\; check the event p
+ age. From CageTime (getcagetime.com).
 URL:https://getcagetime.com/events/lfa-248-las-vegas/
 CATEGORIES:LFA,MMA
 STATUS:CONFIRMED
@@ -1400,8 +1411,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:pfl-lyon-lapilus-vs-mckee@getcagetime.com
-DTSTAMP:20261101T000000Z
-LAST-MODIFIED:20261101T000000Z
+DTSTAMP:20261116T000000Z
+LAST-MODIFIED:20261116T000000Z
 DTSTART:20261219T200000Z
 DTEND:20261219T230000Z
 SUMMARY:PFL Lyon: Lapilus vs. McKee
@@ -1424,8 +1435,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ksw-124-pawlak-vs-kuberski@getcagetime.com
-DTSTAMP:20261101T000000Z
-LAST-MODIFIED:20261101T000000Z
+DTSTAMP:20261116T000000Z
+LAST-MODIFIED:20261116T000000Z
 DTSTART:20261219T170000Z
 DTEND:20261219T200000Z
 SUMMARY:KSW 124: Pawlak vs. Kuberski (Card start per Tapology (unofficial\;
@@ -1452,8 +1463,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:oktagon-100-jotko-vs-muradov@getcagetime.com
-DTSTAMP:20261101T000000Z
-LAST-MODIFIED:20261101T000000Z
+DTSTAMP:20261116T000000Z
+LAST-MODIFIED:20261116T000000Z
 DTSTART:20261229T170000Z
 DTEND:20261229T200000Z
 SUMMARY:OKTAGON 100: Jotko vs. Muradov
@@ -1476,8 +1487,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:rizin-new-year-s-eve-event@getcagetime.com
-DTSTAMP:20261101T000000Z
-LAST-MODIFIED:20261101T000000Z
+DTSTAMP:20261116T000000Z
+LAST-MODIFIED:20261116T000000Z
 DTSTART:20261231T050000Z
 DTEND:20261231T080000Z
 SUMMARY:Super RIZIN.6: Shiwasu No Owari Nagoya Gekokujo Matsuri (Card start
@@ -1501,6 +1512,97 @@ DESCRIPTION:TIMES\nCard start per Tapology (unofficial\; may be prelims): T
  \; check the event page. From CageTime (getcagetime.com).
 URL:https://getcagetime.com/events/rizin-new-year-s-eve-event/
 CATEGORIES:RIZIN,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:oktagon-101-dalaslan-vs-kinehan@getcagetime.com
+DTSTAMP:20261116T000000Z
+LAST-MODIFIED:20261116T000000Z
+DTSTART:20270116T170000Z
+DTEND:20270116T200000Z
+SUMMARY:OKTAGON 101: Dalaslan vs. Kinehan
+LOCATION:Hanns-Martin-Schleyer-Halle\, Stuttgart\, Germany
+DESCRIPTION:TIMES\nMain card: Sat Jan 16 12:00 PM EST (17:00 UTC)\n\nWHERE 
+ TO WATCH\nUnited States: TBA\nUnited Kingdom: TBA\nCanada: TBA\nAustralia:
+  TBA\nIreland: TBA\nIndia: TBA\nGermany: TBA\nBrazil: TBA\n\nFIGHT CARD\n
+ — Main card —\nAlina Dalaslan vs. Niamh Kinehan (Women's Bantamweight)
+ \nShawn Marcos da Silva vs. Fayaz Haqparast (Flyweight)\nEmilio Quissua vs
+ . Mick Stanton (Light Heavyweight)\n\nEvent page: https://getcagetime.com/
+ events/oktagon-101-dalaslan-vs-kinehan/\nTimes and broadcasters can change
+ \; check the event page. From CageTime (getcagetime.com).
+URL:https://getcagetime.com/events/oktagon-101-dalaslan-vs-kinehan/
+CATEGORIES:OKTAGON,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ufc-fight-night-rodriguez-vs-garcia@getcagetime.com
+DTSTAMP:20261116T000000Z
+LAST-MODIFIED:20261116T000000Z
+DTSTART:20270117T010000Z
+DTEND:20270117T040000Z
+SUMMARY:UFC Fight Night: Rodriguez vs. Garcia
+LOCATION:American Airlines Center\, Dallas\, Texas
+DESCRIPTION:TIMES\nPrelims: Sat Jan 16 5:00 PM EST (22:00 UTC)\nMain card: 
+ Sat Jan 16 8:00 PM EST (01:00 UTC)\n\nWHERE TO WATCH\nUnited States: Param
+ ount+\nUnited Kingdom: TNT Sports / HBO Max\nCanada: Sportsnet+ / City TV 
+ / TVA Sports\nAustralia: Paramount+\nIreland: TNT Sports\nIndia: Sony TEN 
+ 2\nGermany: DAZN\nBrazil: Paramount+\n\nFIGHT CARD\n— Main card —\nYai
+ r Rodriguez vs. Steve Garcia (Featherweight)\nDaniel Rodriguez vs. Roberto
+  Soldić (Welterweight)\nChidi Njokuani vs. Ignacio Bahamondes (Welterweig
+ ht)\nGeoff Neal vs. Chris Curtis (Welterweight)\n— Prelims —\nMarQuel 
+ Mederos vs. Diego Ferreira (Lightweight)\n\nEvent page: https://getcagetim
+ e.com/events/ufc-fight-night-rodriguez-vs-garcia/\nTimes and broadcasters 
+ can change\; check the event page. From CageTime (getcagetime.com).
+URL:https://getcagetime.com/events/ufc-fight-night-rodriguez-vs-garcia/
+CATEGORIES:UFC,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ufc-fight-night-bonfim-vs-brady-jan-2027@getcagetime.com
+DTSTAMP:20261116T000000Z
+LAST-MODIFIED:20261116T000000Z
+DTSTART:20270123T220000Z
+DTEND:20270124T010000Z
+SUMMARY:UFC Fight Night: Bonfim vs. Brady
+LOCATION:UFC Apex\, Las Vegas\, Nevada\, United States
+DESCRIPTION:TIMES\nPrelims: Sat Jan 23 3:00 PM EST (20:00 UTC)\nMain card: 
+ Sat Jan 23 5:00 PM EST (22:00 UTC)\n\nWHERE TO WATCH\nUnited States: Param
+ ount+\nUnited Kingdom: TNT Sports / HBO Max\nCanada: Sportsnet+ / City TV 
+ / TVA Sports\nAustralia: Paramount+\nIreland: TNT Sports\nIndia: Sony TEN 
+ 2\nGermany: DAZN\nBrazil: Paramount+\n\nFIGHT CARD\n— Main card —\nGab
+ riel Bonfim vs. Sean Brady (Welterweight)\nPat Sabatini vs. Vinicius Olive
+ ira (Featherweight)\nYadier del Valle vs. Ezra Elliott (Featherweight)\n\n
+ Event page: https://getcagetime.com/events/ufc-fight-night-bonfim-vs-brady
+ -jan-2027/\nTimes and broadcasters can change\; check the event page. From
+  CageTime (getcagetime.com).
+URL:https://getcagetime.com/events/ufc-fight-night-bonfim-vs-brady-jan-2027
+ /
+CATEGORIES:UFC,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bkfsea-bruise-cruise-stewart-vs-duran-2@getcagetime.com
+DTSTAMP:20261116T000000Z
+LAST-MODIFIED:20261116T000000Z
+DTSTART:20270124T020000Z
+DTEND:20270124T050000Z
+SUMMARY:BKFSEA Bruise Cruise: Stewart vs. Duran 2
+LOCATION:Norwegian Jewel\, Bahamas
+DESCRIPTION:TIMES\nMain card: Sat Jan 23 9:00 PM EST (02:00 UTC)\n\nWHERE T
+ O WATCH\nUnited States: TBA\nUnited Kingdom: TBA\nCanada: TBA\nAustralia: 
+ TBA\nIreland: TBA\nIndia: TBA\nGermany: TBA\nBrazil: TBA\n\nFIGHT CARD\n
+ — Main card —\nKai Stewart vs. Bryan Duran (145 lb)\nGeorge Thorpe vs.
+  Josh Kuhne\nJulio Perez Rodriguez vs. Gabriel Mota\nJoey Gambino vs. Matt
+  Denning\nStephen Townsel vs. Brady Meister\nNathan Rivera vs. Brandon Men
+ eses\nGustavo Balart vs. Justyn Martinez\n\nEvent page: https://getcagetim
+ e.com/events/bkfsea-bruise-cruise-stewart-vs-duran-2/\nTimes and broadcast
+ ers can change\; check the event page. From CageTime (getcagetime.com).
+URL:https://getcagetime.com/events/bkfsea-bruise-cruise-stewart-vs-duran-2/
+CATEGORIES:BKFC,MMA
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT

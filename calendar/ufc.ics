@@ -11,8 +11,8 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:ufc-fight-night-buckley-vs-malott@getcagetime.com
-DTSTAMP:20261115T000000Z
-LAST-MODIFIED:20261115T000000Z
+DTSTAMP:20261117T000000Z
+LAST-MODIFIED:20261117T000000Z
 DTSTART:20261018T000000Z
 DTEND:20261018T030000Z
 SUMMARY:UFC Fight Night: Buckley vs. Malott
@@ -42,8 +42,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-333-volkanovski-vs-evloev@getcagetime.com
-DTSTAMP:20261115T000000Z
-LAST-MODIFIED:20261115T000000Z
+DTSTAMP:20261117T000000Z
+LAST-MODIFIED:20261117T000000Z
 DTSTART:20261024T180000Z
 DTEND:20261024T210000Z
 SUMMARY:UFC 333: Volkanovski vs. Evloev
@@ -76,8 +76,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-fight-night-moicano-vs-nolan@getcagetime.com
-DTSTAMP:20261115T000000Z
-LAST-MODIFIED:20261115T000000Z
+DTSTAMP:20261117T000000Z
+LAST-MODIFIED:20261117T000000Z
 DTSTART:20261101T000000Z
 DTEND:20261101T030000Z
 SUMMARY:UFC Fight Night: Moicano vs. Nolan
@@ -107,8 +107,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-fight-night-bonfim-vs-brady@getcagetime.com
-DTSTAMP:20261115T000000Z
-LAST-MODIFIED:20261115T000000Z
+DTSTAMP:20261117T000000Z
+LAST-MODIFIED:20261117T000000Z
 DTSTART:20261108T010000Z
 DTEND:20261108T040000Z
 SUMMARY:UFC Fight Night: Cortes-Acosta vs. Walker
@@ -140,8 +140,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-334-gane-vs-hokit@getcagetime.com
-DTSTAMP:20261115T000000Z
-LAST-MODIFIED:20261115T000000Z
+DTSTAMP:20261117T000000Z
+LAST-MODIFIED:20261117T000000Z
 DTSTART:20261115T020000Z
 DTEND:20261115T050000Z
 SUMMARY:UFC 334: Gane vs. Hokit
@@ -174,8 +174,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-fight-night-prochazka-vs-stirling@getcagetime.com
-DTSTAMP:20261101T000000Z
-LAST-MODIFIED:20261101T000000Z
+DTSTAMP:20261116T000000Z
+LAST-MODIFIED:20261116T000000Z
 DTSTART:20261121T180000Z
 DTEND:20261121T210000Z
 SUMMARY:UFC Fight Night: Procházka vs. Stirling
@@ -203,30 +203,28 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-fight-night-riyadh@getcagetime.com
-DTSTAMP:20261101T000000Z
-LAST-MODIFIED:20261101T000000Z
-DTSTART:20261205T140000Z
-DTEND:20261205T170000Z
-SUMMARY:UFC Fight Night Riyadh: Adesanya vs. Magomedov (Card start per Tapo
- logy (unofficial\; may be prelims))
+DTSTAMP:20261116T000000Z
+LAST-MODIFIED:20261116T000000Z
+DTSTART:20261205T180000Z
+DTEND:20261205T210000Z
+SUMMARY:UFC Fight Night Riyadh: Adesanya vs. Magomedov
 LOCATION:ANB Arena\, Riyadh\, Saudi Arabia
-DESCRIPTION:TIMES\nCard start per Tapology (unofficial\; may be prelims): S
- at Dec 5 9:00 AM EST (14:00 UTC)\nMain card time not published yet\; this 
- entry starts at the earliest listed time.\n\nWHERE TO WATCH\nUnited States
- : Paramount+\nUnited Kingdom: TNT Sports / HBO Max\nCanada: Sportsnet+ / C
- ity TV / TVA Sports\nAustralia: Paramount+\nIreland: TNT Sports\nIndia: So
- ny TEN 2\nGermany: DAZN\nBrazil: Paramount+\n\nFIGHT CARD\n— Main card 
- —\nIsrael Adesanya vs. Shara Magomedov (Middleweight)\nIan Machado Garry
-  vs. Yaroslav Amosov (Welterweight)\nLevan Chokheli vs. Islam Dulatov (Wel
- terweight)\nIon Cutelaba vs. Magomed Tuchalov (Light Heavyweight)\nMairon 
- Santos vs. Akbar Abdullaev (Lightweight)\nSerghei Spivac vs. Mario Pinto (
- Heavyweight)\n— Prelims —\nJafel Filho vs. Bruno Silva (Flyweight)\nMa
- tthieu Duclos vs. Modestino Rodrigues (Middleweight)\nAbdul Hussein vs. He
- cher Sosa (Bantamweight)\nUran Satybaldiev vs. Ivan Gnizditskiy (Light Hea
- vyweight)\nJun Yong Park vs. Marco Tulio (Middleweight)\nMahammadali Osman
- li vs. Pavel Andrusca (Bantamweight)\n\nEvent page: https://getcagetime.co
- m/events/ufc-fight-night-riyadh/\nTimes and broadcasters can change\; chec
- k the event page. From CageTime (getcagetime.com).
+DESCRIPTION:TIMES\nPrelims: Sat Dec 5 10:00 AM EST (15:00 UTC)\nMain card: 
+ Sat Dec 5 1:00 PM EST (18:00 UTC)\n\nWHERE TO WATCH\nUnited States: Paramo
+ unt+\nUnited Kingdom: TNT Sports / HBO Max\nCanada: Sportsnet+ / City TV /
+  TVA Sports\nAustralia: Paramount+\nIreland: TNT Sports\nIndia: Sony TEN 2
+ \nGermany: DAZN\nBrazil: Paramount+\n\nFIGHT CARD\n— Main card —\nIsra
+ el Adesanya vs. Shara Magomedov (Middleweight)\nIan Machado Garry vs. Yaro
+ slav Amosov (Welterweight)\nLevan Chokheli vs. Islam Dulatov (Welterweight
+ )\nIon Cutelaba vs. Magomed Tuchalov (Light Heavyweight)\nMairon Santos vs
+ . Akbar Abdullaev (Lightweight)\nSerghei Spivac vs. Mario Pinto (Heavyweig
+ ht)\n— Prelims —\nJafel Filho vs. Bruno Silva (Flyweight)\nMatthieu Du
+ clos vs. Modestino Rodrigues (Middleweight)\nAbdul Hussein vs. Hecher Sosa
+  (Bantamweight)\nUran Satybaldiev vs. Ivan Gnizditskiy (Light Heavyweight)
+ \nJun Yong Park vs. Marco Tulio (Middleweight)\nMahammadali Osmanli vs. Pa
+ vel Andrusca (Bantamweight)\n\nEvent page: https://getcagetime.com/events/
+ ufc-fight-night-riyadh/\nTimes and broadcasters can change\; check the eve
+ nt page. From CageTime (getcagetime.com).
 URL:https://getcagetime.com/events/ufc-fight-night-riyadh/
 CATEGORIES:UFC,MMA
 STATUS:CONFIRMED
@@ -234,8 +232,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-335-oliveira-vs-lopes@getcagetime.com
-DTSTAMP:20261101T000000Z
-LAST-MODIFIED:20261101T000000Z
+DTSTAMP:20261116T000000Z
+LAST-MODIFIED:20261116T000000Z
 DTSTART:20261213T020000Z
 DTEND:20261213T050000Z
 SUMMARY:UFC 335: Oliveira vs. Lopes
@@ -250,15 +248,63 @@ DESCRIPTION:TIMES\nEarly prelims: Sat Dec 12 5:00 PM EST (22:00 UTC)\nPreli
  Pass\nBrazil: Paramount+\n\nFIGHT CARD\n— Main card —\nCharles Oliveir
  a vs. Diego Lopes (Lightweight)\nSergei Pavlovich vs. Alex Pereira (Heavyw
  eight)\nBrandon Moreno vs. Charles Johnson (Flyweight)\nKyler Phillips vs.
-  Ethyn Ewing (Bantamweight)\n— Prelims —\nJunior Tafa vs. Quentin Pasl
- ey (Light Heavyweight)\nChris Padilla vs. Chase Hooper (Lightweight)\nNiko
- lay Veretennikov vs. Ronald Humphrey (Welterweight)\nNilson Rojas vs. Roqu
- e Conceição (Flyweight)\nAngela Hill vs. Shanelle Dyer (Women's Strawwei
- ght)\nJacqueline Cavalcanti vs. Michelle Montague (Women's Bantamweight)\n
- Baisangur Susurkaev vs. Damian Pinas (Middleweight)\n\nEvent page: https:/
+  Ethyn Ewing (Bantamweight)\nBaisangur Susurkaev vs. Damian Pinas (Middlew
+ eight)\n— Prelims —\nJunior Tafa vs. Quentin Pasley (Light Heavyweight
+ )\nChris Padilla vs. Chase Hooper (Lightweight)\nNikolay Veretennikov vs. 
+ Ronald Humphrey (Welterweight)\nNilson Rojas vs. Roque Conceição (Flywei
+ ght)\nAngela Hill vs. Shanelle Dyer (Women's Strawweight)\nJacqueline Cava
+ lcanti vs. Michelle Montague (Women's Bantamweight)\n\nEvent page: https:/
  /getcagetime.com/events/ufc-335-oliveira-vs-lopes/\nTimes and broadcasters
   can change\; check the event page. From CageTime (getcagetime.com).
 URL:https://getcagetime.com/events/ufc-335-oliveira-vs-lopes/
+CATEGORIES:UFC,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ufc-fight-night-rodriguez-vs-garcia@getcagetime.com
+DTSTAMP:20261116T000000Z
+LAST-MODIFIED:20261116T000000Z
+DTSTART:20270117T010000Z
+DTEND:20270117T040000Z
+SUMMARY:UFC Fight Night: Rodriguez vs. Garcia
+LOCATION:American Airlines Center\, Dallas\, Texas
+DESCRIPTION:TIMES\nPrelims: Sat Jan 16 5:00 PM EST (22:00 UTC)\nMain card: 
+ Sat Jan 16 8:00 PM EST (01:00 UTC)\n\nWHERE TO WATCH\nUnited States: Param
+ ount+\nUnited Kingdom: TNT Sports / HBO Max\nCanada: Sportsnet+ / City TV 
+ / TVA Sports\nAustralia: Paramount+\nIreland: TNT Sports\nIndia: Sony TEN 
+ 2\nGermany: DAZN\nBrazil: Paramount+\n\nFIGHT CARD\n— Main card —\nYai
+ r Rodriguez vs. Steve Garcia (Featherweight)\nDaniel Rodriguez vs. Roberto
+  Soldić (Welterweight)\nChidi Njokuani vs. Ignacio Bahamondes (Welterweig
+ ht)\nGeoff Neal vs. Chris Curtis (Welterweight)\n— Prelims —\nMarQuel 
+ Mederos vs. Diego Ferreira (Lightweight)\n\nEvent page: https://getcagetim
+ e.com/events/ufc-fight-night-rodriguez-vs-garcia/\nTimes and broadcasters 
+ can change\; check the event page. From CageTime (getcagetime.com).
+URL:https://getcagetime.com/events/ufc-fight-night-rodriguez-vs-garcia/
+CATEGORIES:UFC,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ufc-fight-night-bonfim-vs-brady-jan-2027@getcagetime.com
+DTSTAMP:20261116T000000Z
+LAST-MODIFIED:20261116T000000Z
+DTSTART:20270123T220000Z
+DTEND:20270124T010000Z
+SUMMARY:UFC Fight Night: Bonfim vs. Brady
+LOCATION:UFC Apex\, Las Vegas\, Nevada\, United States
+DESCRIPTION:TIMES\nPrelims: Sat Jan 23 3:00 PM EST (20:00 UTC)\nMain card: 
+ Sat Jan 23 5:00 PM EST (22:00 UTC)\n\nWHERE TO WATCH\nUnited States: Param
+ ount+\nUnited Kingdom: TNT Sports / HBO Max\nCanada: Sportsnet+ / City TV 
+ / TVA Sports\nAustralia: Paramount+\nIreland: TNT Sports\nIndia: Sony TEN 
+ 2\nGermany: DAZN\nBrazil: Paramount+\n\nFIGHT CARD\n— Main card —\nGab
+ riel Bonfim vs. Sean Brady (Welterweight)\nPat Sabatini vs. Vinicius Olive
+ ira (Featherweight)\nYadier del Valle vs. Ezra Elliott (Featherweight)\n\n
+ Event page: https://getcagetime.com/events/ufc-fight-night-bonfim-vs-brady
+ -jan-2027/\nTimes and broadcasters can change\; check the event page. From
+  CageTime (getcagetime.com).
+URL:https://getcagetime.com/events/ufc-fight-night-bonfim-vs-brady-jan-2027
+ /
 CATEGORIES:UFC,MMA
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT

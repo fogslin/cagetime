@@ -10,8 +10,8 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:one-samurai-6@getcagetime.com
-DTSTAMP:20261031T000000Z
-LAST-MODIFIED:20261031T000000Z
+DTSTAMP:20261116T000000Z
+LAST-MODIFIED:20261116T000000Z
 DTSTART:20261202T083000Z
 DTEND:20261202T113000Z
 SUMMARY:ONE Samurai 6 (Card start per Tapology (unofficial\; may be prelims
@@ -22,9 +22,13 @@ DESCRIPTION:TIMES\nCard start per Tapology (unofficial\; may be prelims): W
  entry starts at the earliest listed time.\n\nWHERE TO WATCH\nUnited States
  : TBA\nUnited Kingdom: TBA\nCanada: TBA\nAustralia: TBA\nIreland: TBA\nInd
  ia: TBA\nGermany: TBA\nBrazil: TBA\n\nFIGHT CARD\n— Main card —\nChihi
- ro Sawada vs. Anastasia Nikolakakos (Women's Atomweight)\n\nEvent page: ht
- tps://getcagetime.com/events/one-samurai-6/\nTimes and broadcasters can ch
- ange\; check the event page. From CageTime (getcagetime.com).
+ ro Sawada vs. Anastasia Nikolakakos (Women's Atomweight)\nHiromi Wajima vs
+ . Mohammed Siasarani (Featherweight)\nHiroba Minowa vs. Fábio Henrique (S
+ trawweight)\nMisaki Morita vs. Kanyarat Yoohanngoh (Atomweight)\nRyuya Oku
+ waki vs. Thongpoon Petchportoror (Atomweight)\nTaiga Orii vs. Ryo Hirayama
+  (Bantamweight)\nTaiju Shiratori vs. Shota Tezuka (Bantamweight)\n\nEvent 
+ page: https://getcagetime.com/events/one-samurai-6/\nTimes and broadcaster
+ s can change\; check the event page. From CageTime (getcagetime.com).
 URL:https://getcagetime.com/events/one-samurai-6/
 CATEGORIES:ONE,MMA
 STATUS:CONFIRMED

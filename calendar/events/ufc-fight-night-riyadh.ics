@@ -10,30 +10,28 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:ufc-fight-night-riyadh@getcagetime.com
-DTSTAMP:20261101T000000Z
-LAST-MODIFIED:20261101T000000Z
-DTSTART:20261205T140000Z
-DTEND:20261205T170000Z
-SUMMARY:UFC Fight Night Riyadh: Adesanya vs. Magomedov (Card start per Tapo
- logy (unofficial\; may be prelims))
+DTSTAMP:20261116T000000Z
+LAST-MODIFIED:20261116T000000Z
+DTSTART:20261205T180000Z
+DTEND:20261205T210000Z
+SUMMARY:UFC Fight Night Riyadh: Adesanya vs. Magomedov
 LOCATION:ANB Arena\, Riyadh\, Saudi Arabia
-DESCRIPTION:TIMES\nCard start per Tapology (unofficial\; may be prelims): S
- at Dec 5 9:00 AM EST (14:00 UTC)\nMain card time not published yet\; this 
- entry starts at the earliest listed time.\n\nWHERE TO WATCH\nUnited States
- : Paramount+\nUnited Kingdom: TNT Sports / HBO Max\nCanada: Sportsnet+ / C
- ity TV / TVA Sports\nAustralia: Paramount+\nIreland: TNT Sports\nIndia: So
- ny TEN 2\nGermany: DAZN\nBrazil: Paramount+\n\nFIGHT CARD\n— Main card 
- —\nIsrael Adesanya vs. Shara Magomedov (Middleweight)\nIan Machado Garry
-  vs. Yaroslav Amosov (Welterweight)\nLevan Chokheli vs. Islam Dulatov (Wel
- terweight)\nIon Cutelaba vs. Magomed Tuchalov (Light Heavyweight)\nMairon 
- Santos vs. Akbar Abdullaev (Lightweight)\nSerghei Spivac vs. Mario Pinto (
- Heavyweight)\n— Prelims —\nJafel Filho vs. Bruno Silva (Flyweight)\nMa
- tthieu Duclos vs. Modestino Rodrigues (Middleweight)\nAbdul Hussein vs. He
- cher Sosa (Bantamweight)\nUran Satybaldiev vs. Ivan Gnizditskiy (Light Hea
- vyweight)\nJun Yong Park vs. Marco Tulio (Middleweight)\nMahammadali Osman
- li vs. Pavel Andrusca (Bantamweight)\n\nEvent page: https://getcagetime.co
- m/events/ufc-fight-night-riyadh/\nTimes and broadcasters can change\; chec
- k the event page. From CageTime (getcagetime.com).
+DESCRIPTION:TIMES\nPrelims: Sat Dec 5 10:00 AM EST (15:00 UTC)\nMain card: 
+ Sat Dec 5 1:00 PM EST (18:00 UTC)\n\nWHERE TO WATCH\nUnited States: Paramo
+ unt+\nUnited Kingdom: TNT Sports / HBO Max\nCanada: Sportsnet+ / City TV /
+  TVA Sports\nAustralia: Paramount+\nIreland: TNT Sports\nIndia: Sony TEN 2
+ \nGermany: DAZN\nBrazil: Paramount+\n\nFIGHT CARD\n— Main card —\nIsra
+ el Adesanya vs. Shara Magomedov (Middleweight)\nIan Machado Garry vs. Yaro
+ slav Amosov (Welterweight)\nLevan Chokheli vs. Islam Dulatov (Welterweight
+ )\nIon Cutelaba vs. Magomed Tuchalov (Light Heavyweight)\nMairon Santos vs
+ . Akbar Abdullaev (Lightweight)\nSerghei Spivac vs. Mario Pinto (Heavyweig
+ ht)\n— Prelims —\nJafel Filho vs. Bruno Silva (Flyweight)\nMatthieu Du
+ clos vs. Modestino Rodrigues (Middleweight)\nAbdul Hussein vs. Hecher Sosa
+  (Bantamweight)\nUran Satybaldiev vs. Ivan Gnizditskiy (Light Heavyweight)
+ \nJun Yong Park vs. Marco Tulio (Middleweight)\nMahammadali Osmanli vs. Pa
+ vel Andrusca (Bantamweight)\n\nEvent page: https://getcagetime.com/events/
+ ufc-fight-night-riyadh/\nTimes and broadcasters can change\; check the eve
+ nt page. From CageTime (getcagetime.com).
 URL:https://getcagetime.com/events/ufc-fight-night-riyadh/
 CATEGORIES:UFC,MMA
 STATUS:CONFIRMED

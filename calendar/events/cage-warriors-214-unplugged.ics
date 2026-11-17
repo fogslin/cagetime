@@ -10,8 +10,8 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:cage-warriors-214-unplugged@getcagetime.com
-DTSTAMP:20261101T000000Z
-LAST-MODIFIED:20261101T000000Z
+DTSTAMP:20261116T000000Z
+LAST-MODIFIED:20261116T000000Z
 DTSTART:20261127T200000Z
 DTEND:20261127T230000Z
 SUMMARY:Cage Warriors 214: Unplugged (Countdown on official event page (lik
@@ -30,9 +30,10 @@ DESCRIPTION:TIMES\nCountdown on official event page (likely prelims\; main
  an Molinari vs. Mariano Neto (Flyweight)\nVictor Yeo vs. Charlie Boulton (
  Featherweight)\nMohamed El Karchouh vs. Kevin Kehoe (Catchweight (150 lb))
  \nNathanael Woods vs. Angelo Terenzio (Flyweight)\nCraig Rawlins vs. Graha
- m Sheehan (Middleweight)\n\nEvent page: https://getcagetime.com/events/cag
- e-warriors-214-unplugged/\nTimes and broadcasters can change\; check the e
- vent page. From CageTime (getcagetime.com).
+ m Sheehan (Middleweight)\nMichael Pagani vs. Yusuf Ali-Taleb (Welterweight
+ )\n\nEvent page: https://getcagetime.com/events/cage-warriors-214-unplugge
+ d/\nTimes and broadcasters can change\; check the event page. From CageTim
+ e (getcagetime.com).
 URL:https://getcagetime.com/events/cage-warriors-214-unplugged/
 CATEGORIES:Cage Warriors,MMA
 STATUS:CONFIRMED

@@ -10,8 +10,8 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:bkfc-fight-night-myrtle-beach-richardson-vs-oxendine@getcagetime.com
-DTSTAMP:20261031T000000Z
-LAST-MODIFIED:20261031T000000Z
+DTSTAMP:20261116T000000Z
+LAST-MODIFIED:20261116T000000Z
 DTSTART:20261121T020000Z
 DTEND:20261121T050000Z
 SUMMARY:BKFC Fight Night Myrtle Beach: Richardson vs. Oxendine
@@ -25,10 +25,11 @@ DESCRIPTION:TIMES\nMain card: Fri Nov 20 9:00 PM EST (02:00 UTC)\n\nWHERE T
  yan Jett vs. Rodney Hinton (Welterweight)\nEvan Pierce vs. Diego Romo (Mid
  dleweight)\nWindson Ramos vs. Robert Fichtner (Bantamweight)\nBrandon Bush
  aw vs. Joshua Claudio (Featherweight)\nAustin Coleman vs. Alex Eliam (Bant
- amweight)\nMaurice Morris vs. Lewis Glover (Cruiserweight)\n\nEvent page: 
- https://getcagetime.com/events/bkfc-fight-night-myrtle-beach-richardson-vs
- -oxendine/\nTimes and broadcasters can change\; check the event page. From
-  CageTime (getcagetime.com).
+ amweight)\nMaurice Morris vs. Lewis Glover (Cruiserweight)\nAmos Collins v
+ s. Ashton Caniglia\nJustin Howell vs. Brian Maxwell\n\nEvent page: https:/
+ /getcagetime.com/events/bkfc-fight-night-myrtle-beach-richardson-vs-oxendi
+ ne/\nTimes and broadcasters can change\; check the event page. From CageTi
+ me (getcagetime.com).
 URL:https://getcagetime.com/events/bkfc-fight-night-myrtle-beach-richardson
  -vs-oxendine/
 CATEGORIES:BKFC,MMA

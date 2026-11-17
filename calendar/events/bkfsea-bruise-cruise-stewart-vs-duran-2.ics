@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CageTime//getcagetime.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:BKFSEA Bruise Cruise: Stewart vs. Duran 2
+X-WR-CALDESC:From CageTime (getcagetime.com)
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:bkfsea-bruise-cruise-stewart-vs-duran-2@getcagetime.com
+DTSTAMP:20261116T000000Z
+LAST-MODIFIED:20261116T000000Z
+DTSTART:20270124T020000Z
+DTEND:20270124T050000Z
+SUMMARY:BKFSEA Bruise Cruise: Stewart vs. Duran 2
+LOCATION:Norwegian Jewel\, Bahamas
+DESCRIPTION:TIMES\nMain card: Sat Jan 23 9:00 PM EST (02:00 UTC)\n\nWHERE T
+ O WATCH\nUnited States: TBA\nUnited Kingdom: TBA\nCanada: TBA\nAustralia: 
+ TBA\nIreland: TBA\nIndia: TBA\nGermany: TBA\nBrazil: TBA\n\nFIGHT CARD\n
+ — Main card —\nKai Stewart vs. Bryan Duran (145 lb)\nGeorge Thorpe vs.
+  Josh Kuhne\nJulio Perez Rodriguez vs. Gabriel Mota\nJoey Gambino vs. Matt
+  Denning\nStephen Townsel vs. Brady Meister\nNathan Rivera vs. Brandon Men
+ eses\nGustavo Balart vs. Justyn Martinez\n\nEvent page: https://getcagetim
+ e.com/events/bkfsea-bruise-cruise-stewart-vs-duran-2/\nTimes and broadcast
+ ers can change\; check the event page. From CageTime (getcagetime.com).
+URL:https://getcagetime.com/events/bkfsea-bruise-cruise-stewart-vs-duran-2/
+CATEGORIES:BKFC,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

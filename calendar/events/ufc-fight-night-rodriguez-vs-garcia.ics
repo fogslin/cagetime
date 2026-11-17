@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CageTime//getcagetime.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:UFC Fight Night: Rodriguez vs. Garcia
+X-WR-CALDESC:From CageTime (getcagetime.com)
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:ufc-fight-night-rodriguez-vs-garcia@getcagetime.com
+DTSTAMP:20261116T000000Z
+LAST-MODIFIED:20261116T000000Z
+DTSTART:20270117T010000Z
+DTEND:20270117T040000Z
+SUMMARY:UFC Fight Night: Rodriguez vs. Garcia
+LOCATION:American Airlines Center\, Dallas\, Texas
+DESCRIPTION:TIMES\nPrelims: Sat Jan 16 5:00 PM EST (22:00 UTC)\nMain card: 
+ Sat Jan 16 8:00 PM EST (01:00 UTC)\n\nWHERE TO WATCH\nUnited States: Param
+ ount+\nUnited Kingdom: TNT Sports / HBO Max\nCanada: Sportsnet+ / City TV 
+ / TVA Sports\nAustralia: Paramount+\nIreland: TNT Sports\nIndia: Sony TEN 
+ 2\nGermany: DAZN\nBrazil: Paramount+\n\nFIGHT CARD\n— Main card —\nYai
+ r Rodriguez vs. Steve Garcia (Featherweight)\nDaniel Rodriguez vs. Roberto
+  Soldić (Welterweight)\nChidi Njokuani vs. Ignacio Bahamondes (Welterweig
+ ht)\nGeoff Neal vs. Chris Curtis (Welterweight)\n— Prelims —\nMarQuel 
+ Mederos vs. Diego Ferreira (Lightweight)\n\nEvent page: https://getcagetim
+ e.com/events/ufc-fight-night-rodriguez-vs-garcia/\nTimes and broadcasters 
+ can change\; check the event page. From CageTime (getcagetime.com).
+URL:https://getcagetime.com/events/ufc-fight-night-rodriguez-vs-garcia/
+CATEGORIES:UFC,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

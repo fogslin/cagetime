@@ -10,8 +10,8 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:oktagon-99@getcagetime.com
-DTSTAMP:20261101T000000Z
-LAST-MODIFIED:20261101T000000Z
+DTSTAMP:20261116T000000Z
+LAST-MODIFIED:20261116T000000Z
 DTSTART:20261205T170000Z
 DTEND:20261205T200000Z
 SUMMARY:OKTAGON 99: Aras vs. Flores
@@ -28,10 +28,12 @@ DESCRIPTION:TIMES\nEvent start (official\; no separate main-card time publi
  ündüz vs. Abdullah Sultani (Bantamweight)\nMurat Tüysüz vs. Jan Stanov
  ský (Lightweight)\nIwan Tagner vs. Bedirhan Kabak (Welterweight)\nHarun U
  zun vs. Aleksandar Stefanovic (Light Heavyweight)\nKhalid Taha vs. João P
- edro Saldanha (Catchweight (152 lb))\n— Prelims —\nFurkan Ugur vs. Sai
- d Osmanov (Lightweight)\n\nEvent page: https://getcagetime.com/events/okta
- gon-99/\nTimes and broadcasters can change\; check the event page. From Ca
- geTime (getcagetime.com).
+ edro Saldanha (Catchweight (152 lb))\nMatěj Peňáz vs. Jonathan Figueroa
+  (Catchweight (190 lb))\nAhmad Chikh Mousa vs. Zinedine El Mahdi (Catchwei
+ ght (151 lb))\n— Prelims —\nFurkan Ugur vs. Said Osmanov (Lightweight)
+ \n\nEvent page: https://getcagetime.com/events/oktagon-99/\nTimes and broa
+ dcasters can change\; check the event page. From CageTime (getcagetime.com
+ ).
 URL:https://getcagetime.com/events/oktagon-99/
 CATEGORIES:OKTAGON,MMA
 STATUS:CONFIRMED

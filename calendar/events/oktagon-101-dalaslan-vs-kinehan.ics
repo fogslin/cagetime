@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CageTime//getcagetime.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:OKTAGON 101: Dalaslan vs. Kinehan
+X-WR-CALDESC:From CageTime (getcagetime.com)
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:oktagon-101-dalaslan-vs-kinehan@getcagetime.com
+DTSTAMP:20261116T000000Z
+LAST-MODIFIED:20261116T000000Z
+DTSTART:20270116T170000Z
+DTEND:20270116T200000Z
+SUMMARY:OKTAGON 101: Dalaslan vs. Kinehan
+LOCATION:Hanns-Martin-Schleyer-Halle\, Stuttgart\, Germany
+DESCRIPTION:TIMES\nMain card: Sat Jan 16 12:00 PM EST (17:00 UTC)\n\nWHERE 
+ TO WATCH\nUnited States: TBA\nUnited Kingdom: TBA\nCanada: TBA\nAustralia:
+  TBA\nIreland: TBA\nIndia: TBA\nGermany: TBA\nBrazil: TBA\n\nFIGHT CARD\n
+ — Main card —\nAlina Dalaslan vs. Niamh Kinehan (Women's Bantamweight)
+ \nShawn Marcos da Silva vs. Fayaz Haqparast (Flyweight)\nEmilio Quissua vs
+ . Mick Stanton (Light Heavyweight)\n\nEvent page: https://getcagetime.com/
+ events/oktagon-101-dalaslan-vs-kinehan/\nTimes and broadcasters can change
+ \; check the event page. From CageTime (getcagetime.com).
+URL:https://getcagetime.com/events/oktagon-101-dalaslan-vs-kinehan/
+CATEGORIES:OKTAGON,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15",
+ "updated": "2026-11-17",
  "note": "Results from Tapology event pages (fallback: the fighters' Tapology careers). result=null = no result published in those sources yet.",
  "events": [
   {
@@ -402,7 +402,7 @@
      }
     }
    ],
-   "resultsChecked": "2026-11-15",
+   "resultsChecked": "2026-11-17",
    "resultCount": 13
   },
   {
@@ -804,7 +804,7 @@
      }
     }
    ],
-   "resultsChecked": "2026-11-15",
+   "resultsChecked": "2026-11-17",
    "resultCount": 13
   },
   {
@@ -944,11 +944,11 @@
       "outcome": "win",
       "winner": "a",
       "method": "KO/TKO",
-      "detail": "Referee Stoppage Between Rounds",
+      "detail": "Retirement",
       "round": 1,
       "time": "5:00",
       "of": 3,
-      "source": "cagewarriors-official",
+      "source": "tapology-event",
       "winnerId": "tap-332802-shirzad-qadrian",
       "winnerName": "Shirzad Qadrian"
      }
@@ -1000,9 +1000,9 @@
       "method": "KO/TKO",
       "detail": "Punches From Back Mount",
       "round": 1,
-      "time": "2:53",
+      "time": "3:53",
       "of": 3,
-      "source": "cagewarriors-official",
+      "source": "tapology-event",
       "winnerId": "tap-85426-ollie-sarwa",
       "winnerName": "Ollie Sarwa"
      }
@@ -1025,11 +1025,11 @@
       "outcome": "win",
       "winner": "a",
       "method": "Submission",
-      "detail": "D'Arce Choke",
+      "detail": "Anaconda Choke",
       "round": 3,
       "time": "2:51",
       "of": 3,
-      "source": "cagewarriors-official",
+      "source": "tapology-event",
       "winnerId": "tap-343655-bobby-chikavhu",
       "winnerName": "Bobby Chikavhu"
      }
@@ -1089,7 +1089,7 @@
      }
     }
    ],
-   "resultsChecked": "2026-11-15",
+   "resultsChecked": "2026-11-17",
    "resultCount": 9
   },
   {
@@ -1426,7 +1426,7 @@
      }
     }
    ],
-   "resultsChecked": "2026-11-15",
+   "resultsChecked": "2026-11-17",
    "resultCount": 12
   },
   {
@@ -1805,7 +1805,7 @@
      }
     }
    ],
-   "resultsChecked": "2026-11-15",
+   "resultsChecked": "2026-11-17",
    "cardDroppedFromTapology": [
     "Yodlekpet Or Atchariya vs Kyaw Swar Win",
     "Superchamp Wutdychonburipraleasing vs Saiyok"
@@ -2256,7 +2256,7 @@
      }
     }
    ],
-   "resultsChecked": "2026-11-15",
+   "resultsChecked": "2026-11-17",
    "resultCount": 16
   },
   {
@@ -2681,7 +2681,7 @@
      }
     }
    ],
-   "resultsChecked": "2026-11-15",
+   "resultsChecked": "2026-11-17",
    "resultCount": 14
   },
   {
@@ -2970,7 +2970,7 @@
      }
     }
    ],
-   "resultsChecked": "2026-11-15",
+   "resultsChecked": "2026-11-17",
    "resultCount": 9
   },
   {
@@ -3312,7 +3312,7 @@
      }
     }
    ],
-   "resultsChecked": "2026-11-15",
+   "resultsChecked": "2026-11-17",
    "cardDroppedFromTapology": [
     "Doalty Torrance vs Kyle Cassidy",
     "Barry Aikman vs Cory Hardy"
@@ -3673,7 +3673,7 @@
      }
     }
    ],
-   "resultsChecked": "2026-11-15",
+   "resultsChecked": "2026-11-17",
    "resultCount": 12
   },
   {
@@ -3964,7 +3964,7 @@
      }
     }
    ],
-   "resultsChecked": "2026-11-15",
+   "resultsChecked": "2026-11-17",
    "resultCount": 9
   },
   {
@@ -4381,7 +4381,7 @@
      }
     }
    ],
-   "resultsChecked": "2026-11-15",
+   "resultsChecked": "2026-11-17",
    "resultCount": 14
   },
   {
@@ -4752,7 +4752,7 @@
      }
     }
    ],
-   "resultsChecked": "2026-11-15",
+   "resultsChecked": "2026-11-17",
    "resultCount": 12
   },
   {
@@ -5088,7 +5088,7 @@
      }
     }
    ],
-   "resultsChecked": "2026-11-15",
+   "resultsChecked": "2026-11-17",
    "resultCount": 11
   },
   {
@@ -5322,7 +5322,7 @@
      }
     }
    ],
-   "resultsChecked": "2026-11-15",
+   "resultsChecked": "2026-11-17",
    "resultCount": 9
   },
   {
@@ -5633,7 +5633,7 @@
      }
     }
    ],
-   "resultsChecked": "2026-11-15",
+   "resultsChecked": "2026-11-17",
    "cardDroppedFromTapology": [
     "Rambong Sor Terapat vs Jacob Thompson",
     "Petkhaokradong Lukjaomaesaithong vs Abdelali Zahidi"
@@ -6039,7 +6039,7 @@
      }
     }
    ],
-   "resultsChecked": "2026-11-15",
+   "resultsChecked": "2026-11-17",
    "resultCount": 14
   },
   {
@@ -6287,7 +6287,7 @@
      }
     }
    ],
-   "resultsChecked": "2026-11-15",
+   "resultsChecked": "2026-11-17",
    "cardDroppedFromTapology": [
     "Paul Capaldo vs Sebastian Ruiz",
     "Eli Evangelista vs Angelo Robles",
@@ -6494,7 +6494,7 @@
      }
     }
    ],
-   "resultsChecked": "2026-11-15",
+   "resultsChecked": "2026-11-17",
    "cardDroppedFromTapology": [
     "Jared Warren vs Tom Angeloff",
     "Tony Murphy vs Brandon Conley"
@@ -6783,7 +6783,7 @@
      }
     }
    ],
-   "resultsChecked": "2026-11-15",
+   "resultsChecked": "2026-11-17",
    "resultCount": 10
   },
   {
@@ -7130,7 +7130,7 @@
      }
     }
    ],
-   "resultsChecked": "2026-11-15",
+   "resultsChecked": "2026-11-17",
    "resultCount": 13
   },
   {
@@ -7359,7 +7359,7 @@
      }
     }
    ],
-   "resultsChecked": "2026-11-15",
+   "resultsChecked": "2026-11-17",
    "resultCount": 10
   },
   {
@@ -7688,7 +7688,7 @@
      }
     }
    ],
-   "resultsChecked": "2026-11-15",
+   "resultsChecked": "2026-11-17",
    "resultCount": 11
   },
   {
@@ -7911,7 +7911,7 @@
      }
     }
    ],
-   "resultsChecked": "2026-11-15",
+   "resultsChecked": "2026-11-17",
    "resultCount": 10
   }
  ]

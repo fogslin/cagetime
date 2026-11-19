@@ -11,8 +11,8 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:ufc-fight-night-buckley-vs-malott@getcagetime.com
-DTSTAMP:20261117T000000Z
-LAST-MODIFIED:20261117T000000Z
+DTSTAMP:20261119T000000Z
+LAST-MODIFIED:20261119T000000Z
 DTSTART:20261018T000000Z
 DTEND:20261018T030000Z
 SUMMARY:UFC Fight Night: Buckley vs. Malott
@@ -42,8 +42,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-333-volkanovski-vs-evloev@getcagetime.com
-DTSTAMP:20261117T000000Z
-LAST-MODIFIED:20261117T000000Z
+DTSTAMP:20261119T000000Z
+LAST-MODIFIED:20261119T000000Z
 DTSTART:20261024T180000Z
 DTEND:20261024T210000Z
 SUMMARY:UFC 333: Volkanovski vs. Evloev
@@ -76,8 +76,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-fight-night-moicano-vs-nolan@getcagetime.com
-DTSTAMP:20261117T000000Z
-LAST-MODIFIED:20261117T000000Z
+DTSTAMP:20261119T000000Z
+LAST-MODIFIED:20261119T000000Z
 DTSTART:20261101T000000Z
 DTEND:20261101T030000Z
 SUMMARY:UFC Fight Night: Moicano vs. Nolan
@@ -107,8 +107,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-fight-night-bonfim-vs-brady@getcagetime.com
-DTSTAMP:20261117T000000Z
-LAST-MODIFIED:20261117T000000Z
+DTSTAMP:20261119T000000Z
+LAST-MODIFIED:20261119T000000Z
 DTSTART:20261108T010000Z
 DTEND:20261108T040000Z
 SUMMARY:UFC Fight Night: Cortes-Acosta vs. Walker
@@ -140,8 +140,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-334-gane-vs-hokit@getcagetime.com
-DTSTAMP:20261117T000000Z
-LAST-MODIFIED:20261117T000000Z
+DTSTAMP:20261119T000000Z
+LAST-MODIFIED:20261119T000000Z
 DTSTART:20261115T020000Z
 DTEND:20261115T050000Z
 SUMMARY:UFC 334: Gane vs. Hokit
@@ -174,8 +174,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-fight-night-prochazka-vs-stirling@getcagetime.com
-DTSTAMP:20261116T000000Z
-LAST-MODIFIED:20261116T000000Z
+DTSTAMP:20261119T000000Z
+LAST-MODIFIED:20261119T000000Z
 DTSTART:20261121T180000Z
 DTEND:20261121T210000Z
 SUMMARY:UFC Fight Night: Procházka vs. Stirling
@@ -203,8 +203,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-fight-night-riyadh@getcagetime.com
-DTSTAMP:20261116T000000Z
-LAST-MODIFIED:20261116T000000Z
+DTSTAMP:20261119T000000Z
+LAST-MODIFIED:20261119T000000Z
 DTSTART:20261205T180000Z
 DTEND:20261205T210000Z
 SUMMARY:UFC Fight Night Riyadh: Adesanya vs. Magomedov
@@ -232,8 +232,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-335-oliveira-vs-lopes@getcagetime.com
-DTSTAMP:20261116T000000Z
-LAST-MODIFIED:20261116T000000Z
+DTSTAMP:20261119T000000Z
+LAST-MODIFIED:20261119T000000Z
 DTSTART:20261213T020000Z
 DTEND:20261213T050000Z
 SUMMARY:UFC 335: Oliveira vs. Lopes
@@ -249,13 +249,14 @@ DESCRIPTION:TIMES\nEarly prelims: Sat Dec 12 5:00 PM EST (22:00 UTC)\nPreli
  a vs. Diego Lopes (Lightweight)\nSergei Pavlovich vs. Alex Pereira (Heavyw
  eight)\nBrandon Moreno vs. Charles Johnson (Flyweight)\nKyler Phillips vs.
   Ethyn Ewing (Bantamweight)\nBaisangur Susurkaev vs. Damian Pinas (Middlew
- eight)\n— Prelims —\nJunior Tafa vs. Quentin Pasley (Light Heavyweight
- )\nChris Padilla vs. Chase Hooper (Lightweight)\nNikolay Veretennikov vs. 
- Ronald Humphrey (Welterweight)\nNilson Rojas vs. Roque Conceição (Flywei
- ght)\nAngela Hill vs. Shanelle Dyer (Women's Strawweight)\nJacqueline Cava
- lcanti vs. Michelle Montague (Women's Bantamweight)\n\nEvent page: https:/
- /getcagetime.com/events/ufc-335-oliveira-vs-lopes/\nTimes and broadcasters
-  can change\; check the event page. From CageTime (getcagetime.com).
+ eight)\n— Early prelims —\nJunior Tafa vs. Quentin Pasley (Light Heavy
+ weight)\n— Prelims —\nChris Padilla vs. Chase Hooper (Lightweight)\nNi
+ kolay Veretennikov vs. Ronald Humphrey (Welterweight)\nNilson Rojas vs. Ro
+ que Conceição (Flyweight)\nAngela Hill vs. Shanelle Dyer (Women's Straww
+ eight)\nJacqueline Cavalcanti vs. Michelle Montague (Women's Bantamweight)
+ \n\nEvent page: https://getcagetime.com/events/ufc-335-oliveira-vs-lopes/\
+ nTimes and broadcasters can change\; check the event page. From CageTime (
+ getcagetime.com).
 URL:https://getcagetime.com/events/ufc-335-oliveira-vs-lopes/
 CATEGORIES:UFC,MMA
 STATUS:CONFIRMED
@@ -263,8 +264,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-fight-night-rodriguez-vs-garcia@getcagetime.com
-DTSTAMP:20261116T000000Z
-LAST-MODIFIED:20261116T000000Z
+DTSTAMP:20261119T000000Z
+LAST-MODIFIED:20261119T000000Z
 DTSTART:20270117T010000Z
 DTEND:20270117T040000Z
 SUMMARY:UFC Fight Night: Rodriguez vs. Garcia
@@ -287,8 +288,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-fight-night-bonfim-vs-brady-jan-2027@getcagetime.com
-DTSTAMP:20261116T000000Z
-LAST-MODIFIED:20261116T000000Z
+DTSTAMP:20261119T000000Z
+LAST-MODIFIED:20261119T000000Z
 DTSTART:20270123T220000Z
 DTEND:20270124T010000Z
 SUMMARY:UFC Fight Night: Bonfim vs. Brady

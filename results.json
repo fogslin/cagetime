@@ -1,7 +1,263 @@
 {
- "updated": "2026-11-17",
+ "updated": "2026-11-19",
  "note": "Results from Tapology event pages (fallback: the fighters' Tapology careers). result=null = no result published in those sources yet.",
  "events": [
+  {
+   "name": "ONE Samurai 5: Pacio vs. Yamakita",
+   "promotion": "ONE",
+   "date": "2026-11-18",
+   "startUTC": "2026-11-18T08:30:00Z",
+   "times": [
+    {
+     "label": "Event start (official: 5:30 PM JST / 3:30 AM ET)",
+     "startUTC": "2026-11-18T08:30:00Z"
+    }
+   ],
+   "venue": "EBARA WAVE Arena Ota, Tokyo, Japan",
+   "broadcasters": {
+    "US": "live.onefc.com (The Inner Circle)",
+    "UK": "live.onefc.com (The Inner Circle)",
+    "CA": "live.onefc.com (The Inner Circle)",
+    "AU": "live.onefc.com (The Inner Circle)",
+    "IE": "live.onefc.com (The Inner Circle)",
+    "IN": "live.onefc.com (The Inner Circle)",
+    "DE": "live.onefc.com (The Inner Circle)",
+    "BR": "live.onefc.com (The Inner Circle)"
+   },
+   "sources": [
+    "https://www.tapology.com/fightcenter/events/147562-one-samurai-5",
+    "https://www.onefc.com/events/one-samurai-5/",
+    "https://www.onefc.com/news/how-to-watch-one-samurai-5-live-on-wednesday-november-18/"
+   ],
+   "notes": "Start 5:30 PM JST (3:30 AM ET, 3:30 PM ICT) per ONE's official event page and watch guide (Nov 15). Internationally: live.onefc.com with a subscription to The Inner Circle; the first two matches also stream free on ONE's YouTube and Facebook (geo-restrictions apply). Japan: U-NEXT. Card is MMA, Muay Thai and kickboxing; records shown are professional MMA records.",
+   "id": "one-samurai-5-pacio-vs-yamakita",
+   "tapology": "https://www.tapology.com/fightcenter/events/147562-one-samurai-5",
+   "bouts": [
+    {
+     "segment": "Main card",
+     "weightClass": "Strawweight",
+     "rounds": 5,
+     "title": "ONE Flyweight Championship",
+     "discipline": "MMA",
+     "a": "tap-94002-joshua-pacio",
+     "aName": "Joshua Pacio",
+     "b": "tap-215789-keito-yamakita",
+     "bName": "Keito Yamakita",
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "Submission",
+      "detail": "Technical (Arm Triangle Choke)",
+      "round": 4,
+      "time": "4:17",
+      "of": 5,
+      "source": "tapology-event",
+      "winnerName": "Joshua Pacio",
+      "winnerId": "tap-94002-joshua-pacio"
+     }
+    },
+    {
+     "segment": "Main card",
+     "weightClass": "Strawweight",
+     "rounds": 3,
+     "discipline": "Kickboxing",
+     "a": "tap-244096-ryushin-nasukawa",
+     "aName": "Ryujin Nasukawa",
+     "b": "tap-401704-raichi-nagai",
+     "bName": "Raichi Nagai",
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "KO/TKO",
+      "detail": "Right Hook",
+      "round": 1,
+      "time": "0:36",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerName": "Ryujin Nasukawa",
+      "winnerId": "tap-244096-ryushin-nasukawa"
+     }
+    },
+    {
+     "segment": "Main card",
+     "weightClass": "Strawweight",
+     "rounds": 3,
+     "discipline": "MMA",
+     "a": "tap-40047-jarred-brooks",
+     "aName": "Jarred Brooks",
+     "b": "tap-4803-tatsumitsu-wada",
+     "bName": "Tatsumitsu Wada",
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "Decision",
+      "detail": "Split",
+      "round": 3,
+      "time": "5:00",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerName": "Jarred Brooks",
+      "winnerId": "tap-40047-jarred-brooks"
+     }
+    },
+    {
+     "segment": "Main card",
+     "weightClass": "Strawweight",
+     "rounds": 3,
+     "discipline": "Kickboxing",
+     "a": "tap-238582-masashi-kumura",
+     "aName": "Masashi Kumura",
+     "b": "tap-315152-ellis-barboza-el-jefe",
+     "bName": "Ellis Barboza",
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "KO/TKO",
+      "detail": "Left Hook",
+      "round": 1,
+      "time": "2:58",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerName": "Masashi Kumura",
+      "winnerId": "tap-238582-masashi-kumura"
+     }
+    },
+    {
+     "segment": "Main card",
+     "weightClass": "Featherweight",
+     "rounds": 3,
+     "discipline": "Kickboxing",
+     "a": "tap-270818-yutaro-asahi",
+     "aName": "Yutaro Asahi",
+     "b": "tap-268101-petchtanong-banchamek",
+     "bName": "Petchtanong Banchamek",
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "Decision",
+      "detail": "Unanimous",
+      "round": 3,
+      "time": "3:00",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerName": "Yutaro Asahi",
+      "winnerId": "tap-270818-yutaro-asahi"
+     }
+    },
+    {
+     "segment": "Main card",
+     "weightClass": "Heavyweight",
+     "rounds": 3,
+     "discipline": "MMA",
+     "a": "tap-426452-ryugo-takeuchi",
+     "aName": "Ryugo Takeuchi",
+     "b": "tap-309206-brandon-hashimoto",
+     "bName": "Brandon Hashimoto",
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "KO/TKO",
+      "detail": "Punches",
+      "round": 1,
+      "time": "0:23",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerName": "Ryugo Takeuchi",
+      "winnerId": "tap-426452-ryugo-takeuchi"
+     }
+    },
+    {
+     "segment": "Main card",
+     "weightClass": "Strawweight",
+     "rounds": 3,
+     "discipline": "Kickboxing",
+     "a": "tap-400214-reiji",
+     "aName": "Reiji Takagi",
+     "b": "tap-204304-rui-botelho",
+     "bName": "Rui Botelho",
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "Decision",
+      "detail": "Unanimous",
+      "round": 3,
+      "time": "3:00",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerName": "Reiji Takagi",
+      "winnerId": "tap-400214-reiji"
+     }
+    },
+    {
+     "segment": "Main card",
+     "weightClass": "Strawweight",
+     "rounds": 3,
+     "discipline": "Muay Thai",
+     "a": "tap-156902-yugo-kato",
+     "aName": "Yugo Kato",
+     "b": "tap-287715-jurai-wor-wanchai",
+     "bName": "Jurai Ishii",
+     "result": {
+      "outcome": "win",
+      "winner": "b",
+      "method": "Decision",
+      "detail": "Unanimous",
+      "round": 3,
+      "time": "3:00",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerName": "Jurai Ishii",
+      "winnerId": "tap-287715-jurai-wor-wanchai"
+     }
+    },
+    {
+     "segment": "Main card",
+     "weightClass": "Bantamweight",
+     "rounds": 3,
+     "discipline": "Kickboxing",
+     "a": "tap-239117-yuki-hamada",
+     "aName": "Yuki Hamada",
+     "b": "tap-447225-hideto-inui",
+     "bName": "Shuto Inui",
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "Decision",
+      "detail": "Unanimous",
+      "round": 3,
+      "time": "3:00",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerName": "Yuki Hamada",
+      "winnerId": "tap-239117-yuki-hamada"
+     }
+    },
+    {
+     "segment": "Main card",
+     "weightClass": "Featherweight",
+     "rounds": 3,
+     "discipline": "MMA",
+     "a": "tap-152816-naosuke-kinoshita",
+     "aName": "Shosuke Kinoshita",
+     "b": "tap-443858-takuya-shibamura-shivaev",
+     "bName": "Takuya Shibamura",
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "Decision",
+      "detail": "Unanimous",
+      "round": 3,
+      "time": "5:00",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerName": "Shosuke Kinoshita",
+      "winnerId": "tap-152816-naosuke-kinoshita"
+     }
+    }
+   ],
+   "resultsChecked": "2026-11-19",
+   "resultCount": 10
+  },
   {
    "name": "UFC 334: Gane vs. Hokit",
    "promotion": "UFC",
@@ -402,7 +658,7 @@
      }
     }
    ],
-   "resultsChecked": "2026-11-17",
+   "resultsChecked": "2026-11-19",
    "resultCount": 13
   },
   {
@@ -804,7 +1060,7 @@
      }
     }
    ],
-   "resultsChecked": "2026-11-17",
+   "resultsChecked": "2026-11-19",
    "resultCount": 13
   },
   {
@@ -1089,7 +1345,7 @@
      }
     }
    ],
-   "resultsChecked": "2026-11-17",
+   "resultsChecked": "2026-11-19",
    "resultCount": 9
   },
   {
@@ -1426,7 +1682,7 @@
      }
     }
    ],
-   "resultsChecked": "2026-11-17",
+   "resultsChecked": "2026-11-19",
    "resultCount": 12
   },
   {
@@ -1805,7 +2061,7 @@
      }
     }
    ],
-   "resultsChecked": "2026-11-17",
+   "resultsChecked": "2026-11-19",
    "cardDroppedFromTapology": [
     "Yodlekpet Or Atchariya vs Kyaw Swar Win",
     "Superchamp Wutdychonburipraleasing vs Saiyok"
@@ -2256,7 +2512,7 @@
      }
     }
    ],
-   "resultsChecked": "2026-11-17",
+   "resultsChecked": "2026-11-19",
    "resultCount": 16
   },
   {
@@ -2681,7 +2937,7 @@
      }
     }
    ],
-   "resultsChecked": "2026-11-17",
+   "resultsChecked": "2026-11-19",
    "resultCount": 14
   },
   {
@@ -2970,7 +3226,7 @@
      }
     }
    ],
-   "resultsChecked": "2026-11-17",
+   "resultsChecked": "2026-11-19",
    "resultCount": 9
   },
   {
@@ -3312,7 +3568,7 @@
      }
     }
    ],
-   "resultsChecked": "2026-11-17",
+   "resultsChecked": "2026-11-19",
    "cardDroppedFromTapology": [
     "Doalty Torrance vs Kyle Cassidy",
     "Barry Aikman vs Cory Hardy"
@@ -3673,7 +3929,7 @@
      }
     }
    ],
-   "resultsChecked": "2026-11-17",
+   "resultsChecked": "2026-11-19",
    "resultCount": 12
   },
   {
@@ -3964,7 +4220,7 @@
      }
     }
    ],
-   "resultsChecked": "2026-11-17",
+   "resultsChecked": "2026-11-19",
    "resultCount": 9
   },
   {
@@ -4381,7 +4637,7 @@
      }
     }
    ],
-   "resultsChecked": "2026-11-17",
+   "resultsChecked": "2026-11-19",
    "resultCount": 14
   },
   {
@@ -4752,7 +5008,7 @@
      }
     }
    ],
-   "resultsChecked": "2026-11-17",
+   "resultsChecked": "2026-11-19",
    "resultCount": 12
   },
   {
@@ -5088,7 +5344,7 @@
      }
     }
    ],
-   "resultsChecked": "2026-11-17",
+   "resultsChecked": "2026-11-19",
    "resultCount": 11
   },
   {
@@ -5322,7 +5578,7 @@
      }
     }
    ],
-   "resultsChecked": "2026-11-17",
+   "resultsChecked": "2026-11-19",
    "resultCount": 9
   },
   {
@@ -5633,7 +5889,7 @@
      }
     }
    ],
-   "resultsChecked": "2026-11-17",
+   "resultsChecked": "2026-11-19",
    "cardDroppedFromTapology": [
     "Rambong Sor Terapat vs Jacob Thompson",
     "Petkhaokradong Lukjaomaesaithong vs Abdelali Zahidi"
@@ -6039,7 +6295,7 @@
      }
     }
    ],
-   "resultsChecked": "2026-11-17",
+   "resultsChecked": "2026-11-19",
    "resultCount": 14
   },
   {
@@ -6287,7 +6543,7 @@
      }
     }
    ],
-   "resultsChecked": "2026-11-17",
+   "resultsChecked": "2026-11-19",
    "cardDroppedFromTapology": [
     "Paul Capaldo vs Sebastian Ruiz",
     "Eli Evangelista vs Angelo Robles",
@@ -6494,7 +6750,7 @@
      }
     }
    ],
-   "resultsChecked": "2026-11-17",
+   "resultsChecked": "2026-11-19",
    "cardDroppedFromTapology": [
     "Jared Warren vs Tom Angeloff",
     "Tony Murphy vs Brandon Conley"
@@ -6783,7 +7039,7 @@
      }
     }
    ],
-   "resultsChecked": "2026-11-17",
+   "resultsChecked": "2026-11-19",
    "resultCount": 10
   },
   {
@@ -7130,7 +7386,7 @@
      }
     }
    ],
-   "resultsChecked": "2026-11-17",
+   "resultsChecked": "2026-11-19",
    "resultCount": 13
   },
   {
@@ -7359,7 +7615,7 @@
      }
     }
    ],
-   "resultsChecked": "2026-11-17",
+   "resultsChecked": "2026-11-19",
    "resultCount": 10
   },
   {
@@ -7688,7 +7944,7 @@
      }
     }
    ],
-   "resultsChecked": "2026-11-17",
+   "resultsChecked": "2026-11-19",
    "resultCount": 11
   },
   {
@@ -7911,7 +8167,7 @@
      }
     }
    ],
-   "resultsChecked": "2026-11-17",
+   "resultsChecked": "2026-11-19",
    "resultCount": 10
   }
  ]

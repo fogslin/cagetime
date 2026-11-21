@@ -448,9 +448,9 @@
       "b": "tap-109525-eduardo-matias-torres",
       "bName": "Eduardo Torres",
       "odds": {
-       "a": -333,
-       "b": 225,
-       "books": 1
+       "a": -324,
+       "b": 222,
+       "books": 2
       }
      },
      {
@@ -463,9 +463,9 @@
       "b": "tap-454185-agapito-orozco",
       "bName": "Agapito Orozco",
       "odds": {
-       "a": -500,
-       "b": 333,
-       "books": 1
+       "a": -515,
+       "b": 336,
+       "books": 2
       }
      },
      {
@@ -478,9 +478,9 @@
       "b": "tap-132590-abasi-young",
       "bName": "Abasi Young",
       "odds": {
-       "a": -1408,
-       "b": 600,
-       "books": 1
+       "a": -1527,
+       "b": 688,
+       "books": 2
       }
      },
      {
@@ -493,9 +493,9 @@
       "b": "tap-329282-canon-swanson",
       "bName": "Canon Swanson",
       "odds": {
-       "a": -105,
-       "b": -125,
-       "books": 1
+       "a": -113,
+       "b": -118,
+       "books": 2
       }
      },
      {
@@ -508,9 +508,9 @@
       "b": "tap-247102-abbas-abasov",
       "bName": "Abbas Abasov",
       "odds": {
-       "a": 350,
-       "b": -549,
-       "books": 1
+       "a": 355,
+       "b": -554,
+       "books": 2
       }
      },
      {
@@ -523,9 +523,9 @@
       "b": "tap-329125-ricardo-hussein",
       "bName": "Ricardo Hussein",
       "odds": {
-       "a": -150,
-       "b": 110,
-       "books": 1
+       "a": -162,
+       "b": 119,
+       "books": 2
       }
      },
      {
@@ -538,9 +538,9 @@
       "b": "tap-310325-ray-haye",
       "bName": "Ray Hayes",
       "odds": {
-       "a": 163,
-       "b": -225,
-       "books": 1
+       "a": 176,
+       "b": -248,
+       "books": 2
       }
      },
      {
@@ -553,8 +553,8 @@
       "b": "tap-148393-sergio-momone-jr",
       "bName": "Sergio Mamone Jr",
       "odds": {
-       "a": -350,
-       "b": 240,
+       "a": -250,
+       "b": 175,
        "books": 1
       }
      },
@@ -583,8 +583,8 @@
       "b": "tap-193193-adam-amado",
       "bName": "Adam Amado",
       "odds": {
-       "a": 105,
-       "b": -138,
+       "a": 163,
+       "b": -225,
        "books": 1
       }
      },
@@ -631,7 +631,7 @@
    "odds": {
     "source": "BestFightOdds",
     "url": "https://www.bestfightodds.com/events/lfa-247-4468",
-    "asOf": "2026-11-19 14:10 UTC",
+    "asOf": "2026-11-21 14:20 UTC",
     "method": "consensus = median implied probability across the sportsbooks BestFightOdds listed for each fighter"
    }
   },
@@ -680,9 +680,9 @@
       "b": "tap-4084-ivan-buchinger-buki",
       "bName": "Ivan Buchinger",
       "odds": {
-       "a": -549,
-       "b": 350,
-       "books": 1
+       "a": -524,
+       "b": 334,
+       "books": 2
       }
      },
      {
@@ -695,9 +695,9 @@
       "b": "tap-130846-ayton-de-paepe",
       "bName": "Ayton De Paepe",
       "odds": {
-       "a": -138,
-       "b": 105,
-       "books": 1
+       "a": -178,
+       "b": 131,
+       "books": 2
       }
      },
      {
@@ -710,9 +710,9 @@
       "b": "tap-201648-ivana-siric",
       "bName": "Ivana Petrović",
       "odds": {
-       "a": -549,
-       "b": 350,
-       "books": 1
+       "a": -423,
+       "b": 277,
+       "books": 2
       }
      },
      {
@@ -725,9 +725,9 @@
       "b": "tap-16853-jason-ponet",
       "bName": "Jason Ponet",
       "odds": {
-       "a": -225,
-       "b": 163,
-       "books": 1
+       "a": -296,
+       "b": 201,
+       "books": 2
       }
      },
      {
@@ -740,9 +740,9 @@
       "b": "tap-212961-deniz-ilbay",
       "bName": "Deniz Ilbay",
       "odds": {
-       "a": -175,
-       "b": 130,
-       "books": 1
+       "a": -163,
+       "b": 117,
+       "books": 2
       }
      },
      {
@@ -755,9 +755,9 @@
       "b": "tap-154667-mateusz-janur",
       "bName": "Mateusz Janur",
       "odds": {
-       "a": 200,
-       "b": -275,
-       "books": 1
+       "a": 229,
+       "b": -332,
+       "books": 2
       }
      },
      {
@@ -770,9 +770,9 @@
       "b": "tap-253524-jindrich-byrtus",
       "bName": "Jindřich Byrtus",
       "odds": {
-       "a": 150,
-       "b": -200,
-       "books": 1
+       "a": 147,
+       "b": -205,
+       "books": 2
       }
      },
      {
@@ -793,12 +793,7 @@
       "a": "tap-88531-dawid-mieowski",
       "aName": "Dawid Śmiełowski",
       "b": "tap-33031-arbi-mezdihov",
-      "bName": "Arbi Mezhidov",
-      "odds": {
-       "a": -188,
-       "b": 140,
-       "books": 1
-      }
+      "bName": "Arbi Mezhidov"
      },
      {
       "segment": "Prelims",
@@ -810,9 +805,9 @@
       "b": "tap-183537-adrian-hamerski",
       "bName": "Adrian Hamerski",
       "odds": {
-       "a": -150,
-       "b": 110,
-       "books": 1
+       "a": -172,
+       "b": 131,
+       "books": 2
       }
      },
      {
@@ -825,9 +820,9 @@
       "b": "tap-199487-sayed-murtaza-sadat",
       "bName": "Sayed Murtaza Sadat",
       "odds": {
-       "a": -1000,
-       "b": 500,
-       "books": 1
+       "a": -1055,
+       "b": 546,
+       "books": 2
       }
      },
      {
@@ -840,9 +835,9 @@
       "b": "tap-317869-marta-sos",
       "bName": "Marta Sós",
       "odds": {
-       "a": 110,
-       "b": -150,
-       "books": 1
+       "a": 107,
+       "b": -142,
+       "books": 2
       }
      }
     ],
@@ -857,7 +852,7 @@
    "odds": {
     "source": "BestFightOdds",
     "url": "https://www.bestfightodds.com/events/oktagon-4465",
-    "asOf": "2026-11-19 14:10 UTC",
+    "asOf": "2026-11-21 14:20 UTC",
     "method": "consensus = median implied probability across the sportsbooks BestFightOdds listed for each fighter"
    }
   },
@@ -906,9 +901,9 @@
       "b": "tap-marcin-held",
       "bName": "Marcin Held",
       "odds": {
-       "a": -163,
-       "b": 120,
-       "books": 1
+       "a": -202,
+       "b": 147,
+       "books": 2
       }
      },
      {
@@ -921,9 +916,9 @@
       "b": "tap-32157-roman-szymanski",
       "bName": "Roman Szymański",
       "odds": {
-       "a": -120,
-       "b": -110,
-       "books": 1
+       "a": -106,
+       "b": -128,
+       "books": 2
       }
      },
      {
@@ -936,9 +931,9 @@
       "b": "tap-173859-mateusz-pawlik",
       "bName": "Mateusz Pawlik",
       "odds": {
-       "a": -275,
-       "b": 200,
-       "books": 1
+       "a": -289,
+       "b": 202,
+       "books": 2
       }
      },
      {
@@ -951,9 +946,9 @@
       "b": "tap-53276-rogrio-bontorin",
       "bName": "Rogério Bontorin",
       "odds": {
-       "a": -188,
-       "b": 140,
-       "books": 1
+       "a": -148,
+       "b": 109,
+       "books": 2
       }
      },
      {
@@ -966,9 +961,9 @@
       "b": "tap-222905-sasha-moisa",
       "bName": "Oleksandr Moisa",
       "odds": {
-       "a": 175,
-       "b": -250,
-       "books": 1
+       "a": 166,
+       "b": -232,
+       "books": 2
       }
      },
      {
@@ -981,9 +976,9 @@
       "b": "tap-234969-arbi-dzhambulatov",
       "bName": "Arbi Dzhambulatov",
       "odds": {
-       "a": -275,
-       "b": 200,
-       "books": 1
+       "a": -415,
+       "b": 276,
+       "books": 2
       }
      },
      {
@@ -1011,9 +1006,9 @@
       "b": "tap-153263-nazar-dolishnyak",
       "bName": "Bohdan Danylko",
       "odds": {
-       "a": -105,
-       "b": -125,
-       "books": 1
+       "a": -101,
+       "b": -133,
+       "books": 2
       }
      },
      {
@@ -1026,9 +1021,9 @@
       "b": "tap-96991-szymon-herrmann",
       "bName": "Szymon Herrmann",
       "odds": {
-       "a": -225,
+       "a": -230,
        "b": 163,
-       "books": 1
+       "books": 2
       }
      }
     ]
@@ -1042,7 +1037,7 @@
    "odds": {
     "source": "BestFightOdds",
     "url": "https://www.bestfightodds.com/events/ksw-123-4423",
-    "asOf": "2026-11-19 14:10 UTC",
+    "asOf": "2026-11-21 14:20 UTC",
     "method": "consensus = median implied probability across the sportsbooks BestFightOdds listed for each fighter"
    }
   },
@@ -1088,8 +1083,8 @@
       "b": "tap-259609-navajo-sterling",
       "bName": "Navajo Stirling",
       "odds": {
-       "a": 135,
-       "b": -162,
+       "a": 150,
+       "b": -178,
        "books": 7
       }
      },
@@ -1103,8 +1098,8 @@
       "b": "tap-227542-kevin-vallejos",
       "bName": "Kevin Vallejos",
       "odds": {
-       "a": 110,
-       "b": -132,
+       "a": 107,
+       "b": -126,
        "books": 7
       }
      },
@@ -1118,8 +1113,8 @@
       "b": "tap-40994-brian-ortega",
       "bName": "Brian Ortega",
       "odds": {
-       "a": -190,
-       "b": 155,
+       "a": -200,
+       "b": 170,
        "books": 7
       }
      },
@@ -1149,7 +1144,7 @@
       "bName": "Jared Cannonier",
       "odds": {
        "a": -300,
-       "b": 235,
+       "b": 240,
        "books": 7
       }
      },
@@ -1163,8 +1158,8 @@
       "b": "tap-100890-alex-topuria",
       "bName": "Aleksandre Topuria",
       "odds": {
-       "a": 225,
-       "b": -291,
+       "a": 235,
+       "b": -300,
        "books": 7
       }
      },
@@ -1178,7 +1173,7 @@
       "b": "tap-313650-xicao-teixeira",
       "bName": "Tallison Teixeira",
       "odds": {
-       "a": -200,
+       "a": -191,
        "b": 163,
        "books": 7
       }
@@ -1193,7 +1188,7 @@
       "b": "tap-125815-alessandro-costa",
       "bName": "Alessandro Costa",
       "odds": {
-       "a": -115,
+       "a": -110,
        "b": -107,
        "books": 7
       }
@@ -1208,8 +1203,8 @@
       "b": "tap-163438-tahir-abdullaev-tank",
       "bName": "Tahir Abdullayev",
       "odds": {
-       "a": -260,
-       "b": 210,
+       "a": -250,
+       "b": 207,
        "books": 7
       }
      },
@@ -1223,8 +1218,8 @@
       "b": "tap-196890-dom-mar-fan",
       "bName": "Dom Mar Fan",
       "odds": {
-       "a": 134,
-       "b": -157,
+       "a": 143,
+       "b": -175,
        "books": 7
       }
      },
@@ -1238,8 +1233,8 @@
       "b": "tap-237265-alik-lorenz",
       "bName": "Alik Lorenz",
       "odds": {
-       "a": -260,
-       "b": 205,
+       "a": -265,
+       "b": 210,
        "books": 7
       }
      }
@@ -1258,7 +1253,7 @@
    "odds": {
     "source": "BestFightOdds",
     "url": "https://www.bestfightodds.com/events/ufc-doha-4440",
-    "asOf": "2026-11-19 14:10 UTC",
+    "asOf": "2026-11-21 14:20 UTC",
     "method": "consensus = median implied probability across the sportsbooks BestFightOdds listed for each fighter"
    }
   },
@@ -1963,7 +1958,7 @@
       "b": "tap-218307-sharaputdin-magomedov-golden-boy",
       "bName": "Shara Magomedov",
       "odds": {
-       "a": -157,
+       "a": -158,
        "b": 128,
        "books": 5
       }
@@ -1979,7 +1974,7 @@
       "bName": "Yaroslav Amosov",
       "odds": {
        "a": -192,
-       "b": 148,
+       "b": 155,
        "books": 5
       }
      },
@@ -2100,7 +2095,7 @@
    "odds": {
     "source": "BestFightOdds",
     "url": "https://www.bestfightodds.com/events/ufc-saudi-arabia-4453",
-    "asOf": "2026-11-19 14:10 UTC",
+    "asOf": "2026-11-21 14:20 UTC",
     "method": "consensus = median implied probability across the sportsbooks BestFightOdds listed for each fighter"
    }
   },
@@ -2960,7 +2955,7 @@
    "odds": {
     "source": "BestFightOdds",
     "url": "https://www.bestfightodds.com/events/ufc-335-4394",
-    "asOf": "2026-11-19 14:10 UTC",
+    "asOf": "2026-11-21 14:20 UTC",
     "method": "consensus = median implied probability across the sportsbooks BestFightOdds listed for each fighter"
    },
    "times": [

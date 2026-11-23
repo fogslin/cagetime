@@ -110,13 +110,17 @@ function boutHTML(b,i){
   const rounds=b.rounds||3;
   return `<article class="pk-bout${locked?' locked':''}" data-key="${esc(key(b))}">
     <div class="bout-head"><span class="wc">${esc(b.weightClass||'—')}${b.rounds?' · '+esc(b.rounds)+' rds':''}</span>${b.title?`<span class="belt">🏆 ${esc(b.title)}</span>`:''}</div>
-    <div class="pk-sides" role="group" aria-label="Pick the winner: ${esc(b.aName)} or ${esc(b.bName)}">${side('a')}${side('b')}</div>
+    <div class="pk-sides" role="group" aria-label="Pick the winner: ${esc(b.aName)} or ${esc(b.bName)}">${side('a')}${side('b')}</div>${flinks(b)}
     <details class="pk-more"${p.method||p.round?' open':''}><summary>Method &amp; round <small>(optional, bonus points)</small></summary><div class="pk-opts"><label>Method<select data-i="${i}" data-f="method"${locked?' disabled':''}><option value="">Any</option>${METHODS.map(m=>`<option${p.method===m?' selected':''}>${m}</option>`).join('')}</select></label>
       <label>Round<select data-i="${i}" data-f="round"${locked||p.method==='Decision'?' disabled':''}><option value="">Any</option>${Array.from({length:rounds},(_,k)=>`<option${+p.round===k+1?' selected':''}>${k+1}</option>`).join('')}</select></label></div></details>
     ${locked?`<p class="pk-lock is-locked">🔒 Locked at ${esc(fT.format(new Date(lk)))}${!p.w?' · no pick made':''}</p>`:''}
     ${sc?`<p class="pk-score ${sc.state==='win'?'ok':sc.state==='loss'?'bad':'na'}">${sc.state==='pending'?'Result pending':sc.state==='void'?esc(sc.why)+' · pick void':sc.state==='win'?`✓ Correct · ${sc.pts} pt${sc.pts>1?'s':''}${sc.mOk?' (method'+(sc.rOk?' + round':'')+')':''}`:'✗ Wrong pick · 0 pts'}</p>`:''}
   </article>`;
 }
+/* links to the fighters' own pages (/fighters/<slug>/; data/fighter-slugs.json from build_fighter_pages.py, loaded after the card) */
+let SL={};
+function flinks(b){const l=[['a','aName'],['b','bName']].filter(([k])=>b[k]&&SL[b[k]]).map(([k,n])=>`<a href="${esc(ROOT)}fighters/${encodeURIComponent(SL[b[k]])}/">${esc(b[n])}</a>`);
+  return l.length?`<p class="pk-fl">Fighter page${l.length>1?'s':''}: ${l.join(' · ')}</p>`:''}
 function optLabel(e,picked){
   const n=((e.card||{}).bouts||[]).length;
   return `${fS.format(new Date(firstStart(e)))} · ${e.name}${n?'':' (card TBA)'}${isLocked(e)?' · locked':''}${picked?' · ✓ '+picked+'/'+n:''}`;
@@ -324,6 +328,7 @@ async function boot(){
     await choose(cur?evOf(cur.id)||await pickDefault():asked||await pickDefault());
     await renderSelect();await renderStats();
     if(location.hash==='#history')showTab('history');
+    if(!Object.keys(SL).length)getJSON(ROOT+'data/fighter-slugs.json').then(m=>{SL=m||{};if(cur)renderCard()}).catch(()=>{});
   }catch(err){console.error(err);$('#pk-card').innerHTML='<p class="muted">Could not load the card. Please refresh.</p>'}
 }
 let lockedN=-1;

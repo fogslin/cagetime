@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19",
+ "updated": "2026-11-23",
  "countries": {
   "US": "United States",
   "UK": "United Kingdom",
@@ -757,7 +757,7 @@
       "b": "tap-219695-magomed-tuchalov",
       "bName": "Magomed Tuchalov",
       "odds": {
-       "a": 136,
+       "a": 125,
        "b": -214,
        "books": 2
       }
@@ -899,7 +899,7 @@
    "odds": {
     "source": "BestFightOdds",
     "url": "https://www.bestfightodds.com/events/ufc-saudi-arabia-4453",
-    "asOf": "2026-11-23 14:10 UTC",
+    "asOf": "2026-11-23 15:21 UTC",
     "method": "consensus = median implied probability across the sportsbooks BestFightOdds listed for each fighter"
    }
   },
@@ -1759,7 +1759,7 @@
    "odds": {
     "source": "BestFightOdds",
     "url": "https://www.bestfightodds.com/events/ufc-335-4394",
-    "asOf": "2026-11-23 14:10 UTC",
+    "asOf": "2026-11-23 15:21 UTC",
     "method": "consensus = median implied probability across the sportsbooks BestFightOdds listed for each fighter"
    },
    "times": [
@@ -2617,7 +2617,7 @@
    "name": "UFC Fight Night: Bonfim vs. Brady",
    "promotion": "UFC",
    "date": "2027-01-23",
-   "startUTC": "2027-01-23T22:00:00Z",
+   "startUTC": "2027-01-24T01:00:00Z",
    "venue": "UFC Apex, Las Vegas, Nevada, United States",
    "broadcasters": {
     "US": "Paramount+",
@@ -2638,7 +2638,7 @@
     "https://www.ufc.com/news/how-to-watch-ufc-in-australia-2026",
     "https://en.wikipedia.org/wiki/List_of_UFC_events"
    ],
-   "notes": "Times from the UFC.com event page: main card 5:00 PM ET, prelims 3:00 PM ET. UFC.com has posted only the main event (Bonfim vs. Brady) so far; the other bouts are from Tapology. Broadcasters follow UFC's 2026 territory pattern (UFC.com how-to-watch); verify per event.",
+   "notes": "Times from the UFC.com event page: main card 8:00 PM ET, prelims 5:00 PM ET (corrected 2026-11-23; earlier entry had 5:00 PM / 3:00 PM ET). UFC.com has posted only the main event (Bonfim vs. Brady) so far; the other bouts are from Tapology. Broadcasters follow UFC's 2026 territory pattern (UFC.com how-to-watch); verify per event.",
    "card": {
     "status": "announced",
     "updated": "2026-11-16",
@@ -2684,11 +2684,11 @@
    "times": [
     {
      "label": "Main card",
-     "startUTC": "2027-01-23T22:00:00Z"
+     "startUTC": "2027-01-24T01:00:00Z"
     },
     {
      "label": "Prelims",
-     "startUTC": "2027-01-23T20:00:00Z"
+     "startUTC": "2027-01-23T22:00:00Z"
     }
    ]
   },
@@ -2782,6 +2782,74 @@
     "note": "Records shown are professional MMA records (Tapology); bare-knuckle records are not included. Partially announced card (7 bouts confirmed on Tapology); remaining bouts TBA."
    },
    "id": "bkfsea-bruise-cruise-stewart-vs-duran-2"
+  },
+  {
+   "name": "UFC 336: Van vs. Kape",
+   "promotion": "UFC",
+   "date": "2027-01-30",
+   "startUTC": "2027-01-31T02:00:00Z",
+   "venue": "Scotiabank Arena, Toronto, Canada",
+   "broadcasters": {
+    "US": "Paramount+",
+    "UK": "TNT Sports Box Office (main card) / HBO Max",
+    "IE": "TNT Sports Box Office (main card)",
+    "CA": "PPV (main card); Sportsnet+ / TVA Sports (prelims)",
+    "AU": "Main Event PPV on Foxtel/Kayo (main card); Paramount+ / Network 10 (prelims)",
+    "IN": "Sony TEN 2",
+    "DE": "DAZN / UFC PPV on UFC Fight Pass",
+    "BR": "Paramount+"
+   },
+   "sources": [
+    "https://www.ufc.com/event/ufc-336",
+    "https://www.ufc.com/events",
+    "https://www.ufc.com/news/how-watch-and-stream-ufc"
+   ],
+   "notes": "Added 2026-11-23 from the UFC.com event page: main card Sat Jan 30, 9:00 PM ET; prelims 7:00 PM ET; early prelims 5:00 PM ET. UFC.com lists 5 bouts so far; only the two where both fighters already have CageTime profiles are on the card here (Tapology was blocked, so no new profiles could be built): Lance Gibson Jr. vs. Michael Johnson, Serhiy Sidey vs. Louis Lee Scott, Cam Nelson vs. Sean Clancy Jr. will be added once profiles exist. Broadcasters are the UFC PPV territory pattern used for UFC 335; verify per event.",
+   "id": "ufc-336-van-vs-kape",
+   "card": {
+    "status": "announced",
+    "updated": "2026-11-23",
+    "sources": [
+     "https://www.ufc.com/event/ufc-336"
+    ],
+    "bouts": [
+     {
+      "segment": "Main card",
+      "weightClass": "Flyweight",
+      "title": "UFC Flyweight Championship",
+      "rounds": 5,
+      "discipline": "MMA",
+      "a": "tap-254261-joshua-thawng",
+      "aName": "Joshua Van",
+      "b": "tap-70075-manel-kape-prodigio",
+      "bName": "Manel Kape"
+     },
+     {
+      "segment": "Main card",
+      "weightClass": "Welterweight",
+      "discipline": "MMA",
+      "a": "tap-36554-carlos-prates-carlao",
+      "aName": "Carlos Prates",
+      "b": "tap-164286-michael-morales",
+      "bName": "Michael Morales"
+     }
+    ],
+    "note": "Partially announced card (5 bouts on UFC.com; 2 shown here); remaining bouts TBA."
+   },
+   "times": [
+    {
+     "label": "Main card",
+     "startUTC": "2027-01-31T02:00:00Z"
+    },
+    {
+     "label": "Prelims",
+     "startUTC": "2027-01-31T00:00:00Z"
+    },
+    {
+     "label": "Early prelims",
+     "startUTC": "2027-01-30T22:00:00Z"
+    }
+   ]
   }
  ]
 }

@@ -15,6 +15,8 @@ function age(dob){if(!dob)return null;const d=new Date(dob+'T00:00:00Z');if(isNa
 function initials(n){const w=String(n||'?').split(/\s+/).filter(Boolean);return ((w[0]||'?')[0]+(w.length>1?w[w.length-1][0]:'')).toUpperCase()}
 let F={},IDX=[];const PC={};
 const getJSON=u=>fetch(u,{cache:'no-cache'}).then(r=>{if(!r.ok)throw new Error(u+' '+r.status);return r.json()});
+/* fighter page /fighters/<slug>/ (build_fighter_pages.py); falls back to the home-page profile dialog */
+const furl=id=>F[id]&&F[id].slug?ROOT+'fighters/'+encodeURIComponent(F[id].slug)+'/':ROOT+'#fighter='+encodeURIComponent(id);
 const prof=id=>PC[id]||(PC[id]=getJSON(ROOT+'data/fighters/'+encodeURIComponent(id)+'.json').catch(e=>{delete PC[id];throw e}));
 const sel={a:null,b:null};
 
@@ -55,7 +57,7 @@ function common(pa,pb,ida,idb){
 }
 const resTxt=x=>`<b class="${esc(x.result)}">${esc(x.result||'—')}</b><small>${D(x.method)}${x.round!=null?' · R'+esc(x.round):''} · ${fd(x.date)}</small>`;
 function ava(f,size){return f.photo?`<img class="ava" src="${esc(ROOT+f.photo)}" alt="${esc(f.name)}" width="${size}" height="${size}" title="Photo: ${esc(f.photo_credit||'Wikimedia Commons')}, ${esc(f.photo_license||'')}">`:`<span class="ava ava-ph" style="width:${size}px;height:${size}px" aria-hidden="true">${esc(initials(f.name))}</span>`}
-function head(id,p){const f=F[id]||{};return `<div class="cmp-head">${ava(f,88)}<h2>${flag(f.cc)?`<span aria-hidden="true">${flag(f.cc)}</span> `:''}${esc(f.name)}</h2>${p.nickname||f.nickname?`<p class="fp-nick">“${esc(p.nickname||f.nickname)}”</p>`:''}<a class="cmp-link" href="${esc(ROOT)}#fighter=${encodeURIComponent(id)}">Full profile →</a></div>`}
+function head(id,p){const f=F[id]||{};return `<div class="cmp-head">${ava(f,88)}<h2>${flag(f.cc)?`<span aria-hidden="true">${flag(f.cc)}</span> `:''}${esc(f.name)}</h2>${p.nickname||f.nickname?`<p class="fp-nick">“${esc(p.nickname||f.nickname)}”</p>`:''}<a class="cmp-link" href="${esc(furl(id))}">Full profile →</a></div>`}
 async function render(){
   const out=$('#cmp-out');
   if(!sel.a||!sel.b){out.innerHTML=`<p class="muted">${sel.a||sel.b?'Pick a second fighter to compare.':'Pick two fighters above. Tip: every bout on the <a href="'+esc(ROOT)+'">events page</a> has a Compare button.'}</p>`;return}
@@ -82,7 +84,7 @@ async function render(){
   <table class="cmp-table"><caption class="sr">${esc(fa.name)} compared with ${esc(fb.name)}</caption><thead class="sr"><tr><td>${esc(fa.name)}</td><th>Stat</th><td>${esc(fb.name)}</td></tr></thead><tbody>
   ${rows.map(r=>r[0]==='sec'?`<tr class="sec"><th colspan="3" scope="colgroup">${esc(r[1])}</th></tr>`:`<tr><td>${r[1]}</td><th scope="row">${esc(r[0])}</th><td>${r[2]}</td></tr>`).join('')}</tbody></table>
   <section class="cmp-sec"><h3>Past meetings</h3>${met.length?`<ul class="cmp-common">${met.map(x=>`<li><div class="r">${resTxt(x)}</div><div class="opp">${D(x.event)}</div><div class="r"><small>${esc(fa.name)}'s result</small></div></li>`).join('')}</ul>`:'<p class="muted">They have not fought each other (pro MMA, per Tapology).</p>'}</section>
-  <section class="cmp-sec"><h3>Common opponents <small class="muted">${com.length}</small></h3>${com.length?`<ul class="cmp-common">${com.map(c=>`<li><div class="r">${c.a.map(resTxt).join('')}</div><div class="opp">${c.id&&F[c.id]&&F[c.id].profile?`<a href="${esc(ROOT)}#fighter=${encodeURIComponent(c.id)}">${esc(c.name)}</a>`:esc(c.name)}</div><div class="r">${c.b.map(resTxt).join('')}</div></li>`).join('')}</ul><p class="muted small">Left: ${esc(fa.name)} · right: ${esc(fb.name)}.</p>`:'<p class="muted">No common opponents in their pro MMA records.</p>'}</section>
+  <section class="cmp-sec"><h3>Common opponents <small class="muted">${com.length}</small></h3>${com.length?`<ul class="cmp-common">${com.map(c=>`<li><div class="r">${c.a.map(resTxt).join('')}</div><div class="opp">${c.id&&F[c.id]&&F[c.id].profile?`<a href="${esc(furl(c.id))}">${esc(c.name)}</a>`:esc(c.name)}</div><div class="r">${c.b.map(resTxt).join('')}</div></li>`).join('')}</ul><p class="muted small">Left: ${esc(fa.name)} · right: ${esc(fb.name)}.</p>`:'<p class="muted">No common opponents in their pro MMA records.</p>'}</section>
   <p class="fc-foot">Records, physicals and fight histories: Tapology (profiles updated ${fd(pa.updated)} / ${fd(pb.updated)}). UFC stats: ESPN; SApM, Str. Def and TD Def calculated by CageTime from ESPN per-fight stats. Finish rates count pro MMA wins/losses only. "—" = not available.</p>`;
   $('#cmp-copy').onclick=()=>{const u=location.href,m=$('#cmp-msg');if(navigator.clipboard&&window.isSecureContext)navigator.clipboard.writeText(u).then(()=>m.textContent='Link copied',()=>prompt('Copy this link',u));else prompt('Copy this link',u)};
   document.title=`${fa.name} vs ${fb.name}: head-to-head comparison | CageTime`;

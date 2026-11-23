@@ -13,6 +13,8 @@ const $=s=>document.querySelector(s);
 const esc=s=>String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const dash=v=>(v==null||v==='')?'—':esc(v);
 const safeUrl=u=>/^https?:\/\//i.test(u||'')?u:'#';
+/* real fighter page (/fighters/<slug>/, built by build_fighter_pages.py) so crawlers and new tabs get a URL; a plain click still opens the profile dialog (data-fid) */
+const fighterURL=id=>{const f=F[id];return f&&f.slug?ROOT+'fighters/'+encodeURIComponent(f.slug)+'/':'#fighter='+encodeURIComponent(id)};
 
 const fDay=new Intl.DateTimeFormat(undefined,{weekday:'long',month:'long',day:'numeric'});
 const fDayShort=new Intl.DateTimeFormat(undefined,{weekday:'short',month:'short',day:'numeric'});
@@ -97,7 +99,7 @@ function fighterHTML(id,fallbackName,side,odds,favSide){
   const f=F[id]||{},name=f.name||fallbackName||'TBA';
   const fl=flag(f.cc);
   const flagHTML=fl?`<span class="flag" role="img" aria-label="${esc(f.nationality||'')}">${fl}</span>`:'';
-  const nm=f.profile&&id?`<a class="flink" href="#fighter=${encodeURIComponent(id)}" data-fid="${esc(id)}" aria-label="Open profile: ${esc(name)}">${esc(name)}</a>`:esc(name);
+  const nm=f.profile&&id?`<a class="flink" href="${esc(fighterURL(id))}" data-fid="${esc(id)}" aria-label="Open profile: ${esc(name)}">${esc(name)}</a>`:esc(name);
   const nameHTML=side==='b'?`${nm}${flagHTML}`:`${flagHTML}${nm}`;
   return `<div class="fighter ${side}">
     <div class="fhead">${avatarHTML(f,name,40)}<div class="fname">${nameHTML}</div></div>
@@ -217,7 +219,7 @@ function closeProfile(){
 }
 function oppHTML(x){
   const o=x.opponent_id&&F[x.opponent_id]&&F[x.opponent_id].profile;
-  return o?`<a href="#fighter=${encodeURIComponent(x.opponent_id)}">${dash(x.opponent)}</a>`:dash(x.opponent);
+  return o?`<a href="${esc(fighterURL(x.opponent_id))}" data-fid="${esc(x.opponent_id)}">${dash(x.opponent)}</a>`:dash(x.opponent);
 }
 function la(v){return v&&v[0]!=null?`${esc(v[0])}<small>/${v[1]==null?'—':esc(v[1])}</small>`:'—'}
 function statsHTML(x){
@@ -273,9 +275,9 @@ function profileHTML(id,p){
       <div><p class="eyebrow">Fighter profile</p><h2 id="fp-title">${fl?`<span class="flag" aria-hidden="true">${fl}</span> `:''}${esc(name)}</h2>
       ${p.nickname||f.nickname?`<p class="fp-nick">“${esc(p.nickname||f.nickname)}”</p>`:''}
       <p class="fp-rec">${recLine}</p>
-      <p class="fp-acts"><a class="btn-sm" href="${esc(ROOT)}compare/?a=${encodeURIComponent(id)}${up&&up.opponent_id&&F[up.opponent_id]&&F[up.opponent_id].profile?'&amp;b='+encodeURIComponent(up.opponent_id):''}">Compare ⇄${up&&up.opponent_id&&F[up.opponent_id]&&F[up.opponent_id].profile?' vs '+esc(up.opponent):''}</a></p></div></header>
+      <p class="fp-acts"><a class="btn-sm" href="${esc(ROOT)}compare/?a=${encodeURIComponent(id)}${up&&up.opponent_id&&F[up.opponent_id]&&F[up.opponent_id].profile?'&amp;b='+encodeURIComponent(up.opponent_id):''}">Compare ⇄${up&&up.opponent_id&&F[up.opponent_id]&&F[up.opponent_id].profile?' vs '+esc(up.opponent):''}</a>${f.slug?` <a class="btn-sm ghost fp-page" href="${esc(fighterURL(id))}">Full fighter page →</a>`:''}</p></div></header>
     ${ph?`<p class="fp-credit">Photo: ${esc(ph.photo_credit||'—')} · <a href="${esc(safeUrl(ph.photo_license_url||ph.photo_source))}" target="_blank" rel="noopener license">${esc(ph.photo_license||'')}</a> · <a href="${esc(safeUrl(ph.photo_source))}" target="_blank" rel="noopener">Wikimedia Commons</a> (cropped)</p>`:''}
-    ${up?`<p class="fp-next">Next: vs ${up.opponent_id&&F[up.opponent_id]&&F[up.opponent_id].profile?`<a href="#fighter=${encodeURIComponent(up.opponent_id)}">${dash(up.opponent)}</a>`:dash(up.opponent)} · ${fmtDateISO(up.date)} · ${dash(up.event)}${up.title_fight?` · 🏆 ${esc(up.title_fight)}`:''}</p>`:''}
+    ${up?`<p class="fp-next">Next: vs ${up.opponent_id&&F[up.opponent_id]&&F[up.opponent_id].profile?`<a href="${esc(fighterURL(up.opponent_id))}" data-fid="${esc(up.opponent_id)}">${dash(up.opponent)}</a>`:dash(up.opponent)} · ${fmtDateISO(up.date)} · ${dash(up.event)}${up.title_fight?` · 🏆 ${esc(up.title_fight)}`:''}</p>`:''}
     <dl class="fp-bio">${bio.map(([k,v])=>`<div><dt>${k}</dt><dd>${dash(v)}</dd></div>`).join('')}</dl>
     ${onlyOther?`<section class="fp-sec"><h3>Pro MMA record</h3><p class="muted">No professional MMA bouts on Tapology.</p></section>`:`<section class="fp-sec"><h3>Pro MMA record</h3>
       <div class="fp-tot"><div class="w"><b>${num(t.wins)}</b><small>Wins</small></div><div class="l"><b>${num(t.losses)}</b><small>Losses</small></div><div><b>${num(t.draws)}</b><small>Draws</small></div><div><b>${num(t.nc)}</b><small>No contests</small></div></div>
@@ -324,7 +326,7 @@ window.addEventListener('hashchange',routeHash);
 const getJSON=u=>fetch(u,{cache:'no-cache'}).then(r=>{if(!r.ok)throw new Error(u+' '+r.status);return r.json()});
 /* shared helpers for other pages (rankings.js) */
 const fightersReady=$('#list')?null:getJSON(ROOT+'fighters.json').then(f=>{F=f.fighters||{};FU=f.updated;const u=$('#fupd');if(u&&FU)u.textContent=FU;return F});
-window.CageTime={esc,dash,safeUrl,flag,avatarHTML,initials,openProfile,routeHash,fmtDateISO,PROMO,getJSON,fighters:()=>F,fightersReady,ROOT,rootURL,age};
+window.CageTime={esc,dash,safeUrl,flag,avatarHTML,initials,openProfile,routeHash,fmtDateISO,PROMO,getJSON,fighters:()=>F,fightersReady,ROOT,rootURL,age,fighterURL};
 if(fightersReady){fightersReady.then(()=>{if(location.hash.startsWith('#fighter='))routeHash()}).catch(err=>console.error(err));return}
 Promise.all([getJSON(ROOT+'events.json'),getJSON(ROOT+'fighters.json').catch(()=>null)]).then(([d,f])=>{
   D=d;if(f){F=f.fighters||{};FU=f.updated}

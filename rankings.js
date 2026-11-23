@@ -25,7 +25,7 @@ function nameHTML(e){
   const F=CT.fighters(),f=e.fighter_id&&F[e.fighter_id];
   const fl=CT.flag(e.cc||(f&&f.cc));
   const flagH=fl?`<span class="flag" aria-hidden="true">${fl}</span>`:'';
-  const nm=e.fighter_id&&f&&f.profile?`<a class="flink" href="#fighter=${encodeURIComponent(e.fighter_id)}" data-fid="${esc(e.fighter_id)}">${esc(e.name)}</a>`:esc(e.name);
+  const nm=e.fighter_id&&f&&f.profile?`<a class="flink" href="${esc(CT.fighterURL?CT.fighterURL(e.fighter_id):'#fighter='+encodeURIComponent(e.fighter_id))}" data-fid="${esc(e.fighter_id)}">${esc(e.name)}</a>`:esc(e.name);
   return flagH+nm;
 }
 function recHTML(e){

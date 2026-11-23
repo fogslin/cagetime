@@ -29,7 +29,8 @@
     "https://www.kswmma.com/en/news/xtb-ksw-122-where-to-watch",
     "https://www.ufcalendar.com/how-to-watch/ksw-ksw-123-2026-11-21",
     "https://www.kswmma.com/gala/xtb-ksw-123",
-    "https://www.tapology.com/fightcenter/events/147781-ksw-123"
+    "https://www.tapology.com/fightcenter/events/147781-ksw-123",
+    "https://en.wikipedia.org/wiki/2026_in_Konfrontacja_Sztuk_Walki"
    ],
    "notes": "Official site: 19:00 local (CET) start. Welterweight title main event; Mircea vs. Held lightweight title co-main. Broadcasters follow KSW's official pattern (KSW 122: CANAL+ in Poland, KSWTV.COM in all other countries); no KSW 123-specific watch notice yet, so verify closer to the event.",
    "odds": {
@@ -57,7 +58,18 @@
       "b": 147,
       "books": 2
      },
-     "result": null
+     "result": {
+      "outcome": "win",
+      "winner": "b",
+      "method": "Decision",
+      "detail": "Unanimous",
+      "round": 5,
+      "time": "5:00",
+      "of": 5,
+      "source": "wikipedia",
+      "winnerName": "Marcin Held",
+      "winnerId": "tap-marcin-held"
+     }
     },
     {
      "segment": "Main card",
@@ -73,7 +85,18 @@
       "b": -128,
       "books": 2
      },
-     "result": null
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "KO/TKO",
+      "detail": "Flying knee and punches",
+      "round": 1,
+      "time": "3:31",
+      "of": 3,
+      "source": "wikipedia",
+      "winnerName": "Marian Ziółkowski",
+      "winnerId": "tap-44823-marian-ziolkowski"
+     }
     },
     {
      "segment": "Main card",
@@ -89,7 +112,18 @@
       "b": 202,
       "books": 2
      },
-     "result": null
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "Decision",
+      "detail": "Unanimous",
+      "round": 3,
+      "time": "5:00",
+      "of": 3,
+      "source": "wikipedia",
+      "winnerName": "Madars Fleminas",
+      "winnerId": "tap-70007-madars-fleminas"
+     }
     },
     {
      "segment": "Main card",
@@ -105,7 +139,18 @@
       "b": 109,
       "books": 2
      },
-     "result": null
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "Submission",
+      "detail": "Kneebar",
+      "round": 1,
+      "time": "2:33",
+      "of": 3,
+      "source": "wikipedia",
+      "winnerName": "Kamil Szkaradek",
+      "winnerId": "tap-206916-kamil-szkaradek"
+     }
     },
     {
      "segment": "Main card",
@@ -121,7 +166,18 @@
       "b": -232,
       "books": 2
      },
-     "result": null
+     "result": {
+      "outcome": "win",
+      "winner": "b",
+      "method": "KO/TKO",
+      "detail": "Punches",
+      "round": 2,
+      "time": "2:55",
+      "of": 3,
+      "source": "wikipedia",
+      "winnerName": "Oleksandr Moisa",
+      "winnerId": "tap-222905-sasha-moisa"
+     }
     },
     {
      "segment": "Main card",
@@ -137,7 +193,18 @@
       "b": 276,
       "books": 2
      },
-     "result": null
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "Submission",
+      "detail": "Technical arm-triangle choke",
+      "round": 1,
+      "time": "3:07",
+      "of": 3,
+      "source": "wikipedia",
+      "winnerName": "Oskar Szczepaniak",
+      "winnerId": "tap-162050-oskar-szczepaniak"
+     }
     },
     {
      "segment": "Main card",
@@ -153,7 +220,18 @@
       "b": -150,
       "books": 1
      },
-     "result": null
+     "result": {
+      "outcome": "win",
+      "winner": "b",
+      "method": "Submission",
+      "detail": "Ankle lock",
+      "round": 1,
+      "time": "2:01",
+      "of": 3,
+      "source": "wikipedia",
+      "winnerName": "Dominik Dymiński",
+      "winnerId": "tap-241564-dominik-dyminski"
+     }
     },
     {
      "segment": "Prelims",
@@ -169,7 +247,18 @@
       "b": -133,
       "books": 2
      },
-     "result": null
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "Decision",
+      "detail": "Unanimous",
+      "round": 3,
+      "time": "5:00",
+      "of": 3,
+      "source": "wikipedia",
+      "winnerName": "Maciej Kazieczko",
+      "winnerId": "tap-103029-maciej-kazieczko"
+     }
     },
     {
      "segment": "Prelims",
@@ -185,7 +274,18 @@
       "b": 163,
       "books": 2
      },
-     "result": null
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "Submission",
+      "detail": "Technical arm-triangle choke",
+      "round": 2,
+      "time": "3:17",
+      "of": 3,
+      "source": "wikipedia",
+      "winnerName": "Alain Van De Merckt",
+      "winnerId": "tap-143522-alain-vandermercht"
+     }
     }
    ],
    "resultsChecked": "2026-11-23",
@@ -562,9 +662,10 @@
     "https://blogs.rdxsports.com/oktagon-mma-strikes-multi-year-deal-with-rtl-in-germany/",
     "https://plus.rtl.de/rtlplus-root/oktagon-mma-main-root-service-f_19",
     "https://oktagonmma.com/en/events/oktagon-98-trinec/",
-    "https://oktagonmma.com/en/my-first-ppv/"
+    "https://oktagonmma.com/en/my-first-ppv/",
+    "https://en.wikipedia.org/wiki/2026_in_Oktagon_MMA"
    ],
-   "notes": "Start 17:00 local per the official event page. Official: PPV live stream on OKTAGON.TV worldwide (not geo-blocked), except Germany/Austria/Switzerland (RTL+, exclusive DACH deal) and Poland (TVP Sport).",
+   "notes": "Start 17:00 local per the official event page. Official: PPV live stream on OKTAGON.TV worldwide (not geo-blocked), except Germany/Austria/Switzerland (RTL+, exclusive DACH deal) and Poland (TVP Sport). Results 2026-11-23 from Wikipedia (2026 in Oktagon MMA): Legierski withdrew before the walkout (torn hamstring) so the Buchinger title bout did not happen and Batfalský vs. De Paepe headlined; Raška vs. Schober and Śmiełowski vs. Mezhidov were removed (Raška instead beat Ahmet Rasim Pala by unanimous decision, 3 rounds, not on this card because Pala has no CageTime profile yet).",
    "odds": {
     "source": "BestFightOdds",
     "url": "https://www.bestfightodds.com/events/oktagon-4465",
@@ -574,23 +675,6 @@
    "id": "oktagon-98-legierski-vs-buchinger",
    "tapology": "https://www.tapology.com/fightcenter/events/146790-oktagon-98",
    "bouts": [
-    {
-     "segment": "Main card",
-     "weightClass": "Lightweight",
-     "rounds": 5,
-     "title": "Oktagon Lightweight Championship",
-     "discipline": "MMA",
-     "a": "tap-67799-mateusz-legierski",
-     "aName": "Mateusz Legierski",
-     "b": "tap-4084-ivan-buchinger-buki",
-     "bName": "Ivan Buchinger",
-     "odds": {
-      "a": -524,
-      "b": 334,
-      "books": 2
-     },
-     "result": null
-    },
     {
      "segment": "Main card",
      "weightClass": "Featherweight",
@@ -605,7 +689,18 @@
       "b": 131,
       "books": 2
      },
-     "result": null
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "Decision",
+      "detail": "Split",
+      "round": 3,
+      "time": "5:00",
+      "of": 3,
+      "source": "wikipedia",
+      "winnerName": "Jakub Batfalsky",
+      "winnerId": "tap-159059-jakub-batfalsky"
+     }
     },
     {
      "segment": "Main card",
@@ -621,7 +716,18 @@
       "b": 277,
       "books": 2
      },
-     "result": null
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "Decision",
+      "detail": "Unanimous",
+      "round": 3,
+      "time": "5:00",
+      "of": 3,
+      "source": "wikipedia",
+      "winnerName": "Veronika Smolková",
+      "winnerId": "tap-293817-verinika-smolkova"
+     }
     },
     {
      "segment": "Main card",
@@ -637,7 +743,18 @@
       "b": 201,
       "books": 2
      },
-     "result": null
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "Submission",
+      "detail": "Triangle armbar",
+      "round": 1,
+      "time": "0:28",
+      "of": 3,
+      "source": "wikipedia",
+      "winnerName": "Tomáš Mudroch",
+      "winnerId": "tap-266708-tomasz-mudroch"
+     }
     },
     {
      "segment": "Main card",
@@ -653,7 +770,18 @@
       "b": 117,
       "books": 2
      },
-     "result": null
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "Decision",
+      "detail": "Unanimous",
+      "round": 3,
+      "time": "3:00",
+      "of": 3,
+      "source": "wikipedia",
+      "winnerName": "Dominik Tabor",
+      "winnerId": "tap-486272-dominik-tabot"
+     }
     },
     {
      "segment": "Main card",
@@ -669,7 +797,18 @@
       "b": -332,
       "books": 2
      },
-     "result": null
+     "result": {
+      "outcome": "win",
+      "winner": "b",
+      "method": "Submission",
+      "detail": "Guillotine choke",
+      "round": 2,
+      "time": "4:18",
+      "of": 3,
+      "source": "wikipedia",
+      "winnerName": "Mateusz Janur",
+      "winnerId": "tap-154667-mateusz-janur"
+     }
     },
     {
      "segment": "Prelims",
@@ -685,29 +824,18 @@
       "b": -205,
       "books": 2
      },
-     "result": null
-    },
-    {
-     "segment": "Prelims",
-     "weightClass": "Middleweight",
-     "rounds": 3,
-     "discipline": "MMA",
-     "a": "tap-86314-ondej-raka",
-     "aName": "Ondřej Raška",
-     "b": "tap-66395-dominic-schober",
-     "bName": "Dominic Schober",
-     "result": null
-    },
-    {
-     "segment": "Prelims",
-     "weightClass": "Lightweight",
-     "rounds": 3,
-     "discipline": "MMA",
-     "a": "tap-88531-dawid-mieowski",
-     "aName": "Dawid Śmiełowski",
-     "b": "tap-33031-arbi-mezdihov",
-     "bName": "Arbi Mezhidov",
-     "result": null
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "Decision",
+      "detail": "Unanimous",
+      "round": 3,
+      "time": "3:00",
+      "of": 3,
+      "source": "wikipedia",
+      "winnerName": "Martin Prázdný",
+      "winnerId": "tap-286867-martin-prazdny"
+     }
     },
     {
      "segment": "Prelims",
@@ -723,7 +851,18 @@
       "b": 131,
       "books": 2
      },
-     "result": null
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "Submission",
+      "detail": "Rear-naked choke",
+      "round": 2,
+      "time": "2:47",
+      "of": 3,
+      "source": "wikipedia",
+      "winnerName": "Patrik Šebek",
+      "winnerId": "tap-312691-patrik-sebek"
+     }
     },
     {
      "segment": "Prelims",
@@ -739,7 +878,18 @@
       "b": 546,
       "books": 2
      },
-     "result": null
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "KO/TKO",
+      "detail": "Punches",
+      "round": 3,
+      "time": "0:31",
+      "of": 3,
+      "source": "wikipedia",
+      "winnerName": "James Hendin",
+      "winnerId": "tap-79762-james-hendin"
+     }
     },
     {
      "segment": "Prelims",
@@ -755,11 +905,42 @@
       "b": -142,
       "books": 2
      },
-     "result": null
+     "result": {
+      "outcome": "win",
+      "winner": "b",
+      "method": "Submission",
+      "detail": "Rear-naked choke",
+      "round": 1,
+      "time": "2:55",
+      "of": 3,
+      "source": "wikipedia",
+      "winnerName": "Marta Sós",
+      "winnerId": "tap-317869-marta-sos"
+     }
     }
    ],
    "resultsChecked": "2026-11-23",
-   "resultCount": 0
+   "resultCount": 0,
+   "cancelledBouts": [
+    {
+     "a": "tap-67799-mateusz-legierski",
+     "aName": "Mateusz Legierski",
+     "b": "tap-4084-ivan-buchinger-buki",
+     "bName": "Ivan Buchinger"
+    },
+    {
+     "a": "tap-86314-ondej-raka",
+     "aName": "Ondřej Raška",
+     "b": "tap-66395-dominic-schober",
+     "bName": "Dominic Schober"
+    },
+    {
+     "a": "tap-88531-dawid-mieowski",
+     "aName": "Dawid Śmiełowski",
+     "b": "tap-33031-arbi-mezdihov",
+     "bName": "Arbi Mezhidov"
+    }
+   ]
   },
   {
    "name": "BKFC Fight Night Myrtle Beach: Richardson vs. Oxendine",
@@ -787,7 +968,8 @@
     "https://www.tapology.com/fightcenter/events/148546-bkfc-fight-night-myrtle-beach",
     "https://en.wikipedia.org/wiki/2026_in_Bare_Knuckle_Fighting_Championship",
     "https://www.bkfc.com/news/bkfc-95-results",
-    "https://www.bkfc.com/events/bkfc-fight-night-myrtle-beach"
+    "https://www.bkfc.com/events/bkfc-fight-night-myrtle-beach",
+    "https://en.wikipedia.org/wiki/2026_in_Bare_Knuckle_Fighting_Championship"
    ],
    "notes": "Main card 9:00 PM ET per BKFC.com event page (Tapology lists 8:00 PM ET). Official (BKFC 95 results release): LIVE worldwide on The BKFC App. Wikipedia gives both Nov 20 and Nov 21, 2026; Tapology lists Nov 20 (8 PM ET).",
    "id": "bkfc-fight-night-myrtle-beach-richardson-vs-oxendine",
@@ -801,7 +983,18 @@
      "aName": "Keith Richardson",
      "b": "tap-110362-joshua-oxendine",
      "bName": "Joshua Oxendine",
-     "result": null
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "KO/TKO",
+      "detail": "Punches",
+      "round": 3,
+      "time": "2:00",
+      "of": null,
+      "source": "wikipedia",
+      "winnerName": "Keith Richardson",
+      "winnerId": "tap-11323-keith-richardson-the-rockstar"
+     }
     },
     {
      "segment": "Main card",
@@ -812,7 +1005,18 @@
      "aName": "Derek Brunson",
      "b": "tap-86368-theo-doukas",
      "bName": "Theo Doukas",
-     "result": null
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "KO/TKO",
+      "detail": "Punches",
+      "round": 2,
+      "time": "0:36",
+      "of": 5,
+      "source": "wikipedia",
+      "winnerName": "Derek Brunson",
+      "winnerId": "tap-Derek-Brunson"
+     }
     },
     {
      "segment": "Main card",
@@ -822,7 +1026,18 @@
      "aName": "Ryan Jett",
      "b": "tap-350847-rodney-hinton",
      "bName": "Rodney Hinton",
-     "result": null
+     "result": {
+      "outcome": "win",
+      "winner": "b",
+      "method": "Decision",
+      "detail": "Majority",
+      "round": 5,
+      "time": "2:00",
+      "of": null,
+      "source": "wikipedia",
+      "winnerName": "Rodney Hinton",
+      "winnerId": "tap-350847-rodney-hinton"
+     }
     },
     {
      "segment": "Main card",
@@ -832,7 +1047,18 @@
      "aName": "Evan Pierce",
      "b": "tap-236994-diego-romo-psicopata",
      "bName": "Diego Romo",
-     "result": null
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "KO/TKO",
+      "detail": "Corner stoppage",
+      "round": 4,
+      "time": "2:00",
+      "of": null,
+      "source": "wikipedia",
+      "winnerName": "Evan Pierce",
+      "winnerId": "tap-565932-evan-pierce"
+     }
     },
     {
      "segment": "Main card",
@@ -842,7 +1068,18 @@
      "aName": "Windson Ramos",
      "b": "tap-383829-robert-fitchner",
      "bName": "Robert Fichtner",
-     "result": null
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "KO/TKO",
+      "detail": null,
+      "round": 2,
+      "time": "0:39",
+      "of": null,
+      "source": "wikipedia",
+      "winnerName": "Windson Ramos",
+      "winnerId": "tap-152369-windson-ramos"
+     }
     },
     {
      "segment": "Main card",
@@ -852,7 +1089,18 @@
      "aName": "Brandon Bushaw",
      "b": "tap-565934-joshua-claudio",
      "bName": "Joshua Claudio",
-     "result": null
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "KO/TKO",
+      "detail": null,
+      "round": 4,
+      "time": "1:02",
+      "of": null,
+      "source": "wikipedia",
+      "winnerName": "Brandon Bushaw",
+      "winnerId": "tap-30794-brandon-bushaw"
+     }
     },
     {
      "segment": "Main card",
@@ -862,7 +1110,18 @@
      "aName": "Austin Coleman",
      "b": "tap-224195-alex-eliam",
      "bName": "Alex Eliam",
-     "result": null
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "KO/TKO",
+      "detail": null,
+      "round": 1,
+      "time": "1:30",
+      "of": null,
+      "source": "wikipedia",
+      "winnerName": "Austin Coleman",
+      "winnerId": "tap-149561-austin-coleman"
+     }
     },
     {
      "segment": "Main card",
@@ -872,7 +1131,18 @@
      "aName": "Maurice Morris",
      "b": "tap-271732-lewis-glover",
      "bName": "Lewis Glover",
-     "result": null
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "Decision",
+      "detail": "Unanimous",
+      "round": 3,
+      "time": "2:00",
+      "of": null,
+      "source": "wikipedia",
+      "winnerName": "Maurice Morris",
+      "winnerId": "tap-319864-maurice-morris"
+     }
     },
     {
      "segment": "Main card",
@@ -881,7 +1151,18 @@
      "aName": "Amos Collins",
      "b": "tap-53444-ashton-caniglia",
      "bName": "Ashton Caniglia",
-     "result": null
+     "result": {
+      "outcome": "win",
+      "winner": "b",
+      "method": "Decision",
+      "detail": "Split",
+      "round": 3,
+      "time": "2:00",
+      "of": null,
+      "source": "wikipedia",
+      "winnerName": "Ashton Caniglia",
+      "winnerId": "tap-53444-ashton-caniglia"
+     }
     },
     {
      "segment": "Main card",
@@ -890,7 +1171,18 @@
      "aName": "Justin Howell",
      "b": "tap-37230-brian-maxwell",
      "bName": "Brian Maxwell",
-     "result": null
+     "result": {
+      "outcome": "win",
+      "winner": "b",
+      "method": "Decision",
+      "detail": "Unanimous",
+      "round": 3,
+      "time": "2:00",
+      "of": null,
+      "source": "wikipedia",
+      "winnerName": "Brian Maxwell",
+      "winnerId": "tap-37230-brian-maxwell"
+     }
     }
    ],
    "resultsChecked": "2026-11-23",
@@ -920,9 +1212,10 @@
    },
    "sources": [
     "https://www.tapology.com/fightcenter/events/148242-lfa-247",
-    "https://www.lfa.com/event/lfa-247-breno-vs-torres/"
+    "https://www.lfa.com/event/lfa-247-breno-vs-torres/",
+    "https://en.wikipedia.org/wiki/2026_in_Legacy_Fighting_Alliance"
    ],
-   "notes": "Start time per Tapology (9:00 PM ET main card, matches LFA.com). Official: VICE TV in the US (Spanish simulcast ESPN Deportes), ESPN across Latin America incl. Brazil, main card worldwide on LFA Fight Network on YouTube.",
+   "notes": "Start time per Tapology (9:00 PM ET main card, matches LFA.com). Official: VICE TV in the US (Spanish simulcast ESPN Deportes), ESPN across Latin America incl. Brazil, main card worldwide on LFA Fight Network on YouTube. Results 2026-11-23 from Wikipedia (2026 in LFA): it lists 11 bouts; Aiden Ingram vs. Ricardo Hussein and Sean Polk vs. Luke La Vanway are not listed and stay pending.",
    "odds": {
     "source": "BestFightOdds",
     "url": "https://www.bestfightodds.com/events/lfa-247-4468",
@@ -946,7 +1239,18 @@
       "b": 222,
       "books": 2
      },
-     "result": null
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "Submission",
+      "detail": "Rear-naked choke",
+      "round": 3,
+      "time": "0:22",
+      "of": 3,
+      "source": "wikipedia",
+      "winnerName": "Marcos Breno",
+      "winnerId": "tap-129371-marcos-breno"
+     }
     },
     {
      "segment": "Main card",
@@ -962,7 +1266,18 @@
       "b": 336,
       "books": 2
      },
-     "result": null
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "Decision",
+      "detail": "Split",
+      "round": 3,
+      "time": "5:00",
+      "of": 3,
+      "source": "wikipedia",
+      "winnerName": "Chance Ikei",
+      "winnerId": "tap-252854-chance-ikei"
+     }
     },
     {
      "segment": "Main card",
@@ -978,7 +1293,18 @@
       "b": 688,
       "books": 2
      },
-     "result": null
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "KO/TKO",
+      "detail": "Elbows and punches",
+      "round": 2,
+      "time": "3:08",
+      "of": 3,
+      "source": "wikipedia",
+      "winnerName": "Delton Kaufmann",
+      "winnerId": "tap-525334-delton-kaufmann"
+     }
     },
     {
      "segment": "Main card",
@@ -994,7 +1320,18 @@
       "b": -118,
       "books": 2
      },
-     "result": null
+     "result": {
+      "outcome": "win",
+      "winner": "b",
+      "method": "KO/TKO",
+      "detail": "Punches",
+      "round": 2,
+      "time": "2:19",
+      "of": 3,
+      "source": "wikipedia",
+      "winnerName": "Canon Swanson",
+      "winnerId": "tap-329282-canon-swanson"
+     }
     },
     {
      "segment": "Main card",
@@ -1010,7 +1347,18 @@
       "b": -554,
       "books": 2
      },
-     "result": null
+     "result": {
+      "outcome": "win",
+      "winner": "b",
+      "method": "Submission",
+      "detail": "Guillotine choke",
+      "round": 2,
+      "time": "3:46",
+      "of": 3,
+      "source": "wikipedia",
+      "winnerName": "Abbas Abasov",
+      "winnerId": "tap-247102-abbas-abasov"
+     }
     },
     {
      "segment": "Main card",
@@ -1042,7 +1390,18 @@
       "b": -248,
       "books": 2
      },
-     "result": null
+     "result": {
+      "outcome": "win",
+      "winner": "b",
+      "method": "Submission",
+      "detail": "Anaconda choke",
+      "round": 1,
+      "time": "1:49",
+      "of": 3,
+      "source": "wikipedia",
+      "winnerName": "Ray Hayes",
+      "winnerId": "tap-310325-ray-haye"
+     }
     },
     {
      "segment": "Prelims",
@@ -1058,7 +1417,18 @@
       "b": 175,
       "books": 1
      },
-     "result": null
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "Decision",
+      "detail": "Split",
+      "round": 3,
+      "time": "5:00",
+      "of": 3,
+      "source": "wikipedia",
+      "winnerName": "Paul Marghitas",
+      "winnerId": "tap-342336-paul-marghitas"
+     }
     },
     {
      "segment": "Prelims",
@@ -1074,7 +1444,18 @@
       "b": 200,
       "books": 1
      },
-     "result": null
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "Decision",
+      "detail": "Unanimous",
+      "round": 3,
+      "time": "5:00",
+      "of": 3,
+      "source": "wikipedia",
+      "winnerName": "Zoe Nowicki",
+      "winnerId": "tap-351395-zoe-nowicki"
+     }
     },
     {
      "segment": "Prelims",
@@ -1090,7 +1471,18 @@
       "b": -225,
       "books": 1
      },
-     "result": null
+     "result": {
+      "outcome": "win",
+      "winner": "b",
+      "method": "Decision",
+      "detail": "Unanimous",
+      "round": 3,
+      "time": "5:00",
+      "of": 3,
+      "source": "wikipedia",
+      "winnerName": "Adam Amado",
+      "winnerId": "tap-193193-adam-amado"
+     }
     },
     {
      "segment": "Prelims",
@@ -1101,7 +1493,18 @@
      "aName": "Nolan Linebaugh",
      "b": "tap-187761-joseph-rivas",
      "bName": "Joseph Rivas",
-     "result": null
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "Submission",
+      "detail": "Triangle choke",
+      "round": 1,
+      "time": "4:45",
+      "of": 3,
+      "source": "wikipedia",
+      "winnerName": "Nolan Linebaugh",
+      "winnerId": "tap-82597-nolan-linebaugh"
+     }
     },
     {
      "segment": "Prelims",
@@ -1123,7 +1526,18 @@
      "aName": "Talal Yousufzai",
      "b": "tap-217853-joshua-mcreynolds",
      "bName": "Joshua McReynolds",
-     "result": null
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "Decision",
+      "detail": "Unanimous",
+      "round": 3,
+      "time": "3:00",
+      "of": 3,
+      "source": "wikipedia",
+      "winnerName": "Talal Yousufzai",
+      "winnerId": "tap-335495-talal-yousufzai"
+     }
     }
    ],
    "resultsChecked": "2026-11-23",
@@ -1165,9 +1579,10 @@
     "https://www.onefc.com/events/one-friday-fights-179/",
     "https://www.onefc.com/news/how-to-watch-the-inner-circle-34-and-one-friday-fights-174-live-on-october-9/",
     "https://live.onefc.com/",
-    "https://www.onefc.com/news/how-to-watch-the-inner-circle-36-and-one-friday-fights-176-live-on-october-30/"
+    "https://www.onefc.com/news/how-to-watch-the-inner-circle-36-and-one-friday-fights-176-live-on-october-30/",
+    "https://en.wikipedia.org/wiki/2026_in_ONE_Championship"
    ],
-   "notes": "Time = ONE Friday Fights broadcast (8:30 PM ICT). ONE.com lists this as a doubleheader starting 6:30 PM ICT with The Inner Circle 39 (live.onefc.com only); ONE's Friday Fights 174/175 guides put the Friday Fights broadcast 2 h after the opener — verify in fight week. Tapology lists broadcast: YouTube — not confirmed per country. Broadcasters from ONE's current rights deals (beIN SPORTS North America, ESPN Australia, Sky Sports UK & Ireland, Star/JioStar India), as confirmed on ONE's Friday Fights 175 watch guide; Germany (watch.onefc.com) and Brazil (ONE YouTube/Facebook/watch.onefc.com) as on ONE's Friday Fights 176 watch guide; the card-specific guide comes out in fight week.",
+   "notes": "Time = ONE Friday Fights broadcast (8:30 PM ICT). ONE.com lists this as a doubleheader starting 6:30 PM ICT with The Inner Circle 39 (live.onefc.com only); ONE's Friday Fights 174/175 guides put the Friday Fights broadcast 2 h after the opener — verify in fight week. Tapology lists broadcast: YouTube — not confirmed per country. Broadcasters from ONE's current rights deals (beIN SPORTS North America, ESPN Australia, Sky Sports UK & Ireland, Star/JioStar India), as confirmed on ONE's Friday Fights 175 watch guide; Germany (watch.onefc.com) and Brazil (ONE YouTube/Facebook/watch.onefc.com) as on ONE's Friday Fights 176 watch guide; the card-specific guide comes out in fight week. Results 2026-11-23 from Wikipedia (2026 in ONE Championship). Wikipedia lists Lutfullo Sohibnazarov def. Mirmehti Miriyev by submission (arm-triangle choke), R3 3:30, instead of Miriyev vs. Waldi Britez; that bout is left pending until Tapology confirms.",
    "odds": {
     "source": "BestFightOdds",
     "url": "https://www.bestfightodds.com/events/one-friday-fights-179-4467",
@@ -1191,7 +1606,18 @@
       "b": 120,
       "books": 1
      },
-     "result": null
+     "result": {
+      "outcome": "win",
+      "winner": "b",
+      "method": "Decision",
+      "detail": "Unanimous",
+      "round": 3,
+      "time": "3:00",
+      "of": 3,
+      "source": "wikipedia",
+      "winnerName": "Klarob Nuicafeboran",
+      "winnerId": "tap-514809-klarob-nuicafeboran"
+     }
     },
     {
      "segment": "Main card",
@@ -1207,7 +1633,18 @@
       "b": 150,
       "books": 1
      },
-     "result": null
+     "result": {
+      "outcome": "win",
+      "winner": "b",
+      "method": "KO/TKO",
+      "detail": "Punch",
+      "round": 2,
+      "time": "2:37",
+      "of": 3,
+      "source": "wikipedia",
+      "winnerName": "Superjeng Wankhongohm MBK",
+      "winnerId": "tap-463266-superjeng-wankhongohm-mbk"
+     }
     },
     {
      "segment": "Main card",
@@ -1223,7 +1660,18 @@
       "b": -105,
       "books": 1
      },
-     "result": null
+     "result": {
+      "outcome": "win",
+      "winner": "b",
+      "method": "KO/TKO",
+      "detail": "Knee",
+      "round": 2,
+      "time": "1:36",
+      "of": 3,
+      "source": "wikipedia",
+      "winnerName": "Rahim Tcherkhaiko",
+      "winnerId": "tap-416002-rahim-tcherkheiko"
+     }
     },
     {
      "segment": "Main card",
@@ -1239,7 +1687,18 @@
       "b": 105,
       "books": 1
      },
-     "result": null
+     "result": {
+      "outcome": "win",
+      "winner": "b",
+      "method": "KO/TKO",
+      "detail": "Head kick",
+      "round": 1,
+      "time": "0:24",
+      "of": 3,
+      "source": "wikipedia",
+      "winnerName": "Chalamkaw Team Mehdi Zatout",
+      "winnerId": "tap-543172-chalamkaw-team-mehdi-zatout"
+     }
     },
     {
      "segment": "Main card",
@@ -1271,7 +1730,18 @@
       "b": -105,
       "books": 1
      },
-     "result": null
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "Decision",
+      "detail": "Split",
+      "round": 3,
+      "time": "3:00",
+      "of": 3,
+      "source": "wikipedia",
+      "winnerName": "Chalamdam",
+      "winnerId": "tap-596057-chalamdam"
+     }
     },
     {
      "segment": "Main card",
@@ -1287,7 +1757,18 @@
       "b": -120,
       "books": 1
      },
-     "result": null
+     "result": {
+      "outcome": "win",
+      "winner": "b",
+      "method": "Decision",
+      "detail": "Unanimous",
+      "round": 3,
+      "time": "5:00",
+      "of": 3,
+      "source": "wikipedia",
+      "winnerName": "Hero Marco Manguray",
+      "winnerId": "tap-400173-hero-marco-manguray"
+     }
     },
     {
      "segment": "Main card",
@@ -1303,7 +1784,18 @@
       "b": -163,
       "books": 1
      },
-     "result": null
+     "result": {
+      "outcome": "win",
+      "winner": "b",
+      "method": "KO/TKO",
+      "detail": "Punches",
+      "round": 1,
+      "time": "1:35",
+      "of": 3,
+      "source": "wikipedia",
+      "winnerName": "Kana Oshikawa",
+      "winnerId": "tap-318757-kana-oshikawa"
+     }
     },
     {
      "segment": "Main card",
@@ -1319,7 +1811,18 @@
       "b": -138,
       "books": 1
      },
-     "result": null
+     "result": {
+      "outcome": "win",
+      "winner": "b",
+      "method": "Decision",
+      "detail": "Unanimous",
+      "round": 3,
+      "time": "3:00",
+      "of": 3,
+      "source": "wikipedia",
+      "winnerName": "Fuga Tokoro",
+      "winnerId": "tap-406041-fuga-tokoro"
+     }
     },
     {
      "segment": "Prelims",
@@ -1336,7 +1839,18 @@
       "b": 163,
       "books": 1
      },
-     "result": null
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "Decision",
+      "detail": "Split",
+      "round": 5,
+      "time": "3:00",
+      "of": 5,
+      "source": "wikipedia",
+      "winnerName": "Asadula Imangazaliev",
+      "winnerId": "tap-445014-asadula-imangazaliev"
+     }
     },
     {
      "segment": "Prelims",
@@ -1352,7 +1866,18 @@
       "b": -138,
       "books": 1
      },
-     "result": null
+     "result": {
+      "outcome": "win",
+      "winner": "b",
+      "method": "Decision",
+      "detail": "Unanimous",
+      "round": 3,
+      "time": "3:00",
+      "of": 3,
+      "source": "wikipedia",
+      "winnerName": "Ubaid Hussain",
+      "winnerId": "tap-471350-ubaid-hussain"
+     }
     },
     {
      "segment": "Prelims",
@@ -1368,7 +1893,18 @@
       "b": 130,
       "books": 1
      },
-     "result": null
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "Decision",
+      "detail": "Unanimous",
+      "round": 3,
+      "time": "3:00",
+      "of": 3,
+      "source": "wikipedia",
+      "winnerName": "Attachai Kelasport",
+      "winnerId": "tap-288948-attachai-rongrienkelalampang"
+     }
     },
     {
      "segment": "Prelims",
@@ -1384,7 +1920,18 @@
       "b": 130,
       "books": 1
      },
-     "result": null
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "KO/TKO",
+      "detail": "3 knockdowns",
+      "round": 2,
+      "time": "1:09",
+      "of": 3,
+      "source": "wikipedia",
+      "winnerName": "Alessio Malatesta",
+      "winnerId": "tap-394467-alessio-malatesta"
+     }
     },
     {
      "segment": "Prelims",
@@ -1400,7 +1947,18 @@
       "b": 140,
       "books": 1
      },
-     "result": null
+     "result": {
+      "outcome": "win",
+      "winner": "b",
+      "method": "KO/TKO",
+      "detail": "Punches",
+      "round": 2,
+      "time": "1:09",
+      "of": 3,
+      "source": "wikipedia",
+      "winnerName": "Salai Htan Khee Shein",
+      "winnerId": "tap-525748-salai-htan-khee-shein"
+     }
     }
    ],
    "resultsChecked": "2026-11-23",
@@ -1447,7 +2005,18 @@
      "aName": "Joshua Pacio",
      "b": "tap-215789-keito-yamakita",
      "bName": "Keito Yamakita",
-     "result": null
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "Submission",
+      "detail": "Technical (Arm Triangle Choke)",
+      "round": 4,
+      "time": "4:17",
+      "of": 5,
+      "source": "tapology-event",
+      "winnerName": "Joshua Pacio",
+      "winnerId": "tap-94002-joshua-pacio"
+     }
     },
     {
      "segment": "Main card",
@@ -1458,7 +2027,18 @@
      "aName": "Ryujin Nasukawa",
      "b": "tap-401704-raichi-nagai",
      "bName": "Raichi Nagai",
-     "result": null
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "KO/TKO",
+      "detail": "Right Hook",
+      "round": 1,
+      "time": "0:36",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerName": "Ryujin Nasukawa",
+      "winnerId": "tap-244096-ryushin-nasukawa"
+     }
     },
     {
      "segment": "Main card",
@@ -1469,7 +2049,18 @@
      "aName": "Jarred Brooks",
      "b": "tap-4803-tatsumitsu-wada",
      "bName": "Tatsumitsu Wada",
-     "result": null
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "Decision",
+      "detail": "Split",
+      "round": 3,
+      "time": "5:00",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerName": "Jarred Brooks",
+      "winnerId": "tap-40047-jarred-brooks"
+     }
     },
     {
      "segment": "Main card",
@@ -1480,7 +2071,18 @@
      "aName": "Masashi Kumura",
      "b": "tap-315152-ellis-barboza-el-jefe",
      "bName": "Ellis Barboza",
-     "result": null
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "KO/TKO",
+      "detail": "Left Hook",
+      "round": 1,
+      "time": "2:58",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerName": "Masashi Kumura",
+      "winnerId": "tap-238582-masashi-kumura"
+     }
     },
     {
      "segment": "Main card",
@@ -1491,7 +2093,18 @@
      "aName": "Yutaro Asahi",
      "b": "tap-268101-petchtanong-banchamek",
      "bName": "Petchtanong Banchamek",
-     "result": null
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "Decision",
+      "detail": "Unanimous",
+      "round": 3,
+      "time": "3:00",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerName": "Yutaro Asahi",
+      "winnerId": "tap-270818-yutaro-asahi"
+     }
     },
     {
      "segment": "Main card",
@@ -1502,7 +2115,18 @@
      "aName": "Ryugo Takeuchi",
      "b": "tap-309206-brandon-hashimoto",
      "bName": "Brandon Hashimoto",
-     "result": null
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "KO/TKO",
+      "detail": "Punches",
+      "round": 1,
+      "time": "0:23",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerName": "Ryugo Takeuchi",
+      "winnerId": "tap-426452-ryugo-takeuchi"
+     }
     },
     {
      "segment": "Main card",
@@ -1513,7 +2137,18 @@
      "aName": "Reiji Takagi",
      "b": "tap-204304-rui-botelho",
      "bName": "Rui Botelho",
-     "result": null
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "Decision",
+      "detail": "Unanimous",
+      "round": 3,
+      "time": "3:00",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerName": "Reiji Takagi",
+      "winnerId": "tap-400214-reiji"
+     }
     },
     {
      "segment": "Main card",
@@ -1524,7 +2159,18 @@
      "aName": "Yugo Kato",
      "b": "tap-287715-jurai-wor-wanchai",
      "bName": "Jurai Ishii",
-     "result": null
+     "result": {
+      "outcome": "win",
+      "winner": "b",
+      "method": "Decision",
+      "detail": "Unanimous",
+      "round": 3,
+      "time": "3:00",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerName": "Jurai Ishii",
+      "winnerId": "tap-287715-jurai-wor-wanchai"
+     }
     },
     {
      "segment": "Main card",
@@ -1535,7 +2181,18 @@
      "aName": "Yuki Hamada",
      "b": "tap-447225-hideto-inui",
      "bName": "Shuto Inui",
-     "result": null
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "Decision",
+      "detail": "Unanimous",
+      "round": 3,
+      "time": "3:00",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerName": "Yuki Hamada",
+      "winnerId": "tap-239117-yuki-hamada"
+     }
     },
     {
      "segment": "Main card",
@@ -1546,7 +2203,18 @@
      "aName": "Shosuke Kinoshita",
      "b": "tap-443858-takuya-shibamura-shivaev",
      "bName": "Takuya Shibamura",
-     "result": null
+     "result": {
+      "outcome": "win",
+      "winner": "a",
+      "method": "Decision",
+      "detail": "Unanimous",
+      "round": 3,
+      "time": "5:00",
+      "of": 3,
+      "source": "tapology-event",
+      "winnerName": "Shosuke Kinoshita",
+      "winnerId": "tap-152816-naosuke-kinoshita"
+     }
     }
    ],
    "resultsChecked": "2026-11-23",

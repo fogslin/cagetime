@@ -11,8 +11,8 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:oktagon-95-skvor-vs-narkun@getcagetime.com
-DTSTAMP:20261117T000000Z
-LAST-MODIFIED:20261117T000000Z
+DTSTAMP:20261123T000000Z
+LAST-MODIFIED:20261123T000000Z
 DTSTART:20261017T160000Z
 DTEND:20261017T190000Z
 SUMMARY:OKTAGON 95: Škvor vs. Narkun
@@ -39,8 +39,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:oktagon-96-gogoladze-vs-klinkhammer@getcagetime.com
-DTSTAMP:20261117T000000Z
-LAST-MODIFIED:20261117T000000Z
+DTSTAMP:20261123T000000Z
+LAST-MODIFIED:20261123T000000Z
 DTSTART:20261031T160000Z
 DTEND:20261031T190000Z
 SUMMARY:OKTAGON 96: Gogoladze vs. Ayari
@@ -70,8 +70,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:oktagon-97-severino-vs-holzer@getcagetime.com
-DTSTAMP:20261117T000000Z
-LAST-MODIFIED:20261117T000000Z
+DTSTAMP:20261123T000000Z
+LAST-MODIFIED:20261123T000000Z
 DTSTART:20261107T170000Z
 DTEND:20261107T200000Z
 SUMMARY:OKTAGON 97: Severino vs. Holzer
@@ -101,29 +101,30 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:oktagon-98-legierski-vs-buchinger@getcagetime.com
-DTSTAMP:20261116T000000Z
-LAST-MODIFIED:20261116T000000Z
+DTSTAMP:20261123T000000Z
+LAST-MODIFIED:20261123T000000Z
 DTSTART:20261121T170000Z
 DTEND:20261121T200000Z
 SUMMARY:OKTAGON 98: Legierski vs. Buchinger
 LOCATION:Werk Arena\, Třinec\, Czechia
-DESCRIPTION:TIMES\nEvent start (official\; no separate main-card time publi
- shed): Sat Nov 21 12:00 PM EST (17:00 UTC)\n\nWHERE TO WATCH\nUnited State
- s: OKTAGON.TV (PPV)\nUnited Kingdom: OKTAGON.TV (PPV)\nCanada: OKTAGON.TV 
- (PPV)\nAustralia: OKTAGON.TV (PPV)\nIreland: OKTAGON.TV (PPV)\nIndia: OKTA
- GON.TV (PPV)\nGermany: RTL+\nBrazil: OKTAGON.TV (PPV)\n\nFIGHT CARD\n— M
- ain card —\nMateusz Legierski vs. Ivan Buchinger (Lightweight)\nJakub Ba
- tfalsky vs. Ayton De Paepe (Featherweight)\nVeronika Smolková vs. Ivana P
- etrović (Women's Flyweight)\nTomáš Mudroch vs. Jason Ponet (Catchweight
-  (163 lb))\nDominik Tabor vs. Deniz Ilbay (152 lb)\nDavid Hošek vs. Mateu
- sz Janur (Middleweight)\n— Prelims —\nMartin Prázdný vs. Jindřich B
- yrtus (185 lb)\nOndřej Raška vs. Dominic Schober (Middleweight)\nDawid 
- Śmiełowski vs. Arbi Mezhidov (Lightweight)\nPatrik Šebek vs. Adrian Ham
- erski (Lightweight)\nJames Hendin vs. Sayed Murtaza Sadat (Featherweight)\
- nMichaela Hlaváčiková vs. Marta Sós (Women's Flyweight)\n\nEvent page:
-  https://getcagetime.com/events/oktagon-98-legierski-vs-buchinger/\nTimes 
- and broadcasters can change\; check the event page. From CageTime (getcage
- time.com).
+DESCRIPTION:RESULTS: https://getcagetime.com/results/oktagon-98-legierski-v
+ s-buchinger/\n\nTIMES\nEvent start (official\; no separate main-card time 
+ published): Sat Nov 21 12:00 PM EST (17:00 UTC)\n\nWHERE TO WATCH\nUnited 
+ States: OKTAGON.TV (PPV)\nUnited Kingdom: OKTAGON.TV (PPV)\nCanada: OKTAGO
+ N.TV (PPV)\nAustralia: OKTAGON.TV (PPV)\nIreland: OKTAGON.TV (PPV)\nIndia:
+  OKTAGON.TV (PPV)\nGermany: RTL+\nBrazil: OKTAGON.TV (PPV)\n\nFIGHT CARD\n
+ — Main card —\nMateusz Legierski vs. Ivan Buchinger (Lightweight)\nJak
+ ub Batfalsky vs. Ayton De Paepe (Featherweight)\nVeronika Smolková vs. Iv
+ ana Petrović (Women's Flyweight)\nTomáš Mudroch vs. Jason Ponet (Catchw
+ eight (163 lb))\nDominik Tabor vs. Deniz Ilbay (152 lb)\nDavid Hošek vs. 
+ Mateusz Janur (Middleweight)\n— Prelims —\nMartin Prázdný vs. Jindř
+ ich Byrtus (185 lb)\nOndřej Raška vs. Dominic Schober (Middleweight)\nDa
+ wid Śmiełowski vs. Arbi Mezhidov (Lightweight)\nPatrik Šebek vs. Adrian
+  Hamerski (Lightweight)\nJames Hendin vs. Sayed Murtaza Sadat (Featherweig
+ ht)\nMichaela Hlaváčiková vs. Marta Sós (Women's Flyweight)\n\nEvent p
+ age: https://getcagetime.com/events/oktagon-98-legierski-vs-buchinger/\nTi
+ mes and broadcasters can change\; check the event page. From CageTime (get
+ cagetime.com).
 URL:https://getcagetime.com/events/oktagon-98-legierski-vs-buchinger/
 CATEGORIES:OKTAGON,MMA
 STATUS:CONFIRMED
@@ -131,8 +132,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:oktagon-99@getcagetime.com
-DTSTAMP:20261116T000000Z
-LAST-MODIFIED:20261116T000000Z
+DTSTAMP:20261119T000000Z
+LAST-MODIFIED:20261119T000000Z
 DTSTART:20261205T170000Z
 DTEND:20261205T200000Z
 SUMMARY:OKTAGON 99: Aras vs. Flores
@@ -162,8 +163,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:oktagon-100-jotko-vs-muradov@getcagetime.com
-DTSTAMP:20261116T000000Z
-LAST-MODIFIED:20261116T000000Z
+DTSTAMP:20261119T000000Z
+LAST-MODIFIED:20261119T000000Z
 DTSTART:20261229T170000Z
 DTEND:20261229T200000Z
 SUMMARY:OKTAGON 100: Jotko vs. Muradov
@@ -186,8 +187,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:oktagon-101-dalaslan-vs-kinehan@getcagetime.com
-DTSTAMP:20261116T000000Z
-LAST-MODIFIED:20261116T000000Z
+DTSTAMP:20261119T000000Z
+LAST-MODIFIED:20261119T000000Z
 DTSTART:20270116T170000Z
 DTEND:20270116T200000Z
 SUMMARY:OKTAGON 101: Dalaslan vs. Kinehan

@@ -205,8 +205,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-fight-night-riyadh@getcagetime.com
-DTSTAMP:20261119T000000Z
-LAST-MODIFIED:20261119T000000Z
+DTSTAMP:20261123T000000Z
+LAST-MODIFIED:20261123T000000Z
 DTSTART:20261205T180000Z
 DTEND:20261205T210000Z
 SUMMARY:UFC Fight Night Riyadh: Adesanya vs. Magomedov
@@ -234,8 +234,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-335-oliveira-vs-lopes@getcagetime.com
-DTSTAMP:20261119T000000Z
-LAST-MODIFIED:20261119T000000Z
+DTSTAMP:20261123T000000Z
+LAST-MODIFIED:20261123T000000Z
 DTSTART:20261213T020000Z
 DTEND:20261213T050000Z
 SUMMARY:UFC 335: Oliveira vs. Lopes
@@ -266,8 +266,8 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-fight-night-rodriguez-vs-garcia@getcagetime.com
-DTSTAMP:20261119T000000Z
-LAST-MODIFIED:20261119T000000Z
+DTSTAMP:20261123T000000Z
+LAST-MODIFIED:20261123T000000Z
 DTSTART:20270117T010000Z
 DTEND:20270117T040000Z
 SUMMARY:UFC Fight Night: Rodriguez vs. Garcia
@@ -290,14 +290,14 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:ufc-fight-night-bonfim-vs-brady-jan-2027@getcagetime.com
-DTSTAMP:20261119T000000Z
-LAST-MODIFIED:20261119T000000Z
-DTSTART:20270123T220000Z
-DTEND:20270124T010000Z
+DTSTAMP:20261123T000000Z
+LAST-MODIFIED:20261123T000000Z
+DTSTART:20270124T010000Z
+DTEND:20270124T040000Z
 SUMMARY:UFC Fight Night: Bonfim vs. Brady
 LOCATION:UFC Apex\, Las Vegas\, Nevada\, United States
-DESCRIPTION:TIMES\nPrelims: Sat Jan 23 3:00 PM EST (20:00 UTC)\nMain card: 
- Sat Jan 23 5:00 PM EST (22:00 UTC)\n\nWHERE TO WATCH\nUnited States: Param
+DESCRIPTION:TIMES\nPrelims: Sat Jan 23 5:00 PM EST (22:00 UTC)\nMain card: 
+ Sat Jan 23 8:00 PM EST (01:00 UTC)\n\nWHERE TO WATCH\nUnited States: Param
  ount+\nUnited Kingdom: TNT Sports / HBO Max\nCanada: Sportsnet+ / City TV 
  / TVA Sports\nAustralia: Paramount+\nIreland: TNT Sports\nIndia: Sony TEN 
  2\nGermany: DAZN\nBrazil: Paramount+\n\nFIGHT CARD\n— Main card —\nGab
@@ -308,6 +308,31 @@ DESCRIPTION:TIMES\nPrelims: Sat Jan 23 3:00 PM EST (20:00 UTC)\nMain card:
   CageTime (getcagetime.com).
 URL:https://getcagetime.com/events/ufc-fight-night-bonfim-vs-brady-jan-2027
  /
+CATEGORIES:UFC,MMA
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ufc-336-van-vs-kape@getcagetime.com
+DTSTAMP:20261123T000000Z
+LAST-MODIFIED:20261123T000000Z
+DTSTART:20270131T020000Z
+DTEND:20270131T050000Z
+SUMMARY:UFC 336: Van vs. Kape
+LOCATION:Scotiabank Arena\, Toronto\, Canada
+DESCRIPTION:TIMES\nEarly prelims: Sat Jan 30 5:00 PM EST (22:00 UTC)\nPreli
+ ms: Sat Jan 30 7:00 PM EST (00:00 UTC)\nMain card: Sat Jan 30 9:00 PM EST 
+ (02:00 UTC)\n\nWHERE TO WATCH\nUnited States: Paramount+\nUnited Kingdom: 
+ TNT Sports Box Office (main card) / HBO Max\nCanada: PPV (main card)\; Spo
+ rtsnet+ / TVA Sports (prelims)\nAustralia: Main Event PPV on Foxtel/Kayo (
+ main card)\; Paramount+ / Network 10 (prelims)\nIreland: TNT Sports Box Of
+ fice (main card)\nIndia: Sony TEN 2\nGermany: DAZN / UFC PPV on UFC Fight 
+ Pass\nBrazil: Paramount+\n\nFIGHT CARD\n— Main card —\nJoshua Van vs. 
+ Manel Kape (Flyweight)\nCarlos Prates vs. Michael Morales (Welterweight)\n
+ \nEvent page: https://getcagetime.com/events/ufc-336-van-vs-kape/\nTimes a
+ nd broadcasters can change\; check the event page. From CageTime (getcaget
+ ime.com).
+URL:https://getcagetime.com/events/ufc-336-van-vs-kape/
 CATEGORIES:UFC,MMA
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT

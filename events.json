@@ -12,1252 +12,6 @@
  },
  "events": [
   {
-   "name": "ONE Friday Fights 179",
-   "promotion": "ONE",
-   "date": "2026-11-20",
-   "startUTC": "2026-11-20T13:30:00Z",
-   "venue": "Lumpinee Stadium, Bangkok, Thailand",
-   "broadcasters": {
-    "US": "beIN SPORTS",
-    "UK": "Sky Sports (app / YouTube)",
-    "CA": "beIN SPORTS",
-    "AU": "ESPN (Disney+ / Foxtel / Kayo)",
-    "IE": "Sky Sports (app / YouTube)",
-    "IN": "Star Sports Select 2 / JioHotstar",
-    "DE": "watch.onefc.com (free)",
-    "BR": "ONE YouTube / Facebook / watch.onefc.com (free)"
-   },
-   "sources": [
-    "https://www.tapology.com/fightcenter/events/147738-one-friday-fights-179",
-    "https://faq.beincontent.com/hc/en-us/articles/48622526939539-Which-events-does-beIN-SPORTS-in-North-America-have-broadcast-rights-to",
-    "https://www.onefc.com/news/how-to-watch-the-inner-circle-35-and-one-friday-fights-175-live-on-october-16/",
-    "https://www.onefc.com/press-releases/espn-and-one-championship-enter-exclusive-multi-year-broadcast-agreement-for-australia-and-new-zealand/",
-    "https://www.onefc.com/press-releases/one-championship-and-sky-sports-announce-exclusive-partnership-to-broadcast-live-one-events-in-the-uk-and-ireland/",
-    "https://media.sportbusiness.com/news/star-india-agrees-multi-year-rights-deal-with-one-championship/",
-    "https://www.onefc.com/events/one-friday-fights-179/",
-    "https://www.onefc.com/news/how-to-watch-the-inner-circle-34-and-one-friday-fights-174-live-on-october-9/",
-    "https://live.onefc.com/",
-    "https://www.onefc.com/news/how-to-watch-the-inner-circle-36-and-one-friday-fights-176-live-on-october-30/"
-   ],
-   "notes": "Time = ONE Friday Fights broadcast (8:30 PM ICT). ONE.com lists this as a doubleheader starting 6:30 PM ICT with The Inner Circle 39 (live.onefc.com only); ONE's Friday Fights 174/175 guides put the Friday Fights broadcast 2 h after the opener — verify in fight week. Tapology lists broadcast: YouTube — not confirmed per country. Broadcasters from ONE's current rights deals (beIN SPORTS North America, ESPN Australia, Sky Sports UK & Ireland, Star/JioStar India), as confirmed on ONE's Friday Fights 175 watch guide; Germany (watch.onefc.com) and Brazil (ONE YouTube/Facebook/watch.onefc.com) as on ONE's Friday Fights 176 watch guide; the card-specific guide comes out in fight week.",
-   "card": {
-    "status": "announced",
-    "updated": "2026-11-17",
-    "sources": [
-     "https://www.tapology.com/fightcenter/events/147738-one-friday-fights-179"
-    ],
-    "bouts": [
-     {
-      "segment": "Main card",
-      "weightClass": "Flyweight",
-      "rounds": 3,
-      "discipline": "Muay Thai",
-      "a": "tap-363753-chartpayak-saksatun",
-      "aName": "Chartpayak Saksatun",
-      "b": "tap-514809-klarob-nuicafeboran",
-      "bName": "Klarob Nuicafeboran",
-      "odds": {
-       "a": -163,
-       "b": 120,
-       "books": 1
-      }
-     },
-     {
-      "segment": "Main card",
-      "weightClass": "Bantamweight",
-      "rounds": 3,
-      "discipline": "Muay Thai",
-      "a": "tap-288957-wuttikrai-wor-jakrawut",
-      "aName": "Wuttikrai VK KhaoYai",
-      "b": "tap-463266-superjeng-wankhongohm-mbk",
-      "bName": "Superjeng Wankhongohm MBK",
-      "odds": {
-       "a": -200,
-       "b": 150,
-       "books": 1
-      }
-     },
-     {
-      "segment": "Main card",
-      "weightClass": "Flyweight",
-      "rounds": 3,
-      "discipline": "Muay Thai",
-      "a": "tap-381946-sunvo-tded99",
-      "aName": "Sunvo TDed99",
-      "b": "tap-416002-rahim-tcherkheiko",
-      "bName": "Rahim Tcherkhaiko",
-      "odds": {
-       "a": -125,
-       "b": -105,
-       "books": 1
-      }
-     },
-     {
-      "segment": "Main card",
-      "weightClass": "Bantamweight",
-      "rounds": 3,
-      "discipline": "Muay Thai",
-      "a": "tap-373385-natty-dodds",
-      "aName": "Natty Dodds",
-      "b": "tap-543172-chalamkaw-team-mehdi-zatout",
-      "bName": "Chalamkaw Team Mehdi Zatout",
-      "odds": {
-       "a": -138,
-       "b": 105,
-       "books": 1
-      }
-     },
-     {
-      "segment": "Main card",
-      "weightClass": "Bantamweight",
-      "rounds": 3,
-      "discipline": "MMA",
-      "a": "tap-385840-mirmehti-miriyev",
-      "aName": "Mirmehti Miriyev",
-      "b": "tap-400033-waldi-britez",
-      "bName": "Waldi Britez",
-      "odds": {
-       "a": 130,
-       "b": -175,
-       "books": 1
-      }
-     },
-     {
-      "segment": "Main card",
-      "weightClass": "Flyweight",
-      "rounds": 3,
-      "discipline": "Muay Thai",
-      "a": "tap-596057-chalamdam",
-      "aName": "Chalamdam",
-      "b": "tap-596058-chaiheng-patcharagym",
-      "bName": "Chaiheng",
-      "odds": {
-       "a": -125,
-       "b": -105,
-       "books": 1
-      }
-     },
-     {
-      "segment": "Main card",
-      "weightClass": "Lightweight",
-      "rounds": 3,
-      "discipline": "MMA",
-      "a": "tap-360013-min-sung-kang",
-      "aName": "Min Sung Kang",
-      "b": "tap-400173-hero-marco-manguray",
-      "bName": "Hero Marco Manguray",
-      "odds": {
-       "a": -110,
-       "b": -120,
-       "books": 1
-      }
-     },
-     {
-      "segment": "Main card",
-      "weightClass": "Atomweight",
-      "rounds": 3,
-      "discipline": "Muay Thai",
-      "a": "tap-596056-kwankhao-pitaknongrua",
-      "aName": "Kwankhao Pitaknongrua",
-      "b": "tap-318757-kana-oshikawa",
-      "bName": "Kana Oshikawa",
-      "odds": {
-       "a": 120,
-       "b": -163,
-       "books": 1
-      }
-     },
-     {
-      "segment": "Main card",
-      "weightClass": "Strawweight",
-      "rounds": 3,
-      "discipline": "Muay Thai",
-      "a": "tap-495184-sheng-yi-yang",
-      "aName": "Yiyang Sheng",
-      "b": "tap-406041-fuga-tokoro",
-      "bName": "Fuga Tokoro",
-      "odds": {
-       "a": 105,
-       "b": -138,
-       "books": 1
-      }
-     },
-     {
-      "segment": "Prelims",
-      "weightClass": "Flyweight",
-      "title": "ONE Bantamweight Championship",
-      "rounds": 5,
-      "discipline": "Muay Thai",
-      "a": "tap-445014-asadula-imangazaliev",
-      "aName": "Asadula Imangazaliev",
-      "b": "tap-395097-aslamjon-ortikov",
-      "bName": "Aslamjon Ortikov",
-      "odds": {
-       "a": -225,
-       "b": 163,
-       "books": 1
-      }
-     },
-     {
-      "segment": "Prelims",
-      "weightClass": "Flyweight",
-      "rounds": 3,
-      "discipline": "Muay Thai",
-      "a": "tap-374363-black-panther",
-      "aName": "Black Panther",
-      "b": "tap-471350-ubaid-hussain",
-      "bName": "Ubaid Hussain",
-      "odds": {
-       "a": 105,
-       "b": -138,
-       "books": 1
-      }
-     },
-     {
-      "segment": "Prelims",
-      "weightClass": "Strawweight",
-      "rounds": 3,
-      "discipline": "Muay Thai",
-      "a": "tap-288948-attachai-rongrienkelalampang",
-      "aName": "Attachai Kelasport",
-      "b": "tap-416677-petchnamkhong-mongkolpetch",
-      "bName": "Petnamkhong Sor Maneekhot",
-      "odds": {
-       "a": -175,
-       "b": 130,
-       "books": 1
-      }
-     },
-     {
-      "segment": "Prelims",
-      "weightClass": "Featherweight",
-      "rounds": 3,
-      "discipline": "Muay Thai",
-      "a": "tap-394467-alessio-malatesta",
-      "aName": "Alessio Malatesta",
-      "b": "tap-324653-uzair-ismoiljonov",
-      "bName": "Uzair Ismoiljonov",
-      "odds": {
-       "a": -175,
-       "b": 130,
-       "books": 1
-      }
-     },
-     {
-      "segment": "Prelims",
-      "weightClass": "Atomweight",
-      "rounds": 3,
-      "discipline": "Muay Thai",
-      "a": "tap-313061-rak-erawan",
-      "aName": "Rak Erawan",
-      "b": "tap-525748-salai-htan-khee-shein",
-      "bName": "Salai Htan Khee Shein",
-      "odds": {
-       "a": -188,
-       "b": 140,
-       "books": 1
-      }
-     }
-    ],
-    "note": "Partially announced card (14 bouts confirmed on Tapology); remaining bouts TBA."
-   },
-   "id": "one-friday-fights-179",
-   "times": [
-    {
-     "label": "ONE Friday Fights",
-     "startUTC": "2026-11-20T13:30:00Z"
-    },
-    {
-     "label": "The Inner Circle pre-show (live.onefc.com)",
-     "startUTC": "2026-11-20T11:30:00Z"
-    }
-   ],
-   "odds": {
-    "source": "BestFightOdds",
-    "url": "https://www.bestfightodds.com/events/one-friday-fights-179-4467",
-    "asOf": "2026-11-19 14:10 UTC",
-    "method": "consensus = median implied probability across the sportsbooks BestFightOdds listed for each fighter"
-   }
-  },
-  {
-   "name": "BKFC Fight Night Myrtle Beach: Richardson vs. Oxendine",
-   "promotion": "BKFC",
-   "date": "2026-11-20",
-   "startUTC": "2026-11-21T02:00:00Z",
-   "venue": "Myrtle Beach Sports Center, Myrtle Beach, South Carolina",
-   "broadcasters": {
-    "US": "BKFC App (BKFC+)",
-    "UK": "BKFC App (BKFC+)",
-    "CA": "BKFC App (BKFC+)",
-    "AU": "BKFC App (BKFC+)",
-    "IE": "BKFC App (BKFC+)",
-    "IN": "BKFC App (BKFC+)",
-    "DE": "BKFC App (BKFC+)",
-    "BR": "BKFC App (BKFC+)"
-   },
-   "sources": [
-    "https://www.tapology.com/fightcenter/events/148546-bkfc-fight-night-myrtle-beach",
-    "https://en.wikipedia.org/wiki/2026_in_Bare_Knuckle_Fighting_Championship",
-    "https://www.bkfc.com/news/bkfc-95-results",
-    "https://www.bkfc.com/events/bkfc-fight-night-myrtle-beach"
-   ],
-   "notes": "Main card 9:00 PM ET per BKFC.com event page (Tapology lists 8:00 PM ET). Official (BKFC 95 results release): LIVE worldwide on The BKFC App. Wikipedia gives both Nov 20 and Nov 21, 2026; Tapology lists Nov 20 (8 PM ET).",
-   "card": {
-    "status": "announced",
-    "updated": "2026-11-16",
-    "sources": [
-     "https://www.tapology.com/fightcenter/events/148546-bkfc-fight-night-myrtle-beach",
-     "https://www.bkfc.com/events/bkfc-fight-night-myrtle-beach"
-    ],
-    "bouts": [
-     {
-      "segment": "Main card",
-      "discipline": "Bare-knuckle",
-      "a": "tap-11323-keith-richardson-the-rockstar",
-      "aName": "Keith Richardson",
-      "b": "tap-110362-joshua-oxendine",
-      "bName": "Joshua Oxendine",
-      "weightClass": "Bantamweight"
-     },
-     {
-      "segment": "Main card",
-      "weightClass": "Cruiserweight",
-      "rounds": 5,
-      "discipline": "Bare-knuckle",
-      "a": "tap-Derek-Brunson",
-      "aName": "Derek Brunson",
-      "b": "tap-86368-theo-doukas",
-      "bName": "Theo Doukas"
-     },
-     {
-      "segment": "Main card",
-      "discipline": "Bare-knuckle",
-      "a": "tap-60412-ryan-jett",
-      "aName": "Ryan Jett",
-      "b": "tap-350847-rodney-hinton",
-      "bName": "Rodney Hinton",
-      "weightClass": "Welterweight"
-     },
-     {
-      "segment": "Main card",
-      "discipline": "Bare-knuckle",
-      "a": "tap-565932-evan-pierce",
-      "aName": "Evan Pierce",
-      "b": "tap-236994-diego-romo-psicopata",
-      "bName": "Diego Romo",
-      "weightClass": "Middleweight"
-     },
-     {
-      "segment": "Main card",
-      "discipline": "Bare-knuckle",
-      "a": "tap-152369-windson-ramos",
-      "aName": "Windson Ramos",
-      "b": "tap-383829-robert-fitchner",
-      "bName": "Robert Fichtner",
-      "weightClass": "Bantamweight"
-     },
-     {
-      "segment": "Main card",
-      "discipline": "Bare-knuckle",
-      "a": "tap-30794-brandon-bushaw",
-      "aName": "Brandon Bushaw",
-      "b": "tap-565934-joshua-claudio",
-      "bName": "Joshua Claudio",
-      "weightClass": "Featherweight"
-     },
-     {
-      "segment": "Main card",
-      "discipline": "Bare-knuckle",
-      "a": "tap-149561-austin-coleman",
-      "aName": "Austin Coleman",
-      "b": "tap-224195-alex-eliam",
-      "bName": "Alex Eliam",
-      "weightClass": "Bantamweight"
-     },
-     {
-      "segment": "Main card",
-      "discipline": "Bare-knuckle",
-      "a": "tap-319864-maurice-morris",
-      "aName": "Maurice Morris",
-      "b": "tap-271732-lewis-glover",
-      "bName": "Lewis Glover",
-      "weightClass": "Cruiserweight"
-     },
-     {
-      "segment": "Main card",
-      "discipline": "Bare-knuckle",
-      "a": "tap-20266-amos-collins",
-      "aName": "Amos Collins",
-      "b": "tap-53444-ashton-caniglia",
-      "bName": "Ashton Caniglia"
-     },
-     {
-      "segment": "Main card",
-      "discipline": "Bare-knuckle",
-      "a": "tap-277325-justin-howell",
-      "aName": "Justin Howell",
-      "b": "tap-37230-brian-maxwell",
-      "bName": "Brian Maxwell"
-     }
-    ],
-    "note": "Records shown are professional MMA records (Tapology); bare-knuckle records are not included. Partially announced card (8 bouts confirmed on Tapology); remaining bouts TBA."
-   },
-   "id": "bkfc-fight-night-myrtle-beach-richardson-vs-oxendine",
-   "times": [
-    {
-     "label": "Main card",
-     "startUTC": "2026-11-21T02:00:00Z"
-    }
-   ]
-  },
-  {
-   "name": "LFA 247: Breno vs Torres",
-   "promotion": "LFA",
-   "date": "2026-11-20",
-   "startUTC": "2026-11-21T02:00:00Z",
-   "venue": "Arizona Financial Theatre, Phoenix, Arizona, United States",
-   "broadcasters": {
-    "US": "VICE TV",
-    "UK": "LFA Fight Network (YouTube)",
-    "CA": "LFA Fight Network (YouTube)",
-    "AU": "LFA Fight Network (YouTube)",
-    "IE": "LFA Fight Network (YouTube)",
-    "IN": "LFA Fight Network (YouTube)",
-    "DE": "LFA Fight Network (YouTube)",
-    "BR": "ESPN"
-   },
-   "sources": [
-    "https://www.tapology.com/fightcenter/events/148242-lfa-247",
-    "https://www.lfa.com/event/lfa-247-breno-vs-torres/"
-   ],
-   "notes": "Start time per Tapology (9:00 PM ET main card, matches LFA.com). Official: VICE TV in the US (Spanish simulcast ESPN Deportes), ESPN across Latin America incl. Brazil, main card worldwide on LFA Fight Network on YouTube.",
-   "card": {
-    "status": "announced",
-    "updated": "2026-11-17",
-    "sources": [
-     "https://www.tapology.com/fightcenter/events/148242-lfa-247"
-    ],
-    "bouts": [
-     {
-      "segment": "Main card",
-      "weightClass": "Bantamweight",
-      "rounds": 3,
-      "discipline": "MMA",
-      "a": "tap-129371-marcos-breno",
-      "aName": "Marcos Breno",
-      "b": "tap-109525-eduardo-matias-torres",
-      "bName": "Eduardo Torres",
-      "odds": {
-       "a": -324,
-       "b": 222,
-       "books": 2
-      }
-     },
-     {
-      "segment": "Main card",
-      "weightClass": "Flyweight",
-      "rounds": 3,
-      "discipline": "MMA",
-      "a": "tap-252854-chance-ikei",
-      "aName": "Chance Ikei",
-      "b": "tap-454185-agapito-orozco",
-      "bName": "Agapito Orozco",
-      "odds": {
-       "a": -515,
-       "b": 336,
-       "books": 2
-      }
-     },
-     {
-      "segment": "Main card",
-      "weightClass": "Middleweight",
-      "rounds": 3,
-      "discipline": "MMA",
-      "a": "tap-525334-delton-kaufmann",
-      "aName": "Delton Kaufmann",
-      "b": "tap-132590-abasi-young",
-      "bName": "Abasi Young",
-      "odds": {
-       "a": -1527,
-       "b": 688,
-       "books": 2
-      }
-     },
-     {
-      "segment": "Main card",
-      "weightClass": "Lightweight",
-      "rounds": 3,
-      "discipline": "MMA",
-      "a": "tap-332948-benjamin-orozco",
-      "aName": "Benny Orozco",
-      "b": "tap-329282-canon-swanson",
-      "bName": "Canon Swanson",
-      "odds": {
-       "a": -113,
-       "b": -118,
-       "books": 2
-      }
-     },
-     {
-      "segment": "Main card",
-      "weightClass": "Featherweight",
-      "rounds": 3,
-      "discipline": "MMA",
-      "a": "tap-148038-lucas-ganin",
-      "aName": "Lucas Ganin",
-      "b": "tap-247102-abbas-abasov",
-      "bName": "Abbas Abasov",
-      "odds": {
-       "a": 355,
-       "b": -554,
-       "books": 2
-      }
-     },
-     {
-      "segment": "Main card",
-      "weightClass": "Flyweight",
-      "rounds": 3,
-      "discipline": "MMA",
-      "a": "tap-191665-aiden-ingram",
-      "aName": "Aiden Ingram",
-      "b": "tap-329125-ricardo-hussein",
-      "bName": "Ricardo Hussein",
-      "odds": {
-       "a": -162,
-       "b": 119,
-       "books": 2
-      }
-     },
-     {
-      "segment": "Main card",
-      "weightClass": "Lightweight",
-      "rounds": 3,
-      "discipline": "MMA",
-      "a": "tap-277363-dylan-smerillo",
-      "aName": "Dylan Smerillo",
-      "b": "tap-310325-ray-haye",
-      "bName": "Ray Hayes",
-      "odds": {
-       "a": 176,
-       "b": -248,
-       "books": 2
-      }
-     },
-     {
-      "segment": "Prelims",
-      "weightClass": "Featherweight",
-      "rounds": 3,
-      "discipline": "MMA",
-      "a": "tap-342336-paul-marghitas",
-      "aName": "Paul Marghitas",
-      "b": "tap-148393-sergio-momone-jr",
-      "bName": "Sergio Mamone Jr",
-      "odds": {
-       "a": -250,
-       "b": 175,
-       "books": 1
-      }
-     },
-     {
-      "segment": "Prelims",
-      "weightClass": "Women's Flyweight",
-      "rounds": 3,
-      "discipline": "MMA",
-      "a": "tap-351395-zoe-nowicki",
-      "aName": "Zoe Nowicki",
-      "b": "tap-273141-mia-grawe",
-      "bName": "Mia Grawe",
-      "odds": {
-       "a": -275,
-       "b": 200,
-       "books": 1
-      }
-     },
-     {
-      "segment": "Prelims",
-      "weightClass": "Featherweight",
-      "rounds": 3,
-      "discipline": "MMA",
-      "a": "tap-256542-erickson-quinzo",
-      "aName": "Erickson Quinzo",
-      "b": "tap-193193-adam-amado",
-      "bName": "Adam Amado",
-      "odds": {
-       "a": 163,
-       "b": -225,
-       "books": 1
-      }
-     },
-     {
-      "segment": "Prelims",
-      "weightClass": "Catchweight (132 lb)",
-      "rounds": 3,
-      "discipline": "MMA",
-      "a": "tap-82597-nolan-linebaugh",
-      "aName": "Nolan Linebaugh",
-      "b": "tap-187761-joseph-rivas",
-      "bName": "Joseph Rivas"
-     },
-     {
-      "segment": "Prelims",
-      "weightClass": "Welterweight",
-      "rounds": 3,
-      "discipline": "MMA",
-      "a": "tap-462166-sean-polk",
-      "aName": "Sean Polk",
-      "b": "tap-324998-luke-la-vanway",
-      "bName": "Luke La Vanway"
-     },
-     {
-      "segment": "Prelims",
-      "weightClass": "Light Heavyweight",
-      "rounds": 3,
-      "discipline": "MMA",
-      "a": "tap-335495-talal-yousufzai",
-      "aName": "Talal Yousufzai",
-      "b": "tap-217853-joshua-mcreynolds",
-      "bName": "Joshua McReynolds"
-     }
-    ],
-    "note": "Partially announced card (13 bouts confirmed on Tapology); remaining bouts TBA."
-   },
-   "id": "lfa-247-breno-vs-torres",
-   "times": [
-    {
-     "label": "Main card (VICE TV)",
-     "startUTC": "2026-11-21T02:00:00Z"
-    }
-   ],
-   "odds": {
-    "source": "BestFightOdds",
-    "url": "https://www.bestfightodds.com/events/lfa-247-4468",
-    "asOf": "2026-11-21 14:20 UTC",
-    "method": "consensus = median implied probability across the sportsbooks BestFightOdds listed for each fighter"
-   }
-  },
-  {
-   "name": "OKTAGON 98: Legierski vs. Buchinger",
-   "promotion": "OKTAGON",
-   "date": "2026-11-21",
-   "startUTC": "2026-11-21T17:00:00Z",
-   "venue": "Werk Arena, Třinec, Czechia",
-   "broadcasters": {
-    "US": "OKTAGON.TV (PPV)",
-    "UK": "OKTAGON.TV (PPV)",
-    "CA": "OKTAGON.TV (PPV)",
-    "AU": "OKTAGON.TV (PPV)",
-    "IE": "OKTAGON.TV (PPV)",
-    "IN": "OKTAGON.TV (PPV)",
-    "DE": "RTL+",
-    "BR": "OKTAGON.TV (PPV)"
-   },
-   "sources": [
-    "https://www.tapology.com/fightcenter/events/146790-oktagon-98",
-    "https://en.wikipedia.org/wiki/2026_in_Oktagon_MMA",
-    "https://blogs.rdxsports.com/oktagon-mma-strikes-multi-year-deal-with-rtl-in-germany/",
-    "https://plus.rtl.de/rtlplus-root/oktagon-mma-main-root-service-f_19",
-    "https://oktagonmma.com/en/events/oktagon-98-trinec/",
-    "https://oktagonmma.com/en/my-first-ppv/"
-   ],
-   "notes": "Start 17:00 local per the official event page. Official: PPV live stream on OKTAGON.TV worldwide (not geo-blocked), except Germany/Austria/Switzerland (RTL+, exclusive DACH deal) and Poland (TVP Sport).",
-   "id": "oktagon-98-legierski-vs-buchinger",
-   "card": {
-    "status": "announced",
-    "updated": "2026-11-13",
-    "sources": [
-     "https://www.tapology.com/fightcenter/events/146790-oktagon-98",
-     "https://en.wikipedia.org/wiki/2026_in_Oktagon_MMA"
-    ],
-    "bouts": [
-     {
-      "segment": "Main card",
-      "weightClass": "Lightweight",
-      "title": "Oktagon Lightweight Championship",
-      "rounds": 5,
-      "discipline": "MMA",
-      "a": "tap-67799-mateusz-legierski",
-      "aName": "Mateusz Legierski",
-      "b": "tap-4084-ivan-buchinger-buki",
-      "bName": "Ivan Buchinger",
-      "odds": {
-       "a": -524,
-       "b": 334,
-       "books": 2
-      }
-     },
-     {
-      "segment": "Main card",
-      "weightClass": "Featherweight",
-      "rounds": 3,
-      "discipline": "MMA",
-      "a": "tap-159059-jakub-batfalsky",
-      "aName": "Jakub Batfalsky",
-      "b": "tap-130846-ayton-de-paepe",
-      "bName": "Ayton De Paepe",
-      "odds": {
-       "a": -178,
-       "b": 131,
-       "books": 2
-      }
-     },
-     {
-      "segment": "Main card",
-      "weightClass": "Women's Flyweight",
-      "rounds": 3,
-      "discipline": "MMA",
-      "a": "tap-293817-verinika-smolkova",
-      "aName": "Veronika Smolková",
-      "b": "tap-201648-ivana-siric",
-      "bName": "Ivana Petrović",
-      "odds": {
-       "a": -423,
-       "b": 277,
-       "books": 2
-      }
-     },
-     {
-      "segment": "Main card",
-      "weightClass": "Catchweight (163 lb)",
-      "rounds": 3,
-      "discipline": "MMA",
-      "a": "tap-266708-tomasz-mudroch",
-      "aName": "Tomáš Mudroch",
-      "b": "tap-16853-jason-ponet",
-      "bName": "Jason Ponet",
-      "odds": {
-       "a": -296,
-       "b": 201,
-       "books": 2
-      }
-     },
-     {
-      "segment": "Main card",
-      "weightClass": "152 lb",
-      "rounds": 3,
-      "discipline": "Muay Thai",
-      "a": "tap-486272-dominik-tabot",
-      "aName": "Dominik Tabor",
-      "b": "tap-212961-deniz-ilbay",
-      "bName": "Deniz Ilbay",
-      "odds": {
-       "a": -163,
-       "b": 117,
-       "books": 2
-      }
-     },
-     {
-      "segment": "Main card",
-      "weightClass": "Middleweight",
-      "rounds": 3,
-      "discipline": "MMA",
-      "a": "tap-185791-david-hosek",
-      "aName": "David Hošek",
-      "b": "tap-154667-mateusz-janur",
-      "bName": "Mateusz Janur",
-      "odds": {
-       "a": 229,
-       "b": -332,
-       "books": 2
-      }
-     },
-     {
-      "segment": "Prelims",
-      "weightClass": "185 lb",
-      "rounds": 3,
-      "discipline": "Boxing",
-      "a": "tap-286867-martin-prazdny",
-      "aName": "Martin Prázdný",
-      "b": "tap-253524-jindrich-byrtus",
-      "bName": "Jindřich Byrtus",
-      "odds": {
-       "a": 147,
-       "b": -205,
-       "books": 2
-      }
-     },
-     {
-      "segment": "Prelims",
-      "weightClass": "Middleweight",
-      "rounds": 3,
-      "discipline": "MMA",
-      "a": "tap-86314-ondej-raka",
-      "aName": "Ondřej Raška",
-      "b": "tap-66395-dominic-schober",
-      "bName": "Dominic Schober"
-     },
-     {
-      "segment": "Prelims",
-      "weightClass": "Lightweight",
-      "rounds": 3,
-      "discipline": "MMA",
-      "a": "tap-88531-dawid-mieowski",
-      "aName": "Dawid Śmiełowski",
-      "b": "tap-33031-arbi-mezdihov",
-      "bName": "Arbi Mezhidov"
-     },
-     {
-      "segment": "Prelims",
-      "weightClass": "Lightweight",
-      "rounds": 3,
-      "discipline": "MMA",
-      "a": "tap-312691-patrik-sebek",
-      "aName": "Patrik Šebek",
-      "b": "tap-183537-adrian-hamerski",
-      "bName": "Adrian Hamerski",
-      "odds": {
-       "a": -172,
-       "b": 131,
-       "books": 2
-      }
-     },
-     {
-      "segment": "Prelims",
-      "weightClass": "Featherweight",
-      "rounds": 3,
-      "discipline": "MMA",
-      "a": "tap-79762-james-hendin",
-      "aName": "James Hendin",
-      "b": "tap-199487-sayed-murtaza-sadat",
-      "bName": "Sayed Murtaza Sadat",
-      "odds": {
-       "a": -1055,
-       "b": 546,
-       "books": 2
-      }
-     },
-     {
-      "segment": "Prelims",
-      "weightClass": "Women's Flyweight",
-      "rounds": 3,
-      "discipline": "MMA",
-      "a": "tap-345140-michaela-chlavacikova",
-      "aName": "Michaela Hlaváčiková",
-      "b": "tap-317869-marta-sos",
-      "bName": "Marta Sós",
-      "odds": {
-       "a": 107,
-       "b": -142,
-       "books": 2
-      }
-     }
-    ],
-    "note": "Non-MMA bouts are tagged; records shown are pro MMA records."
-   },
-   "times": [
-    {
-     "label": "Event start (official; no separate main-card time published)",
-     "startUTC": "2026-11-21T17:00:00Z"
-    }
-   ],
-   "odds": {
-    "source": "BestFightOdds",
-    "url": "https://www.bestfightodds.com/events/oktagon-4465",
-    "asOf": "2026-11-21 14:20 UTC",
-    "method": "consensus = median implied probability across the sportsbooks BestFightOdds listed for each fighter"
-   }
-  },
-  {
-   "name": "XTB KSW 123: Mircea vs. Held",
-   "promotion": "KSW",
-   "date": "2026-11-21",
-   "startUTC": "2026-11-21T18:00:00Z",
-   "venue": "Enea Arena (formerly Netto Arena), Szczecin, Poland",
-   "broadcasters": {
-    "US": "KSW TV (PPV)",
-    "UK": "KSW TV (PPV)",
-    "CA": "KSW TV (PPV)",
-    "AU": "KSW TV (PPV)",
-    "IE": "KSW TV (PPV)",
-    "IN": "KSW TV (PPV)",
-    "DE": "KSW TV (PPV)",
-    "BR": "KSW TV (PPV)"
-   },
-   "sources": [
-    "https://www.kswmma.com/en/event/xtb-ksw-123",
-    "https://www.kswmma.com/en/news/xtb-ksw-122-where-to-watch",
-    "https://www.ufcalendar.com/how-to-watch/ksw-ksw-123-2026-11-21",
-    "https://www.kswmma.com/gala/xtb-ksw-123"
-   ],
-   "notes": "Official site: 19:00 local (CET) start. Welterweight title main event; Mircea vs. Held lightweight title co-main. Broadcasters follow KSW's official pattern (KSW 122: CANAL+ in Poland, KSWTV.COM in all other countries); no KSW 123-specific watch notice yet, so verify closer to the event.",
-   "featured": true,
-   "id": "xtb-ksw-123-bartosinski-vs-lopaczyk",
-   "card": {
-    "status": "announced",
-    "updated": "2026-11-17",
-    "sources": [
-     "https://www.tapology.com/fightcenter/events/147781-ksw-123",
-     "https://en.wikipedia.org/wiki/2026_in_Konfrontacja_Sztuk_Walki",
-     "https://www.kswmma.com/gala/xtb-ksw-123"
-    ],
-    "bouts": [
-     {
-      "segment": "Main card",
-      "weightClass": "Lightweight",
-      "title": "vacant KSW Lightweight Championship",
-      "rounds": 5,
-      "discipline": "MMA",
-      "a": "tap-105476-valeriu-mircea",
-      "aName": "Valeriu Mircea",
-      "b": "tap-marcin-held",
-      "bName": "Marcin Held",
-      "odds": {
-       "a": -202,
-       "b": 147,
-       "books": 2
-      }
-     },
-     {
-      "segment": "Main card",
-      "weightClass": "Welterweight",
-      "rounds": 3,
-      "discipline": "MMA",
-      "a": "tap-44823-marian-ziolkowski",
-      "aName": "Marian Ziółkowski",
-      "b": "tap-32157-roman-szymanski",
-      "bName": "Roman Szymański",
-      "odds": {
-       "a": -106,
-       "b": -128,
-       "books": 2
-      }
-     },
-     {
-      "segment": "Main card",
-      "weightClass": "Welterweight",
-      "rounds": 3,
-      "discipline": "MMA",
-      "a": "tap-70007-madars-fleminas",
-      "aName": "Madars Fleminas",
-      "b": "tap-173859-mateusz-pawlik",
-      "bName": "Mateusz Pawlik",
-      "odds": {
-       "a": -289,
-       "b": 202,
-       "books": 2
-      }
-     },
-     {
-      "segment": "Main card",
-      "weightClass": "Bantamweight",
-      "rounds": 3,
-      "discipline": "MMA",
-      "a": "tap-206916-kamil-szkaradek",
-      "aName": "Kamil Szkaradek",
-      "b": "tap-53276-rogrio-bontorin",
-      "bName": "Rogério Bontorin",
-      "odds": {
-       "a": -148,
-       "b": 109,
-       "books": 2
-      }
-     },
-     {
-      "segment": "Main card",
-      "weightClass": "Lightweight",
-      "rounds": 3,
-      "discipline": "MMA",
-      "a": "tap-113185-wojciech-kawa",
-      "aName": "Wojciech Kawa",
-      "b": "tap-222905-sasha-moisa",
-      "bName": "Oleksandr Moisa",
-      "odds": {
-       "a": 166,
-       "b": -232,
-       "books": 2
-      }
-     },
-     {
-      "segment": "Main card",
-      "weightClass": "Catchweight (176 lb)",
-      "rounds": 3,
-      "discipline": "MMA",
-      "a": "tap-162050-oskar-szczepaniak",
-      "aName": "Oskar Szczepaniak",
-      "b": "tap-234969-arbi-dzhambulatov",
-      "bName": "Arbi Dzhambulatov",
-      "odds": {
-       "a": -415,
-       "b": 276,
-       "books": 2
-      }
-     },
-     {
-      "segment": "Main card",
-      "weightClass": "Featherweight",
-      "rounds": 3,
-      "discipline": "MMA",
-      "a": "tap-79146-przemysaw-grny",
-      "aName": "Przemysław Górny",
-      "b": "tap-241564-dominik-dyminski",
-      "bName": "Dominik Dymiński",
-      "odds": {
-       "a": 110,
-       "b": -150,
-       "books": 1
-      }
-     },
-     {
-      "segment": "Prelims",
-      "weightClass": "Lightweight",
-      "rounds": 3,
-      "discipline": "MMA",
-      "a": "tap-103029-maciej-kazieczko",
-      "aName": "Maciej Kazieczko",
-      "b": "tap-153263-nazar-dolishnyak",
-      "bName": "Bohdan Danylko",
-      "odds": {
-       "a": -101,
-       "b": -133,
-       "books": 2
-      }
-     },
-     {
-      "segment": "Prelims",
-      "weightClass": "Middleweight",
-      "rounds": 3,
-      "discipline": "MMA",
-      "a": "tap-143522-alain-vandermercht",
-      "aName": "Alain Van De Merckt",
-      "b": "tap-96991-szymon-herrmann",
-      "bName": "Szymon Herrmann",
-      "odds": {
-       "a": -230,
-       "b": 163,
-       "books": 2
-      }
-     }
-    ]
-   },
-   "times": [
-    {
-     "label": "Event start (official; no separate main-card time published)",
-     "startUTC": "2026-11-21T18:00:00Z"
-    }
-   ],
-   "odds": {
-    "source": "BestFightOdds",
-    "url": "https://www.bestfightodds.com/events/ksw-123-4423",
-    "asOf": "2026-11-21 14:20 UTC",
-    "method": "consensus = median implied probability across the sportsbooks BestFightOdds listed for each fighter"
-   }
-  },
-  {
-   "name": "UFC Fight Night: Procházka vs. Stirling",
-   "promotion": "UFC",
-   "date": "2026-11-21",
-   "startUTC": "2026-11-21T18:00:00Z",
-   "venue": "Ali Bin Hamad al-Attiyah Arena, Al Rayyan (Doha), Qatar",
-   "broadcasters": {
-    "US": "Paramount+",
-    "UK": "TNT Sports / HBO Max",
-    "IE": "TNT Sports",
-    "CA": "Sportsnet+ / City TV / TVA Sports",
-    "AU": "Paramount+",
-    "IN": "Sony TEN 2",
-    "DE": "DAZN",
-    "BR": "Paramount+"
-   },
-   "sources": [
-    "https://www.ufc.com/event/ufc-fight-night-november-21-2026",
-    "https://www.tapology.com/fightcenter/events/148467-ufc-fight-night",
-    "https://en.wikipedia.org/wiki/List_of_UFC_events"
-   ],
-   "notes": "Broadcasters follow UFC's 2026 territory pattern (UFC.com how-to-watch); verify per event. Time = main card (UFC.com: prelims 15:00 UTC, main card 18:00 UTC). Times from the UFC.com event page: headline = main card, earlier sessions listed separately.",
-   "id": "ufc-fight-night-prochazka-vs-stirling",
-   "card": {
-    "status": "announced",
-    "updated": "2026-11-07",
-    "sources": [
-     "https://www.ufc.com/event/ufc-fight-night-november-21-2026",
-     "https://www.tapology.com/fightcenter/events/148467-ufc-fight-night",
-     "https://en.wikipedia.org/wiki/UFC_Fight_Night:_Proch%C3%A1zka_vs._Stirling"
-    ],
-    "bouts": [
-     {
-      "segment": "Main card",
-      "weightClass": "Light Heavyweight",
-      "rounds": 5,
-      "discipline": "MMA",
-      "a": "tap-34779-jiri-prochazka",
-      "aName": "Jiří Procházka",
-      "b": "tap-259609-navajo-sterling",
-      "bName": "Navajo Stirling",
-      "odds": {
-       "a": 150,
-       "b": -178,
-       "books": 7
-      }
-     },
-     {
-      "segment": "Main card",
-      "weightClass": "Featherweight",
-      "rounds": 3,
-      "discipline": "MMA",
-      "a": "tap-aljamain-sterling",
-      "aName": "Aljamain Sterling",
-      "b": "tap-227542-kevin-vallejos",
-      "bName": "Kevin Vallejos",
-      "odds": {
-       "a": 107,
-       "b": -126,
-       "books": 7
-      }
-     },
-     {
-      "segment": "Main card",
-      "weightClass": "Lightweight",
-      "rounds": 3,
-      "discipline": "MMA",
-      "a": "tap-18854-daniel-hooker",
-      "aName": "Dan Hooker",
-      "b": "tap-40994-brian-ortega",
-      "bName": "Brian Ortega",
-      "odds": {
-       "a": -200,
-       "b": 170,
-       "books": 7
-      }
-     },
-     {
-      "segment": "Main card",
-      "weightClass": "Flyweight",
-      "rounds": 3,
-      "discipline": "MMA",
-      "a": "tap-19983-kyoji-horiguchi",
-      "aName": "Kyoji Horiguchi",
-      "b": "tap-127726-khamzat-sakalov",
-      "bName": "Asu Almabayev",
-      "odds": {
-       "a": -200,
-       "b": 165,
-       "books": 7
-      }
-     },
-     {
-      "segment": "Main card",
-      "weightClass": "Middleweight",
-      "rounds": 3,
-      "discipline": "MMA",
-      "a": "tap-108253-ikram-aliskerov",
-      "aName": "Ikram Aliskerov",
-      "b": "tap-63163-jared-cannonier",
-      "bName": "Jared Cannonier",
-      "odds": {
-       "a": -300,
-       "b": 240,
-       "books": 7
-      }
-     },
-     {
-      "segment": "Prelims",
-      "weightClass": "Bantamweight",
-      "rounds": 3,
-      "discipline": "MMA",
-      "a": "tap-346450-santiago-luna",
-      "aName": "Santiago Luna",
-      "b": "tap-100890-alex-topuria",
-      "bName": "Aleksandre Topuria",
-      "odds": {
-       "a": 235,
-       "b": -300,
-       "books": 7
-      }
-     },
-     {
-      "segment": "Prelims",
-      "weightClass": "Heavyweight",
-      "rounds": 3,
-      "discipline": "MMA",
-      "a": "tap-201352-shamil-gaziev",
-      "aName": "Shamil Gaziev",
-      "b": "tap-313650-xicao-teixeira",
-      "bName": "Tallison Teixeira",
-      "odds": {
-       "a": -191,
-       "b": 163,
-       "books": 7
-      }
-     },
-     {
-      "segment": "Prelims",
-      "weightClass": "Flyweight",
-      "rounds": 3,
-      "discipline": "MMA",
-      "a": "tap-84737-amir-albazi",
-      "aName": "Amir Albazi",
-      "b": "tap-125815-alessandro-costa",
-      "bName": "Alessandro Costa",
-      "odds": {
-       "a": -110,
-       "b": -107,
-       "books": 7
-      }
-     },
-     {
-      "segment": "Prelims",
-      "weightClass": "Welterweight",
-      "rounds": 3,
-      "discipline": "MMA",
-      "a": "tap-45260-jake-matthews",
-      "aName": "Jake Matthews",
-      "b": "tap-163438-tahir-abdullaev-tank",
-      "bName": "Tahir Abdullayev",
-      "odds": {
-       "a": -250,
-       "b": 207,
-       "books": 7
-      }
-     },
-     {
-      "segment": "Prelims",
-      "weightClass": "Lightweight",
-      "rounds": 3,
-      "discipline": "MMA",
-      "a": "tap-36808-nikolas-palhares",
-      "aName": "Nikolas Motta",
-      "b": "tap-196890-dom-mar-fan",
-      "bName": "Dom Mar Fan",
-      "odds": {
-       "a": 143,
-       "b": -175,
-       "books": 7
-      }
-     },
-     {
-      "segment": "Prelims",
-      "weightClass": "Light Heavyweight",
-      "rounds": 3,
-      "discipline": "MMA",
-      "a": "tap-181154-diyar-nurkozhay",
-      "aName": "Diyar Nurgozhay",
-      "b": "tap-237265-alik-lorenz",
-      "bName": "Alik Lorenz",
-      "odds": {
-       "a": -265,
-       "b": 210,
-       "books": 7
-      }
-     }
-    ]
-   },
-   "times": [
-    {
-     "label": "Main card",
-     "startUTC": "2026-11-21T18:00:00Z"
-    },
-    {
-     "label": "Prelims",
-     "startUTC": "2026-11-21T15:00:00Z"
-    }
-   ],
-   "odds": {
-    "source": "BestFightOdds",
-    "url": "https://www.bestfightodds.com/events/ufc-doha-4440",
-    "asOf": "2026-11-21 14:20 UTC",
-    "method": "consensus = median implied probability across the sportsbooks BestFightOdds listed for each fighter"
-   }
-  },
-  {
    "name": "Cage Warriors 214: Unplugged",
    "promotion": "Cage Warriors",
    "date": "2026-11-27",
@@ -1958,9 +712,9 @@
       "b": "tap-218307-sharaputdin-magomedov-golden-boy",
       "bName": "Shara Magomedov",
       "odds": {
-       "a": -158,
-       "b": 128,
-       "books": 5
+       "a": -167,
+       "b": 130,
+       "books": 6
       }
      },
      {
@@ -1973,9 +727,9 @@
       "b": "tap-81129-yaroslav-amosov",
       "bName": "Yaroslav Amosov",
       "odds": {
-       "a": -192,
-       "b": 155,
-       "books": 5
+       "a": -193,
+       "b": 151,
+       "books": 6
       }
      },
      {
@@ -1986,7 +740,12 @@
       "a": "tap-198568-levan-chokheli",
       "aName": "Levan Chokheli",
       "b": "tap-143542-islam-dultakov",
-      "bName": "Islam Dulatov"
+      "bName": "Islam Dulatov",
+      "odds": {
+       "a": 186,
+       "b": -245,
+       "books": 3
+      }
      },
      {
       "segment": "Main card",
@@ -1996,7 +755,12 @@
       "a": "tap-34843-ion-cutelaba",
       "aName": "Ion Cutelaba",
       "b": "tap-219695-magomed-tuchalov",
-      "bName": "Magomed Tuchalov"
+      "bName": "Magomed Tuchalov",
+      "odds": {
+       "a": 136,
+       "b": -214,
+       "books": 2
+      }
      },
      {
       "segment": "Main card",
@@ -2006,7 +770,12 @@
       "a": "tap-194524-mairon-santos",
       "aName": "Mairon Santos",
       "b": "tap-275039-akbar-abdullaev",
-      "bName": "Akbar Abdullaev"
+      "bName": "Akbar Abdullaev",
+      "odds": {
+       "a": 240,
+       "b": -300,
+       "books": 3
+      }
      },
      {
       "segment": "Main card",
@@ -2016,7 +785,12 @@
       "a": "tap-90068-sergey-spivak",
       "aName": "Serghei Spivac",
       "b": "tap-181550-mario-pinto",
-      "bName": "Mario Pinto"
+      "bName": "Mario Pinto",
+      "odds": {
+       "a": 260,
+       "b": -350,
+       "books": 3
+      }
      },
      {
       "segment": "Prelims",
@@ -2026,7 +800,12 @@
       "a": "tap-46690-jafel-cavalcante-filho",
       "aName": "Jafel Filho",
       "b": "tap-55253-bruno-gustavo-aparecido-da-silva-bulldog",
-      "bName": "Bruno Silva"
+      "bName": "Bruno Silva",
+      "odds": {
+       "a": -150,
+       "b": 122,
+       "books": 3
+      }
      },
      {
       "segment": "Prelims",
@@ -2036,7 +815,12 @@
       "a": "tap-239830-matthieu-letho",
       "aName": "Matthieu Duclos",
       "b": "tap-321755-modestino-rodrigues-the-slenderman",
-      "bName": "Modestino Rodrigues"
+      "bName": "Modestino Rodrigues",
+      "odds": {
+       "a": -150,
+       "b": 120,
+       "books": 3
+      }
      },
      {
       "segment": "Prelims",
@@ -2046,7 +830,12 @@
       "a": "tap-119949-abdul-hussein",
       "aName": "Abdul Hussein",
       "b": "tap-128530-hecher-sosa",
-      "bName": "Hecher Sosa"
+      "bName": "Hecher Sosa",
+      "odds": {
+       "a": -170,
+       "b": 138,
+       "books": 3
+      }
      },
      {
       "segment": "Prelims",
@@ -2056,7 +845,12 @@
       "a": "tap-253924-uran-satybaldiev",
       "aName": "Uran Satybaldiev",
       "b": "tap-192710-ivan-gnizditskiy",
-      "bName": "Ivan Gnizditskiy"
+      "bName": "Ivan Gnizditskiy",
+      "odds": {
+       "a": 115,
+       "b": -132,
+       "books": 2
+      }
      },
      {
       "segment": "Prelims",
@@ -2066,7 +860,12 @@
       "a": "tap-64589-yoon-yong-park",
       "aName": "Jun Yong Park",
       "b": "tap-165750-marco-tulio-silva",
-      "bName": "Marco Tulio"
+      "bName": "Marco Tulio",
+      "odds": {
+       "a": 146,
+       "b": -188,
+       "books": 3
+      }
      },
      {
       "segment": "Prelims",
@@ -2076,7 +875,12 @@
       "a": "tap-382346-mehemmedeli-osmanali",
       "aName": "Mahammadali Osmanli",
       "b": "tap-288273-pavel-andrusca",
-      "bName": "Pavel Andrusca"
+      "bName": "Pavel Andrusca",
+      "odds": {
+       "a": 114,
+       "b": -138,
+       "books": 3
+      }
      }
     ],
     "note": "Partially announced card (12 bouts confirmed on Tapology); remaining bouts TBA."
@@ -2095,7 +899,7 @@
    "odds": {
     "source": "BestFightOdds",
     "url": "https://www.bestfightodds.com/events/ufc-saudi-arabia-4453",
-    "asOf": "2026-11-21 14:20 UTC",
+    "asOf": "2026-11-23 14:10 UTC",
     "method": "consensus = median implied probability across the sportsbooks BestFightOdds listed for each fighter"
    }
   },
@@ -2955,7 +1759,7 @@
    "odds": {
     "source": "BestFightOdds",
     "url": "https://www.bestfightodds.com/events/ufc-335-4394",
-    "asOf": "2026-11-21 14:20 UTC",
+    "asOf": "2026-11-23 14:10 UTC",
     "method": "consensus = median implied probability across the sportsbooks BestFightOdds listed for each fighter"
    },
    "times": [

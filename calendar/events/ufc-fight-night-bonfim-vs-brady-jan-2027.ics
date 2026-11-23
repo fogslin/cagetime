@@ -10,14 +10,14 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:ufc-fight-night-bonfim-vs-brady-jan-2027@getcagetime.com
-DTSTAMP:20261116T000000Z
-LAST-MODIFIED:20261116T000000Z
-DTSTART:20270123T220000Z
-DTEND:20270124T010000Z
+DTSTAMP:20261123T000000Z
+LAST-MODIFIED:20261123T000000Z
+DTSTART:20270124T010000Z
+DTEND:20270124T040000Z
 SUMMARY:UFC Fight Night: Bonfim vs. Brady
 LOCATION:UFC Apex\, Las Vegas\, Nevada\, United States
-DESCRIPTION:TIMES\nPrelims: Sat Jan 23 3:00 PM EST (20:00 UTC)\nMain card: 
- Sat Jan 23 5:00 PM EST (22:00 UTC)\n\nWHERE TO WATCH\nUnited States: Param
+DESCRIPTION:TIMES\nPrelims: Sat Jan 23 5:00 PM EST (22:00 UTC)\nMain card: 
+ Sat Jan 23 8:00 PM EST (01:00 UTC)\n\nWHERE TO WATCH\nUnited States: Param
  ount+\nUnited Kingdom: TNT Sports / HBO Max\nCanada: Sportsnet+ / City TV 
  / TVA Sports\nAustralia: Paramount+\nIreland: TNT Sports\nIndia: Sony TEN 
  2\nGermany: DAZN\nBrazil: Paramount+\n\nFIGHT CARD\n— Main card —\nGab

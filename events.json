@@ -712,8 +712,8 @@
       "b": "tap-218307-sharaputdin-magomedov-golden-boy",
       "bName": "Shara Magomedov",
       "odds": {
-       "a": -168,
-       "b": 134,
+       "a": -166,
+       "b": 135,
        "books": 6
       }
      },
@@ -727,8 +727,8 @@
       "b": "tap-81129-yaroslav-amosov",
       "bName": "Yaroslav Amosov",
       "odds": {
-       "a": -191,
-       "b": 152,
+       "a": -182,
+       "b": 147,
        "books": 6
       }
      },
@@ -742,8 +742,8 @@
       "b": "tap-143542-islam-dultakov",
       "bName": "Islam Dulatov",
       "odds": {
-       "a": 156,
-       "b": -198,
+       "a": 145,
+       "b": -177,
        "books": 6
       }
      },
@@ -757,8 +757,8 @@
       "b": "tap-219695-magomed-tuchalov",
       "bName": "Magomed Tuchalov",
       "odds": {
-       "a": 155,
-       "b": -188,
+       "a": 146,
+       "b": -175,
        "books": 5
       }
      },
@@ -773,7 +773,7 @@
       "bName": "Akbar Abdullaev",
       "odds": {
        "a": 230,
-       "b": -305,
+       "b": -307,
        "books": 6
       }
      },
@@ -787,7 +787,7 @@
       "b": "tap-181550-mario-pinto",
       "bName": "Mario Pinto",
       "odds": {
-       "a": 255,
+       "a": 257,
        "b": -347,
        "books": 6
       }
@@ -802,8 +802,8 @@
       "b": "tap-55253-bruno-gustavo-aparecido-da-silva-bulldog",
       "bName": "Bruno Silva",
       "odds": {
-       "a": -150,
-       "b": 120,
+       "a": -143,
+       "b": 114,
        "books": 6
       }
      },
@@ -817,8 +817,8 @@
       "b": "tap-321755-modestino-rodrigues-the-slenderman",
       "bName": "Modestino Rodrigues",
       "odds": {
-       "a": -150,
-       "b": 120,
+       "a": -149,
+       "b": 118,
        "books": 6
       }
      },
@@ -832,8 +832,8 @@
       "b": "tap-128530-hecher-sosa",
       "bName": "Hecher Sosa",
       "odds": {
-       "a": -160,
-       "b": 125,
+       "a": -177,
+       "b": 143,
        "books": 6
       }
      },
@@ -847,8 +847,8 @@
       "b": "tap-192710-ivan-gnizditskiy",
       "bName": "Ivan Gnizditskiy",
       "odds": {
-       "a": -117,
-       "b": -107,
+       "a": -127,
+       "b": 102,
        "books": 5
       }
      },
@@ -862,8 +862,8 @@
       "b": "tap-165750-marco-tulio-silva",
       "bName": "Marco Tulio",
       "odds": {
-       "a": 148,
-       "b": -186,
+       "a": 141,
+       "b": -179,
        "books": 6
       }
      },
@@ -877,8 +877,8 @@
       "b": "tap-288273-pavel-andrusca",
       "bName": "Pavel Andrusca",
       "odds": {
-       "a": 106,
-       "b": -125,
+       "a": 104,
+       "b": -124,
        "books": 6
       }
      }
@@ -899,7 +899,7 @@
    "odds": {
     "source": "BestFightOdds",
     "url": "https://www.bestfightodds.com/events/ufc-saudi-arabia-4453",
-    "asOf": "2026-11-25 14:15 UTC",
+    "asOf": "2026-11-27 14:20 UTC",
     "method": "consensus = median implied probability across the sportsbooks BestFightOdds listed for each fighter"
    }
   },
@@ -1759,7 +1759,7 @@
    "odds": {
     "source": "BestFightOdds",
     "url": "https://www.bestfightodds.com/events/ufc-335-4394",
-    "asOf": "2026-11-25 14:15 UTC",
+    "asOf": "2026-11-27 14:20 UTC",
     "method": "consensus = median implied probability across the sportsbooks BestFightOdds listed for each fighter"
    },
    "times": [
